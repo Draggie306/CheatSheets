@@ -1,12 +1,17 @@
-﻿[< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
+﻿
+
+[< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 # A Level Geography
 **⚠ This is a work in progress, unfinished document, unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-Last update: 04/01/202
+Last update: 26/01/2023 21:02
+✅ Note: This file is synced with [my GitHub repository](https://github.com/Draggie306/CheatSheets). That means that whenever changes are made, you'll see them almost immediately.
 
 Use a PC to see the Table of Contents on the left-hand side to quickly navigate this document.
 
+![enter image description here](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSkB4PciwxT7PTR6WXTvpbsMjwfB28N_dQLygfQkISyrMh7I0uzvy2oGOFzTKfAxc5N1Q8dUCQjueoAyXPQ2BCuySeTXJSbwdxdYYELkGKqSLITnjgImx1zqbLWul1kAAoN8LL3LJGhBMudoC7oEcaEm6RFHzoamwUDDr6mu6L5_KWQTcpfzaTVjEGAA/w5250-h2950/OCR-Geo-ALevel-CheatSheet.png)
+*Top notch graphic design by me*
 
 # 1.1 Option B – Glaciated Landscapes
 
@@ -81,7 +86,7 @@ Ice cap - a dome-shaped mass of glacial ice usually situated on a highland area 
 Valley glaciers usually occur in high altitude locations, with high relief, and have fast rates of flow at 20–200m/year and have distinct areas of ablation and accumulation, descending from mountains.
 Ice sheets however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of a high/low latitude and have slow rates of movement and only around 5m/year. The base of the glacier is frozen to the bedrock and have a little precipitation but also lower temperatures so ablation levels are lower too.
 
-fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under study pressure, ice will deform and behave like plastic, (**zone of Plastic Flow** on the lower half of the glacier) making the size and base slower.  The **rigid zone** is on the top half of the glacier.
+Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under study pressure, ice will deform and behave like plastic, (**zone of Plastic Flow** on the lower half of the glacier) making the size and base slower.  The **rigid zone** is on the top half of the glacier.
 
 Cold-based glaciers:
 - have a slow rate of movement (<5m/year);
@@ -120,7 +125,7 @@ It can be known whether sediment was deposited by water or ice as ice-transporte
 **Regional climate**
 The wind is a moving force and is able to carry out processes such as transportation, position and erosion. And in the air, these are known as Carolien processes, and contributes to shaping glaciated landscapes.
 The wind is a moving force and is able to carry out processes such as transportation, position and erosion. And in the air, these are known as Carolien processes, and contributes to shaping glaciated landscapes.
-When does more effective when acting upon fine materials, previously deposited by ice or meltwater.Temperature within the climate is another factor, as temperatures above 0° C will melt, accumulated snow and ice, resulting in outputs. In higher altitudes, minicrises experience, prolonged periods of above freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing glacier, thickening, and expensive ice sheets. Precipitation to is another climate factor, with its totals and patterns, both regionally and seasonally, in determining mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
+When does more effective when acting upon fine materials, previously deposited by ice or meltwater. Temperature within the climate is another factor, as temperatures above 0° C will melt, accumulated snow and ice, resulting in outputs. In higher altitudes, minicrises experience, prolonged periods of above freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing glacier, thickening, and expensive ice sheets. Precipitation to is another climate factor, with its totals and patterns, both regionally and seasonally, in determining mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
 
 **Geology**
 lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking, crystals. Clay, on the other hand, is weak, and does not have the strong bonds on the molecular level. The solubility of rocks, like chalk can also be affected by acid is, making them prone to chemical weathering, through carbonation.
@@ -342,22 +347,91 @@ Permafrost itself is comprised of:
 - talik (year-round sections of unfrozen ground, soil, rocks that lies in permafrost areas, but itself is not frozen)
 
 There are 3 types of permafrost:
-- Continuous permafrost - there is little thawing, even in the summer. The 
+- Continuous permafrost: there is little thawing, even in the summer. These are often in areas of high altitude and latitude.
+- Discontinuous permafrost:
+- Sporadic permafrost:
 
 ### Sorted Stone Polygons (slone circles)
 
 Elongated stone polygons form 
+
 ### Stone stripes
 
 
+### Blockfields
+Blockfields are believed to be formed as a result of chemical and mechanical weathering below the active layer in periglacial regions such as plateaus or mountain tops, as these are typically glacial fringe regions rather than ice covered areas. 
+Over time, these processes produce an uneven, angular % bouldery landscape which is only revealed after permafrost itself melts away, forming 'in situ' (or by rock glaciers - which are glaciers containing a large amount of frost-shattered rocks.). They potentially formed 23 million years ago during the Neogene epoch, when the climate was relatively warmer than it is now and the higher amounts of chemical weathering, which then initiated the (very slow) process of eroding formed bedrock.
+Resistant rock, or **tor**, may be more prominent in these blockfields as they are not as susceptible to denudation (erosional processes).
+> On slopes above a gradient of 25^o^, block streams/stripes are formed as gravitational forces will move this material down a slope.
+
+
+### Types of mass movement
+#### Solifluction lobes
+When the ground and soil on slopes is frozen during the winter, the soil particles are separated slightly and loosened by the ice which forms and expands by around 9% between these particles. 
+During the thawing of the active layer in the spring and summer months, water saturates the ground as it cannot drain easily (due to the impermeable frozen permafrost below, so it stays in the upper layer) or evaporate. Fristion is reduced between these particles, which are already loose due to the ice, as this water lubricates them. As a result of this excessive lubrication, the soil moves downslope easily. (The extra mass from the water can also help with this.)
+
+> Gelifluction is a type of solifluction but is to exclusive periglacial areas.
+
+![enter image description here](https://epicgeography.files.wordpress.com/2016/06/solifluktion_girlande.jpg)
+
+#### Soil/Frost Creep or Mass Wasting
+This is a process which moves material down a slope by a few centimetres per year even on high gradients.
+On freezing, the particles in the slope's soil are raised at a 90^o^ angle to the slope (vertically), and when the soil thaws and the particles are dropped, the particles are now at a slightly lower point to their original location. This is then repeated over time  
 
 
 ### Pingos
+![enter image description here](https://cdn.britannica.com/13/181613-050-4F432555/Diagram-formation-open-system-pingos.jpg)
+#### Open system (hydraulic)
+These are also known as East Greenland type pingos.
+
+
+
+#### Closed system (hydrostatic)
+These are also known as MacKensie type pingos.
 In an open-system pingo, pingos are dome-shaped, ice cored hills. Groundwater moves through the permafrost and towards an ice core, making it expand. This can be described as **hydrostatic pressure**. Sediment and rocks aid the water in travelling and also get frozen within this ice core, and as this core expands the ground above gets pushed further upwards to create a hill.
 
+![enter image description here](https://cdn.discordapp.com/attachments/785620979300302869/1064982817529933834/image.png)
+*Sussy pingo, what type is this?*
 
 ### Ice-wedge polygons
 
-Soil cracks when cooled quickly. In summer the crack fills with meltwater, and as it refreezes many freeze-thaw events take place, expanding the ice by 9% each time. This eventually results in the formation of an ice wedge
+Soil cracks when cooled quickly. In summer the crack fills with meltwater, and as it refreezes many freeze-thaw events take place, expanding the ice by 9% each time. This eventually results in the formation of an ice wedge.
+
+## Human activities in Periglacial Landscapes
+**Key Ideas**
+4.a. Human activity causes change within periglacial landscape systems.
+4.b. Human activity causes change within glaciated landscape systems.
 
 
+### Case study: Alaska - Periglacial Landscapes
+Part of Alaska is located within the arctic circle, at 66.5^o^N.
+However, since 1968, vast amounts of oil reserves have been found offshore and within Alaska itself, including inside the ANWR (Arctic National Wildlife Refuge) and, more specifically, the 1002 Area within it. An estimated 12 billion barrels of oil is located in this area alone, with half of it (~6bn) being available to extract using currently available techniques.
+
+For the United States, this would provide a key resource for energy security, while at the same time reducing dependence on foreign, potentially malicious, entities, which may limit their supply, such as Russia. This weakness has been seen in Europe, with Russia's invasion of Ukraine, so now more than ever the US sees this as essential. 
+It imported 37% of its total oil consumption in 2016 (7,259,000 barrels per day).
+
+#### Urban heat island effect
+Barrow, Alaska is the northernmost settlement in the USA and the largest native community in the Arctic, with a population of 4600 in 2000, increasing from just 300 in 1900. Recent decades have seen an increase in mean annual and winter air temperature, with an earlier snowmelt in the village and a weaker snowmelt trend in the surrounding tundra. A strong urban heat island (UHI) was found during winter, with the urban area averaging 2.2 °C warmer than the hinterland. There was a strong positive relation between monthly UHI magnitude and natural gas production/use, ultimately resulting in a **9% reduction in accumulated freezing degree days in the urban area**. This suggests urbanization has contributed to early snowmelt in the village.
+
+
+The urban heat island (UHI) effect is a phenomenon where urban areas are significantly warmer than their rural surroundings due to activities by humans, like air conditioning, hot water pipes and road building. 
+
+This excess heat is mostly generated from the burning of fossil fuels, the absorption of solar radiation by urban surfaces, and the reduced evaporative cooling from vegetation. As a result of this input imbalance, permafrost can thaw, leading to changes in the landscape and the release of trapped carbon dioxide and methane, which can further contribute to climate change in these areas. 
+
+This thawing can furthermore lead to infrastructure damage, as roads and buildings can be damaged by the shifting of the ground.
+
+
+### Case study: 
+
+# 2.2.2 Global Systems – Migration
+
+Page 30 in [the OCR A Level Geography H481 Specification](https://www.ocr.org.uk/images/223012-specification-accredited-a-level-gce-geography-h481.pdf) or search for: 'Global Systems: Option B – Global Migration'
+
+A migrant is 
+Interdependence - interrelationships between ACs, EDCs ans LIDCs through trade, foreign aid and migration
+
+Globalisation - the growing integration and interdependence between peoples’ lives economically, politically and environmentally.
+
+Condensed:
+
+Overall, Mancroft is a built-up area with a high population density, suggesting that it contains a large amount of flats and buildings in close proximity. The population is diverse, with 11.07% of the ward being retired, 866 students, 5,353 economically active people aged between 16 and 74, and 2,466 people economically inactive. The majority of homes have 3 or 4 rooms, with an average of 2.51 people per household, suggesting that the area is mainly occupied by single people or very small families. This data implies that Mancroft is a middle-class area with many workers living in smaller houses, and families would then go on to move away from this area in the city centre.

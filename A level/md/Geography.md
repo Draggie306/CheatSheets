@@ -5,13 +5,19 @@
 **⚠ This is a work in progress, unfinished document, unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-Last update: 26/01/2023 21:02
-✅ Note: This file is synced with [my GitHub repository](https://github.com/Draggie306/CheatSheets). That means that whenever changes are made, you'll see them almost immediately.
+Last update: 02/01/2023 20:49
+✅ Note: This file is synced with [my Git repository](https://github.com/Draggie306/CheatSheets). Whenever changes are made, you'll see them almost immediately.
 
-Use a PC to see the Table of Contents on the left-hand side to quickly navigate this document.
+Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
 ![enter image description here](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSkB4PciwxT7PTR6WXTvpbsMjwfB28N_dQLygfQkISyrMh7I0uzvy2oGOFzTKfAxc5N1Q8dUCQjueoAyXPQ2BCuySeTXJSbwdxdYYELkGKqSLITnjgImx1zqbLWul1kAAoN8LL3LJGhBMudoC7oEcaEm6RFHzoamwUDDr6mu6L5_KWQTcpfzaTVjEGAA/w5250-h2950/OCR-Geo-ALevel-CheatSheet.png)
 *Top notch graphic design by me*
+
+
+Some parts of this document were generated with  _GPT-3_, OpenAI’s large-scale language-generation model. The author reviewed, edited, and revised the language to their own liking and takes ultimate responsibility for the content of this publication.
+
+For more information, see the end. 
+
 
 # 1.1 Option B – Glaciated Landscapes
 
@@ -43,21 +49,23 @@ Glaciers are dynamic. Glaciated landscapes may be seen as a system with many int
 	- deposition
 	- kinetic energy from glacier movement
 
+Glaciers themselves can be seen as systems as they have a TON of different inputs and outputs. 
 
 ### Useful key terms
-Terminus - the end of a glacier
-Snout - the end area of a glacier
-Ablation - melting
-Calving - when chunks of a glacier terminus fall into water
-Advance - when a glacier is moving forwards; gaining mass balance
-Recession - when a glacier is retreating; losing mass balance
-Area of accumulation - the area of a glacier where it is gaining mass
-Area of ablation/wastage - the area of a glacier where it loses mass
-Névé - young granular snow 
-Firn - névé which has survived a full season (year) of ablation and is partially compacted, and has been recrystallised into a substance denser than névé, an intermediate stage to becoming glacial ice. 
-Firn/equilibrium line - the zone on a glacier where accumulation is equal to ablation over a 1-year period
-Sintering - continued fusion and removal of air as a result of compression by the continued accumulation of snow and ice
-Aspect - the direction that a slope faces.
+- Terminus - the end of a glacier
+- Snout - the end area of a glacier
+- Ablation - melting
+- Calving - when chunks of a glacier terminus fall into water
+- Advance - when a glacier is moving forwards; gaining mass balance
+- Recession - when a glacier is retreating; losing mass balance
+- Area of accumulation - the area of a glacier where it is gaining mass
+- Area of ablation/wastage - the area of a glacier where it loses mass
+- Névé - young, granular snow 
+- Firn - névé which has survived a full season (year) of ablation and is partially compacted, and has been recrystallised into a substance denser than névé, an intermediate stage to becoming glacial ice. 
+- Firn/equilibrium line - the zone on a glacier where accumulation is equal to ablation over a 1-year period
+- Sintering - continued fusion and removal of air as a result of compression by the continued accumulation of snow and ice
+- Aspect - the direction that a slope faces.
+- Azimuth - the compass direction of an object
 
 ### The Glacial Budget and Mass Balance
 
@@ -76,6 +84,7 @@ The glacier mass balance is the total **sum** of all the **accumulation** (snow,
 Layers of snow within the ice give evidence for the way that it has formed.
 
 ### Types of glacier and movement
+(Date studied: ~29/09/2022)
 
 An ice sheet is a mass of snow and ice, greater than 50,000km^2^ with considerable thickness.
 A piedmont glacier is one that spreads out as a wide lobe as it enters a wider plain typically from a smaller valley
@@ -85,6 +94,7 @@ Ice cap - a dome-shaped mass of glacial ice usually situated on a highland area 
 
 Valley glaciers usually occur in high altitude locations, with high relief, and have fast rates of flow at 20–200m/year and have distinct areas of ablation and accumulation, descending from mountains.
 Ice sheets however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of a high/low latitude and have slow rates of movement and only around 5m/year. The base of the glacier is frozen to the bedrock and have a little precipitation but also lower temperatures so ablation levels are lower too.
+
 
 Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under study pressure, ice will deform and behave like plastic, (**zone of Plastic Flow** on the lower half of the glacier) making the size and base slower.  The **rigid zone** is on the top half of the glacier.
 
@@ -104,64 +114,78 @@ Warm-based glaciers:
 
 > Cold-based glaciers are unable to move by basal sliding as the basal temperature is below the pressure melting point. Instead, they move through internal deformation, and ice at 0°C deforms 100 times faster than at -20°C.
 
+![enter image description here](https://media.discordapp.net/attachments/1052930066797039698/1070765946588901416/image.png)
 
 ### [tbd] Useful stuff
 
-- Supraglacial material is material which is located on the top of a glacier.
-- Englacial material is material which is located inside a glacier.
-- Subglacial material is material which is located on the base of a glacier.
+- **Supraglacial** material is material which is located on the top of a glacier.
+- **Englacial** material is material which is located inside a glacier.
+- **Subglacial** material is material which is located on the base of a glacier.
+- Material deposited during glaciation is called **drift**.
+- Material deposited directly by ice is called **till**
+- Material deposited by meltwater is called outwash, or **glacio-fluvial material**.
 
-- Material deposited during glaciation is called drift.
-- Material deposited directly by ice is called till
-- Material deposited by meltwater is called outwash, or glacio-fluvial material.
-
-Lodgement till is material deposited by advancing ice, due to pressure being exerted into existing Valley material, and left behind as ice advances, such as drumlins.
+Lodgement till is material deposited by advancing ice, due to pressure being exerted into existing valley material, and left behind as ice advances, such as drumlins.
 Ablation till is material deposited at the terminus by melting ice from stagnant, or retreating glaciers during a warm period or end of glaciation event. Most depositional landforms are this type.
 
-It can be known whether sediment was deposited by water or ice as ice-transported sediment will be angular, not curved, as it has not been subject to original forces by meltwater. The order of size of sediments can indicate this too, as a water, deposit sediment progressively due to reducing energy levels, while glaciers deposit, material, unsorted and en masse. Places deposit till in mounds and ridges to, as in glacier material can drop due to the glaciers height, rather than in layers in water depositional processes
+It can be known whether sediment was deposited by water or ice. Ice-transported sediment is angular, not curved, as it has not been subject to erosional forces by the meltwater. The order of size of sediments can indicate this too, as water deposits sediment progressively due to reducing energy levels, while glaciers deposit material unsorted and 'en masse'. Glaciers furthermore deposit till in mounds and ridges too as, during ablation, this englacial and supraglacial material gets dropped onto the bedrock. This is distinct from the layered deposition (or strata) typically characterised by fluvial processes.
 
-### [tbd] Factors affecting the microclimate 
+### Factors affecting the microclimate 
 
 **Regional climate**
-The wind is a moving force and is able to carry out processes such as transportation, position and erosion. And in the air, these are known as Carolien processes, and contributes to shaping glaciated landscapes.
-The wind is a moving force and is able to carry out processes such as transportation, position and erosion. And in the air, these are known as Carolien processes, and contributes to shaping glaciated landscapes.
-When does more effective when acting upon fine materials, previously deposited by ice or meltwater. Temperature within the climate is another factor, as temperatures above 0° C will melt, accumulated snow and ice, resulting in outputs. In higher altitudes, minicrises experience, prolonged periods of above freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing glacier, thickening, and expensive ice sheets. Precipitation to is another climate factor, with its totals and patterns, both regionally and seasonally, in determining mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
+The wind is a moving force and is able to carry out processes such as transportation, position and erosion. In the air, these are known as aeolian processes, and contribute to shaping glaciated landscapes.
+Wind is more effective when acting upon fine materials, usually those previously deposited by ice or meltwater. Temperature within the climate is another factor, as temperatures above 0°C will melt accumulated snow and ice, resulting in more outputs in the system. At higher altitudes, there are typically more prolonged periods of above freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing for glaciers to thicken and expansive ice sheets to form. Precipitation is another climate factor, with its totals and patterns, both regionally and seasonally, in determining mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
 
 **Geology**
-lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking, crystals. Clay, on the other hand, is weak, and does not have the strong bonds on the molecular level. The solubility of rocks, like chalk can also be affected by acid is, making them prone to chemical weathering, through carbonation.
-Structure relates to the physical rock types, like faulting, bedding and jointing. These all have an impact on how permeable rocks are. Chalk, for example, is very porous, space is separates the particles between it on the molecular level. Some types of limestone, like Carboniferous limestone, has money into the connected joints, giving it secondary permeability. Primary permeability is when spaces brackets (pores) absorb and retain water..
+Lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking crystals. Clay, on the other hand, is weak, and does not have these strong bonds on the molecular level. The solubility of rocks like chalk can also be affected by acidity, making them prone to chemical weathering as seen through carbonation.
+Structure relates to the physical rock types, like faulting, bedding and jointing. These all have an impact on how permeable rocks are. Chalk, for example, is very porous, spaces between the particles within it on the molecular level allow water to percolate through. Some types of limestone, like carboniferous limestone, has many interconnected joints, giving it 'secondary permeability'. 
+> **Primary permeability** is when spaces brackets (pores) absorb and retain water.
 
 **Latitude and Altitude**
-Beyond the Arctic and Antarctic circles, located at 66.5° north and south, the climate is very dry, with a little seasonal variation. Being so dry and extremely cold, they are much different to Valley glaciers, which are more dynamic, as they have higher precipitation levels.
+Beyond the Arctic and Antarctic circles, located at 66.5° north and south, the climate is very dry, with a little seasonal variation. Being so dry and extremely cold, they are much different to valley glaciers, which are more dynamic, as they have higher precipitation levels. The dryness contributes to **periglacial** environments, while also turning the types of glaciers in these areas to more cold-based. This means that they flow much less quickly, and different types of movement occurs. 
+Altitude also has a direct impact on the temperatures and development of valley glaciers. As temperatures typically decrease by 0.7^o^C every 100m of altitude gained, there are more likely to be valley glaciers in areas of high relief, as seen in the Alps and in the Himalayas. These glaciers are still not as cold as cold-based glaciers however.
 
 
 ## How are glacial landscaped developed?
 Glacial landforms are typically classified according to erosional and depositional processes, however they can also developed through a series of interrelated processes.
 
-### Glacial erosional landforms
+## Glacial erosional landforms
 
-### [tbd] Corries
-Currys forming hollows, where is snow, accumulates, typically, on the north, west south east side of the mountain in the northern hemisphere due to its aspect, having less time in the Sun. This then compact into ice and névé turns into firn. This hollow, deepened by nivation, is the free with freeze thaw and material is removed by meltwater. This then moves because of gravity on the ice mass. The ice freezes to the back wall, plucking material (debris). This is washed out through rotational slumping, When the ice melts a tarn, or corrie lake, is created with a rock lip from moraine forming at its front. Scree can on fall down from the step back to sleep as it is now loose material.
+### Corries
+A corrie is an armchair-shaped depression in a mountain.
+
+Also known as a cwm or cirque, corries are formed from small hollows on the slopes of mountains where snow begins to accumulate, typically on the north-west to south-east facing slopes (or with an azimuth ranging from 300-140 degrees) of a mountain in the northern hemisphere. 
+This is due to its **aspect**, or the orientation of which a slope faces, with this specific aspect resulting having less time in the sun, which adds thermal energy to the system and results in ablation. 
+Over time, this virgin snow, or névé, turns into firn after one complete cycle without melting. Over multiple years, the snow at the bottom is compressed into ice, and plucking begins to be the dominant process. This newly-formed hollow, deepened by nivation. The ice freezes to the back wall, plucking material (debris), which is then washed out through a process known as rotational slumping. 
+
+ When the ice melts, a tarn, or corrie lake, is created, with potentially a lip made from moraine or rocks forming at its front. Material may then fall down from the back wall due to its aspect and steep relief, which is known as scree,
+
+![enter image description here](https://www.internetgeography.net/wp-content/uploads/2018/04/Corrie.png)
 
 ### Arêtes
 
 An arête is a knife-shaped sharp ridge formed when two corries’ back walls continually erode back-to-back. Over time, these back walls meet, and a distinct ridge is formed. 
 
+![enter image description here](https://geography-revision.co.uk/wp-content/uploads/2019/05/Landforms-of-Glaciation_2.png)
+
 ### Pyramidal peaks
 
 A pyramidal peak is a high mountain whose surrounding have been eroded from corries. Three or more corries eroding back-to-back (similarly to how arêtes form) results in this sharp peak forming. 
 
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/1200px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg)
+*The Matterhorn in the European Alps. It is a great example of a pyramidal peak.*
+
 ### U-shaped valleys
 
-A V-shaped valley has steep sides and a central river channel, with interlocking spurs being a distinct feature. During glaciation periods, snow begins to accumulate in these sheltered valleys.
+A glacial trough or U-shaped valley is a result of strongly channelled ice, with plucking from a valley’s sides causing them to steepen. 
+
+Firstly, a V-shaped valley has steep sides and a central river channel, with interlocking spurs being a distinct feature. During periods of glaciation, snow begins to accumulate in these valleys as they are often sheltered.
 
 ![](https://cdn.discordapp.com/attachments/1052930066797039698/1052930119351681024/C186FA7B-7B73-41FC-8572-925D09410A4F.png)
 
-Freeze-thaw weathering occurs above the glacier line, causing the valley to steepen, in the same way as a corrie steepens its back wall. The glacier itself also causes plucking, mostly on the sides, as rocks are frozen and ripped as the glacier moves. Abrasion also deepens the valley floor as subglacial material comes into contact with the bedrock. 
+When an ice mass has formed in the valley, freeze-thaw weathering begins occur above the glacier line, causing the valley to steepen, in the same way as a corrie steepens its back wall. The glacier itself also causes plucking, mostly on the sides, as rocks are frozen and ripped as the glacier moves. Abrasion also deepens the valley floor as subglacial material comes into contact with the bedrock. 
 
-### Glacial troughs
-
- A glacial trough is made from strongly channeled ice, plucking from a valley’s sides causing them to steepen.
+Hanging valleys with waterfalls and truncated spurs are a feature of this landform. A ribbon lake/loch as well as a misfit stream may also be present in the base of the newly-formed glacial trough valley.
 
 ### Roche moutonnées
 
@@ -335,7 +359,7 @@ They are formed by large blocks of ice breaking from the main glacier. As the ma
 ## Periglacial landforms
 Periglacial landforms exist as a result of climate change before and/or after glacial periods.
 
-**Periglaciation** is concerned with the process and landforms atributed to the action of **permafrost**.
+**Periglaciation** is concerned with the process and landforms attributed to the action of **permafrost**.
 
 Being in a periglacial area means an area that is near to, or on the fringe of, glacial areas' ice mass. This means that there is no physical glacier system present in the area, but it is still cold, relative to surrounding environments. 
 
@@ -368,7 +392,7 @@ Resistant rock, or **tor**, may be more prominent in these blockfields as they a
 ### Types of mass movement
 #### Solifluction lobes
 When the ground and soil on slopes is frozen during the winter, the soil particles are separated slightly and loosened by the ice which forms and expands by around 9% between these particles. 
-During the thawing of the active layer in the spring and summer months, water saturates the ground as it cannot drain easily (due to the impermeable frozen permafrost below, so it stays in the upper layer) or evaporate. Fristion is reduced between these particles, which are already loose due to the ice, as this water lubricates them. As a result of this excessive lubrication, the soil moves downslope easily. (The extra mass from the water can also help with this.)
+During the thawing of the active layer in the spring and summer months, water saturates the ground as it cannot drain easily (due to the impermeable frozen permafrost below, so it stays in the upper layer) or evaporate. Friction is reduced between these particles, which are already loose due to the ice, as this water lubricates them. As a result of this excessive lubrication, the soil moves downslope easily. (The extra mass from the water can also help with this.)
 
 > Gelifluction is a type of solifluction but is to exclusive periglacial areas.
 
@@ -432,6 +456,33 @@ Interdependence - interrelationships between ACs, EDCs ans LIDCs through trade, 
 
 Globalisation - the growing integration and interdependence between peoples’ lives economically, politically and environmentally.
 
+
+# 2.1 – Changing Spaces; Making Places
+
+## What’s in a place?
+
+**Key idea:**
+
+1.a. Places are multi-faceted, shaped by shifting flows and connections which change over time.
+
+**Content:**
+
+Case studies of two contrasting place profiles at a local scale, including: 
+- their demographic, socio-economic, cultural, political, built and natural characteristics that shape their place identity. 
+- their past and present connections that shape the place identity and embed them in regional, national, international and global scales 
+- how shifting flows of people (such as commuter, migration), resources (such as natural, technology), money and investment (such as EU funding, TNCs) and ideas (such as knowledge economy) have helped shape the demographic, socio-economic and cultural profile of these places over time.
+
+## Case study: Mancroft ward, Norwich.
+
 Condensed:
 
 Overall, Mancroft is a built-up area with a high population density, suggesting that it contains a large amount of flats and buildings in close proximity. The population is diverse, with 11.07% of the ward being retired, 866 students, 5,353 economically active people aged between 16 and 74, and 2,466 people economically inactive. The majority of homes have 3 or 4 rooms, with an average of 2.51 people per household, suggesting that the area is mainly occupied by single people or very small families. This data implies that Mancroft is a middle-class area with many workers living in smaller houses, and families would then go on to move away from this area in the city centre.
+
+
+
+
+### (Disclaimer) AI-assisted writing
+
+The author generated the following parts of the text in part with GPT-3, OpenAI’s large-scale language-generation model. Upon generating draft language, the author reviewed, edited, and revised the language to their own liking and takes ultimate responsibility for the content of this publication.
+
+- 

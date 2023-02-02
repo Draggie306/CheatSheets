@@ -5,7 +5,7 @@
 **⚠ This is a work in progress, unfinished document, unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-Last update: 02/01/2023 20:49
+Last update: 02/01/2023 23:35
 ✅ Note: This file is synced with [my Git repository](https://github.com/Draggie306/CheatSheets). Whenever changes are made, you'll see them almost immediately.
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
@@ -189,10 +189,20 @@ Hanging valleys with waterfalls and truncated spurs are a feature of this landfo
 
 ### Roche moutonnées
 
-A roche moutonnée is a more resistant rock in the path of a glacier. Is abrasion occurs on the upvalley (stoss) side, resulting in striations, grooves, and polishing. As meltwater is forced up over the roche moutonnée, plucking and freeze-thaw weathering occurs on the downvalley (lee) side, as pressure release results in refreezing, while the glacier continues to move, pulling away the rock. 
+A roche moutonnée is a more resistant rock in the path of a glacier. Abrasion occurs on the upvalley (stoss) side, resulting in striations, grooves, and polishing from subglacial debris.. As meltwater is forced up and over the roche moutonnée, plucking and freeze-thaw weathering occurs. On the downvalley (lee) side, **pressure release** results in refreezing, while the glacier continues to move, pulling away the rock. 
 
+Roche moutonnées are generally concentrated in areas of competent bedrock such as granitoids (Glasser, 2002).
 
-### [tbd] Glacial depositional landforms
+![enter image description here](https://gq.mines.gouv.qc.ca/documents/photos/01221/0000019273.jpg)
+*Source: Québec government website https://gq.mines.gouv.qc.ca/lexique-stratigraphique/quaternaire/roche-moutonnee/*
+
+The word is French with roche meaning rock and moutonée meaning sheep.
+
+More specifically, it was introduced by a French geologist called Horace-Bénédict de Saussure (1740-1799). The word is called like so due to its resemblance to the shape of a wig worn by 18th century French aristocrats which shaped their hair like a wave. Sheep fat was used to hold the wig in place, which explains the term _moutonné_ (Benn and Evans, 2010). In Sweden, very large _roches moutonnées_ are called _flyggbergs_, with some being up to 3 km long and 350 m wide (Rudberg, 1954; 1973; Iverson _et al._, 1995; Benn and Evans, 2010). 
+
+(Epically translated by me, you're welcome.) [\[2\]](#roche-mouton%C3%A9es-in-english)
+
+##  Glacial depositional landforms
 
 ![](https://www3.nd.edu/~cneal/planetearth/Lab-Glaciation/12_25.jpg)
 
@@ -204,39 +214,98 @@ Moraines are ridges of soil, rocks and till which has been deposited by a glacia
 Medial moraines - in the centre of a glacial channel
 Lateral moraines - at the side of a glacial channel
 End moraines - marking a halt of glacial retreat
-Terminal moraine - a larger ridge marking the maximum advance of a glacial period (glacial maximum)
+Terminal moraine - a larger ridge marking the maximum advance of a glacial period (glacial maximum).
 Recessional moraine - just the end and terminal moraines
 
 
-### [tbd] Erratics
+### Erratics
 They are randomly placed bits of rock and other debris which can be characterised by being of a different rock type than surrounding rocks, e.g limestone in a valley mainly of basalt.
+
+This can be seen in the Lake District where rocks belonging to the rock group Borrowdale Volcanics were found in an area dominated by limestone.
 
 
 ### Drumlins
 
-Drumlins are streamlined Hill is commonly elongated, parallel to the former direction of ice flow, composed of grey seal debris, and sometimes having a bedrock core formed beneath an actively flowing glacier. they typically occur in larger groups, or ‘swarms’.
+Drumlins are streamlined till, commonly elongated parallel to the former direction of ice flow, composed of glacial debris, and sometimes having a bedrock core which formed beneath an actively flowing glacier. They typically occur in larger groups, or ‘swarms’. This is known as a 'basket of eggs' topography.
+
+### Ribbon lakes
+Ribbon lakes are both depositional and erosional. They are formed by the combined processes of glacial erosion, which deepens and widens the valley floor, and glacial deposition, which leaves sediment along the shores of the lake. The glacial erosion creates the U-shaped valley that eventually becomes the lake, and the glacial deposition creates the lake's shoreline and bottom. These lakes are typically long, thin and deep as a result of compressing flow, as this ice is likely to have come from an area of high incline to a more expansive area. This means that the ice is more likely to move faster and pushed into a thinner area downstream, so is more likely to erode vertically rather than laterally. More detail over at [the ullswater case study](#ullswater).
 
 
 
 ## [tbd] Case study: Lake District
 
+[Dev Note] 02/02/2023: Just need to add examples from the essay as well as some research info.
 
-Put a map here of glacial features in the Lake District, including subglacial lineations, meltwater channels, eskers, drumlins, moraines, glacially streamlined bedrock
+![enter image description here](https://cdn.discordapp.com/attachments/1052930066797039698/1070809416905015306/image.png)
+*Glacial features of the Lake District, including subglacial lineations, meltwater channels, eskers, drumlins, moraines, glacially streamlined bedrock and more.*
+
+
+### Glenridding Valley & Ullswater
+
+Ice from Red Tarn at Helvellyn flowed north-east into Glenridding Valley. As a result, a glacial trough was created in Ullswater, a long, thin, deep ribbon lake as a result of compressing flow with the ice mass moving fast and thinner downstream, so was more likely to erode vertically. This glacier would have continued flowing downstream towards modern-day Penrith, which is in a flat plains area, possibly resulting in the old Ullswater glacier becoming a Piedmont glacier on entering this large valley expanse. Inside modern day Ullswater is a series of roche moutonées such as Norfolk Island and Lingy Holm. The rock is more resistant than other types, resulting in striation lines with the freeze-thaw weathering being visible on the lee side still today.
+
+![enter image description here](https://cdn.discordapp.com/attachments/1052930066797039698/1070822330718236732/image.png)
+
+The Glenridding village has visible depositional till extending into Ullswater, proving that there was once glacial activity in the area.
+
+![enter image description here](https://cdn.discordapp.com/attachments/1052930066797039698/1070822950116278412/image.png)
+*As you can see, there is material extending into Ullswater from the valley leading down from Helvellyn. This shows that there was substantial amounts of debris that was being deposited and moved along this glacial route.*
+
+### Essay snippet: inter-related valley landforms [16 marks]
+A corrie, or cirque, is formed by snow falling and compacting in a hollow over many winters, typically on the northern side of mountains in the northern hemisphere due to the sheltered aspect. Over time, snow accumulates, compacting the snow beneath it into ice due to the air being displaced. The back wall on the mountain, in this example Helvellyn in the Lake District, gets increasingly steep due to persistent freeze-thaw weathering and plucking of material entering the young glacier as englacial material, or landing on the surface as sub-glacial material. At the same time, under its own weight, the ice at the base begins to rotate, known as rotational slipping, deepening the base through abrasion, with this abrasive material being finer sub-glacial debris. At Helvellyn, the bedrock type is known as the Borrowdale Volcanics, having formed 450 million years ago and moved from tectonic forces. Despite this relative strength, several corries have formed and melted during the Pleistocene period. After the most recent glaciation period known as the Loch Lomond Stadial around 12,000 years ago, there exists a corrie containing red tarn on Helvellyn's north-easterly terrain. These corries have eroded back to back, resulting in the formation of a reeds, knife-shaped ridges, namely striding edge and swirl edge. Furthermore, red tarn has a lip, preventing water loss, as a result of rock or moraine deposits. These examples show that landforms in a valley glacier system are significantly interrelated between different erosional landforms as the quarry is responsible for the creation of many other landforms during and after when glaciation has occurred.
 
 
 ## [tbd] Case study: Lake Agassiz
 
-Lake Agassiz was a vast glacial lake located in central north America which was fed by glacial meltwater of the Laurentide glacier at the end of the last glacial period. It was larger than every great lake combined, covering around 300,000 square kilometers, around the same size as the black sea.
+[Dev Note] 02/02/2023: Add lobes.
 
-Its major drainage reorganization events greatly impacted climate, sea level and possibly even early human civilization.
+Lake Agassiz was a vast glacial lake located in central north America which was fed by contributory meltwater from the Laurentide ice sheet, which was up to 2 miles in height in some places. It was larger than every Great Lake combined, covering around 300,000 square kilometres, around the same size as the Black Sea. 
+
+When an outburst flood occurred, around 11,000  years ago, it resulted in large scale erosion of an area 8km wide and 76m deep in Browns Valley, Minnesota. This old river is known as the Glacial River 'Warren'. It helped form the modern Minnesota and Mississippi rivers.
+
+Its major drainage reorganization events greatly had an impact on climate, sea level and possibly even early human civilization.
 
 The erosion and the melting formed the glacial river warren and formed the modern Minnesota and upper Mississippi rivers.
 
-Lake Agassiz was a large glacial lake located in central North America. It was formed by contributory meltwater from the Laurentide ice sheet, which was up to 2 miles in height.
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/d5/River_Warren_Valley.gif)
+*The top right is the bed of Lake Agassiz, and the eroded area is visible too. North Minnesota.*
+
+
+### Wadena lobe
+The Wadena Lobe had depositional impacts on the north-west of the state. Its deposits were red and sandy, derived from **red sandstone & shale rock in the north and the north-east of Canada**.
+It first deposited the **Alexandra** moraine, which resulted in **drumlin swarms** over three counties including the **Wadena county** itself as well as Otter Tail and Todd counties.
+At its glacial maximum, it reached just south of Minneapolis. It also deposited the Itasca moraine series.
+
+### Rainy and Superior lobes
+The rainy lobe moved in after the Wadena lobe in the same general area, but only covered half the area. However, the Superior lobe was much larger and moved in from the north-east. It partly covered the modern-day Lake Superior, on the east side of the state.
+Their last glacial advance deposited coarse till which contained various types of basalt, gabbro, granite, red sandstone, slate and even greenstone. The red sandstone made the overall deposits seem reddish and dusty-looking.
+Deposits can be found across the north-east half of Minnesota, stretching as far south as Minneapolis.
+Like Wadena, it too deposited drumlins.
+
+### Des Moines lobe
+Moved in from the north west, covering vast expanses of the west of the county from the most northerly point to the most southerly point. It deposited till that is **tan** to **buff** **coloured** and is **clay rich and calcareous** due to its shale and limestone source in the north east. 
+In the south west, **Prairie Coteau** is an example of a terminal moraine.
+ Many of its deposits are over 160 metres deep.
+
+### Erosional impacts of the ice
+
+The highest mountains in Minnesota are worn down so they're now just 500 to 700 meters high. A large ellipsoidal basin was created and contains thousands of lakes like Upper and Lower Red Lake in North Minnesota. In the Arrowhead Northeast region this was deep due to earlier tectonic tilting of the landscape which exposed weak shale rock. Lakes here lie in deeply eroded shales.
+
+### Deglaciation
+Glacial Lake Agassiz was formed by glaciers which blocked the natural drainage of the area and as a result a lake developed to the south of the ice. The river that drained Lake Agassiz was known as Glacier River Warren. This left behind fertile silt deposits in what is now the Red River Valley. 
+The water is then thought to have overflowed at Brown's Valley and cut the present Minnesota River Valley, described as a **glof**, a glacial lake outburst flood. This discharge was staggering and also helped form the adjacent Mississippi River.
+
+### Post-glacial modification
+The present landscape of Minnesota resulted largely from glacial activity in the Quaternary Period, or the most recent 2 million years. The Laurentide Ice Sheet grew and retreated several times over this period. Isostatic readjustment occurs when glaciers ablate due to the land not being under pressure anymore. This land then typically rebounds upwards and elevations increase in the area where glaciers once lay. Fluvial activities continued to mould the landscape after full glacial retreat had occurred.
+
 
 ## Glacio-fluvial landforms
+(Date studied: 23/11/2022)
 
-
+**Glacio-fluvial** means **an environment shaped by glacial meltwater.**
+Geomorphic means changes (**morph**) to the land (**geo)**.
 
 ### Eskers  
 
@@ -258,16 +327,13 @@ The path taken by this pressurised meltwater is mostly controlled by the slope, 
 
 ![](https://www.antarcticglaciers.org/wp-content/uploads/2020/08/image-3.png)
 
-
-Here is an example of an esker on Google Maps: https://www.google.com/maps/@64.0543235,-16.3193597,405m/data=!3m1!1e3?hl=en
-A meltwater stream is visible south of it, as well as another esker to the east.
-
-Eskers on paleo-ice-sheet beds are more abundant in areas of crystalline bedrock with thin coverings of surficial sediment than in areas of thick deformable sediment, because meltwater flowing at the bed is more likely to incise upwards into the ice to form an R-channel where the bed is hard; where the bed is deformable, meltwater is more likely to incise downwards
-
+Eskers on paleo-ice-sheet beds are more abundant in areas of crystalline bedrock with thin coverings of surficial sediment than in areas of thick deformable sediment, because meltwater flowing at the bed is more likely to incise upwards into the ice to form an R-channel where the bed is hard; where the bed is deformable, meltwater is more likely to incise downwards.
 
 **Examples**
-Many eskers are found in central Ireland, some are in Canada, as well as many in Iceland and Sweden
+Many eskers are found in central Ireland, some are in Canada, as well as many in Iceland and Sweden.
 
+Here is an example of an esker on Google Maps: [https://www.google.com/maps/cheatsheet-esker-link](https://www.google.com/maps/@64.0543235,-16.3193597,405m/data=!3m1!1e3?hl=en)
+A meltwater stream is visible south of it, as well as another esker to the east.
 
 **Post glacial climate change in Eskers**
 As global climatic temperatures increase, the rate of glacial ablation increases and results in more meltwater being produced. This means that there is more accumulation of sediment in proglacial areas and the length of these eskers will increase. 
@@ -278,14 +344,18 @@ A kame is an irregularly shaped hill, hummock or mound made of stratified glacia
 
 This till accumulates in a depression in a retreating glacier, and as the surrounding ice melts this build up of material in this hole (or **moulin**) is deposited on the land surface. 
 
-Delta kame terraces are often located on the side of a glacial valley, having been meltwater streams running between the glacier and valley sides. These are stratified (layered) deposits of subglacial meltwater streams glowing between the ice and the valley walls. Distinguished by their 'long, flat benches with many pits on the surface made by kettles', they gradually slope to the lee side (downvalley) and, like eskers, have similar gradients to the ice surface above it.
+Delta kames are often located on the side of a glacial valley, having been meltwater streams running between the glacier and valley sides. These are stratified (layered) deposits of subglacial meltwater streams glowing between the ice and the valley walls. Distinguished by their 'long, flat benches with many pits on the surface made by kettles', they gradually slope to the lee side (downvalley) and, like eskers, have similar gradients to the ice surface above it.
 
 Kame deltas are formed by supraglacial streams transporting sediment loads into glacial lakes. In the process of doing this, sediment is deposited on the top of this ice and into crevasses, filling them with debris. As this ice then melts, the material then collapses onto the bedrock surface.
+
+Delta kames may also form when englacial streams losing energy as they move to the base of the glacier, increasing friction.
 
 ![](https://www.coolgeography.co.uk/A-level/AQA/Year%2012/Cold%20environs/Fluvioglacial/Fluvioglacial%20during.jpg)
 ![](https://www.coolgeography.co.uk/A-level/AQA/Year%2012/Cold%20environs/Fluvioglacial/Fluvioglacial%20post.jpg)
 
 As climate change increases temperature levels, more meltwater is present, which transports and deposits sediment. This will result in a larger amount of all types of kame being more likely to form.
+
+
 
  - - -
 
@@ -308,12 +378,9 @@ The meltwater, over time, accumulates in this area, unable to flow outwards. Thi
 After a glaciation period, the climate typically warms up. Over time, if there is a large ice sheet blocking the water flow, this sheet will ablate, and the lake will either overflow or undermine the dam, causing a glacial lake outburst flood, or jökulhlaup. 
 
 
-Modern example: Russell Fjord, Alaska (regularly blocked by the Hubbard Glacier: https://www.google.com/maps/@59.9434435,-139.3498929,38491m/data=!3m1!1e3?hl=en
+Modern example: The Russell Fjord in Alaska is regularly blocked by the Hubbard Glacier, which can increase water levels in the fjord by up to 15m as it cannot empty out into Disenchantment Bay: [https://www.google.com/maps/@59.9434435,-139.3498929](https://www.google.com/maps/@59.9434435,-139.3498929,38491m/data=!3m1!1e3?hl=en)
 
-Glacial Lake Agassiz was a large glacial lake located in central North America. It was formed by contributory meltwater from the Laurentide ice sheet, which was up to 2 miles in height. When an outburst flood occurred, around 13,500 and 10,650 years ago, it resulted in large scale erosion of an area 8km wide and 76m deep in Browns Valley, Minnesota. This old river is known as the Glacial River Warren. It helped form the Minnesota and Mississippi rivers.
-
-![](https://upload.wikimedia.org/wikipedia/commons/d/d5/River_Warren_Valley.gif)
-*The top right is the bed of Lake Agassiz, and the eroded area is visible too. North Minnesota.*
+... or here's a [better 3D Google Earth link](https://earth.google.com/web/search/59.8883001,-139.4667027/@60.00388892,-139.46027767,4.99019336a,27062.63375624d,35y,-20.07223987h,69.609191t,-0r/data=CigiJgokCYOFrxBR9jRAEYCFrxBR9jTAGaJhOYMgtUlAIaJhOYMgtUnA)
 
 
 ### Outwash plains  
@@ -351,9 +418,6 @@ A kettle is a large depression in the ground formed by glacial deposition, and i
 
 They are formed by large blocks of ice breaking from the main glacier. As the main glacier retreats, this 'dead' ice becomes stranded and, over time, becomes buried by sediment deposits as meltwater flows around it from the main glacier. Of course, this ice melts and its water evaporates, leaving behind a large depression, or kettle holes. Water can then fill these in again, or if not all water drains originally, resulting in kettle lakes.
 ![enter image description here](https://media.discordapp.net/attachments/785620979300302869/1049804000221999144/kettles.png)
-
-###  [tbd] Troughs
-
 
 
 ## Periglacial landforms
@@ -480,9 +544,21 @@ Overall, Mancroft is a built-up area with a high population density, suggesting 
 
 
 
+# Footnotes
 
 ### (Disclaimer) AI-assisted writing
 
 The author generated the following parts of the text in part with GPT-3, OpenAI’s large-scale language-generation model. Upon generating draft language, the author reviewed, edited, and revised the language to their own liking and takes ultimate responsibility for the content of this publication.
 
-- 
+- some of [Ribbon lakes](#ribbon-lakes)
+- some of [ullswater](#glenridding-valley--ullswater)
+
+Additionally, AI was used to generate parts of the following texts.
+
+- AI speech-to-text synthesis was used for [this essay example](#essay-snippet-inter-related-valley-landforms-16-marks). *This was not made by generative text-generation models like GPT3.*
+
+## Extra Info
+
+### Roche moutonées in english
+
+Just kidding, I spent like 10mins reading it in French but here's the English version haha: https://gq.mines.gouv.qc.ca/lexique-stratigraphique/quaternaire/roche-moutonnee_en/

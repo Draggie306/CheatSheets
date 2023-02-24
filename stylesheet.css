@@ -1,14 +1,22 @@
 .dark-mode {
   background-color: #1e1e1e;
   color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark-mode-toggle {
   position: fixed;
-  top: 20px;
+  bottom: 20px;
   right: 20px;
   z-index: 9999;
   content: "🌑";
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+#main-cheat-welcome-text {
+  text-align: center;
+  padding: 30px;
 }
 
 #dark-mode-btn {
@@ -16,17 +24,19 @@
   color: #fff;
   border-radius: 50%;
   border: none;
-  width: 50px;
-  height: 50px;
-  font-size: 18px;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
   cursor: pointer;
   outline: none;
   overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #dark-mode-btn.dark {
   background-color: #fff;
   color: #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #dark-mode-btn:before {
@@ -39,6 +49,45 @@
 
 
 
+
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: 16px;
+  cursor: pointer;  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* or any other height value you prefer */
+}
+
+
+#dropbtn-gcse {
+  background-color: #008CBA; /* Blue */
+  padding: 20px;
+  font-size: 24px;
+  margin: 10px
+}
+
+#dropbtn-alevel {
+  background-color: #f44336; /* Red */
+  padding: 20px;
+  font-size: 24px;
+  margin: 10px
+}
+
+
+
+
+
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
@@ -46,6 +95,7 @@ body {
   background-color: #c3c4c7;
   color: black;
   font-size: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .footer-content {

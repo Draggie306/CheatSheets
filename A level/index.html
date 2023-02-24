@@ -1,105 +1,104 @@
 <!DOCTYPE html>
 <html>
-<head>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
 <!-- If you see this, hi! :) -->
 <!-- Thanks for using my cheat sheets! -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.dropbtn {
-  background-color: #00acff;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
+<head>
+	<title>A level Cheat Sheets | iBaguette.com/cheatsheets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preload" href="https://cheatsheets.ibaguette.com/stylesheet.css" as="style">
+	<link rel="preload" href="https://www.ibaguette.com/static/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
+	<link rel="stylesheet" href="https://cheatsheets.ibaguette.com/stylesheet.css"> <!-- Load index CSS from replit, to prevent Cross-Origin Read Blocking (CORB) from GitHub -->
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 260px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-</style>
 </head>
 <body>
-<a href="/cheatsheets/">< Back to All Cheat Sheets</a>
-<h2>Notice!</h2>
-<p>This is a work in progress page for my A-level cheat sheets, as well as some iBaguette contributors' own.</p>
-<div class="dropdown">
-  <button class="dropbtn">Geography</button>
-  <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/alevel/geography/all">[WORK IN PROGRESS] OCR Geography - All Content</a>
+  <a href="/cheatsheets">< Back to All Cheat Sheets</a>
+
+  <div class="dark-mode-toggle">
+    <button id="dark-mode-btn"></button>
   </div>
-</div>
+
+  <script>
+  // Check for saved user preference and set the class
+  if (localStorage.getItem("dark-mode")) {
+    document.body.classList.add("dark-mode");
+    document.getElementById("dark-mode-btn").classList.add("dark");
+  }
+
+  // Add event listener to toggle button
+  document.getElementById("dark-mode-btn").addEventListener("click", function() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    
+    // Toggle button class
+    this.classList.toggle("dark");
+    
+    // Save user preference
+    if (element.classList.contains("dark-mode")) {
+      localStorage.setItem("dark-mode", "true");
+    } else {
+      localStorage.removeItem("dark-mode");
+    }
+  });
+
+  </script>
+
+	<h2>Notice!</h2>
+	
+	<p>This is a work in progress page for my (and iBaguette contributors') A-level cheat sheets. I hope you find them useful!</p>
+	<div class="dropdown">
+	  <button class="dropbtn">Geography</button>
+	  <div class="dropdown-content">
+		<a href="https://ibaguette.com/cheatsheets/alevel/geography/all">[WORK IN PROGRESS] OCR Geography - All Content</a>
+	  </div>
+	</div>
 
 
-<br><br>
-<div class="dropdown">
-  <button class="dropbtn">Computer Science</button>
-  <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/alevel/computerscience">[WORK IN PROGRESS] OCR Computer Science - All Content</a>
-  </div>
-</div>
+	<br><br>
+	<div class="dropdown">
+	  <button class="dropbtn">Computer Science</button>
+	  <div class="dropdown-content">
+		<a href="https://ibaguette.com/cheatsheets/alevel/computerscience">[WORK IN PROGRESS] OCR Computer Science - All Content</a>
+	  </div>
+	</div>
 
-<br><br>
-<div class="dropdown">
-  <button class="dropbtn">French</button>
-  <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/alevel/french">[WORK IN PROGRESS] Eduqas French - Useful Resources</a>
-    <a href="https://app.memrise.com/course/6311981/useful-y12-vocab/">Memrise Y12 Useful</a>
-    <a href="https://app.memrise.com/course/6339466/la-musique-a-level-vocab-theme-21a/">La Musique Vocab</a>
-  </div>
-</div>
+	<br><br>
+	<div class="dropdown">
+	  <button class="dropbtn">French</button>
+	  <div class="dropdown-content">
+		<a href="https://ibaguette.com/cheatsheets/alevel/french">[WORK IN PROGRESS] Eduqas French - Useful Resources</a>
+		<a href="https://app.memrise.com/course/6311981/useful-y12-vocab/">Memrise Y12 Useful</a>
+		<a href="https://app.memrise.com/course/6339466/la-musique-a-level-vocab-theme-21a/">La Musique Vocab</a>
+	  </div>
+	</div>
 
-<br><br>
-<div class="dropdown">
-  <button class="dropbtn">Maths</button>
-  <div class="dropdown-content">
-    <a href="https://docs.google.com/document/d/1eJYdWaVnxTasSQCYhghO6uTIbStsJ6ZqIfPsg0N_1CI/edit?usp=sharing">[By @TrulySpeechless] Maths FoLD - An OCR A-Level Cheatsheet</a>
-  </div>
-</div>
+	<br><br>
+	<div class="dropdown">
+	  <button class="dropbtn">Maths</button>
+	  <div class="dropdown-content">
+		<a href="https://docs.google.com/document/d/1eJYdWaVnxTasSQCYhghO6uTIbStsJ6ZqIfPsg0N_1CI/edit?usp=sharing">[By @TrulySpeechless] Maths FoLD - An OCR A-Level Cheatsheet</a>
+	  </div>
+	</div>
 
-<br><br>
-<div class="dropdown">
-  <button class="dropbtn">Physics</button>
-  <div class="dropdown-content">
-    <a href="https://docs.google.com/document/d/1uN7i3FG7dxwUkGtaX30T0dgck-CmFwLEOKIBmOqFsJA/edit?usp=sharing">[By @TrulySpeechless] Physics FoLD - An OCR A-Level Cheatsheet</a>
-  </div>
-</div>
+	<br><br>
+	<div class="dropdown">
+	  <button class="dropbtn">Physics</button>
+	  <div class="dropdown-content">
+		<a href="https://docs.google.com/document/d/1uN7i3FG7dxwUkGtaX30T0dgck-CmFwLEOKIBmOqFsJA/edit?usp=sharing">[By @TrulySpeechless] Physics FoLD - An OCR A-Level Cheatsheet</a>
+	  </div>
+	</div>
 
-<br><br>
-<div class="dropdown">
-  <button class="dropbtn">Chemistry</button>
-  <div class="dropdown-content">
-    <a href="https://docs.google.com/document/d/1NFvdIKgcaHLaU-4NEx3n0KtjEjvUYl8ZY8pF7EwiwVw/edit?usp=sharing ">[By @TrulySpeechless] Chemistry FoLD - An OCR A-Level Cheatsheet</a>
-  </div>
-</div>
+	<br><br>
+	<div class="dropdown">
+	  <button class="dropbtn">Chemistry</button>
+	  <div class="dropdown-content">
+		<a href="https://docs.google.com/document/d/1NFvdIKgcaHLaU-4NEx3n0KtjEjvUYl8ZY8pF7EwiwVw/edit?usp=sharing ">[By @TrulySpeechless] Chemistry FoLD - An OCR A-Level Cheatsheet</a>
+	  </div>
+	</div>
 
+	<div class="footer-content">
+		Want to contribute? Feel free to message me on Discord to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my GitHub page.</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+	</div>
 
-<br><br>
-<p>Want to contribute? Feel free to message me on Discord to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my GitHub page.</p>
 </body>
 </html>

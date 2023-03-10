@@ -42,16 +42,25 @@
     // Toggle the "dark" class on the button element
     this.classList.toggle("dark");
 
-    // Play the sound effect
-    var randomNum = Math.floor(Math.random() * 13) + 1;
-    var audio = new Audio('https://cheatsheets.ibaguette.com/sounds/funny%20(' + randomNum + ').mp3');
-    audio.play();
-
     // Save the user's preference to localStorage
     if (element.classList.contains("dark-mode")) {
       localStorage.setItem("dark-mode", "true");
     } else {
       localStorage.removeItem("dark-mode");
+    }
+
+    // Play the sound effect
+    // Check if a cookie exists
+    if (document.cookie.indexOf("audioPlayed=true") === -1) {
+      // If the cookie does not exist, set it to true and play funny (15)
+      document.cookie = "audioPlayed=true";
+      var audio = new Audio('https://cheatsheets.ibaguette.com/sounds/funny%20(15).mp3');
+      audio.play();
+    } else {
+      // If the cookie exists, generate a random number and play the corresponding audio
+      var randomNum = Math.floor(Math.random() * 16) + 1;
+      var audio = new Audio('https://cheatsheets.ibaguette.com/sounds/funny%20(' + randomNum + ').mp3');
+      audio.play();
     }
   });
 

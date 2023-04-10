@@ -532,6 +532,9 @@ async function handleRequest(request) {
             'Cache-Control': 'max-age=86400',  // Cache the file for a day
         },
     });
+
+    return htmlResponse;
+    
   }
 
   if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/geography/paper1") {

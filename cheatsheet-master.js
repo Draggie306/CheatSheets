@@ -1,3 +1,8 @@
+// This file in GitHub is NOT directly linked to a Cloudflare Worker, so code below may not be the same as the one loaded on the website.
+// Instead, I manually update the Cloudflare Worker to ensure it cannot be changed by unauthorised people.
+// You can verify this by looking for this comment and/or comparing the code yout browser receives to the code below.
+// However, the cheat sheets themselves do not need to be manually updated by me.
+
 const statusCode = 200
 
 // Link the constants to the raw HTML cheatsheets on the github repo

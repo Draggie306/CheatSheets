@@ -219,24 +219,24 @@ const main_page = `
 // has not as much cookie code as no audio :)
 const alevel_main_page = `
 <!DOCTYPE html>
-<html lang="en">
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
 <!-- If you see this, hi! :) -->
 <!-- Thanks for using my cheat sheets! -->
+<html lang="en">
   <head>
     <title>A level Cheat Sheets | iBaguette.com/CheatSheets</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <meta name="title" content="A-Level Cheat Sheets and revision material | iBaguette">
     <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
     <meta name="robots" content="index, follow">
-	  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> <!-- iBaguette ads test -->
     <link rel="preload" href="https://cheatsheets.ibaguette.com/stylesheet.css" as="style">
     <link rel="preload" href="https://www.ibaguette.com/static/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
     <link rel="stylesheet" href="https://cheatsheets.ibaguette.com/stylesheet.css"> <!-- Load index CSS from replit, to prevent Cross-Origin Read Blocking (CORB) from GitHub -->
-	  <link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
-	  <link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/geography/all">
+    <link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
+    <link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/geography/all">
 
 	<!-- Breadcrumb for A level -->
     <script type="application/ld+json">

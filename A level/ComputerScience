@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>A level OCR Computer Science</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+	<meta name="title" content="Cheat Sheets and revision material | iBaguette">
+	<meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
+	<meta name="robots" content="index, follow">
+	<link rel="stylesheet" href="https://www.ibaguette.com/static/stackedit_style.css">
+	<link rel="preload" href="https://cheatsheets.ibaguette.com/stylesheet.css" as="style">
+	<link rel="preload" href="https://www.ibaguette.com/static/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
+	<link href='data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAADB0+D/oLbH/6G5y//E2ev/rL7M/7LD1f/M3vD/0+Xx/9Hj8v/L3O3/0+Pv/9rn7//o7vT/6PD2/+Hy+P/k8/n/u9Hb/0RTXP8AAAD/gJSi/5+3yv+ctcn/mbHF/5y1yv+rvtP/rcDV/6/A0/+uvMn/y9Xe/8ja5f+itcn/0Oju/6a6x/+gtcD/ICkx/x4jLv+Wqbv/pLnN/6W5zv+mvtL/rsDR/46gtf9/jp7/trzI/8jT3//l7vX/tMfU/6m9z/+TpLD/VWRu/zdCUP8SChf/DQob/15seP+lucj/j6Cy/1Vnev9gcof/dYea/7vM2P+Jn7f/XGyB/3qTrf+UrMb/R1Ne/x8iL/8nLTn/KSw4/x0hK/8aHin/MzlC/0BRY/87SWD/Tl9z/2Byhv9riZ7/UWJ3/1VidP9dZnr/gpKn/yUpNP8TDhj/ExAY/xsXI/8nJTH/Jicy/yMdKP8mLD3/QVNo/z9JYP9IXHP/boac/1prgf9aZXb/bXZ//214hf8fHSf/FhId/xIPF/8UDxv/KSs2/x8bJv8lISr/KS5A/z5PZf8vM0n/PU5j/4+pyP9bY3n/fICK/4qJkv+TlZ7/HBgg/x0ZJf8UERv/EA4U/x0YJP8TEBj/HBgh/zM7TP88S2H/LzNI/ygvP/9keY3/f4eV/4yNl/+cmaH/ipOb/zA2Qv8tLDf/Ih8r/x8bJf8wLjn/EAwT/xkVH/82OUn/PUNa/z1MYf84Rlr/OEVa/1Jjef9daXz/ZG57/2BzgP+qvsb/SlFa/zU6RP84NkL/KCcw/xQQGf8VERn/LzRC/zk+VP9DU2j/U2V6/1Rme/9UY3j/anJ9/1Zja/90h5b/m7C4/4ygs/83O0j/MTI8/ygkLv8kICr/JyQt/ykoMv9SXnT/UVtv/1NfdP9RXXD/am56/2dxe/9vfIX/d42g/4yfq/+YsMX/orO9/x0jL/84O0b/MDA4/zQwOf8qJC3/MThC/ycsOP9YWmT/hH+E/3V6hv9reYT/eIyU/4OXpP+WrLf/q8vZ/77a6P91gpH/IBkn/ywmMf82O0b/ZHJ5/46ktP94i5b/iZWe/4mWpv9vgpH/coaS/4CVnP+Inqv/nbW//8rf5v++2OP/sM/i/3uPm/9qeoT/ucbM/8LR1/+mvcf/tsnO/+rp5P+Ppbb/gpem/3iMl/+HnKT/jqOr/5q1vf/F3ev/u9Td/6zH2P+qxNH/uMzV/9ne4P////3///////Lz6//9/fn/na+2/3+apv93i5j/h52l/46jrP+Tq7n/n77Q/5q6yv+gtcP/nbK8/560vv++yM3/8vHs//z9+//w8er//////8XJyP+OqLH/jqGt/6Ozuv+uvsP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==' rel='icon' type='image/x-icon' />
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script>
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#ah-yes-more-computer-science">Ah yes more computer science!</a></li>
+<li><a href="#tbd-unit-1">[tbd] Unit 1:</a></li>
+<li><a href="#tbd-unit-2">[tbd] Unit 2:</a></li>
+<li><a href="#tbd-unit-3">[tbd] Unit 3:</a></li>
+<li><a href="#tbd-unit-4">[tbd] Unit 4:</a></li>
+<li><a href="#tbd-unit-5-networks-and-web-technologies">[tbd] Unit 5: Networks and web technologies</a>
+<ul>
+<li><a href="#structure-of-the-internet">Structure of the Internet</a>
+<ul>
+<li><a href="#ipv4-addressses">IPv4 addressses</a></li>
+<li><a href="#uniform-resource-locator-url">Uniform Resource Locator (URL)</a></li>
+<li><a href="#domain-name-system-dns">Domain Name System (DNS)</a></li>
+<li><a href="#internet-registries">Internet registries</a></li>
+<li><a href="#area-networks">Area Networks</a></li>
+<li><a href="#hubs-and-switches">Hubs and switches</a></li>
+<li><a href="#physical-network-topologies">Physical network topologies</a></li>
+<li><a href="#logical-network-topologies">Logical network topologies</a></li>
+<li><a href="#mesh-networks">Mesh networks</a></li>
+</ul>
+</li>
+<li><a href="#internet-communication">Internet Communication</a>
+<ul>
+<li><a href="#packets-packet-switching-and-routers">Packets, Packet Switching and Routers</a></li>
+<li><a href="#protocols-and-standards">Protocols and Standards</a></li>
+<li><a href="#the-tcpip-protocol-stack">The TCP/IP Protocol Stack</a></li>
+<li><a href="#transferring-files-using-ftp">Transferring Files using FTP</a></li>
+<li><a href="#email-servers">Email Servers</a></li>
+</ul>
+</li>
+<li><a href="#web-technologies">Web technologies</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <p><a href="https://ibaguette.com/cheatsheets/alevel">&lt; Back to A level Cheat Sheets</a></p>
+<h1 id="ah-yes-more-computer-science">Ah yes more computer science!</h1>
+<p><strong>⚠ Note: This is severely in development. Please check back later. I’m currently prioritising the Geography A level Cheat Sheet.</strong><br>
+<strong>Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠</strong></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 23/04/2023 14:57</a><br>
+✅ Note: This file is synced with <a href="https://github.com/Draggie306/CheatSheets">this repository</a>. You’ll always be on the latest version.</p>
+<p>Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.</p>
+<blockquote>
+<p>Discuss with other students, developers, educators and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigaders</a> Discord server!</p>
+</blockquote>
+<h1 id="tbd-unit-1">[tbd] Unit 1:</h1>
+<h1 id="tbd-unit-2">[tbd] Unit 2:</h1>
+<h1 id="tbd-unit-3">[tbd] Unit 3:</h1>
+<h1 id="tbd-unit-4">[tbd] Unit 4:</h1>
+<h1 id="tbd-unit-5-networks-and-web-technologies">[tbd] Unit 5: Networks and web technologies</h1>
+<h2 id="structure-of-the-internet">Structure of the Internet</h2>
+<p>The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.</p>
+<p>The World Wide Web is a collection of websites and documents linked by hyperlinks made accessible via the Internet.</p>
+<p>The Internet is the largest network (what computers communicate with each other on). THis is known as a Wide Area Network, or WAN, as it spans over a large geographic area.</p>
+<p>The Internet can also be used to transmit data without using the World Wide Web. However, this data must travel through the backbone.</p>
+<p>The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicated, high-transmission fibre-optic cables that ‘peer’ (are connected with) each other, and are owned by large Internet Service Providers (ISPs). By connecting all these cables together, these ISPs can create a single network that gives each other access to the entire Internet. The way they communicate is by using the <strong>TCP</strong> (Transport Control Protocol) and <strong>IP</strong> (Internet Protocol) protocols.</p>
+<p>Protocol - a set of rules or procedures for transmitting data<br>
+between electronic devices, such as computers</p>
+<h3 id="ipv4-addressses">IPv4 addressses</h3>
+<p>are a series of 4 octet values separated by a full stop (max 32 bits), ranging from 0 to 255. However, there are not enough addresses to support the growing population, so IPv6 is being used which uses 128 bits.</p>
+<h3 id="uniform-resource-locator-url">Uniform Resource Locator (URL)</h3>
+<p>URLs are a standardised format for specifying the means of accessing a resource on the Internet and identifying its location. A URL consists of many components, including the protocol, domain name and path to the specific resource.</p>
+<p>The protocol (like HTTP, HTTPS, FTP or WSS) indicated the communication method to access the specified resource. If it is using HTTP/HTTPS, then the resource is going to be on the World Wide Web</p>
+<p>The domain name (like <a href="http://ibaguette.com">ibaguette.com</a>) identifies the server where the resource is hosted.</p>
+<p>By using URLs, users can easily access resources such as web pages, images, documents, and other files on the internet.</p>
+<h3 id="domain-name-system-dns">Domain Name System (DNS)</h3>
+<p>The Domain Name System is a distributed database system that enables the translation of domain names into IP addresses, which can then be used to contact a server.</p>
+<p>DNS servers are therefore dedicated computers that store an index of domain names and their corresponding IP addresses.</p>
+<p>When a user types a domain name into their web browser or other application, the application sends a request to a DNS server to resolve the domain name to its associated IP address. The DNS server then searches its index for the domain name and returns the corresponding IP address to the requesting application. This allows the application to establish a connection to the server associated with the domain name, enabling the transfer of data between the client and server.</p>
+<blockquote>
+<p>Frequent DNS queries are often cached on a client’s system so that a DNS server does not have to be contacted every time, and instead read from the cache, which is much faster.</p>
+</blockquote>
+<p>If the local DNS server does not have a record for the domain, it may forward the request to an ISP’s DNS server. If the ISP DNS server does not have a record, then it may be forwarded to one of 13 global root DNS servers which hold the records of every domain on the Internet.<br>
+This process is known as <strong>recursion</strong> and enables the DNS system to efficiently resolve domain names to their corresponding IP addresses, even for domains hosted on remote servers.</p>
+<p>Below the root servers are <strong>generic</strong> and <strong>country</strong> top-level domains (TLDs), such as .com, .edu, .org and .uk, .fr and .de.</p>
+<h3 id="internet-registries">Internet registries</h3>
+<p>Domain names must be completely unique otherwise DNS requests could be manipulated. There are 5 global Internet registries (RIRs) which are responsible for allocating IP addresses to organisations in their respective regions (typically continental).</p>
+<blockquote>
+<p>IANA (Internet Assigned Numbers Authority) is responsible for coordinating the allocation of IP addresses to the RIRs.</p>
+</blockquote>
+<h3 id="area-networks">Area Networks</h3>
+<p>In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one<br>
+building or site.</p>
+<h3 id="hubs-and-switches">Hubs and switches</h3>
+<p>A network switch is a hardware device that is commonly used to connect various network segments within a LAN. Switches are designed to forward data packets between different devices on a network.</p>
+<p>Unlike hubs, which broadcast data packets to all devices on a network segment, switches selectively forward data packets only to their intended destination device.</p>
+<p>Hubs connect multiple Ethernet devices together, making them act as a single network segment. Hubs are an older type of connector and are less commonly used today due to their limitations. Unlike switches, hubs broadcast all data packets to every device on the network, which can lead to network congestion and reduced performance.</p>
+<p>A network switch operates by learning the MAC addresses of devices connected to it, and then using this information to forward data packets to the appropriate device. This allows devices on the network to communicate with one another directly, without the need for every device to receive every packet.</p>
+<blockquote>
+<p>Watch out! Many people still use the word ‘hub’ when<br>
+they mean ‘switch’!</p>
+</blockquote>
+<h3 id="physical-network-topologies">Physical network topologies</h3>
+<p>A network topology refers to the physical or logical arrangement of computing devices which make up a network.</p>
+<p><strong>Bus topology</strong>: an arrangement where nodes are connected<br>
+in a ‘chain’ by a single central communications channel, or ‘bus’. Each end of this bussy backbone is connected to a terminator which stops signals bouncing back. Each terminal, or node, on this cable is passive.</p>
+<p>They are simple to set up and cheap, but only one computer can transmit data successfully at a time (or “collisions” will occur) and there is poor security generally, with a single point of failure, as well as being unsuitable for larger areas.</p>
+<p><strong>Star topology</strong>: an arrangement where a central node or<br>
+switch (or hub) provides a central point of communication for all<br>
+other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices’ <strong>Media Access Control (MAC)</strong> address to determine where to send the message.</p>
+<p>The failure of any one device (unless it is the switch itself) does not affect the operation of the network as a whole. This makes star networks highly reliable and easy to maintain, as well as being easy to add new stations. Higher transmission speeds can give better performance than a bus network too.</p>
+<p>Star networks are a popular choice for LANs and other small-scale networks, due to their simplicity and reliability. They are especially well-suited for networks that require high bandwidth and low latency and as well as for security, as data is sent only to one other device.</p>
+<h3 id="logical-network-topologies">Logical network topologies</h3>
+<p>The physical topology of a network defines how the devices are physically connected.</p>
+<p>The logical topology defines how the devices communicate across the physical topologies.</p>
+<p>For example, a network might be physically wired in a star topology, but use a logical bus topology to facilitate data transmission.</p>
+<p><strong>Wi-Fi</strong> is a wireless networking technology providing high-speed Internet and network connections. Devices connect to the Internet via a Wireless Access Point (WAP) which broadcasts on a specific radio frequency channel, typically on the 2.4GHZ spectrum or the 5-6GHz spectrum. This can then be accessed by any device within range and that has a compatible Network Interface Card (NIC).</p>
+<p>However, network interference from other devices within range which are also using the same frequency is problematic, as seen in areas like football stadiums. To minimise this, admins can use <strong>channel bonding</strong> to pool multiple channels into a wider band, thereby increasing available bandwidth, and using Quality of Service (QoS) which prioritises different types of network traffic based on their importance, such as VoIP calls which require low latency.</p>
+<h3 id="mesh-networks">Mesh networks</h3>
+<p>Mesh networks are becoming more common with the widespread use of wireless technology. Each node in a mesh network has a connection to every other node, by transmitting data across any intermediate nodes, and only one node needs an Internet connection and all other nodes can share this, creating a redundant and flexible network architecture. These networks can become big enough to cover entire cities.</p>
+<p>Advantages:</p>
+<ul>
+<li>No cabling costs: Mesh networks can be wireless, eliminating the need for costly cabling and making it easier to set up and scale the network.</li>
+<li>Faster communication: Since data packets do not need to travel via a central switch, communication can be faster and more efficient, especially in larger networks where traffic can become congested.</li>
+<li>Self-healing: The more nodes that are installed, the faster and more reliable the network becomes, since one blocked connection can easily be circumvented by another route. In this respect, the mesh can be described as ‘self-healing’.</li>
+<li>Easy expansion: New nodes are automatically incorporated into the network, making it easier to add new devices and scale the network.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Higher implementation cost: Building and maintaining a mesh network can be difficult and time-consuming, making it less desirable for smaller networks or businesses with limited resources.</li>
+<li>Redundant connections: The chance of redundant connections is high, adding to costs and complexity. Careful planning and management is needed to avoid unnecessary connections and reduce costs.</li>
+<li>Limited range: Mesh networks are typically limited to a certain range, depending on the strength of the wireless signal. This means that additional nodes or access points may be required to extend coverage, which can increase the cost and complexity of the network.</li>
+</ul>
+<h2 id="internet-communication">Internet Communication</h2>
+<ol>
+<li>Circuit Switching and Packet Switching: Circuit switching is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session. In contrast, packet switching divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible than circuit switching.</li>
+</ol>
+<h3 id="packets-packet-switching-and-routers">Packets, Packet Switching and Routers</h3>
+<p>Packet switching requires routers to direct the packets to their destination. A router is a network device that receives packets and forwards data packets from one network to another.<br>
+Each router stores data about the<br>
+available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.</p>
+<blockquote>
+<p>Each transfer between routers<br>
+is known as a <strong>hop</strong></p>
+</blockquote>
+<p>Routers will then continue to forward the packet until it reaches its destination node</p>
+<p>A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header.</p>
+<blockquote>
+<p>Packets are deliberately kept small to ensure that individual packets do not take excessive time to transfer preventing other packets from moving.</p>
+</blockquote>
+<blockquote>
+<p>However, they should not be too small as the additional data added makes data transfer inefficient as<br>
+unnecessary headers and trailers would be required each time.</p>
+</blockquote>
+<p>The <strong>trailer</strong> contains the <strong>end of packet flag</strong>, as well as <strong>error checking components</strong> like checksums or Cyclical Redundancy Checks (CRCs), are calculated at the origin and destination end. If they do not match, the data has become corrupted and is refused and a new copy is requested to be sent again.</p>
+<p>The payload is the actual data that needs to be sent, varying in size from 500 to 1,500 bytes.</p>
+<p>The packet header contains the IP addresses of the recipient and the sender, so that it can be directed appropriately across the network. The packet number and overall number of packets in the transmission is attached to assist in reassembling the data at the receiving end. The Time to Live (TTL), or hop limit, is also included.</p>
+<blockquote>
+<p>This is all dictated by the Transmission Control Protocol (TCP).</p>
+</blockquote>
+<h3 id="protocols-and-standards">Protocols and Standards</h3>
+<p>Network hardware devices include routers, switches, hubs, and access points, among others. These devices connect computers and other devices in a network, allowing them to communicate and share resources.</p>
+<p>Protocols and standards establish guidelines and rules for communication between devices on a network. Common protocols include TCP/IP, HTTP, and FTP, while common standards include Ethernet and Wi-Fi.</p>
+<h3 id="the-tcpip-protocol-stack">The TCP/IP Protocol Stack</h3>
+<p>The TCP/IP protocol stack consists of four main layers.</p>
+<ol>
+<li>Application layer</li>
+<li>Transport layer</li>
+<li>Internet layer</li>
+<li>Data Link/Network Interface layer.</li>
+</ol>
+<p>Each layer has its own specific tasks in transmitting data over a network.</p>
+<h4 id="application-layer">Application layer</h4>
+<ul>
+<li>The application layer is based at the top of the stack. It specifies what protocol needs to be used in order to relate the application that’s being sent.</li>
+<li>For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP</li>
+</ul>
+<p><img src="https://media.discordapp.net/attachments/1076990931791777793/1076991657007906868/image.png" alt="noi"><br>
+<em>chat gpt asking for a summary of tcp ip what I just wrote but kawaii prompt included</em></p>
+<h3 id="transferring-files-using-ftp">Transferring Files using FTP</h3>
+<p>FTP (File Transfer Protocol) is a standard protocol used to transfer files. It is widely used for uploading files to and downloading files from servers with little overhead.</p>
+<h3 id="email-servers">Email Servers</h3>
+<p>An email server receives incoming messages and stores them until the recipient retrieves them. It also sends outgoing messages to the intended recipients. Email servers use various protocols such as SMTP, POP, and IMAP to transmit and receive email messages.</p>
+<h2 id="web-technologies">Web technologies</h2>
+<p>How to add an external stylesheet:</p>
+<pre class=" language-html"><code class="prism  language-html">&lt;link href= “nameofstylesheet.css” rel= “stylesheet” type=“text/css”&gt;
+</code></pre>
+<p>Changing the attributes of an HTML element:</p>
+<pre class=" language-js"><code class="prism  language-js">chosenElement <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>“example”<span class="token punctuation">)</span><span class="token punctuation">;</span>
+chosenElement<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> “Hello World”<span class="token punctuation">;</span>
+</code></pre>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>
+
+    </div>
+  </div>
+</body>
+</html>

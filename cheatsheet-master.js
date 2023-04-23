@@ -1,6 +1,6 @@
 // This file in GitHub is NOT directly linked to a Cloudflare Worker, so code below may not be the same as the one loaded on the website.
 // Instead, I manually update the Cloudflare Worker to ensure it cannot be changed by unauthorised people.
-// You can verify this by looking for this comment and/or comparing the code yout browser receives to the code below.
+// You can verify this by looking for this comment and/or comparing the code your browser receives to the code below.
 // However, the cheat sheets themselves do not need to be manually updated by me.
 
 const statusCode = 200
@@ -16,6 +16,7 @@ const html_computer_science = "https://raw.githubusercontent.com/Draggie306/Chea
 const html_science_practicals = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/All%20Science%20Core%20Practicals.html"
 const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Biology%20Paper%202%20recap.html"
 const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
+const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html"
 
 
 // This is main site landing page
@@ -118,7 +119,7 @@ const main_page = `
           "@type": "ListItem",
           "position": 3,
           "name": "OCR Computer Science - All Topics",
-          "item": "https://ibaguette.com/cheatsheets/alevel/computerscience/all"
+          "item": "https://ibaguette.com/cheatsheets/alevel/computerscience"
         },
         {
           "@type": "ListItem",
@@ -681,7 +682,7 @@ async function handleRequest(request) {
   }
 
   if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/alevel/geography/all") {
-    const response = await fetch('https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html');
+    const response = await fetch(alevel_geog); // get html from github server
     // Return the response as is
     const htmlResponse = new Response(await response.text(), {
         headers: {
@@ -692,6 +693,18 @@ async function handleRequest(request) {
     return htmlResponse;
   }
 
+  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/alevel/computerscience") {
+    const response = await fetch(alevel_computer_science); // get html from github server
+    // Return the response as is
+    const htmlResponse = new Response(await response.text(), {
+        headers: {
+            'Content-Type': 'text/html',
+        },
+    });
+    // Return the response
+    return htmlResponse;
+  }
+  
   // else point back to the main site as the URL may have changed or an incorrect one has been linked to
   else {
     return new Response(main_page, {

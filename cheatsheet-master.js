@@ -335,10 +335,39 @@ const alevel_main_page = `
 		<a href="https://app.memrise.com/course/6339466/la-musique-a-level-vocab-theme-21a/">La Musique Vocab</a>
 	  </div>
 	</div>
+  <div id="stats-container" class="french-info-stats">Loading cool French stats...</div>
+
+  <script>
+        // Fetch the JSON data
+        fetch("https://brigadersbrandnewhelper.draggie.repl.co/api/french_playlist_stats")
+            .then(response => response.json())
+            .then(data => {
+                // Extract the required values from the JSON data
+                const totalDurationSeconds = data.total_duration_seconds;
+                const calculatedUnit = data.calculated_unit;
+                const calculatedValue = data.calculated_value;
+                const currentDatetime = data.current_datetime;
+
+                // Calculate overall time and units
+                const overallTime = calculatedUnit === "hours" ? calculatedValue : calculatedValue / 60; // Convert to hours if unit is minutes
+                const units = calculatedUnit === "hours" ? "hours" : "minutes";
+
+                // Format the date and time
+                const datetime = new Date(currentDatetime);
+                const formattedDatetime = datetime.toLocaleString();
+
+                // Render the stats data on the HTML page
+                const statsContainer = document.getElementById("stats-container");
+                statsContainer.innerHTML = "I have listened to " + totalDurationSeconds + " seconds of French videos since 09/02/2023, or " + overallTime + " " + units + ", as of " + formattedDatetime;
+            })
+            .catch(error => {
+                console.error("Failed to fetch French playlist stats:", error);
+            });
+    </script>
 
 	<br><br>
 	<div class="dropdown">
-	  <button class="dropbtn">Maths</button>
+	  <button class="dropbtn-red">Maths</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1eJYdWaVnxTasSQCYhghO6uTIbStsJ6ZqIfPsg0N_1CI/edit?usp=sharing">[By @TrulySpeechless] Maths FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
@@ -346,7 +375,7 @@ const alevel_main_page = `
 
 	<br><br>
 	<div class="dropdown">
-	  <button class="dropbtn">Physics</button>
+	  <button class="dropbtn-red">Physics</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1uN7i3FG7dxwUkGtaX30T0dgck-CmFwLEOKIBmOqFsJA/edit?usp=sharing">[By @TrulySpeechless] Physics FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
@@ -354,7 +383,7 @@ const alevel_main_page = `
 
 	<br><br>
 	<div class="dropdown">
-	  <button class="dropbtn">Chemistry</button>
+	  <button class="dropbtn-red">Chemistry</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1NFvdIKgcaHLaU-4NEx3n0KtjEjvUYl8ZY8pF7EwiwVw/edit?usp=sharing ">[By @TrulySpeechless] Chemistry FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>

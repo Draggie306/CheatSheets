@@ -204,11 +204,11 @@ const main_page = `
     </div>
 
 
-    <br><br><br><br><br>
+    <br><br>
     <div class="footer-content">
       <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add content, suggest changes or fix typos. </p>
       <p>Alternatively, you can open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials. </p>
-      <p>Join my <a href="https://discord.gg/GfetCXH">Baguette Brigaders Discord</a> to connect with other students, developers and enthusiasts, ask questions and get answers.</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      <p>Join our Discord server, <a href="https://discord.gg/GfetCXH">Baguette Brigaders</a>, to connect with other students, developers, professionals, educators, and more! Ask questions, get answers, or just have fun and relax!</p><br>
     </div>
     <!-- do not modify the below lines, auto updated by git hook -->
     <div class="footer-content">
@@ -382,7 +382,8 @@ const alevel_main_page = `
 
 	<br><br><br>
 	<div class="footer-content">
-		Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials. Join my <a href="https://discord.gg/GfetCXH">Discord server</a> to connect with other developers and students and get help.<br>
+		Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.
+		<br>Join our Discord server, <a href="https://discord.gg/GfetCXH">Baguette Brigaders</a>, to connect with other students, developers, professionals, educators, and more! Ask questions, get answers, or just have fun and relax!<br>
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
@@ -549,10 +550,13 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
-<br><br><br>
+<br><br>
+  <div class="footer-content">
+    Join our Discord server, <a href="https://discord.gg/GfetCXH">Baguette Brigaders</a>, to connect with other students, developers, professionals, educators, and more! Ask questions, get answers, or just have fun and relax!<br>
+  </div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-    Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commit/4fa9e34972da793e735f660f4aea6477a1624c45">4fa9e34</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commit/4fa9e34972da793e735f660f4aea6477a1624c45">4fa9e34</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>

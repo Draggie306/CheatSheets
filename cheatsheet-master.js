@@ -212,7 +212,7 @@ const main_page = `
     </div>
     <!-- do not modify the below lines, auto updated by git hook -->
     <div class="footer-content">
-      Last commit: 72d2796</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Last commit: <a href="https://github.com/Draggie306/CheatSheets/commit/4fa9e34972da793e735f660f4aea6477a1624c45">4fa9e34</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
   </body>
 </html>
@@ -234,8 +234,8 @@ const alevel_main_page = `
     <meta name="title" content="A-Level Cheat Sheets and revision material | iBaguette">
     <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
     <meta name="robots" content="index, follow">
-	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> <!-- iBaguette ads test -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> <!-- iBaguette ads test -->
     <link rel="preload" href="https://cheatsheets.ibaguette.com/stylesheet.css" as="style">
     <link rel="preload" href="https://www.ibaguette.com/static/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
     
@@ -381,7 +381,7 @@ const alevel_main_page = `
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Last commit: 72d2796</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Last commit: <a href="https://github.com/Draggie306/CheatSheets/commit/4fa9e34972da793e735f660f4aea6477a1624c45">4fa9e34</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>
@@ -543,7 +543,7 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 <br><br><br>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Last commit: 72d2796</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Last commit: <a href="https://github.com/Draggie306/CheatSheets/commit/4fa9e34972da793e735f660f4aea6477a1624c45">4fa9e34</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>

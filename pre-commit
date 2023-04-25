@@ -4,14 +4,16 @@ commit_hash=$(git rev-parse HEAD)
 
 small_commit_hash=${commit_hash:0:7}
 
-sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" "A level/index.html"
+commit_url="https://github.com/Draggie306/CheatSheets/commit/$commit_hash"
+
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: <a href=\"$commit_url\">$small_commit_hash</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" "A level/index.html"
 git add "A level/index.html"
 
-sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" "GCSE/index.html"
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: <a href=\"$commit_url\">$small_commit_hash</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" "GCSE/index.html"
 git add "GCSE/index.html"
 
-sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" index.html
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: <a href=\"$commit_url\">$small_commit_hash</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" index.html
 git add index.html
 
-sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" cheatsheet-master.js
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: <a href=\"$commit_url\">$small_commit_hash</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" cheatsheet-master.js
 git add cheatsheet-master.js

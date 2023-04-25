@@ -339,7 +339,7 @@ const alevel_main_page = `
 
   <script>
         // Fetch the JSON data
-        fetch("https://brigadersbrandnewhelper.draggie.repl.co/api/french_playlist_stats")
+        fetch("https://brigaders-stats.ibaguette.com/api/french_playlist_stats")
             .then(response => response.json())
             .then(data => {
                 // Extract the required values from the JSON data

@@ -14,7 +14,13 @@
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> <!-- iBaguette ads test -->
     <link rel="preload" href="https://cheatsheets.ibaguette.com/stylesheet.css" as="style">
     <link rel="preload" href="https://www.ibaguette.com/static/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
-    <link rel="stylesheet" href="https://cheatsheets.ibaguette.com/stylesheet.css"> <!-- Load index CSS from replit, to prevent Cross-Origin Read Blocking (CORB) from GitHub -->
+    
+	
+	<!-- Load CSS from replit, to prevent Cross-Origin Read Blocking (CORB) from GitHub -->
+
+	<!-- <link rel="stylesheet" href="https://cheatsheets.ibaguette.com/stylesheet.css">  -->
+	<!-- uncomment below if running locally -->
+	<link rel="stylesheet" href="stylesheet.css">
 	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
 	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/geography/all">
 
@@ -54,41 +60,44 @@
 		
   </head>
 <body>
-  <a href="/cheatsheets">< Back to All Cheat Sheets</a>
+	<a href="/cheatsheets">< Back to All Cheat Sheets</a>
 
-  <div class="dark-mode-toggle">
-    <button id="dark-mode-btn"></button>
-  </div>
+	<div class="dark-mode-toggle">
+		<button id="dark-mode-btn"></button>
+	</div>
 
-  <script>
-  // Check for saved user preference and set the class
-  if (localStorage.getItem("dark-mode")) {
-    document.body.classList.add("dark-mode");
-    document.getElementById("dark-mode-btn").classList.add("dark");
-  }
+	<script>
+	// Check for saved user preference and set the class
+	if (localStorage.getItem("dark-mode")) {
+		document.body.classList.add("dark-mode");
+		document.getElementById("dark-mode-btn").classList.add("dark");
+	}
 
-  // Add event listener to toggle button
-  document.getElementById("dark-mode-btn").addEventListener("click", function() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-    
-    // Toggle button class
-    this.classList.toggle("dark");
-    
-    // Save user preference
-    if (element.classList.contains("dark-mode")) {
-      localStorage.setItem("dark-mode", "true");
-    } else {
-      localStorage.removeItem("dark-mode");
-    }
-  });
+	// Add event listener to toggle button
+	document.getElementById("dark-mode-btn").addEventListener("click", function() {
+		var element = document.body;
+		element.classList.toggle("dark-mode");
+		
+		// Toggle button class
+		this.classList.toggle("dark");
+		
+		// Save user preference
+		if (element.classList.contains("dark-mode")) {
+		localStorage.setItem("dark-mode", "true");
+		} else {
+		localStorage.removeItem("dark-mode");
+		}
+	});
 
-  </script>
+	</script>
 
-	<h2>Notice!</h2>
+	<h1 class="h1">All A level Cheat Sheets & Revision Resources</h1>
 	
 	<p>This is a work in progress page for my (and iBaguette contributors') A-level cheat sheets. I hope you find them useful!</p>
-  <p>Hover over the subject to see a dropdown of resources available, as well as the author if it's not me.</p>
+  	<p>Hover over the subject to see a list of resources available, and the name of the creator (if not me).</p>
+	<br>
+
+	<h2>Featured Content</h2>
 	<div class="dropdown">
 	  <button class="dropbtn">Geography</button>
 	  <div class="dropdown-content">
@@ -96,8 +105,6 @@
 	  </div>
 	</div>
 
-
-	<br><br>
 	<div class="dropdown">
 	  <button class="dropbtn">Computer Science</button>
 	  <div class="dropdown-content">
@@ -105,7 +112,6 @@
 	  </div>
 	</div>
 
-	<br><br>
 	<div class="dropdown">
 	  <button class="dropbtn">French</button>
 	  <div class="dropdown-content">
@@ -115,33 +121,43 @@
 	  </div>
 	</div>
 
-	<br><br>
 	<div class="dropdown">
-	  <button class="dropbtn">Maths</button>
+		<button class="dropbtn-grey">Economics</button>
+		<div class="dropdown-content">
+		  <a href="#">Coming soon...</a>
+		</div>
+	  </div>
+
+	<br><br>
+	<h2>Community Contributions</h2>
+	<div class="dropdown">
+	  <button class="dropbtn-red">Maths</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1eJYdWaVnxTasSQCYhghO6uTIbStsJ6ZqIfPsg0N_1CI/edit?usp=sharing">[By @TrulySpeechless] Maths FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
 	</div>
 
-	<br><br>
 	<div class="dropdown">
-	  <button class="dropbtn">Physics</button>
+	  <button class="dropbtn-red">Physics</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1uN7i3FG7dxwUkGtaX30T0dgck-CmFwLEOKIBmOqFsJA/edit?usp=sharing">[By @TrulySpeechless] Physics FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
 	</div>
 
-	<br><br>
 	<div class="dropdown">
-	  <button class="dropbtn">Chemistry</button>
+	  <button class="dropbtn-red">Chemistry</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1NFvdIKgcaHLaU-4NEx3n0KtjEjvUYl8ZY8pF7EwiwVw/edit?usp=sharing ">[By @TrulySpeechless] Chemistry FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
 	</div>
 
-  <div class="footer-content">
-    Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials. Join my <a href="https://discord.gg/GfetCXH">Discord server</a> to connect with other developers and students and get help.</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
-  </div>
-
+	<br><br><br>
+	<div class="footer-content">
+		Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials. Join my <a href="https://discord.gg/GfetCXH">Discord server</a> to connect with other developers and students and get help.<br>
+	</div>
+	<!-- do not modify the below lines, auto updated by git hook -->
+	<div class="footer-content">
+		Last commit: [small_git_hash]</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+	</div>
 </body>
 </html>

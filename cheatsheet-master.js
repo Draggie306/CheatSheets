@@ -119,7 +119,7 @@ const main_page = `
           "@type": "ListItem",
           "position": 3,
           "name": "OCR Computer Science - All Topics",
-          "item": "https://ibaguette.com/cheatsheets/alevel/computerscience"
+          "item": "https://ibaguette.com/cheatsheets/alevel/computerscience/all"
         },
         {
           "@type": "ListItem",
@@ -210,14 +210,17 @@ const main_page = `
       <p>Alternatively, you can open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials. </p>
       <p>Join my <a href="https://discord.gg/GfetCXH">Baguette Brigaders Discord</a> to connect with other students, developers and enthusiasts, ask questions and get answers.</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
-
+    <!-- do not modify the below lines, auto updated by git hook -->
+    <div class="footer-content">
+      Last commit: [small_git_hash]</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+    </div>
   </body>
 </html>
 `
 
-
 // The main A level 'interstitial' page
 // has not as much cookie code as no audio :)
+// Also, please don't delete this, lol
 const alevel_main_page = `
 <!DOCTYPE html>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
@@ -231,13 +234,19 @@ const alevel_main_page = `
     <meta name="title" content="A-Level Cheat Sheets and revision material | iBaguette">
     <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
     <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> <!-- iBaguette ads test -->
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> <!-- iBaguette ads test -->
     <link rel="preload" href="https://cheatsheets.ibaguette.com/stylesheet.css" as="style">
     <link rel="preload" href="https://www.ibaguette.com/static/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
-    <link rel="stylesheet" href="https://cheatsheets.ibaguette.com/stylesheet.css"> <!-- Load index CSS from replit, to prevent Cross-Origin Read Blocking (CORB) from GitHub -->
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/geography/all">
+    
+	
+	<!-- Load CSS from replit, to prevent Cross-Origin Read Blocking (CORB) from GitHub -->
+
+	<!-- <link rel="stylesheet" href="https://cheatsheets.ibaguette.com/stylesheet.css">  -->
+	<!-- uncomment below if running locally -->
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
+	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/geography/all">
 
 	<!-- Breadcrumb for A level -->
     <script type="application/ld+json">
@@ -275,41 +284,44 @@ const alevel_main_page = `
 		
   </head>
 <body>
-  <a href="/cheatsheets">< Back to All Cheat Sheets</a>
+	<a href="/cheatsheets">< Back to All Cheat Sheets</a>
 
-  <div class="dark-mode-toggle">
-    <button id="dark-mode-btn"></button>
-  </div>
+	<div class="dark-mode-toggle">
+		<button id="dark-mode-btn"></button>
+	</div>
 
-  <script>
-  // Check for saved user preference and set the class
-  if (localStorage.getItem("dark-mode")) {
-    document.body.classList.add("dark-mode");
-    document.getElementById("dark-mode-btn").classList.add("dark");
-  }
+	<script>
+	// Check for saved user preference and set the class
+	if (localStorage.getItem("dark-mode")) {
+		document.body.classList.add("dark-mode");
+		document.getElementById("dark-mode-btn").classList.add("dark");
+	}
 
-  // Add event listener to toggle button
-  document.getElementById("dark-mode-btn").addEventListener("click", function() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-    
-    // Toggle button class
-    this.classList.toggle("dark");
-    
-    // Save user preference
-    if (element.classList.contains("dark-mode")) {
-      localStorage.setItem("dark-mode", "true");
-    } else {
-      localStorage.removeItem("dark-mode");
-    }
-  });
+	// Add event listener to toggle button
+	document.getElementById("dark-mode-btn").addEventListener("click", function() {
+		var element = document.body;
+		element.classList.toggle("dark-mode");
+		
+		// Toggle button class
+		this.classList.toggle("dark");
+		
+		// Save user preference
+		if (element.classList.contains("dark-mode")) {
+		localStorage.setItem("dark-mode", "true");
+		} else {
+		localStorage.removeItem("dark-mode");
+		}
+	});
 
-  </script>
+	</script>
 
-	<h2>Notice!</h2>
+	<h1 class="h1">All A level Cheat Sheets & Revision Resources</h1>
 	
 	<p>This is a work in progress page for my (and iBaguette contributors') A-level cheat sheets. I hope you find them useful!</p>
-  <p>Hover over the subject to see a dropdown of resources available, as well as the author if it's not me.</p>
+  	<p>Hover over the subject to see a list of resources available, and the name of the creator (if not me).</p>
+	<br>
+
+	<h2>Featured Content</h2>
 	<div class="dropdown">
 	  <button class="dropbtn">Geography</button>
 	  <div class="dropdown-content">
@@ -317,8 +329,6 @@ const alevel_main_page = `
 	  </div>
 	</div>
 
-
-	<br><br>
 	<div class="dropdown">
 	  <button class="dropbtn">Computer Science</button>
 	  <div class="dropdown-content">
@@ -326,7 +336,6 @@ const alevel_main_page = `
 	  </div>
 	</div>
 
-	<br><br>
 	<div class="dropdown">
 	  <button class="dropbtn">French</button>
 	  <div class="dropdown-content">
@@ -335,37 +344,16 @@ const alevel_main_page = `
 		<a href="https://app.memrise.com/course/6339466/la-musique-a-level-vocab-theme-21a/">La Musique Vocab</a>
 	  </div>
 	</div>
-  <div id="stats-container" class="french-info-stats">Loading cool French stats...</div>
 
-  <script>
-        // Fetch the JSON data
-        fetch("https://brigaders-stats.ibaguette.com/api/french_playlist_stats")
-            .then(response => response.json())
-            .then(data => {
-                // Extract the required values from the JSON data
-                const totalDurationSeconds = data.total_duration_seconds;
-                const calculatedUnit = data.calculated_unit;
-                const calculatedValue = data.calculated_value;
-                const currentDatetime = data.current_datetime;
-
-                // Calculate overall time and units
-                const overallTime = calculatedUnit === "hours" ? calculatedValue : calculatedValue / 60; // Convert to hours if unit is minutes
-                const units = calculatedUnit === "hours" ? "hours" : "minutes";
-
-                // Format the date and time
-                const datetime = new Date(currentDatetime);
-                const formattedDatetime = datetime.toLocaleString();
-
-                // Render the stats data on the HTML page
-                const statsContainer = document.getElementById("stats-container");
-                statsContainer.innerHTML = "I have listened to " + totalDurationSeconds + " seconds of French videos since 09/02/2023, or " + overallTime + " " + units + ", as of " + formattedDatetime;
-            })
-            .catch(error => {
-                console.error("Failed to fetch French playlist stats:", error);
-            });
-    </script>
+	<div class="dropdown">
+		<button class="dropbtn-grey">Economics</button>
+		<div class="dropdown-content">
+		  <a href="#">Coming soon...</a>
+		</div>
+	  </div>
 
 	<br><br>
+	<h2>Community Contributions</h2>
 	<div class="dropdown">
 	  <button class="dropbtn-red">Maths</button>
 	  <div class="dropdown-content">
@@ -373,7 +361,6 @@ const alevel_main_page = `
 	  </div>
 	</div>
 
-	<br><br>
 	<div class="dropdown">
 	  <button class="dropbtn-red">Physics</button>
 	  <div class="dropdown-content">
@@ -381,7 +368,6 @@ const alevel_main_page = `
 	  </div>
 	</div>
 
-	<br><br>
 	<div class="dropdown">
 	  <button class="dropbtn-red">Chemistry</button>
 	  <div class="dropdown-content">
@@ -389,13 +375,18 @@ const alevel_main_page = `
 	  </div>
 	</div>
 
-  <div class="footer-content">
-    Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials. Join my <a href="https://discord.gg/GfetCXH">Discord server</a> to connect with other developers and students and get help.</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
-  </div>
-
+	<br><br><br>
+	<div class="footer-content">
+		Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials. Join my <a href="https://discord.gg/GfetCXH">Discord server</a> to connect with other developers and students and get help.<br>
+	</div>
+	<!-- do not modify the below lines, auto updated by git hook -->
+	<div class="footer-content">
+		Last commit: [small_git_hash]</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+	</div>
 </body>
 </html>
 `
+
 
 
 // Main GCSE html
@@ -550,6 +541,10 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 </div>
 
 <br><br><br>
+	<!-- do not modify the below lines, auto updated by git hook -->
+	<div class="footer-content">
+		Last commit: [small_git_hash]</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+	</div>
 </body>
 </html>
 `

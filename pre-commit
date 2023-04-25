@@ -4,14 +4,14 @@ commit_hash=$(git rev-parse HEAD)
 
 small_commit_hash=${commit_hash:0:7}
 
-sed -i "s|<div class=\"footer-content\">\n\t\tLast commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|<div class=\"footer-content\">\n\t\tLast commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|g" "A level/index.html"
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" "A level/index.html"
 git add "A level/index.html"
 
-sed -i "s|<div class=\"footer-content\">\n\t\tLast commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|<div class=\"footer-content\">\n\t\tLast commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|g" "GCSE/index.html"
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" "GCSE/index.html"
 git add "GCSE/index.html"
 
-sed -i "s|<div class=\"footer-content\">\n\t\tLast commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|<div class=\"footer-content\">\n\t\tLast commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|g" index.html
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" index.html
 git add index.html
 
-sed -i "s|<div class=\"footer-content\">\n\t\tLast commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|<div class=\"footer-content\">\n\t\tLast commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->\n\t</div>|g" cheatsheet-master.js
+sed -i "s|Last commit: [^<]*</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|Last commit: $small_commit_hash</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->|g" cheatsheet-master.js
 git add cheatsheet-master.js

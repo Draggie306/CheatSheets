@@ -212,7 +212,7 @@ const main_page = `
     </div>
     <!-- do not modify the below lines, auto updated by git hook -->
     <div class="footer-content">
-      Last commit: [small_git_hash]</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Last commit: 72d2796</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
   </body>
 </html>
@@ -381,7 +381,7 @@ const alevel_main_page = `
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Last commit: [small_git_hash]</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Last commit: 72d2796</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>
@@ -543,7 +543,7 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 <br><br><br>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Last commit: [small_git_hash]</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Last commit: 72d2796</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>

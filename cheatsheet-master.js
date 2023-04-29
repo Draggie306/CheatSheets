@@ -13,6 +13,8 @@ const html_geog_paper_1 = "https://github.com/Draggie306/CheatSheets/raw/main/GC
 const html_geog_paper_2 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Geography%20%5BPaper%202%5D.html"
 const html_geog_both_papers = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Geography%20Paper%201%20%2B%202.html"
 const html_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Computer%20Science%20Paper%201%262%20Cheat%20Sheet.html"
+const html_computer_science_paper1 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Comp%20Sci%20Paper%201.html"
+const html_computer_science_paper2 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Comp%20Sci%20Paper%202.html"
 const html_science_practicals = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/All%20Science%20Core%20Practicals.html"
 const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Biology%20Paper%202%20recap.html"
 const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
@@ -345,8 +347,13 @@ const alevel_main_page = `
 	  <button class="dropbtn">French</button>
 	  <div class="dropdown-content">
 		<a href="https://ibaguette.com/cheatsheets/alevel/french">[WORK IN PROGRESS] Eduqas French - Useful Resources</a>
-		<a href="https://app.memrise.com/course/6311981/useful-y12-vocab/">Memrise Y12 Useful</a>
+		<a href="https://app.memrise.com/course/6311981/useful-y12-vocab/">Y12 Useful Vocab</a>
 		<a href="https://app.memrise.com/course/6339466/la-musique-a-level-vocab-theme-21a/">La Musique Vocab</a>
+		<a href="https://app.memrise.com/course/6381995/better-film-vocab/">All Film Vocab (+ corrected)</a>
+		<a href="https://app.memrise.com/course/6381996/ndhs-as-vocab-family-structures/" >Family Vocab</a>
+		<a href="https://app.memrise.com/course/6381998/ndhs-as-vocab-youth-trends/">Youth Trends Vocab</a>
+		<a href="https://padlet.com/hilla68/alevel-french-with-eduqas-n7vewglwvuj28euw">Mme Hill's Padlet</a>
+		<a href="https://www.ibaguette.com/2023/04/introducing-french-revision-portal.html">The French Revision Portal is coming soon! Click here for more info.</a>
 	  </div>
 	</div>
 
@@ -355,7 +362,23 @@ const alevel_main_page = `
 		<div class="dropdown-content">
 		  <a href="#">Coming soon...</a>
 		</div>
+	</div>
+
+	<div class="dropdown">
+		<button class="dropbtn-grey">Business</button>
+		<div class="dropdown-content">
+			<a href="#">Coming soon... </a>
+			<a href="#">Although I have heard that you just need common sense</a>
+		  </div>
 	  </div>
+  
+	<div class="dropdown">
+		<button class="dropbtn-grey">EPQ</button>
+		<div class="dropdown-content">
+			<a href="#">Coming soon...</a>
+		</div>
+	</div>
+  
 
 	<br><br>
 	<h2>Community Contributions</h2>
@@ -378,6 +401,15 @@ const alevel_main_page = `
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1NFvdIKgcaHLaU-4NEx3n0KtjEjvUYl8ZY8pF7EwiwVw/edit?usp=sharing ">[By @TrulySpeechless] Chemistry FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
+	</div>
+
+	<div class="dropdown">
+		<button class="dropbtn-grey">Your Resource Here!!</button>
+		<div class="dropdown-content">
+			<a href="#">Want to add something? Feel free!</a>
+			<a href="#">It's super easy and doable for anyone!</a>
+			<a href="#">Just read the steps below!</a>
+		</div>
 	</div>
 
 	<br><br><br>
@@ -530,7 +562,9 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 <div class="dropdown">
   <button class="dropbtn">Computer Science</button>
   <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/gcse/ComputerScience">OCR Computer Science Paper 1 and 2</a>
+    <a href="https://ibaguette.com/cheatsheets/gcse/ComputerScience/paper1">OCR J277 Paper 1</a>
+    <a href="https://ibaguette.com/cheatsheets/gcse/ComputerScience/paper2">OCR J277 Paper 2</a>
+    <a href="https://ibaguette.com/cheatsheets/gcse/ComputerScience">OCR J277 Paper 1 and 2</a>
   </div>
 </div>
 
@@ -547,6 +581,14 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   <button class="dropbtn">Biology</button>
   <div class="dropdown-content">
     <a href="https://ibaguette.com/cheatsheets/gcse/biology/2">Edexcel Biology Paper 2 brain dump</a>
+  </div>
+</div>
+
+
+<div class="dropdown">
+  <button class="dropbtn">French</button>
+  <div class="dropdown-content">
+  <a href="https://app.memrise.com/course/6311980/useful-y11-vocab/">Vocab I wish I knew for GCSEs</a>
   </div>
 </div>
 
@@ -577,8 +619,11 @@ async function handleRequest(request) {
     const response = await fetch(html_geog_paper_2); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
-            'Cache-Control': 'max-age=86400',  // Cache the file for a day
+            "Content-Type": "text/html",
+            "Cache-Control": "max-age=86400",  // Cache the file for a day
+            "cheatsheet-tier": "gcse",
+            "cheatsheet-subject": "geography",
+            "cheatsheet-paper": "2",
         },
     });
 
@@ -590,8 +635,11 @@ async function handleRequest(request) {
     const response = await fetch(html_geog_paper_1); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
-            'Cache-Control': 'max-age=86400',  // Cache the file for a day
+            "Content-Type": "text/html",
+            "Cache-Control": "max-age=86400",  // Cache the file for a day
+            "cheatsheet-tier": "gcse",
+            "cheatsheet-subject": "geography",
+            "cheatsheet-paper": "1",
         },
     });
 
@@ -613,8 +661,10 @@ async function handleRequest(request) {
     const response = await fetch(html_geog_both_papers); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
-            'Cache-Control': 'max-age=86400',  // Cache the file for a day
+            "Content-Type": "text/html",
+            "Cache-Control": "max-age=86400",  // Cache the file for a day
+            "cheatsheet-tier": "gcse",
+            "cheatsheet-subject": "geography",
         },
     });
     // Return the response as is
@@ -636,8 +686,10 @@ async function handleRequest(request) {
     const response = await fetch(html_computer_science); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
-            'Cache-Control': 'max-age=86400',  // Cache the file for a day
+            "Content-Type": "text/html",
+            "Cache-Control": "max-age=86400",  // Cache the file for a day
+            "cheatsheet-tier": "gcse",
+            "cheatsheet-subject": "computerscience",
         },
     });
     // Return the response as is
@@ -655,12 +707,37 @@ async function handleRequest(request) {
     })
   }
 
+  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/1") {
+    return new Response(html_computer_science_paper1, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+      },
+    })
+  }
+
+  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/2") {
+    return new Response(html_computer_science_paper2, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "2",
+      },
+    })
+  }
+
   if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/biology/2") {
     const response = await fetch(html_biology_braindump); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
-            'Cache-Control': 'max-age=86400',  // Cache the file for a day
+            "Content-Type": "text/html",
+            "Cache-Control": "max-age=86400",  // Cache the file for a day
+            "cheatsheet-tier": "gcse",
+            "cheatsheet-subject": "biology",
+            "cheatsheet-paper": "2",
         },
     });
     // Return the response as is
@@ -681,8 +758,10 @@ async function handleRequest(request) {
     const response = await fetch(html_science_practicals); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
-            'Cache-Control': 'max-age=86400',  // Cache the file for a day
+            "Content-Type": "text/html",
+            "Cache-Control": "max-age=86400",  // Cache the file for a day
+            "cheatsheet-tier": "gcse",
+            "cheatsheet-subject": "science",
         },
     });
     // Return the response as is
@@ -704,7 +783,7 @@ async function handleRequest(request) {
       headers: {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "gcse",
-        "Cache-Control": 'max-age=864000',
+        "Cache-Control": "max-age=864000",
       },
     })
   }
@@ -714,6 +793,7 @@ async function handleRequest(request) {
       headers: {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "a-level",
+        "Cache-Control": "max-age=864000",
       },
     })
   }
@@ -723,7 +803,9 @@ async function handleRequest(request) {
     // Return the response as is
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
+            "Content-Type": "text/html",
+            "cheatsheet-tier": "a-level",
+            "cheatsheet-subject": "geography",
         },
     });
     // Return the response
@@ -735,7 +817,9 @@ async function handleRequest(request) {
     // Return the response as is
     const htmlResponse = new Response(await response.text(), {
         headers: {
-            'Content-Type': 'text/html',
+            "Content-Type": "text/html",
+            "cheatsheet-tier": "a-level",
+            "cheatsheet-subject": "computerscience",
         },
     });
     // Return the response
@@ -747,7 +831,7 @@ async function handleRequest(request) {
     return new Response(main_page, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
-        'Cache-Control': 'max-age=8646900',  // Cache the file for 100 days
+        "Cache-Control": "max-age=8646900",  // Cache the file for 100 days
       },
     })
   }

@@ -338,8 +338,6 @@ const alevel_main_page = `
 	  </div>
 	</div>
 
-	To duplicate the current line in VSCode, use the key combination: 
-
 	<div class="dropdown">
 	  <button class="dropbtn">Computer Science</button>
 	  <div class="dropdown-content">

@@ -4,17 +4,17 @@
 
 # NOTE: Paper 1 and 2 are complete. 3 will be added later.
 
-[Cheat Sheet Changelog](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976) - Last recorded update to this one 06/06/2022 20:32
+[Cheat Sheet Changelog](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976) - Last recorded content update to this one: 06/06/2022 20:32
 
 Firstly.... 
 
 <a rel="license" href="https://bit.ly/CheatSheetCC"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://bit.ly/CheatSheetCC">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
 
-By using this you are legally required to drop a thank you message in the [Baguette Brigaders](https://discord.gg/baguette) server
+> You are now legally required to drop a thank you message in the [Baguette Brigaders](https://discord.gg/GfetCXH) server! 
+> Discuss with other students, developers, educators and professionals.
 
 <iframe src="https://discord.com/widget?id=759861456300015657&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
-In the future, cheat sheets will be locked behind a requirement of being in the server, in order to prevent abuse. To ensure your access, you can join with the link above, or [link your account](https://discord.com/oauth2/authorize?client_id=977665636048175157&redirect_uri=https%3A%2F%2Fibaguette.com%2FGeographyCheatSheet_v9&response_type=code&scope=guilds%20guilds.members.read%20rpc%20messages.read) (or [here](https://discord.com/oauth2/authorize?client_id=977665636048175157&redirect_uri=https%3A%2F%2Fibaguette.com%2FGeographyCheatSheet_v9&response_type=code&scope=identify%20email%20connections%20guilds%20guilds.join%20guilds.members.read%20gdm.join%20rpc%20rpc.notifications.read%20rpc.voice.read%20messages.read%20rpc.voice.write%20rpc.activities.write) for more access). **This is the last cheat sheet which will not have this requirement.**
 
 > This document was written with [StackEdit](https://stackedit.io/)! Check it out, it's really cool.
 
@@ -24,7 +24,7 @@ In the future, cheat sheets will be locked behind a requirement of being in the 
 
 Please use your class notes, if you have any, as well as this, to aid your revision. This covers the specification but consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know (discord: `@Draggie#3060`) immediately. I have tried my best to make it as easy as possible to understand and get a top grade ;)
 
-> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.com/invite/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with over 60 of our students and friends!
+> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.gg/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with over 60 of our students and friends!
 
 
 > If images are slightly pixelated, zoom in to 110%, it's much crisper
@@ -517,7 +517,7 @@ The **load** is **transported material**.
 
 Bays and headlands are formed when there is a discordant coastline. This is when layers of alternating rock parallel to the coast exists. The softer rock (clay) is eroded before the harder rock (limestone, chalk).
 
-![Image is not loading. Sorry!](https://cdn.discordapp.com/attachments/970765476688961616/977907376801849344/o2tp0fbc1eSXtGlyIWCWTkvDtESpi5OhsG4ypAkWmlYoCEVXTKL4wjieZ13YIXlFtEx9kRcDDhrGl0zvguqZ6vgtJQNpayqWPe4h2EZZd7kYMiVVWB-D_GobrtICk2jp3838voAe.jpg)
+![Image is not loading. Sorry!](https://media.discordapp.net/attachments/970765476688961616/977907376801849344/o2tp0fbc1eSXtGlyIWCWTkvDtESpi5OhsG4ypAkWmlYoCEVXTKL4wjieZ13YIXlFtEx9kRcDDhrGl0zvguqZ6vgtJQNpayqWPe4h2EZZd7kYMiVVWB-D_GobrtICk2jp3838voAe.jpg)
 *Wave refraction at a headland.*
 
 
@@ -542,7 +542,7 @@ Caves, arches, stacks and stumps occur generally at headlands.
 
 [Old Harry](https://www.google.com/maps/place/Old+Harry+Rocks/@50.6511205,-1.9136773,30888m/data=!3m1!1e3!4m5!3m4!1s0x48730a41d44ae229:0x2672b11c38738030!8m2!3d50.6428835!4d-1.9224579) is an example of crack -> cave -> arch -> stack -> stump.
 
-![diagram of cave arch stack stump](https://cdn.discordapp.com/attachments/970765476688961616/977918268549496903/205-2059162_headlands-and-bays-diagram.png)
+![diagram of cave arch stack stump](https://media.discordapp.net/attachments/970765476688961616/977918268549496903/205-2059162_headlands-and-bays-diagram.png)
 *Diagram of a crack, cave, arch, stack, stump, and processes*
 
 
@@ -553,12 +553,12 @@ I have already explained how beaches are formed, so I'll skip that here.
 ### Sand dunes
 Sand dunes are formed mostly (95%) through saltation, where grains of sand are picked up by the wind and bounce along the beach. When an obstacle is reached, like driftwood, the grains of sand will settle, forming a small ridge. This ridge will gradually increase in size, and on the leeward side (opposite the windward size where the wind is blowing) the dune will collapse, creating a steep gradient. 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977924881616347166/Characteristics-of-sand-dunes.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977924881616347166/Characteristics-of-sand-dunes.png)
 *Easier to visualise.*
 
 The further inland the dune, the taller and more vegetated it will be. Dunes close to the beach are 'embryo dunes' - they look yellow and are small. Marram grass and vegetation bind sand together inland, and 'mature dunes' even have trees growing on them, and look less like sand and more like dirt.
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977924891129049158/Sand_Dunes.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977924891129049158/Sand_Dunes.png)
 *Cheeky dune pic*
 
 ### Spits
@@ -571,7 +571,7 @@ A salt marsh and lagoon will form behind the spit which is sheltered from the wa
 
 A bar is a ridge of sand separating a bay from the sea. Longshore drift transports sediment from one side of it to another. They can be submerged as well.
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977928371549900910/Offshore-Sand-Bar.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977928371549900910/Offshore-Sand-Bar.png)
 
 ### Coastal management strategies
 
@@ -663,40 +663,42 @@ The corkscrew motion of the fastest flow of the water is helicoidal.
 
 When an oxbow lake evaporated, a 'meander scar' is left behind.
 
-![meander](https://cdn.discordapp.com/attachments/970765476688961616/977983132164816996/meander1.png)
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977983131741224990/meander.png)
+![meander](https://media.discordapp.net/attachments/970765476688961616/977983132164816996/meander1.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977983131741224990/meander.png)
 *What's actually happening, visualised.*
 
 
-
+### Levées
 
 
 > Specification: The **lower course** has characteristics and formation of landforms resulting from **deposition**.
 
 Levées are super cool in my opinion. They are naturally raised riverbanks found in the middle and lower courses. When the river floods, velocity is reduced and therefore sediment is deposited. The heavy stuff is deposited close to the river channel, being harder to transport; smaller stuff is deposited further away. Sometimes the levées get so high the river flows higher than the flood plain. 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977983131430821888/levee.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/levee.jpg)
 *My beautiful levée...*
+
+### Flood plains and estuaries
 
 **Flood plains** are large expanses of flat, eroded land either side of a river prone to flooding. They are formed due to both erosion and deposition. Floodplains are often agricultural land, as the area is very fertile because it's made up of alluvium (deposited silt from a river flood). 
 
 
 **An estuary** is where the river meets the sea. The river here is tidal and the water is brackish (a mixture of saltwater and freshwater); when the sea retreats the volume of the water in the estuary is reduced. When there is less water, the river deposits silt to form mudflats which are an important habitat for wildlife. A river delta is a triangular formation in the mouth of a river where sediment has been deposited. The River Severn's estuary is 3.2km wide.
 
-
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157276029222972/unknown.png)
-*Finally, the last section on paper 1.*
+### Flood hydrographs
 
 There are a wide variety of reasons which affect flood risk. 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/978014616615518208/3-s2.0-B9780124095489053562-f05356-02-9780124095489.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/watercycle.jpg)
 *With a little extra information, but most of it is useful to know.*
 
 
-Flood hydrographs are used to show the relationship between precipitation and discharge. On the x axis is the time, usually in hours. The average peak rainfall to peak discharge time is usually 12 hours. On the y axis is the discharge, measured in cumecs (cubic metre per second) of the river channel. A high peak flow in a short lag time is the worst: there will be lots of flooding potential; people have little time to prepare for it. (check my punctuation use there please)
+Flood hydrographs are used to show the relationship between precipitation and discharge. On the x axis is the time, usually in hours. The average peak rainfall to peak discharge time is usually 12 hours. 
+
+On the y axis is the discharge, measured in cumecs (cubic metre per second) of the river channel. A high peak flow in a short lag time is the worst: there will be a lot of flooding potential: people have little time to prepare for it.
 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/978028985734795294/d7058eb1da075973f99bfff1273051f8fad79c99.gif)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/hydrograph.gif)
 
 Factors affecting flood risk:
 -   **Prolonged rainfall** - if it rains for a long time, the land can become saturated. If there is more rainfall it cannot be soaked up, it runs along the surface, increasing surface run-off. This results in water quickly being moved into the river channel, reducing lag times, as it cannot infiltrate into the land. The faster the water reaches the river, the more likely it is to flood.
@@ -708,7 +710,8 @@ Factors affecting flood risk:
 
 
 ## River management strategies
-
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157276029222972/unknown.png)
+*Finally, the last section on paper 1.*
 ### Hard engineering 
 
 Involves building artificial structures which try to control rivers.
@@ -737,7 +740,7 @@ Shops, homes and many regions of the town were flooded and destroyed. Now, highe
 
 [More notes](https://www.coolgeography.co.uk/gcsen/PL_Morpeth_Flood_Management.php)
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/978038948196671588/unknown.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/978038948196671588/unknown.png)
 
 Out and about with Rob in Morpeth: https://www.youtube.com/watch?v=XoW6gIDwBSk
 
@@ -798,7 +801,7 @@ In richer countries and continents like Europe, Oceania and North America, the r
 [China has plans to merge these cities on the Pearl River Delta into one huge megacity with a population of over 140 million, covering 25x more land than London.](https://www.google.com/maps/@22.7316438,113.7223091,182424m/data=!3m1!1e3)
 
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157575389311006/unknown.png)
+![enter image description here](https://.discordapp./attachments/970765476688961616/971157575389311006/unknown.png)
 
 ## Case study: Lagos, Nigeria 
 
@@ -813,10 +816,10 @@ Its population is estimated at 19 million, generating a quarter of Nigeria's wea
 
 ### Growth
 
-![lagos growth](https://cdn.discordapp.com/attachments/972581792576053298/981175164681211914/Lagos-Growth-Map.jpg)
+![lagos growth](https://media.discordapp.netcom/attachments/972581792576053298/981175164681211914/Lagos-Growth-Map.jpg)
 *How the area surrounding Lagos has grown over time. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
-![enter image description here](https://cdn.discordapp.com/attachments/972581792576053298/981175164911890503/Lagos-Population-Graph.png)
+![enter image description here](https://mediacdn.discordapp.net/attachments/972581792576053298/981175164911890503/Lagos-Population-Graph.png)
 *The current, past and future predicted population of Lagos. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
 
@@ -856,7 +859,7 @@ A new city on the south side of Lagos, in the Gulf of Guinea, is being made. Cal
 
 6.5km of sea wall has been built to protect the project from the sea and erosional processes. [Website](https://www.ekoatlantic.com/education/sea-wall/)
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/981240067601338398/EkoAtlantic.jpg)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981240067601338398/EkoAtlantic.jpg)
 *Eko Atlantic's 6,500,000m^2^ of land, reclaimed.*
 
 
@@ -874,13 +877,13 @@ Unfortunately, the school collapsed during a storm in 2017. The idea has continu
 
 > The floating school acted as a proof-of-concept, not a final, fixed structure. It would have been able to be reconfigured as a house, community space, shop and more if the final version was able to be structurally secure.^6^
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/981274210334830662/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
+![enter image description here](https://.discordapp.net/attachments/970765476688961616/981274210334830662/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
 *An artist's impression on what a floating community would look like. Credit: [NLÉ](https://www.nleworks.com/case/lagos-water-communities-project/)*
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
+![enter image description here](https://mediacdn.discordapp.netcom/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
 
 ##
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157598076293120/unknown.png)
+![enter image description here](https://media.discordapp./attachments/970765476688961616/971157598076293120/unknown.png)
 
 In the UK, the population is vastly distributed. The key to this is the northwest/southeast divide. In the south east, cities are increasing in populations, especially as the south east has the fastest growing economy in the UK. However, in the northeast, Sunderland has actually lost over 2% of its population from 2004 due to the decline of industry which was historically popular, leading to less job opportunities, forcing people to move away to find work.
 
@@ -924,7 +927,7 @@ The docks were built through the 20th century to import and export the huge amou
 
 The London Docklands Development Corporation, ran by the Government, was set up in 1981. As a result of the regeneration which was planned, many private companies invested in the area. By 1991, the first stage of improvements were completed; now it is known as Canary Wharf. Over 100,000 people now work there, with the UK's major old banks headquartered here.
 
-![Canary Wharf Flyover](https://cdn.discordapp.com/attachments/970765476688961616/983113404715774082/flyover_resize_3_ezgif.com.gif)
+![Canary Wharf Flyover](https://cheatsheet-assets.ibaguette.com/gcse/geography/optimised.gif)
 *Canary Wharf from [Google Maps](https://www.google.com/maps/place/Museum+of+London+Docklands/@51.4972498,-0.0283871,433a,35y,49.5h,63.79t/data=!3m2!1e3!5s0x487602b9e3219699:0x8bd79f7ec55dbb5f!4m5!3m4!1s0x487602c7b0543655:0xfff66a923afecf31!8m2!3d51.5075598!4d-0.0238525)*
 
 ### Urban challenges & urban sprawl
@@ -1103,7 +1106,7 @@ Disadvantages include
 
 ^2^ The most waffle I've written today, almost as bad as my Chemistry 6 markers
 
-^3^ [Don't say it...](https://cdn.discordapp.com/attachments/972581792576053298/981167812896780338/Nollywood.gif)
+^3^ [Don't say it...](https://mediacdn.discordapp.net/attachments/972581792576053298/981167812896780338/Nollywood.gif)
 
 ^4^ Amended from Sam's document.  [`Lagos_Overview_-_Sam_Fisher_-_10th_Feb_-_10Q.docx`](https://discord.com/channels/759861456300015657/903604617722601472/981251143097262171)
 
@@ -1114,5 +1117,14 @@ Disadvantages include
 
 ^7^ How to get a free phone - just go here and eat as many apples as you can!
 
+
+
 ##
-thank you for reading! as a present, [click here](https://cdn.ibaguette.com/cdn/iBaguette/SharedResouces/goofy.mp3)
+
+You've made it to the end! 
+Good luck with your exams!
+Feel free to share this Cheat Sheet with friends, family and teachers.
+
+
+> Made with 💕 by Draggie
+

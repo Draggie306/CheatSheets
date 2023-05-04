@@ -4,7 +4,7 @@
 
 # NOTE: Paper 1 and 2 are complete. 3 will be added later.
 
-[Cheat Sheet Changelog](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976) - Last recorded update to this one 06/06/2022 20:32
+[Cheat Sheet Changelog](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976) - Last recorded content update to this one: 06/06/2022 20:32
 
 Firstly.... 
 
@@ -47,6 +47,7 @@ To navigate this document, I'd strongly recommend viewing on a computer or table
 # Paper 1: Living with the physical environment
 
 # Section A: The challenge of natural hazards
+
 
 ## Natural hazards
 ![enter image description here](https://media.discordapp.net/attachments/785620979300302869/970757254083133490/Screenshot_2022-05-02_194213.png)
@@ -517,7 +518,7 @@ The **load** is **transported material**.
 
 Bays and headlands are formed when there is a discordant coastline. This is when layers of alternating rock parallel to the coast exists. The softer rock (clay) is eroded before the harder rock (limestone, chalk).
 
-![Image is not loading. Sorry!](https://cdn.discordapp.com/attachments/970765476688961616/977907376801849344/o2tp0fbc1eSXtGlyIWCWTkvDtESpi5OhsG4ypAkWmlYoCEVXTKL4wjieZ13YIXlFtEx9kRcDDhrGl0zvguqZ6vgtJQNpayqWPe4h2EZZd7kYMiVVWB-D_GobrtICk2jp3838voAe.jpg)
+![Image is not loading. Sorry!](https://media.discordapp.net/attachments/970765476688961616/977907376801849344/o2tp0fbc1eSXtGlyIWCWTkvDtESpi5OhsG4ypAkWmlYoCEVXTKL4wjieZ13YIXlFtEx9kRcDDhrGl0zvguqZ6vgtJQNpayqWPe4h2EZZd7kYMiVVWB-D_GobrtICk2jp3838voAe.jpg)
 *Wave refraction at a headland.*
 
 
@@ -542,7 +543,7 @@ Caves, arches, stacks and stumps occur generally at headlands.
 
 [Old Harry](https://www.google.com/maps/place/Old+Harry+Rocks/@50.6511205,-1.9136773,30888m/data=!3m1!1e3!4m5!3m4!1s0x48730a41d44ae229:0x2672b11c38738030!8m2!3d50.6428835!4d-1.9224579) is an example of crack -> cave -> arch -> stack -> stump.
 
-![diagram of cave arch stack stump](https://cdn.discordapp.com/attachments/970765476688961616/977918268549496903/205-2059162_headlands-and-bays-diagram.png)
+![diagram of cave arch stack stump](https://media.discordapp.net/attachments/970765476688961616/977918268549496903/205-2059162_headlands-and-bays-diagram.png)
 *Diagram of a crack, cave, arch, stack, stump, and processes*
 
 
@@ -553,12 +554,12 @@ I have already explained how beaches are formed, so I'll skip that here.
 ### Sand dunes
 Sand dunes are formed mostly (95%) through saltation, where grains of sand are picked up by the wind and bounce along the beach. When an obstacle is reached, like driftwood, the grains of sand will settle, forming a small ridge. This ridge will gradually increase in size, and on the leeward side (opposite the windward size where the wind is blowing) the dune will collapse, creating a steep gradient. 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977924881616347166/Characteristics-of-sand-dunes.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977924881616347166/Characteristics-of-sand-dunes.png)
 *Easier to visualise.*
 
 The further inland the dune, the taller and more vegetated it will be. Dunes close to the beach are 'embryo dunes' - they look yellow and are small. Marram grass and vegetation bind sand together inland, and 'mature dunes' even have trees growing on them, and look less like sand and more like dirt.
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977924891129049158/Sand_Dunes.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977924891129049158/Sand_Dunes.png)
 *Cheeky dune pic*
 
 ### Spits
@@ -571,7 +572,7 @@ A salt marsh and lagoon will form behind the spit which is sheltered from the wa
 
 A bar is a ridge of sand separating a bay from the sea. Longshore drift transports sediment from one side of it to another. They can be submerged as well.
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977928371549900910/Offshore-Sand-Bar.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977928371549900910/Offshore-Sand-Bar.png)
 
 ### Coastal management strategies
 
@@ -663,40 +664,42 @@ The corkscrew motion of the fastest flow of the water is helicoidal.
 
 When an oxbow lake evaporated, a 'meander scar' is left behind.
 
-![meander](https://cdn.discordapp.com/attachments/970765476688961616/977983132164816996/meander1.png)
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977983131741224990/meander.png)
+![meander](https://media.discordapp.net/attachments/970765476688961616/977983132164816996/meander1.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977983131741224990/meander.png)
 *What's actually happening, visualised.*
 
 
-
+### Levées
 
 
 > Specification: The **lower course** has characteristics and formation of landforms resulting from **deposition**.
 
 Levées are super cool in my opinion. They are naturally raised riverbanks found in the middle and lower courses. When the river floods, velocity is reduced and therefore sediment is deposited. The heavy stuff is deposited close to the river channel, being harder to transport; smaller stuff is deposited further away. Sometimes the levées get so high the river flows higher than the flood plain. 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/977983131430821888/levee.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/levee.jpg)
 *My beautiful levée...*
+
+### Flood plains and estuaries
 
 **Flood plains** are large expanses of flat, eroded land either side of a river prone to flooding. They are formed due to both erosion and deposition. Floodplains are often agricultural land, as the area is very fertile because it's made up of alluvium (deposited silt from a river flood). 
 
 
 **An estuary** is where the river meets the sea. The river here is tidal and the water is brackish (a mixture of saltwater and freshwater); when the sea retreats the volume of the water in the estuary is reduced. When there is less water, the river deposits silt to form mudflats which are an important habitat for wildlife. A river delta is a triangular formation in the mouth of a river where sediment has been deposited. The River Severn's estuary is 3.2km wide.
 
-
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157276029222972/unknown.png)
-*Finally, the last section on paper 1.*
+### Flood hydrographs
 
 There are a wide variety of reasons which affect flood risk. 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/978014616615518208/3-s2.0-B9780124095489053562-f05356-02-9780124095489.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/watercycle.jpg)
 *With a little extra information, but most of it is useful to know.*
 
 
-Flood hydrographs are used to show the relationship between precipitation and discharge. On the x axis is the time, usually in hours. The average peak rainfall to peak discharge time is usually 12 hours. On the y axis is the discharge, measured in cumecs (cubic metre per second) of the river channel. A high peak flow in a short lag time is the worst: there will be lots of flooding potential; people have little time to prepare for it. (check my punctuation use there please)
+Flood hydrographs are used to show the relationship between precipitation and discharge. On the x axis is the time, usually in hours. The average peak rainfall to peak discharge time is usually 12 hours. 
+
+On the y axis is the discharge, measured in cumecs (cubic metre per second) of the river channel. A high peak flow in a short lag time is the worst: there will be a lot of flooding potential: people have little time to prepare for it.
 
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/978028985734795294/d7058eb1da075973f99bfff1273051f8fad79c99.gif)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/hydrograph.gif)
 
 Factors affecting flood risk:
 -   **Prolonged rainfall** - if it rains for a long time, the land can become saturated. If there is more rainfall it cannot be soaked up, it runs along the surface, increasing surface run-off. This results in water quickly being moved into the river channel, reducing lag times, as it cannot infiltrate into the land. The faster the water reaches the river, the more likely it is to flood.
@@ -708,7 +711,8 @@ Factors affecting flood risk:
 
 
 ## River management strategies
-
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157276029222972/unknown.png)
+*Finally, the last section on paper 1.*
 ### Hard engineering 
 
 Involves building artificial structures which try to control rivers.
@@ -737,12 +741,19 @@ Shops, homes and many regions of the town were flooded and destroyed. Now, highe
 
 [More notes](https://www.coolgeography.co.uk/gcsen/PL_Morpeth_Flood_Management.php)
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/978038948196671588/unknown.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/978038948196671588/unknown.png)
 
 Out and about with Rob in Morpeth: https://www.youtube.com/watch?v=XoW6gIDwBSk
 
-
 ## 
 > That's the end! Paper 2 is also available if you want to see it, look around my site and you'll find it! Enjoy!
+
+
 ##
-thank you for reading! as a present, [click here](https://cdn.ibaguette.com/cdn/iBaguette/SharedResouces/goofy.mp3)
+
+You've made it to the end! 
+Good luck with your exams!
+Feel free to share this Cheat Sheet with friends, family and teachers.
+
+
+> Made with 💕 by Draggie

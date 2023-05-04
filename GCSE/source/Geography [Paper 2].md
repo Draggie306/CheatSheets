@@ -68,10 +68,10 @@ Its population is estimated at 19 million, generating a quarter of Nigeria's wea
 
 ### Growth
 
-![lagos growth](https://cdn.discordapp.com/attachments/972581792576053298/981175164681211914/Lagos-Growth-Map.jpg)
+![lagos growth](https://media.discordapp.net/attachments/972581792576053298/981175164681211914/Lagos-Growth-Map.jpg)
 *How the area surrounding Lagos has grown over time. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
-![enter image description here](https://cdn.discordapp.com/attachments/972581792576053298/981175164911890503/Lagos-Population-Graph.png)
+![enter image description here](https://media.discordapp.net/attachments/972581792576053298/981175164911890503/Lagos-Population-Graph.png)
 *The current, past and future predicted population of Lagos. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
 
@@ -111,17 +111,17 @@ A new city on the south side of Lagos, in the Gulf of Guinea, is being made. Cal
 
 6.5km of sea wall has been built to protect the project from the sea and erosional processes. [Website](https://www.ekoatlantic.com/education/sea-wall/)
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/981240067601338398/EkoAtlantic.jpg)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981240067601338398/EkoAtlantic.jpg)
 *Eko Atlantic's 6,500,000m^2^ of land, reclaimed.*
 
 
-### Urban planning for the urban poor (Makoko)
+### Case study: Urban planning for the urban poor (Makoko)
 
 The Nigerian government's goals are to attract private investors which will help them create a new city, creating highly-paid jobs and new, luxury homes. 
 
 Many of Makoko's tin and wooden houses are built on stilts. However, during the rain season, many buildings on land and low-lying areas are submerged, including the main school.
 
-Built in 2014, the Makoko Floating School is environmentally friendly, having photovoltaic solar panels, natural ventilation, green areas and a rainwater collection system. As it floats on 256 recycled plastic barrels, the platforms rise and fall with the sea level, futureproofing these structures against sea level rise, augmented by climate change.  Finally, there are several compost toilets, which is better for the environment as all sewage is usually thrown into the lagoon. (Makoko people eat the fish, so that's not good...)^4^
+Built in 2014, the Makoko Floating School is environmentally friendly, having photovoltaic solar panels, natural ventilation, green areas and a rainwater collection system. As ithey floats on 256 recycled plastic barrels, the platforms rise and fall with the sea level, futureproofing these structures against sea level rise, augmented by climate change.  Finally, there are several compost toilets, which is better for the environment as all sewage is usually thrown into the lagoon. (Makoko people eat the fish, so that's not good...) ^4^
 
 The school can hold up to 100 students with 4 classrooms and 2 workshops on the upper storey, and a communal, open space on the lower level. In total, there is 100m^2^ of space. Its triangular shape and low centre of gravity helps keep the structure stable.
 
@@ -129,11 +129,12 @@ Unfortunately, the school collapsed during a storm in 2017. The idea has continu
 
 > The floating school acted as a proof-of-concept, not a final, fixed structure. It would have been able to be reconfigured as a house, community space, shop and more if the final version was able to be structurally secure.^6^
 
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/981274210334830662/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981274210334830662/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
 *An artist's impression on what a floating community would look like. Credit: [NLÉ](https://www.nleworks.com/case/lagos-water-communities-project/)*
-![enter image description here](https://cdn.discordapp.com/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
 
 ##
+## UK Cities
 
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157598076293120/unknown.png)
 
@@ -141,7 +142,7 @@ In the UK, the population is vastly distributed. The key to this is the northwes
 
 > In London, the population density can be up to 5000/km^2^. In contrast, northern Scotland has a population density of less than 10/km^2^!
 
-## Case study: London
+### Case study: London
 
 London is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
 
@@ -179,7 +180,7 @@ The docks were built through the 20th century to import and export the huge amou
 
 The London Docklands Development Corporation, ran by the Government, was set up in 1981. As a result of the regeneration which was planned, many private companies invested in the area. By 1991, the first stage of improvements were completed; now it is known as Canary Wharf. Over 100,000 people now work there, with the UK's major old banks headquartered here.
 
-![Canary Wharf Flyover](https://cdn.discordapp.com/attachments/970765476688961616/983113404715774082/flyover_resize_3_ezgif.com.gif)
+![Canary Wharf Flyover](https://cheatsheet-assets.ibaguette.com/gcse/geography/optimised.gif)
 *Canary Wharf from [Google Maps](https://www.google.com/maps/place/Museum+of+London+Docklands/@51.4972498,-0.0283871,433a,35y,49.5h,63.79t/data=!3m2!1e3!5s0x487602b9e3219699:0x8bd79f7ec55dbb5f!4m5!3m4!1s0x487602c7b0543655:0xfff66a923afecf31!8m2!3d51.5075598!4d-0.0238525)*
 
 ### Urban challenges & urban sprawl
@@ -351,14 +352,41 @@ Disadvantages include
 > Temperatures in the area have dropped by 0.3^o^C in the area as the greenhouses are white and reflect sunlight!
 
 
+As a result from high levels of migration from the 19th Century, many from major British colonies like India and Nigeria, London is only made up of 45% White British nationals, and 37% not being born in the UK. Furthermore, its population is also larger and younger than any other UK city. This is because young(er) people from 20-40 like university students move to London for better job opportunities, spurred on by higher pay due to the higher cost of living. These younger people are also more likely to have children, contributing to higher natural increase, while migration itself is fairly low now. After Brexit, the restriction of free movement within the EU will most likely lower this migration trend even further in the UK.
+> Because of high migration and a diverse community, London is seen as a  'melting pot' for cultures. Entrepreneurs are more likely to create diverse shops to account for this, such as halal butchers, and services are also more likely to accommodate these different cultures, for example mosques.
 
+### Shoreditch, London
+
+
+
+
+
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157620822007908/unknown.png)
+
+
+
+
+# Section C: The challenge of resource management
+
+In this section, students are required to study  [Resource management](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Resource_management_1_2_3_1)  and  **one**  from  [Food](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Food_1_2_3_2)  or  [Water](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Water_1_2_3_3)  or  [Energy](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Energy_1_2_3_4).
+
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159119492943902/unknown.png)
+*You need to learn about all of them as an overview, and food in more detail*
+
+
+
+
+
+
+## Food
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159146554613820/unknown.png)
 
 ## Footnotes
 ^1^ I'm saying London here as, although it's not (currently) a megacity, it's always been a significant trading hub and economic powerhouse for the UK and globally.
 
 ^2^ The most waffle I've written today, almost as bad as my Chemistry 6 markers
 
-^3^ [Don't say it...](https://cdn.discordapp.com/attachments/972581792576053298/981167812896780338/Nollywood.gif)
+^3^ [Don't say it...](https://media.discordapp.net/attachments/972581792576053298/981167812896780338/Nollywood.gif)
 
 ^4^ Amended from Sam's document.  [`Lagos_Overview_-_Sam_Fisher_-_10th_Feb_-_10Q.docx`](https://discord.com/channels/759861456300015657/903604617722601472/981251143097262171)
 
@@ -369,5 +397,12 @@ Disadvantages include
 
 ^7^ How to get a free phone - just go here and eat as many apples as you can!
 
+
 ##
-thank you for reading! as a present, [click here](https://cdn.ibaguette.com/cdn/iBaguette/SharedResouces/goofy.mp3)
+
+You've made it to the end! 
+Good luck with your exams!
+Feel free to share this Cheat Sheet with friends, family and teachers.
+
+
+> Made with 💕 by Draggie

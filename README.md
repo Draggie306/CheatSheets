@@ -2,22 +2,35 @@
 Markdown (and other) Cheat Sheets for various subjects hosted on [iBaguette.com/cheatsheets](https://ibaguette.com/cheatsheets)!
 Currently includes
 
-- GCSE
- - Computer Science (OCR J277) - Paper 1 and 2
- - Geography (AQA) - Paper 1 and 2
- - Biology (Edexcel) - Paper 2 *notes*
- - Science Practicals (Edexcel) - Biology and Chemistry
-
-- A level
- - Computer Science (OCR) - Paper 1
- - Geography (OCR) - Paper 1
- - French (Eduqas) - *Notes and resources*
- - Maths (OCR) - by another contributor
- - Physics (OCR) - by another contributor
- - Chemistry (OCR) - by another contributor
- - Business (AQA) - *work in progress*
- - Economics (AQA) - *work in progress*
- - EPQ (AQA) - *work in progress*
+-   GCSE
+    
+	-   Computer Science (OCR J277) - Paper 1 and 2
+    
+	-   Geography (AQA) - Paper 1 and 2
+    
+	-   Biology (Edexcel) - Paper 2  _notes_
+    
+	-   Science Practicals (Edexcel) - Biology and Chemistry
+    
+-   A level
+    
+	-   Computer Science (OCR) - Paper 1
+    
+	-   Geography (OCR) - Paper 1
+    
+	-   French (Eduqas) -  _Notes and resources_
+    
+	-   Maths (OCR) - by another contributor
+    
+	-   Physics (OCR) - by another contributor
+    
+	-   Chemistry (OCR) - by another contributor
+    
+	-   Business (AQA) -  _work in progress_
+    
+	-   Economics (AQA) -  _work in progress_
+    
+	-   EPQ (AQA) -  _work in progress_
  
 # Where do I see them?
 

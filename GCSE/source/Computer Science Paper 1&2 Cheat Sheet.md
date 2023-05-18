@@ -5,7 +5,13 @@
 
 # Ah yes computer science!
 
-[Cheat Sheet Changelog](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976) - Last recorded content update to this one: 24/05/2022 21:53:27
+[Last content update: 18/04/2023 23:00](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
+
+Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
+
+> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
+> (Thank you messages are also appreciated, you might get featured!)
 
 
 Firstly…
@@ -13,11 +19,10 @@ Firstly…
 [![Creative Commons License](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](https://bit.ly/CheatSheetCC)  
 This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](https://bit.ly/CheatSheetCC). I guess you could say it's *open source*... see below...
 
-By using this you are legally required to drop a thank you message in [Baguette Brigaders](https://discord.gg/GfetCXH). Click to join the Discord server!
 
 > This document was written with [StackEdit](https://stackedit.io/)! Check it out, it’s really cool.
 
-## READ ME PLEASE THANKS
+## READ THIS FIRST:
 
 Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the useful stuff which I think will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
 
@@ -32,16 +37,18 @@ J277/01: This component will assess:
 • 1.5 Systems software  
 • 1.6 Ethical, legal, cultural and environmental impacts of digital technology
 
-## ADVANCE INFO FOR 2022
-
-![advance info in a table](https://media.discordapp.net/attachments/903604617722601472/970093669409493052/unknown.png)  
-_In short: learning everything is a good idea - it’s fairly simple to understand and just use your common sense for most things_
+• 2.1 – Algorithms
+• 2.2 – Programming fundamentals
+• 2.3 – Producing robust programs
+• 2.4 – Boolean logic
+• 2.5 – Programming languages and Integrated Development Environments
 
 ## ABOUT ME
 
 For ease of access, I’ve written this in a way designed to be read smoothly across any device, called Markdown. It’s easy to navigate and should look nice to read. To skip to areas you are weak on, I’d recommend using the side bar on the left - you may need to open in desktop site or read on a computer to quickly skip between parts.
 
 Anyway, without waiting much longer, let’s start with…
+
 
 # Paper 1
 
@@ -218,7 +225,6 @@ Text file size = bits per character x number of characters
 
 ## 1.2.4 Data storage
 
-*Advance information: All below will be assessed.*
 
 ![data storage 1](https://media.discordapp.net/attachments/972581792576053298/972581794857775154/unknown.png)
 ![data storage 2](https://media.discordapp.net/attachments/972581792576053298/975154263745495041/1.2.4_Data_storage__part_of_1.2_Memory_and_Storage.png)
@@ -326,17 +332,26 @@ Resolution is used to describe how densely packed the pixels are. A high resolut
 
 Files contain extra data called metadata. Metadata includes data about the file itself, such as file type, date created, author, geolocation and camera.
 
-An image file also includes metadata about the image data itself, such as the height and width of the image, the resolution and the colour depth
+An image file also includes **metadata** about the image data itself, such as the height and width of the image, the resolution and the colour depth. This allows for software to more easily  interpret and decode the image file correctly, and output it to a monitor, for example.
 
 
 ### Sound
 
-Sample rate is the number of samples recorded in a second.  It is measured in hertz. The higher the sample rate, the closer the recorded digital signal is to the original, analogue sound. AN audio file is usually recorded at 44.1KHz which is a compromise between low file size and high quality. (All my videos are rendered at 96KHz for the best quality 😉)
+Sample rate is the number of samples recorded in a second.  It is measured in hertz. The higher the sample rate, the closer the recorded digital signal is to the original, analogue sound. An audio file on a CD is usually recorded at 44.1KHz which is a compromise between low file size and high quality.
 
 Bit depth is the number of bits used to record each sample. The higher the bit depth, the more accurately the sound can be recorded but the higher the file size. 
 
 Bit rate is the amount of data processed per second. It is calculated by sample rate x bit depth, and is in bits per second. Higher bit rate = higher quality sound, and also the file size.
 
+#### Recording sound
+
+To record an audio file, analogue sound must first be captured by an input device, like a microphone, and then converted into a digital file to store on a computer. 
+
+Firstly, the microphone picks up sound and converts it into an electrical signal. This is then used by the ADC (analogue-digital converter, typically located in a system's sound card) and sampled at regular intervals which directly represent the sound wave's traits, such as amplitude. 
+
+This is represented as a binary sequence called Pulse Code Modulation (PCM), and saved to a file. The raw data of the converted signal is uncompressed (using WAV/FLAC/AIFF formats). 
+
+When the file is read, the binary PCM sequence is passed through the DAC (digital-analogue converter) which uses the data to reconstruct an analogue waveform, as close to the original as possible. This analog signal is then amplified and sent to speakers, which vibrate based on these analog signals, creating audible sound waves.
 
 
 ## 1.2.5 Compression
@@ -351,12 +366,13 @@ Examples of lossy compression include JPEG, MPEG (or MP4) and MP3 files.
 
 ### Lossless compression
 
-For other files, data cannot be lost, like texts. Files need to be reduced in size without the loss of data. WAV audio files or PNG image files are examples of lossless formats. However, lossless files are bigger than lossy, even when compressed.
+For other files, data cannot be lost, like texts. Files need to be reduced in size without the loss of data. WAV audio files or PNG image files are examples of lossless formats. However, lossless files are bigger than lossy, even when compressed. 
 
 For example, a binary representation of `000000111100110000000111111` can be represented as 604121217161. (because there's 6 zeroes, 4 ones, 2 zeroes etc)
 
 This would reduce the file from 27 bytes to 12 bytes. A reduction of over 60%!
 
+> Lossless formats preserve every single detail, no matter how small, which 'costs' a lot in file size.
 
 # 1.3 Networks, connections and protocols
 
@@ -499,18 +515,19 @@ Layering means the breakdown of the sending of messages into separate components
 ![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154737563455498/1.4_and_1.4.1_Network_Security_-_threats_to_systems_and_networks.png)
 
 ### Malware
-Umbrella term for malicious software designed to compromise a system.
+Malware is an umbrella term for malicious software designed to compromise a system.
 
-Viruses - often in another file. When ran, they replicate and can spread throughout a network. They usually delete or modify other data, including personal documents or critical system files. Can upload your files to a server.
+**Viruses** - often in another file. When ran, they replicate and can spread throughout a network. They usually delete or modify other data, including personal documents or critical system files. Can upload your files to a server.
 
-Worms - the same as viruses but are not hidden - often distributed through emails
+**Worms** - similar to viruses with the ability to replicate and spread, but are often completely standalone programs which exploit vulnerabilities in a system, not requiring a host file. Typically distributed by emails. They may not initially damage systems, but try and spread rapidly to other systems.
 
-Trojans - a malicious application pretending to be a useful application. A user must run it to spread.
+**Trojans** - a malicious application pretending to be a useful application. A user must run it to spread.
 
-Spyware - monitor a user's activities and sends them back to a server. This could include websites visited, passwords, usernames and applications opened
-> Adware is the same as this but used to serve more relevant ads to a user. Very common on mobile devices. My dad even had some adware on his iPhone lol. Safari (even private) bad for privacy.
+**Spyware** - monitor a user's activities and sends them back to a server. This could include websites visited, passwords, usernames and applications opened. This can  then be used by advertising agencies to market more targeted ads to a user.
 
-Ransomware - arguably the worst type of malware. Encrypt documents, and require a ransom payment, usually Bitcoins, to decrypt the data. Often will delete data after a certain time if not paid. Often won't decrypt the data even if paid. Usually deletes copies of data and locks the system by taking over how the system boots. Very easily spreads through the network if ran as administrator. (user access levels useful here!)
+> Adware is the same as this but used to serve more relevant ads to a user. Becoming more common on mobile devices.
+
+**Ransomware** - arguably the worst type of malware. Encrypt documents, and require a ransom payment such as Bitcoin (due to its anonymity), to decrypt the data. Often will delete data after a certain time if not paid. Often won't decrypt the data even if paid. Usually deletes copies of data and locks the system by taking over how the system boots. Very easily spreads through the network if ran as administrator. (user access levels useful here!)
 
 
 ### Social engineering

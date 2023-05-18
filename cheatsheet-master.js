@@ -706,8 +706,9 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/1") {
-    return new Response(html_computer_science_paper1, {
+  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/paper1") {
+    const response = await fetch(html_computer_science_paper1); // get html from github server
+    return new Response(await response.text(), {
       headers: {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "gcse",
@@ -717,8 +718,9 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/2") {
-    return new Response(html_computer_science_paper2, {
+  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/paper2") {
+    const response = await fetch(html_computer_science_paper2); // get html from github server
+    return new Response(await response.text(), {
       headers: {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "gcse",

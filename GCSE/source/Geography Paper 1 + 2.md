@@ -1,50 +1,47 @@
-﻿
+﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 # AQA Geography
 
 # NOTE: Paper 1 and 2 are complete. 3 will be added later.
 
-[Cheat Sheet Changelog](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976) - Last recorded content update to this one: 06/06/2022 20:32
+[Last content update: 20/05/2023 22:25](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-Firstly.... 
+✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
-<a rel="license" href="https://bit.ly/CheatSheetCC"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://bit.ly/CheatSheetCC">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-> You are now legally required to drop a thank you message in the [Baguette Brigaders](https://discord.gg/GfetCXH) server! 
-> Discuss with other students, developers, educators and professionals.
+> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
+> (Thank you messages are also appreciated, you might get featured too!)
 
-<iframe src="https://discord.com/widget?id=759861456300015657&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-
-
-> This document was written with [StackEdit](https://stackedit.io/)! Check it out, it's really cool.
-
-## READ ME PLEASE THANKS
+## READ ME:
 
 > Want dark mode? Install the [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en) chrome extension! It works very well on any site, including these cheat sheets!
 
 Please use your class notes, if you have any, as well as this, to aid your revision. This covers the specification but consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know (discord: `@Draggie#3060`) immediately. I have tried my best to make it as easy as possible to understand and get a top grade ;)
 
-> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.gg/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with over 60 of our students and friends!
+I did get a grade 9 in the 2022 exam series, and I did get people coming out of the exam room thanking me for especially the case studies.
 
+More specifically, here were my exact marks if you're interested:
+
+> Paper 1: 68/88 [77% - 1 mark/1% above Grade 9, too close!]
+Paper 2: 81.02/88  [92% - 13 marks/15% above Grade 9] (scaled mark)
+Paper 3: 65.14/76 [86% - 7 marks/10% above Grade 9] (scaled mark) 
+Total: 214 [85% - 21 marks/8% above Grade 9]
+
+I prefer Paper 1/physical geography, but get better marks in human geography... lol
+
+> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.gg/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with 100+ students, developers, educators and professionals.
 
 > If images are slightly pixelated, zoom in to 110%, it's much crisper
 
-To navigate this document, I'd strongly recommend viewing on a computer or tablet. On the left, you will be able to skip to sections of higher interest, like case studies, with one click.
 
 ### **This cheat sheet covers *all* of the specification for all 3 papers**
 ... so there's quite a lot
 
-## CHANGES FOR 2022
-
-[AQA's wording](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/changes-for-2022):
-
--   Optionality introduced for Paper 2
--   Fieldwork not required
--   Familiar fieldwork questions removed from Paper 3
--   No advance information on exams
--   There are no changes to Paper 1: Living with the physical environment *(so I've put a lot of detail in!)*
 
 # Paper 1: Living with the physical environment
+
+For 2022, there were no changes to Paper 1, so I've put an absolute ton of detail in!
 
 # Section A: The challenge of natural hazards
 
@@ -661,7 +658,7 @@ The corkscrew motion of the fastest flow of the water is helicoidal.
 
 #### [I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you lol](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
 
-When an oxbow lake evaporated, a 'meander scar' is left behind.
+When an oxbow lake evaporates, a 'meander scar' is left behind.
 
 ![meander](https://media.discordapp.net/attachments/970765476688961616/977983132164816996/meander1.png)
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977983131741224990/meander.png)
@@ -744,36 +741,24 @@ Shops, homes and many regions of the town were flooded and destroyed. Now, highe
 
 Out and about with Rob in Morpeth: https://www.youtube.com/watch?v=XoW6gIDwBSk
 
+## Glacial landscapes in the UK
 
+As I took the exams in 2022 with optionality, I did not have time or any notes to write up things to learn about the Glaciation GCSE unit.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/gcse%20glaciation.png)
+*Here's what the specification says.*
+
+
+HOWEVER, notice how I said the glaciation **GCSE** unit. Luckily, I love Geography and so am currently doing an A level in it, and glaciation just so happens to be one of the physical units.
+
+To view the A level cheat sheet with glaciation information on, as well as to perhaps get a taste for the A level in general, go to [this iBaguette cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all#option-b-%E2%80%93-glaciated-landscapes). 
+
+Note: it contains huge amounts of much more detailed information compared to what you need to know. You can skim read and search through it to find the relevant information.
 
 # Paper 2: Challenges in the human environment
 
-### i have finally completed it
-#### thank you
-##### now say thanks :)
-###### you must get good grades now
 
-btw not everything is 100% covered in detail but 95% of the specification is 1:1 matched
-
-
-### **[NOTICE FROM AQA](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/changes-for-2022)**
-
-Optionality will be introduced into 8035/2 Paper 2: Challenges in the human environment.
-
--   Students must answer  **all** questions in Section A: Urban issues,
--   They will then choose to answer  **either** Section B: The changing economic world or Section C: The challenge of resource management.
--   The total time allocation for Paper 2 will be reduced from 1 hour 30 minutes to 1 hour 15 minutes.
--   A total of  **5 marks** will be introduced to **Section C**. These marks could appear anywhere in Section C.
--   In Section B, the  **9-mark** question will be replaced with a  **6-mark question**. To keep the  **total of 30 marks**,  **3 marks** will be introduced  **elsewhere in Section B**.
--   The total marks for Paper 2 will be reduced from 88 marks to 63 marks (a removal of 25 marks).
--   Sections B and C will now have equal weighting worth 30 marks each.
--   The highest tariff question in both Section B and C will be 6 marks.
--   There are 3 spelling, punctuation and grammar (SPaG) marks that will appear in the 9-mark question at the end of Section A.
-
-If students choose to answer Section C the normal rubric will apply, where students must answer question 3 and  **one**  of questions 4, 5 or 6 (food, water or energy).
-
-## 
-**tl; dr:** there's a 9+3 marker in Urban issues, and there's only going to be 6 markers in food/resource management. don't answer changing economic world. don't answer water and energy.
+**As a reminder: not everything is 100% covered in detail, but 95% of the specification *is* 1:1 matched here.**
 
 
 # Section A: Urban issues and challenges
@@ -801,7 +786,7 @@ In richer countries and continents like Europe, Oceania and North America, the r
 [China has plans to merge these cities on the Pearl River Delta into one huge megacity with a population of over 140 million, covering 25x more land than London.](https://www.google.com/maps/@22.7316438,113.7223091,182424m/data=!3m1!1e3)
 
 
-![enter image description here](https://.discordapp./attachments/970765476688961616/971157575389311006/unknown.png)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157575389311006/unknown.png)
 
 ## Case study: Lagos, Nigeria 
 
@@ -816,10 +801,10 @@ Its population is estimated at 19 million, generating a quarter of Nigeria's wea
 
 ### Growth
 
-![lagos growth](https://media.discordapp.netcom/attachments/972581792576053298/981175164681211914/Lagos-Growth-Map.jpg)
+![lagos growth](https://media.discordapp.net/attachments/972581792576053298/981175164681211914/Lagos-Growth-Map.jpg)
 *How the area surrounding Lagos has grown over time. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
-![enter image description here](https://mediacdn.discordapp.net/attachments/972581792576053298/981175164911890503/Lagos-Population-Graph.png)
+![enter image description here](https://media.discordapp.net/attachments/972581792576053298/981175164911890503/Lagos-Population-Graph.png)
 *The current, past and future predicted population of Lagos. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
 
@@ -863,7 +848,7 @@ A new city on the south side of Lagos, in the Gulf of Guinea, is being made. Cal
 *Eko Atlantic's 6,500,000m^2^ of land, reclaimed.*
 
 
-### Urban planning for the urban poor (Makoko)
+### Makoko - urban planning for the urban poor (example)
 
 The Nigerian government's goals are to attract private investors which will help them create a new city, creating highly-paid jobs and new, luxury homes. 
 
@@ -877,21 +862,21 @@ Unfortunately, the school collapsed during a storm in 2017. The idea has continu
 
 > The floating school acted as a proof-of-concept, not a final, fixed structure. It would have been able to be reconfigured as a house, community space, shop and more if the final version was able to be structurally secure.^6^
 
-![enter image description here](https://.discordapp.net/attachments/970765476688961616/981274210334830662/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981274210334830662/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
 *An artist's impression on what a floating community would look like. Credit: [NLÉ](https://www.nleworks.com/case/lagos-water-communities-project/)*
-![enter image description here](https://mediacdn.discordapp.netcom/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
 
-##
 
-![enter image description here](https://media.discordapp./attachments/970765476688961616/971157598076293120/unknown.png)
+## Case study: London
+
+![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157598076293120/unknown.png)
 
 In the UK, the population is vastly distributed. The key to this is the northwest/southeast divide. In the south east, cities are increasing in populations, especially as the south east has the fastest growing economy in the UK. However, in the northeast, Sunderland has actually lost over 2% of its population from 2004 due to the decline of industry which was historically popular, leading to less job opportunities, forcing people to move away to find work.
 
 > In London, the population density can be up to 5000/km^2^. In contrast, northern Scotland has a population density of less than 10/km^2^!
 
-## Case study: London
 
-London is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
+**London** is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
 
 > **Gentrification** is the term used to describe the prices of rising house prices in an area as a result of higher wages and more modern amenities.
 
@@ -992,8 +977,6 @@ However, many materials for the park were sourced from overseas, whilst the game
 
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157620822007908/unknown.png)
 
-Sussy urban living in East Village (again around the Olympic area). 
-
 Local bus and transport services connect to the London Underground, as well as Europe. Residents in the East Village pay extra for car parking places, encouraging cycling and walking. 
 
 Water is 50% less used than other urban areas, achieved by water recycling. Rainwater is recycled and filtered through ponds before being used for toilet flushing and irrigation. Green roofs on buildings also slow down rates of drainage, mitigating flood risk, and allowing more water to be used for irrigation or other conservation systems.  (Drinking water is different!)
@@ -1009,7 +992,7 @@ Green spaces have also been created. There are green roofs on apartments blocks,
 In this section, students are required to study  [Resource management](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Resource_management_1_2_3_1)  and  **one**  from  [Food](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Food_1_2_3_2)  or  [Water](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Water_1_2_3_3)  or  [Energy](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Energy_1_2_3_4).
 
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159119492943902/unknown.png)
-*You need to learn about all of them as an overview, and food in more detail*
+*You need to learn about **all of them as an overview**, but **only one in particular** in more detail.*
 
 Simply put, the more availability to food, water and energy a country has, the better the citizens' well-beings are. 
 
@@ -1027,7 +1010,7 @@ Food:
 Water:
 
 -   There is a changing demand for water in the UK. In northern areas, there is a high supply of water but low demand for it - the population density is low, with there only being a few cities. The reason why there is a lot of water here is because there is a lot orographic rainfall (mountains). In the south and southeast, there are low levels of waterfall and high levels of water stress, so transfer schemes are in place like dams and reservoirs on rivers to allow water to be moved from areas of water surplus to areas of water deficit - usually pumped.
-> The average person uses 150 litres of water in the UK
+> The average person uses 150 litres of water in the UK per day
 
 -   This can only be done if the water quality is high and pollution is managed - toxic waste can poison wildlife, and eutrophication can kill plants due to plant life building up so much in the river or lake, reducing oxygen levels, suffocating the animals. Raw sewage and other waste must be treated at a treatment plant. It can also be managed by legislation, education campaigns, pollution traps and green roofs and walls.
 
@@ -1098,15 +1081,19 @@ Disadvantages include
 
 > Temperatures in the area have dropped by 0.3^o^C in the area as the greenhouses are white and reflect sunlight!
 
+### [tbd] Example of a local scheme an LIC/NEE
+
+This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specificaiton, for information which I managed to remember. 
+
+Despite everyone else betting that it wouldn't come up in the exam, it was a 6 marker in the 2022 exam series. Good luck! 
 
 
-
-## Footnotes
+# Footnotes
 ^1^ I'm saying London here as, although it's not (currently) a megacity, it's always been a significant trading hub and economic powerhouse for the UK and globally.
 
 ^2^ The most waffle I've written today, almost as bad as my Chemistry 6 markers
 
-^3^ [Don't say it...](https://mediacdn.discordapp.net/attachments/972581792576053298/981167812896780338/Nollywood.gif)
+^3^ [Don't say it...](https://media.discordapp.net/attachments/972581792576053298/981167812896780338/Nollywood.gif)
 
 ^4^ Amended from Sam's document.  [`Lagos_Overview_-_Sam_Fisher_-_10th_Feb_-_10Q.docx`](https://discord.com/channels/759861456300015657/903604617722601472/981251143097262171)
 

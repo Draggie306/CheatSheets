@@ -1,32 +1,17 @@
-﻿# Paper 2: Challenges in the human environment
+﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
-### i have finally completed it
-#### thank you
-##### now say thanks :)
-###### you must get good grades now
+# Paper 2: Challenges in the human environment
 
-btw not everything is 100% covered in detail but 95% of the specification is 1:1 matched
+[Last content update: 20/05/2023 22:06](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
+✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
-### **[NOTICE FROM AQA](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/changes-for-2022)**
+Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-Optionality will be introduced into 8035/2 Paper 2: Challenges in the human environment.
+> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
+> (Thank you messages are also appreciated, you might get featured too!)
 
--   Students must answer  **all** questions in Section A: Urban issues,
--   They will then choose to answer  **either** Section B: The changing economic world or Section C: The challenge of resource management.
--   The total time allocation for Paper 2 will be reduced from 1 hour 30 minutes to 1 hour 15 minutes.
--   A total of  **5 marks** will be introduced to **Section C**. These marks could appear anywhere in Section C.
--   In Section B, the  **9-mark** question will be replaced with a  **6-mark question**. To keep the  **total of 30 marks**,  **3 marks** will be introduced  **elsewhere in Section B**.
--   The total marks for Paper 2 will be reduced from 88 marks to 63 marks (a removal of 25 marks).
--   Sections B and C will now have equal weighting worth 30 marks each.
--   The highest tariff question in both Section B and C will be 6 marks.
--   There are 3 spelling, punctuation and grammar (SPaG) marks that will appear in the 9-mark question at the end of Section A.
-
-If students choose to answer Section C the normal rubric will apply, where students must answer question 3 and  **one**  of questions 4, 5 or 6 (food, water or energy).
-
-## 
-**tl; dr:** there's a 9+3 marker in Urban issues, and there's only going to be 6 markers in food/resource management. don't answer changing economic world. don't answer water and energy.
-
+As a reminder: not everything is 100% covered in detail, but 95% of the specification *is* 1:1 matched here.
 
 # Section A: Urban issues and challenges
 
@@ -115,13 +100,13 @@ A new city on the south side of Lagos, in the Gulf of Guinea, is being made. Cal
 *Eko Atlantic's 6,500,000m^2^ of land, reclaimed.*
 
 
-### Case study: Urban planning for the urban poor (Makoko)
+### Makoko - urban planning for the urban poor (example)
 
 The Nigerian government's goals are to attract private investors which will help them create a new city, creating highly-paid jobs and new, luxury homes. 
 
 Many of Makoko's tin and wooden houses are built on stilts. However, during the rain season, many buildings on land and low-lying areas are submerged, including the main school.
 
-Built in 2014, the Makoko Floating School is environmentally friendly, having photovoltaic solar panels, natural ventilation, green areas and a rainwater collection system. As ithey floats on 256 recycled plastic barrels, the platforms rise and fall with the sea level, futureproofing these structures against sea level rise, augmented by climate change.  Finally, there are several compost toilets, which is better for the environment as all sewage is usually thrown into the lagoon. (Makoko people eat the fish, so that's not good...) ^4^
+Built in 2014, the Makoko Floating School is environmentally friendly, having photovoltaic solar panels, natural ventilation, green areas and a rainwater collection system. As it floats on 256 recycled plastic barrels, the platforms rise and fall with the sea level, futureproofing these structures against sea level rise, augmented by climate change.  Finally, there are several compost toilets, which is better for the environment as all sewage is usually thrown into the lagoon. (Makoko people eat the fish, so that's not good...)^4^
 
 The school can hold up to 100 students with 4 classrooms and 2 workshops on the upper storey, and a communal, open space on the lower level. In total, there is 100m^2^ of space. Its triangular shape and low centre of gravity helps keep the structure stable.
 
@@ -133,8 +118,8 @@ Unfortunately, the school collapsed during a storm in 2017. The idea has continu
 *An artist's impression on what a floating community would look like. Credit: [NLÉ](https://www.nleworks.com/case/lagos-water-communities-project/)*
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
 
-##
-## UK Cities
+
+## Case study: London
 
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157598076293120/unknown.png)
 
@@ -142,9 +127,8 @@ In the UK, the population is vastly distributed. The key to this is the northwes
 
 > In London, the population density can be up to 5000/km^2^. In contrast, northern Scotland has a population density of less than 10/km^2^!
 
-### Case study: London
 
-London is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
+**London** is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
 
 > **Gentrification** is the term used to describe the prices of rising house prices in an area as a result of higher wages and more modern amenities.
 
@@ -245,8 +229,6 @@ However, many materials for the park were sourced from overseas, whilst the game
 
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157620822007908/unknown.png)
 
-Sussy urban living in East Village (again around the Olympic area). 
-
 Local bus and transport services connect to the London Underground, as well as Europe. Residents in the East Village pay extra for car parking places, encouraging cycling and walking. 
 
 Water is 50% less used than other urban areas, achieved by water recycling. Rainwater is recycled and filtered through ponds before being used for toilet flushing and irrigation. Green roofs on buildings also slow down rates of drainage, mitigating flood risk, and allowing more water to be used for irrigation or other conservation systems.  (Drinking water is different!)
@@ -262,7 +244,7 @@ Green spaces have also been created. There are green roofs on apartments blocks,
 In this section, students are required to study  [Resource management](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Resource_management_1_2_3_1)  and  **one**  from  [Food](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Food_1_2_3_2)  or  [Water](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Water_1_2_3_3)  or  [Energy](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Energy_1_2_3_4).
 
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159119492943902/unknown.png)
-*You need to learn about all of them as an overview, and food in more detail*
+*You need to learn about **all of them as an overview**, but **only one in particular** in more detail.*
 
 Simply put, the more availability to food, water and energy a country has, the better the citizens' well-beings are. 
 
@@ -280,7 +262,7 @@ Food:
 Water:
 
 -   There is a changing demand for water in the UK. In northern areas, there is a high supply of water but low demand for it - the population density is low, with there only being a few cities. The reason why there is a lot of water here is because there is a lot orographic rainfall (mountains). In the south and southeast, there are low levels of waterfall and high levels of water stress, so transfer schemes are in place like dams and reservoirs on rivers to allow water to be moved from areas of water surplus to areas of water deficit - usually pumped.
-> The average person uses 150 litres of water in the UK
+> The average person uses 150 litres of water in the UK per day
 
 -   This can only be done if the water quality is high and pollution is managed - toxic waste can poison wildlife, and eutrophication can kill plants due to plant life building up so much in the river or lake, reducing oxygen levels, suffocating the animals. Raw sewage and other waste must be treated at a treatment plant. It can also be managed by legislation, education campaigns, pollution traps and green roofs and walls.
 
@@ -351,37 +333,14 @@ Disadvantages include
 
 > Temperatures in the area have dropped by 0.3^o^C in the area as the greenhouses are white and reflect sunlight!
 
+### [tbd] Example of a local scheme an LIC/NEE
 
-As a result from high levels of migration from the 19th Century, many from major British colonies like India and Nigeria, London is only made up of 45% White British nationals, and 37% not being born in the UK. Furthermore, its population is also larger and younger than any other UK city. This is because young(er) people from 20-40 like university students move to London for better job opportunities, spurred on by higher pay due to the higher cost of living. These younger people are also more likely to have children, contributing to higher natural increase, while migration itself is fairly low now. After Brexit, the restriction of free movement within the EU will most likely lower this migration trend even further in the UK.
-> Because of high migration and a diverse community, London is seen as a  'melting pot' for cultures. Entrepreneurs are more likely to create diverse shops to account for this, such as halal butchers, and services are also more likely to accommodate these different cultures, for example mosques.
+This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specificaiton, for information which I managed to remember. 
 
-### Shoreditch, London
-
-
+Despite everyone else betting that it wouldn't come up in the exam, it was a 6 marker in the 2022 exam series. Good luck! 
 
 
-
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157620822007908/unknown.png)
-
-
-
-
-# Section C: The challenge of resource management
-
-In this section, students are required to study  [Resource management](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Resource_management_1_2_3_1)  and  **one**  from  [Food](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Food_1_2_3_2)  or  [Water](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Water_1_2_3_3)  or  [Energy](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Energy_1_2_3_4).
-
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159119492943902/unknown.png)
-*You need to learn about all of them as an overview, and food in more detail*
-
-
-
-
-
-
-## Food
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159146554613820/unknown.png)
-
-## Footnotes
+# Footnotes
 ^1^ I'm saying London here as, although it's not (currently) a megacity, it's always been a significant trading hub and economic powerhouse for the UK and globally.
 
 ^2^ The most waffle I've written today, almost as bad as my Chemistry 6 markers

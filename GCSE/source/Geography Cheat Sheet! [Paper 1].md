@@ -1,50 +1,39 @@
-﻿
+﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 # AQA Geography
 
 # NOTE: Paper 1 and 2 are complete. 3 will be added later.
 
-[Cheat Sheet Changelog](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976) - Last recorded content update to this one: 06/06/2022 20:32
 
-Firstly.... 
+[Last content update: 20/05/2023 22:06](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-<a rel="license" href="https://bit.ly/CheatSheetCC"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://bit.ly/CheatSheetCC">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.
+✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
-By using this you are legally required to drop a thank you message in the [Baguette Brigaders](https://discord.gg/baguette) server
+Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-<iframe src="https://discord.com/widget?id=759861456300015657&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
+> (Thank you messages are also appreciated, you might get featured too!)
 
-In the future, cheat sheets will be locked behind a requirement of being in the server, in order to prevent abuse. To ensure your access, you can join with the link above, or [link your account](https://discord.com/oauth2/authorize?client_id=977665636048175157&redirect_uri=https%3A%2F%2Fibaguette.com%2FGeographyCheatSheet_v9&response_type=code&scope=guilds%20guilds.members.read%20rpc%20messages.read) (or [here](https://discord.com/oauth2/authorize?client_id=977665636048175157&redirect_uri=https%3A%2F%2Fibaguette.com%2FGeographyCheatSheet_v9&response_type=code&scope=identify%20email%20connections%20guilds%20guilds.join%20guilds.members.read%20gdm.join%20rpc%20rpc.notifications.read%20rpc.voice.read%20messages.read%20rpc.voice.write%20rpc.activities.write) for more access). **This is the last cheat sheet which will not have this requirement.**
-
-> This document was written with [StackEdit](https://stackedit.io/)! Check it out, it's really cool.
-
-## READ ME PLEASE THANKS
+## READ ME:
 
 > Want dark mode? Install the [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en) chrome extension! It works very well on any site, including these cheat sheets!
 
 Please use your class notes, if you have any, as well as this, to aid your revision. This covers the specification but consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know (discord: `@Draggie#3060`) immediately. I have tried my best to make it as easy as possible to understand and get a top grade ;)
 
-> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.com/invite/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with over 60 of our students and friends!
+I did get a grade 9 in the 2022 exam series, and I did get people coming out of the exam room thanking me for especially the case studies.
 
+> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.gg/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with 100+ students, developers, educators and professionals.
 
 > If images are slightly pixelated, zoom in to 110%, it's much crisper
-
-To navigate this document, I'd strongly recommend viewing on a computer or tablet. On the left, you will be able to skip to sections of higher interest, like case studies, with one click.
 
 ### **This cheat sheet covers *all* of the specification for all 3 papers**
 ... so there's quite a lot
 
-## CHANGES FOR 2022
-
-[AQA's wording](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/changes-for-2022):
-
--   Optionality introduced for Paper 2
--   Fieldwork not required
--   Familiar fieldwork questions removed from Paper 3
--   No advance information on exams
--   There are no changes to Paper 1: Living with the physical environment *(so I've put a lot of detail in!)*
 
 # Paper 1: Living with the physical environment
+
+For 2022, there were no changes to Paper 1, so I've put an absolute ton of detail in!
+
 
 # Section A: The challenge of natural hazards
 
@@ -662,7 +651,7 @@ The corkscrew motion of the fastest flow of the water is helicoidal.
 
 #### [I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you lol](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
 
-When an oxbow lake evaporated, a 'meander scar' is left behind.
+When an oxbow lake evaporates, a 'meander scar' is left behind.
 
 ![meander](https://media.discordapp.net/attachments/970765476688961616/977983132164816996/meander1.png)
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/977983131741224990/meander.png)
@@ -744,6 +733,21 @@ Shops, homes and many regions of the town were flooded and destroyed. Now, highe
 ![enter image description here](https://media.discordapp.net/attachments/970765476688961616/978038948196671588/unknown.png)
 
 Out and about with Rob in Morpeth: https://www.youtube.com/watch?v=XoW6gIDwBSk
+
+## Glacial landscapes in the UK
+
+As I took the exams in 2022 with optionality, I did not have time or any notes to write up things to learn about the Glaciation GCSE unit.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/gcse%20glaciation.png)
+*Here's what the specification says.*
+
+
+HOWEVER, notice how I said the glaciation **GCSE** unit. Luckily, I love Geography and so am currently doing an A level in it, and glaciation just so happens to be one of the physical units.
+
+To view the A level cheat sheet with glaciation information on, as well as to perhaps get a taste for the A level in general, go to [this iBaguette cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all#option-b-%E2%80%93-glaciated-landscapes). 
+
+Note: it contains huge amounts of much more detailed information compared to what you need to know. You can skim read and search through it to find the relevant information.
+
 
 ## 
 > That's the end! Paper 2 is also available if you want to see it, look around my site and you'll find it! Enjoy!

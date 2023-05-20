@@ -17,7 +17,7 @@ As a reminder: not everything is 100% covered in detail, but 95% of the specific
 
 *In this section, students are required to study all the themes.*
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157547186815016/unknown.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse//geography/SpecContent-UrbanTrends.png)
 
 By 2030, it is expected that over 60% of the world's population will live in cities. Currently, there are 33 megacities (cities with a population > 10 million) and the closest one to us is 🥖 Paris. London is not a megacity, as its population is only predicted to reach 10 million by 2035. After and during the Second World War, many people and children were evacuated from London, so the population shrunk by 2 million from 1940 (at 8.5 million) to 1990. Since then, the population has gradually been increasing, and it's currently at around 9.2 million. (We'll have to wait for the census results to be sure!)
 
@@ -38,9 +38,11 @@ In richer countries and continents like Europe, Oceania and North America, the r
 [China has plans to merge these cities on the Pearl River Delta into one huge megacity with a population of over 140 million, covering 25x more land than London.](https://www.google.com/maps/@22.7316438,113.7223091,182424m/data=!3m1!1e3)
 
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157575389311006/unknown.png)
+
 
 ## Case study: Lagos, Nigeria 
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-GrowthIn-NEE-LIC-City.png)
 
 ### Overview
 
@@ -53,10 +55,10 @@ Its population is estimated at 19 million, generating a quarter of Nigeria's wea
 
 ### Growth
 
-![lagos growth](https://media.discordapp.net/attachments/972581792576053298/981175164681211914/Lagos-Growth-Map.jpg)
+![lagos growth](https://cheatsheet-assets.ibaguette.com/gcse/geography/Lagos-Growth-Map.jpg)
 *How the area surrounding Lagos has grown over time. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/981175164911890503/Lagos-Population-Graph.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/Lagos-Population-Graph.png)
 *The current, past and future predicted population of Lagos. Credit [Internet Geography](https://www.internetgeography.net/topics/the-growth-of-lagos/)*
 
 
@@ -95,8 +97,10 @@ More jobs are available in Lagos than in anywhere else in Nigeria, responsible f
 A new city on the south side of Lagos, in the Gulf of Guinea, is being made. Called Eko Atlantic, it is a land reclamation project, which will be home to the new financial hub of Western Africa. Dubbed 'the Dubai of Africa' from this [google maps reviewer](https://www.google.com/maps/reviews/@6.41311,3.4108255,3499m/data=!3m1!1e3!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURLb3NXTS1nRRAB!2m1!1s0x0:0x49d67b9bfa3ba269?hl=en-US), many international investors are looking forward to the project's completion. It will be home to over 250,000 people and employing a further 150,000 in skyscrapers and high-rise office buildings. This will be possible thanks to its independent electricity grid and water desalination plants.
 
 6.5km of sea wall has been built to protect the project from the sea and erosional processes. [Website](https://www.ekoatlantic.com/education/sea-wall/)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/Constructing-The-Great-Wall-of-Lagos-CGI-1024x576.jpg)
+*Building the protective wall.*
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981240067601338398/EkoAtlantic.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/EkoAtlantic.jpg)
 *Eko Atlantic's 6,500,000m^2^ of land, reclaimed.*
 
 
@@ -114,14 +118,14 @@ Unfortunately, the school collapsed during a storm in 2017. The idea has continu
 
 > The floating school acted as a proof-of-concept, not a final, fixed structure. It would have been able to be reconfigured as a house, community space, shop and more if the final version was able to be structurally secure.^6^
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981274210334830662/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
 *An artist's impression on what a floating community would look like. Credit: [NLÉ](https://www.nleworks.com/case/lagos-water-communities-project/)*
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/981274536689422346/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
 
 
 ## Case study: London
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157598076293120/unknown.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-UrbanChangeUK.png)
 
 In the UK, the population is vastly distributed. The key to this is the northwest/southeast divide. In the south east, cities are increasing in populations, especially as the south east has the fastest growing economy in the UK. However, in the northeast, Sunderland has actually lost over 2% of its population from 2004 due to the decline of industry which was historically popular, leading to less job opportunities, forcing people to move away to find work.
 
@@ -227,7 +231,7 @@ However, many materials for the park were sourced from overseas, whilst the game
 > You don't need to remember all the precise stats and figures - just a few - I have rounded some figures and simplified them a bit to make them easier to remember. 
 
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971157620822007908/unknown.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-UrbanSustainability.png)
 
 Local bus and transport services connect to the London Underground, as well as Europe. Residents in the East Village pay extra for car parking places, encouraging cycling and walking. 
 
@@ -243,7 +247,7 @@ Green spaces have also been created. There are green roofs on apartments blocks,
 
 In this section, students are required to study  [Resource management](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Resource_management_1_2_3_1)  and  **one**  from  [Food](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Food_1_2_3_2)  or  [Water](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Water_1_2_3_3)  or  [Energy](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Energy_1_2_3_4).
 
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159119492943902/unknown.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-ResourceManagementOverview.png)
 *You need to learn about **all of them as an overview**, but **only one in particular** in more detail.*
 
 Simply put, the more availability to food, water and energy a country has, the better the citizens' well-beings are. 
@@ -278,7 +282,7 @@ Energy:
 
 
 ## Food
-![enter image description here](https://media.discordapp.net/attachments/970765476688961616/971159146554613820/unknown.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-Food.png)
 *Food, yummy. I really couldn't live without it.*
 
  Food security is defined as 'when all people at all times have access to sufficient, safe, nutritious food to maintain an active and healthy life'.

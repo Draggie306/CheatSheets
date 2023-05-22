@@ -65,49 +65,31 @@ The CPU is connected to RAM by three separate buses, the address bus, data bus a
 The control bus exists to distinctly transmit command and control, timing and status information between components of a system. It is **bidirectional**, as signals need to be transmitted in both directions.
 
 WIthin the control bus, there are control lines. These are needed to ensure there is **no conflict between**  **different** system **components** using the data and address buses. These control lines include:
-
 -  **Memory Read** (RD): Data from the addressed memory location should be added on the data bus.
-
 -  **Memory Write** (WR): Data in the data bus should be written to the addressed location in memory.
-
 -  **Bus Request** (BR): A device is requesting use of the data bus.
-
 -  **Bus Grant** (BG): The CPU has granted access to the data bus.
-
 -  **Transfer ACK** (ACK): The data has been read (**ack**nowledged) by the device
-
 -  **Interrupt request** (IRQ): A device (with lower priority) is requesting to access the CPU.
-
 -  **Clock**: Signals used to synchronise operations between the CPU and other components.
-
 -  **Reset**: The CPU will reboot if active.
-
   
 
 #### Data bus
 The data bus transfers data and instructions between components
 
 #### Address bus
-
 A system with a _32-bit_ address bus can address _2^32_ (4,294,967,296) memory locations. If each memory location holds one byte, the addressable memory space is 4 GiB.
 
-  
 
 #### How these buses link to assembly language programs?
 
   
 
 ### The ALU
-
-  
-
 The Arithmetic Logic Unit performs arithmetic operations on data. It consists of two parts - the **arithmetic unit** - this can include addition, subtraction, multiplication and division. It can also compare arithmetic values and return a binary value if, for example, A is greater than B.
 
-  
-
 The second part is the **logic unit** which includes logical bitwise AND, OR, NOT and XOR operations. Finally, it may also perform shift operations (binary shift) within a register, moving bits left or right.
-
-  
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/ALU_block.gif)
 
@@ -119,13 +101,11 @@ The ALU can compute integers of the same width as the data bus connecting to it 
 
 
 ### Program Counter (PC)
-
 Holds the memory address of the next instruction to be fetched by the processor.
 
   
 
 ### Accumulator
-
 Stores the 'intermediate' results of the data being processed at the current moment in the FDE cycle. The final results get stored in another register such as the Arithmetic Logic Unit, or get moved to main memory.
 
 ### Memory Address Register
@@ -136,9 +116,19 @@ Stores the 'intermediate' results of the data being processed at the current mom
 
 ### The FDE cycle and its impacts on these registers
 
-### Factors affecting a CPU's performance
+### Factors affecting CPU performance
+There are a number of factors used by CPU manufacturers in order to make processors faster.
 
 #### Clock Speed
+The FDE cycle is controlled by the system clock's pulses. As a result, the faster this clock is, the faster a processor will be able to fetch, decode and execute instructions.
+
+In modern systems, actions are executed on the rising edge of the system clock. These actions
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/ClockSignal.png)
+https://opensource.org/license/bsd-2-clause/
+
+
+
 
 #### Core Count
 
@@ -146,7 +136,7 @@ Stores the 'intermediate' results of the data being processed at the current mom
 
 
 ### Pipelining
-Pipelining is a technique used by most modern processors so inc
+Pipelining is a technique used by most modern processors so increase the overall performance of the processor.
 
 
 ### Contemporary Processor Architectures
@@ -408,6 +398,6 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 [2] _Teach-ICT A Level Computing - ALU_. [online] Available at: https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU) [Accessed 22 May 2023].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTEyOTA3NTEsLTE4ODMxMDI3NDgsLT
-E1MjM4NTg3ODZdfQ==
+eyJoaXN0b3J5IjpbODk4MDA1ODQ4LC0xODgzMTAyNzQ4LC0xNT
+IzODU4Nzg2XX0=
 -->

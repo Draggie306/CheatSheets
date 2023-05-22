@@ -111,17 +111,12 @@ The second part is the **logic unit** which includes logical bitwise AND, OR, NO
 
 *Credit: [Lambtron](https://en.wikipedia.org/wiki/Arithmetic_logic_unit#/media/File:ALU_block.gif  "User:Lambtron")/Wikipedia. [License](https://creativecommons.org/licenses/by-sa/4.0)*
 
-  
-
 The ALU can compute integers of the same width as the data bus connecting to it - a 8 bit data bus can only provide the ALU with 8 bit integers. Multiple steps would need to be carried out in order to process larger integers, reducing efficiency of the processor.
 
 > Modern CPUs may also contain a FPU, or 'floating point unit', to handle floating point numbers more efficiently.
 
-  
 
 ### Program Counter (PC)
-
-  
 
 Holds the memory address of the next instruction to be fetched by the processor.
 
@@ -129,69 +124,36 @@ Holds the memory address of the next instruction to be fetched by the processor.
 
 ### Accumulator
 
-  
-
 Stores the 'intermediate' results of the data being processed at the current moment in the FDE cycle. The final results get stored in another register such as the Arithmetic Logic Unit, or get moved to main memory.
-
-  
 
 ### Memory Address Register
 
-  
-  
-
 ### Memory Data Register
-
-  
-  
 
 ### Current Instruction Register
 
-  
-
 ### The FDE cycle and its impacts on these registers
-
-  
-  
 
 ### Factors affecting a CPU's performance
 
-  
-  
-
 #### Clock Speed
-
-  
-  
 
 #### Core Count
 
-  
-  
-
 #### Cache
 
-  
-  
 
 ### Pipelining
 
-  
-  
+
 
 ### Contemporary Processor Architectures
 
-  
 
 #### von Neumann architecture
 
-  
-  
 
 #### Harvard architecture
-
-  
-  
 
 ## 1.1.2 Types of processor
 
@@ -578,5 +540,5 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 [2] _Teach-ICT A Level Computing - ALU_. [online] Available at: https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU) [Accessed 22 May 2023].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM4NTg3ODZdfQ==
+eyJoaXN0b3J5IjpbLTczMDU5ODQ4NiwtMTUyMzg1ODc4Nl19
 -->

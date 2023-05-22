@@ -267,114 +267,55 @@ in a 'chain' by a single central communications channel, or 'bus'. Each end of t
 
 They are simple to set up and cheap, but only one computer can transmit data successfully at a time (or "collisions" will occur) and there is poor security generally, with a single point of failure, as well as being unsuitable for larger areas.
 
-  
-  
-
-**Star topology**: an arrangement where a central node or
-
-switch (or hub) provides a central point of communication for all
-
-other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices' **Media Access Control (MAC)** address to determine where to send the message.
-
-  
+**Star topology**: an arrangement where a central node or switch (or hub) provides a central point of communication for all other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices' **Media Access Control (MAC)** address to determine where to send the message.
 
 The failure of any one device (unless it is the switch itself) does not affect the operation of the network as a whole. This makes star networks highly reliable and easy to maintain, as well as being easy to add new stations. Higher transmission speeds can give better performance than a bus network too.
 
-  
+> Star networks are a popular choice for LANs and other small-scale networks, due to their simplicity and reliability. They are especially well-suited for networks that require high bandwidth and low latency and as well as for security, as data is sent only to one other device.
 
-Star networks are a popular choice for LANs and other small-scale networks, due to their simplicity and reliability. They are especially well-suited for networks that require high bandwidth and low latency and as well as for security, as data is sent only to one other device.
-
-  
-  
 
 ### Logical network topologies
 
   
-
 The physical topology of a network defines how the devices are physically connected.
-
-  
-
 The logical topology defines how the devices communicate across the physical topologies.
-
   
-
 For example, a network might be physically wired in a star topology, but use a logical bus topology to facilitate data transmission.
-
-  
-  
 
 **Wi-Fi** is a wireless networking technology providing high-speed Internet and network connections. Devices connect to the Internet via a Wireless Access Point (WAP) which broadcasts on a specific radio frequency channel, typically on the 2.4GHZ spectrum or the 5-6GHz spectrum. This can then be accessed by any device within range and that has a compatible Network Interface Card (NIC).
 
-  
-
 However, network interference from other devices within range which are also using the same frequency is problematic, as seen in areas like football stadiums. To minimise this, admins can use **channel bonding** to pool multiple channels into a wider band, thereby increasing available bandwidth, and using Quality of Service (QoS) which prioritises different types of network traffic based on their importance, such as VoIP calls which require low latency.
 
-  
-
 ### Mesh networks
-
-  
-
 Mesh networks are becoming more common with the widespread use of wireless technology. Each node in a mesh network has a connection to every other node, by transmitting data across any intermediate nodes, and only one node needs an Internet connection and all other nodes can share this, creating a redundant and flexible network architecture. These networks can become big enough to cover entire cities.
 
-  
-
-Advantages:
-
-  
-
+**Advantages:**
 - No cabling costs: Mesh networks can be wireless, eliminating the need for costly cabling and making it easier to set up and scale the network.
-
 - Faster communication: Since data packets do not need to travel via a central switch, communication can be faster and more efficient, especially in larger networks where traffic can become congested.
-
 - Self-healing: The more nodes that are installed, the faster and more reliable the network becomes, since one blocked connection can easily be circumvented by another route. In this respect, the mesh can be described as ‘self-healing’.
-
 - Easy expansion: New nodes are automatically incorporated into the network, making it easier to add new devices and scale the network.
 
-  
-
-Disadvantages:
-
-  
-
+**Disadvantages:**
 - Higher implementation cost: Building and maintaining a mesh network can be difficult and time-consuming, making it less desirable for smaller networks or businesses with limited resources.
-
 - Redundant connections: The chance of redundant connections is high, adding to costs and complexity. Careful planning and management is needed to avoid unnecessary connections and reduce costs.
-
 - Limited range: Mesh networks are typically limited to a certain range, depending on the strength of the wireless signal. This means that additional nodes or access points may be required to extend coverage, which can increase the cost and complexity of the network.
 
   
-  
-  
-
 ### Packets, Packet Switching and Routers
 
 Packet switching requires routers to direct the packets to their destination. A router is a network device that receives packets and forwards data packets from one network to another.
 
 Each router stores data about the available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.
 
-  
-
 > Each transfer between routers is known as a **hop**
-
-  
 
 Routers will then continue to forward the packet until it reaches its destination node
 
   
-
 A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header.
 
-  
-
 > Packets are deliberately kept small to ensure that individual packets do not take excessive time to transfer preventing other packets from moving.
-
-  
-
-> However, they should not be too small as the additional data added makes data transfer inefficient as
-
-unnecessary headers and trailers would be required each time.
+> However, they should not be too small as the additional data added makes data transfer inefficient as unnecessary headers and trailers would be required each time.
 
   
   
@@ -475,6 +416,6 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 [2] _Teach-ICT A Level Computing - ALU_. [online] Available at: https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU) [Accessed 22 May 2023].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDkyOTg3MDAsLTE1MjM4NTg3ODZdfQ
+eyJoaXN0b3J5IjpbLTE4ODMxMDI3NDgsLTE1MjM4NTg3ODZdfQ
 ==
 -->

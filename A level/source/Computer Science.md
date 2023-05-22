@@ -155,6 +155,9 @@ Stores the 'intermediate' results of the data being processed at the current mom
 
 #### Harvard architecture
 
+
+
+
 ## 1.1.2 Types of processor
 
   
@@ -170,99 +173,53 @@ Stores the 'intermediate' results of the data being processed at the current mom
 
 ## 1.2.1 Systems Software
 
-  
-
 # [tbd] 1.3 Exchanging data
-
-  
 
 ## 1.3.3 Networks
 
-  
-
 The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.
-
-  
 
 The World Wide Web is a collection of websites and documents linked by hyperlinks made accessible via the Internet.
 
-  
-
 The Internet is the largest network (what computers communicate with each other on). THis is known as a Wide Area Network, or WAN, as it spans over a large geographic area.
 
-  
 
 The Internet can also be used to transmit data without using the World Wide Web. However, this data must travel through the backbone.
 
-  
-
-The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicated, high-transmission fibre-optic cables that 'peer' (are connected with) each other, and are owned by large Internet Service Providers (ISPs).
-
-  
+The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicate, high-transmission fibre-optic cables that 'peer' (are connected with) each other, and are owned by large Internet Service Providers (ISPs).
 
 By connecting all these cables together, these ISPs can create a single network that gives each other access to the entire Internet. The way they communicate is by using the **TCP** (Transport Control Protocol) and **IP** (Internet Protocol) protocols.
 
-  
-  
+Protocol - a set of rules or procedures for transmitting data between electronic devices, such as computers
 
-Protocol - a set of rules or procedures for transmitting data
-
-between electronic devices, such as computers
-
-  
-  
 
 ### IPv4 addressses
-
 are a series of 4 octet values separated by a full stop (max 32 bits), ranging from 0 to 255. However, there are not enough addresses to support the growing population, so IPv6 is being used which uses 128 bits.
 
-  
-
 ### Uniform Resource Locator (URL)
-
-  
-
 URLs are a standardised format for specifying the means of accessing a resource on the Internet and identifying its location. A URL consists of many components, including the protocol, domain name and path to the specific resource.
-
-  
 
 The protocol (like HTTP, HTTPS, FTP or WSS) indicated the communication method to access the specified resource. If it is using HTTP/HTTPS, then the resource is going to be on the World Wide Web
 
-  
-
 The domain name (like ibaguette.com) identifies the server where the resource is hosted.
-
-  
 
 By using URLs, users can easily access resources such as web pages, images, documents, and other files on the internet.
 
-  
-
 ### Domain Name System (DNS)
-
-  
 
 The Domain Name System is a distributed database system that enables the translation of domain names into IP addresses, which can then be used to contact a server.
 
-  
-
 DNS servers are therefore dedicated computers that store an index of domain names and their corresponding IP addresses.
-
-  
 
 When a user types a domain name into their web browser or other application, the application sends a request to a DNS server to resolve the domain name to its associated IP address. The DNS server then searches its index for the domain name and returns the corresponding IP address to the requesting application. This allows the application to establish a connection to the server associated with the domain name, enabling the transfer of data between the client and server.
 
   
-
 > Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from the cache, which is much faster.
 
-  
 
 If the local DNS server does not have a record for the domain, it may forward the request to an ISP's DNS server. If the ISP DNS server does not have a record, then it may be forwarded to one of 13 global root DNS servers which hold the records of every domain on the Internet.
 
 This process is known as **recursion** and enables the DNS system to efficiently resolve domain names to their corresponding IP addresses, even for domains hosted on remote servers.
-
-  
 
 Below the root servers are **generic** and **country** top-level domains (TLDs), such as .com, .edu, .org and .uk, .fr and .de.
 
@@ -291,44 +248,22 @@ building or site.
   
 
 ### Hubs and switches
-
-  
-
 A network switch is a hardware device that is commonly used to connect various network segments within a LAN. Switches are designed to forward data packets between different devices on a network.
-
-  
 
 Unlike hubs, which broadcast data packets to all devices on a network segment, switches selectively forward data packets only to their intended destination device.
 
-  
-
 Hubs connect multiple Ethernet devices together, making them act as a single network segment. Hubs are an older type of connector and are less commonly used today due to their limitations. Unlike switches, hubs broadcast all data packets to every device on the network, which can lead to network congestion and reduced performance.
-
-  
 
 A network switch operates by learning the MAC addresses of devices connected to it, and then using this information to forward data packets to the appropriate device. This allows devices on the network to communicate with one another directly, without the need for every device to receive every packet.
 
-  
-
-> Watch out! Many people still use the word ‘hub’ when
-
-they mean ‘switch’!
-
-  
+> Watch out! Many people still use the word ‘hub’ when they mean ‘switch’!
 
 ### Physical network topologies
-
-  
-
 A network topology refers to the physical or logical arrangement of computing devices which make up a network.
-
-  
 
 **Bus topology**: an arrangement where nodes are connected
 
 in a 'chain' by a single central communications channel, or 'bus'. Each end of this bussy backbone is connected to a terminator which stops signals bouncing back. Each terminal, or node, on this cable is passive.
-
-  
 
 They are simple to set up and cheap, but only one computer can transmit data successfully at a time (or "collisions" will occur) and there is poor security generally, with a single point of failure, as well as being unsuitable for larger areas.
 
@@ -540,5 +475,6 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 [2] _Teach-ICT A Level Computing - ALU_. [online] Available at: https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU) [Accessed 22 May 2023].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDU5ODQ4NiwtMTUyMzg1ODc4Nl19
+eyJoaXN0b3J5IjpbLTEzMDkyOTg3MDAsLTE1MjM4NTg3ODZdfQ
+==
 -->

@@ -1,4 +1,6 @@
 
+
+
   
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
@@ -144,7 +146,7 @@ Stores the 'intermediate' results of the data being processed at the current mom
 
 
 ### Pipelining
-
+Pipelining is a technique used by most modern processors so inc
 
 
 ### Contemporary Processor Architectures
@@ -241,9 +243,7 @@ Domain names must be completely unique otherwise DNS requests could be manipulat
 
   
 
-In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one
-
-building or site.
+In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one building or site.
 
   
 
@@ -277,8 +277,9 @@ The failure of any one device (unless it is the switch itself) does not affect t
 ### Logical network topologies
 
   
-The physical topology of a network defines how the devices are physically connected.
-The logical topology defines how the devices communicate across the physical topologies.
+- The **physical topology** of a network defines how the devices are physically connected.
+
+- The **logical topology** defines how the devices communicate across the physical topologies.
   
 For example, a network might be physically wired in a star topology, but use a logical bus topology to facilitate data transmission.
 
@@ -309,34 +310,25 @@ Each router stores data about the available routes to the destination node. It l
 
 > Each transfer between routers is known as a **hop**
 
-Routers will then continue to forward the packet until it reaches its destination node
+Routers will then continue to forward the packet until it reaches its destination node.
 
-  
 A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header.
 
-> Packets are deliberately kept small to ensure that individual packets do not take excessive time to transfer preventing other packets from moving.
-> However, they should not be too small as the additional data added makes data transfer inefficient as unnecessary headers and trailers would be required each time.
+> Packets are deliberately kept small to ensure that individual packets do not take excessive time to transfer preventing other packets from moving. 
 
-  
-  
+However, they should not be too small as the additional data added makes data transfer inefficient as unnecessary headers and trailers would be required each time.
 
 The **trailer** contains the **end of packet flag**, as well as **error checking components** like checksums or Cyclical Redundancy Checks (CRCs), are calculated at the origin and destination end. If they do not match, the data has become corrupted and is refused and a new copy is requested to be sent again.
 
-  
-
 The payload is the actual data that needs to be sent, varying in size from 500 to 1,500 bytes.
-
-  
 
 The packet header contains the IP addresses of the recipient and the sender, so that it can be directed appropriately across the network. The packet number and overall number of packets in the transmission is attached to assist in reassembling the data at the receiving end. The Time to Live (TTL), or hop limit, is also included.
 
-  
-
 > This is all dictated by the Transmission Control Protocol (TCP).
 
-**Circuit switching** is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session.
+> On the other hand, **circuit switching** is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session.
 
-**Packet switching** divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible than circuit switching, and is thus more widely used.
+> In summary, **packet switching** divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible than circuit switching, and is thus more widely used.
 
   
 
@@ -416,6 +408,6 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 [2] _Teach-ICT A Level Computing - ALU_. [online] Available at: https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU) [Accessed 22 May 2023].
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODMxMDI3NDgsLTE1MjM4NTg3ODZdfQ
-==
+eyJoaXN0b3J5IjpbLTEzOTEyOTA3NTEsLTE4ODMxMDI3NDgsLT
+E1MjM4NTg3ODZdfQ==
 -->

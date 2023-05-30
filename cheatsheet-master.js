@@ -827,14 +827,9 @@ async function handleRequest(request) {
     return htmlResponse;
   }
   
-  // else point back to the main site as the URL may have changed or an incorrect one has been linked to
+  // else 301 redirect to main page
   else {
-    return new Response(main_page, {
-      headers: {
-        "content-type": "text/html;charset=UTF-8",
-        "Cache-Control": "max-age=8646900",  // Cache the file for 100 days
-      },
-    })
+    return Response.redirect("https://ibaguette.com/cheatsheets", 301);
   }
 }
 

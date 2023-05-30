@@ -1,4 +1,4 @@
-
+﻿
 
 
   
@@ -71,7 +71,7 @@ WIthin the control bus, there are control lines. These are needed to ensure ther
 -  **Bus Grant** (BG): The CPU has granted access to the data bus.
 -  **Transfer ACK** (ACK): The data has been read (**ack**nowledged) by the device
 -  **Interrupt request** (IRQ): A device (with lower priority) is requesting to access the CPU.
--  **Clock**: Signals used to synchronise operations between the CPU and other components.
+-  **Clock**: Signals used to synchronise operations between the CPU and other components. *A clock signal keeps the flow of data synchronised.*
 -  **Reset**: The CPU will reboot if active.
   
 
@@ -141,13 +141,15 @@ The user can increase the clock speed of a CPU. This is known as overclocking. W
 
 
 #### Cache
-Cache memory is small amounts of fast memory, typically close to the CPU and physically on the chip. When an instruction is fetched from system memory, it is copied into cache in case it is needed by a register immediately. This has a reduced latency compared to fetching from memory as it does not need to travel through the data bus.
+Cache memory is small amounts of fast memory that stores frequently accessed data and instructions to improve CPU performance. It is typically on the CPU chip. When data or an instruction is fetched from system memory, it is copied into cache in case it is needed by a register immediately. This has a reduced latency compared to fetching from memory as it does not need to travel through the data bus.
 
-> The CPU in reality checks for the data in the c
+> The CPU in reality checks for the data in the (L1) cache first and uses this before checking RAM - if it exists, it's a **cache hit** as opposed to a **cache miss**.
 
-Cache memory operates in a hierarchy of levels
+Cache memory operates in a **hierarchy** of levels, with L1 cache being the fastest and closest to the CPU registers, but very small, often only 64KiB in size due to its expensive price.
 
-L1 (level 1) cache is incredibly fast, expensive and very small, often only 64KiB in size. Because of this, unused instructions after several FDE cycles are relegated the higher-level L2 cache or copied back into main memory to prioritise newer, more important instructions. 
+L1 cache is also split into **instruction** and **data** caches, (L1i/L1d) so that both data and instructions can be fetched simultaneously.
+
+Due to this storage limitation, the **least recently used** data or instructions after several FDE cycles are **relegated** the higher-level L2 or L3 caches or copied back into main memory to prioritise newer, more important instructions. 
 
 L3 cache is much larger, perhaps up to 96MiB, but the tradeoff is slower access speeds.
 
@@ -156,16 +158,27 @@ L3 cache is much larger, perhaps up to 96MiB, but the tradeoff is slower access 
 
 
 ### Pipelining
-Pipelining is a technique used by most modern processors so increase the overall performance of the processor.
+Pipelining is a technique used by most modern processors so increase the overall performance of the processor. 
+
+This can be facilitated through overlapping stages in the FDE cycle. Without pipelining, all instructions are executed sequentially - the ALU remains idle when an instruction is being fetched. With pipelining implemented, different jobs are assigned to different stages in the FDE sycle simultaneously.
+
+The next instruction(s) to be fetched can be fetched at the same time as the ALU is performing an operation on the current instruction, and stored in a buffer ready for execution, allowing for concurrent processing and improved throughput and efficiency through lower idle time.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Pipelining-Instructions.jpg)
+*A more detailed diagram of how instructions can be pipelined. These stages are **I**nstruction **F**etch, **I**nstruction **D**ecode, **O**perand **F**etch, **I**nstruction **E**xecution, and **O**perand **S**tore, but you don't need to know them. In a non-pipelined system, Instruction 2 would be fetched at point t5 and take until t9 to complete.* [Source](https://binaryterms.com/pipelining-in-computer-architecture.html)
+
 
 
 ### Contemporary Processor Architectures
+von Neumannn architecture is used in the majority of computer systems today. Program instructions and data are stored together in system memory, both using the same data bus to connect to the CPU.
+Benefits of von Neumann architecture include that it is cheaper, and makes more efficient of use of available RAM. This is because if the data store becomes full
 
 
 #### von Neumann architecture
 
 
 #### Harvard architecture
+Harvard architecture is mostly used in specialist and some embedded systems. A program's data and instructions are stored separately in memory with a separate data bus connecting it to memory.
 
 
 
@@ -181,11 +194,164 @@ Pipelining is a technique used by most modern processors so increase the overall
 
 # [tbd] 1.2 Software and software development
 
-  
-
 ## 1.2.1 Systems Software
+### Operating Systems
+Operating systems are needed by all computers to manage communication with hardware.
+
+The user can interact with application software which interacts with the operating system (or interacts with the operating system directly) which then interacts with and manages hardware through drivers.
+
+When a system starts, the bootloader in ROM loads the operating system into RAM.
+
+The OS provides various functions such as a user interface, memory management, interrupts and interrupt handling, scheduling and device driver management.
+
+> The Operating System hides the complexity of the hardware by providing a user interfact to the user. This can be through GUIs (graphical user interfaces) such as Windows, or through CLIs such as the Command Prompt or the Linux shell.
+
+### Memory management
+#### Paging
+
+Paging is a technique which does not require the allocation of physical memory in a contiguous manner (i.e. all next to each other, like when writing data to a hard disk). Available memory is divided into equal-sized chunks or **pages** (typically 4, 8 or 16 KB), which can be swapped from primary to secondary storage if needed. 
+
+If Program A requires 2 pages of RAM, it gets loaded into the first 2 memory addresses which correspond to these pages. Program B requires 3 pages, which get allocated after program A. Next, Program A terminates and Program C starts, requiring 4 pages. This program will be allocated non-contiguous pages, with 2 pages being before Process B, and 2 pages allocated after Process B.
+
+This will be managed by the OS and a page table will be used to match each program's virtual memory addresses to the corresponding physical memory addresses.
+
+> Virtual memory addresses are an example of abstraction by allocating each program with a virtual memory space, which the maps to physical memory. This allows for the operating system to enforce memory security and integrity, as well as allowing for virtual memory. 
+> Developers can develop software without needing to worry about the specific memory layout for each system the program will run on.
+ 
+![Core isolation and memory integirty](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Core-Isolation.png)
+*An example of memory integrity enforcement on Windows 10 and 11.*
+
+#### Segmentation
+
+Segmentation is the division of memory into segments which are typically of different lengths that correspond to a particular part of a program, such as a function or subroutine. Larger functions may occupy larger segments, while a print statement may only need a small segment of memory.
+
+Both segmentation and paging is handled by the operating system.
+
+#### Virtual memory
+Virtual memory is a technique used by most operating systems to use a portion of secondary storage like a HDD or SSD as memory. 
+
+When a program requests access to a page in memory that is not actually in RAM, a page fault or hard fault is raised, requesting the operating system to swap the page from virtual memory back into RAM to be executed by the CPU. 
+
+
+However, this can cause two disadvantages. The main disadvantage of this is **disk thrashing** - when there is so much extra disk activity from swapping pages in and out of virtual memory that it slows down the performance of a computer. This is especially so on hard disk drives which have to actuate and seek to a specific location on the disk platter, increasing response times for programs.
+
+Some areas of memory cannot be swapped in to and out of virtual memory, such as the operating system itself, which is in the "nonpaged" area. If a page fault occurs when the OS tries to retrieve data from this non-paged area, the system may crash.
+
+![Hard faults](https://cheatsheet-assets.ibaguette.com/alevel/compsci/HardFaults.png)
+*You can see how many hard page faults each program is having in Resource Monitor on Windows. As I have 48GB of RAM, my page file is only 1GB and I have little page faults. On other machines this may be much higher.*
+
+> Programs can also share memory for similar tasks - for example a single developer may have multiple programs which have the same function in them. The operating system can handle this by giving both programs separate logical/virtual memory, but as only one instance of it in memory is required, this could be mapped to the same physical memory address, reducing memory consumption, allowing for more processes to use it.
+
+### Interrupts and the Stack
+
+The CPU needs to be interrupted when necessary, preventing issues such as program corruption after an error, or system instability. Interrupts can be sent to the CPU by software, hardware devices, drivers, or its own internal clock. 
+
+Software can create an interrupt to request information from the OS (like an API call) and hardware can trigger interrupts when an I/O device has finished a transfer, a printer runs out of paper, or there is a power failure.
+
+> An interrupt is a signal generated by software or hardware to temporarily suspend the current execution of a program to handle a specific event or condition.
+
+After every clock cycle, the CPU checks if there are any interrupts that require processing. If so, it uses an **interrupt service routine** to handle the interrupt. The CPU will typically push all current contents of its registers onto the system stack. When processing has finished, the values can be popped (as a LIFO data structure) from this stack and reloaded into the CPU. If there is not an interrupt at a higher level than the one originally being executed, the CPU then continues with the FDE cycle.
+
+### Scheduling
+With multiple applications running concurrently, the OS needs to allocate processor time to each process or **job**, as one CPU can only process instructions and data for one application at a time. This is done through the **scheduler**. Its job is to ensure that CPU time is used as efficiently as possible to provide an acceptable response time to all users and programs, maximise the time that the processsor and its resources are being used and to ensure fairness on a multi-user system.
+
+There are many scheduling algorithms which all have different uses and functions.
+
+> The **scheduler** has another component, the **dispatcher**, which is responsible for executing (or 'dispatching' the scheduled tasks by assigning them to available resources (i.e. the CPU cycles)
+
+> **Processor starvation** is when a process is unable to receive the necessary amount of CPU time to execute and complete its tasks.
+
+#### First come first served
+Jobs are processed in the same order as which they entered the queue.
+|*Advantages*|*Disadvantages*|
+|--|--|
+|Easy to implement and test|Doesn't prioritise more urgent jobs |
+|No job starvation and fair for all running jobs|Doesn't have priority levels|
+|Suitable for batch processing systems|Can result in poorer system throughput overall
+||Can create a backlog if the initial prioritisation of jobs is long-running ones
+
+
+#### Round robin
+Jobs are given a limited amount of processor time  (a *time slice* or *quantum*)  by the dispatcher to execute and complete. If the task fails to complete, the dispatcher moves to the nect job in the queue and allocates the CPU for this job. 
+
+|*Advantages*|*Disadvantages*|
+|--|--|
+|Guarantees a good response time for each job |  Doesn't prioritise more urgent jobs or priority levels|
+|All jobs will adventually be processed|Longer tasks will be disproportionately longer due to inefficient splitting|
+Note: in some implementations of RR, a job with a higher priority may be given multiple consecutive time slices or quanta. *The best of both worlds!*
+
+#### Shortest remaining time
+Jobs with the lowest estimated job time are prioritised.  This can reduce the number of pending jobs that would otherwise be queued to execute after a big job. However it is difficult to predict which job will take the longest, especially in real-time operating systems or systems without any regular exection.
+
+|*Advantages*|*Disadvantages*|
+|--|--|
+|Prioritises small jobs, for example background processes in batch systems|Difficult to predict which jobs will take CPU time - requiring a more advanced prioritisation algorithm|
+|Reduces the number of pending jobs queued after a big job has completed|May lead to process starvation if there are lots of small tasks being added continuously|
+|Increases throughput|More critical jobs may be delayed due to constant small job prioritisations|
+
+#### Shortest job first
+Similar to shortest remaining time. It still requires the processor to calculate how long each job will take and order the queue accordingly, but can also result in similar downsides.
+
+|*Advantages*|*Disadvantages*|
+|--|--|
+|Waiting time is reduced in batch systems with small and predictable jobs|Longer response times for longer jobs|
+|Increases throughput|Can lead to process starvation if small tasks are continuously added|
+|  |Requires accurate timing estimation which may be complex|
+
+#### Multi-level feedback queues
+MLFQ scheduling is a feedback algorithm, which intelligently adjusts prioritisation of jobs over time based on behaviour.  The knowledge that I/O devices and jobs that rely on these take longer to complete compared to a CPU cycle can result in these being prioritised over calculations, reducing bottlenecks. 
+While one job is transferring data onto a USB stick or printing, another job can be mining bitcoins which requires CPU[^3^] calculations.
+
+|*Advantages*|*Disadvantages*|
+|--|--|
+|Reduces chance of bottlenecks and thereby prioritises jobs more efficiently|Difficult to implement|
+|Processor use is maximised|More CPU resources may be allocated to insert the job into the queue rather than actually executing it for small jobs (overhead)|
+|Combines multiple queues and can move jobs between them depending on their processor time| May result in process starvation for low-priority jobs if higher-priority jobs are constantly added|
+|Allows for dynamic adjustment of different job priorities based on their historic behaviour, improving overall efficiency|  Requires careful fine-tuning of its parameters to be fully effective|
+|Over time, this may increase the overall system throughput on the majority of systems the most|Not suitable for all systems like embedded or realtime systems due to its dynamic nature and overheads|
+
+The multi-level feedback queue algorithm is used in the majority of devices, including Windows 10 and 11. The "scheduler" has been a key talking point from Microsoft regarding benefits to 
+
+## 1.2.2 Applications Generation
+
+
+
+
+
+
+## 1.2.3 Software Development
+
+### Assembly language + Little man Computer (LMC)
+
+Here is the assembly code which you need to know:
+
+|Mnemonic|Instruction|Explanation|
+|--|--|--|
+|`ADD`|Add|Adds the value stored in paricular memory address to accumulator
+|`SUB`|Subtract|
+|`STA`|Store|
+|`LDA`|Load (***D**ata **A**ddress*)|
+|`BRA`|Branch, **a**lways|
+|`BRZ`|Branch, if **z**ero|
+|`BRP`|Branch,, if **p**ositive|
+|`INP`|Input|
+|`OUT`|Output|outputs value of the accululator
+|`HLT`|End program (*HALT*)
+|`DAT`|Data location|
+
+This can be used in any way to perform operations like adding adddresses in memory, squaring numbers, etc. You'll need to be familiar with this and be able to spot errors and rewrite the instruction list when needed.
+
+
+
+## 1.2.4 Types of Programming Language
+
+
 
 # [tbd] 1.3 Exchanging data
+
+## 1.3.1 Compression, Encryption and Hashing
+
+## 1.3.2 Databases
 
 ## 1.3.3 Networks
 
@@ -226,7 +392,7 @@ DNS servers are therefore dedicated computers that store an index of domain name
 When a user types a domain name into their web browser or other application, the application sends a request to a DNS server to resolve the domain name to its associated IP address. The DNS server then searches its index for the domain name and returns the corresponding IP address to the requesting application. This allows the application to establish a connection to the server associated with the domain name, enabling the transfer of data between the client and server.
 
   
-> Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from the cache, which is much faster.
+> Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browser, which is much faster.
 
 
 If the local DNS server does not have a record for the domain, it may forward the request to an ISP's DNS server. If the ISP DNS server does not have a record, then it may be forwarded to one of 13 global root DNS servers which hold the records of every domain on the Internet.
@@ -411,13 +577,11 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 # [tbd] 1.5 Legal, moral, cultural and ethical issues
 
 
-# Credits
+# Credits + Footnotes
 
 [1] Andy aka (https://electronics.stackexchange.com/users/20218/andy-aka), Difference between a bus and a wire, URL (version: 2014-01-11): https://electronics.stackexchange.com/q/96149
 
 [2] _Teach-ICT A Level Computing - ALU_. [online] Available at: https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU) [Accessed 22 May 2023].
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTYxMTIxLC0xODgzMTAyNzQ4LC0xNT
-IzODU4Nzg2XX0=
--->
+[3] Yes I know it should be GPUs for parallel processing but you can still do it on your CPU if you really want to
+

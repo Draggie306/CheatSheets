@@ -5,25 +5,26 @@
 **⚠ This is a work in progress, unfinished document, unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-Last update: 02/01/2023 23:35
-✅ Note: This file is synced with [my Git repository](https://github.com/Draggie306/CheatSheets). Whenever changes are made, you'll see them almost immediately.
+[Last content update: 31/05/2023 22:12](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+
+
+✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). This is the latest version.
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-![enter image description here](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSkB4PciwxT7PTR6WXTvpbsMjwfB28N_dQLygfQkISyrMh7I0uzvy2oGOFzTKfAxc5N1Q8dUCQjueoAyXPQ2BCuySeTXJSbwdxdYYELkGKqSLITnjgImx1zqbLWul1kAAoN8LL3LJGhBMudoC7oEcaEm6RFHzoamwUDDr6mu6L5_KWQTcpfzaTVjEGAA/w5250-h2950/OCR-Geo-ALevel-CheatSheet.png)
+> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! You can also **receive a notification** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/OCR-Geo-ALevel-CheatSheet.png)
 *Top notch graphic design by me*
-
-
-Some parts of this document were generated with  _GPT-3_, OpenAI’s large-scale language-generation model. The author reviewed, edited, and revised the language to their own liking and takes ultimate responsibility for the content of this publication.
 
 For more information, see the end. 
 
 
 # 1.1 Option B – Glaciated Landscapes
 
-"Feeling a little like a **drumlin** today."
+"Feeling a little like a **[drumlin](#drumlins)** today."
 
-British ice map https://shefuni.maps.arcgis.com/apps/webappviewer/index.html?id=fd78b03a74bb477c906c5d4e0ba9abaf 
+Check out this interactive [ARCGIS British ice map](https://shefuni.maps.arcgis.com/apps/webappviewer/index.html?id=fd78b03a74bb477c906c5d4e0ba9abaf) to see places in the UK which have been influenced by glacial activity, with drumlins, subglacial lineations, moraines and more!
 
 
 ## Glaciers as Systems
@@ -32,13 +33,16 @@ There are 3 main parts to any system: inputs, processes and outputs.
 Glaciers are dynamic. Glaciated landscapes may be seen as a system with many interrelated components (stores), processes (cause/effect mechanisms) and inputs & outputs. This forms an open system.
 
 - Inputs
-	- snowfall
+	- percipitation (snowfall)
 	- material from deposition, weathering and mass movement
+	- avalanches 
 	- thermal energy (from sun)
 	- kinetic energy
 - Outputs (Ablation)
 	- evaporation
-	- sublimation 
+	- sublimation
+	- wind erosion
+	- meltwater 
 - Stores
 	- ice
 	- water
@@ -49,7 +53,8 @@ Glaciers are dynamic. Glaciated landscapes may be seen as a system with many int
 	- deposition
 	- kinetic energy from glacier movement
 
-Glaciers themselves can be seen as systems as they have a TON of different inputs and outputs. 
+Glaciers themselves can be seen as systems as they have a TON of different inputs, outputs, flows (or transfers) and stores. 
+
 
 ### Useful key terms
 - Terminus - the end of a glacier
@@ -62,26 +67,30 @@ Glaciers themselves can be seen as systems as they have a TON of different input
 - Area of ablation/wastage - the area of a glacier where it loses mass
 - Névé - young, granular snow 
 - Firn - névé which has survived a full season (year) of ablation and is partially compacted, and has been recrystallised into a substance denser than névé, an intermediate stage to becoming glacial ice. 
-- Firn/equilibrium line - the zone on a glacier where accumulation is equal to ablation over a 1-year period
+- Firn line/equilibrium line - the zone on a glacier where accumulation is equal to ablation over a 1-year period
 - Sintering - continued fusion and removal of air as a result of compression by the continued accumulation of snow and ice
 - Aspect - the direction that a slope faces.
 - Azimuth - the compass direction of an object
 
 ### The Glacial Budget and Mass Balance
 
-A glacier forms when snowfall exceeds summer melt in an area, therefore accumulates year after year. 
+A glacier forms when snowfall exceeds summer melt in an area, resulting in the accumulation of snow and ice	 year after year, typically in a hollow on a mountain with a northwest-southeast aspect in the northern hemisphere.
 
-Over time, snow is compacted and turned into glacial ice, and when this is around 40 m thick, the intense pressure causes it to begin flowing. The top of the glacier is white, but glacial ice at the base of the glacier is blue as oxygen has left the system..
+Over time, snow is compacted and turned into glacial ice, and when this is around 40m thick, the intense pressure causes it to begin flowing. The top of the glacier is white, but glacial ice at the base of the glacier is blue as oxygen has left the system.
 
 Snowflakes -> Granular snow -> Névé -> Firn -> Glacial ice
 
 Glacial ice has a density of 850kg/m^3^. It is rock hard and feels glassy and is almost translucent.
 
-The glacier mass balance is the total **sum** of all the **accumulation** (snow, ice, freezing rain) and melt or **ice loss** (from calving icebergs, melting, sublimation) across the entire glacier, or ablation. Over a year, the graph of mass balance in a northern hemisphere glacier may look like this:
+The glacier mass balance is the total **sum** of all the **accumulation** (snow, ice, freezing rain) and melt or **ice loss** (from calving icebergs, melting, sublimation) across the entire glacier, or ablation. 
 
-![](https://cdn.discordapp.com/attachments/785620979300302869/1052904994283724850/image0.jpg)
+Over a year, the graph of mass balance in a northern hemisphere glacier may look like this in an ideal scenario:
+![Diagram of the Glacial Mass Balance in a glacier, oscillating between minimum and maximum glacier mass ](https://cheatsheet-assets.ibaguette.com/alevel/geography/MassBalance.jpg)
+
+An equilibrium is reached between accumulation and ablation are equal. This point may be reached between the accumulation extreme in winter, and ablation extreme in the summer season.
 
 Layers of snow within the ice give evidence for the way that it has formed.
+
 
 ### Types of glacier and movement
 (Date studied: ~29/09/2022)
@@ -96,7 +105,7 @@ Valley glaciers usually occur in high altitude locations, with high relief, and 
 Ice sheets however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of a high/low latitude and have slow rates of movement and only around 5m/year. The base of the glacier is frozen to the bedrock and have a little precipitation but also lower temperatures so ablation levels are lower too.
 
 
-Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under study pressure, ice will deform and behave like plastic, (**zone of Plastic Flow** on the lower half of the glacier) making the size and base slower.  The **rigid zone** is on the top half of the glacier.
+Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under pressure, ice will deform and behave like plastic (**zone of Plastic Flow** on the lower half of the glacier) making it move faster .  Conversely, he **rigid zone** is on the top half of the glacier.
 
 Cold-based glaciers:
 - have a slow rate of movement (<5m/year);
@@ -114,7 +123,7 @@ Warm-based glaciers:
 
 > Cold-based glaciers are unable to move by basal sliding as the basal temperature is below the pressure melting point. Instead, they move through internal deformation, and ice at 0°C deforms 100 times faster than at -20°C.
 
-![enter image description here](https://media.discordapp.net/attachments/1052930066797039698/1070765946588901416/image.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Based%20Glaciers.png)
 
 ### [tbd] Useful stuff
 
@@ -128,73 +137,89 @@ Warm-based glaciers:
 Lodgement till is material deposited by advancing ice, due to pressure being exerted into existing valley material, and left behind as ice advances, such as drumlins.
 Ablation till is material deposited at the terminus by melting ice from stagnant, or retreating glaciers during a warm period or end of glaciation event. Most depositional landforms are this type.
 
-It can be known whether sediment was deposited by water or ice. Ice-transported sediment is angular, not curved, as it has not been subject to erosional forces by the meltwater. The order of size of sediments can indicate this too, as water deposits sediment progressively due to reducing energy levels, while glaciers deposit material unsorted and 'en masse'. Glaciers furthermore deposit till in mounds and ridges too as, during ablation, this englacial and supraglacial material gets dropped onto the bedrock. This is distinct from the layered deposition (or strata) typically characterised by fluvial processes.
+It can be known whether sediment was deposited by water or ice. Ice-transported sediment is angular, not curved, as it has not been subject to erosional forces by the meltwater. The order of size of sediments can indicate this too, as water deposits sediment progressively due to reducing energy levels, while glaciers deposit material unsorted and 'en masse'. Glaciers deposit till in mounds and ridges too, as, during ablation, this englacial and supraglacial material gets dropped on the bedrock below. This is distinct from the layered deposition (or strata) typically characterised by fluvioglacial processes.
 
 ### Factors affecting the microclimate 
 
 **Regional climate**
-The wind is a moving force and is able to carry out processes such as transportation, position and erosion. In the air, these are known as aeolian processes, and contribute to shaping glaciated landscapes.
-Wind is more effective when acting upon fine materials, usually those previously deposited by ice or meltwater. Temperature within the climate is another factor, as temperatures above 0°C will melt accumulated snow and ice, resulting in more outputs in the system. At higher altitudes, there are typically more prolonged periods of above freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing for glaciers to thicken and expansive ice sheets to form. Precipitation is another climate factor, with its totals and patterns, both regionally and seasonally, in determining mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
+The wind is a moving force and is able to carry out processes such as transportation, position and erosion. In the air, these are known as **aeolian processes**, and can contribute to shaping glaciated landscapes.
+
+The wind is a moving force and is able to carry out processes such as transportation, position and erosion. In the air, these are known as n processes, and contributes to shaping glaciated landscapes.
+Wind is more effective when acting upon fine materials, usually those previously deposited by ice or meltwater, such as smaller rocks, dirt and sand. 
+
+Temperature within the climate is another factor, as temperatures above 0°C will melt accumulated snow and ice, resulting in more outputs in the system. At higher altitudes, there are typically more prolonged periods of above freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing for glaciers to thicken and expaensive ice sheets to form. Precipitation is another climate factor, with its totals and patterns, both regionally and seasonally, in determining mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
 
 **Geology**
-Lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking crystals. Clay, on the other hand, is weak, and does not have these strong bonds on the molecular level. The solubility of rocks like chalk can also be affected by acidity, making them prone to chemical weathering as seen through carbonation.
+Lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking crystals. Clay, on the other hand, is weak, and does not have these strong bonds on the molecular level. The solubility of rocks like chalk can also be affected by acidity, making them prone to chemical weathering as seen, through carbonation.
 Structure relates to the physical rock types, like faulting, bedding and jointing. These all have an impact on how permeable rocks are. Chalk, for example, is very porous, spaces between the particles within it on the molecular level allow water to percolate through. Some types of limestone, like carboniferous limestone, has many interconnected joints, giving it 'secondary permeability'. 
 > **Primary permeability** is when spaces brackets (pores) absorb and retain water.
 
 **Latitude and Altitude**
-Beyond the Arctic and Antarctic circles, located at 66.5° north and south, the climate is very dry, with a little seasonal variation. Being so dry and extremely cold, they are much different to valley glaciers, which are more dynamic, as they have higher precipitation levels. The dryness contributes to **periglacial** environments, while also turning the types of glaciers in these areas to more cold-based. This means that they flow much less quickly, and different types of movement occurs. 
+Beyond the Arctic and Antarctic circles, located at 66.5° north and south, the climate is very dry, with a little seasonal variation. Being so dry and extremely cold, they are much different to valley glaciers, which are more dynamic, as they have higher precipitation levels névé turns into firn. The dryness contributes to **periglacial** environments *(see below for more about those!)* while also turning the types of glaciers in these areas to more cold-based. This means that they flow much less quickly, and different types of movement occurs. 
 Altitude also has a direct impact on the temperatures and development of valley glaciers. As temperatures typically decrease by 0.7^o^C every 100m of altitude gained, there are more likely to be valley glaciers in areas of high relief, as seen in the Alps and in the Himalayas. These glaciers are still not as cold as cold-based glaciers however.
 
 
-## How are glacial landscaped developed?
-Glacial landforms are typically classified according to erosional and depositional processes, however they can also developed through a series of interrelated processes.
+## How are glacial landscapes developed?
+Glacial landforms are typically classified according to erosional and depositional processes. This development can be described as a series of interrelated processes.
 
 ## Glacial erosional landforms
 
-### Corries
+### [tbd] Corries
 A corrie is an armchair-shaped depression in a mountain.
 
-Also known as a cwm or cirque, corries are formed from small hollows on the slopes of mountains where snow begins to accumulate, typically on the north-west to south-east facing slopes (or with an azimuth ranging from 300-140 degrees) of a mountain in the northern hemisphere. 
-This is due to its **aspect**, or the orientation of which a slope faces, with this specific aspect resulting having less time in the sun, which adds thermal energy to the system and results in ablation. 
-Over time, this virgin snow, or névé, turns into firn after one complete cycle without melting. Over multiple years, the snow at the bottom is compressed into ice, and plucking begins to be the dominant process. This newly-formed hollow, deepened by nivation. The ice freezes to the back wall, plucking material (debris), which is then washed out through a process known as rotational slumping. 
+[TBD/clarification]
+Also known as a *cwm* or *cirque*, corries are formed from small hollows on the slopes of mountains where snow begins to accumulate, typically on the north-west to south- east facing slopes (or with an *azimuth* ranging from 300-140 degrees) sof a mountain in the northern hemisphere. 
+This is due to its **aspect**, or the orientation of which a slope faces, with this specific aspect resulting, having less time in the Sun, which adds thermal energy to the system and results in ablation. 
+This virgin snow turns is known as *névé*, which become *firn* after one complete cycle without melting (i.e. surviving a summer ablation period, 1 year). Over multiple years, the snow at the bottom is compressed into ice, and plucking begins to be the dominant process at the base. 
 
- When the ice melts, a tarn, or corrie lake, is created, with potentially a lip made from moraine or rocks forming at its front. Material may then fall down from the back wall due to its aspect and steep relief, which is known as scree,
+[TBD/clarification]
+This newly-formed hollow, deepened by nivation, then moves because of gravity on the ice mass. The ice freezes to the back wall, plucking material (debris), which is then. This is washed out through a process known as rotational slumping. 
 
-![enter image description here](https://www.internetgeography.net/wp-content/uploads/2018/04/Corrie.png)
+When this ice melts, a ;*tarn*, or corrie lake, is created, with potentially a rock lip created from washed out *moraine* or rocks forming at its front. Material may then fall down from the back wall due to its aspect and steep relief, which is known as scree.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Corrie.png)
+*Processes occuring in a Corrie.*
 
 ### Arêtes
 
 An arête is a knife-shaped sharp ridge formed when two corries’ back walls continually erode back-to-back. Over time, these back walls meet, and a distinct ridge is formed. 
 
-![enter image description here](https://geography-revision.co.uk/wp-content/uploads/2019/05/Landforms-of-Glaciation_2.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Landforms-of-Glaciation_2.png)
+*A diagram of a mountain, which has had erosional processes acting upon it.*
 
 ### Pyramidal peaks
 
 A pyramidal peak is a high mountain whose surrounding have been eroded from corries. Three or more corries eroding back-to-back (similarly to how arêtes form) results in this sharp peak forming. 
 
-![enter image description here](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/1200px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Matterhorn.jpg)
 *The Matterhorn in the European Alps. It is a great example of a pyramidal peak.*
 
 ### U-shaped valleys
 
-A glacial trough or U-shaped valley is a result of strongly channelled ice, with plucking from a valley’s sides causing them to steepen. 
+Also known as a ***glacial trough***, a U-shaped valley is formed as a result of strongly channelled ice, bulldozing its way through a valley. On the valley's sides, plucking occurs, causing the sides to steepen. 
 
-Firstly, a V-shaped valley has steep sides and a central river channel, with interlocking spurs being a distinct feature. During periods of glaciation, snow begins to accumulate in these valleys as they are often sheltered.
+Firstly, before a glacial period, a V-shaped valley exists, having moderately steep sides and a central river channel, with interlocking spurs being a distinct feature. During periods of glaciation, snow begins to accumulate in these valleys as they are often sheltered.
 
-![](https://cdn.discordapp.com/attachments/1052930066797039698/1052930119351681024/C186FA7B-7B73-41FC-8572-925D09410A4F.png)
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/C186FA7B-7B73-41FC-8572-925D09410A4F.png)
+*How a V-shaped valley is formed. Remember this from GCSE? (if not, recap yourself on the GCSE cheat sheet!*
 
-When an ice mass has formed in the valley, freeze-thaw weathering begins occur above the glacier line, causing the valley to steepen, in the same way as a corrie steepens its back wall. The glacier itself also causes plucking, mostly on the sides, as rocks are frozen and ripped as the glacier moves. Abrasion also deepens the valley floor as subglacial material comes into contact with the bedrock. 
+When an ice mass has formed in the valley, or flowed from an upland area, freeze-thaw weathering begins to occur above the glacier line (where this ice mass is), causing the valley to steepen, in the same way as a corrie steepens its back wall. The glacier itself also causes plucking, mostly on the sides, as rocks are frozen and ripped as the glacier moves. Vertical abrasion also deepens the valley floor as subglacial material comes into contact with the bedrock.
 
-Hanging valleys with waterfalls and truncated spurs are a feature of this landform. A ribbon lake/loch as well as a misfit stream may also be present in the base of the newly-formed glacial trough valley.
+### Hanging valley
+
+Hanging valleys with waterfalls and truncated spurs are a feature of the U-shaped valley landform. They are visible within this glacial trough, and form as a smaller glacier from another valley has created a U-shaped valley which enters the larger valley. As the hanging valley's glacier is smaller, it is less powerful, so it does not reach the base of the larger glacial trough valley.
+
+### Water features
+A ribbon lake/loch as well as a misfit stream may also be present in the base of the newly-formed glacial trough valley.
 
 ### Roche moutonnées
 
-A roche moutonnée is a more resistant rock in the path of a glacier. Abrasion occurs on the upvalley (stoss) side, resulting in striations, grooves, and polishing from subglacial debris.. As meltwater is forced up and over the roche moutonnée, plucking and freeze-thaw weathering occurs. On the downvalley (lee) side, **pressure release** results in refreezing, while the glacier continues to move, pulling away the rock. 
+A roche moutonnée is a more resistant rock in the path of a glacier. AIs abrasion occurs on the upvalley (stoss) side, resulting in striations, grooves, and polishing from subglacial debris.. As meltwater is forced up and over the roche moutonnée, plucking and freeze-thaw weathering occurs. O on the downvalley (lee) side, **as pressure release** results in refreezing, while the glacier continues to move, pulling away the rock. 
 
 Roche moutonnées are generally concentrated in areas of competent bedrock such as granitoids (Glasser, 2002).
 
-![enter image description here](https://gq.mines.gouv.qc.ca/documents/photos/01221/0000019273.jpg)
-*Source: Québec government website https://gq.mines.gouv.qc.ca/lexique-stratigraphique/quaternaire/roche-moutonnee/*
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/0000019273.jpg)
+*Source: [Québec government website](https://gq.mines.gouv.qc.ca/lexique-stratigraphique/quaternaire/roche-moutonnee/)*
 
 The word is French with roche meaning rock and moutonée meaning sheep.
 
@@ -202,34 +227,50 @@ More specifically, it was introduced by a French geologist called Horace-Bénéd
 
 (Epically translated by me, you're welcome.) [\[2\]](#roche-mouton%C3%A9es-in-english)
 
-##  Glacial depositional landforms
 
-![](https://www3.nd.edu/~cneal/planetearth/Lab-Glaciation/12_25.jpg)
+### [tbd] Glacial depositional landforms
 
+![A photo of a valley glacier, with an erratic, eskers and more landforms](https://cheatsheet-assets.ibaguette.com/alevel/geography/ValleyGlacierLandscapeFormations.png)
 
-### Moraines 
-
-Moraines are ridges of soil, rocks and till which has been deposited by a glacial system.
-
-Medial moraines - in the centre of a glacial channel
-Lateral moraines - at the side of a glacial channel
-End moraines - marking a halt of glacial retreat
-Terminal moraine - a larger ridge marking the maximum advance of a glacial period (glacial maximum).
-Recessional moraine - just the end and terminal moraines
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/Moranic%20Valley%20Glacier.jpg)
 
 
-### Erratics
-They are randomly placed bits of rock and other debris which can be characterised by being of a different rock type than surrounding rocks, e.g limestone in a valley mainly of basalt.
+### Moraines
 
-This can be seen in the Lake District where rocks belonging to the rock group Borrowdale Volcanics were found in an area dominated by limestone.
+Moraines are ridges of soil, rocks and till which have been deposited by a glacial system.
+
+- Medial moraines - in the **centre of a glacial channel** (typically when two glaciers merge - see image above and you can see how the mountain in the middle is being carved out). Also may occur when their **lateral moraines meet** and combine into one. 
+- Lateral moraines - ridges which form **on the sides (margins) of a glacial channel**,  and are the result of the accumulation of debris due to erosional processes.
+- End moraines - marking a **pause or halt of glacial retreat** (e.g. when there are a couple of decades with little advance or retreat).
+- Terminal moraine - a ridge, often characterised by being largest and most prominent in the area, marking the **maximum advance of a glacial period** (glacial maximum).
+- Recessional moraine - a combination of the **end and terminal moraines**. 
+
+
+### [tbd] Erratics
+They are randomly placed bits of rock and other debris which can be characterised by sitting on a different rock type than surrounding rocks, e.g limestone in a valley mainly of basalt.
+
+This can be seen in the Lake District where rocks belonging to the rock group Borrowdale Volcanics were found in an area dominated by limestone. The **Bowder Stone** is another example being a 2,000 ton andesite lava boulder south of Keswick in the Lake District which most likely originated in Scotland
 
 
 ### Drumlins
 
-Drumlins are streamlined till, commonly elongated parallel to the former direction of ice flow, composed of glacial debris, and sometimes having a bedrock core which formed beneath an actively flowing glacier. They typically occur in larger groups, or ‘swarms’. This is known as a 'basket of eggs' topography.
+Drumlins are **unsorted mounds of streamlined till**, commonly elongated parallel to the former direction of ice flow, composed of glacial debris. They sometimes having a bedrock core which formed beneath an actively flowing glacier. 
+
+They typically occur in larger groups, or ‘swarms’. This is known as a '**basket of eggs**' topography. 
+
+Drumlins can be up to 1,000m in length but are typically around 300-500m. They also improve revenue for farmers, as the topography allows them to have a larger farming area in the same sized plot of land. Their length to width ratio is typically between 1.8 and 4.1, and this may be an indication of past glacial velocities, with longer drumlins indicating a faster ice velocity due to the laminar flow of ice.
+
+Drumlins are often found in conjunction with [morainic](#moraines) landforms and other depositional features like eskers, [kames](#kames-and-kame-terraces), outwash plains and 
+
+I'd love to be like a drumlin one day, they're just so chilled out and calming
+
+> Did you know that the ground between two drumlins is known as a **dungeon**?
+
 
 ### Ribbon lakes
-Ribbon lakes are both depositional and erosional. They are formed by the combined processes of glacial erosion, which deepens and widens the valley floor, and glacial deposition, which leaves sediment along the shores of the lake. The glacial erosion creates the U-shaped valley that eventually becomes the lake, and the glacial deposition creates the lake's shoreline and bottom. These lakes are typically long, thin and deep as a result of compressing flow, as this ice is likely to have come from an area of high incline to a more expansive area. This means that the ice is more likely to move faster and pushed into a thinner area downstream, so is more likely to erode vertically rather than laterally. More detail over at [the ullswater case study](#ullswater).
+Ribbon lakes are both depositional and erosional. They are formed by the combined processes of glacial erosion, which deepens and widens the valley floor, and glacial deposition, which leaves sediment along the shores of the lake. 
+
+Glaciers erode the valley into the typical U-shape. These lakes are typically long, thin and deep as a result of compressing flow, as this ice is likely to have come from an area of high incline to a more expansive area. This means that the ice is more likely to move faster and pushed into a thinner area downstream, so is more likely to erode vertically rather than laterally. More detail over at [the ullswater case study](#ullswater).
 
 
 
@@ -237,46 +278,59 @@ Ribbon lakes are both depositional and erosional. They are formed by the combine
 
 [Dev Note] 02/02/2023: Just need to add examples from the essay as well as some research info.
 
-![enter image description here](https://cdn.discordapp.com/attachments/1052930066797039698/1070809416905015306/image.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Lake%20District%20Landforms.png)
 *Glacial features of the Lake District, including subglacial lineations, meltwater channels, eskers, drumlins, moraines, glacially streamlined bedrock and more.*
 
 
 ### Glenridding Valley & Ullswater
 
-Ice from Red Tarn at Helvellyn flowed north-east into Glenridding Valley. As a result, a glacial trough was created in Ullswater, a long, thin, deep ribbon lake as a result of compressing flow with the ice mass moving fast and thinner downstream, so was more likely to erode vertically. This glacier would have continued flowing downstream towards modern-day Penrith, which is in a flat plains area, possibly resulting in the old Ullswater glacier becoming a Piedmont glacier on entering this large valley expanse. Inside modern day Ullswater is a series of roche moutonées such as Norfolk Island and Lingy Holm. The rock is more resistant than other types, resulting in striation lines with the freeze-thaw weathering being visible on the lee side still today.
+Ice from Red Tarn at Helvellyn flowed north-east into Glenridding Valley. As a result, a **glacial trough** was created in present-day Ullswater. As a result of compressing flow with the ice mass moving fast and thinner downstream, a long, thin, deep ribbon lake formed, so was more likely to erode vertically. 
 
-![enter image description here](https://cdn.discordapp.com/attachments/1052930066797039698/1070822330718236732/image.png)
+This glacier would have continued flowing downstream towards modern-day Penrith, which is in a flat plains area, possibly resulting in the old Ullswater glacier becoming a Piedmont glacier on entering this large valley expanse. Inside modern day Ullswater is a series of roche moutonées such as Norfolk Island and Lingy Holm. The rock of roche moutonées is characterised by being more resistant than other types, resulting in striation lines with the freeze-thaw weathering being visible on the lee side still today on these rock islands.
 
-The Glenridding village has visible depositional till extending into Ullswater, proving that there was once glacial activity in the area.
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Glacial%20Flow%20from%20Helvellyn.png)
 
-![enter image description here](https://cdn.discordapp.com/attachments/1052930066797039698/1070822950116278412/image.png)
+The Glenridding village has visible depositional till extending into Ullswater, visible from satellite imagery, easily proving that there was once glacial activity in the area.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Glenridding%20Deposition.png)
 *As you can see, there is material extending into Ullswater from the valley leading down from Helvellyn. This shows that there was substantial amounts of debris that was being deposited and moved along this glacial route.*
 
 ### Essay snippet: inter-related valley landforms [16 marks]
 A corrie, or cirque, is formed by snow falling and compacting in a hollow over many winters, typically on the northern side of mountains in the northern hemisphere due to the sheltered aspect. Over time, snow accumulates, compacting the snow beneath it into ice due to the air being displaced. The back wall on the mountain, in this example Helvellyn in the Lake District, gets increasingly steep due to persistent freeze-thaw weathering and plucking of material entering the young glacier as englacial material, or landing on the surface as sub-glacial material. At the same time, under its own weight, the ice at the base begins to rotate, known as rotational slipping, deepening the base through abrasion, with this abrasive material being finer sub-glacial debris. At Helvellyn, the bedrock type is known as the Borrowdale Volcanics, having formed 450 million years ago and moved from tectonic forces. Despite this relative strength, several corries have formed and melted during the Pleistocene period. After the most recent glaciation period known as the Loch Lomond Stadial around 12,000 years ago, there exists a corrie containing red tarn on Helvellyn's north-easterly terrain. These corries have eroded back to back, resulting in the formation of a reeds, knife-shaped ridges, namely striding edge and swirl edge. Furthermore, red tarn has a lip, preventing water loss, as a result of rock or moraine deposits. These examples show that landforms in a valley glacier system are significantly interrelated between different erosional landforms as the quarry is responsible for the creation of many other landforms during and after when glaciation has occurred.
 
 
-## [tbd] Case study: Lake Agassiz
+## [tbd] Ice Sheet Case Study: Minnesota
+
+![Laurentide Ice Sheet](https://cheatsheet-assets.ibaguette.com/alevel/geography/Laurentide_Ice_Sheet.png)
+*The Laurentide Ice Sheet during various glacial stages*
+
 
 [Dev Note] 02/02/2023: Add lobes.
 
-Lake Agassiz was a vast glacial lake located in central north America which was fed by contributory meltwater from the Laurentide ice sheet, which was up to 2 miles in height in some places. It was larger than every Great Lake combined, covering around 300,000 square kilometres, around the same size as the Black Sea. 
 
-When an outburst flood occurred, around 11,000  years ago, it resulted in large scale erosion of an area 8km wide and 76m deep in Browns Valley, Minnesota. This old river is known as the Glacial River 'Warren'. It helped form the modern Minnesota and Mississippi rivers.
 
-Its major drainage reorganization events greatly had an impact on climate, sea level and possibly even early human civilization.
+
+### [tbd] Mini case study: Lake Agassiz
+
+Lake Agassiz was a vast glacial lake located in central north America which was fed by glacial meltwater of the Laurentide glacier at the end of the last glacial period. It was larger than every great lake combined, covering around 300,000 square kilometers, around the same size as the black sea.
+
+Its major drainage reorganization events greatly impacted climate, sea level and possibly even early human civilization.
 
 The erosion and the melting formed the glacial river warren and formed the modern Minnesota and upper Mississippi rivers.
 
+Glacial Lake Agassiz was a large glacial lake located in central North America. It was formed by contributory meltwater from the Laurentide ice sheet, which was up to 2 miles in height. When an outburst flood occurred, around 13,500 and 10,650 years ago, it resulted in large scale erosion of an area 8km wide and 76m deep in Browns Valley, Minnesota. This old river is known as the Glacial River Warren. It helped form the Minnesota and Mississippi rivers.
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/d5/River_Warren_Valley.gif)
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/River_Warren_Valley.gif)
 *The top right is the bed of Lake Agassiz, and the eroded area is visible too. North Minnesota.*
 
+
+An interactive map of glacial extent and lobes is available [here](https://royalholloway.maps.arcgis.com/apps/webappviewer/index.html?id=22484133aff845599d5f1a6a0746572c).
 
 ### Wadena lobe
 The Wadena Lobe had depositional impacts on the north-west of the state. Its deposits were red and sandy, derived from **red sandstone & shale rock in the north and the north-east of Canada**.
 It first deposited the **Alexandra** moraine, which resulted in **drumlin swarms** over three counties including the **Wadena county** itself as well as Otter Tail and Todd counties.
-At its glacial maximum, it reached just south of Minneapolis. It also deposited the Itasca moraine series.
+It also deposited the Itasca moraine series which has similar features.
+At its glacial maximum, it reached just south of Minneapolis.
 
 ### Rainy and Superior lobes
 The rainy lobe moved in after the Wadena lobe in the same general area, but only covered half the area. However, the Superior lobe was much larger and moved in from the north-east. It partly covered the modern-day Lake Superior, on the east side of the state.
@@ -291,7 +345,7 @@ In the south west, **Prairie Coteau** is an example of a terminal moraine.
 
 ### Erosional impacts of the ice
 
-The highest mountains in Minnesota are worn down so they're now just 500 to 700 meters high. A large ellipsoidal basin was created and contains thousands of lakes like Upper and Lower Red Lake in North Minnesota. In the Arrowhead Northeast region this was deep due to earlier tectonic tilting of the landscape which exposed weak shale rock. Lakes here lie in deeply eroded shales.
+The highest mountains in Minnesota are worn down so they're now just 500 to 700 meters high. A large ellipsoidal basin was created and contains thousands of lakes like Upper and Lower Red Lake in North Minnesota, and Mille Lacs Lake in Central Minnesota. In the Arrowhead Northeast region this was deep due to earlier tectonic tilting of the landscape which exposed weak shale rock. Lakes here lie in deeply eroded shales.
 
 ### Deglaciation
 Glacial Lake Agassiz was formed by glaciers which blocked the natural drainage of the area and as a result a lake developed to the south of the ice. The river that drained Lake Agassiz was known as Glacier River Warren. This left behind fertile silt deposits in what is now the Red River Valley. 
@@ -307,57 +361,75 @@ The present landscape of Minnesota resulted largely from glacial activity in the
 **Glacio-fluvial** means **an environment shaped by glacial meltwater.**
 Geomorphic means changes (**morph**) to the land (**geo)**.
 
-### Eskers  
+### Eskers
 
-Eskers are long sinuous (having many curves and turns) ridges made from sand, gravel and other types of glacial till deposited on valley floors by glacial meltwater flowing through subglacial and englacial tunnels, as well as through supraglacial channels. 
+Eskers are long, sinuous (having many curves and turns) ridges made from sand, gravel and other types of glacial till deposited on valley floors by glacial meltwater flowing through subglacial and englacial tunnels, as well as through supraglacial channels. 
 
-> Elongated ridges of glaciofluvial sediment deposited in subglacial meltwater pipes
+> Eskers are "elongated ridges of glaciofluvial sediment deposited by subglacial meltwater pipes".
 
-These tunnels and channels over time become filled up with sediment. During deglaciation, this sediment is dropped onto the bedrock, leaving ridges, signifying that a glacial tunnel was somewhere above it. 
+These tunnels and channels over time become filled up with sediment. During deglaciation, this sediment is dropped onto the bedrock leaving **stratified** ridges, signifying that a glacial meltwater tunnel was somewhere above it. This could be either a kame (see below) or an esker.
 
-Some argue that deposition is caused when pressure is released at the glacier's snout, so as the glacier retreats, the point of deposition retreats too. This can describe their beaded appearance (vary in height and width throughout) with the beads of greater size representing periods of relative slow retreat or halted ablation. Others may say that the larger beads are caused as a result of greater load carried in the summer meltwater.
+Some argue that deposition is caused when pressure is released at the glacier's snout, so as the glacier retreats, the point of deposition retreats too. This can describe their beaded appearance (vary in height and width throughout) with the beads of greater size representing periods of relatively slow retreat, or halted ablation. Others may say that the larger beads are caused as a result of greater load carried by the meltwater in summer seasons.
 
-![enter image description here](https://www.antarcticglaciers.org/wp-content/uploads/2020/08/image.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Eskers.png)
 *Here's 2 angles showing what they look like, in Svalbard.*
 
-The weight of the ice above the subglacial tunnels mean that the water flowing is under extremely high pressure. When the ice melts, this pressure is released, so therefore dropping sediment. Eskers can be deposited, ignorant of local topography, meaning that they can traverse over hills in the landscape. 
-The path taken by this pressurised meltwater is mostly controlled by the slope, size and direction of the ice surface rather than the bedrock. Because of this, eskers can be used to show the slope of the ice surface and its extend. It also runs parallel to the direction of ice flow, and therefore transverse to the glacial snout.
+The weight of the ice above the subglacial tunnels mean that the water flowing within these subglacial tunnels is under extremely high pressure. When the ice melts, this pressure is released, so therefore dropping sediment.
+
+> Eskers are deposited unaffected by/ignorant of local topography, meaning that they can traverse over hills in the landscape. 
+
+The path taken by this pressurised meltwater is mostly controlled by the slope, size and direction of the ice surface rather than the bedrock. Because of this, eskers can be used to show the slope of the ice surface and its extent. It also runs parallel to the direction of ice flow, running transverse to the glacial snout.
 
 
 
-![](https://www.antarcticglaciers.org/wp-content/uploads/2020/08/image-3.png)
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/MoreEskers.png)
+*Topographic view of depositional landforms.*
+
 
 Eskers on paleo-ice-sheet beds are more abundant in areas of crystalline bedrock with thin coverings of surficial sediment than in areas of thick deformable sediment, because meltwater flowing at the bed is more likely to incise upwards into the ice to form an R-channel where the bed is hard; where the bed is deformable, meltwater is more likely to incise downwards.
+*You don't need to remember that.*
 
 **Examples**
 Many eskers are found in central Ireland, some are in Canada, as well as many in Iceland and Sweden.
 
-Here is an example of an esker on Google Maps: [https://www.google.com/maps/cheatsheet-esker-link](https://www.google.com/maps/@64.0543235,-16.3193597,405m/data=!3m1!1e3?hl=en)
+[Here](https://www.google.com/maps/@64.0543235,-16.3193597,405m/data=!3m1!1e3?hl=en) is an example of an esker on Google Maps.
+
 A meltwater stream is visible south of it, as well as another esker to the east.
 
+
+Eskers on paleo-ice-sheet beds are more abundant in areas of crystalline bedrock with thin coverings of surficial sediment than in areas of thick deformable sediment, because meltwater flowing at the bed is more likely to incise upwards into the ice to form an R-channel where the bed is hard; where the bed is deformable, meltwater is more likely to incise downwards
+
+
+**Examples**
+Many eskers are found in central Ireland, some are in Canada, as well as many in Iceland and Sweden.
+
+
 **Post glacial climate change in Eskers**
-As global climatic temperatures increase, the rate of glacial ablation increases and results in more meltwater being produced. This means that there is more accumulation of sediment in proglacial areas and the length of these eskers will increase. 
+As global climatic temperatures increase, the rate of glacial ablation increases and results in more meltwater being produced. This means that there is more accumulation of sediment in proglacial areas and the length of these eskers is likely to increase, or become more beaded with greater and more intense ablation periods. 
 
 ###  Kames and kame terraces  
 
 A kame is an irregularly shaped hill, hummock or mound made of stratified glacial till comprised of mainly sand and gravel.
 
-This till accumulates in a depression in a retreating glacier, and as the surrounding ice melts this build up of material in this hole (or **moulin**) is deposited on the land surface. 
+#### Kame formation
+Glacial till accumulates in a depression in a retreating glacier, and as the surrounding ice melts this build up of material in this hole (or **moulin**) is deposited on the bedrock surface.
 
-Delta kames are often located on the side of a glacial valley, having been meltwater streams running between the glacier and valley sides. These are stratified (layered) deposits of subglacial meltwater streams glowing between the ice and the valley walls. Distinguished by their 'long, flat benches with many pits on the surface made by kettles', they gradually slope to the lee side (downvalley) and, like eskers, have similar gradients to the ice surface above it.
+#### Delta kame terraces
+Delta kame terraces are often located on the side of a glacial valley, having been meltwater streams running **between the glacial ice and valley walls**.
+These are stratified (layered) deposits. Distinguished by their 'long, flat benches with many pits on the surface made by kettles', they gradually slope to the lee side (downvalley) and, like eskers, have similar gradients to the ice surface above it.
 
-Kame deltas are formed by supraglacial streams transporting sediment loads into glacial lakes. In the process of doing this, sediment is deposited on the top of this ice and into crevasses, filling them with debris. As this ice then melts, the material then collapses onto the bedrock surface.
+Kame deltas are formed by **supraglacial streams transporting sediment loads into ice marginal lakes** (or glacial lakes/seas). In the process of doing this, sediment is deposited on the top of this ice and into crevasses, filling them with debris. As this ice then melts, the material then collapses onto the bedrock surface.
 
 Delta kames may also form when englacial streams losing energy as they move to the base of the glacier, increasing friction.
 
-![](https://www.coolgeography.co.uk/A-level/AQA/Year%2012/Cold%20environs/Fluvioglacial/Fluvioglacial%20during.jpg)
-![](https://www.coolgeography.co.uk/A-level/AQA/Year%2012/Cold%20environs/Fluvioglacial/Fluvioglacial%20post.jpg)
+> Watch out! Many people say 'kame' when they mean 'esker'! You need to know the differences between the two well.
+
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/FluvioglacialDuring.jpg)
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/FluvioglacialAfter.jpg)
+*This displays the distinction between kame and esker.*
 
 As climate change increases temperature levels, more meltwater is present, which transports and deposits sediment. This will result in a larger amount of all types of kame being more likely to form.
 
-
-
- - - -
 
 ### Essay example: influence of climate changes and geomorphic processes in their formation
   
@@ -378,9 +450,7 @@ The meltwater, over time, accumulates in this area, unable to flow outwards. Thi
 After a glaciation period, the climate typically warms up. Over time, if there is a large ice sheet blocking the water flow, this sheet will ablate, and the lake will either overflow or undermine the dam, causing a glacial lake outburst flood, or jökulhlaup. 
 
 
-Modern example: The Russell Fjord in Alaska is regularly blocked by the Hubbard Glacier, which can increase water levels in the fjord by up to 15m as it cannot empty out into Disenchantment Bay: [https://www.google.com/maps/@59.9434435,-139.3498929](https://www.google.com/maps/@59.9434435,-139.3498929,38491m/data=!3m1!1e3?hl=en)
-
-... or here's a [better 3D Google Earth link](https://earth.google.com/web/search/59.8883001,-139.4667027/@60.00388892,-139.46027767,4.99019336a,27062.63375624d,35y,-20.07223987h,69.609191t,-0r/data=CigiJgokCYOFrxBR9jRAEYCFrxBR9jTAGaJhOYMgtUlAIaJhOYMgtUnA)
+Modern example: The Russell Fjord in Alaska is regularly blocked by the Hubbard Glacier, which can increase water levels in the fjord by up to 15m as it cannot empty out into Disenchantment Bay: [Google Maps](https://www.google.com/maps/@59.9434435,-139.3498929,38491m/data=!3m1!1e3?hl=en)/[3D Google Earth](https://earth.google.com/web/search/59.8883001,-139.4667027/@60.00388892,-139.46027767,4.99019336a,27062.63375624d,35y,-20.07223987h,69.609191t,-0r/data=CigiJgokCYOFrxBR9jRAEYCFrxBR9jTAGaJhOYMgtUlAIaJhOYMgtUnA).
 
 
 ### Outwash plains  
@@ -392,7 +462,7 @@ As the glacier moves over bedrock, plucking and abrasion (erosion) occurs result
 In summer months, there is typically higher glacial discharge and ablation, resulting in these tilly islets being destroyed by water, which has a little more energy due to increased velocity. This leads to more erosion, and these islets then go on to reform later. This makes the outwash plain have a distinct look. This can be described as dynamic.
 > The elevated level of erosion is typically closer to the glacial snout but then progressively loses energy. 
 
-![](https://api.ibaguette.com/revision_meta/geo/alevel/A%20Lovely%20Outwash%20Plain.jpg)
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/A%20Lovely%20Outwash%20Plain.jpg)
 
 In areas that were once glaciated, old outwash pains can be found by looking for sediment, with large  angular rocks and boulders being present closer to the glacial mass and smaller, smoother rocks and sediment being further away from the glacier, similarly to a typical river system aside from their origin. Outwash plains can extend for miles beyond the glacial margin (terminal moraine).
 
@@ -400,13 +470,14 @@ In areas that were once glaciated, old outwash pains can be found by looking for
 
 ### Braided streams  
 
-The general consensus is that braided river form instead of meandering rivers due to a higher sediment load, caused by discharge from ablation, as well as variable rates of flow. 
-At the end of a melting period, these lose water, lowering kinetic energy present in the system and therefore losing erosional power and increasing depositional power. This results in material being deposited into the river channel, causing it to divide in two. Braiding itself develops when this 'mid-channel bar' grows downstream, as a result of more, finer material being added to the bar as discharge amounts continue to decrease. These bars, during times of exceptionally low discharge like in winter months, may become home to vegetation, becoming more permanent. whereas unvegetated bars are less stable and often move with high discharge.
+The general consensus is that braided rivers form instead of meandering rivers due to a higher sediment load, caused by discharge from ablation, as well as variable rates of flow. At the end of a melting period, these lose water, lowering kinetic energy present in the system and therefore losing erosional power and increasing depositional power. 
+
+This results in material being deposited into the river channel, causing it to divide in two. Braiding itself develops when this 'mid-channel bar' grows downstream, as a result of more, finer material being added to the bar as discharge amounts continue to decrease. These bars, during times of exceptionally low discharge like in winter months, may become home to vegetation, becoming even more permanent. whereas unvegetated bars are less stable and often move with high discharge.
 
  Many of these channels branch from other channels and merge to give it the 'braided' pattern. They are common in outwash plains due to the variable nature of ablation and meltwater amounts.
 
 
-![](https://worldrivers.net/wp-content/uploads/2020/04/Screenshot_32.png)
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/Braided_Stream.png)
 *diagram of a braided stream*
 
 They are found in large quantities in south Iceland, for example.
@@ -417,7 +488,7 @@ Due to climate change, braided streams may dry up due to smaller amounts of ice 
 A kettle is a large depression in the ground formed by glacial deposition, and is therefore a depositional landform. They create 'dimples' in the landscape around mountainous areas.
 
 They are formed by large blocks of ice breaking from the main glacier. As the main glacier retreats, this 'dead' ice becomes stranded and, over time, becomes buried by sediment deposits as meltwater flows around it from the main glacier. Of course, this ice melts and its water evaporates, leaving behind a large depression, or kettle holes. Water can then fill these in again, or if not all water drains originally, resulting in kettle lakes.
-![enter image description here](https://media.discordapp.net/attachments/785620979300302869/1049804000221999144/kettles.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/kettles.png)
 
 
 ## Periglacial landforms
@@ -436,7 +507,7 @@ Permafrost itself is comprised of:
 
 There are 3 types of permafrost:
 - Continuous permafrost: there is little thawing, even in the summer. These are often in areas of high altitude and latitude.
-- Discontinuous permafrost:
+- Discontinuous permafrost: 
 - Sporadic permafrost:
 
 ### Sorted Stone Polygons (slone circles)
@@ -460,7 +531,7 @@ During the thawing of the active layer in the spring and summer months, water sa
 
 > Gelifluction is a type of solifluction but is to exclusive periglacial areas.
 
-![enter image description here](https://epicgeography.files.wordpress.com/2016/06/solifluktion_girlande.jpg)
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/solifluction.jpg)
 
 #### Soil/Frost Creep or Mass Wasting
 This is a process which moves material down a slope by a few centimetres per year even on high gradients.
@@ -468,7 +539,7 @@ On freezing, the particles in the slope's soil are raised at a 90^o^ angle to th
 
 
 ### Pingos
-![enter image description here](https://cdn.britannica.com/13/181613-050-4F432555/Diagram-formation-open-system-pingos.jpg)
+![Open vs closed-system pingo](https://cheatsheet-assets.ibaguette.com/alevel/geography/Diagram-formation-open-system-pingos.webp)
 #### Open system (hydraulic)
 These are also known as East Greenland type pingos.
 
@@ -478,7 +549,7 @@ These are also known as East Greenland type pingos.
 These are also known as MacKensie type pingos.
 In an open-system pingo, pingos are dome-shaped, ice cored hills. Groundwater moves through the permafrost and towards an ice core, making it expand. This can be described as **hydrostatic pressure**. Sediment and rocks aid the water in travelling and also get frozen within this ice core, and as this core expands the ground above gets pushed further upwards to create a hill.
 
-![enter image description here](https://cdn.discordapp.com/attachments/785620979300302869/1064982817529933834/image.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/sussypingo.png)
 *Sussy pingo, what type is this?*
 
 ### Ice-wedge polygons
@@ -509,9 +580,33 @@ This excess heat is mostly generated from the burning of fossil fuels, the absor
 This thawing can furthermore lead to infrastructure damage, as roads and buildings can be damaged by the shifting of the ground.
 
 
-### Case study: 
+### Case study: Kárahnúkar Dam, Iceland
 
-# 2.2.2 Global Systems – Migration
+This dam was build in East Iceland in a large proglacial lake, resulting from one of the largest glacier in Europe. It is actively retreating, so provides water to the dam which can then be used as hydroelectricity. The dam itself was finished in 2007 and is large enough to be seen from space.
+The dam could provide enough energy for all Icelandic homes and small businesses, but instead all energy provides the nearby aluminium smelter, Alcoa. 
+However, there has been widespread backlash over the prokect, as it flodded over 400,000 acres of unspoilt highland wilderness, the second largest unspoiled area in Europe. In total, almost 750,000 acres were affected by the construction of the dam, which is around 3% of Iceland’s total land mass.
+
+The dam was built as Alcoa produces 2% of the world’s aluminium supply, and global financial markets at the time of construction were expected to make a significant number of jobs, and this aluminium industry was expected to make up 10% of Iceland’s total GDP. This has not happened yet, and the price of aluminium had almost halved
+
+Glacial meltwater, or milk, is released by the Vatnajökull glacier and flows into the lake blocked by the dam. This glacial meltwater is known to have high concentration of sediment within it, and as such reduces the capacity of the dam over time. This is because the suspended sediment at the base of the water solidifies when deposited, as there is little kinetic energy at the bottom to keep suspended sediment floating. Over time, the base level of the lake increases, reducing overall water capacity, until this excess sediment is ‘purged’ by the dam management system, which may happen annually. 
+
+##
+That's the end for glaciation! I hope you found it useful.
+
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Periglacial-and-Paraglacial-Processes-and-Environments.png)
+*What if I told you about Paraglaciation and Paraperiglaciation as well?*
+
+
+# [TBD] Disease Dilemmas 
+
+This will take a while to write up...
+
+
+
+
+
+# [TBD] Migration
 
 Page 30 in [the OCR A Level Geography H481 Specification](https://www.ocr.org.uk/images/223012-specification-accredited-a-level-gce-geography-h481.pdf) or search for: 'Global Systems: Option B – Global Migration'
 
@@ -521,26 +616,168 @@ Interdependence - interrelationships between ACs, EDCs ans LIDCs through trade, 
 Globalisation - the growing integration and interdependence between peoples’ lives economically, politically and environmentally.
 
 
-# 2.1 – Changing Spaces; Making Places
+# [TBD] 2.1 – Changing Spaces; Making Places
 
 ## What’s in a place?
 
 **Key idea:**
-
 1.a. Places are multi-faceted, shaped by shifting flows and connections which change over time.
 
 **Content:**
-
 Case studies of two contrasting place profiles at a local scale, including: 
 - their demographic, socio-economic, cultural, political, built and natural characteristics that shape their place identity. 
 - their past and present connections that shape the place identity and embed them in regional, national, international and global scales 
 - how shifting flows of people (such as commuter, migration), resources (such as natural, technology), money and investment (such as EU funding, TNCs) and ideas (such as knowledge economy) have helped shape the demographic, socio-economic and cultural profile of these places over time.
+---
 
-## Case study: Mancroft ward, Norwich.
+A place can be described as a location created by human experiences. 
+A space, on the other hand, has no social connections or added perceived values. 
 
-Condensed:
+For example, a car parking space at a shopping market has no value to you. It's just a one time location which you leave your car at. However, a parking place at your work may have your name on it, it may be valued by yourself and there may be some memories associated with it, such as tripping over or talking to someone there.
+
+> One person's place may be another's space.
+
+Places can have different connections and perceptions. These are also likely to change over time. For example, 10 Downing Street may be perceived by characteristics, such as being a centre for political power, socioeconomic decisions or even for Larry the Cat who's there. It also has many factors which determine how people perceive it, such as the current political affiliation or recent decisions made by the people inside.
+
+Place Identity is a combination of many characteristics that comprise a place. These factors include: 
+- socioeconomic (housing tenure, employment, income)
+- political (national and regional government)
+- cultural (religion, traditions, societies)
+- physical (altitude, geology, proximity to natural features like rivers)
+- demographic (ethnicity, age, gender)
+- the built environment (building materials, ages, density)
+
+
+
+
+### Case study: Mancroft Ward, Norwich.
+
+The Mancroft Ward is an area of central Norwich.
 
 Overall, Mancroft is a built-up area with a high population density, suggesting that it contains a large amount of flats and buildings in close proximity. The population is diverse, with 11.07% of the ward being retired, 866 students, 5,353 economically active people aged between 16 and 74, and 2,466 people economically inactive. The majority of homes have 3 or 4 rooms, with an average of 2.51 people per household, suggesting that the area is mainly occupied by single people or very small families. This data implies that Mancroft is a middle-class area with many workers living in smaller houses, and families would then go on to move away from this area in the city centre.
+
+### Case study: Sheringham
+North Norfolk.
+
+## How do we understand place?
+
+**Key Ideas**
+a) People see, experience and understand place in different ways, this can also change over time. 
+b) Places are represented through a variety of contrasting formal and informal agencies.
+
+**Content A:**
+- The complexities that exist when trying to define place, including the concept of space versus place. 
+- How and why people perceive places in different ways based on their identity, including age, gender, sexuality, religion and role. 
+- How level of emotional attachment to place can influence people’s behaviour and activities in a place.
+- How the processes of globalisation and time-space compression can influence our sense of place.
+
+**Content B:**
+- How informal representations of a place differ through contrasting media such as TV, film, music, art, photography, literature, graffiti and blogs. 
+- Identify how formal and statistical representations of a place, such as census and geospatial data, contrasts with informal representations.
+
+---
+
+
+### Place Perception: Uluru and Jerusalem
+
+
+### Emotional attachment: The Kurds and Kurdistan
+
+### Globalisation and our sense of place
+
+
+## Economic change and patterns of social inequality
+Specification content:
+3. **How does economic change influence patterns of social inequality in places?**
+
+
+
+3.a. **The distribution of resources, wealth and opportunities are not evenly spread within and between places.**
+- The concept of social inequality and how this can be measured through indices such as housing, healthcare, education, employment and access to services. 
+- How and why spatial patterns of social inequalities vary both within and between places.
+
+3.b. **Processes of economic change can create opportunities for some while creating and exacerbating social inequality for others.**
+- The influence of global connections and globalisation in driving structural economic change in places, such as de-industrialisation and the rise of the service industry. 
+- How structural economic change impacts patterns of social opportunities and inequality for people and places. 
+- How cyclical economic change (booms and recessions) has varied impacts on social opportunities and inequality. 
+- The role of government in reducing, reinforcing and creating patterns of social inequality in places through spending or cuts in key services such as availability and accessibility of education, healthcare, infrastructure and community services.
+
+3.c. **Social inequality impacts people and places in different ways.**
+- Case studies of two contrasting places to illustrate: 
+	- the types of evidence of social inequality that can be found there such as housing, environmental quality, crime rates, digital divide 
+	- the range of factors that influence people’s social inequality such as income, gender, age, health, personal mobility, ethnicity and education 
+	- how social inequality impacts upon people’s daily lives in different ways.
+---
+
+
+### [TBD] Measuring Social Inequality
+Book reference: pages 158-162
+
+
+
+The Gini coefficient is used to measure the  inequality of income and thereby deprivation within countries. [Here](https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/bulletins/householdincomeinequalityfinancial/financialyearending2022#:~:text=The%20Gini%20coefficient%20for%20gross,40.0%25%20in%20FYE%202020) is the UK stats on the ONS website.
+
+
+## Players that impact on economic change
+
+Specification content:
+4. **Who are the players that influence economic change in places?**
+4.a. **Places are influenced by a range of players operating at different scales.**
+
+
+- The role of players in driving economic change, including at least one of local and national government, MNCs or international institutions. 
+- Case study of one country or region that has been impacted by structural economic change, including:
+	- socio-economic, demographic, cultural and environmental characteristics of the place before the economic change 
+	- the economic change/changes that took place and the role of players involved in driving the change 
+	- socio-economic, demographic, cultural and environmental impacts on people and place.
+---
+
+
+## Placemaking processes
+
+Specification content:
+5. **How are places created through placemaking processes?**
+5.a. **Place is produced in a variety of ways at different scales.**
+- The concept of placemaking and how governments and organisations attempt to present places to the wider world to attract inward investment and regeneration. 
+- How architects and planners attempt to create meaningful and authentic places through design, such as places that encourage mixed community use or the 24 hour city. 
+- How local community groups shape the place they live, such as residents associations, heritage associations and social media
+
+5.b. **The placemaking process of rebranding constructs a different place meaning through reimaging and regeneration.**
+- Why places rebrand through reimaging and regeneration to construct a different place meaning.
+- How a range of strategies can be used to rebrand places, such as sport, art, heritage, retail, architecture and food. These can be used singularly or in conjunction to change a place meaning. 
+- A range of players and their role in placemaking, including government/EU funding, corporate bodies, not for profit organisations and community groups. 
+- How and why some groups of people contest efforts to rebrand a place.
+
+
+5.c. **Making a successful place requires planning and design.**
+
+- Case study of one place that has undergone rebranding, including: 
+	- why the place needed to rebrand
+	- strategy/strategies involved in the rebranding of the place
+	- the role and influence of a range of players involved in the placemaking 
+	- how the rebranding has altered people’s perception of that place 
+	- the relative success of the rebranding.
+---
+
+
+
+end of paper 2
+
+---
+# NEA stuff
+
+## Spearman's Rank 
+
+In the first sheet, in cell E5, you write:
+`=RANK.AVG(C5,$C$5:$C$24,0)`
+This compares the value of the cell in C5 to those in cells 5 to 24.
+You then go to the bottom right of the cell and drag the dot to cell E24
+This will copy that earlier formula to give the results for each row. This is because we need the results in an ordered format.
+Repeat this for the Cancer rate column (so `=RANK.AVG(D5,$D$5:$D$24,0)`) in column F
+
+Finally, in any other cell, we can use the cool excel CORREL function to just work it out
+`=CORREL(E5:E24,F5:F24)`
+This gets the spearman's correlation for the two sets of data
 
 
 
@@ -548,14 +785,8 @@ Overall, Mancroft is a built-up area with a high population density, suggesting 
 
 ### (Disclaimer) AI-assisted writing
 
-The author generated the following parts of the text in part with GPT-3, OpenAI’s large-scale language-generation model. Upon generating draft language, the author reviewed, edited, and revised the language to their own liking and takes ultimate responsibility for the content of this publication.
+ChatGPT or any other text-based generative transformer model was **not used** to directly write the content here. It's good for clarification of certain topics (and I've used it for that), but **don't get used to it** otherwise you'll lose your creativity. 
 
-- some of [Ribbon lakes](#ribbon-lakes)
-- some of [ullswater](#glenridding-valley--ullswater)
-
-Additionally, AI was used to generate parts of the following texts.
-
-- AI speech-to-text synthesis was used for [this essay example](#essay-snippet-inter-related-valley-landforms-16-marks). *This was not made by generative text-generation models like GPT3.*
 
 ## Extra Info
 

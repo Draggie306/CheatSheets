@@ -88,18 +88,41 @@
 </ul>
 </li>
 <li><a href="#applications-generation">1.2.2 Applications Generation</a></li>
-<li><a href="#software-development">1.2.3 Software Development</a>
+<li><a href="#software-development">1.2.3 Software Development</a></li>
+<li><a href="#types-of-programming-language">1.2.4 Types of Programming Language</a>
 <ul>
-<li><a href="#assembly-language--little-man-computer-lmc">Assembly language + Little man Computer (LMC)</a></li>
+<li><a href="#assembly-language--little-man-computer">Assembly language + Little man Computer</a>
+<ul>
+<li><a href="#modes-of-addressing-memory">Modes of addressing memory</a></li>
+<li><a href="#oo-languages">OO languages</a></li>
 </ul>
 </li>
-<li><a href="#types-of-programming-language">1.2.4 Types of Programming Language</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#tbd-1.3-exchanging-data">[tbd] 1.3 Exchanging data</a>
 <ul>
-<li><a href="#compression-encryption-and-hashing">1.3.1 Compression, Encryption and Hashing</a></li>
-<li><a href="#databases">1.3.2 Databases</a></li>
+<li><a href="#compression-encryption-and-hashing">1.3.1 Compression, Encryption and Hashing</a>
+<ul>
+<li><a href="#compression-techniques">Compression techniques</a></li>
+<li><a href="#lossy-compression">Lossy compression</a></li>
+<li><a href="#lossless-compression">Lossless compression</a></li>
+<li><a href="#run-length-encoding-rle">Run length encoding (RLE)</a></li>
+<li><a href="#dictionary-encoding">Dictionary encoding</a></li>
+<li><a href="#encryption">Encryption</a></li>
+<li><a href="#vernam-cipherone-time-pad">Vernam cipher/one-time pad</a></li>
+<li><a href="#symmetric-private-key-encryption">Symmetric (private key) encryption</a></li>
+<li><a href="#asymmetric-public-key-encryption">Asymmetric (public key) encryption</a></li>
+<li><a href="#hashing">Hashing</a></li>
+<li><a href="#uses-for-hashing">Uses for hashing</a></li>
+</ul>
+</li>
+<li><a href="#databases">1.3.2 Databases</a>
+<ul>
+<li><a href="#database-concepts">Database concepts</a></li>
+</ul>
+</li>
 <li><a href="#networks">1.3.3 Networks</a>
 <ul>
 <li><a href="#ipv4-addressses">IPv4 addressses</a></li>
@@ -116,6 +139,9 @@
 <li><a href="#tbd-the-tcpip-protocol-stack">[tbd] The TCP/IP Protocol Stack</a>
 <ul>
 <li><a href="#application-layer">Application layer</a></li>
+<li><a href="#transport-layer">Transport layer</a></li>
+<li><a href="#internet-layer">Internet layer</a></li>
+<li><a href="#data-linknetwork-interface-layer">Data Link/Network Interface layer</a></li>
 </ul>
 </li>
 <li><a href="#transferring-files-using-ftp">Transferring Files using FTP</a></li>
@@ -136,13 +162,12 @@
     <div class="stackedit__html">
       <p><a href="https://ibaguette.com/cheatsheets/alevel">&lt; Back to A level Cheat Sheets</a></p>
 <h1 id="ah-yes-more-computer-science">Ah yes more computer science!</h1>
-<p><strong>⚠ Note: This is severely in development. Please check back later. I’m currently prioritising the Geography A level Cheat Sheet.</strong></p>
-<p><strong>Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠</strong></p>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 22/05/2023 18:47</a></p>
+<p><strong>This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠</strong></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 01/06/2023 18:47</a></p>
 <p>✅ Note: This file is synced with <a href="https://github.com/Draggie306/CheatSheets">this repository</a>. You’ll always be on the latest version.</p>
 <p>Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.</p>
 <blockquote>
-<p>Discuss with other students, developers, educators and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigaders</a> Discord server!</p>
+<p>Discuss with other students, developers, educators and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigaders Discord server</a>! You can also <strong>receive a notification</strong> when there are new Cheat Sheets, Summary Sheets <em>(new!)</em> or other revision material is made public there!</p>
 </blockquote>
 <h1 id="paper-1">Paper 1</h1>
 <h1 id="tbd-unit-1---the-characteristics-of-contemporary-processors-input-output-and-storage-devices">[tbd] Unit 1 - The characteristics of contemporary processors, input, output and storage devices</h1>
@@ -423,7 +448,9 @@ While one job is transferring data onto a USB stick or printing, another job can
 </table><p>The multi-level feedback queue algorithm is used in the majority of devices, including Windows 10 and 11. The “scheduler” has been a key talking point from Microsoft regarding benefits to</p>
 <h2 id="applications-generation">1.2.2 Applications Generation</h2>
 <h2 id="software-development">1.2.3 Software Development</h2>
-<h3 id="assembly-language--little-man-computer-lmc">Assembly language + Little man Computer (LMC)</h3>
+<h2 id="types-of-programming-language">1.2.4 Types of Programming Language</h2>
+<h3 id="assembly-language--little-man-computer">Assembly language + Little man Computer</h3>
+<p>The LMC instruction set is a simplification of assembly language which has many of the same principals of the lower-level language.</p>
 <p>Here is the assembly code which you need to know:</p>
 
 <table>
@@ -492,12 +519,308 @@ While one job is transferring data onto a USB stick or printing, another job can
 </tr>
 </tbody>
 </table><p>This can be used in any way to perform operations like adding adddresses in memory, squaring numbers, etc. You’ll need to be familiar with this and be able to spot errors and rewrite the instruction list when needed.</p>
-<h2 id="types-of-programming-language">1.2.4 Types of Programming Language</h2>
+<h4 id="modes-of-addressing-memory">Modes of addressing memory</h4>
+<h4 id="oo-languages">OO languages</h4>
+<ul>
+<li>Classes</li>
+<li>Objects</li>
+<li>Methods</li>
+<li>Attributes</li>
+<li>Inheritance</li>
+<li>Encapsulation</li>
+<li>Polymorphism</li>
+</ul>
 <h1 id="tbd-1.3-exchanging-data">[tbd] 1.3 Exchanging data</h1>
+<p>Data and all sorts of information is constantly being moved, updates and transferred within a computer system or between (several) networks. Although nowadays data transfer and storage is extremely high-speed and accurate.</p>
+<p>Large web hosting platforms like Google Cloud and AWS offer “five nines” uptime, 99.999%, meaning that every year, their services can only be down for a maximum of 5 minutes and 13 seconds. Some services have even higher uptimes, like six nines (reminds me of my GCSE results) or even eight nines - that’s <em>310 milliseconds</em> of downtime per <em>year.</em></p>
+<p>To ensure this, data must be transferred and stored securely and be error-resistant. For global networks such as Cloudflare with over 200 datacentres, transfer is slower and more susceptible to interference with increasing distance, so how are these extremely low error rates possible?</p>
 <h2 id="compression-encryption-and-hashing">1.3.1 Compression, Encryption and Hashing</h2>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-exchanging-data.png" alt="enter image description here"></p>
+<h3 id="compression-techniques">Compression techniques</h3>
+<p>Text, videos, images, sound and all sorts of media can be reduced in size. The benefits of this include faster file transfer times, less bandwidth is used, less storage is needed by the client and server and user experience is better, with less buffering on YouTube streams, for example.</p>
+<p>There are two types of compression:</p>
+<h3 id="lossy-compression">Lossy compression</h3>
+<p>Non-essential information is removed from the source file. In the below images, the scene is clearly identifiable and if you open them in a new tab, you’ll be able to zoom in to fine details such as the house or trees in the background with some clarity.</p>
+<p>If a pixel in an image is combined with a block of others in lossy compression, it isn’t much of a deal.</p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-FromCamera.jpg" alt="enter image description here"><br>
+<em>Directly from my phone camera. 25,438 KiB</em></p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-Compress.png" alt="enter image description here"><br>
+<em>Compressed! 543 KiB. ~50x reduction in filesize</em></p>
+<p>However, with the second image here, you should be able to tell that it’s not as clear or as precise as the first one. Different colours have been merged into one, and “blockiness” is visible as the compression algorithm tries to combine multiple areas that have generally the same colours into one to save storage space. <strong>It tries to remove as much of the less significant details as possible, conserving the general essence of the image.</strong> There is a trade off between how heavily the image is compressed (and therefore the smaller the filesize) and the quality.</p>
+<blockquote>
+<p>Real life example: I run <a href="http://iBaguette.com">iBaguette.com</a>. On the main site, I was using 1080p PNG images straight out of Photoshop for the article thumbnails. I switched to using lossy compression, and it reduced the file size by 95% at almost no visual quality loss as they are relatively small on the page, especially on mobile devices. With 5 articles loading, this sped up the page load times by ~2 seconds.</p>
+</blockquote>
+<p>This logic can be applied to audio too. MP3 files and OGG files are formats that use lossy compression to remove sounds ouside of audible hearing ranges, or by removing quieter elements of a music track that play at the same time as louder parts.</p>
+<p>VoIP services like Discord use compression at various <strong>bitrates</strong> to transmit peoples’ voices. Lower bitrates such as 8kbps will require more compression and people will sound less defined and monotonic, while higher bitrates such as 64kbps - the default by many services today - will not have any issue in understanding the person at the other end of the line as this is less compressed. However, we still can still discern the difference between even the highest bitrates and being face-to-face.</p>
+<blockquote>
+<p>With advancements in audio codecs and compression techniques, lower bitrates have become more usable.</p>
+</blockquote>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/soundwave.png" alt="audio"><br>
+<em>Visualisation of what happens to audio content</em><br>
+<strong>Lossy Compression:</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small file sizes vs the original and vs lossless</td>
+<td>Quality can be reduced significantly</td>
+</tr>
+<tr>
+<td>Very fast data transfer and load time, suitable for websites</td>
+<td>Not suitable for more precise applications</td>
+</tr>
+<tr>
+<td>Lower processing power to decode</td>
+<td>Original data cannot be fully recovered; irreversible</td>
+</tr>
+<tr>
+<td>Widely supported and popular across platforms and devices</td>
+<td></td>
+</tr>
+</tbody>
+</table><h3 id="lossless-compression">Lossless compression</h3>
+<p>Lossless compression techniques <strong>records and optimises patterns</strong> in the source data, rather than changing the data itself. As a result, when this losslessly compressed file is transferred, it can be decompressed in a way that is <strong>structurally identical to the source</strong> file, even though the data may not be represented identically to the source file during transfer.</p>
+<blockquote>
+<p>It uses algorithms to encode the source data in a <strong>more efficient way</strong>.</p>
+</blockquote>
+<p>Lossless compression is important when transferring files such as binary data (like program files for OS updates) or when conserving all original content. This is because if a bit is lost in machine code, it could result in a critical error.</p>
+<ul>
+<li>WAV and FLAC files are examples of lossless audio containers and codecs, respectfully.</li>
+<li>PNG and RAW image files are lossless</li>
+<li>ZIP files can contain any number of file, in a losslessly encoded manner</li>
+</ul>
+<p>However, lossless compression has disadvantages too. Lossy files are still much better for highly optimising size and quality of images as they are able to discard large amounts of the file if needed. Therefore, generally, only slight reductions over the initial file are possible.</p>
+
+<table>
+<thead>
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All of the original file’s data is preserved</td>
+<td>Longer file transfer times and potential buffering</td>
+</tr>
+<tr>
+<td>Smaller file sizes compared to original</td>
+<td>Sometimes unnecessary, e.g. for website images</td>
+</tr>
+<tr>
+<td>Good for archival storage, or for high-value files</td>
+<td>Still much larger file size than using lossy techniques</td>
+</tr>
+<tr>
+<td>Preserves fine and intricate details of music, videos and images</td>
+<td>Can occupy large amounts of drive space for diminishing quality returns</td>
+</tr>
+<tr>
+<td></td>
+<td>Inneffective for more random data - may be larger than the original file</td>
+</tr>
+<tr>
+<td></td>
+<td>Compression algorithms require more computing resources to compress and to decode</td>
+</tr>
+</tbody>
+</table><p>There is no universal right/wrong option for which compression technique to use. It is a matter of trade-off between saving storage space, loading times, quality and type of file.</p>
+<h3 id="run-length-encoding-rle">Run length encoding (RLE)</h3>
+<p>Run Length Encoding is a lossless data compression algorithm. It replaces repeated, consecutive patterns of the same data with a “summary” - an instance of that specific element, as well as a count of it.</p>
+<p>RLE works well where there are consecutive, repeated elements. This could be pixels in an image, musical notes or binary data. Here’s an example:</p>
+<p>AAAAABBBCDDAAA -&gt; 5A3B1C2D3A.</p>
+<p>To decode this data, the sequence just has to be expanded using the counts, and the source sequence will be reconstructed.</p>
+<p>Likewise, if there are 10 adjacent pixels in an image with the same colour “00000110”, this could be represented in RLE as 10(00000110).</p>
+<h3 id="dictionary-encoding">Dictionary encoding</h3>
+<p>Dictionary encoding finds data which occurs regularly in a source file, and adds suitable matching data to a dictionary. This is like a table, with a numerical value, its data and a binary representation. The phrase “no_pain_no_gain” can be added to a table such as:</p>
+
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th>Data</th>
+<th>Binary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>no_</td>
+<td>00</td>
+</tr>
+<tr>
+<td>2</td>
+<td>p</td>
+<td>01</td>
+</tr>
+<tr>
+<td>3</td>
+<td>g</td>
+<td>10</td>
+</tr>
+<tr>
+<td>4</td>
+<td>ain_</td>
+<td>11</td>
+</tr>
+</tbody>
+</table><p>Assuming zero overhead and optimal implementation, “no_pain_no_gain” goes from 15 bytes to:</p>
+<p>000111001011 (12 bits)</p>
+<p>However, for tiny strings like this, using a dictionary is impractical as the amount of data needed to create the dictionary would be larger than the savings from using it. However, if both the sender and receiver have the same existing copy of a dictionary and reference this, or create a dictionary for a large corpus of text like a book, then the potential savings are extremely high.</p>
+<blockquote>
+<p>LZMA compression (Lempel-Ziv-Markov chain algorithm) is a popular lossless open-source algorithm that uses dictionary encoding. Zip and gzip use variations of this algorithm.</p>
+</blockquote>
+<h3 id="encryption">Encryption</h3>
+<p>Encryption is a method of transforming data from plaintext in a way such that it cannot be understood by people who do not have the means or authority to decrypt it.</p>
+<ul>
+<li>Original message is plaintext.</li>
+<li>Encrypted message is the ciphertext.</li>
+<li>Encryption method/algorithm is the cipher.</li>
+<li>Data required to decrypt a message is the key (decryption key).</li>
+</ul>
+<p>Plaintext -&gt; cipher -&gt; ciphertext -&gt; key -&gt; plaintext.</p>
+<p>The Caesar cipher shifts letters of the alphabet by a fixed amount. It is a substitution cipher.</p>
+<p>However, it is easily decrypted (or “cracked”) by using little or no computing power. This can be done through a brute force attack, which uses every possible key to decrypt ciphertext until one works. To combat this, spaces are used to hide word lengths. As there are only 26 characters in the alphabet, this is easily brute forced.</p>
+<h3 id="vernam-cipherone-time-pad">Vernam cipher/one-time pad</h3>
+<p>This was invented in 1917 and is the only encryption method still proven to be unbreakable.<br>
+It consists of a few key features:</p>
+<ul>
+<li>The cipher or one-time pad must be equal or longer to the plaintext.</li>
+<li>The cipher/one-time pad must also be truly random.</li>
+<li>Both parties must physically meet to exchange the cipher.</li>
+<li>The cipher can only be used once; destroyed after use.</li>
+</ul>
+<p>To actually encrypt the data, the bitwise exclusive OR operator (represented as ^ or XOR) is used on all plaintext with the corresponding character number in the key, after having translated all characters into the binary ASCII equivalent</p>
+<p>This rule states that:</p>
+<ul>
+<li>0 and 0 will output 0</li>
+<li><strong>only 0 and 1, or 1 and 0 will output 1</strong></li>
+<li>1 and 1 will output 0.</li>
+</ul>
+<p>This could look like :</p>
+<p>Plaintext char: 0100 0010 (<strong>B</strong>)<br>
+Corresponding cipher char: 1110 0010 (<strong>Γ</strong>)</p>
+
+<table>
+<thead>
+<tr>
+<th>ASCII representation</th>
+<th>Cipher</th>
+<th>XOR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table><p>= 1010 0000. (this is <strong>á</strong>.)</p>
+<blockquote>
+<p>As this typically occurs in binary, unprintable characters are often produced such as <code>\x9F</code> (Control).</p>
+</blockquote>
+<p>To decrypt it back to plaintext, we XOR the result and the OTP.</p>
+<p>Result of the original XOR (ciphertext): 1010 0000  (<strong>á</strong>)<br>
+OTP: 1110 0010 (<strong>Γ</strong>)</p>
+<p>^ = 0100 0010 (<strong>B</strong>)</p>
+<p>This also beats cryptanalysis techniques as methods such as frequency analysis attacks - which rely on comparing the frequency of letters in cyphertext to how often these letters appear in general communication - as each character of the ciphertext is truly random. This is referred to as entropy - unpredictability in cryptography.</p>
+<blockquote>
+<p>In cryptography, random does not just mean statistically random - it also means unpredictable.</p>
+</blockquote>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/Cloudflare-lamp-wall.jpg" alt="enter image description here"><br>
+<em>An example of how entropy is created using lava lamps in the Cloudflare HQ. Other methods of generating real-world randomness include a double-pendulum system or radioactive decay.</em></p>
+<blockquote>
+<p>Further reading: <a href="https://www.cloudflare.com/en-gb/learning/ssl/lava-lamp-encryption/">here</a>.</p>
+</blockquote>
+<h3 id="symmetric-private-key-encryption">Symmetric (private key) encryption</h3>
+<p>This uses the same key to encrypt and decrypt information. Think about an encrypted zip file - you add the password at the start, send the password (the key) to someone else (this is <strong>key exchange</strong>) and they can decrypt and unzip it. If the key is intercepted at all during transmission, it can compromise the security of all past and future communications which have used the same key.</p>
+<h3 id="asymmetric-public-key-encryption">Asymmetric (public key) encryption</h3>
+<p>Asymmetric encryption uses two different but cryptographically related keys. The public key is made public, so all people wanting to send an encrypted message to the private key holder are able to do so. The private key is kept secure by typically one user or entity, and this key can then decrypt the data encrypted by the public key. This key cannot be deduced from the public key.</p>
+<p>However, an intercepted message could be encrypted using your own public key impersonating a sender. To prevent this, digital message signing certificates can be used, which employs similar principals.</p>
+<h3 id="hashing">Hashing</h3>
+<p>A hash function is an irreversible function to go from an input of arbitrary length to a fixed-length output.</p>
+<p>This is typically used when storing passwords. Even if the database of user accounts and passwords is compromised, the hashes of these passwords are useless as they are one-way - will only match when the user enters the same password. <em>Unless it’s not already on a list of known hash digests…</em></p>
+<blockquote>
+<p>Known lists of hashes and their original values are called “rainbow tables”.</p>
+</blockquote>
+<p>SHA256 is an example of using a hash function. It can take any data as an input - a video file, checksums, text, and return a 256 bit string.</p>
+<p>Even if 1 bit of input data is changed, these functions will return completely different results. This makes them useful as checksums in packet headers, or for validating that a file has been downloaded correctly.</p>
+<blockquote>
+<p>Salting is an additional method of securing data by adding a unique random value to each password before hashing it, resulting in a cryptographically different hash value, theoretically immune to known hashes, even if the password is “password123”.</p>
+</blockquote>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/hashes.png" alt="enter image description here"><br>
+<em>The SHA-1, CRC32, MD5 and SHA-256 hashes for this file at the time of writing. Oops, as I’ve written that, it’s changed already…</em></p>
+<p>“1E71416792A1681496EBFB56B00D8056C9BA1C59” - sha-1 hash</p>
+<h3 id="uses-for-hashing">Uses for hashing</h3>
+<p>Hashes are used in packet headers (checksums), digital signatures to prove identity, digital certificates and Public Key Infrastructure (PKI) and more.</p>
 <h2 id="databases">1.3.2 Databases</h2>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Databases.png" alt="enter image description here"></p>
+<p>I really don’t like databases. They are just boring. But luckily they’re easy to understand and remember once you’ve got yeour head around them.</p>
+<h3 id="database-concepts">Database concepts</h3>
+<p>Firstly, entities need to be worked out.</p>
+<p><strong>An entity is a category of object, person, event or thing of interest about which data is needed to be recorded.</strong></p>
+<p>For example, employees of a company, films, actors, club members. Each <strong>entity</strong> has <strong>attributes</strong>.</p>
+<p>The simplest kind of database, a flat file, holds data about one entity only, such as a user’s coins and roles in the Baguette Brigaders Discord Server.</p>
+<p>If you are designing a system for a company that sells subscriptions for online revision resources, a flat file would not be useful.</p>
+<blockquote>
+<p>luckily here at iBaguette we don’t sell anything or lock anything behind a paywall.</p>
+</blockquote>
+<p>There would need to be a few entities in this scenario, all linked together</p>
+<ul>
+<li>Customer</li>
+<li>Revision product</li>
+<li>Subscription amount</li>
+<li>Order number</li>
+<li>Subject</li>
+<li>Tier of revision guide</li>
+<li>more?</li>
+</ul>
+<p>The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being <a href="#">underlined</a>.</p>
 <h2 id="networks">1.3.3 Networks</h2>
-<p>The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.</p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png" alt="enter image description here"><br>
+The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.</p>
 <p>The World Wide Web is a collection of websites and documents linked by hyperlinks made accessible via the Internet.</p>
 <p>The Internet is the largest network (what computers communicate with each other on). THis is known as a Wide Area Network, or WAN, as it spans over a large geographic area.</p>
 <p>The Internet can also be used to transmit data without using the World Wide Web. However, this data must travel through the backbone.</p>
@@ -602,21 +925,6 @@ While one job is transferring data onto a USB stick or printing, another job can
 <p>Protocols and standards establish guidelines and rules for communication between devices on a network. Common protocols include TCP/IP, HTTP, and FTP, while common standards include Ethernet and Wi-Fi.</p>
 <h3 id="tbd-the-tcpip-protocol-stack">[tbd] The TCP/IP Protocol Stack</h3>
 <p>The TCP/IP protocol stack consists of four main layers.</p>
-<ol>
-<li>
-<p>Application layer</p>
-</li>
-<li>
-<p>Transport layer</p>
-</li>
-<li>
-<p>Internet layer</p>
-</li>
-<li>
-<p>Data Link/Network Interface layer.</p>
-</li>
-</ol>
-<p>Each layer has its own specific tasks in transmitting data over a network.</p>
 <h4 id="application-layer">Application layer</h4>
 <ul>
 <li>
@@ -626,11 +934,16 @@ While one job is transferring data onto a USB stick or printing, another job can
 <p>For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP</p>
 </li>
 </ul>
+<h4 id="transport-layer">Transport layer</h4>
+<h4 id="internet-layer">Internet layer</h4>
+<h4 id="data-linknetwork-interface-layer">Data Link/Network Interface layer</h4>
+<p>Each layer has its own specific tasks in transmitting data over a network.</p>
 <h3 id="transferring-files-using-ftp">Transferring Files using FTP</h3>
 <p>FTP (File Transfer Protocol) is a standard protocol used to transfer files. It is widely used for uploading files to and downloading files from servers with little overhead.</p>
 <h3 id="email-servers">Email Servers</h3>
 <p>An email server receives incoming messages and stores them until the recipient retrieves them. It also sends outgoing messages to the intended recipients. Email servers use various protocols such as SMTP, POP, and IMAP to transmit and receive email messages.</p>
 <h2 id="web-technologies">1.3.4 Web technologies</h2>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-WebDev.png" alt="enter image description here"></p>
 <p>How to add an external stylesheet:</p>
 <pre class=" language-html"><code class="prism  language-html">&lt;link  href= “nameofstylesheet.css”  rel= “stylesheet”  type=“text/css”&gt;
 </code></pre>

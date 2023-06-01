@@ -1,23 +1,18 @@
 ﻿
-
-
-  
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
 # Ah yes more computer science!
 
 
-**⚠ Note: This is severely in development. Please check back later. I'm currently prioritising the Geography A level Cheat Sheet.**
+**This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-**Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
-
-[Last update: 22/05/2023 18:47](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last update: 01/06/2023 18:47](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders](https://discord.gg/GfetCXH) Discord server!
+> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! You can also **receive a notification** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
 
 # Paper 1
 
@@ -321,7 +316,16 @@ The multi-level feedback queue algorithm is used in the majority of devices, inc
 
 ## 1.2.3 Software Development
 
-### Assembly language + Little man Computer (LMC)
+
+
+
+
+## 1.2.4 Types of Programming Language
+
+
+### Assembly language + Little man Computer
+
+The LMC instruction set is a simplification of assembly language which has many of the same principals of the lower-level language.
 
 Here is the assembly code which you need to know:
 
@@ -341,20 +345,261 @@ Here is the assembly code which you need to know:
 
 This can be used in any way to perform operations like adding adddresses in memory, squaring numbers, etc. You'll need to be familiar with this and be able to spot errors and rewrite the instruction list when needed.
 
+#### Modes of addressing memory
 
 
-## 1.2.4 Types of Programming Language
+#### OO languages
 
+
+- Classes
+- Objects
+- Methods
+- Attributes
+- Inheritance
+- Encapsulation
+- Polymorphism
 
 
 # [tbd] 1.3 Exchanging data
 
+Data and all sorts of information is constantly being moved, updates and transferred within a computer system or between (several) networks. Although nowadays data transfer and storage is extremely high-speed and accurate. 
+
+Large web hosting platforms like Google Cloud and AWS offer "five nines" uptime, 99.999%, meaning that every year, their services can only be down for a maximum of 5 minutes and 13 seconds. Some services have even higher uptimes, like six nines (reminds me of my GCSE results) or even eight nines - that's *310 milliseconds* of downtime per *year.*
+
+To ensure this, data must be transferred and stored securely and be error-resistant. For global networks such as Cloudflare with over 200 datacentres, transfer is slower and more susceptible to interference with increasing distance, so how are these extremely low error rates possible?
+
 ## 1.3.1 Compression, Encryption and Hashing
 
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-exchanging-data.png)
+
+### Compression techniques
+Text, videos, images, sound and all sorts of media can be reduced in size. The benefits of this include faster file transfer times, less bandwidth is used, less storage is needed by the client and server and user experience is better, with less buffering on YouTube streams, for example.
+
+
+There are two types of compression:
+
+### Lossy compression
+Non-essential information is removed from the source file. In the below images, the scene is clearly identifiable and if you open them in a new tab, you'll be able to zoom in to fine details such as the house or trees in the background with some clarity. 
+
+If a pixel in an image is combined with a block of others in lossy compression, it isn't much of a deal.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-FromCamera.jpg)
+*Directly from my phone camera. 25,438 KiB*
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-Compress.png)
+*Compressed! 543 KiB. ~50x reduction in filesize*
+
+However, with the second image here, you should be able to tell that it's not as clear or as precise as the first one. Different colours have been merged into one, and "blockiness" is visible as the compression algorithm tries to combine multiple areas that have generally the same colours into one to save storage space. **It tries to remove as much of the less significant details as possible, conserving the general essence of the image.** There is a trade off between how heavily the image is compressed (and therefore the smaller the filesize) and the quality.
+
+> Real life example: I run iBaguette.com. On the main site, I was using 1080p PNG images straight out of Photoshop for the article thumbnails. I switched to using lossy compression, and it reduced the file size by 95% at almost no visual quality loss as they are relatively small on the page, especially on mobile devices. With 5 articles loading, this sped up the page load times by ~2 seconds.
+
+
+This logic can be applied to audio too. MP3 files and OGG files are formats that use lossy compression to remove sounds ouside of audible hearing ranges, or by removing quieter elements of a music track that play at the same time as louder parts.
+
+VoIP services like Discord use compression at various **bitrates** to transmit peoples' voices. Lower bitrates such as 8kbps will require more compression and people will sound less defined and monotonic, while higher bitrates such as 64kbps - the default by many services today - will not have any issue in understanding the person at the other end of the line as this is less compressed. However, we still can still discern the difference between even the highest bitrates and being face-to-face.
+
+> With advancements in audio codecs and compression techniques, lower bitrates have become more usable.
+
+
+
+![audio](https://cheatsheet-assets.ibaguette.com/alevel/compsci/soundwave.png)
+*Visualisation of what happens to audio content*
+**Lossy Compression:**
+|Advantages|Disadvantages|
+|--|--|
+|Small file sizes vs the original and vs lossless|Quality can be reduced significantly|
+|Very fast data transfer and load time, suitable for websites|Not suitable for more precise applications|
+|Lower processing power to decode|Original data cannot be fully recovered; irreversible
+Widely supported and popular across platforms and devices|
+
+
+
+### Lossless compression
+Lossless compression techniques **records and optimises patterns** in the source data, rather than changing the data itself. As a result, when this losslessly compressed file is transferred, it can be decompressed in a way that is **structurally identical to the source** file, even though the data may not be represented identically to the source file during transfer.
+
+> It uses algorithms to encode the source data in a **more efficient way**.
+
+Lossless compression is important when transferring files such as binary data (like program files for OS updates) or when conserving all original content. This is because if a bit is lost in machine code, it could result in a critical error. 
+
+- WAV and FLAC files are examples of lossless audio containers and codecs, respectfully. 
+- PNG and RAW image files are lossless
+- ZIP files can contain any number of file, in a losslessly encoded manner
+
+However, lossless compression has disadvantages too. Lossy files are still much better for highly optimising size and quality of images as they are able to discard large amounts of the file if needed. Therefore, generally, only slight reductions over the initial file are possible. 
+
+|Advantages|Disadvantages|
+|--|--|
+|All of the original file's data is preserved|  Longer file transfer times and potential buffering|
+|Smaller file sizes compared to original|Sometimes unnecessary, e.g. for website images|
+|Good for archival storage, or for high-value files| Still much larger file size than using lossy techniques|
+|Preserves fine and intricate details of music, videos and images|Can occupy large amounts of drive space for diminishing quality returns|
+|  |Inneffective for more random data - may be larger than the original file|
+|  |Compression algorithms require more computing resources to compress and to decode|
+
+There is no universal right/wrong option for which compression technique to use. It is a matter of trade-off between saving storage space, loading times, quality and type of file.
+
+### Run length encoding (RLE)
+
+Run Length Encoding is a lossless data compression algorithm. It replaces repeated, consecutive patterns of the same data with a "summary" - an instance of that specific element, as well as a count of it.
+
+RLE works well where there are consecutive, repeated elements. This could be pixels in an image, musical notes or binary data. Here's an example:
+
+AAAAABBBCDDAAA -> 5A3B1C2D3A.
+
+
+To decode this data, the sequence just has to be expanded using the counts, and the source sequence will be reconstructed.
+
+Likewise, if there are 10 adjacent pixels in an image with the same colour "00000110", this could be represented in RLE as 10(00000110).
+
+### Dictionary encoding 
+Dictionary encoding finds data which occurs regularly in a source file, and adds suitable matching data to a dictionary. This is like a table, with a numerical value, its data and a binary representation. The phrase "no_pain_no_gain" can be added to a table such as:
+
+|Number|Data|Binary|
+|--|--|--|
+| 1 | no_ | 00 |
+| 2 | p | 01 |
+| 3 | g | 10 |
+| 4 | ain_ | 11 |
+
+Assuming zero overhead and optimal implementation, "no_pain_no_gain" goes from 15 bytes to:
+
+000111001011 (12 bits)
+
+However, for tiny strings like this, using a dictionary is impractical as the amount of data needed to create the dictionary would be larger than the savings from using it. However, if both the sender and receiver have the same existing copy of a dictionary and reference this, or create a dictionary for a large corpus of text like a book, then the potential savings are extremely high.
+
+
+> LZMA compression (Lempel-Ziv-Markov chain algorithm) is a popular lossless open-source algorithm that uses dictionary encoding. Zip and gzip use variations of this algorithm.
+
+### Encryption
+Encryption is a method of transforming data from plaintext in a way such that it cannot be understood by people who do not have the means or authority to decrypt it. 
+
+- Original message is plaintext.
+- Encrypted message is the ciphertext.
+- Encryption method/algorithm is the cipher.
+- Data required to decrypt a message is the key (decryption key).
+
+Plaintext -> cipher -> ciphertext -> key -> plaintext.
+
+The Caesar cipher shifts letters of the alphabet by a fixed amount. It is a substitution cipher.
+
+However, it is easily decrypted (or "cracked") by using little or no computing power. This can be done through a brute force attack, which uses every possible key to decrypt ciphertext until one works. To combat this, spaces are used to hide word lengths. As there are only 26 characters in the alphabet, this is easily brute forced.
+
+### Vernam cipher/one-time pad
+This was invented in 1917 and is the only encryption method still proven to be unbreakable. 
+It consists of a few key features:
+- The cipher or one-time pad must be equal or longer to the plaintext.
+- The cipher/one-time pad must also be truly random.
+- Both parties must physically meet to exchange the cipher.
+- The cipher can only be used once; destroyed after use.
+
+To actually encrypt the data, the bitwise exclusive OR operator (represented as ^ or XOR) is used on all plaintext with the corresponding character number in the key, after having translated all characters into the binary ASCII equivalent
+
+This rule states that: 
+- 0 and 0 will output 0
+- **only 0 and 1, or 1 and 0 will output 1**
+- 1 and 1 will output 0.
+
+
+This could look like :
+
+Plaintext char: 0100 0010 (**B**)
+Corresponding cipher char: 1110 0010 (**Γ**)
+|ASCII representation|Cipher|XOR| 
+|--|--|--|
+|0|1|1|
+|1|1|0|
+|0|1|1|
+|0|0|0|
+|0|0|0|
+|0|0|0|
+|1|1|0|
+|0|0|0|
+
+= 1010 0000. (this is **á**.)
+
+> As this typically occurs in binary, unprintable characters are often produced such as `\x9F` (Control). 
+
+To decrypt it back to plaintext, we XOR the result and the OTP.
+
+Result of the original XOR (ciphertext): 1010 0000  (**á**)
+OTP: 1110 0010 (**Γ**)
+
+
+^ = 0100 0010 (**B**)
+
+This also beats cryptanalysis techniques as methods such as frequency analysis attacks - which rely on comparing the frequency of letters in cyphertext to how often these letters appear in general communication - as each character of the ciphertext is truly random. This is referred to as entropy - unpredictability in cryptography.
+> In cryptography, random does not just mean statistically random - it also means unpredictable.
+> 
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Cloudflare-lamp-wall.jpg)
+*An example of how entropy is created using lava lamps in the Cloudflare HQ. Other methods of generating real-world randomness include a double-pendulum system or radioactive decay.*
+
+>Further reading: [here](https://www.cloudflare.com/en-gb/learning/ssl/lava-lamp-encryption/).
+
+### Symmetric (private key) encryption
+
+This uses the same key to encrypt and decrypt information. Think about an encrypted zip file - you add the password at the start, send the password (the key) to someone else (this is **key exchange**) and they can decrypt and unzip it. If the key is intercepted at all during transmission, it can compromise the security of all past and future communications which have used the same key.
+
+### Asymmetric (public key) encryption
+
+Asymmetric encryption uses two different but cryptographically related keys. The public key is made public, so all people wanting to send an encrypted message to the private key holder are able to do so. The private key is kept secure by typically one user or entity, and this key can then decrypt the data encrypted by the public key. This key cannot be deduced from the public key.
+
+However, an intercepted message could be encrypted using your own public key impersonating a sender. To prevent this, digital message signing certificates can be used, which employs similar principals.
+
+### Hashing
+
+A hash function is an irreversible function to go from an input of arbitrary length to a fixed-length output.
+
+This is typically used when storing passwords. Even if the database of user accounts and passwords is compromised, the hashes of these passwords are useless as they are one-way - will only match when the user enters the same password. *Unless it's not already on a list of known hash digests...*
+
+> Known lists of hashes and their original values are called "rainbow tables".
+
+SHA256 is an example of using a hash function. It can take any data as an input - a video file, checksums, text, and return a 256 bit string. 
+
+Even if 1 bit of input data is changed, these functions will return completely different results. This makes them useful as checksums in packet headers, or for validating that a file has been downloaded correctly.
+
+> Salting is an additional method of securing data by adding a unique random value to each password before hashing it, resulting in a cryptographically different hash value, theoretically immune to known hashes, even if the password is "password123".
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/hashes.png)
+*The SHA-1, CRC32, MD5 and SHA-256 hashes for this file at the time of writing. Oops, as I've written that, it's changed already...*
+
+"1E71416792A1681496EBFB56B00D8056C9BA1C59" - sha-1 hash
+
+### Uses for hashing
+
+Hashes are used in packet headers (checksums), digital signatures to prove identity, digital certificates and Public Key Infrastructure (PKI) and more.
+
 ## 1.3.2 Databases
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Databases.png)
+
+I really don't like databases. They are just boring. But luckily they're easy to understand and remember once you've got yeour head around them.
+
+### Database concepts
+Firstly, entities need to be worked out. 
+
+**An entity is a category of object, person, event or thing of interest about which data is needed to be recorded.**
+
+For example, employees of a company, films, actors, club members. Each **entity** has **attributes**.
+
+The simplest kind of database, a flat file, holds data about one entity only, such as a user's coins and roles in the Baguette Brigaders Discord Server.
+
+If you are designing a system for a company that sells subscriptions for online revision resources, a flat file would not be useful.
+
+> luckily here at iBaguette we don't sell anything or lock anything behind a paywall.
+
+There would need to be a few entities in this scenario, all linked together
+- Customer
+- Revision product
+- Subscription amount
+- Order number
+- Subject
+- Tier of revision guide
+- more?
+
+The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being [underlined](#).
+
 
 ## 1.3.3 Networks
-
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png)
 The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.
 
 The World Wide Web is a collection of websites and documents linked by hyperlinks made accessible via the Internet.
@@ -391,9 +636,7 @@ DNS servers are therefore dedicated computers that store an index of domain name
 
 When a user types a domain name into their web browser or other application, the application sends a request to a DNS server to resolve the domain name to its associated IP address. The DNS server then searches its index for the domain name and returns the corresponding IP address to the requesting application. This allows the application to establish a connection to the server associated with the domain name, enabling the transfer of data between the client and server.
 
-  
 > Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browser, which is much faster.
-
 
 If the local DNS server does not have a record for the domain, it may forward the request to an ISP's DNS server. If the ISP DNS server does not have a record, then it may be forwarded to one of 13 global root DNS servers which hold the records of every domain on the Internet.
 
@@ -405,23 +648,13 @@ Below the root servers are **generic** and **country** top-level domains (TLDs),
 
 ### Internet registries
 
-  
-
 Domain names must be completely unique otherwise DNS requests could be manipulated. There are 5 global Internet registries (RIRs) which are responsible for allocating IP addresses to organisations in their respective regions (typically continental).
-
-  
 
 > IANA (Internet Assigned Numbers Authority) is responsible for coordinating the allocation of IP addresses to the RIRs.
 
-  
-
 ### Area Networks
 
-  
-
 In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one building or site.
-
-  
 
 ### Hubs and switches
 A network switch is a hardware device that is commonly used to connect various network segments within a LAN. Switches are designed to forward data packets between different devices on a network.
@@ -506,13 +739,11 @@ The packet header contains the IP addresses of the recipient and the sender, so 
 
 > In summary, **packet switching** divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible than circuit switching, and is thus more widely used.
 
-  
 
 ### Protocols and Standards
 
 Network hardware devices include routers, switches, hubs, and access points, among others. These devices connect computers and other devices in a network, allowing them to communicate and share resources.
 
-  
 
 Protocols and standards establish guidelines and rules for communication between devices on a network. Common protocols include TCP/IP, HTTP, and FTP, while common standards include Ethernet and Wi-Fi.
 
@@ -520,28 +751,23 @@ Protocols and standards establish guidelines and rules for communication between
 
 The TCP/IP protocol stack consists of four main layers.
 
-  
-
-1. Application layer
-
-2. Transport layer
-
-3. Internet layer
-
-4. Data Link/Network Interface layer.
-
-  
-
-Each layer has its own specific tasks in transmitting data over a network.
-
-  
-  
-
 #### Application layer
 
 - The application layer is based at the top of the stack. It specifies what protocol needs to be used in order to relate the application that’s being sent.
 
 - For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP
+
+
+#### Transport layer
+
+#### Internet layer
+
+#### Data Link/Network Interface layer
+
+  
+
+Each layer has its own specific tasks in transmitting data over a network.
+
 
 ### Transferring Files using FTP
 
@@ -553,7 +779,7 @@ An email server receives incoming messages and stores them until the recipient r
 
 
 ## 1.3.4 Web technologies
-
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-WebDev.png)
 
 How to add an external stylesheet:
 

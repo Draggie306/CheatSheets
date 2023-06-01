@@ -827,6 +827,15 @@ async function handleRequest(request) {
     return htmlResponse;
   }
   
+  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets") {
+    return new Response(main_page, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "Cache-Control": "max-age=864000",
+      },
+    })
+  }
+  
   // else 301 redirect to main page
   else {
     return Response.redirect("https://ibaguette.com/cheatsheets", 301);

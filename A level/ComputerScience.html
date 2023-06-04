@@ -27,15 +27,16 @@
 <li><a href="#components-of-a-computer-and-their-uses">Components of a computer and their uses</a></li>
 <li><a href="#structure-and-function-of-the-processor">1.1.1 Structure and function of the processor</a>
 <ul>
-<li><a href="#control-unit">Control Unit</a></li>
 <li><a href="#buses">Buses</a>
 <ul>
 <li><a href="#control-bus">Control bus</a></li>
+<li><a href="#word-lengthsize">Word length/size</a></li>
 <li><a href="#data-bus">Data bus</a></li>
 <li><a href="#address-bus">Address bus</a></li>
 <li><a href="#how-these-buses-link-to-assembly-language-programs">How these buses link to assembly language programs?</a></li>
 </ul>
 </li>
+<li><a href="#control-unit">Control Unit</a></li>
 <li><a href="#the-alu">The ALU</a></li>
 <li><a href="#program-counter-pc">Program Counter (PC)</a></li>
 <li><a href="#accumulator">Accumulator</a></li>
@@ -59,8 +60,19 @@
 </li>
 </ul>
 </li>
-<li><a href="#types-of-processor">1.1.2 Types of processor</a></li>
-<li><a href="#input-output-and-storage">1.1.3 Input, output and storage</a></li>
+<li><a href="#types-of-processor">1.1.2 Types of processor</a>
+<ul>
+<li><a href="#cisc-cpus">CISC CPUs</a></li>
+<li><a href="#risc-cpus">RISC CPUs</a></li>
+<li><a href="#gpus">GPUs</a></li>
+<li><a href="#multi-core-and-parallel-systems">Multi-core and parallel systems</a></li>
+</ul>
+</li>
+<li><a href="#input-output-and-storage">1.1.3 Input, output and storage</a>
+<ul>
+<li><a href="#virtual-storage">Virtual storage</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#tbd-1.2-software-and-software-development">[tbd] 1.2 Software and software development</a>
@@ -85,13 +97,48 @@
 <li><a href="#multi-level-feedback-queues">Multi-level feedback queues</a></li>
 </ul>
 </li>
+<li><a href="#types-of-operating-system">Types of Operating System</a>
+<ul>
+<li><a href="#distributed-operating-systems">Distributed operating systems</a></li>
+<li><a href="#multitasking-system">Multitasking system</a></li>
+<li><a href="#multi-user-system">Multi-user system</a></li>
+<li><a href="#realtime-os">Realtime OS</a></li>
 </ul>
 </li>
-<li><a href="#applications-generation">1.2.2 Applications Generation</a></li>
-<li><a href="#software-development">1.2.3 Software Development</a></li>
+<li><a href="#the-bios">The BIOS</a></li>
+<li><a href="#device-drivers">Device Drivers</a></li>
+<li><a href="#virtual-machine">Virtual machine</a></li>
+</ul>
+</li>
+<li><a href="#applications-generation">1.2.2 Applications Generation</a>
+<ul>
+<li><a href="#systems-software-1">Systems Software</a></li>
+<li><a href="#utility-software">Utility software</a></li>
+<li><a href="#applications-software">Applications software</a></li>
+<li><a href="#open-source-vs-proprietary">Open source vs proprietary</a></li>
+</ul>
+</li>
+<li><a href="#software-development">1.2.3 Software Development</a>
+<ul>
+<li><a href="#assemblers">Assemblers</a></li>
+<li><a href="#compilers">Compilers</a></li>
+<li><a href="#interpreters">Interpreters</a></li>
+<li><a href="#bytecode">Bytecode</a></li>
+<li><a href="#stages-of-compilation">Stages of compilation</a>
+<ul>
+<li><a href="#lexical-analysis">Lexical analysis</a></li>
+<li><a href="#the-symbol-table">The symbol table</a></li>
+<li><a href="#syntax-analysis">Syntax analysis</a></li>
+<li><a href="#semantic-analysis">Semantic analysis</a></li>
+<li><a href="#code-generation-and-optimisation">Code generation and optimisation</a></li>
+</ul>
+</li>
+<li><a href="#linkers-and-loaders">Linkers and loaders</a></li>
+</ul>
+</li>
 <li><a href="#types-of-programming-language">1.2.4 Types of Programming Language</a>
 <ul>
-<li><a href="#assembly-language--little-man-computer">Assembly language + Little man Computer</a></li>
+<li><a href="#assembly-language">Assembly language</a></li>
 <li><a href="#modes-of-addressing-memory">Modes of addressing memory</a></li>
 <li><a href="#oo-languages">OO languages</a>
 <ul>
@@ -128,6 +175,48 @@
 <li><a href="#databases">1.3.2 Databases</a>
 <ul>
 <li><a href="#database-concepts">Database concepts</a></li>
+<li><a href="#entity-relationship-modelling">Entity relationship modelling</a></li>
+<li><a href="#foreign-and-composite-keys">Foreign and Composite Keys</a></li>
+<li><a href="#referential-integrity">Referential Integrity</a></li>
+<li><a href="#normalisation">Normalisation</a>
+<ul>
+<li><a href="#first-normal-form">First normal form</a></li>
+<li><a href="#second-normal-form">Second normal form</a></li>
+<li><a href="#third-normal-form">Third normal form</a></li>
+<li><a href="#importance">Importance</a></li>
+</ul>
+</li>
+<li><a href="#sql">SQL</a>
+<ul>
+<li><a href="#basic-select">Basic Select</a></li>
+<li><a href="#conditions">Conditions</a></li>
+<li><a href="#detailed-select">Detailed Select</a></li>
+<li><a href="#defining-a-database-table">Defining a database table</a></li>
+<li><a href="#altering-a-table">Altering a table</a></li>
+<li><a href="#linking-tables">Linking tables</a></li>
+<li><a href="#inserting-values">Inserting values</a></li>
+<li><a href="#updating">Updating</a></li>
+<li><a href="#deleting">Deleting</a></li>
+</ul>
+</li>
+<li><a href="#transaction-processing">Transaction Processing</a></li>
+<li><a href="#acid">ACID</a>
+<ul>
+<li><a href="#atomicity">Atomicity</a></li>
+<li><a href="#consistency">Consistency</a></li>
+<li><a href="#isolation">Isolation</a></li>
+<li><a href="#durability">Durability</a></li>
+</ul>
+</li>
+<li><a href="#problems-with-multi-user-databases">problems with multi-user databases</a>
+<ul>
+<li><a href="#record-locking">Record locking</a></li>
+<li><a href="#serialisation">Serialisation</a></li>
+<li><a href="#timestamp-ordering">Timestamp ordering</a></li>
+<li><a href="#committment-ordering">Committment ordering</a></li>
+<li><a href="#redundancy">Redundancy</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#networks">1.3.3 Networks</a>
@@ -182,7 +271,7 @@
       <p><a href="https://ibaguette.com/cheatsheets/alevel">&lt; Back to A level Cheat Sheets</a></p>
 <h1 id="ah-yes-more-computer-science">Ah yes more computer science!</h1>
 <p><strong>This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠</strong></p>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 03/06/2023 22:36</a></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 05/06/2023 00:26</a></p>
 <p>✅ Note: This file is synced with <a href="https://github.com/Draggie306/CheatSheets">this repository</a>. You’ll always be on the latest version.</p>
 <p>Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.</p>
 <blockquote>
@@ -194,14 +283,7 @@
 <h2 id="components-of-a-computer-and-their-uses">Components of a computer and their uses</h2>
 <p>Surprisingly, a computer has a lot of things in it to make it work! These things are often very small but very fast.</p>
 <h2 id="structure-and-function-of-the-processor">1.1.1 Structure and function of the processor</h2>
-<p>The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to <strong>process data</strong>, <strong>strong text</strong>which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations…</p>
-<h3 id="control-unit">Control Unit</h3>
-<p>The <strong>control unit</strong> (CU) within the CPU is responsible for controlling all operations that occur within the CPU in other subunits and registers of the processor such as the ALU (Arithmetic Logic Unit), and how this data is exchanged to other registers or moved around the system. These operations are dictated typically by the speed of the clock signal (in Hz).</p>
-<p>The CU also regulates and controls the data sequence between the processor and other hardware devices such as system memory through the <strong>control bus</strong>, and can generate and interpret received control signals from these received instructions after having decoded it (using the opcode and operand) into a sequence to determine the instruction needed to be carried out.</p>
-<p>This could be, as an example, fetching the address and data requested from RAM, determine that an arithmetic calculation needs to occur, and storing the resulting data back in RAM, or in other registers.</p>
-<blockquote>
-<p>The Control Unit is the component of the processor which directs the operations of the CPU.</p>
-</blockquote>
+<p>The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to <strong>process data</strong>, <strong>strong text</strong>which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations, etc.</p>
 <h3 id="buses">Buses</h3>
 <p>There are three types of bus, which all do different things and have different directions</p>
 <p>Buses themselves are physical, parallel wires, typically visible on a motherboard, that connect two or multiple components together. These wires, or lines, are typically arranged in multiples of 2 with eight or more, such as 8 16, 32 or 64 individual lines. A bus is the entire collection of these parallel wires going from one component to another. [<a href="#credits"><sup>1</sup></a>]</p>
@@ -221,11 +303,23 @@
 <li><strong>Clock</strong>: Signals used to synchronise operations between the CPU and other components. <em>A clock signal keeps the flow of data synchronised.</em></li>
 <li><strong>Reset</strong>: The CPU will reboot if active.</li>
 </ul>
+<h4 id="word-lengthsize">Word length/size</h4>
+<p>Memory is divided into equal units which are called words, typically multiples of 8, such as 64 bits. Each word has a separate memory address.</p>
 <h4 id="data-bus">Data bus</h4>
-<p>The data bus transfers data and instructions between components</p>
+<p>The data bus transfers data and instructions between components and is bidirectional. With an increased data bus width, more data can be transferred between components simultaneously or in one single operation.</p>
+<p>A system with a 32-bit data bus can transfer 32 bits of data at the same time, or 4 bytes. If 8 bytes of data needs to be fetched from memory, this will take 2 different operations to fetch the data, resulting in increased delays.</p>
+<p>For this reason, most systems have a data bus width that is equal to the word length of the CPU.</p>
 <h4 id="address-bus">Address bus</h4>
-<p>A system with a <em>32-bit</em> address bus can address <em>2^32</em> (4,294,967,296) memory locations. If each memory location holds one byte, the addressable memory space is 4 GiB.</p>
+<p>The address bus width determines the maximum possible amount of memory addresses or locations that the system can adderss.</p>
+<p>A system with a <em>32-bit</em> address bus can address <em>2^32</em> (4,294,967,296) memory locations. If each memory location (word) holds one byte, the addressable memory space is 4 GiB.</p>
 <h4 id="how-these-buses-link-to-assembly-language-programs">How these buses link to assembly language programs?</h4>
+<h3 id="control-unit">Control Unit</h3>
+<p>The <strong>control unit</strong> (CU) within the CPU is responsible for controlling all operations that occur within the CPU in other subunits and registers of the processor such as the ALU (Arithmetic Logic Unit), and how this data is exchanged to other registers or moved around the system. These operations are dictated typically by the speed of the clock signal (in Hz).</p>
+<p>The CU also regulates and controls the data sequence between the processor and other hardware devices such as system memory through the <strong>control bus</strong>, and can generate and interpret received control signals from these received instructions after having decoded it (using the opcode and operand) into a sequence to determine the instruction needed to be carried out.</p>
+<p>This could be, as an example, fetching the address and data requested from RAM, determine that an arithmetic calculation needs to occur, and storing the resulting data back in RAM, or in other registers.</p>
+<blockquote>
+<p>The Control Unit is the component of the processor which directs the operations of the CPU.</p>
+</blockquote>
 <h3 id="the-alu">The ALU</h3>
 <p>The Arithmetic Logic Unit performs arithmetic operations on data. It consists of two parts - the <strong>arithmetic unit</strong> - this can include addition, subtraction, multiplication and division. It can also compare arithmetic values and return a binary value if, for example, A is greater than B.</p>
 <p>The second part is the <strong>logic unit</strong> which includes logical bitwise AND, OR, NOT and XOR operations. Finally, it may also perform shift operations (binary shift) within a register, moving bits left or right.</p>
@@ -236,12 +330,16 @@
 <p>Modern CPUs may also contain a FPU, or ‘floating point unit’, to handle floating point numbers more efficiently.</p>
 </blockquote>
 <h3 id="program-counter-pc">Program Counter (PC)</h3>
-<p>Holds the memory address of the next instruction to be fetched by the processor.</p>
+<p>Holds the memory address of the next instruction to be fetched, decoded and executed by the processor.</p>
 <h3 id="accumulator">Accumulator</h3>
-<p>Stores the ‘intermediate’ results of the data being processed at the current moment in the FDE cycle. The final results get stored in another register such as the Arithmetic Logic Unit, or get moved to main memory.</p>
+<p>Stores the ‘intermediate’ results of the data being processed at the current moment in the FDE cycle.</p>
+<p>The final results get stored in another register such as the Arithmetic Logic Unit, or get moved to main memory.</p>
 <h3 id="memory-address-register">Memory Address Register</h3>
+<p>Holds the address of the current memory location that is to be read or written</p>
 <h3 id="memory-data-register">Memory Data Register</h3>
+<p>Stores the intermediate data that is to be written to, or read from, the current address in memory.</p>
 <h3 id="current-instruction-register">Current Instruction Register</h3>
+<p>Stores the current instruction being executed, with both the <strong>opcode</strong> (what instruction is to be executed by the CPU) and <strong>operand</strong> (the memory location of, or the actual data itself, used to execute that instruction)</p>
 <h3 id="the-fde-cycle-and-its-impacts-on-these-registers">The FDE cycle and its impacts on these registers</h3>
 <h3 id="factors-affecting-cpu-performance">Factors affecting CPU performance</h3>
 <p>There are a number of factors used by CPU manufacturers in order to make processors faster.</p>
@@ -258,13 +356,16 @@ The clock width is the length of one pulse - the shortest time possible between 
 This was only managed under specialist, liquid nitrogen cooling conditions for a few seconds.</p>
 </blockquote>
 <h4 id="core-count">Core Count</h4>
+<p>A CPU core contains its own control unit, ALU and registers, allowing it to fetch, decode and execute its own instructions from memory and link to other processors on the physical CPU chip.</p>
+<p>For systems and software designed for multi-core systems, this enables <strong>parallel processing</strong>. The same program can have two separate instructions being processed concurrently. This also facilitates <strong>multitasking</strong>, with each core being to process different programs’ instructions at the same time.</p>
+<p>This is not always the case, with some programs being unoptimised for this, or require synchronous processing, when they require the result of one calculation before another, so cannot be worked on at the same time.</p>
 <h4 id="cache">Cache</h4>
 <p>Cache memory is small amounts of fast memory that stores frequently accessed data and instructions to improve CPU performance. It is typically on the CPU chip. When data or an instruction is fetched from system memory, it is copied into cache in case it is needed by a register immediately. This has a reduced latency compared to fetching from memory as it does not need to travel through the data bus.</p>
 <blockquote>
 <p>The CPU in reality checks for the data in the (L1) cache first and uses this before checking RAM - if it exists, it’s a <strong>cache hit</strong> as opposed to a <strong>cache miss</strong>.</p>
 </blockquote>
 <p>Cache memory operates in a <strong>hierarchy</strong> of levels, with L1 cache being the fastest and closest to the CPU registers, but very small, often only 64KiB in size due to its expensive price.</p>
-<p>L1 cache is also split into <strong>instruction</strong> and <strong>data</strong> caches, (L1i/L1d) so that both data and instructions can be fetched simultaneously.</p>
+<p>L1 cache is also split into <strong>instruction</strong> and <strong>data</strong> caches, (L1i/L1d) so that both data and instructions can be fetched simultaneously. This is an example of <a href="#harvard-architecture">Harvard architecture</a>.</p>
 <p>Due to this storage limitation, the <strong>least recently used</strong> data or instructions after several FDE cycles are <strong>relegated</strong> the higher-level L2 or L3 caches or copied back into main memory to prioritise newer, more important instructions.</p>
 <p>L3 cache is much larger, perhaps up to 96MiB, but the tradeoff is slower access speeds.</p>
 <blockquote>
@@ -277,13 +378,82 @@ This was only managed under specialist, liquid nitrogen cooling conditions for a
 <p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/Pipelining-Instructions.jpg" alt="enter image description here"><br>
 <em>A more detailed diagram of how instructions can be pipelined. These stages are <strong>I</strong>nstruction <strong>F</strong>etch, <strong>I</strong>nstruction <strong>D</strong>ecode, <strong>O</strong>perand <strong>F</strong>etch, <strong>I</strong>nstruction <strong>E</strong>xecution, and <strong>O</strong>perand <strong>S</strong>tore, but you don’t need to know them. In a non-pipelined system, Instruction 2 would be fetched at point t5 and take until t9 to complete.</em> <a href="https://binaryterms.com/pipelining-in-computer-architecture.html">Source</a></p>
 <h3 id="contemporary-processor-architectures">Contemporary Processor Architectures</h3>
-<p>von Neumannn architecture is used in the majority of computer systems today. Program instructions and data are stored together in system memory, both using the same data bus to connect to the CPU.<br>
-Benefits of von Neumann architecture include that it is cheaper, and makes more efficient of use of available RAM. This is because if the data store becomes full</p>
+<p>There are two main architectures used in modern day computer systems.</p>
 <h4 id="von-neumann-architecture">von Neumann architecture</h4>
+<p>von Neumannn architecture is used in the majority of computer systems today. Program instructions and data are stored together in system memory, both using the same data bus to connect to the CPU.</p>
+<p>This employs the stored program concept - where a program must be loaded into memory to be executed, its instructions are fetched, decoded and executed sequentially, and can only be changed by a <a href="#assembly-language">jump/branch instruction</a>.</p>
+<p>Benefits of von Neumann architecture include that it is cheaper, and makes more efficient of use of available RAM. This is because if the data store were to become full in Harvard architecture, the data store could not store this. These memory addresses are in von Neumann architecture are unified.</p>
 <h4 id="harvard-architecture">Harvard architecture</h4>
 <p>Harvard architecture is mostly used in specialist and some embedded systems. A program’s data and instructions are stored separately in memory with a separate data bus connecting it to memory.</p>
+<p>Digital Signal Processors make use of this by having multple data buses running in parallel for reading and writing signals whilst only one instruction bus</p>
+<p>This could result in speed and efficiency improvements as the program and data instructions are no longer ‘competing’ for the same data bus.</p>
+<blockquote>
+<p>Modern systems include aspects of both von Neumann and Harvard architecture, for example main memory is accessed through von Neumann architecture, but in order to take advantage of speed optimisations available, Harvard architecture is used by the CPU in its cache memory - hence why it has a distinct data and instruction cache.</p>
+</blockquote>
 <h2 id="types-of-processor">1.1.2 Types of processor</h2>
+<h3 id="cisc-cpus">CISC CPUs</h3>
+<p>Complex Instruction Set Computer.</p>
+<p>This architecture revolves around having a large instruction set which is used to complete tasks in as few lines of assembly language as possible, such as combining the LDA and STA instruction with the calculation instruction such as ADD or SUB.</p>
+<p>For example:<br>
+<strong>MULT A, B</strong><br>
+would:</p>
+<ul>
+<li>Fetch data at memory address A and load to accumulator</li>
+<li>Load data in accumulator into ALU</li>
+<li>Fetch data at memory address B and load to accumulator</li>
+<li>Load data at accumulator into ALU</li>
+<li>ALU compute result of multiplication</li>
+<li>Move data from the ALU into memory address A</li>
+</ul>
+<h3 id="risc-cpus">RISC CPUs</h3>
+<p>Reduced Instruction Set Computer.</p>
+<p>This architecture has a smaller instruction set of simpler instructions. The key is that each instruction requires one clock cycle to complete.</p>
+<p>Comparable to the above CISC instruction set, it may be written as:</p>
+<ul>
+<li>LDA R1, A (Loads register (R1) with data at memory location A)</li>
+<li>LDA R2, B (Loads register (R2) with data at memory location B)</li>
+<li>MULT R1, R2 (Multiples value in register R1 by value in register R2, outputting to register R1)</li>
+<li>STA R1, A (Copies contents in R1 to memory address A)</li>
+</ul>
+<p>Comparison:</p>
+
+<table>
+<thead>
+<tr>
+<th>CISC</th>
+<th>RISC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Faster to create program code</td>
+<td>Hardware is simpler to build, with fewer, more complex needed for instructions</td>
+</tr>
+<tr>
+<td>The compiler has fewer amount of tasks to complete to translate a high-level language into machine code</td>
+<td>Pipelining is easier as each instruction takes a known amount of time, being one clock pulse</td>
+</tr>
+<tr>
+<td>Reduced RAM usage to store instructions due to smaller code size</td>
+<td>RAM is cheap, so this is not a real concern, and program data will likely use more RAM than instructions</td>
+</tr>
+<tr>
+<td>Hardware-based optimisation allows more complex instructions to be executed</td>
+<td>Relies on optimised software techniques such as compiler optimisations to improve performance</td>
+</tr>
+<tr>
+<td>Greater backward compatibility with older software and old applications which may be needed by datacentres</td>
+<td>Easier to migrate to newer architectures as less instructions need to be rewritten</td>
+</tr>
+</tbody>
+</table><h3 id="gpus">GPUs</h3>
+<p>GPUs are co-processors. This means that they provide the CPU with the ability to offload computationally intensive tasks and accelerate certain types of calculations.</p>
+<p>They can handle large amounts of visual data at once as they have thousands of small cores for this processing in parallel, making them much more efficient than the CPU for a minority of tasks.</p>
+<p>They were originally designed to render images and graphics. Because they are designed to perform one instruction on many pieces of data in parallel, rather than various instructions on different data like in a CPU, they can be used to perform a variety of other jobs, such as machine learning, cryptocurrency mining, and modelling (e.g weather forecasting).</p>
+<h3 id="multi-core-and-parallel-systems">Multi-core and parallel systems</h3>
+<p><a href="#core-count">Talked about earlier</a></p>
 <h2 id="input-output-and-storage">1.1.3 Input, output and storage</h2>
+<h3 id="virtual-storage">Virtual storage</h3>
 <h1 id="tbd-1.2-software-and-software-development">[tbd] 1.2 Software and software development</h1>
 <h2 id="systems-software">1.2.1 Systems Software</h2>
 <h3 id="operating-systems">Operating Systems</h3>
@@ -464,12 +634,112 @@ While one job is transferring data onto a USB stick or printing, another job can
 <td>Not suitable for all systems like embedded or realtime systems due to its dynamic nature and overheads</td>
 </tr>
 </tbody>
-</table><p>The multi-level feedback queue algorithm is used in the majority of devices, including Windows 10 and 11. The “scheduler” has been a key talking point from Microsoft regarding benefits to</p>
+</table><p>The multi-level feedback queue algorithm is used in the majority of devices, including Windows 10 and 11. The “scheduler” has been a key talking point from Microsoft regarding benefits of Windows 11.</p>
+<h3 id="types-of-operating-system">Types of Operating System</h3>
+<h4 id="distributed-operating-systems">Distributed operating systems</h4>
+<p>The load of the OS is spread out over multiple physical systems or servers, sharing memory, resources and tasks. A job may be split into multiple tasks and each is run on different hardware devices.</p>
+<h4 id="multitasking-system">Multitasking system</h4>
+<p>Most operating systems now allow you to run multiple programs at once, such as programming whilst talking to friends in a voice chat, listening to music, and having Stack Overflow up at the same time, whilst many of the core utility and OS programs are in the background.</p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/TaskManager.png" alt="enter image description here"><br>
+<em>Here you can see the current applications I have open as well as background processes</em></p>
+<h4 id="multi-user-system">Multi-user system</h4>
+<p>A single mainframe or supercomputer may connect to hndreds of terminals, all with different users on, and are allocated a time slice of the mainframe’s CPU according to a scheduling algorithm, typically Round Robin or MLFQs.</p>
+<h4 id="realtime-os">Realtime OS</h4>
+<p>Some safety-critical operating systems must operate in realtime and be able to respond to inputs and sensors as fast as posssible, and compute the results of multiple input devices concurrently. The OS must also have hardware (and even software) redundancy so critical components like the CPU may have duplicates or multiple ‘backups’ in place so that of one fails, another is automatically switched to</p>
+<h3 id="the-bios">The BIOS</h3>
+<p>Stands for Basic Input Output System. It is stored in (EP)ROM and immediately initialises and tests hardware, then loads the operating system from a secondary storage device into main memory.</p>
+<h3 id="device-drivers">Device Drivers</h3>
+<p>A driver is a program that provides an interface to a particular hardware device, managed by the OS. This allows the OS to interact with a device and read its data without knowing the specifics of the low-level hardware being used. This driver may be downloaded from the Internet, or the OS may have a library of existing drivers when distributed, and when a new device such as a printer connects, it may check for an update automatically.</p>
+<h3 id="virtual-machine">Virtual machine</h3>
+<p>A virtual machine is any instance when software is used to emulate another machine, such as running another OS inside another (e.g. Linux in Windows), emulating different hardware.</p>
+<p>This may also include intermediate code, such as the Java virtual machine. This executes Java bytecode, which is machine independent, and converts it into machine code, which is dependent.</p>
 <h2 id="applications-generation">1.2.2 Applications Generation</h2>
+<p>Software can be split up and grouped into different categories.</p>
+<h3 id="systems-software-1">Systems Software</h3>
+<p>Needed by the system to control hardware and run applications.<br>
+This may include:</p>
+<ul>
+<li>The OS - for resource management, a UI, processor scheduling and interrupt handling</li>
+</ul>
+<h3 id="utility-software">Utility software</h3>
+<p>For the optimisation of the performance of the computer and performing useful tasks, sometimes in the background.</p>
+<ul>
+<li>Disk defragmenter for Hard Disk Drive optimises where blocks of data are stored on the platter, by moving it from physically fragmented locations across the platter, to one sector or track sequentially to improve seek and access times</li>
+<li>Automatic backup for files, especially important for businesses. They can allow users to specify where the backup should be, what should be backed up, how the backup should run (compression, incremental backup, mirror), when the backup should run (on a schedule, at specific times of day)</li>
+<li>Auto updating - checks servers on a scheduled cadence for new updates to software installed. This might be to add new software features, for antiviruses to update their definitions, or for the OS to patch vulnerabilities</li>
+<li>Antivirus - scans secondary and even primary storage for known virus definitions (requires regular updates), or use heuristic analysis to detect suspicious behaviour. They can run on a schedule, when files are read or modified, or when installed.</li>
+<li>Compression software can reduce file size for transfer or to save on disk space.</li>
+</ul>
+<h3 id="applications-software">Applications software</h3>
+<p>Generak purpose, special purpose or custom written (bespoke) software.</p>
+<p>Ready made software is known as off the shelf software, and may include general-purpose software such as word processors or a graphics editing package. They are less expensive or free, well documented and tested.</p>
+<p>Special-purpose software typically performs a single task or set of tasks. This may also be off the shelf for things like browsers, or be more ‘niche’ such as electronic exam marking applicaions or fingerprint scanning systems, or DBMS.</p>
+<p>A bespoke software package may be bought by organisations for their specific needs like an inventory management system for a retailer. They are much more expensive and as they are tested less, could contain errors which are not known about initially.</p>
+<h3 id="open-source-vs-proprietary">Open source vs proprietary</h3>
+<p>Open source software has no charge for the license, and anyone can access its source code on sites such as GitHub. Depending on the license, developers may be able to modify and sell the software providing that the new software is also open source.</p>
+<blockquote>
+<p>Freeware is free to use, but the source code is not available and have restrictions on use, e.g. businesses must pay for use but individuals don’t.</p>
+</blockquote>
+<p>Closed source software or proprietary software does not allow access to the source code. There may be a limit on how many users are allowed to use it per copy of the software sold, according to its license, or be only allowed to be used on one specific site or company. Users must pay the person or company who wrote the software, and therefore own the copyright for it, to use it.</p>
 <h2 id="software-development">1.2.3 Software Development</h2>
+<h3 id="assemblers">Assemblers</h3>
+<p>Assemblers translate assembly code instructions into machine  code, or object code. Each assembly instruction is 1:1 equivalent to one machine code instruction, which is dependent on the instruction set and the underlying type of processor and its architecture (hardware specific). Basic lexical analysis such as comment removal occurs here too.</p>
+<h3 id="compilers">Compilers</h3>
+<p>Similarly to assemblers, compilers translate the source code into machine code. After various analyses take place on this source code (see below) compilers produce object code, which is machine dependent. This code can then be run without having to be compiled again. EXE files are an example of compiled code.</p>
+<h3 id="interpreters">Interpreters</h3>
+<p>Interpreters are more designed for development, with it going through source code line-by-line, and only translating it into machine code if there are no syntax erros. This compares to compilers, which will translate the entire source code before it is ececuted.</p>
+<p>JavaScript for example is interpreted. This in the long run speeds up (the website) as it doesn’t need to be compiled to various different devices’ machine code requirements, and each device can interpret the source JavaScript in the way that works for that processor. It also reduces network traffic as binary files may be much larger than compact source code equivalents.</p>
+<ul>
+<li>Compiled code executes faster than interpreted code as it is directly executed by the processor</li>
+<li>Compilers can apply optimisations during compilation for the program to execute more efficiently</li>
+<li>Once compiled, the code can then be distributed and executed on different devices providing they have the same processor instruction set, e.g exe files on windows x86 processors.</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Interpeters allow for better debugging capabilities and errors are detected at runtime for quick fixing</li>
+<li>Faster development cycles as recompilation which can take a long time is not needed</li>
+</ul>
+<h3 id="bytecode">Bytecode</h3>
+<p>Most languages now use a combination of both compilation and interpreting.</p>
+<p>Java is compiled into bytecode, which is an intermediate step between source code and machine code. The Java virtual machine interprets the bytecode, allowing for platform independence, as long as the JVM is installed. The JVM will be able to ‘customise’ the machine code produced to the specific processor.</p>
+<p>Source -&gt; Compiler -&gt; Bytecode -&gt; Bytecode interpreter -&gt; Object code</p>
+<h3 id="stages-of-compilation">Stages of compilation</h3>
+<h4 id="lexical-analysis">Lexical analysis</h4>
+<p>Removes unnecessary spaces and comments<br>
+Keywords, constants and identifiers are replaced with tokens that represent their function within the program (tokenisation)</p>
+<h4 id="the-symbol-table">The symbol table</h4>
+<p>The lexer builds up a symbol table for every token in the program, which keeps track of the runtime memory address and value for each identifier. The table may include</p>
+<ul>
+<li>Canonical item name (e.g <code>userCoinsAmount</code>, <code>=</code>)</li>
+<li>Kind of item (e.g. <code>variable</code>, <code>operator</code>)</li>
+<li>Type of item (<code>float</code>)</li>
+<li>Value (<code>48.3061</code>)</li>
+</ul>
+<h4 id="syntax-analysis">Syntax analysis</h4>
+<p>After the lexing stage, the tokens are now split up into phrases (e.g. a line of code), which is then parsed. During parsing, the language’s rules are applied to each phrase to determine if it is valid. An error will be thrown if the phrase violates the language rules (e.g. <code>print("hello, world)</code>)</p>
+<blockquote>
+<p>this is similar to a natural language!</p>
+</blockquote>
+<h4 id="semantic-analysis">Semantic analysis</h4>
+<p>A set of tokens may be valid syntaxically but not valid programatically. Semantic analysis checks for this error. This typically occurs at the same time as syntax analysis. Errors in this stage may be trying to assign an integer value to a real (floating point) variable in a statically typed language.</p>
+<h4 id="code-generation-and-optimisation">Code generation and optimisation</h4>
+<p>Programmers are lazy so often source code is inefficient. Code optimisation removes redundant instructions and replace inefficient code with code that achieves the same result. For example</p>
+<pre class=" language-py"><code class="prism  language-py">i <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">for</span> count <span class="token operator">=</span> <span class="token number">0</span> to <span class="token number">10000</span>
+	x <span class="token operator">=</span> <span class="token number">0</span>
+	i <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">5</span>
+endfor
+<span class="token keyword">print</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+</code></pre>
+<p>Over several passes, code oprimisation techniques may remove the for loop and just set <code>x</code> to 0 so it doesn’t get redefined 10,000 times. More severe optimisations may calculate that <code>i</code> will be 50000 every time, so just change the value of y to 50000.</p>
+<h3 id="linkers-and-loaders">Linkers and loaders</h3>
+<p>The linker must assign memory addresses to external calls  from separate libraries or functions so that the modules are linked correctly.</p>
+<p>The loader must copy the program and any linked libraries into main memory to be executed. The loader will also correctly assign memory addresses, as the program expects that it is in memory address 0.</p>
+<p>Libraries, pre-compiled code modules, have benefits such as being tested, optimised and save time as code does not have to be rewritten. It can also save on memory use as many programs using a library to set all characters to uppercase only has to be loaded once into memory, and just linked by the linker.</p>
 <h2 id="types-of-programming-language">1.2.4 Types of Programming Language</h2>
-<h3 id="assembly-language--little-man-computer">Assembly language + Little man Computer</h3>
-<p>The LMC instruction set is a simplification of assembly language which has many of the same principals of the lower-level language.</p>
+<h3 id="assembly-language">Assembly language</h3>
+<p>The Little Man Computer or LMC instruction set is a simplification of assembly language which has many of the same principals of the lower-level language.</p>
 <p>Here is the assembly code which you need to know:</p>
 
 <table>
@@ -483,58 +753,58 @@ While one job is transferring data onto a USB stick or printing, another job can
 <tbody>
 <tr>
 <td><code>ADD</code></td>
-<td>Add</td>
-<td>Adds the value stored in paricular memory address to accumulator</td>
+<td><strong>Ad</strong>d</td>
+<td>Adds the value from a specific memory address to the accumulator</td>
 </tr>
 <tr>
 <td><code>SUB</code></td>
-<td>Subtract</td>
-<td></td>
+<td><strong>Sub</strong>tract</td>
+<td>Subtract value from a specific memory address from the accumulator.</td>
 </tr>
 <tr>
 <td><code>STA</code></td>
-<td>Store</td>
-<td></td>
+<td><strong>St</strong>ore</td>
+<td>Stores the value of the accumulator to a specific memory address</td>
 </tr>
 <tr>
 <td><code>LDA</code></td>
 <td>Load (<em><strong>D</strong>ata <strong>A</strong>ddress</em>)</td>
-<td></td>
+<td>Loads, into the accumulator, the data at a specific data address</td>
 </tr>
 <tr>
 <td><code>BRA</code></td>
-<td>Branch, <strong>a</strong>lways</td>
-<td></td>
+<td><strong>Br</strong>anch, <strong>a</strong>lways</td>
+<td>Unconditionally branch or jump to a specific instruction</td>
 </tr>
 <tr>
 <td><code>BRZ</code></td>
-<td>Branch, if <strong>z</strong>ero</td>
-<td></td>
+<td><strong>Br</strong>anch, if <strong>z</strong>ero</td>
+<td>Branch or jump to a specific instruction if previous operation resulted in zero</td>
 </tr>
 <tr>
 <td><code>BRP</code></td>
-<td>Branch, if <strong>p</strong>ositive</td>
-<td></td>
+<td><strong>Br</strong>anch, if <strong>p</strong>ositive</td>
+<td>Branch or jump to a specific instruction if the previous instruction resulted in a postitive value</td>
 </tr>
 <tr>
 <td><code>INP</code></td>
-<td>Input</td>
-<td></td>
+<td><strong>Inp</strong>ut</td>
+<td>Takes an input from an external source and loads to the accumulator</td>
 </tr>
 <tr>
 <td><code>OUT</code></td>
-<td>Output</td>
-<td>outputs value of the accululator</td>
+<td><strong>Ou</strong>tput</td>
+<td>Outputs value of the accumulator</td>
 </tr>
 <tr>
 <td><code>HLT</code></td>
 <td>End program (<em>HALT</em>)</td>
-<td></td>
+<td>Halt or stop execution of program</td>
 </tr>
 <tr>
 <td><code>DAT</code></td>
-<td>Data location</td>
-<td></td>
+<td><strong>Dat</strong>a location</td>
+<td>Defines memory location and its value</td>
 </tr>
 </tbody>
 </table><p>This can be used in any way to perform operations like adding adddresses in memory, squaring numbers, etc. You’ll need to be familiar with this and be able to spot errors and rewrite the instruction list when needed.</p>
@@ -545,7 +815,7 @@ While one job is transferring data onto a USB stick or printing, another job can
 <h4 id="methods">Methods</h4>
 <h4 id="attributes">Attributes</h4>
 <h4 id="inheritance">Inheritance</h4>
-<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpeg" alt="Hard faults"></p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpg" alt="Inheritance joke"></p>
 <h4 id="encapsulation">Encapsulation</h4>
 <h4 id="polymorphism">Polymorphism</h4>
 <h1 id="tbd-1.3-exchanging-data">[tbd] 1.3 Exchanging data</h1>
@@ -704,7 +974,7 @@ While one job is transferring data onto a USB stick or printing, another job can
 </ul>
 <p>Plaintext -&gt; cipher -&gt; ciphertext -&gt; key -&gt; plaintext.</p>
 <p>The Caesar cipher shifts letters of the alphabet by a fixed amount. It is a substitution cipher.</p>
-<p>However, it is easily decrypted (or “cracked”) by using little or no computing power. This can be done through a brute force attack, which uses every possible key to decrypt ciphertext until one works. To combat this, spaces are used to hide word lengths. As there are only 26 characters in the alphabet, this is easily brute forced.</p>
+<p>However, it is easily decrypted (or “cracked”) by using little or no computing power. This can be done through a brute force attack, which uses every possible key to decrypt ciphertext until one works. To combat this, spaces are used to hide lengths of individual words. As there are only 26 characters in the alphabet, this is easily brute forced.</p>
 <h3 id="vernam-cipherone-time-pad">Vernam cipher/one-time pad</h3>
 <p>This was invented in 1917 and is the only encryption method still proven to be unbreakable.<br>
 It consists of a few key features:</p>
@@ -828,14 +1098,244 @@ OTP: 1110 0010 (<strong>Γ</strong>)</p>
 <p>There would need to be a few entities in this scenario, all linked together</p>
 <ul>
 <li>Customer</li>
+<li>Customer Name</li>
+<li>Customer Surname</li>
 <li>Revision product</li>
-<li>Subscription amount</li>
+<li>Subscription</li>
 <li>Order number</li>
 <li>Subject</li>
 <li>Tier of revision guide</li>
 <li>more?</li>
 </ul>
-<p>The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being <a href="#">underlined</a>.</p>
+<p>The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being <a href="">underlined</a>. It is automatically indexed.</p>
+<blockquote>
+<p>Two or more attributes that are needed to uniquely identify a record are composite primary keys.</p>
+</blockquote>
+<p>User (<a href="">customerID</a>, <a href="">orderNumber</a>, custName, custSurname, productID, subject, tier)</p>
+<p>Searches may also need to be made on other attributes of entities. In the table above, <code>subject</code>, <code>tier</code>, <code>productID</code>, <code>custName</code> and <code>custSurname</code> can be definded as the secondary key. These would then be indexed if specified by the user.</p>
+<h3 id="entity-relationship-modelling">Entity relationship modelling</h3>
+<p>An entity relationship diagram is a way of representing the relationships between entities within a database. These can be:</p>
+<ul>
+<li>One-to-one: husband to wife, country and prime minister. There is only one possiblility of a relationship between either entity</li>
+<li>One-to-many: mother and child, customer and order, country and residents. One of these entities has many relationships between related entities</li>
+<li>Many-to-many: actor and film, pupil and schools. Many of these entities have relationships between many other entities.</li>
+</ul>
+<p>Individual E-R diagrams may be joined up, to effectively say for the example above:</p>
+<p>Customer -&gt; one-to-many -&gt; Subscription -&gt; many-to-one -&gt; Product.</p>
+<h3 id="foreign-and-composite-keys">Foreign and Composite Keys</h3>
+<p>Each entity must have a primary key as an attribute. In a relational database, to create a relationship between two entities in a one-to-many relationship, we need to include an attribute about the first entity (we’ll say <strong>Customer</strong>) in the table of the second entity (we’ll say <strong>Subscription</strong>). This second entity table must uniquely refer to the first entity, so we will include <strong>Customer</strong>’s primary key in <strong>Subscription</strong>’s table. This is known as the foreign key for <strong>Subscription</strong>.</p>
+<blockquote>
+<p>Customer in this table can be thought of as a class - it inherits attributes about it from a blueprint. However it needs to be unique, so primary key CustID will need to be assigned to it. This is the same for SubscriptionID - but SubscriptionID is not needed in the attributes of the Customer, as the database may be searched for CustomerIDs in the Subscription table.</p>
+</blockquote>
+<h3 id="referential-integrity">Referential Integrity</h3>
+<p>Referential integrity states that an attribute referenced as a foreign key on one table cannot be deleted, and therefore cannot reference something that doesn’t exist. For example adding <code>customerID 193</code> in table Subscription should not be possible if there is no customerID 193.</p>
+<h3 id="normalisation">Normalisation</h3>
+<p>In a relational database, data is held in tables, or <strong>relations</strong>. Each row in the table holds a specific, unique record, with each column representing an attribute.</p>
+
+<table>
+<thead>
+<tr>
+<th>CustomerID</th>
+<th>SubscriptionID</th>
+<th>productID</th>
+<th>Tier</th>
+<th>custName</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td>
+<td>120.gcseCompSci</td>
+<td>235</td>
+<td>1</td>
+<td>Joe</td>
+</tr>
+<tr>
+<td>34</td>
+<td>111.gcseGeog</td>
+<td>243</td>
+<td>1</td>
+<td>Sam</td>
+</tr>
+<tr>
+<td>54</td>
+<td>120.gcseCompSci</td>
+<td>235</td>
+<td>1</td>
+<td>Oliver</td>
+</tr>
+</tbody>
+</table><p>Normalisation is a process used to create the most efficient design possible for a database. The structure should be one so that complex queries from different relations can be made, with no unnecessary duplication and high consistency.</p>
+<h4 id="first-normal-form">First normal form</h4>
+<p>A table is in 1NF if it has <strong>no repeating attributes, or groups of attributes.</strong></p>
+<p>All attributes must be atomic, so one atribute must only contain data about one thing, not two items of data such as firstname <em>and</em> surname - this would make the relation unable to be queried by surname or firstname alone.</p>
+<h4 id="second-normal-form">Second normal form</h4>
+<p>A table is in 2NF if it:</p>
+<ul>
+<li>Is already in 1NF</li>
+<li>Has no partial dependenies, which is only so if the primary key is also a composite key.</li>
+</ul>
+<p>This means that if any non-key column is <strong>only dependent on one primary key but not them all</strong> (hence why it is only applicable to composite keys) it exhibits a partial key dependence.</p>
+<p>For example, a table may have a composite primary key of <strong>OrderID</strong> <em>and</em> <strong>ProductID</strong>, but a non-key column “OrderDate” depends only on <strong>OrderID</strong> <em>and not</em> <strong>ProductID</strong>, it is partially dependent.</p>
+<h4 id="third-normal-form">Third normal form</h4>
+<p>A table is in 3NF if it:</p>
+<ul>
+<li>Is already in 2NF</li>
+<li>Has no transitive, or non-key dependencies.</li>
+</ul>
+<blockquote>
+<p>All attributes are dependent on the key, the whole key, and nothing but the key.</p>
+</blockquote>
+<p>This means that if non-key columns are dependent on something other than the primary key (e.g. are foreign keys that relate to the primary key of another entity) they have to go. If a table is such that:</p>
+<p>Component (<a href="#">ComponentID</a>, ComponentName, <em>SupplierID</em>)</p>
+<p>it can be seen that SupplierID is a foreign key and does not depend on the ComponentID of the Component entity, rather a different entity. It will then be moved to a separate table, with all dependent columns moving to this new table.</p>
+<h4 id="importance">Importance</h4>
+<ul>
+<li>Easier to maintain</li>
+<li>Easier to query</li>
+<li>No data redundancy</li>
+<li>Data integrity is maintained</li>
+<li>Faster sorting and searching</li>
+<li>No accidental deltion of records</li>
+</ul>
+<h3 id="sql">SQL</h3>
+<h4 id="basic-select">Basic Select</h4>
+<pre><code>SELECT Fields
+FROM TableName
+WHERE (value CONDITION value) 
+ORDER BY Field ASC
+</code></pre>
+<h4 id="conditions">Conditions</h4>
+
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>=</td>
+<td>Equal to</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Greater than</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less than</td>
+</tr>
+<tr>
+<td>IN</td>
+<td>In a set of values</td>
+</tr>
+<tr>
+<td>LIKE</td>
+<td>Pattern matching</td>
+</tr>
+<tr>
+<td>BETWEEN… AND…</td>
+<td>Between a range of values (inclusive)</td>
+</tr>
+<tr>
+<td>IS NULL</td>
+<td>Checks if a value is NULL</td>
+</tr>
+<tr>
+<td>AND</td>
+<td>Logical AND operator</td>
+</tr>
+<tr>
+<td>OR</td>
+<td>Logical OR operator</td>
+</tr>
+<tr>
+<td>NOT</td>
+<td>Logical NOT operator</td>
+</tr>
+</tbody>
+</table><h4 id="detailed-select">Detailed Select</h4>
+<p>You can extract data from specific and multiple tables using <code>.</code>. For example</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> Song<span class="token punctuation">.</span>SongTitle<span class="token punctuation">,</span> Song<span class="token punctuation">.</span>ArtistSurname<span class="token punctuation">,</span> Artist<span class="token punctuation">.</span>ArtistSurname
+<span class="token keyword">FROM</span> Song<span class="token punctuation">,</span> Artist
+<span class="token keyword">WHERE</span> <span class="token punctuation">(</span>Song<span class="token punctuation">.</span>SongTitle <span class="token operator">LIKE</span> <span class="token string">"R%"</span><span class="token punctuation">)</span> <span class="token operator">AND</span> <span class="token punctuation">(</span>Song<span class="token punctuation">.</span>ArtistSurname <span class="token operator">=</span> Artist<span class="token punctuation">.</span>ArtistSurname<span class="token punctuation">)</span>
+</code></pre>
+<h4 id="defining-a-database-table">Defining a database table</h4>
+<p>To create a table, the <code>CREATE TABLE</code> keyword</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> Film
+<span class="token punctuation">(</span>
+	FilmID			<span class="token keyword">INTEGER</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span><span class="token punctuation">,</span>
+	Description		<span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+	ReleaseDate		<span class="token keyword">DATE</span><span class="token punctuation">,</span>
+	LastShownTime	TIME<span class="token punctuation">,</span>
+	IsShowing		<span class="token keyword">BOOLEAN</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+	ShowingCount	<span class="token keyword">INTEGER</span>
+<span class="token punctuation">)</span>
+</code></pre>
+<h4 id="altering-a-table">Altering a table</h4>
+<p>To alter a table, we just use ALTER TABLE. This is used to add, delete or modify fields or columns.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">ALTER</span> <span class="token keyword">TABLE</span> Film
+<span class="token keyword">ADD</span> Cost <span class="token keyword">FLOAT</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span>
+<span class="token keyword">ADD</span> Name <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span>
+<span class="token keyword">DROP</span> <span class="token keyword">COLUMN</span> ReleaseDate
+<span class="token keyword">MODIFY</span> <span class="token keyword">COLUMN</span> Description <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">35</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span>
+</code></pre>
+<h4 id="linking-tables">Linking tables</h4>
+<p>Of course, we need to link several tables! This is done by foreign keys</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> NewFilm
+<span class="token punctuation">(</span>
+	FilmID			<span class="token keyword">INTEGER</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+	Name			<span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+	ShowingID		<span class="token keyword">INTEGER</span><span class="token punctuation">,</span>
+	Description		<span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">35</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+	ReleaseDate		<span class="token keyword">DATE</span><span class="token punctuation">,</span>
+	<span class="token keyword">FOREIGN</span> <span class="token keyword">KEY</span>		ShowingID <span class="token keyword">REFERENCES</span> ShownFilms<span class="token punctuation">(</span>FilmID<span class="token punctuation">)</span>
+	<span class="token keyword">FOREIGN</span> <span class="token keyword">KEY</span>		FilmID <span class="token keyword">REFERENCES</span> Films<span class="token punctuation">(</span>FilmID<span class="token punctuation">)</span>
+	<span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span>		<span class="token punctuation">(</span>FilmID<span class="token punctuation">,</span> ShowingID<span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre>
+<p>Phew, that looks complicated…</p>
+<h4 id="inserting-values">Inserting values</h4>
+<p>We use <code>INSERT INTO</code>, followed by the VALUES that we want</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> NewFilm<span class="token punctuation">(</span>FilmID<span class="token punctuation">,</span> Name<span class="token punctuation">,</span> ReleaseDate<span class="token punctuation">)</span>
+<span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">"1223"</span><span class="token punctuation">,</span> <span class="token string">"Spider-Man, Across the Spider-Verse"</span><span class="token punctuation">,</span> <span class="token comment">#02/06/2023#)</span>
+</code></pre>
+<h4 id="updating">Updating</h4>
+<p>Simple! Just UPDATE the table, SET the values WHERE a condition is met.</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">UPDATE</span> Film
+<span class="token keyword">SET</span> Showing <span class="token operator">=</span> Showing <span class="token operator">+</span> <span class="token number">1</span>
+<span class="token keyword">WHERE</span> FilmID <span class="token operator">=</span> <span class="token string">"1337"</span>
+</code></pre>
+<h4 id="deleting">Deleting</h4>
+<p>Just DELETE FROM a table WHERE a value is met</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> NewFilm
+<span class="token keyword">WHERE</span> ReleaseDate <span class="token operator">=</span> <span class="token string">"02/06/2023"</span>
+</code></pre>
+<h3 id="transaction-processing">Transaction Processing</h3>
+<h3 id="acid">ACID</h3>
+<h4 id="atomicity">Atomicity</h4>
+<p>A transaction must be processed in its entirety or not at all. It is not possible to process only part of a transaction no matter how catastrophic the failure is.</p>
+<h4 id="consistency">Consistency</h4>
+<p>No transaction can violoate the defined validation rules. Referential integrity will always be upheld</p>
+<h4 id="isolation">Isolation</h4>
+<p>The concurrent execution and processing of transactions must be the same as if these transactions were processed sequentially.</p>
+<h4 id="durability">Durability</h4>
+<p>A transaction will always remain committed once a it has been made.</p>
+<p>This is undertaken by having a buffer, either in the disk or in memory, which receives the temporary modifications. Once all of the transactions have been made, only then will it be committed and written to the disk.</p>
+<h3 id="problems-with-multi-user-databases">problems with multi-user databases</h3>
+<p>If user A wants to chnage user X address, this is fine. If two minutes later, user B changes user X’s balance and saves the record, this is fine. However when user A saves the new record with just the updated address, user B’s changes are lost. To prevent this, we can use:</p>
+<h4 id="record-locking">Record locking</h4>
+<p>To uphold ACID, if two users are editing a database and want to edit each other’s attributes, they may lock each other’s records and result in deadlock. The DBMS will recognise this and try and use one of the below things to fix it:</p>
+<h4 id="serialisation">Serialisation</h4>
+<p>States that transactions cannot start until the previous one has ended. This can be done by:</p>
+<h4 id="timestamp-ordering">Timestamp ordering</h4>
+<p>Assigns every object in the database a read and write timestamp, so it can be worked out which transaction took place first and be applied first. Two users editing the same file at the same time could be asked to merge changes when they have finished by the other user, reducing the rick of problems</p>
+<h4 id="committment-ordering">Committment ordering</h4>
+<p>Transactions are ordered depending on how much they rely on each other, as well as time they were initiated. These subsequent modification requests can then be blocked until the initial transaction is committed.</p>
+<h4 id="redundancy">Redundancy</h4>
+<p>There may be multiple systems available in different physical locations which can be switched to if there is an error in one DBMS. This is crucial in busy businesses or where there is a lot of information that is of high importance being transferred and updated simultaneously.</p>
 <h2 id="networks">1.3.3 Networks</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png" alt="enter image description here"><br>
 The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.</p>
@@ -977,7 +1477,7 @@ The Internet is a public interconnection of computer networks which allows data 
 </blockquote>
 <p><strong>Bonus Points for A</strong>*<br>
 TCP ensures that no data is received erroneously or is lost during transport, so packets can be retransmitted and all must me acknowledged by the receiving device. This security adds delays and additional processing overhead. UDP does not add any of these error checks, but is more suited towards realtime applications such as Discord Voice Chats, whereas text chat it uses TCP.</p>
-<p>For this reason, UDP is deemed as the unreliable protocol and  it is “send and forget”, with packets arriving out of order or not at all. TCP is a sequential stream but is slower due to ACK packets (acknowledgement) and can cause packets to queue and ping spikes. TCP is susceptible to ping spikes, and UDP is susceptible to packet loss (hence why in online games you get packet loss and ping spikes - they use <em>both</em> depending on what’s being requested!)</p>
+<p>For this reason, UDP is deemed as the unreliable protocol as it is “send and forget”, with packets arriving out of order or not at all. TCP is a sequential stream but is slower due to ACK packets (acknowledgement) and can cause packets to queue and ping spikes. TCP is susceptible to ping spikes, and UDP is susceptible to packet loss (hence why in online games you get packet loss and ping spikes - they use <em>both</em> depending on what’s being requested!)</p>
 <h4 id="internetnetwork-layer">Internet/Network layer</h4>
 <p>Uses the Internet Protocol to address packets with a destination and source IP address in each packet’s header. Other data fields in the header may include the Time To Live (TTL) or maximum packet hops, and the header checksum.</p>
 <p>It’s worth noting that the IP has no guarantee of correct transmission, and it is up to TCP in the transport layer to do this.</p>
@@ -990,14 +1490,19 @@ TCP ensures that no data is received erroneously or is lost during transport, so
 <h2 id="web-technologies">1.3.4 Web technologies</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-WebDev.png" alt="enter image description here"></p>
 <p>How to add an external stylesheet:</p>
-<pre class=" language-html"><code class="prism  language-html">&lt;link  href= “nameofstylesheet.css”  rel= “stylesheet”  type=“text/css”&gt;
+<pre class=" language-html"><code class="prism  language-html">&lt;link href= “nameofstylesheet.css” rel= “stylesheet” type=“text/css”&gt;
 </code></pre>
 <p>Changing the attributes of an HTML element:</p>
 <pre class=" language-js"><code class="prism  language-js">chosenElement <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>“example”<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Gets element with id "example" from the DOM</span>
-chosenElement<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> “Hello  World”<span class="token punctuation">;</span> <span class="token comment">// Changing the displayed HTML content</span>
+chosenElement<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> “Hello<span class="token punctuation">,</span> World<span class="token operator">!</span>”<span class="token punctuation">;</span> <span class="token comment">// Changing the displayed HTML content</span>
 </code></pre>
 <h1 id="tbd-1.4-data-types-data-structures-and-algorithms">[tbd] 1.4 Data types, data structures and algorithms</h1>
 <h1 id="tbd-1.5-legal-moral-cultural-and-ethical-issues">[tbd] 1.5 Legal, moral, cultural and ethical issues</h1>
+<p>The Data Protection Act 2018: controls the way data about living people is stored and processed<br>
+It is a national law which complements the European Union’s General Data Protection Regulation (GDPR)</p>
+<p>The Computer Misuse Act 1990 makes it an offence to access or modify computer material without permission</p>
+<p>The Copyright, Designs and Patents Act 1988 covers the copying or use of other people’s work</p>
+<p>The Regulation of Investigatory Powers Act 2000 regulates surveillance and investigation, and covers the interception of communications</p>
 <h1 id="paper-2">Paper 2</h1>
 <h1 id="elements-of-computational-thinking">2.1 Elements of computational thinking</h1>
 <h2 id="thinking-abstractly">2.1.1 Thinking abstractly</h2>
@@ -1008,7 +1513,7 @@ chosenElement<span class="token punctuation">.</span>innerHTML <span class="toke
 <h1 id="problem-solving-and-programming">2.2 Problem solving and programming</h1>
 <h1 id="credits--footnotes">Credits + Footnotes</h1>
 <p>[1] Andy aka (<a href="https://electronics.stackexchange.com/users/20218/andy-aka">https://electronics.stackexchange.com/users/20218/andy-aka</a>), Difference between a bus and a wire, URL (version: 2014-01-11): <a href="https://electronics.stackexchange.com/q/96149">https://electronics.stackexchange.com/q/96149</a></p>
-<p>[2] <em>Teach-ICT A Level Computing - ALU</em>. [online] Available at: <a href="https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU)">https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic Logic Unit (ALU)</a> [Accessed 22 May 2023].</p>
+<p>[2] <em>Teach-ICT A Level Computing - ALU</em>. [online] <a href="https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU)">Available here</a> [Accessed 22 May 2023].</p>
 <p>[3] Yes I know it should be GPUs for parallel processing but you can still do it on your CPU if you really want to</p>
 
     </div>

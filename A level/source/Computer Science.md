@@ -6,7 +6,7 @@
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last update: 03/06/2023 22:36](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last update: 05/06/2023 00:26](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
@@ -30,18 +30,7 @@ Surprisingly, a computer has a lot of things in it to make it work! These things
 
 ## 1.1.1 Structure and function of the processor
 
-The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to **process data**, **strong text**which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations...
-
-
-### Control Unit
-
-The **control unit** (CU) within the CPU is responsible for controlling all operations that occur within the CPU in other subunits and registers of the processor such as the ALU (Arithmetic Logic Unit), and how this data is exchanged to other registers or moved around the system. These operations are dictated typically by the speed of the clock signal (in Hz).
-
-The CU also regulates and controls the data sequence between the processor and other hardware devices such as system memory through the **control bus**, and can generate and interpret received control signals from these received instructions after having decoded it (using the opcode and operand) into a sequence to determine the instruction needed to be carried out.
-
-This could be, as an example, fetching the address and data requested from RAM, determine that an arithmetic calculation needs to occur, and storing the resulting data back in RAM, or in other registers.
-
-> The Control Unit is the component of the processor which directs the operations of the CPU.
+The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to **process data**, **strong text**which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations, etc.
 
 ### Buses
 
@@ -69,16 +58,38 @@ WIthin the control bus, there are control lines. These are needed to ensure ther
 -  **Clock**: Signals used to synchronise operations between the CPU and other components. *A clock signal keeps the flow of data synchronised.*
 -  **Reset**: The CPU will reboot if active.
   
+#### Word length/size
+Memory is divided into equal units which are called words, typically multiples of 8, such as 64 bits. Each word has a separate memory address.
+
+
 
 #### Data bus
-The data bus transfers data and instructions between components
+The data bus transfers data and instructions between components and is bidirectional. With an increased data bus width, more data can be transferred between components simultaneously or in one single operation.
+
+A system with a 32-bit data bus can transfer 32 bits of data at the same time, or 4 bytes. If 8 bytes of data needs to be fetched from memory, this will take 2 different operations to fetch the data, resulting in increased delays.
+
+For this reason, most systems have a data bus width that is equal to the word length of the CPU.
+
+
 
 #### Address bus
-A system with a _32-bit_ address bus can address _2^32_ (4,294,967,296) memory locations. If each memory location holds one byte, the addressable memory space is 4 GiB.
+The address bus width determines the maximum possible amount of memory addresses or locations that the system can adderss.
+
+A system with a _32-bit_ address bus can address _2^32_ (4,294,967,296) memory locations. If each memory location (word) holds one byte, the addressable memory space is 4 GiB.
 
 
 #### How these buses link to assembly language programs?
 
+
+### Control Unit
+
+The **control unit** (CU) within the CPU is responsible for controlling all operations that occur within the CPU in other subunits and registers of the processor such as the ALU (Arithmetic Logic Unit), and how this data is exchanged to other registers or moved around the system. These operations are dictated typically by the speed of the clock signal (in Hz).
+
+The CU also regulates and controls the data sequence between the processor and other hardware devices such as system memory through the **control bus**, and can generate and interpret received control signals from these received instructions after having decoded it (using the opcode and operand) into a sequence to determine the instruction needed to be carried out.
+
+This could be, as an example, fetching the address and data requested from RAM, determine that an arithmetic calculation needs to occur, and storing the resulting data back in RAM, or in other registers.
+
+> The Control Unit is the component of the processor which directs the operations of the CPU.
 
 ### The ALU
 The Arithmetic Logic Unit performs arithmetic operations on data. It consists of two parts - the **arithmetic unit** - this can include addition, subtraction, multiplication and division. It can also compare arithmetic values and return a binary value if, for example, A is greater than B.
@@ -95,17 +106,27 @@ The ALU can compute integers of the same width as the data bus connecting to it 
 
 
 ### Program Counter (PC)
-Holds the memory address of the next instruction to be fetched by the processor.
+Holds the memory address of the next instruction to be fetched, decoded and executed by the processor.
 
 
 ### Accumulator
-Stores the 'intermediate' results of the data being processed at the current moment in the FDE cycle. The final results get stored in another register such as the Arithmetic Logic Unit, or get moved to main memory.
+Stores the 'intermediate' results of the data being processed at the current moment in the FDE cycle. 
+
+The final results get stored in another register such as the Arithmetic Logic Unit, or get moved to main memory.
 
 ### Memory Address Register
 
+Holds the address of the current memory location that is to be read or written
+
+
 ### Memory Data Register
 
+Stores the intermediate data that is to be written to, or read from, the current address in memory.
+
 ### Current Instruction Register
+
+Stores the current instruction being executed, with both the **opcode** (what instruction is to be executed by the CPU) and **operand** (the memory location of, or the actual data itself, used to execute that instruction)
+
 
 ### The FDE cycle and its impacts on these registers
 
@@ -129,7 +150,11 @@ The user can increase the clock speed of a CPU. This is known as overclocking. W
 >  This was only managed under specialist, liquid nitrogen cooling conditions for a few seconds.
 
 #### Core Count
+A CPU core contains its own control unit, ALU and registers, allowing it to fetch, decode and execute its own instructions from memory and link to other processors on the physical CPU chip.
 
+For systems and software designed for multi-core systems, this enables **parallel processing**. The same program can have two separate instructions being processed concurrently. This also facilitates **multitasking**, with each core being to process different programs' instructions at the same time.
+
+This is not always the case, with some programs being unoptimised for this, or require synchronous processing, when they require the result of one calculation before another, so cannot be worked on at the same time.
 
 
 
@@ -140,7 +165,7 @@ Cache memory is small amounts of fast memory that stores frequently accessed dat
 
 Cache memory operates in a **hierarchy** of levels, with L1 cache being the fastest and closest to the CPU registers, but very small, often only 64KiB in size due to its expensive price.
 
-L1 cache is also split into **instruction** and **data** caches, (L1i/L1d) so that both data and instructions can be fetched simultaneously.
+L1 cache is also split into **instruction** and **data** caches, (L1i/L1d) so that both data and instructions can be fetched simultaneously. This is an example of [Harvard architecture](#harvard-architecture).
 
 Due to this storage limitation, the **least recently used** data or instructions after several FDE cycles are **relegated** the higher-level L2 or L3 caches or copied back into main memory to prioritise newer, more important instructions. 
 
@@ -161,21 +186,84 @@ The next instruction(s) to be fetched can be fetched at the same time as the ALU
 
 
 ### Contemporary Processor Architectures
-von Neumannn architecture is used in the majority of computer systems today. Program instructions and data are stored together in system memory, both using the same data bus to connect to the CPU.
-Benefits of von Neumann architecture include that it is cheaper, and makes more efficient of use of available RAM. This is because if the data store becomes full
 
+There are two main architectures used in modern day computer systems.
 
 #### von Neumann architecture
 
+von Neumannn architecture is used in the majority of computer systems today. Program instructions and data are stored together in system memory, both using the same data bus to connect to the CPU.
+
+This employs the stored program concept - where a program must be loaded into memory to be executed, its instructions are fetched, decoded and executed sequentially, and can only be changed by a [jump/branch instruction](#assembly-language).
+
+
+Benefits of von Neumann architecture include that it is cheaper, and makes more efficient of use of available RAM. This is because if the data store were to become full in Harvard architecture, the data store could not store this. These memory addresses are in von Neumann architecture are unified.
+
+
 
 #### Harvard architecture
-Harvard architecture is mostly used in specialist and some embedded systems. A program's data and instructions are stored separately in memory with a separate data bus connecting it to memory.
+Harvard architecture is mostly used in specialist and some embedded systems. A program's data and instructions are stored separately in memory with a separate data bus connecting it to memory. 
 
+Digital Signal Processors make use of this by having multple data buses running in parallel for reading and writing signals whilst only one instruction bus
+
+This could result in speed and efficiency improvements as the program and data instructions are no longer 'competing' for the same data bus.
+
+> Modern systems include aspects of both von Neumann and Harvard architecture, for example main memory is accessed through von Neumann architecture, but in order to take advantage of speed optimisations available, Harvard architecture is used by the CPU in its cache memory - hence why it has a distinct data and instruction cache.
 
 ## 1.1.2 Types of processor
 
+### CISC CPUs
+Complex Instruction Set Computer. 
+
+This architecture revolves around having a large instruction set which is used to complete tasks in as few lines of assembly language as possible, such as combining the LDA and STA instruction with the calculation instruction such as ADD or SUB. 
+
+For example:
+**MULT A, B**
+would:
+- Fetch data at memory address A and load to accumulator
+- Load data in accumulator into ALU
+- Fetch data at memory address B and load to accumulator
+- Load data at accumulator into ALU
+- ALU compute result of multiplication
+- Move data from the ALU into memory address A
+
+
+### RISC CPUs
+Reduced Instruction Set Computer.
+
+This architecture has a smaller instruction set of simpler instructions. The key is that each instruction requires one clock cycle to complete.
+
+Comparable to the above CISC instruction set, it may be written as:
+
+- LDA R1, A (Loads register (R1) with data at memory location A)
+- LDA R2, B (Loads register (R2) with data at memory location B)
+- MULT R1, R2 (Multiples value in register R1 by value in register R2, outputting to register R1)
+- STA R1, A (Copies contents in R1 to memory address A)  
+
+Comparison:
+|CISC|RISC|
+|--|--|
+|Faster to create program code| Hardware is simpler to build, with fewer, more complex needed for instructions |
+| The compiler has fewer amount of tasks to complete to translate a high-level language into machine code | Pipelining is easier as each instruction takes a known amount of time, being one clock pulse |
+| Reduced RAM usage to store instructions due to smaller code size | RAM is cheap, so this is not a real concern, and program data will likely use more RAM than instructions |
+| Hardware-based optimisation allows more complex instructions to be executed | Relies on optimised software techniques such as compiler optimisations to improve performance |
+| Greater backward compatibility with older software and old applications which may be needed by datacentres | Easier to migrate to newer architectures as less instructions need to be rewritten |
+
+### GPUs
+
+GPUs are co-processors. This means that they provide the CPU with the ability to offload computationally intensive tasks and accelerate certain types of calculations.
+
+They can handle large amounts of visual data at once as they have thousands of small cores for this processing in parallel, making them much more efficient than the CPU for a minority of tasks. 
+
+They were originally designed to render images and graphics. Because they are designed to perform one instruction on many pieces of data in parallel, rather than various instructions on different data like in a CPU, they can be used to perform a variety of other jobs, such as machine learning, cryptocurrency mining, and modelling (e.g weather forecasting). 
+
+### Multi-core and parallel systems
+
+[Talked about earlier](#core-count)
 
 ## 1.1.3 Input, output and storage
+
+
+### Virtual storage
 
 
 # [tbd] 1.2 Software and software development
@@ -296,43 +384,181 @@ While one job is transferring data onto a USB stick or printing, another job can
 |Allows for dynamic adjustment of different job priorities based on their historic behaviour, improving overall efficiency|  Requires careful fine-tuning of its parameters to be fully effective|
 |Over time, this may increase the overall system throughput on the majority of systems the most|Not suitable for all systems like embedded or realtime systems due to its dynamic nature and overheads|
 
-The multi-level feedback queue algorithm is used in the majority of devices, including Windows 10 and 11. The "scheduler" has been a key talking point from Microsoft regarding benefits to 
+The multi-level feedback queue algorithm is used in the majority of devices, including Windows 10 and 11. The "scheduler" has been a key talking point from Microsoft regarding benefits of Windows 11.
+
+### Types of Operating System
+
+#### Distributed operating systems
+The load of the OS is spread out over multiple physical systems or servers, sharing memory, resources and tasks. A job may be split into multiple tasks and each is run on different hardware devices.
+
+#### Multitasking system
+Most operating systems now allow you to run multiple programs at once, such as programming whilst talking to friends in a voice chat, listening to music, and having Stack Overflow up at the same time, whilst many of the core utility and OS programs are in the background.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/TaskManager.png)
+*Here you can see the current applications I have open as well as background processes*
+
+#### Multi-user system
+A single mainframe or supercomputer may connect to hndreds of terminals, all with different users on, and are allocated a time slice of the mainframe's CPU according to a scheduling algorithm, typically Round Robin or MLFQs.
+
+
+#### Realtime OS
+Some safety-critical operating systems must operate in realtime and be able to respond to inputs and sensors as fast as posssible, and compute the results of multiple input devices concurrently. The OS must also have hardware (and even software) redundancy so critical components like the CPU may have duplicates or multiple 'backups' in place so that of one fails, another is automatically switched to
+
+### The BIOS
+Stands for Basic Input Output System. It is stored in (EP)ROM and immediately initialises and tests hardware, then loads the operating system from a secondary storage device into main memory.
+
+
+### Device Drivers
+A driver is a program that provides an interface to a particular hardware device, managed by the OS. This allows the OS to interact with a device and read its data without knowing the specifics of the low-level hardware being used. This driver may be downloaded from the Internet, or the OS may have a library of existing drivers when distributed, and when a new device such as a printer connects, it may check for an update automatically.
+
+### Virtual machine
+
+A virtual machine is any instance when software is used to emulate another machine, such as running another OS inside another (e.g. Linux in Windows), emulating different hardware.
+
+This may also include intermediate code, such as the Java virtual machine. This executes Java bytecode, which is machine independent, and converts it into machine code, which is dependent.
+
 
 ## 1.2.2 Applications Generation
 
+Software can be split up and grouped into different categories.
+
+### Systems Software
+Needed by the system to control hardware and run applications.
+This may include:
+
+- The OS - for resource management, a UI, processor scheduling and interrupt handling
 
 
+### Utility software 
+For the optimisation of the performance of the computer and performing useful tasks, sometimes in the background.
 
+
+- Disk defragmenter for Hard Disk Drive optimises where blocks of data are stored on the platter, by moving it from physically fragmented locations across the platter, to one sector or track sequentially to improve seek and access times
+- Automatic backup for files, especially important for businesses. They can allow users to specify where the backup should be, what should be backed up, how the backup should run (compression, incremental backup, mirror), when the backup should run (on a schedule, at specific times of day)
+- Auto updating - checks servers on a scheduled cadence for new updates to software installed. This might be to add new software features, for antiviruses to update their definitions, or for the OS to patch vulnerabilities
+- Antivirus - scans secondary and even primary storage for known virus definitions (requires regular updates), or use heuristic analysis to detect suspicious behaviour. They can run on a schedule, when files are read or modified, or when installed.
+- Compression software can reduce file size for transfer or to save on disk space.
+
+### Applications software
+Generak purpose, special purpose or custom written (bespoke) software.
+
+Ready made software is known as off the shelf software, and may include general-purpose software such as word processors or a graphics editing package. They are less expensive or free, well documented and tested.
+
+Special-purpose software typically performs a single task or set of tasks. This may also be off the shelf for things like browsers, or be more 'niche' such as electronic exam marking applicaions or fingerprint scanning systems, or DBMS.
+
+A bespoke software package may be bought by organisations for their specific needs like an inventory management system for a retailer. They are much more expensive and as they are tested less, could contain errors which are not known about initially.
+
+### Open source vs proprietary
+
+Open source software has no charge for the license, and anyone can access its source code on sites such as GitHub. Depending on the license, developers may be able to modify and sell the software providing that the new software is also open source.
+> Freeware is free to use, but the source code is not available and have restrictions on use, e.g. businesses must pay for use but individuals don't.
+
+Closed source software or proprietary software does not allow access to the source code. There may be a limit on how many users are allowed to use it per copy of the software sold, according to its license, or be only allowed to be used on one specific site or company. Users must pay the person or company who wrote the software, and therefore own the copyright for it, to use it.
 
 
 ## 1.2.3 Software Development
 
+### Assemblers
+Assemblers translate assembly code instructions into machine  code, or object code. Each assembly instruction is 1:1 equivalent to one machine code instruction, which is dependent on the instruction set and the underlying type of processor and its architecture (hardware specific). Basic lexical analysis such as comment removal occurs here too.
 
 
+### Compilers
+
+Similarly to assemblers, compilers translate the source code into machine code. After various analyses take place on this source code (see below) compilers produce object code, which is machine dependent. This code can then be run without having to be compiled again. EXE files are an example of compiled code. 
+
+### Interpreters
+
+Interpreters are more designed for development, with it going through source code line-by-line, and only translating it into machine code if there are no syntax erros. This compares to compilers, which will translate the entire source code before it is ececuted.
+
+JavaScript for example is interpreted. This in the long run speeds up (the website) as it doesn't need to be compiled to various different devices' machine code requirements, and each device can interpret the source JavaScript in the way that works for that processor. It also reduces network traffic as binary files may be much larger than compact source code equivalents.
+
+
+- Compiled code executes faster than interpreted code as it is directly executed by the processor
+- Compilers can apply optimisations during compilation for the program to execute more efficiently
+- Once compiled, the code can then be distributed and executed on different devices providing they have the same processor instruction set, e.g exe files on windows x86 processors.
+
+--
+- Interpeters allow for better debugging capabilities and errors are detected at runtime for quick fixing
+- Faster development cycles as recompilation which can take a long time is not needed
+
+### Bytecode
+
+Most languages now use a combination of both compilation and interpreting. 
+
+Java is compiled into bytecode, which is an intermediate step between source code and machine code. The Java virtual machine interprets the bytecode, allowing for platform independence, as long as the JVM is installed. The JVM will be able to 'customise' the machine code produced to the specific processor.
+
+
+Source -> Compiler -> Bytecode -> Bytecode interpreter -> Object code
+
+### Stages of compilation
+
+#### Lexical analysis
+Removes unnecessary spaces and comments
+Keywords, constants and identifiers are replaced with tokens that represent their function within the program (tokenisation)
+
+#### The symbol table
+The lexer builds up a symbol table for every token in the program, which keeps track of the runtime memory address and value for each identifier. The table may include
+- Canonical item name (e.g `userCoinsAmount`, `=`)
+- Kind of item (e.g. `variable`, `operator`)
+- Type of item (`float`)
+- Value (`48.3061`)
+
+#### Syntax analysis
+After the lexing stage, the tokens are now split up into phrases (e.g. a line of code), which is then parsed. During parsing, the language's rules are applied to each phrase to determine if it is valid. An error will be thrown if the phrase violates the language rules (e.g. `print("hello, world)`)
+
+> this is similar to a natural language!
+
+#### Semantic analysis
+
+A set of tokens may be valid syntaxically but not valid programatically. Semantic analysis checks for this error. This typically occurs at the same time as syntax analysis. Errors in this stage may be trying to assign an integer value to a real (floating point) variable in a statically typed language. 
+
+#### Code generation and optimisation
+
+Programmers are lazy so often source code is inefficient. Code optimisation removes redundant instructions and replace inefficient code with code that achieves the same result. For example
+
+```py
+i = 0
+for count = 0 to 10000
+	x = 0
+	i = i + 5
+endfor
+print(x)
+print(i)
+```
+
+Over several passes, code oprimisation techniques may remove the for loop and just set `x` to 0 so it doesn't get redefined 10,000 times. More severe optimisations may calculate that `i` will be 50000 every time, so just change the value of y to 50000.
+
+### Linkers and loaders
+
+The linker must assign memory addresses to external calls  from separate libraries or functions so that the modules are linked correctly.
+
+The loader must copy the program and any linked libraries into main memory to be executed. The loader will also correctly assign memory addresses, as the program expects that it is in memory address 0.
+
+Libraries, pre-compiled code modules, have benefits such as being tested, optimised and save time as code does not have to be rewritten. It can also save on memory use as many programs using a library to set all characters to uppercase only has to be loaded once into memory, and just linked by the linker.
 
 
 ## 1.2.4 Types of Programming Language
 
 
-### Assembly language + Little man Computer
+### Assembly language
 
-The LMC instruction set is a simplification of assembly language which has many of the same principals of the lower-level language.
+The Little Man Computer or LMC instruction set is a simplification of assembly language which has many of the same principals of the lower-level language.
 
 Here is the assembly code which you need to know:
 
 |Mnemonic|Instruction|Explanation|
-|--|--|--|
-|`ADD`|Add|Adds the value stored in paricular memory address to accumulator
-|`SUB`|Subtract|
-|`STA`|Store|
-|`LDA`|Load (***D**ata **A**ddress*)|
-|`BRA`|Branch, **a**lways|
-|`BRZ`|Branch, if **z**ero|
-|`BRP`|Branch,, if **p**ositive|
-|`INP`|Input|
-|`OUT`|Output|outputs value of the accululator
-|`HLT`|End program (*HALT*)
-|`DAT`|Data location|
+|--|--|---|
+|`ADD`|**Ad**d|Adds the value from a specific memory address to the accumulator|
+|`SUB`|**Sub**tract|Subtract value from a specific memory address from the accumulator.|
+|`STA`|**St**ore|Stores the value of the accumulator to a specific memory address|
+|`LDA`|Load (***D**ata **A**ddress*)|Loads, into the accumulator, the data at a specific data address|
+|`BRA`|**Br**anch, **a**lways|Unconditionally branch or jump to a specific instruction|
+|`BRZ`|**Br**anch, if **z**ero|Branch or jump to a specific instruction if previous operation resulted in zero|
+|`BRP`|**Br**anch, if **p**ositive|Branch or jump to a specific instruction if the previous instruction resulted in a postitive value|
+|`INP`|**Inp**ut|Takes an input from an external source and loads to the accumulator|
+|`OUT`|**Ou**tput|Outputs value of the accumulator|
+|`HLT`|End program (*HALT*)|Halt or stop execution of program|
+|`DAT`|**Dat**a location|Defines memory location and its value|
 
 This can be used in any way to perform operations like adding adddresses in memory, squaring numbers, etc. You'll need to be familiar with this and be able to spot errors and rewrite the instruction list when needed.
 
@@ -348,7 +574,7 @@ This can be used in any way to perform operations like adding adddresses in memo
 #### Attributes
 #### Inheritance
 
-![Hard faults](https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpeg)
+![Inheritance joke](https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpg)
 
 
 #### Encapsulation
@@ -479,7 +705,7 @@ Plaintext -> cipher -> ciphertext -> key -> plaintext.
 
 The Caesar cipher shifts letters of the alphabet by a fixed amount. It is a substitution cipher.
 
-However, it is easily decrypted (or "cracked") by using little or no computing power. This can be done through a brute force attack, which uses every possible key to decrypt ciphertext until one works. To combat this, spaces are used to hide word lengths. As there are only 26 characters in the alphabet, this is easily brute forced.
+However, it is easily decrypted (or "cracked") by using little or no computing power. This can be done through a brute force attack, which uses every possible key to decrypt ciphertext until one works. To combat this, spaces are used to hide lengths of individual words. As there are only 26 characters in the alphabet, this is easily brute forced.
 
 ### Vernam cipher/one-time pad
 This was invented in 1917 and is the only encryption method still proven to be unbreakable. 
@@ -585,14 +811,245 @@ If you are designing a system for a company that sells subscriptions for online 
 
 There would need to be a few entities in this scenario, all linked together
 - Customer
+- Customer Name
+- Customer Surname
 - Revision product
-- Subscription amount
+- Subscription
 - Order number
 - Subject
 - Tier of revision guide
 - more?
 
-The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being [underlined](#).
+The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being [underlined](). It is automatically indexed.
+> Two or more attributes that are needed to uniquely identify a record are composite primary keys.
+
+User ([customerID](), [orderNumber](), custName, custSurname, productID, subject, tier)
+
+Searches may also need to be made on other attributes of entities. In the table above, `subject`, `tier`, `productID`, `custName` and `custSurname` can be definded as the secondary key. These would then be indexed if specified by the user.
+
+### Entity relationship modelling
+
+An entity relationship diagram is a way of representing the relationships between entities within a database. These can be:
+
+- One-to-one: husband to wife, country and prime minister. There is only one possiblility of a relationship between either entity
+- One-to-many: mother and child, customer and order, country and residents. One of these entities has many relationships between related entities
+- Many-to-many: actor and film, pupil and schools. Many of these entities have relationships between many other entities.
+
+
+Individual E-R diagrams may be joined up, to effectively say for the example above:
+
+Customer -> one-to-many -> Subscription -> many-to-one -> Product.
+
+### Foreign and Composite Keys
+Each entity must have a primary key as an attribute. In a relational database, to create a relationship between two entities in a one-to-many relationship, we need to include an attribute about the first entity (we'll say **Customer**) in the table of the second entity (we'll say **Subscription**). This second entity table must uniquely refer to the first entity, so we will include **Customer**'s primary key in **Subscription**'s table. This is known as the foreign key for **Subscription**. 
+
+> Customer in this table can be thought of as a class - it inherits attributes about it from a blueprint. However it needs to be unique, so primary key CustID will need to be assigned to it. This is the same for SubscriptionID - but SubscriptionID is not needed in the attributes of the Customer, as the database may be searched for CustomerIDs in the Subscription table. 
+
+
+### Referential Integrity
+
+Referential integrity states that an attribute referenced as a foreign key on one table cannot be deleted, and therefore cannot reference something that doesn't exist. For example adding `customerID 193` in table Subscription should not be possible if there is no customerID 193.
+
+### Normalisation
+In a relational database, data is held in tables, or **relations**. Each row in the table holds a specific, unique record, with each column representing an attribute. 
+
+|CustomerID|SubscriptionID|productID|Tier|custName
+|--|--|--|--|--|
+| 12 | 120.gcseCompSci | 235 |1|Joe
+| 34 | 111.gcseGeog | 243 |1|Sam
+| 54 | 120.gcseCompSci | 235 |1|Oliver
+
+Normalisation is a process used to create the most efficient design possible for a database. The structure should be one so that complex queries from different relations can be made, with no unnecessary duplication and high consistency.
+
+#### First normal form
+A table is in 1NF if it has **no repeating attributes, or groups of attributes.**
+
+All attributes must be atomic, so one atribute must only contain data about one thing, not two items of data such as firstname *and* surname - this would make the relation unable to be queried by surname or firstname alone.
+
+#### Second normal form
+
+A table is in 2NF if it:
+
+- Is already in 1NF
+- Has no partial dependenies, which is only so if the primary key is also a composite key. 
+
+This means that if any non-key column is **only dependent on one primary key but not them all** (hence why it is only applicable to composite keys) it exhibits a partial key dependence.
+
+For example, a table may have a composite primary key of **OrderID** *and* **ProductID**, but a non-key column "OrderDate" depends only on **OrderID** *and not* **ProductID**, it is partially dependent.
+
+#### Third normal form
+
+A table is in 3NF if it:
+
+- Is already in 2NF
+- Has no transitive, or non-key dependencies.
+
+> All attributes are dependent on the key, the whole key, and nothing but the key.
+
+This means that if non-key columns are dependent on something other than the primary key (e.g. are foreign keys that relate to the primary key of another entity) they have to go. If a table is such that:
+
+ Component ([ComponentID](#), ComponentName, *SupplierID*)
+
+it can be seen that SupplierID is a foreign key and does not depend on the ComponentID of the Component entity, rather a different entity. It will then be moved to a separate table, with all dependent columns moving to this new table. 
+
+#### Importance
+
+- Easier to maintain
+- Easier to query
+- No data redundancy
+- Data integrity is maintained
+- Faster sorting and searching
+- No accidental deltion of records
+
+### SQL
+
+
+#### Basic Select
+```
+SELECT Fields
+FROM TableName
+WHERE (value CONDITION value) 
+ORDER BY Field ASC
+```
+
+#### Conditions
+| Condition        | Description                                  |
+|------------------|----------------------------------------------|
+| =                | Equal to                                     |
+| >                | Greater than                                 |
+| <                | Less than                                    |
+|IN			    	|In a set of values
+| LIKE             | Pattern matching                             |
+| BETWEEN... AND...| Between a range of values (inclusive)         |
+| IS NULL          | Checks if a value is NULL                     |
+| AND              | Logical AND operator                          |
+| OR               | Logical OR operator                           |
+| NOT              | Logical NOT operator                          |
+
+#### Detailed Select
+You can extract data from specific and multiple tables using `.`. For example
+
+```sql
+SELECT Song.SongTitle, Song.ArtistSurname, Artist.ArtistSurname
+FROM Song, Artist
+WHERE (Song.SongTitle LIKE "R%") AND (Song.ArtistSurname = Artist.ArtistSurname)
+```
+
+#### Defining a database table
+
+To create a table, the `CREATE TABLE` keyword
+
+```sql
+CREATE TABLE Film
+(
+	FilmID			INTEGER NOT NULL, PRIMARY KEY,
+	Description		VARCHAR(20) NOT NULL,
+	ReleaseDate		DATE,
+	LastShownTime	TIME,
+	IsShowing		BOOLEAN NOT NULL,
+	ShowingCount	INTEGER
+)
+```
+#### Altering a table
+
+To alter a table, we just use ALTER TABLE. This is used to add, delete or modify fields or columns.
+
+```sql
+ALTER TABLE Film
+ADD Cost FLOAT(3,2)
+ADD Name VARCHAR(20) NOT NULL
+DROP COLUMN ReleaseDate
+MODIFY COLUMN Description VARCHAR(35) NOT NULL
+```
+
+#### Linking tables
+
+Of course, we need to link several tables! This is done by foreign keys
+
+```sql
+CREATE TABLE NewFilm
+(
+	FilmID			INTEGER NOT NULL,
+	Name			VARCHAR(20) NOT NULL,
+	ShowingID		INTEGER,
+	Description		VARCHAR(35) NOT NULL,
+	ReleaseDate		DATE,
+	FOREIGN KEY		ShowingID REFERENCES ShownFilms(FilmID)
+	FOREIGN KEY		FilmID REFERENCES Films(FilmID)
+	PRIMARY KEY		(FilmID, ShowingID)
+)
+```
+Phew, that looks complicated...
+
+
+#### Inserting values
+We use `INSERT INTO`, followed by the VALUES that we want
+
+```sql
+INSERT INTO NewFilm(FilmID, Name, ReleaseDate)
+VALUES ("1223", "Spider-Man, Across the Spider-Verse", #02/06/2023#)
+```
+
+#### Updating 
+Simple! Just UPDATE the table, SET the values WHERE a condition is met.
+
+```sql
+UPDATE Film
+SET Showing = Showing + 1
+WHERE FilmID = "1337"
+```
+
+
+#### Deleting 
+Just DELETE FROM a table WHERE a value is met
+
+```sql
+DELETE FROM NewFilm
+WHERE ReleaseDate = "02/06/2023"
+```
+
+### Transaction Processing
+
+
+### ACID
+
+#### Atomicity
+A transaction must be processed in its entirety or not at all. It is not possible to process only part of a transaction no matter how catastrophic the failure is.
+
+#### Consistency
+
+No transaction can violoate the defined validation rules. Referential integrity will always be upheld
+
+#### Isolation
+The concurrent execution and processing of transactions must be the same as if these transactions were processed sequentially.
+
+#### Durability
+A transaction will always remain committed once a it has been made.
+
+This is undertaken by having a buffer, either in the disk or in memory, which receives the temporary modifications. Once all of the transactions have been made, only then will it be committed and written to the disk.
+
+
+### problems with multi-user databases
+
+If user A wants to chnage user X address, this is fine. If two minutes later, user B changes user X's balance and saves the record, this is fine. However when user A saves the new record with just the updated address, user B's changes are lost. To prevent this, we can use:
+
+#### Record locking
+To uphold ACID, if two users are editing a database and want to edit each other's attributes, they may lock each other's records and result in deadlock. The DBMS will recognise this and try and use one of the below things to fix it:
+
+#### Serialisation
+States that transactions cannot start until the previous one has ended. This can be done by:
+
+#### Timestamp ordering
+Assigns every object in the database a read and write timestamp, so it can be worked out which transaction took place first and be applied first. Two users editing the same file at the same time could be asked to merge changes when they have finished by the other user, reducing the rick of problems
+
+#### Committment ordering
+Transactions are ordered depending on how much they rely on each other, as well as time they were initiated. These subsequent modification requests can then be blocked until the initial transaction is committed.
+
+
+#### Redundancy
+There may be multiple systems available in different physical locations which can be switched to if there is an error in one DBMS. This is crucial in busy businesses or where there is a lot of information that is of high importance being transferred and updated simultaneously.
+
+
 
 
 ## 1.3.3 Networks
@@ -777,7 +1234,7 @@ Finally, sockets, or TCP endpoints, are also assigned on this layer. These are m
 **Bonus Points for A***
 TCP ensures that no data is received erroneously or is lost during transport, so packets can be retransmitted and all must me acknowledged by the receiving device. This security adds delays and additional processing overhead. UDP does not add any of these error checks, but is more suited towards realtime applications such as Discord Voice Chats, whereas text chat it uses TCP.
 
-For this reason, UDP is deemed as the unreliable protocol and  it is "send and forget", with packets arriving out of order or not at all. TCP is a sequential stream but is slower due to ACK packets (acknowledgement) and can cause packets to queue and ping spikes. TCP is susceptible to ping spikes, and UDP is susceptible to packet loss (hence why in online games you get packet loss and ping spikes - they use *both* depending on what's being requested!)
+For this reason, UDP is deemed as the unreliable protocol as it is "send and forget", with packets arriving out of order or not at all. TCP is a sequential stream but is slower due to ACK packets (acknowledgement) and can cause packets to queue and ping spikes. TCP is susceptible to ping spikes, and UDP is susceptible to packet loss (hence why in online games you get packet loss and ping spikes - they use *both* depending on what's being requested!)
 
 #### Internet/Network layer
 
@@ -787,8 +1244,6 @@ It's worth noting that the IP has no guarantee of correct transmission, and it i
 
 
 #### Link/Data Link/Network Interface layer
-
-  
 
 Each layer has its own specific tasks in transmitting data over a network.
 
@@ -809,14 +1264,14 @@ How to add an external stylesheet:
 
 
 ```html
-<link  href= “nameofstylesheet.css”  rel= “stylesheet”  type=“text/css”>
+<link href= “nameofstylesheet.css” rel= “stylesheet” type=“text/css”>
 ```
 
 Changing the attributes of an HTML element:
 
 ```js
 chosenElement = document.getElementById(“example”); // Gets element with id "example" from the DOM
-chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML content
+chosenElement.innerHTML = “Hello, World!”; // Changing the displayed HTML content
 ```
 
   
@@ -826,6 +1281,15 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
   
 # [tbd] 1.5 Legal, moral, cultural and ethical issues
 
+
+The Data Protection Act 2018: controls the way data about living people is stored and processed 
+It is a national law which complements the European Union's General Data Protection Regulation (GDPR)
+
+The Computer Misuse Act 1990 makes it an offence to access or modify computer material without permission
+
+The Copyright, Designs and Patents Act 1988 covers the copying or use of other people’s work
+
+The Regulation of Investigatory Powers Act 2000 regulates surveillance and investigation, and covers the interception of communications
 
 
 # Paper 2
@@ -852,7 +1316,7 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 
 [1] Andy aka (https://electronics.stackexchange.com/users/20218/andy-aka), Difference between a bus and a wire, URL (version: 2014-01-11): https://electronics.stackexchange.com/q/96149
 
-[2] _Teach-ICT A Level Computing - ALU_. [online] Available at: https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU) [Accessed 22 May 2023].
+[2] _Teach-ICT A Level Computing - ALU_. [online] [Available here](https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU)) [Accessed 22 May 2023].
 
 [3] Yes I know it should be GPUs for parallel processing but you can still do it on your CPU if you really want to
 

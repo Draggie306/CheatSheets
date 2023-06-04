@@ -6,7 +6,7 @@
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last update: 01/06/2023 18:47](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last update: 03/06/2023 22:36](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
@@ -79,7 +79,6 @@ A system with a _32-bit_ address bus can address _2^32_ (4,294,967,296) memory l
 
 #### How these buses link to assembly language programs?
 
-  
 
 ### The ALU
 The Arithmetic Logic Unit performs arithmetic operations on data. It consists of two parts - the **arithmetic unit** - this can include addition, subtraction, multiplication and division. It can also compare arithmetic values and return a binary value if, for example, A is greater than B.
@@ -98,7 +97,6 @@ The ALU can compute integers of the same width as the data bus connecting to it 
 ### Program Counter (PC)
 Holds the memory address of the next instruction to be fetched by the processor.
 
-  
 
 ### Accumulator
 Stores the 'intermediate' results of the data being processed at the current moment in the FDE cycle. The final results get stored in another register such as the Arithmetic Logic Unit, or get moved to main memory.
@@ -151,7 +149,6 @@ L3 cache is much larger, perhaps up to 96MiB, but the tradeoff is slower access 
 > CPU registers themselves could be considered as 'L0' cache - this is more of an analogy than fact, but registers are still much faster than even L1 cache.
 
 
-
 ### Pipelining
 Pipelining is a technique used by most modern processors so increase the overall performance of the processor. 
 
@@ -161,7 +158,6 @@ The next instruction(s) to be fetched can be fetched at the same time as the ALU
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Pipelining-Instructions.jpg)
 *A more detailed diagram of how instructions can be pipelined. These stages are **I**nstruction **F**etch, **I**nstruction **D**ecode, **O**perand **F**etch, **I**nstruction **E**xecution, and **O**perand **S**tore, but you don't need to know them. In a non-pipelined system, Instruction 2 would be fetched at point t5 and take until t9 to complete.* [Source](https://binaryterms.com/pipelining-in-computer-architecture.html)
-
 
 
 ### Contemporary Processor Architectures
@@ -176,16 +172,11 @@ Benefits of von Neumann architecture include that it is cheaper, and makes more 
 Harvard architecture is mostly used in specialist and some embedded systems. A program's data and instructions are stored separately in memory with a separate data bus connecting it to memory.
 
 
-
-
 ## 1.1.2 Types of processor
 
-  
 
 ## 1.1.3 Input, output and storage
 
-  
-  
 
 # [tbd] 1.2 Software and software development
 
@@ -345,19 +336,25 @@ Here is the assembly code which you need to know:
 
 This can be used in any way to perform operations like adding adddresses in memory, squaring numbers, etc. You'll need to be familiar with this and be able to spot errors and rewrite the instruction list when needed.
 
-#### Modes of addressing memory
+### Modes of addressing memory
 
 
-#### OO languages
+### OO languages
 
 
-- Classes
-- Objects
-- Methods
-- Attributes
-- Inheritance
-- Encapsulation
-- Polymorphism
+#### Classes
+#### Objects
+#### Methods
+#### Attributes
+#### Inheritance
+
+![Hard faults](https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpeg)
+
+
+#### Encapsulation
+#### Polymorphism
+
+
 
 
 # [tbd] 1.3 Exchanging data
@@ -699,16 +696,14 @@ However, network interference from other devices within range which are also usi
 ### Mesh networks
 Mesh networks are becoming more common with the widespread use of wireless technology. Each node in a mesh network has a connection to every other node, by transmitting data across any intermediate nodes, and only one node needs an Internet connection and all other nodes can share this, creating a redundant and flexible network architecture. These networks can become big enough to cover entire cities.
 
-**Advantages:**
-- No cabling costs: Mesh networks can be wireless, eliminating the need for costly cabling and making it easier to set up and scale the network.
-- Faster communication: Since data packets do not need to travel via a central switch, communication can be faster and more efficient, especially in larger networks where traffic can become congested.
-- Self-healing: The more nodes that are installed, the faster and more reliable the network becomes, since one blocked connection can easily be circumvented by another route. In this respect, the mesh can be described as ‘self-healing’.
-- Easy expansion: New nodes are automatically incorporated into the network, making it easier to add new devices and scale the network.
 
-**Disadvantages:**
-- Higher implementation cost: Building and maintaining a mesh network can be difficult and time-consuming, making it less desirable for smaller networks or businesses with limited resources.
-- Redundant connections: The chance of redundant connections is high, adding to costs and complexity. Careful planning and management is needed to avoid unnecessary connections and reduce costs.
-- Limited range: Mesh networks are typically limited to a certain range, depending on the strength of the wireless signal. This means that additional nodes or access points may be required to extend coverage, which can increase the cost and complexity of the network.
+
+|Advantages|Disadvantages|
+|--|--|
+|No cabling costs: mesh networks can be wireless|Higher implementation and maintenance costs, especially for smaller businesses with limited resources|
+|Network scaling and setup can be easier without added cabling allowing for easy expansion, as new nodes are automatically added to the network|Redundant connections can add to costs and complexity of the network, requiring increased planning and network management|
+|No central switch, resulting in faster communication and less chance of traffic congestion through direct routing|Limited range, especially with wireless signals, or expensive cables. More nodes and APs will be required to extend coverage, increasing costs|
+|Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just use other routes)|  |
 
   
 ### Packets, Packet Switching and Routers
@@ -735,7 +730,11 @@ The packet header contains the IP addresses of the recipient and the sender, so 
 
 > This is all dictated by the Transmission Control Protocol (TCP).
 
-> On the other hand, **circuit switching** is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session.
+### Circuit switching
+
+On the other hand, **circuit switching** is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session, even when no data is being transmitted.
+
+This doesn't really work for the billions of devices that are connected. The complete circuit can't be shared by other devices, so how would this work when downloading a 10gb file? You'd have to wait for the entire download to finish to start doing something else. This makes circuit switching only really useful for realtime scenarios like phone calls when a consistent and uninterrupted connection is required. (But, if one point in the circuit fails, the entire phone call will as data cannot be rerouted, unlike packet switching)
 
 > In summary, **packet switching** divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible than circuit switching, and is thus more widely used.
 
@@ -749,20 +748,45 @@ Protocols and standards establish guidelines and rules for communication between
 
 ### [tbd] The TCP/IP Protocol Stack
 
-The TCP/IP protocol stack consists of four main layers.
+The TCP/IP protocol stack consists of four main layers. From the top of the stack to the bottom, they are:
 
 #### Application layer
 
-- The application layer is based at the top of the stack. It specifies what protocol needs to be used in order to relate the application that’s being sent.
+ It specifies what high-level **protocol** needs to be used in order for applications to communicate with each other over a network.
 
-- For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP
+- For example, if the application is a browser then it would select a protocol such as HTTP
+- Email clients would use SMTP and POP3/IMAP
+- File transfer programs may use FTP.
 
+This specifies the rules of what should be sent, rather than the actual data/payload.
 
 #### Transport layer
 
-#### Internet layer
+The transport layer uses the **Transmission Control Protocol** (TCP) as well as the **User Datagram Protocol** (UDP) to establish an end-to-end connection to the recipient. 
 
-#### Data Link/Network Interface layer
+Application data from the above application layer often has large filesizes, such as uploading a 10GB video file, and thus must be split into segments, or TCP packets, and then numbers these sequentially. 
+
+The port number (a 16 bit number) is also added in this layer. Servers listen on specific well-known port numbers like 443 for HTTPS for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.
+
+> If there are 65,535 TCP connections or more at a time all accessing some data, new connections cannot be established as this is the 16-bit limit for the transport layer!
+
+Finally, sockets, or TCP endpoints, are also assigned on this layer. These are made up of the IP address and the port number, such as 83.231.132.94:25565. These sockets are either the source or the destination, for example, accessing ibaguette.com will make the accessor (client) the source, and the server's port 443 will be the destination, and send the data to the client. The destination and source ports on the server and client will then swap.
+
+> Sockets can be combined with DNS to go to a specific port on a website. For example, mc.ibaguette.com:8123 could initiate a HTTP connection to a server with a specific port of 8123 rather than the default HTTP port of 80.
+
+**Bonus Points for A***
+TCP ensures that no data is received erroneously or is lost during transport, so packets can be retransmitted and all must me acknowledged by the receiving device. This security adds delays and additional processing overhead. UDP does not add any of these error checks, but is more suited towards realtime applications such as Discord Voice Chats, whereas text chat it uses TCP.
+
+For this reason, UDP is deemed as the unreliable protocol and  it is "send and forget", with packets arriving out of order or not at all. TCP is a sequential stream but is slower due to ACK packets (acknowledgement) and can cause packets to queue and ping spikes. TCP is susceptible to ping spikes, and UDP is susceptible to packet loss (hence why in online games you get packet loss and ping spikes - they use *both* depending on what's being requested!)
+
+#### Internet/Network layer
+
+Uses the Internet Protocol to address packets with a destination and source IP address in each packet's header. Other data fields in the header may include the Time To Live (TTL) or maximum packet hops, and the header checksum.
+
+It's worth noting that the IP has no guarantee of correct transmission, and it is up to TCP in the transport layer to do this.
+
+
+#### Link/Data Link/Network Interface layer
 
   
 
@@ -801,6 +825,27 @@ chosenElement.innerHTML = “Hello  World”; // Changing the displayed HTML con
 
   
 # [tbd] 1.5 Legal, moral, cultural and ethical issues
+
+
+
+# Paper 2
+
+# 2.1 Elements of computational thinking
+
+## 2.1.1 Thinking abstractly
+
+## 2.1.2 Thinking ahead
+
+## 2.1.3 Thinking procedurally
+
+
+## 2.1.4 Thinking logically
+
+## 2.1.5 Thinking concurrently
+
+# 2.2 Problem solving and programming
+
+
 
 
 # Credits + Footnotes

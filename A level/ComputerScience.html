@@ -91,10 +91,17 @@
 <li><a href="#software-development">1.2.3 Software Development</a></li>
 <li><a href="#types-of-programming-language">1.2.4 Types of Programming Language</a>
 <ul>
-<li><a href="#assembly-language--little-man-computer">Assembly language + Little man Computer</a>
-<ul>
+<li><a href="#assembly-language--little-man-computer">Assembly language + Little man Computer</a></li>
 <li><a href="#modes-of-addressing-memory">Modes of addressing memory</a></li>
-<li><a href="#oo-languages">OO languages</a></li>
+<li><a href="#oo-languages">OO languages</a>
+<ul>
+<li><a href="#classes">Classes</a></li>
+<li><a href="#objects">Objects</a></li>
+<li><a href="#methods">Methods</a></li>
+<li><a href="#attributes">Attributes</a></li>
+<li><a href="#inheritance">Inheritance</a></li>
+<li><a href="#encapsulation">Encapsulation</a></li>
+<li><a href="#polymorphism">Polymorphism</a></li>
 </ul>
 </li>
 </ul>
@@ -135,13 +142,14 @@
 <li><a href="#logical-network-topologies">Logical network topologies</a></li>
 <li><a href="#mesh-networks">Mesh networks</a></li>
 <li><a href="#packets-packet-switching-and-routers">Packets, Packet Switching and Routers</a></li>
+<li><a href="#circuit-switching">Circuit switching</a></li>
 <li><a href="#protocols-and-standards">Protocols and Standards</a></li>
 <li><a href="#tbd-the-tcpip-protocol-stack">[tbd] The TCP/IP Protocol Stack</a>
 <ul>
 <li><a href="#application-layer">Application layer</a></li>
 <li><a href="#transport-layer">Transport layer</a></li>
-<li><a href="#internet-layer">Internet layer</a></li>
-<li><a href="#data-linknetwork-interface-layer">Data Link/Network Interface layer</a></li>
+<li><a href="#internetnetwork-layer">Internet/Network layer</a></li>
+<li><a href="#linkdata-linknetwork-interface-layer">Link/Data Link/Network Interface layer</a></li>
 </ul>
 </li>
 <li><a href="#transferring-files-using-ftp">Transferring Files using FTP</a></li>
@@ -153,6 +161,17 @@
 </li>
 <li><a href="#tbd-1.4-data-types-data-structures-and-algorithms">[tbd] 1.4 Data types, data structures and algorithms</a></li>
 <li><a href="#tbd-1.5-legal-moral-cultural-and-ethical-issues">[tbd] 1.5 Legal, moral, cultural and ethical issues</a></li>
+<li><a href="#paper-2">Paper 2</a></li>
+<li><a href="#elements-of-computational-thinking">2.1 Elements of computational thinking</a>
+<ul>
+<li><a href="#thinking-abstractly">2.1.1 Thinking abstractly</a></li>
+<li><a href="#thinking-ahead">2.1.2 Thinking ahead</a></li>
+<li><a href="#thinking-procedurally">2.1.3 Thinking procedurally</a></li>
+<li><a href="#thinking-logically">2.1.4 Thinking logically</a></li>
+<li><a href="#thinking-concurrently">2.1.5 Thinking concurrently</a></li>
+</ul>
+</li>
+<li><a href="#problem-solving-and-programming">2.2 Problem solving and programming</a></li>
 <li><a href="#credits--footnotes">Credits + Footnotes</a></li>
 </ul>
 
@@ -163,7 +182,7 @@
       <p><a href="https://ibaguette.com/cheatsheets/alevel">&lt; Back to A level Cheat Sheets</a></p>
 <h1 id="ah-yes-more-computer-science">Ah yes more computer science!</h1>
 <p><strong>This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠</strong></p>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 01/06/2023 18:47</a></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 03/06/2023 22:36</a></p>
 <p>✅ Note: This file is synced with <a href="https://github.com/Draggie306/CheatSheets">this repository</a>. You’ll always be on the latest version.</p>
 <p>Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.</p>
 <blockquote>
@@ -519,17 +538,16 @@ While one job is transferring data onto a USB stick or printing, another job can
 </tr>
 </tbody>
 </table><p>This can be used in any way to perform operations like adding adddresses in memory, squaring numbers, etc. You’ll need to be familiar with this and be able to spot errors and rewrite the instruction list when needed.</p>
-<h4 id="modes-of-addressing-memory">Modes of addressing memory</h4>
-<h4 id="oo-languages">OO languages</h4>
-<ul>
-<li>Classes</li>
-<li>Objects</li>
-<li>Methods</li>
-<li>Attributes</li>
-<li>Inheritance</li>
-<li>Encapsulation</li>
-<li>Polymorphism</li>
-</ul>
+<h3 id="modes-of-addressing-memory">Modes of addressing memory</h3>
+<h3 id="oo-languages">OO languages</h3>
+<h4 id="classes">Classes</h4>
+<h4 id="objects">Objects</h4>
+<h4 id="methods">Methods</h4>
+<h4 id="attributes">Attributes</h4>
+<h4 id="inheritance">Inheritance</h4>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpeg" alt="Hard faults"></p>
+<h4 id="encapsulation">Encapsulation</h4>
+<h4 id="polymorphism">Polymorphism</h4>
 <h1 id="tbd-1.3-exchanging-data">[tbd] 1.3 Exchanging data</h1>
 <p>Data and all sorts of information is constantly being moved, updates and transferred within a computer system or between (several) networks. Although nowadays data transfer and storage is extremely high-speed and accurate.</p>
 <p>Large web hosting platforms like Google Cloud and AWS offer “five nines” uptime, 99.999%, meaning that every year, their services can only be down for a maximum of 5 minutes and 13 seconds. Some services have even higher uptimes, like six nines (reminds me of my GCSE results) or even eight nines - that’s <em>310 milliseconds</em> of downtime per <em>year.</em></p>
@@ -883,20 +901,33 @@ The Internet is a public interconnection of computer networks which allows data 
 <p>However, network interference from other devices within range which are also using the same frequency is problematic, as seen in areas like football stadiums. To minimise this, admins can use <strong>channel bonding</strong> to pool multiple channels into a wider band, thereby increasing available bandwidth, and using Quality of Service (QoS) which prioritises different types of network traffic based on their importance, such as VoIP calls which require low latency.</p>
 <h3 id="mesh-networks">Mesh networks</h3>
 <p>Mesh networks are becoming more common with the widespread use of wireless technology. Each node in a mesh network has a connection to every other node, by transmitting data across any intermediate nodes, and only one node needs an Internet connection and all other nodes can share this, creating a redundant and flexible network architecture. These networks can become big enough to cover entire cities.</p>
-<p><strong>Advantages:</strong></p>
-<ul>
-<li>No cabling costs: Mesh networks can be wireless, eliminating the need for costly cabling and making it easier to set up and scale the network.</li>
-<li>Faster communication: Since data packets do not need to travel via a central switch, communication can be faster and more efficient, especially in larger networks where traffic can become congested.</li>
-<li>Self-healing: The more nodes that are installed, the faster and more reliable the network becomes, since one blocked connection can easily be circumvented by another route. In this respect, the mesh can be described as ‘self-healing’.</li>
-<li>Easy expansion: New nodes are automatically incorporated into the network, making it easier to add new devices and scale the network.</li>
-</ul>
-<p><strong>Disadvantages:</strong></p>
-<ul>
-<li>Higher implementation cost: Building and maintaining a mesh network can be difficult and time-consuming, making it less desirable for smaller networks or businesses with limited resources.</li>
-<li>Redundant connections: The chance of redundant connections is high, adding to costs and complexity. Careful planning and management is needed to avoid unnecessary connections and reduce costs.</li>
-<li>Limited range: Mesh networks are typically limited to a certain range, depending on the strength of the wireless signal. This means that additional nodes or access points may be required to extend coverage, which can increase the cost and complexity of the network.</li>
-</ul>
-<h3 id="packets-packet-switching-and-routers">Packets, Packet Switching and Routers</h3>
+
+<table>
+<thead>
+<tr>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No cabling costs: mesh networks can be wireless</td>
+<td>Higher implementation and maintenance costs, especially for smaller businesses with limited resources</td>
+</tr>
+<tr>
+<td>Network scaling and setup can be easier without added cabling allowing for easy expansion, as new nodes are automatically added to the network</td>
+<td>Redundant connections can add to costs and complexity of the network, requiring increased planning and network management</td>
+</tr>
+<tr>
+<td>No central switch, resulting in faster communication and less chance of traffic congestion through direct routing</td>
+<td>Limited range, especially with wireless signals, or expensive cables. More nodes and APs will be required to extend coverage, increasing costs</td>
+</tr>
+<tr>
+<td>Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just use other routes)</td>
+<td></td>
+</tr>
+</tbody>
+</table><h3 id="packets-packet-switching-and-routers">Packets, Packet Switching and Routers</h3>
 <p>Packet switching requires routers to direct the packets to their destination. A router is a network device that receives packets and forwards data packets from one network to another.</p>
 <p>Each router stores data about the available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.</p>
 <blockquote>
@@ -914,9 +945,9 @@ The Internet is a public interconnection of computer networks which allows data 
 <blockquote>
 <p>This is all dictated by the Transmission Control Protocol (TCP).</p>
 </blockquote>
-<blockquote>
-<p>On the other hand, <strong>circuit switching</strong> is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session.</p>
-</blockquote>
+<h3 id="circuit-switching">Circuit switching</h3>
+<p>On the other hand, <strong>circuit switching</strong> is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session, even when no data is being transmitted.</p>
+<p>This doesn’t really work for the billions of devices that are connected. The complete circuit can’t be shared by other devices, so how would this work when downloading a 10gb file? You’d have to wait for the entire download to finish to start doing something else. This makes circuit switching only really useful for realtime scenarios like phone calls when a consistent and uninterrupted connection is required. (But, if one point in the circuit fails, the entire phone call will as data cannot be rerouted, unlike packet switching)</p>
 <blockquote>
 <p>In summary, <strong>packet switching</strong> divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible than circuit switching, and is thus more widely used.</p>
 </blockquote>
@@ -924,19 +955,33 @@ The Internet is a public interconnection of computer networks which allows data 
 <p>Network hardware devices include routers, switches, hubs, and access points, among others. These devices connect computers and other devices in a network, allowing them to communicate and share resources.</p>
 <p>Protocols and standards establish guidelines and rules for communication between devices on a network. Common protocols include TCP/IP, HTTP, and FTP, while common standards include Ethernet and Wi-Fi.</p>
 <h3 id="tbd-the-tcpip-protocol-stack">[tbd] The TCP/IP Protocol Stack</h3>
-<p>The TCP/IP protocol stack consists of four main layers.</p>
+<p>The TCP/IP protocol stack consists of four main layers. From the top of the stack to the bottom, they are:</p>
 <h4 id="application-layer">Application layer</h4>
+<p>It specifies what high-level <strong>protocol</strong> needs to be used in order for applications to communicate with each other over a network.</p>
 <ul>
-<li>
-<p>The application layer is based at the top of the stack. It specifies what protocol needs to be used in order to relate the application that’s being sent.</p>
-</li>
-<li>
-<p>For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP</p>
-</li>
+<li>For example, if the application is a browser then it would select a protocol such as HTTP</li>
+<li>Email clients would use SMTP and POP3/IMAP</li>
+<li>File transfer programs may use FTP.</li>
 </ul>
+<p>This specifies the rules of what should be sent, rather than the actual data/payload.</p>
 <h4 id="transport-layer">Transport layer</h4>
-<h4 id="internet-layer">Internet layer</h4>
-<h4 id="data-linknetwork-interface-layer">Data Link/Network Interface layer</h4>
+<p>The transport layer uses the <strong>Transmission Control Protocol</strong> (TCP) as well as the <strong>User Datagram Protocol</strong> (UDP) to establish an end-to-end connection to the recipient.</p>
+<p>Application data from the above application layer often has large filesizes, such as uploading a 10GB video file, and thus must be split into segments, or TCP packets, and then numbers these sequentially.</p>
+<p>The port number (a 16 bit number) is also added in this layer. Servers listen on specific well-known port numbers like 443 for HTTPS for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.</p>
+<blockquote>
+<p>If there are 65,535 TCP connections or more at a time all accessing some data, new connections cannot be established as this is the 16-bit limit for the transport layer!</p>
+</blockquote>
+<p>Finally, sockets, or TCP endpoints, are also assigned on this layer. These are made up of the IP address and the port number, such as 83.231.132.94:25565. These sockets are either the source or the destination, for example, accessing <a href="http://ibaguette.com">ibaguette.com</a> will make the accessor (client) the source, and the server’s port 443 will be the destination, and send the data to the client. The destination and source ports on the server and client will then swap.</p>
+<blockquote>
+<p>Sockets can be combined with DNS to go to a specific port on a website. For example, <a href="http://mc.ibaguette.com:8123">mc.ibaguette.com:8123</a> could initiate a HTTP connection to a server with a specific port of 8123 rather than the default HTTP port of 80.</p>
+</blockquote>
+<p><strong>Bonus Points for A</strong>*<br>
+TCP ensures that no data is received erroneously or is lost during transport, so packets can be retransmitted and all must me acknowledged by the receiving device. This security adds delays and additional processing overhead. UDP does not add any of these error checks, but is more suited towards realtime applications such as Discord Voice Chats, whereas text chat it uses TCP.</p>
+<p>For this reason, UDP is deemed as the unreliable protocol and  it is “send and forget”, with packets arriving out of order or not at all. TCP is a sequential stream but is slower due to ACK packets (acknowledgement) and can cause packets to queue and ping spikes. TCP is susceptible to ping spikes, and UDP is susceptible to packet loss (hence why in online games you get packet loss and ping spikes - they use <em>both</em> depending on what’s being requested!)</p>
+<h4 id="internetnetwork-layer">Internet/Network layer</h4>
+<p>Uses the Internet Protocol to address packets with a destination and source IP address in each packet’s header. Other data fields in the header may include the Time To Live (TTL) or maximum packet hops, and the header checksum.</p>
+<p>It’s worth noting that the IP has no guarantee of correct transmission, and it is up to TCP in the transport layer to do this.</p>
+<h4 id="linkdata-linknetwork-interface-layer">Link/Data Link/Network Interface layer</h4>
 <p>Each layer has its own specific tasks in transmitting data over a network.</p>
 <h3 id="transferring-files-using-ftp">Transferring Files using FTP</h3>
 <p>FTP (File Transfer Protocol) is a standard protocol used to transfer files. It is widely used for uploading files to and downloading files from servers with little overhead.</p>
@@ -953,6 +998,14 @@ chosenElement<span class="token punctuation">.</span>innerHTML <span class="toke
 </code></pre>
 <h1 id="tbd-1.4-data-types-data-structures-and-algorithms">[tbd] 1.4 Data types, data structures and algorithms</h1>
 <h1 id="tbd-1.5-legal-moral-cultural-and-ethical-issues">[tbd] 1.5 Legal, moral, cultural and ethical issues</h1>
+<h1 id="paper-2">Paper 2</h1>
+<h1 id="elements-of-computational-thinking">2.1 Elements of computational thinking</h1>
+<h2 id="thinking-abstractly">2.1.1 Thinking abstractly</h2>
+<h2 id="thinking-ahead">2.1.2 Thinking ahead</h2>
+<h2 id="thinking-procedurally">2.1.3 Thinking procedurally</h2>
+<h2 id="thinking-logically">2.1.4 Thinking logically</h2>
+<h2 id="thinking-concurrently">2.1.5 Thinking concurrently</h2>
+<h1 id="problem-solving-and-programming">2.2 Problem solving and programming</h1>
 <h1 id="credits--footnotes">Credits + Footnotes</h1>
 <p>[1] Andy aka (<a href="https://electronics.stackexchange.com/users/20218/andy-aka">https://electronics.stackexchange.com/users/20218/andy-aka</a>), Difference between a bus and a wire, URL (version: 2014-01-11): <a href="https://electronics.stackexchange.com/q/96149">https://electronics.stackexchange.com/q/96149</a></p>
 <p>[2] <em>Teach-ICT A Level Computing - ALU</em>. [online] Available at: <a href="https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU)">https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic Logic Unit (ALU)</a> [Accessed 22 May 2023].</p>

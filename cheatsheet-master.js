@@ -26,8 +26,7 @@ const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/Ch
 
 // has extra cookie code for audio
 
-const main_page = `
-<!DOCTYPE html>
+const main_page = `<!DOCTYPE html>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
 <!-- If you see this, hi! :) -->
 <!-- Thanks for using my cheat sheets! -->
@@ -185,20 +184,21 @@ const main_page = `
 
     <br><br>
       <section id="main-cheat-welcome-text">
-        <p>Welcome to the Cheat Sheets page! This is your one-stop-shop for cheat sheets on a variety of topics.</p>
-        <p>Our cheat sheets are specifically tailored to help you with your exams, providing quick and easy access to information on specific topics. They are audited regularly to ensure they are accurate and up-to-date.</p>
-        <p>Explore our selection of cheat sheets for GCSE and A Level subjects by clicking the buttons below.</p>
-        <p>Save time and improve your knowledge with our cheat sheets. Don't forget to bookmark the site for future reference and stay ahead of the curve!</p>
+        <p>Welcome to the Cheat Sheets page! This is your one-stop-shop for revision material on a variety of topics.</p>
+        <p>Resources here are specifically tailored to help with your exams, providing quick and easy access to information on specific topics. They're audited regularly to ensure accuracy and that they're up-to-date.</p>
+        <p>Save time and improve your knowledge with our revision material! Bookmark the site for future reference and stay ahead of the curve! Bonus points if you send to friends and even teachers <img src="https://cheatsheet-assets.ibaguette.com/fonts/wink-dsc.svg" alt="Wink Emoji" width="20" height="20"></p>
       </section><br><br>
+
+      <!-- Wink Emoji: https://i.pinimg.com/originals/f1/21/cf/f121cfb2e3c6e75200744ae16b53a7f1.png. TO place it into the doc we do: -->
 
     <div class="container">
       <div id="buttons-container">
         <button id="dropbtn-gcse" onclick="location.href='https://ibaguette.com/cheatsheets/gcse'" type="button">
-          GCSE cheat sheets
+          Go to <strong>GCSE</strong> cheat sheets  
         </button>
 
         <button id="dropbtn-alevel" onclick="location.href='https://ibaguette.com/cheatsheets/alevel'" type="button">
-          A Level cheat sheets
+          Go to <strong>A Level</strong> cheat sheets
         </button>
       </div>
     </div>
@@ -206,17 +206,15 @@ const main_page = `
 
     <br><br>
     <div class="footer-content">
-      <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560">Discord</a> (Draggie#3060) to add content, suggest changes or fix typos. </p>
-      <p>Alternatively, you can open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets" target="_blank" rel="noopener">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306" target="_blank" rel="noopener">Twitter</a> and other socials. </p>
-      <p>Join our Discord server, <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, to connect with other students, developers, professionals, educators, and more! Ask questions, get answers, or just have fun and relax!</p><br>
+      <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
+      <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with like-minded individuals. Ask questions, find answers, and have fun!</p>
     </div>
-    <!-- do not modify the below lines, auto updated by git hook -->
+    <!-- do not modify the below lines, auto updated by git hook that's now broken (fix it) -->
     <div class="footer-content">
-      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commit/4fa9e34972da793e735f660f4aea6477a1624c45">4fa9e34</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">32f9642</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
   </body>
-</html>
-`
+</html>`
 
 
 
@@ -226,8 +224,7 @@ const main_page = `
 // The main A level 'interstitial' page
 // has not as much cookie code as no audio :)
 // Also, please don't delete this, lol
-const alevel_main_page = `
-<!DOCTYPE html>
+const alevel_main_page = `<!DOCTYPE html>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
 <!-- If you see this, hi! :) -->
 <!-- Thanks for using my cheat sheets! -->
@@ -285,7 +282,7 @@ const alevel_main_page = `
 		
   </head>
 <body>
-	<a href="/cheatsheets">< Back to All Cheat Sheets</a>
+	<a href="/cheatsheets">< Back to <strong>All Cheat Sheets</strong></a>
 
 	<div class="dark-mode-toggle">
 		<button id="dark-mode-btn"></button>
@@ -316,15 +313,15 @@ const alevel_main_page = `
 
 	</script>
 
-	<h1 class="h1">All A level Cheat Sheets & Revision Resources</h1>
+	<h1 class="h1">All available A level Revision Resources</h1>
 	
 	<p>This is a work in progress page for my (and iBaguette contributors') A-level cheat sheets. I hope you find them useful!</p>
-  	<p>Hover over the subject to see a list of resources available, and the name of the creator (if not me).</p>
+	<p>Hover over the subject to show the list of resources available, and the name of the creator (if not me)!</p>
 	<br>
 
 	<h2>Featured Content</h2>
 	<div class="dropdown">
-	  <button class="dropbtn">Geography</button>
+	  <button class="dropbtn" style="background-color: forestgreen;">Geography</button>
 	  <div class="dropdown-content">
 		<a href="https://ibaguette.com/cheatsheets/alevel/geography/all" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - All Content</a>
 		<a href="https://ibaguette.com/cheatsheets/alevel/geography/all" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - PHYSICAL</a>
@@ -332,8 +329,8 @@ const alevel_main_page = `
 	  </div>
 	</div>
 
-	<div class="dropdown">
-	  <button class="dropbtn">Computer Science</button>
+	<div class="dropdown" id="ComputerScience">
+	  <button class="dropbtn" style="background-color: darkorange;">Computer Science</button>
 	  <div class="dropdown-content">
 		<a href="https://ibaguette.com/cheatsheets/alevel/computerscience" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Computer Science - All Content</a>
 		<a href="https://ibaguette.com/cheatsheets/gcse" target="_blank" rel="noopener">Recap your GCSE knowledge</a>
@@ -415,16 +412,15 @@ const alevel_main_page = `
 
 	<br><br><br>
 	<div class="footer-content">
-		Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (Draggie#3060) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on my <a href="https://github.com/Draggie306/CheatSheets">GitHub page</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.
-		<br>Join our Discord server, <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, to connect with other students, developers, professionals, educators, and more! Ask questions, get answers, or just have fun and relax!<br>
+		<p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
+		<p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with like-minded individuals. Ask questions, find answers, and have fun!</p>
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commit/ace103d20767986f8309f27f568e5cdc3d8debbf">ace103d</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">32f9642</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
-</html>
-`
+</html>`
 
 
 
@@ -434,8 +430,7 @@ const alevel_main_page = `
 
 // Main GCSE html
 // again, has not as much cookie code as no audio :)
-const gcse_main_page = `
-<!DOCTYPE html>
+const gcse_main_page = `<!DOCTYPE html>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
 <!-- If you see this, hi! :) -->
 <!-- Thanks for using my cheat sheets! -->
@@ -514,7 +509,7 @@ const gcse_main_page = `
   </head>
 <body>
 
-<a href="/cheatsheets">< Back to All Cheat Sheets</a>
+<a href="/cheatsheets">< Back to <strong>All Cheat Sheets</strong></a>
 
 <div class="dark-mode-toggle">
   <button id="dark-mode-btn"></button>
@@ -545,11 +540,13 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 
 </script>
 
-<h2>Notice!</h2>
-<p>This is for GCSE level. I got a Grade 9 in Computer Science, Biology, Physics, French, English Language and Geography, a Grade 8 in Citizenship, English Lit, Maths and History, and a 7 in Chemistry, but we don't talk about that last one.</p>
+<h1 class="h1">All Available GCSE Revision Resources</h1>
+<p>This is a work in progress page for my (and iBaguette contributors') A-level cheat sheets. I hope you find them useful!</p>
+<p>Hover over the subject to show the list of resources available, and the name of the creator (if not me)!</p>
 
+<h2>Featured Content</h2>
 <div class="dropdown">
-  <button class="dropbtn">Geography</button>
+  <button class="dropbtn" style="background-color: forestgreen">Geography</button>
   <div class="dropdown-content">
     <a href="https://ibaguette.com/cheatsheets/gcse/geography/Paper1" target="_blank" rel="noopener">AQA Paper 1</a>
     <a href="https://ibaguette.com/cheatsheets/gcse/geography/Paper2" target="_blank" rel="noopener">AQA Paper 2</a>
@@ -557,7 +554,6 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
-<br><br>
 <div class="dropdown">
   <button class="dropbtn">Computer Science</button>
   <div class="dropdown-content">
@@ -567,7 +563,9 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
-<br><br>
+<br>
+<h2>Other Resources</h2>
+
 <div class="dropdown">
   <button class="dropbtn">General Science</button>
   <div class="dropdown-content">
@@ -575,7 +573,6 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
-<br><br>
 <div class="dropdown">
   <button class="dropbtn">Biology</button>
   <div class="dropdown-content">
@@ -583,7 +580,6 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
-<br><br>
 <div class="dropdown">
   <button class="dropbtn">French</button>
   <div class="dropdown-content">
@@ -591,17 +587,23 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
-<br><br>
+<br><br><br>
+<p style="font-size: 14px; font-weight: bold;">If you're wondering, here are my results:</p>
+<p style="font-size: 12px;"><strong>Grade 9s:</strong> Computer Science (OCR), Biology (Edexcel), Physics (Edexcel), French (Edexcel), English Language (AQA) and Geography (AQA)<br>
+  <strong>Grade 8s:</strong> Citizenship Studies (Edexcel), English Literature (AQA), Maths (Edexcel) and History (AQA)<br>
+  <strong>Grade 7s:</strong> Chemistry (Edexcel). We don't talk about that one.</p>
+
   <div class="footer-content">
-    Join our Discord server, <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, to connect with other students, developers, professionals, educators, and more! Ask questions, get answers, or just have fun and relax!<br>
+    <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
+    <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with like-minded individuals. Ask questions, find answers, and have fun!</p>
   </div>
+  <br>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commit/ace103d20767986f8309f27f568e5cdc3d8debbf">ace103d</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">32f9642</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
-</html>
-`
+</html>`
 
 
 

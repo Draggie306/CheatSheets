@@ -78,17 +78,40 @@ button {
 #dropbtn-gcse {
   background-color: #008CBA; /* Blue */
   padding: 20px;
-  font-size: 24px;
+  font-size: 20px;
   margin: 8px
 }
 
 #dropbtn-alevel {
   background-color: #f44336; /* Red */
   padding: 20px;
-  font-size: 24px;
+  font-size: 20px;
   margin: 10px
 }
 
+#dropbtn-alevel:hover, #dropbtn-alevel:focus {
+  background-color: #ff9e9e;
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+}
+
+#dropbtn-gcse:hover, #dropbtn-gcse:focus {
+  background-color: #9ad1ff;
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+}
+
+#dropbtn-gcse:not(:hover) {
+  font-size: 20px;
+  background-color: #008CBA;
+  transition: all 0.5s ease-in-out;
+}
+
+#dropbtn-alevel:not(:hover) {
+  font-size: 20px;
+  background-color: #f44336;
+  transition: all 0.5s ease-in-out;
+}
 
 .h1 {
   text-align: center;
@@ -102,8 +125,6 @@ button {
   padding: 5%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
 }
-
-
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -134,6 +155,18 @@ body {
   border: 4px darkgray double;
 }
 
+.dropbtn:hover, .dropbtn:focus {
+  /* Cool hover transition effect */
+  font-size: larger;
+  background-color: #10f7ff;
+  transition: all 0.5s ease-in-out;
+}
+
+.dropbtn:not(:hover) {
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+}
+
 .dropbtn-red {
   position: static;
   align-self: center;
@@ -147,6 +180,16 @@ body {
   border: 4px darkgray double;
 }
 
+.dropbtn-red:hover, .dropbtn-red:focus {
+  /* Cool hover transition effect */
+  font-size: larger;
+  transition: all 0.5s ease-in-out;
+}
+
+.dropbtn-red:not(:hover) {
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+}
 
 .dropbtn-grey {
   position: static;
@@ -161,9 +204,20 @@ body {
   border: 4px darkblue double;
 }
 
+.dropbtn-grey:hover, .dropbtn-grey:focus {
+  /* Cool hover transition effect */
+  font-size: larger;
+  transition: all 0.5s ease-in-out;
+}
+
+.dropbtn-grey:not(:hover) {
+  font-size: 24px;
+  transition: all 0.5s ease-in-out;
+}
+
 .french-info-stats {
-    color: #333;
-    font-size: 16px;
+  color: #333;
+  font-size: 16px;
 }
 
 .dropdown {
@@ -194,12 +248,6 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  font-size: larger;
+  transition: all 0.5s ease-in-out;
 }

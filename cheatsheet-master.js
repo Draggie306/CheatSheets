@@ -3,6 +3,8 @@
 // You can verify this by looking for this comment and/or comparing the code your browser receives to the code below.
 // However, the cheat sheets themselves do not need to be manually updated by me.
 
+// New version with relative links.
+
 const statusCode = 200
 
 // Link the constants to the raw HTML cheatsheets on the github repo
@@ -217,10 +219,6 @@ const main_page = `<!DOCTYPE html>
 </html>`
 
 
-
-
-
-
 // The main A level 'interstitial' page
 // has not as much cookie code as no audio :)
 // Also, please don't delete this, lol
@@ -424,10 +422,6 @@ const alevel_main_page = `<!DOCTYPE html>
 
 
 
-
-
-
-
 // Main GCSE html
 // again, has not as much cookie code as no audio :)
 const gcse_main_page = `<!DOCTYPE html>
@@ -616,7 +610,8 @@ function delay(time) {
 }
 
 async function handleRequest(request) {
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/geography/paper2") {
+  // https://ibaguette.com/cheatsheets/gcse/geography/paper2
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper2")) {
     const response = await fetch(html_geog_paper_2); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
@@ -632,7 +627,7 @@ async function handleRequest(request) {
     
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/geography/paper1") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper1")) {
     const response = await fetch(html_geog_paper_1); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
@@ -658,7 +653,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/geography/paper1and2") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper1and2")) {
     const response = await fetch(html_geog_both_papers); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
@@ -683,7 +678,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience")) {
     const response = await fetch(html_computer_science); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
@@ -708,7 +703,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/paper1") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/paper1")) {
     const response = await fetch(html_computer_science_paper1); // get html from github server
     return new Response(await response.text(), {
       headers: {
@@ -720,7 +715,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/computerscience/paper2") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/paper2")) {
     const response = await fetch(html_computer_science_paper2); // get html from github server
     return new Response(await response.text(), {
       headers: {
@@ -732,7 +727,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/biology/2") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/biology/2")) {
     const response = await fetch(html_biology_braindump); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
@@ -757,7 +752,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse/science/practicals") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/science/practicals")) {
     const response = await fetch(html_science_practicals); // get html from github server
     const htmlResponse = new Response(await response.text(), {
         headers: {
@@ -781,7 +776,7 @@ async function handleRequest(request) {
 
   // return functions for main intersitial webpages
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/gcse") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse")) {
     return new Response(gcse_main_page, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
@@ -791,7 +786,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/alevel") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/alevel")) {
     return new Response(alevel_main_page, {
       headers: {
         "content-type": "text/html;charset=UTF-8",
@@ -801,7 +796,7 @@ async function handleRequest(request) {
     })
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/alevel/geography/all") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/all")) {
     const response = await fetch(alevel_geog); // get html from github server
     // Return the response as is
     const htmlResponse = new Response(await response.text(), {
@@ -815,7 +810,7 @@ async function handleRequest(request) {
     return htmlResponse;
   }
 
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets/alevel/computerscience") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/computerscience")) {
     const response = await fetch(alevel_computer_science); // get html from github server
     // Return the response as is
     const htmlResponse = new Response(await response.text(), {
@@ -829,7 +824,17 @@ async function handleRequest(request) {
     return htmlResponse;
   }
   
-  if (request.url.toLowerCase() == "https://ibaguette.com/cheatsheets") {
+  if (request.url.toLowerCase().endsWith("/cheatsheets")) {
+    return new Response(main_page, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "Cache-Control": "max-age=864000",
+      },
+    })
+  }
+
+  // Special case for geog.uk website:
+  if (request.url.toLowerCase() == "https://cheatsheets.geog.uk") {
     return new Response(main_page, {
       headers: {
         "content-type": "text/html;charset=UTF-8",

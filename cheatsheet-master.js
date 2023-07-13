@@ -21,6 +21,7 @@ const html_science_practicals = "https://raw.githubusercontent.com/Draggie306/Ch
 const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Biology%20Paper%202%20recap.html"
 const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
 const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html"
+const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html"
 
 
 // This is main site landing page
@@ -818,6 +819,21 @@ async function handleRequest(request) {
             "Content-Type": "text/html",
             "cheatsheet-tier": "a-level",
             "cheatsheet-subject": "computerscience",
+        },
+    });
+    // Return the response
+    return htmlResponse;
+  }
+
+  if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/nea")) {
+    const response = await fetch(alevel_geog_nea); // get html from github server
+    // Return the response as is
+    const htmlResponse = new Response(await response.text(), {
+        headers: {
+            "Content-Type": "text/html",
+            "cheatsheet-tier": "a-level",
+            "cheatsheet-subject": "geography",
+            "cheatsheet-paper": "nea",
         },
     });
     // Return the response

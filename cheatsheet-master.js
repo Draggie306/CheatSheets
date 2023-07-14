@@ -36,9 +36,9 @@ const main_page = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>iBaguette | Cheat Sheets</title>
+    <title>GCSE and A Level Revision Material + Cheat Sheets | iBaguette</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="A-Level and GCSE Cheat Sheets | iBaguette">
+    <meta name="title" content="GCSE and A Level Revision Material + Cheat Sheets | iBaguette">
     <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
@@ -154,10 +154,7 @@ const main_page = `<!DOCTYPE html>
     // Get a reference to the body element
     var element = document.body;
 
-    // Toggle the "dark-mode" class on the body element
     element.classList.toggle("dark-mode");
-
-    // Toggle the "dark" class on the button element
     this.classList.toggle("dark");
 
     // Save the user's preference to localStorage
@@ -167,15 +164,13 @@ const main_page = `<!DOCTYPE html>
       localStorage.removeItem("dark-mode");
     }
 
-    // Play the sound effect
-    // Check if a cookie exists
+    // check if a cookie exists
     if (document.cookie.indexOf("audioPlayed=true") === -1) {
-      // If the cookie does not exist, set it to true and play funny (15)
       document.cookie = "audioPlayed=true";
       var audio = new Audio('https://cheatsheets.ibaguette.com/sounds/funny%20(15).mp3');
       audio.play();
     } else {
-      // If the cookie exists, generate a random number and play the corresponding audio
+      // if cookie exists, generate random number and play the corresponding audio at url
       var randomNum = Math.floor(Math.random() * 16) + 1;
       var audio = new Audio('https://cheatsheets.ibaguette.com/sounds/funny%20(' + randomNum + ').mp3');
       audio.play();
@@ -188,19 +183,17 @@ const main_page = `<!DOCTYPE html>
     <br><br>
       <section id="main-cheat-welcome-text">
         <p>Welcome to the Cheat Sheets page! This is your one-stop-shop for revision material on a variety of topics.</p>
-        <p>Resources here are specifically tailored to help with your exams, providing quick and easy access to information on specific topics. They're audited regularly to ensure accuracy and that they're up-to-date.</p>
+        <p>All resources here are specifically tailored to help with your exams, providing quick and easy access to information on specific topics. They're audited regularly to ensure accuracy and that they're up-to-date.</p>
         <p>Save time and improve your knowledge with our revision material! Bookmark the site for future reference and stay ahead of the curve! Bonus points if you send to friends and even teachers <img src="https://cheatsheet-assets.ibaguette.com/fonts/wink-dsc.svg" alt="Wink Emoji" width="20" height="20"></p>
       </section><br><br>
 
-      <!-- Wink Emoji: https://i.pinimg.com/originals/f1/21/cf/f121cfb2e3c6e75200744ae16b53a7f1.png. TO place it into the doc we do: -->
-
     <div class="container">
       <div id="buttons-container">
-        <button id="dropbtn-gcse" onclick="location.href='https://ibaguette.com/cheatsheets/gcse'" type="button">
+        <button id="dropbtn-gcse" onclick="location.href='/cheatsheets/gcse'" type="button">
           Go to <strong>GCSE</strong> cheat sheets  
         </button>
 
-        <button id="dropbtn-alevel" onclick="location.href='https://ibaguette.com/cheatsheets/alevel'" type="button">
+        <button id="dropbtn-alevel" onclick="location.href='/cheatsheets/alevel'" type="button">
           Go to <strong>A Level</strong> cheat sheets
         </button>
       </div>
@@ -209,12 +202,12 @@ const main_page = `<!DOCTYPE html>
 
     <br><br>
     <div class="footer-content">
-      <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
-      <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with like-minded individuals. Ask questions, find answers, and have fun!</p>
+      <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
+      <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
     </div>
     <!-- do not modify the below lines, auto updated by git hook that's now broken (fix it) -->
     <div class="footer-content">
-      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">32f9642</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">08f147d</a> | Version 1.2a</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
   </body>
 </html>`
@@ -255,25 +248,25 @@ const alevel_main_page = `<!DOCTYPE html>
 			  "@type": "ListItem",
 			  "position": 1,
 			  "name": "All A Level Cheat Sheets",
-			  "item": "https://ibaguette.com/cheatsheets/alevel"
+			  "item": "/cheatsheets/alevel"
 			},
 			{
 			  "@type": "ListItem",
 			  "position": 2,
 			  "name": "OCR Geography - All Topics",
-			  "item": "https://ibaguette.com/cheatsheets/alevel/geography/all"
+			  "item": "/cheatsheets/alevel/geography/all"
 			},
 			{
 			  "@type": "ListItem",
 			  "position": 3,
 			  "name": "OCR Computer Science - All Topics",
-			  "item": "https://ibaguette.com/cheatsheets/alevel/computerscience/all"
+			  "item": "/cheatsheets/alevel/computerscience/all"
 			},
 			{
 			  "@type": "ListItem",
 			  "position": 4,
 			  "name": "French Resource List",
-			  "item": "https://ibaguette.com/cheatsheets/alevel/french"
+			  "item": "/cheatsheets/alevel/french"
 			}
 		  ]
 		}
@@ -315,24 +308,27 @@ const alevel_main_page = `<!DOCTYPE html>
 	<h1 class="h1">All available A level Revision Resources</h1>
 	
 	<p>This is a work in progress page for my (and iBaguette contributors') A-level cheat sheets. I hope you find them useful!</p>
-	<p>Hover over the subject to show the list of resources available, and the name of the creator (if not me)!</p>
-	<br>
+	<span style="font-size: 1.8em; color: red; text-shadow: 1px 1px 1px black;"><strong>Hover over the options below</strong></span></style> to see all their resources available! (yes there ARE multiple of them)
+	</span>
+
+	<br><br>
 
 	<h2>Featured Content</h2>
 	<div class="dropdown">
 	  <button class="dropbtn" style="background-color: forestgreen;">Geography</button>
 	  <div class="dropdown-content">
-		<a href="https://ibaguette.com/cheatsheets/alevel/geography/all" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - All Content</a>
-		<a href="https://ibaguette.com/cheatsheets/alevel/geography/all" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - PHYSICAL</a>
-		<a href="https://ibaguette.com/cheatsheets/alevel/geography/all" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - HUMAN</a>
+		<a href="/cheatsheets/alevel/geography/all" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - All Content</a>
+		<a href="/cheatsheets/alevel/geography/physical" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - PHYSICAL</a>
+		<a href="/cheatsheets/alevel/geography/human" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - HUMAN</a>
+		<a href="/cheatsheets/alevel/geography/nea" target="_blank" rel="noopener">OCR Geography - NEA useful stuff</a>
 	  </div>
 	</div>
 
 	<div class="dropdown" id="ComputerScience">
 	  <button class="dropbtn" style="background-color: darkorange;">Computer Science</button>
 	  <div class="dropdown-content">
-		<a href="https://ibaguette.com/cheatsheets/alevel/computerscience" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Computer Science - All Content</a>
-		<a href="https://ibaguette.com/cheatsheets/gcse" target="_blank" rel="noopener">Recap your GCSE knowledge</a>
+		<a href="/cheatsheets/alevel/computerscience" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Computer Science - All Content</a>
+		<a href="/cheatsheets/gcse" target="_blank" rel="noopener">Recap your GCSE knowledge</a>
 	  </div>
 	</div>
 
@@ -380,21 +376,23 @@ const alevel_main_page = `<!DOCTYPE html>
 	<br><br>
 	<h2>Community Contributions</h2>
 	<div class="dropdown">
-	  <button class="dropbtn-red">Maths</button>
+		<!-- open up link in new tab -->
+	  <button class="dropbtn-red" onclick= "window.open('https://docs.google.com/document/d/1eJYdWaVnxTasSQCYhghO6uTIbStsJ6ZqIfPsg0N_1CI/edit?usp=sharing', '_blank');" style="cursor: pointer;">Maths</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1eJYdWaVnxTasSQCYhghO6uTIbStsJ6ZqIfPsg0N_1CI/edit?usp=sharing" target="_blank" rel="noopener">[By @TrulySpeechless] Maths FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
 	</div>
 
 	<div class="dropdown">
-	  <button class="dropbtn-red">Physics</button>
+	  <button class="dropbtn-red" onclick= "window.open('https://docs.google.com/document/d/1uN7i3FG7dxwUkGtaX30T0dgck-CmFwLEOKIBmOqFsJA/edit?usp=sharing', '_blank');" style="cursor: pointer;">Physics</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1uN7i3FG7dxwUkGtaX30T0dgck-CmFwLEOKIBmOqFsJA/edit?usp=sharing" target="_blank" rel="noopener">[By @TrulySpeechless] Physics FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
 	</div>
 
 	<div class="dropdown">
-	  <button class="dropbtn-red">Chemistry</button>
+		<!-- show mouse hover pointer -->
+	  <button class="dropbtn-red" onclick= "window.open('https://docs.google.com/document/d/1NFvdIKgcaHLaU-4NEx3n0KtjEjvUYl8ZY8pF7EwiwVw/edit?usp=sharing', '_blank');" style="cursor: pointer;">Chemistry</button>
 	  <div class="dropdown-content">
 		<a href="https://docs.google.com/document/d/1NFvdIKgcaHLaU-4NEx3n0KtjEjvUYl8ZY8pF7EwiwVw/edit?usp=sharing " target="_blank" rel="noopener">[By @TrulySpeechless] Chemistry FoLD - An OCR A-Level Cheatsheet</a>
 	  </div>
@@ -411,12 +409,12 @@ const alevel_main_page = `<!DOCTYPE html>
 
 	<br><br><br>
 	<div class="footer-content">
-		<p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
-		<p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with like-minded individuals. Ask questions, find answers, and have fun!</p>
+		<p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
+		<p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">32f9642</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">08f147d</a> | Version 1.2a</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`
@@ -543,18 +541,18 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 <div class="dropdown">
   <button class="dropbtn" style="background-color: forestgreen">Geography</button>
   <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/gcse/geography/Paper1" target="_blank" rel="noopener">AQA Paper 1</a>
-    <a href="https://ibaguette.com/cheatsheets/gcse/geography/Paper2" target="_blank" rel="noopener">AQA Paper 2</a>
-    <a href="https://ibaguette.com/cheatsheets/gcse/geography/Paper1and2" target="_blank" rel="noopener">AQA Paper 1 and 2</a>
+    <a href="/cheatsheets/gcse/geography/Paper1" target="_blank" rel="noopener">AQA Paper 1</a>
+    <a href="/cheatsheets/gcse/geography/Paper2" target="_blank" rel="noopener">AQA Paper 2</a>
+    <a href="/cheatsheets/gcse/geography/Paper1and2" target="_blank" rel="noopener">AQA Paper 1 and 2</a>
   </div>
 </div>
 
 <div class="dropdown">
   <button class="dropbtn">Computer Science</button>
   <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/gcse/ComputerScience/paper1" target="_blank" rel="noopener">OCR J277 Paper 1</a>
-    <a href="https://ibaguette.com/cheatsheets/gcse/ComputerScience/paper2" target="_blank" rel="noopener">OCR J277 Paper 2</a>
-    <a href="https://ibaguette.com/cheatsheets/gcse/ComputerScience" target="_blank" rel="noopener">OCR J277 Paper 1 and 2</a>
+    <a href="/cheatsheets/gcse/ComputerScience/paper1" target="_blank" rel="noopener">OCR J277 Paper 1</a>
+    <a href="/cheatsheets/gcse/ComputerScience/paper2" target="_blank" rel="noopener">OCR J277 Paper 2</a>
+    <a href="/cheatsheets/gcse/ComputerScience" target="_blank" rel="noopener">OCR J277 Paper 1 and 2</a>
   </div>
 </div>
 
@@ -564,14 +562,14 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 <div class="dropdown">
   <button class="dropbtn">General Science</button>
   <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/gcse/science/practicals" target="_blank" rel="noopener">All Science core practicals</a>
+    <a href="/cheatsheets/gcse/science/practicals" target="_blank" rel="noopener">All Science core practicals</a>
   </div>
 </div>
 
 <div class="dropdown">
   <button class="dropbtn">Biology</button>
   <div class="dropdown-content">
-    <a href="https://ibaguette.com/cheatsheets/gcse/biology/2" target="_blank" rel="noopener">Edexcel Biology Paper 2 brain dump</a>
+    <a href="/cheatsheets/gcse/biology/2" target="_blank" rel="noopener">Edexcel Biology Paper 2 brain dump</a>
   </div>
 </div>
 
@@ -589,13 +587,13 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   <strong>Grade 7s:</strong> Chemistry (Edexcel). We don't talk about that one.</p>
 
   <div class="footer-content">
-    <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes. Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
-    <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with like-minded individuals. Ask questions, find answers, and have fun!</p>
+    <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
+    <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
   </div>
   <br>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">32f9642</a></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">08f147d</a> | Version 1.2a</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`

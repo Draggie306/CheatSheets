@@ -3,16 +3,18 @@
 
 # Ah yes more computer science!
 
-
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last update: 05/06/2023 00:26](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last update: 05/06/2023 22:48](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
 > Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! You can also **receive a notification** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/CompSciALevel@3x.png)
+*As always, enjoy this amazing high-effort and high-skill art by me.*
 
 # Paper 1
 
@@ -1247,6 +1249,11 @@ It's worth noting that the IP has no guarantee of correct transmission, and it i
 
 Each layer has its own specific tasks in transmitting data over a network.
 
+The link layer operates across a physical connection
+
+Adds the MAC address of the physical NIC that packets should be sent to based on the destination IP address
+
+MAC addresses change with each hop
 
 ### Transferring Files using FTP
 

@@ -22,6 +22,8 @@ const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/Che
 const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
 const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html"
 const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html"
+const alevel_geog_physical = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Physical.html"
+const alevel_geog_human = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Human.html"
 
 
 // This is main site landing page
@@ -101,7 +103,7 @@ const main_page = `<!DOCTYPE html>
       
     <!-- Breadcrumb for A level -->
     <script type="application/ld+json">
-    {
+      {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
@@ -120,18 +122,36 @@ const main_page = `<!DOCTYPE html>
         {
           "@type": "ListItem",
           "position": 3,
+          "name": "OCR Geography - Human Geography Topics",
+          "item": "https://ibaguette.com/cheatsheets/alevel/geography/human"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "OCR Geography - Physical Geography Topics",
+          "item": "https://ibaguette.com/cheatsheets/alevel/geography/physical"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "OCR Geography - NEA Links and Resources",
+          "item": "https://ibaguette.com/cheatsheets/alevel/geography/nea"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
           "name": "OCR Computer Science - All Topics",
           "item": "https://ibaguette.com/cheatsheets/alevel/computerscience/all"
         },
         {
           "@type": "ListItem",
-          "position": 4,
-          "name": "French Resource List",
+          "position": 7,
+          "name": "French Revision Portal",
           "item": "https://ibaguette.com/cheatsheets/alevel/french"
         }
-      ]
-    }
-    </script>
+        ]
+      }
+      </script>
       
   </head>
 
@@ -207,7 +227,7 @@ const main_page = `<!DOCTYPE html>
     </div>
     <!-- do not modify the below lines, auto updated by git hook that's now broken (fix it) -->
     <div class="footer-content">
-      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">08f147d</a> | Version 1.2a</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">ef2281b</a> | Version 1.2b</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
   </body>
 </html>`
@@ -241,32 +261,50 @@ const alevel_main_page = `<!DOCTYPE html>
 	<!-- Breadcrumb for A level -->
     <script type="application/ld+json">
 		{
-		  "@context": "https://schema.org",
-		  "@type": "BreadcrumbList",
-		  "itemListElement": [
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
 			{
-			  "@type": "ListItem",
-			  "position": 1,
-			  "name": "All A Level Cheat Sheets",
-			  "item": "/cheatsheets/alevel"
+				"@type": "ListItem",
+				"position": 1,
+				"name": "All A Level Cheat Sheets",
+				"item": "https://ibaguette.com/cheatsheets/alevel"
 			},
 			{
-			  "@type": "ListItem",
-			  "position": 2,
-			  "name": "OCR Geography - All Topics",
-			  "item": "/cheatsheets/alevel/geography/all"
+				"@type": "ListItem",
+				"position": 2,
+				"name": "OCR Geography - All Topics",
+				"item": "https://ibaguette.com/cheatsheets/alevel/geography/all"
 			},
 			{
-			  "@type": "ListItem",
-			  "position": 3,
-			  "name": "OCR Computer Science - All Topics",
-			  "item": "/cheatsheets/alevel/computerscience/all"
+				"@type": "ListItem",
+				"position": 3,
+				"name": "OCR Geography - Human Geography Topics",
+				"item": "https://ibaguette.com/cheatsheets/alevel/geography/paper2"
 			},
 			{
-			  "@type": "ListItem",
-			  "position": 4,
-			  "name": "French Resource List",
-			  "item": "/cheatsheets/alevel/french"
+				"@type": "ListItem",
+				"position": 4,
+				"name": "OCR Geography - Physical Geography Topics",
+				"item": "https://ibaguette.com/cheatsheets/alevel/geography/paper1"
+			},
+			{
+				"@type": "ListItem",
+				"position": 5,
+				"name": "OCR Geography - NEA Links and Resources",
+				"item": "https://ibaguette.com/cheatsheets/alevel/geography/nea"
+			},
+			{
+				"@type": "ListItem",
+				"position": 6,
+				"name": "OCR Computer Science - All Topics",
+				"item": "https://ibaguette.com/cheatsheets/alevel/computerscience/all"
+			},
+			{
+				"@type": "ListItem",
+				"position": 7,
+				"name": "French Revision Portal",
+				"item": "https://ibaguette.com/cheatsheets/alevel/french"
 			}
 		  ]
 		}
@@ -318,9 +356,9 @@ const alevel_main_page = `<!DOCTYPE html>
 	  <button class="dropbtn" style="background-color: forestgreen;">Geography</button>
 	  <div class="dropdown-content">
 		<a href="/cheatsheets/alevel/geography/all" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - All Content</a>
-		<a href="/cheatsheets/alevel/geography/physical" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - PHYSICAL</a>
-		<a href="/cheatsheets/alevel/geography/human" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - HUMAN</a>
-		<a href="/cheatsheets/alevel/geography/nea" target="_blank" rel="noopener">OCR Geography - NEA useful stuff</a>
+		<a href="/cheatsheets/alevel/geography/paper1" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - PHYSICAL</a>
+		<a href="/cheatsheets/alevel/geography/paper2" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - HUMAN</a>
+		<a href="/cheatsheets/alevel/geography/nea" target="_blank" rel="noopener">Useful NEA links and resources!</a>
 	  </div>
 	</div>
 
@@ -414,7 +452,7 @@ const alevel_main_page = `<!DOCTYPE html>
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">08f147d</a> | Version 1.2a</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">ef2281b</a> | Version 1.2b</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`
@@ -593,7 +631,7 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   <br>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">08f147d</a> | Version 1.2a</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">ef2281b</a> | Version 1.2b</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`
@@ -823,6 +861,36 @@ async function handleRequest(request) {
     return htmlResponse;
   }
 
+  if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/paper1")) {
+    const response = await fetch(alevel_geog_physical); // get html from github server
+    // Return the response as is
+    const htmlResponse = new Response(await response.text(), {
+        headers: {
+            "Content-Type": "text/html",
+            "cheatsheet-tier": "a-level",
+            "cheatsheet-subject": "geography",
+            "cheatsheet-paper": "physical",
+        },
+    });
+    // Return the response
+    return htmlResponse;
+  }
+
+  if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/paper2")) {
+    const response = await fetch(alevel_geog_human); // get html from github server
+    // Return the response as is
+    const htmlResponse = new Response(await response.text(), {
+        headers: {
+            "Content-Type": "text/html",
+            "cheatsheet-tier": "a-level",
+            "cheatsheet-subject": "geography",
+            "cheatsheet-paper": "human",
+        },
+    });
+    // Return the response
+    return htmlResponse;
+  }
+
   if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/nea")) {
     const response = await fetch(alevel_geog_nea); // get html from github server
     // Return the response as is
@@ -859,6 +927,12 @@ async function handleRequest(request) {
   
   // else 301 redirect to main page
   else {
+    if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/human")) {
+      return Response.redirect("https://ibaguette.com/cheatsheets/alevel/geography/paper2", 301);
+    }
+    if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/physical")) {
+      return Response.redirect("https://ibaguette.com/cheatsheets/alevel/geography/paper1", 301);
+    }
     return Response.redirect("https://ibaguette.com/cheatsheets", 301);
   }
 }

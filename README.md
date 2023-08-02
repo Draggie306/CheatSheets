@@ -1,4 +1,5 @@
-# CheatSheets
+# iBaguette Revision Material and Cheat Sheets
+
 Markdown (and other) Cheat Sheets for various subjects hosted on [iBaguette.com/cheatsheets](https://ibaguette.com/cheatsheets)!
 Currently includes
 

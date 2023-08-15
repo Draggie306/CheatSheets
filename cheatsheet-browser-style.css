@@ -1,3 +1,10 @@
+/* iBaguette - Cheatsheet Browser Style CSS */
+/* Copying is hereby permitted, free of charge, to users of the iBaguette for Institutions software system (the "Software") to use the Software for their institution's own internal use, subject to the following conditions: */
+/* The above permission notice shall be included in all copies or substantial portions of the Software. */
+/* THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+
+/* Version 1.4 | last recorded update 15/08/2023 */
+
 .dark-mode {
   background-color: #1e1e1e;
   color: white;
@@ -16,10 +23,6 @@
 
 #main-cheat-welcome-text {
   text-align: center;
-  padding: 3%;
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
 .p {
@@ -74,43 +77,39 @@ button {
   height: 10vh; /* or any other height value you prefer */
 }
 
+#buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  column-gap: 6%;
+}
 
-#dropbtn-gcse {
-  background-color: #008CBA; /* Blue */
+#dropbtn-gcse,
+#dropbtn-alevel {
   padding: 20px;
   font-size: 20px;
-  margin: 8px
+  transition: all 0.5s ease-in-out;
+}
+
+#dropbtn-gcse {
+  background-color: #008CBA;
 }
 
 #dropbtn-alevel {
-  background-color: #f44336; /* Red */
-  padding: 20px;
-  font-size: 20px;
-  margin: 10px
+  background-color: #f44336;
 }
 
-#dropbtn-alevel:hover, #dropbtn-alevel:focus {
+#dropbtn-alevel:hover,
+#dropbtn-alevel:focus {
   background-color: #ff9e9e;
   font-size: 24px;
-  transition: all 0.5s ease-in-out;
 }
 
-#dropbtn-gcse:hover, #dropbtn-gcse:focus {
+#dropbtn-gcse:hover,
+#dropbtn-gcse:focus {
   background-color: #9ad1ff;
   font-size: 24px;
-  transition: all 0.5s ease-in-out;
-}
-
-#dropbtn-gcse:not(:hover) {
-  font-size: 20px;
-  background-color: #008CBA;
-  transition: all 0.5s ease-in-out;
-}
-
-#dropbtn-alevel:not(:hover) {
-  font-size: 20px;
-  background-color: #f44336;
-  transition: all 0.5s ease-in-out;
 }
 
 .h1 {

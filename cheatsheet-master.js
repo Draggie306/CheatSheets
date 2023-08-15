@@ -25,6 +25,7 @@ const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheet
 const alevel_geog_physical = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Physical.html"
 const alevel_geog_human = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Human.html"
 
+const hizi_sites = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Subject_Sites.html"
 
 // This is main site landing page
 // this is kept as raw HTML as it is slightly quicker to rapidly edit directly from the Cloudflare worker and check for bugs
@@ -901,6 +902,20 @@ async function handleRequest(request) {
             "cheatsheet-tier": "a-level",
             "cheatsheet-subject": "geography",
             "cheatsheet-paper": "nea",
+        },
+    });
+    // Return the response
+    return htmlResponse;
+  }
+
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/subject-sites")) {
+    const response = await fetch(hizi_sites); // get html from github server
+    // Return the response as is
+    const htmlResponse = new Response(await response.text(), {
+        headers: {
+            "Content-Type": "text/html",
+            "cheatsheet-tier": "gcse",
+            "cheatsheet-author": "hizi"
         },
     });
     // Return the response

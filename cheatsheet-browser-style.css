@@ -167,6 +167,31 @@ body {
   transition: all 0.5s ease-in-out;
 }
 
+#dropbtn-hizi {
+  position: static;
+  background-color: #2a436e;
+  color: white;
+  cursor: default;
+  padding: 20px;
+  margin-right: 60px;
+  margin-top: 30px; 
+  font-size: 24px;
+  border: 4px darkgray double;
+}
+
+#dropbtn-hizi:hover, #dropbtn-hizi:focus {
+  /* Cool hover transition effect */
+  font-size: larger;
+  transition: 0.5s;
+  color: #ffac30;
+}
+
+#dropbtn-hizi:not(:hover) {
+  font-size: 24px;
+  transition: 0.5s;
+  color: white;
+}
+
 .dropbtn-red {
   position: static;
   align-self: center;

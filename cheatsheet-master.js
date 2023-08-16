@@ -37,128 +37,127 @@ const main_page = `<!DOCTYPE html>
 <!-- If you see this, hi! :) -->
 <!-- Thanks for using my cheat sheets! -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>GCSE and A Level Revision Material + Cheat Sheets | iBaguette</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="GCSE and A Level Revision Material + Cheat Sheets | iBaguette">
-    <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
-    <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
-    <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
-    <link rel="icon" type="image/icon" sizes="16x16" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAADB0+D/oLbH/6G5y//E2ev/rL7M/7LD1f/M3vD/0+Xx/9Hj8v/L3O3/0+Pv/9rn7//o7vT/6PD2/+Hy+P/k8/n/u9Hb/0RTXP8AAAD/gJSi/5+3yv+ctcn/mbHF/5y1yv+rvtP/rcDV/6/A0/+uvMn/y9Xe/8ja5f+itcn/0Oju/6a6x/+gtcD/ICkx/x4jLv+Wqbv/pLnN/6W5zv+mvtL/rsDR/46gtf9/jp7/trzI/8jT3//l7vX/tMfU/6m9z/+TpLD/VWRu/zdCUP8SChf/DQob/15seP+lucj/j6Cy/1Vnev9gcof/dYea/7vM2P+Jn7f/XGyB/3qTrf+UrMb/R1Ne/x8iL/8nLTn/KSw4/x0hK/8aHin/MzlC/0BRY/87SWD/Tl9z/2Byhv9riZ7/UWJ3/1VidP9dZnr/gpKn/yUpNP8TDhj/ExAY/xsXI/8nJTH/Jicy/yMdKP8mLD3/QVNo/z9JYP9IXHP/boac/1prgf9aZXb/bXZ//214hf8fHSf/FhId/xIPF/8UDxv/KSs2/x8bJv8lISr/KS5A/z5PZf8vM0n/PU5j/4+pyP9bY3n/fICK/4qJkv+TlZ7/HBgg/x0ZJf8UERv/EA4U/x0YJP8TEBj/HBgh/zM7TP88S2H/LzNI/ygvP/9keY3/f4eV/4yNl/+cmaH/ipOb/zA2Qv8tLDf/Ih8r/x8bJf8wLjn/EAwT/xkVH/82OUn/PUNa/z1MYf84Rlr/OEVa/1Jjef9daXz/ZG57/2BzgP+qvsb/SlFa/zU6RP84NkL/KCcw/xQQGf8VERn/LzRC/zk+VP9DU2j/U2V6/1Rme/9UY3j/anJ9/1Zja/90h5b/m7C4/4ygs/83O0j/MTI8/ygkLv8kICr/JyQt/ykoMv9SXnT/UVtv/1NfdP9RXXD/am56/2dxe/9vfIX/d42g/4yfq/+YsMX/orO9/x0jL/84O0b/MDA4/zQwOf8qJC3/MThC/ycsOP9YWmT/hH+E/3V6hv9reYT/eIyU/4OXpP+WrLf/q8vZ/77a6P91gpH/IBkn/ywmMf82O0b/ZHJ5/46ktP94i5b/iZWe/4mWpv9vgpH/coaS/4CVnP+Inqv/nbW//8rf5v++2OP/sM/i/3uPm/9qeoT/ucbM/8LR1/+mvcf/tsnO/+rp5P+Ppbb/gpem/3iMl/+HnKT/jqOr/5q1vf/F3ev/u9Td/6zH2P+qxNH/uMzV/9ne4P////3///////Lz6//9/fn/na+2/3+apv93i5j/h52l/46jrP+Tq7n/n77Q/5q6yv+gtcP/nbK8/560vv++yM3/8vHs//z9+//w8er//////8XJyP+OqLH/jqGt/6Ozuv+uvsP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" />
+<head>
+  <meta charset="UTF-8">
+  <title>GCSE and A Level Revision Material + Cheat Sheets | iBaguette</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="GCSE and A Level Revision Material + Cheat Sheets | iBaguette">
+  <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
+  <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
+  <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
+  <link rel="icon" type="image/icon" sizes="16x16" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAADB0+D/oLbH/6G5y//E2ev/rL7M/7LD1f/M3vD/0+Xx/9Hj8v/L3O3/0+Pv/9rn7//o7vT/6PD2/+Hy+P/k8/n/u9Hb/0RTXP8AAAD/gJSi/5+3yv+ctcn/mbHF/5y1yv+rvtP/rcDV/6/A0/+uvMn/y9Xe/8ja5f+itcn/0Oju/6a6x/+gtcD/ICkx/x4jLv+Wqbv/pLnN/6W5zv+mvtL/rsDR/46gtf9/jp7/trzI/8jT3//l7vX/tMfU/6m9z/+TpLD/VWRu/zdCUP8SChf/DQob/15seP+lucj/j6Cy/1Vnev9gcof/dYea/7vM2P+Jn7f/XGyB/3qTrf+UrMb/R1Ne/x8iL/8nLTn/KSw4/x0hK/8aHin/MzlC/0BRY/87SWD/Tl9z/2Byhv9riZ7/UWJ3/1VidP9dZnr/gpKn/yUpNP8TDhj/ExAY/xsXI/8nJTH/Jicy/yMdKP8mLD3/QVNo/z9JYP9IXHP/boac/1prgf9aZXb/bXZ//214hf8fHSf/FhId/xIPF/8UDxv/KSs2/x8bJv8lISr/KS5A/z5PZf8vM0n/PU5j/4+pyP9bY3n/fICK/4qJkv+TlZ7/HBgg/x0ZJf8UERv/EA4U/x0YJP8TEBj/HBgh/zM7TP88S2H/LzNI/ygvP/9keY3/f4eV/4yNl/+cmaH/ipOb/zA2Qv8tLDf/Ih8r/x8bJf8wLjn/EAwT/xkVH/82OUn/PUNa/z1MYf84Rlr/OEVa/1Jjef9daXz/ZG57/2BzgP+qvsb/SlFa/zU6RP84NkL/KCcw/xQQGf8VERn/LzRC/zk+VP9DU2j/U2V6/1Rme/9UY3j/anJ9/1Zja/90h5b/m7C4/4ygs/83O0j/MTI8/ygkLv8kICr/JyQt/ykoMv9SXnT/UVtv/1NfdP9RXXD/am56/2dxe/9vfIX/d42g/4yfq/+YsMX/orO9/x0jL/84O0b/MDA4/zQwOf8qJC3/MThC/ycsOP9YWmT/hH+E/3V6hv9reYT/eIyU/4OXpP+WrLf/q8vZ/77a6P91gpH/IBkn/ywmMf82O0b/ZHJ5/46ktP94i5b/iZWe/4mWpv9vgpH/coaS/4CVnP+Inqv/nbW//8rf5v++2OP/sM/i/3uPm/9qeoT/ucbM/8LR1/+mvcf/tsnO/+rp5P+Ppbb/gpem/3iMl/+HnKT/jqOr/5q1vf/F3ev/u9Td/6zH2P+qxNH/uMzV/9ne4P////3///////Lz6//9/fn/na+2/3+apv93i5j/h52l/46jrP+Tq7n/n77Q/5q6yv+gtcP/nbK8/560vv++yM3/8vHs//z9+//w8er//////8XJyP+OqLH/jqGt/6Ozuv+uvsP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" />
 
-    <!-- Breadcrumb for GCSE -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "All GCSE Cheat Sheets",
-            "item": "https://ibaguette.com/cheatsheets/gcse"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Geography Paper 1",
-            "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1"
-          },
-          {
-            "@type": "ListItem",
-            "position": 4,
-            "name": "Geography Paper 2",
-            "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper2"
-          },
-          {
-            "@type": "ListItem",
-            "position": 5,
-            "name": "Geography Papers 1 and 2",
-            "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1and2"
-          },
-          {
-            "@type": "ListItem",
-            "position": 6,
-            "name": "Computer Science",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience"
-          },
-          {
-            "@type": "ListItem",
-            "position": 7,
-            "name": "Science Practicals",
-            "item": "https://ibaguette.com/cheatsheets/gcse/science/practicals"
-          },
-          {
-            "@type": "ListItem",
-            "position": 8,
-            "name": "Biology 2",
-            "item": "https://ibaguette.com/cheatsheets/gcse/biology/2"
-          }
-        ]
-      }
-    </script>
-      
-      
-    <!-- Breadcrumb for A level -->
-    <script type="application/ld+json">
-      {
+  <!-- Breadcrumb for GCSE -->
+  <script type="application/ld+json">
+    {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
         {
           "@type": "ListItem",
-          "position": 1,
-          "name": "All A Level Cheat Sheets",
-          "item": "https://ibaguette.com/cheatsheets/alevel"
-        },
-        {
-          "@type": "ListItem",
           "position": 2,
-          "name": "OCR Geography - All Topics",
-          "item": "https://ibaguette.com/cheatsheets/alevel/geography/all"
+          "name": "All GCSE Cheat Sheets",
+          "item": "https://ibaguette.com/cheatsheets/gcse"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "OCR Geography - Human Geography Topics",
-          "item": "https://ibaguette.com/cheatsheets/alevel/geography/paper2"
+          "name": "Geography Paper 1",
+          "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1"
         },
         {
           "@type": "ListItem",
           "position": 4,
-          "name": "OCR Geography - Physical Geography Topics",
-          "item": "https://ibaguette.com/cheatsheets/alevel/geography/paper1"
+          "name": "Geography Paper 2",
+          "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper2"
         },
         {
           "@type": "ListItem",
           "position": 5,
-          "name": "OCR Geography - NEA Links and Resources",
-          "item": "https://ibaguette.com/cheatsheets/alevel/geography/nea"
+          "name": "Geography Papers 1 and 2",
+          "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1and2"
         },
         {
           "@type": "ListItem",
           "position": 6,
-          "name": "OCR Computer Science - All Topics",
-          "item": "https://ibaguette.com/cheatsheets/alevel/computerscience/all"
+          "name": "Computer Science",
+          "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience"
         },
         {
           "@type": "ListItem",
           "position": 7,
-          "name": "French Revision Portal",
-          "item": "https://ibaguette.com/cheatsheets/alevel/french"
+          "name": "Science Practicals",
+          "item": "https://ibaguette.com/cheatsheets/gcse/science/practicals"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Biology 2",
+          "item": "https://ibaguette.com/cheatsheets/gcse/biology/2"
         }
-        ]
+      ]
+    }
+  </script>
+    
+    
+  <!-- Breadcrumb for A level -->
+  <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "All A Level Cheat Sheets",
+        "item": "https://ibaguette.com/cheatsheets/alevel"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "OCR Geography - All Topics",
+        "item": "https://ibaguette.com/cheatsheets/alevel/geography/all"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "OCR Geography - Human Geography Topics",
+        "item": "https://ibaguette.com/cheatsheets/alevel/geography/paper2"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "OCR Geography - Physical Geography Topics",
+        "item": "https://ibaguette.com/cheatsheets/alevel/geography/paper1"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "OCR Geography - NEA Links and Resources",
+        "item": "https://ibaguette.com/cheatsheets/alevel/geography/nea"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "OCR Computer Science - All Topics",
+        "item": "https://ibaguette.com/cheatsheets/alevel/computerscience/all"
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "French Revision Portal",
+        "item": "https://ibaguette.com/cheatsheets/alevel/french"
       }
-      </script>
-      
-  </head>
+      ]
+    }
+    </script>
+    
+</head>
 
-  <body>
-
+<body>
   <div class="dark-mode-toggle">
     <button id="dark-mode-btn"></button>
   </div>
@@ -201,25 +200,27 @@ const main_page = `<!DOCTYPE html>
 
 
   </script>
+    <section id="main-cheat-welcome-text">
+      <h1 style="font-size: xxx-large;">Welcome to iBaguette's Revision Material<h1></h1>
+      <br>
+        <div class="container">
+          <div id="buttons-container">
+            <button id="dropbtn-gcse" onclick="location.href='/cheatsheets/gcse'" type="button">
+              Go to <strong>GCSE</strong> resources
+            </button>
 
-    <br><br>
-      <section id="main-cheat-welcome-text">
-        <p>Welcome to the Cheat Sheets page! This is your one-stop-shop for revision material on a variety of topics.</p>
-        <p>All resources here are specifically tailored to help with your exams, providing quick and easy access to information on specific topics. They're audited regularly to ensure accuracy and that they're up-to-date.</p>
+            <button id="dropbtn-alevel" onclick="location.href='/cheatsheets/alevel'" type="button">
+              Go to <strong>A Level</strong> resources
+            </button>
+          </div>
+        </div>
+      <br><br>
+        <p>You've arrived at the Cheat Sheets page! This is your <strong>one-stop-shop for revision material</strong> on a variety of topics.</p>
+        <p>All resources here are specifically tailored to help with your exams, providing <strong>quick and easy access to information</strong> on specific topics. They're <strong>audited regularly to ensure accuracy</strong> and that they're up-to-date.</p>
         <p>Save time and improve your knowledge with our revision material! Bookmark the site for future reference and stay ahead of the curve! Bonus points if you send to friends and even teachers <img src="https://cheatsheet-assets.ibaguette.com/fonts/wink-dsc.svg" alt="Wink Emoji" width="20" height="20"></p>
-      </section><br><br>
+      </section><br>
 
-    <div class="container">
-      <div id="buttons-container">
-        <button id="dropbtn-gcse" onclick="location.href='/cheatsheets/gcse'" type="button">
-          Go to <strong>GCSE</strong> cheat sheets  
-        </button>
 
-        <button id="dropbtn-alevel" onclick="location.href='/cheatsheets/alevel'" type="button">
-          Go to <strong>A Level</strong> cheat sheets
-        </button>
-      </div>
-    </div>
 
 
     <br><br>
@@ -229,9 +230,9 @@ const main_page = `<!DOCTYPE html>
     </div>
     <!-- do not modify the below lines, auto updated by git hook that's now broken (fix it) -->
     <div class="footer-content">
-      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">ef2281b</a> | Version 1.2b</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">0648f9e</a> |<strong> Version 1.4 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
-  </body>
+</body>
 </html>`
 
 
@@ -414,7 +415,7 @@ const alevel_main_page = `<!DOCTYPE html>
   
 
 	<br><br>
-	<h2>Community Contributions</h2>
+	<h2>Community Additions!</h2>
 	<div class="dropdown">
 		<!-- open up link in new tab -->
 	  <button class="dropbtn-red" onclick= "window.open('https://docs.google.com/document/d/1eJYdWaVnxTasSQCYhghO6uTIbStsJ6ZqIfPsg0N_1CI/edit?usp=sharing', '_blank');" style="cursor: pointer;">Maths</button>
@@ -454,15 +455,12 @@ const alevel_main_page = `<!DOCTYPE html>
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">ef2281b</a> | Version 1.2b</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">0648f9e</a> |<strong> Version 1.4 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`
 
-
-
-// Main GCSE html
-// again, has not as much cookie code as no audio :)
+// gcse main page
 const gcse_main_page = `<!DOCTYPE html>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
 <!-- If you see this, hi! :) -->
@@ -534,6 +532,12 @@ const gcse_main_page = `<!DOCTYPE html>
             "position": 8,
             "name": "Biology 2",
             "item": "https://ibaguette.com/cheatsheets/gcse/biology/2"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "GCSE Subject Specific Sites Revision Guide",
+            "item": "https://ibaguette.com/cheatsheets/gcse/subject-sites"
           }
         ]
       }
@@ -620,6 +624,15 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
+<br><br>
+<h2>Community Contributions!</h2>
+<div class="dropdown">
+  <button id="dropbtn-hizi" onclick= "window.open('https://ibaguette.com/cheatsheets/gcse/subject-sites', '_blank');" style="cursor: pointer;">Subject Revision Guide</button>
+  <div class="dropdown-content">
+  <a href="https://ibaguette.com/cheatsheets/gcse/subject-sites" target="_blank" rel="noopener">[By Hizi] GCSE Subject Specific Sites Revision Guide</a>
+  </div>
+</div>
+
 <br><br><br>
 <p style="font-size: 14px; font-weight: bold;">If you're wondering, here are my results:</p>
 <p style="font-size: 12px;"><strong>Grade 9s:</strong> Computer Science (OCR), Biology (Edexcel), Physics (Edexcel), French (Edexcel), English Language (AQA) and Geography (AQA)<br>
@@ -633,7 +646,7 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   <br>
 	<!-- do not modify the below lines, auto updated by git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">ef2281b</a> | Version 1.2b</p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">0648f9e</a> |<strong> Version 1.4 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`

@@ -254,10 +254,10 @@ const alevel_main_page = `<!DOCTYPE html>
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
 	<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
     <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
-    <!-- <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> --> <!-- iBaguette CDN Stylesheet with Cloudflare. --> 
+    <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. --> 
 	
 	<!-- uncomment below if running locally -->
-	<link rel="stylesheet" href="D:\CheatSheets\cheatsheet-browser-style.css">
+	<!-- <link rel="stylesheet" href="D:\CheatSheets\cheatsheet-browser-style.css"> -->
 	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
 	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/geography/all">
 

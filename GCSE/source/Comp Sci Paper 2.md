@@ -3,16 +3,21 @@
 [< Back to GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 
-# OCR Computer Science GCSE Paper 2
+# OCR J277 Computer Science Paper 2 Cheat Sheet
 
-> ==You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can't code Python, you can use an online tool like Replit (where you can code wiith friends at the same time too!) or an IDE and just start coding something random. You will find my examples at the bottom.==
+[Latest update: 23/08/2023 21:48. 
+Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
+
+> ==You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can't code Python, you can use an online tool like Replit (where you can code wiith friends at the same time too!) or use an IDE like IDLE or VS Code and just start coding something random. You will find my examples at the bottom for inspiration.==
 
 # 2.1 Algorithms
 
 ## 2.1.1 Computational thinking
 
 
-![Algorithms spec content](https://media.discordapp.net/attachments/972581792576053298/979059440709955695/2.1.1.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.1_Computational_thinking.png)
 
 There are 3 words to describe 'computational thinking':
 
@@ -26,7 +31,7 @@ It is only when a problem is decomposed and abstracted, that creating of the alg
 
 ## 2.1.2 Designing algorithms
 
-![ibaguette.com](https://media.discordapp.net/attachments/972581792576053298/979059479121367080/2.1.2.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Designing_algorithms.png)
 
 An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, as well as if any decisions need to be made. 
 
@@ -41,10 +46,10 @@ Algorithms are made in three different ways: pseudocode, flowcharts and in Pytho
 - A diamond represents a decision, for example if `x > y`. Then there would be 2 lines coming from this, one for yes and one for no.
 - A rectangle with curved sides represents a terminal, like the start or end of the program.
 
-![if you see this then your network can't load the image.](https://bam.files.bbci.co.uk/bam/live/content/zvf3d6f/small)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/flowchart1.png)
 *Make sure you know this. Credit BBC*
 
-![if you see this then your network can't load the image.](https://bam.files.bbci.co.uk/bam/live/content/zdkwhbk/medium)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/flowchart2.png)
 *Example use. Credit BBC*
 
 ### Creating programs
@@ -52,23 +57,25 @@ Algorithms are made in three different ways: pseudocode, flowcharts and in Pytho
 Advantages of using flowcharts include the fact that it shows a step-by-step method of how to solve a program, which can be easily written. Disadvantages of flowcharts include that they may be time consuming to make and not easily drawn.
 
 Advantages of using pseudocode (looks like real code but won't run) include it acts as the foundations for transcribing it into an actual programming language like Python, and is easy to understand with an English-like syntax, like Python, making it easy for non-programmers as well, like Python. Errors in the design will not affect the program as it is obvious what the intended result is, and if there is an obvious error this can be easily changed.
+
 Disadvantages include that it can be harder to see how a program flows with indentation, and is just more time consuming to make than a flowchart, so you might as well use Python for that.
 
 
-Pseudocode example
+Pseudocode example:
+
+```py
+while answer_inputted != 'valorant'
+	answer_inputted = input ("What is the worst game?")
+	if answer_inputted == "valorant" then
+		print("Correct! you got it right.")
+	else
+		print("Wrong")
+	endif
+endwhile
+```
 
 
-`while answer_inputted != 'valorant'`
-	`answer_inputted = input ("what is the worst game")`
-`	if answer_inputted == "valorant" then`
-`		print("correct! you got it right.")`
-`	else`
-`		print("wrong")`
-`	endif`
-`endwhile`
-
-
-It's easy to tell what this 'code' does. 
+It's relatively easy to tell what this 'code' does:
 - Line 1 says the loop will repeat `while` the `answer_inputted` is not `'valorant'`.
 - Line 2 sets variable `answer_inputted` to the outcome of the `input`
 - Line 3 checks `if` `answer_inputted ` is `'valorant'`
@@ -88,7 +95,7 @@ A logic error has occurred if the expected value on paper does not equal the rec
 
 > They enable a programmer to compare what the value of each variable should be against what a program actually produces. Where the two differ is the point in the program where a logic error has occurred.
 
-![](https://media.discordapp.net/attachments/972581792576053298/979105132396568606/le_table.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/le_table.png)
 *from bitesize*
 
 https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9
@@ -97,7 +104,7 @@ https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9
 
 ## 2.1.3 Searching and sorting algorithms
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059536180703282/2.1.3_searchsort.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.3_searchsort.png)
 
 ### Linear search
 
@@ -141,8 +148,8 @@ Very simplified version:
 3. Go to the next pair of values and repeat. If something is smaller than the existing smallest value, then place it there instead. (Same with biggest values)
 4. Repeat until all values are in order
 
-![](https://bam.files.bbci.co.uk/bam/live/content/znq67yc/large)
-*bitesize version*
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/merge-bitesize.png)
+*Bitesize's version*
 
 Large data sets are better with merge sorts as they are more efficient.
 
@@ -158,8 +165,8 @@ More efficient than bubble sort, but less complex and efficient than a merge sor
 3. Compare the values of 2 and 3. Move 3 to the left until it cannot be moved any more as the number is smaller than it.
 4. Repeat for all values. 
 
-![](https://bam.files.bbci.co.uk/bam/live/content/z626382/large)
-*bitesize version*
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/insertion-bitesize.png)
+*Bitesize's version*
 
 Insertion sorts work best when used with smaller data sets. 
 
@@ -171,7 +178,7 @@ https://www.bbc.co.uk/bitesize/guides/zjdkw6f/revision/6
 
 ## 2.2.1 Programming fundamentals
 
-![.](https://media.discordapp.net/attachments/972581792576053298/979059627499077642/2.2_programming_fundamentals.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.2_programming_fundamentals.png)
 
 
 ### Basic programming definitions
@@ -223,9 +230,9 @@ There are comparison and arithmetic operators. (They will give the boolean value
 - `/`
 	- Division
 - `MOD`
-	- Modulus. Gives the remainder. 20 mod 8 = 4. (16 remainder 4)
+	- Modulus. Gives the **remainder**. 20 mod 8 = 4. (16 remainder 4)
 - `DIV`
-	- Quotient. Gives how many times the number can be fully divided. 20 div 8 = 2. (20 divided by 8 is 2 remainder 4.)
+	- Quotient. Gives how many times the number **can be fully divided**. 20 div 8 = 2. (20 divided by 8 is 2 remainder 4.)
 - `^`
 	- Exponentiation. To the power of. 2^8 = 256.
 
@@ -234,14 +241,14 @@ There are comparison and arithmetic operators. (They will give the boolean value
 - OR - only True if one or more values are True.
 - NOT - everything that is not the value.
 
-![](https://media.discordapp.net/attachments/972581792576053298/979110986508292157/unknown.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/boolops.png)
 
 
 
 
 ## 2.2.2 Data types
 
-![Your device cannot load this image - it may be blocked.](https://media.discordapp.net/attachments/972581792576053298/979059686441648138/2.2.2_Data_types.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.2.2_Data_types.png)
 
 - Integer: Positive or negative whole numbers
 - Real/float: Numbers with decimal places
@@ -265,16 +272,16 @@ You can turn the above into two lines by using this:
 
 ## 2.2.3 Additional programming techniques
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059762308210749/2.2.3_Additional_programming_stuff.png)
-*THERE IS A LOT HERE I WILL BE QUICK*
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.2.3_Additional_programming_stuff.png)
+*THERE IS A LOT HERE, I WILL BE QUICK!*
 
 ### String manipulation
 
-Not manipulating surds, or abusing strings, but just messing about with the sting. 
+Not manipulating surds, or abusing strings, but just messing about with the string instead. 
 
 The length of a string can be obtained by doing `len(string)`, where `string` is a variable holding a string value.
 
-You can also get the characters at a specific point in a string. If `x` = 'Baguette', then `x[3]` would be 'u'. Remember 0 is your first value.
+You can also get the characters at a specific point in a string. If `x` = 'Baguette', then `x[3]` would be 'u'. Remember that 0 is your first value in a list/array.
 
 To get the characters from positions 0 and 3 (not included), the syntax is this: `x[0:3]`  = would be 'Bag'. This is known as 'slicing'.
 
@@ -295,7 +302,8 @@ Arrays (interchangeable with lists honestly) store lots of stuff and are denoted
 
 Notice how inside one list, there are actually 2 smaller lists? This is a 2D array. To get the value of '55' from the second array, we do `print(list_of_cars_and_prices[1][2]`. This gets the **third value** from the **second array**, inside the list called 'list_of_cars_and_prices'. This can be used to store values next to each other.
 
-> To change a value of an item in an array/list, do `list_name[index] = "thing_to_change_it_to"`
+> To change a value of an item in an array/list, do:
+> `list_name[index] = "thing_to_change_it_to"`
 
 ### Functions and procedures
 
@@ -311,18 +319,24 @@ Functions return a value. You can assign a value to a variable, and set this val
 ### File handling
 
 writing:
-`file1 = open("file.txt")`
-`x = file1.write("AMONG US FRENCH SUSSY BAGUETTES")`
-`file1.close()`
+```py
+file1 = open("file.txt")
+x = file1.write("AMONG US FRENCH SUSSY BAGUETTES")
+file1.close()
+```
 
-reading back:
-`file1 = open("file.txt")`
-`x = file1.read()`
-`file1.close()`
+Reading back the contents:
+```py
+file1 = open("file.txt")
+x = file1.read()
+file1.close()
 
-`print(x)`
+print(x)
 
-must always do `file.close()` to avoid corruption
+>>> AMONG US FRENCH SUSSY BAGUETTES
+```
+
+It's best practice to always do `file.close()` to avoid file corruption.
 
 ### Locals and globals
 
@@ -342,20 +356,17 @@ Data can be retrieved using the commands  `SELECT, FROM` and `WHERE`
 
 `*` stands for wildcard, which means all records.
 
-from the ibaguette emails database:
+from the iBaguette emails database:
 `SELECT * FROM "Users" WHERE "Email Address" LIKE "admin" OR "draggie"`
 would retrieve:
 
-1			Draggie		306			Superuser			draggie@ibaguette.com
-6			Admin			Beans		Administrator	admin@ibaguette.com
-7			Draggie1	306			admin@ibaguette.com
-*ID		User			Surname	Email Address*
-
-
+| ID | User     | Surname | Email Address     |
+|----|----------|---------|-------------------|
+| 1  | Draggie  | 306     | draggie@ibaguette.com |
+| 6  | Admin    | Beans   | admin@ibaguette.com   |
+| 7  | Draggie1 | 306     | admin@ibaguette.com   |
 
 [i'm tired please just click this until it might get updated.](https://www.bbc.co.uk/bitesize/guides/zb3yb82/revision/7)
-
-
 
 ### Randoms
 
@@ -363,14 +374,12 @@ You must `import random`at the start of the program for this to work.
 
 `random.randint(lower_bound, upper_bound)` is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number.
 
-
-
 # 2.3 Producing robust programs
 
 
 ## 3.1 Defensive design
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059824711061554/2.3.1_Defensive_design.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.1_Defensive_design.png)
 
 A program must be able to handle all likely input values, not just the intended one. If valid data is inputted which might affect functionality, for example entering -10 to an age question, then this will produce logic errors. To accommodate this, there can be a range of things added to a program to ensure these do not occur.
 
@@ -392,7 +401,7 @@ Code written must also be maintainable in the future. There are several ways of 
 
 ## 2.3.2 Testing
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059974670000198/2.3.2_testing.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.2_testing.png)
 
 Testing is used to make sure there is no bugs or unexpected events when the code is run. You don't want to send your code to a client if it doesn't work! 
 
@@ -420,11 +429,11 @@ Erroneous test data as data of the incorrect data type which should be rejected 
 
 ## 2.4.1 Boolean logic
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059975408189530/2.4.1_boolean_logic.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.4.1_boolean_logic.png)
 *Ahhh... logic diagrams and truth tables. My worst enemy. There's always a tricksy little 1 or 0 that I always put in the wrong place and there goes my full marks for the test. Grrrr!*
 
 
-![AND, OR and NOT gates](https://media.discordapp.net/attachments/972581792576053298/979133277187244063/unknown.png)
+![AND, OR and NOT gates](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andornot.png)
 *Your and or and not gates*
 
 You must be able to follow the lines in a truth table, and the interactions these have at these gates.
@@ -433,17 +442,17 @@ You must be able to follow the lines in a truth table, and the interactions thes
 - An OR gate will only output 1 if **one or more** of its inputs are 1.
 - A NOT gate will only output 1 if its input is 0. (Essentially reversing the input)
 
-![AND gate](https://media.discordapp.net/attachments/972581792576053298/979134326962786354/unknown.png)
+![AND gate](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andgate.png)
 *AND gate outputs*
 
-![OR gate ](https://media.discordapp.net/attachments/972581792576053298/979134130950381648/unknown.png)
+![OR gate ](https://cheatsheet-assets.ibaguette.com/gcse/compsci/orgate.png)
 *OR gate outputs*
 
-![Deez nots](https://media.discordapp.net/attachments/972581792576053298/979135318110392380/unknown.png)
+![Deez nots](https://cheatsheet-assets.ibaguette.com/gcse/compsci/notgate.png)
 *Deez NOTs*
 
 
-![Lmao](https://media.discordapp.net/attachments/972581792576053298/979134378007461948/unknown.png)
+![Lmao](https://cheatsheet-assets.ibaguette.com/gcse/compsci/waffling.png)
 *You don't have to know this lol*
 
 # 2.5 Languages and IDEs
@@ -451,16 +460,15 @@ You must be able to follow the lines in a truth table, and the interactions thes
 ## 2.5.1 Languages
 
 ![](https://media.discordapp.net/attachments/972581792576053298/979060118387839047/2.5.1_languages.png)
-*Lae français est aussi une langue mignonne mdr. attendre, je n'ai dit jamais ca, d'accord ? Merci. 👀*
 
 There are two categories of programming language: high and low level languages.
 
-- High level languages are those which sensible people code in, like Python, JavaScript, HTML. They are easy to read and write, and some have a human like syntax. They do not depend on the physical architecture of the processors executing them. However, as they are machine independent, they must be translated in order to run.
+- High level languages are those which sensible people code in, like Python, JavaScript, HTML. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
 - Low-level languages like assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run 'closer' to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary. 
 
-> Assembly code, although is a low level language, not quite machine code. Machine code is what everything must be translated into in order to be executed.
+> Assembly code, although is a low level language, is not quite machine code. Machine code is what everything must be translated into in order to be executed.
 
-![enter image description here](https://bam.files.bbci.co.uk/bam/live/content/zbkjpg8/medium)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/compsci/translators.png)
 *Stolen from [here](https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5)*
 
 A compiler parses the source code once, saving the results as a binary file, translating it. An interpreter reads the source code line by line and converts it to executable binary while executing.
@@ -474,7 +482,7 @@ Interpreted code is slower, as the CPU must wait for every line to be translated
 
 ## 2.5.2 The IDE
 
-![](https://media.discordapp.net/attachments/972581792576053298/979060118605922314/2.5.2_The_Integrated_Development_Environment_IDE.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.2_The_Integrated_Development_Environment_IDE.png)
 
 The IDE (integrated development environment) has a wide range of tools to help programmers develop programs. These include:
 
@@ -524,8 +532,8 @@ That's it! Go get a grade 9! Of course you need to do some of your own programmi
 ## Answers
 
 1) 
-[My example](https://media.discordapp.net/attachments/972581792576053298/979121731992178718/unknown.png). 
-Download [Python](https://cdn.discordapp.com/attachments/972581792576053298/979125133417525298/target.py) / [txt](https://cdn.discordapp.com/attachments/972581792576053298/979125211905556490/target.txt)
+[My example](https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.png). 
+Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.py) / [txt](https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.txt)
 
 ```py
 import random
@@ -547,8 +555,8 @@ while guessed == False:
 
 
 ### Answer 2
-[My example](https://media.discordapp.net/attachments/972581792576053298/979120051200331826/CheatSheetExcersise1.png).  
-Download [Python](https://cdn.discordapp.com/attachments/972581792576053298/979125132901613568/age.py) / [txt](https://cdn.discordapp.com/attachments/972581792576053298/979125211729362954/age.txt)
+[My example](https://cheatsheet-assets.ibaguette.com/gcse/compsci/CheatSheetExcersise1.png).  
+Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/age.py) / [txt](https://cheatsheet-assets.ibaguette.com/gcse/compsci/age.txt)
 
 ```py
 def getAge():
@@ -560,7 +568,6 @@ def getAge():
             return age
         else:
             print("Enter a valid age.")
-
 
 def menu():
     print("Welcome to the gambling arena.")
@@ -576,10 +583,10 @@ menu()
 
 ### Answer 3
 
-Here's [my example](https://media.discordapp.net/attachments/972581792576053298/979124703111315497/unknown.png).
+Here's [my example](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.png).
 
- I used f-strings and more to make it look more complicated. 
-Download [Python](https://cdn.discordapp.com/attachments/972581792576053298/979125133795016774/cars.py) / [txt](https://cdn.discordapp.com/attachments/972581792576053298/979125211549028482/cars.txt)
+I also used "f-strings" and more to make it look more complicated. 
+Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.py) / [txt](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.txt)
 
 ```py
 cars_data = [["among car", "sussy car", "beans car", "spelunked car", "supressed (s)car"], [10, 20, 40, 20, 10], []]
@@ -599,8 +606,8 @@ while coins > 10:
             cars_data[0][x] = f"{cars_data[0][x]} (Bought)"
         else:
             print("You already own this car.")
-else:
-    print(f"You cannot afford any more cars! You have: {cars_data[2]}")
+	else:
+	    print(f"You cannot afford any more cars! You have: {cars_data[2]}")
 ```
 
 ### Want more examples?

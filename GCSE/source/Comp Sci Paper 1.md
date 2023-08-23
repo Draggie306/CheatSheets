@@ -3,24 +3,13 @@
 [< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 
-# Ah yes computer science!
 
-[Last content update: 18/04/2023 23:00](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
-✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
+# OCR J277 Computer Science Paper 1 Cheat Sheet
 
-Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
+[Latest update: 23/08/2023 21:48. 
+Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
-> (Thank you messages are also appreciated, you might get featured!)
-
-
-Firstly…
-
-[![Creative Commons License](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](https://bit.ly/CheatSheetCC)  
-This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](https://bit.ly/CheatSheetCC). I guess you could say it's *open source*... see below...
-
-
-> This document was written with [StackEdit](https://stackedit.io/)! Check it out, it’s really cool.
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
 
 ## READ THIS FIRST:
 
@@ -48,8 +37,6 @@ For ease of access, I’ve written this in a way designed to be read smoothly ac
 # 1.1 - Systems architecture
 
 ## 1.1.1 Architecture of the CPU
-
-*Advance information: The purpose of the CPU, common CPU components and their features, and Von Neumann architecture will be directly assessed.*
 
 ### **The purpose of the CPU - the F-D-E cycle**
 
@@ -143,8 +130,8 @@ Personally I find this the easiest way to remember them:
 
 The clock speed is measured in gigahertz (GHz) and represents how many fetch-decode-execute cycles happen per second. 1 GHz = 1 billion cycles.
 
-![Task manager showing the clock speed of a computer with 6 cores.](https://media.discordapp.net/attachments/785620979300302869/970064727403282472/unknown.png)  
-_^^ My computer running at 4.27 GHz, overclocked from 3.7 GHz. This means that 4,270,000,000 fetch-decode-execute cycles are happening per second. Speedy, right?_
+![Task manager showing the clock speed of a computer with 6 cores.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/clockspeed.png)  
+_My computer running at 4.27 GHz, overclocked from 3.7 GHz. This means that 4,270,000,000 fetch-decode-execute cycles are happening per second. Speedy, right?_
 
 A clock speed of 4.27 GHz means that 1 clock happens 274,000,000 times faster than a reflex action. In that time, light itself can only travel about 8cm. In other words, they’re really fast.
 
@@ -164,8 +151,8 @@ A CPU has multiple cores on it. CPUs with multiple cores have more power to run 
 
 However, doubling cores does not double clock speed. Some headroom is needed to communicate between each core.
 
-![Something you don't need to remember](https://bam.files.bbci.co.uk/bam/live/content/zh8pb9q/large)  
-_Something you don’t need to remember, I don’t really know why I put it here. Just remember more cores = faster as it can do multiple tasks concurrently!_
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/corechannel.png)  
+_Something you don’t need to remember, I don’t really know why I put it here. Just remember more cores = faster as it can do multiple tasks concurrently!_ (Source: Bitesize)
 
 ## 1.1.3 - Embedded systems
 
@@ -180,8 +167,6 @@ They are not reprogrammable either - all the programming is done in manufacturin
 Advantages of these systems include they require less power to run and are cheaper to make as their processors are not as powerful.
 
 # 1.2 Memory and Storage
-
-*Advance information: All below will be assessed.*
 
 ## 1.2.1 Primary storage
 
@@ -219,8 +204,8 @@ Text file size = bits per character x number of characters
 ## 1.2.4 Data storage
 
 
-![data storage 1](https://media.discordapp.net/attachments/972581792576053298/972581794857775154/unknown.png)
-![data storage 2](https://media.discordapp.net/attachments/972581792576053298/975154263745495041/1.2.4_Data_storage__part_of_1.2_Memory_and_Storage.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.2.4_Data_storage.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.2.4_Data_storage__part_of_1.2_Memory_and_Storage.png)
 *There's a lot in this topic (including the things I find the hardest but shh)*
 
 ### Denary to binary
@@ -263,8 +248,8 @@ The other way is to divide the denary number by 16 until you can't (here, 6 time
 
 Try and work it out. The answer is below 'Binary shifts' below...
 
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154252060176424/Denary_to_binary_to_hex_quick_drawn_table_lmao.jpg)
-*I guarantee you this will be on my test lol*
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/Denary_to_binary_to_hex_quick_drawn_table_lmao.jpg)
+*I guarantee you this will be in my exam paper lol*
 
 ### Hex to denary/binary
 
@@ -369,11 +354,6 @@ This would reduce the file from 27 bytes to 12 bytes. A reduction of over 60%!
 
 # 1.3 Networks, connections and protocols
 
-*Advance information: The following will be directly assessed:*
-- Factors that affect the performance of networks
-- The hardware needed to connect stand-alone computers into a Local Area Network
-- The Internet as a worldwide collection of computer networks.
-
 ## 1.3.1 Networks and topologies
 
 A network's topology is how different nodes (a device connected to a network) are arranged in it. All nodes are either wired or wirelessly connected.
@@ -436,7 +416,7 @@ Disadvantages:
 - Standards
 - Common protocols
 
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154246938935316/1.3.2_Wired_and_wireless_networks_protocols_and_layers.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.3.2_Wired_and_wireless_networks_protocols_and_layers.png)
 
 A network is a group of two or more computers connected together to communicate. There are 2 ways for them to communicate: wired (ethernet) and wireless (Wi-Fi, Bluetooth).
 
@@ -505,7 +485,7 @@ Layering means the breakdown of the sending of messages into separate components
 # 1.4 Network security
 
 ## 1.4.1 Threats to computer systems
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154737563455498/1.4_and_1.4.1_Network_Security_-_threats_to_systems_and_networks.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.4_and_1.4.1_Network_Security_-_threats_to_systems_and_networks.png)
 
 ### Malware
 Malware is an umbrella term for malicious software designed to compromise a system.
@@ -551,9 +531,8 @@ You don't need to know what SQL actually is, but rather the process of it. SQL i
 
 ## 1.4.2 Preventing vulnerabilities
 
-*Advance information: 'Common prevention methods' will be assessed.*
-
 ### Penetration testing
+
 Pen testing is when authorised users (including white hat hackers) probe a network for weaknesses, and attempt to exploit them. It is used to check how resistant a network is against malicious attacks by trying to identify security issues before they are exploited. White hat hackers or organisations who attempt to find vulnerabilities can get paid hundreds of thousands for finding issues!
 
 
@@ -581,7 +560,7 @@ Passwords are used to verify a user's identity. Secure passwords could include a
 
 ### Encryption 
 
-The process of changing data from plaintext to cyphertext so it cannot be understood. For example if a database containing passwords gets accessed by a hacker, the passwords themselves are not visible and the user's private key is still needed to decrypt them. Smart, right?
+The process of changing data from plaintext to ciphertext so it cannot be understood. For example if a database containing passwords gets accessed by a hacker, the passwords themselves are not visible and the user's private key is still needed to decrypt them. Smart, right?
 
 
 ### Physical security
@@ -594,7 +573,7 @@ Server rooms should be locked and only authorised people such as the admins can 
 
 ## 1.5.1 Operating systems
 
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154731376853052/1.5.1_Operating_systems_as_part_of_systems_software_unit.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.5.1_Operating_systems_as_part_of_systems_software_unit.png)
 
 An operating system is a suite of programs that controls the general operation of a computer, and provides an easy way for us to interact with computers and run applications.
 
@@ -654,7 +633,7 @@ If you don't, read below:
 Hard disk drives are separated into thousands of tracks, with thousands of segments in these tracks. When a file is written to a disk, it is written to the next available segment. Let's say you're downloading a 30GB game - and you pause it halfway through for an hour, and you download some music. Then, on the hard drive, you will have some of the game, then some music. Let's say you finish the download. Then, there will be some game, some music, and the rest of the game. Oh, also, how about some programs were updating in the background and it didn't say! Then, there will be loads of 'fragmented' parts of games, programs and music, all jumbled around near each other on the disk!
 
 This is terrible for the computer's performance, as the head has to go to loads of physically distanced parts of the disk to read and write to. Defragging moves the files from all these parts to one consecutive track, where possible. This will load your games up a load faster!
-![enter image description here](http://storageprocess.weebly.com/uploads/1/7/3/1/17314496/3956138.png?371)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/hard_drive.png)
 *What a hard drive is actually made from. Remember there can be several platters on a large drive!*
 
 ##### NOTE: Solid state drives' speeds are not affected by fragmentation. Do NOT EVER try and defrag a SSD! 
@@ -679,15 +658,11 @@ Remember, it will take a long time to download from the cloud, so if there's a q
 
 # 1.6 Impacts of digital technology
 
-*Advance information: The following will be directly assessed:*
-- Impacts of digital technology on wider society
-- Legislation relevant to Computer Science
-
 ## 1.6.1 Ethical, legal, cultural and environmental impact
 
 Here's what the specification says on this subtopic:
 
-![What you need to know](https://media.discordapp.net/attachments/972581792576053298/975121812826488874/If_you_see_this_somehow_I_totally_do_not_like_Nolwenn_Tighe._Please_dont_look_at_other_file_names_thank_you_lol.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/If_you_see_this_somehow_I_totally_do_not_like_Nolwenn_Tighe._Please_dont_look_at_other_file_names_thank_you_lol.png)
 
 ### Impacts of digital technology on wider society including: 
 - Ethical issues 

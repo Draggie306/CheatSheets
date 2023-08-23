@@ -1,62 +1,36 @@
 ﻿
 
-[< Back to GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
+
+[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 
-# Ah yes computer science!
 
-[Last content update: 18/04/2023 23:00](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
-✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
+# OCR J277 Computer Science GCSE Cheat Sheet!
 
-Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
+[Latest update: 23/08/2023 21:48. 
+Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
-> (Thank you messages are also appreciated, you might get featured!)
-
-
-Firstly…
-
-[![Creative Commons License](https://i.creativecommons.org/l/by-nd/4.0/88x31.png)](https://bit.ly/CheatSheetCC)  
-This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International License](https://bit.ly/CheatSheetCC). I guess you could say it's *open source*... see below...
-
-
-> This document was written with [StackEdit](https://stackedit.io/)! Check it out, it’s really cool.
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
 
 ## READ THIS FIRST:
 
-Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the useful stuff which I think will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
+Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
 
-### **This cheat sheet covers _all_ of specification for: J277/01: Computer systems, and J277/02: Computational thinking, algorithms and programming**
+### **This cheat sheet covers _all_ of specification for: J277/01: Computer systems as well as J277/02: Computational thinking, algorithms and programming**
 
-From OCR:  
-J277/01: This component will assess:  
-• 1.1 Systems architecture  
-• 1.2 Memory and storage  
-• 1.3 Computer networks, connections and protocols  
-• 1.4 Network security  
-• 1.5 Systems software  
-• 1.6 Ethical, legal, cultural and environmental impacts of digital technology
+Both papers are 50% of the total GCSE, and are worth 80 marks.
 
-• 2.1 – Algorithms
-• 2.2 – Programming fundamentals
-• 2.3 – Producing robust programs
-• 2.4 – Boolean logic
-• 2.5 – Programming languages and Integrated Development Environments
+## ABOUT THIS
 
-## ABOUT ME
+For ease of access, I’ve written this in a way designed to be read smoothly across any device, called Markdown. It’s easy to navigate and should look nice to read. To skip to areas you are weak on, I’d recommend using the side bar on the left - you may need to open in desktop site or read on a computer to use this Table of Contents.
 
-For ease of access, I’ve written this in a way designed to be read smoothly across any device, called Markdown. It’s easy to navigate and should look nice to read. To skip to areas you are weak on, I’d recommend using the side bar on the left - you may need to open in desktop site or read on a computer to quickly skip between parts.
-
-Anyway, without waiting much longer, let’s start with…
-
+All our Cheat Sheets are made as 1:1 compliments to the specification. The J277 spec is available [here](https://www.ocr.org.uk/Images/558027-specification-gcse-computer-science-j277.pdf).
 
 # Paper 1
 
 # 1.1 - Systems architecture
 
 ## 1.1.1 Architecture of the CPU
-
-*Advance information: The purpose of the CPU, common CPU components and their features, and Von Neumann architecture will be directly assessed.*
 
 ### **The purpose of the CPU - the F-D-E cycle**
 
@@ -150,8 +124,8 @@ Personally I find this the easiest way to remember them:
 
 The clock speed is measured in gigahertz (GHz) and represents how many fetch-decode-execute cycles happen per second. 1 GHz = 1 billion cycles.
 
-![Task manager showing the clock speed of a computer with 6 cores.](https://media.discordapp.net/attachments/785620979300302869/970064727403282472/unknown.png)  
-_^^ My computer running at 4.27 GHz, overclocked from 3.7 GHz. This means that 4,270,000,000 fetch-decode-execute cycles are happening per second. Speedy, right?_
+![Task manager showing the clock speed of a computer with 6 cores.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/clockspeed.png)  
+_My computer running at 4.27 GHz, overclocked from 3.7 GHz. This means that 4,270,000,000 fetch-decode-execute cycles are happening per second. Speedy, right?_
 
 A clock speed of 4.27 GHz means that 1 clock happens 274,000,000 times faster than a reflex action. In that time, light itself can only travel about 8cm. In other words, they’re really fast.
 
@@ -171,8 +145,8 @@ A CPU has multiple cores on it. CPUs with multiple cores have more power to run 
 
 However, doubling cores does not double clock speed. Some headroom is needed to communicate between each core.
 
-![Something you don't need to remember](https://bam.files.bbci.co.uk/bam/live/content/zh8pb9q/large)  
-_Something you don’t need to remember, I don’t really know why I put it here. Just remember more cores = faster as it can do multiple tasks concurrently!_
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/corechannel.png)  
+_Something you don’t need to remember, I don’t really know why I put it here. Just remember more cores = faster as it can do multiple tasks concurrently!_ (Source: Bitesize)
 
 ## 1.1.3 - Embedded systems
 
@@ -187,8 +161,6 @@ They are not reprogrammable either - all the programming is done in manufacturin
 Advantages of these systems include they require less power to run and are cheaper to make as their processors are not as powerful.
 
 # 1.2 Memory and Storage
-
-*Advance information: All below will be assessed.*
 
 ## 1.2.1 Primary storage
 
@@ -226,8 +198,8 @@ Text file size = bits per character x number of characters
 ## 1.2.4 Data storage
 
 
-![data storage 1](https://media.discordapp.net/attachments/972581792576053298/972581794857775154/unknown.png)
-![data storage 2](https://media.discordapp.net/attachments/972581792576053298/975154263745495041/1.2.4_Data_storage__part_of_1.2_Memory_and_Storage.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.2.4_Data_storage.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.2.4_Data_storage__part_of_1.2_Memory_and_Storage.png)
 *There's a lot in this topic (including the things I find the hardest but shh)*
 
 ### Denary to binary
@@ -270,8 +242,8 @@ The other way is to divide the denary number by 16 until you can't (here, 6 time
 
 Try and work it out. The answer is below 'Binary shifts' below...
 
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154252060176424/Denary_to_binary_to_hex_quick_drawn_table_lmao.jpg)
-*I guarantee you this will be on my test lol*
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/Denary_to_binary_to_hex_quick_drawn_table_lmao.jpg)
+*I guarantee you this will be in my exam paper lol*
 
 ### Hex to denary/binary
 
@@ -376,11 +348,6 @@ This would reduce the file from 27 bytes to 12 bytes. A reduction of over 60%!
 
 # 1.3 Networks, connections and protocols
 
-*Advance information: The following will be directly assessed:*
-- Factors that affect the performance of networks
-- The hardware needed to connect stand-alone computers into a Local Area Network
-- The Internet as a worldwide collection of computer networks.
-
 ## 1.3.1 Networks and topologies
 
 A network's topology is how different nodes (a device connected to a network) are arranged in it. All nodes are either wired or wirelessly connected.
@@ -443,7 +410,7 @@ Disadvantages:
 - Standards
 - Common protocols
 
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154246938935316/1.3.2_Wired_and_wireless_networks_protocols_and_layers.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.3.2_Wired_and_wireless_networks_protocols_and_layers.png)
 
 A network is a group of two or more computers connected together to communicate. There are 2 ways for them to communicate: wired (ethernet) and wireless (Wi-Fi, Bluetooth).
 
@@ -512,7 +479,7 @@ Layering means the breakdown of the sending of messages into separate components
 # 1.4 Network security
 
 ## 1.4.1 Threats to computer systems
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154737563455498/1.4_and_1.4.1_Network_Security_-_threats_to_systems_and_networks.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.4_and_1.4.1_Network_Security_-_threats_to_systems_and_networks.png)
 
 ### Malware
 Malware is an umbrella term for malicious software designed to compromise a system.
@@ -558,9 +525,8 @@ You don't need to know what SQL actually is, but rather the process of it. SQL i
 
 ## 1.4.2 Preventing vulnerabilities
 
-*Advance information: 'Common prevention methods' will be assessed.*
-
 ### Penetration testing
+
 Pen testing is when authorised users (including white hat hackers) probe a network for weaknesses, and attempt to exploit them. It is used to check how resistant a network is against malicious attacks by trying to identify security issues before they are exploited. White hat hackers or organisations who attempt to find vulnerabilities can get paid hundreds of thousands for finding issues!
 
 
@@ -588,7 +554,7 @@ Passwords are used to verify a user's identity. Secure passwords could include a
 
 ### Encryption 
 
-The process of changing data from plaintext to cyphertext so it cannot be understood. For example if a database containing passwords gets accessed by a hacker, the passwords themselves are not visible and the user's private key is still needed to decrypt them. Smart, right?
+The process of changing data from plaintext to ciphertext so it cannot be understood. For example if a database containing passwords gets accessed by a hacker, the passwords themselves are not visible and the user's private key is still needed to decrypt them. Smart, right?
 
 
 ### Physical security
@@ -601,7 +567,7 @@ Server rooms should be locked and only authorised people such as the admins can 
 
 ## 1.5.1 Operating systems
 
-![enter image description here](https://media.discordapp.net/attachments/972581792576053298/975154731376853052/1.5.1_Operating_systems_as_part_of_systems_software_unit.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.5.1_Operating_systems_as_part_of_systems_software_unit.png)
 
 An operating system is a suite of programs that controls the general operation of a computer, and provides an easy way for us to interact with computers and run applications.
 
@@ -661,7 +627,7 @@ If you don't, read below:
 Hard disk drives are separated into thousands of tracks, with thousands of segments in these tracks. When a file is written to a disk, it is written to the next available segment. Let's say you're downloading a 30GB game - and you pause it halfway through for an hour, and you download some music. Then, on the hard drive, you will have some of the game, then some music. Let's say you finish the download. Then, there will be some game, some music, and the rest of the game. Oh, also, how about some programs were updating in the background and it didn't say! Then, there will be loads of 'fragmented' parts of games, programs and music, all jumbled around near each other on the disk!
 
 This is terrible for the computer's performance, as the head has to go to loads of physically distanced parts of the disk to read and write to. Defragging moves the files from all these parts to one consecutive track, where possible. This will load your games up a load faster!
-![enter image description here](http://storageprocess.weebly.com/uploads/1/7/3/1/17314496/3956138.png?371)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/hard_drive.png)
 *What a hard drive is actually made from. Remember there can be several platters on a large drive!*
 
 ##### NOTE: Solid state drives' speeds are not affected by fragmentation. Do NOT EVER try and defrag a SSD! 
@@ -686,15 +652,11 @@ Remember, it will take a long time to download from the cloud, so if there's a q
 
 # 1.6 Impacts of digital technology
 
-*Advance information: The following will be directly assessed:*
-- Impacts of digital technology on wider society
-- Legislation relevant to Computer Science
-
 ## 1.6.1 Ethical, legal, cultural and environmental impact
 
 Here's what the specification says on this subtopic:
 
-![What you need to know](https://media.discordapp.net/attachments/972581792576053298/975121812826488874/If_you_see_this_somehow_I_totally_do_not_like_Nolwenn_Tighe._Please_dont_look_at_other_file_names_thank_you_lol.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/If_you_see_this_somehow_I_totally_do_not_like_Nolwenn_Tighe._Please_dont_look_at_other_file_names_thank_you_lol.png)
 
 ### Impacts of digital technology on wider society including: 
 - Ethical issues 
@@ -737,14 +699,14 @@ In short, if you want to make money, use a proprietary license. If you want peop
 
 # Paper 2
 
-### IMPORTANT: THERE IS NO ADVANCE INFORMATION ON THIS PAPER. YOU NEED TO KNOW EVERYTHING.
+> ==You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can't code Python, you can use an online tool like Replit (where you can code wiith friends at the same time too!) or use an IDE like IDLE or VS Code and just start coding something random. You will find my examples at the bottom for inspiration.==
 
 # 2.1 Algorithms
 
 ## 2.1.1 Computational thinking
 
 
-![Algorithms spec content](https://media.discordapp.net/attachments/972581792576053298/979059440709955695/2.1.1.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.1_Computational_thinking.png)
 
 There are 3 words to describe 'computational thinking':
 
@@ -758,13 +720,12 @@ It is only when a problem is decomposed and abstracted, that creating of the alg
 
 ## 2.1.2 Designing algorithms
 
-![ibaguette.com](https://media.discordapp.net/attachments/972581792576053298/979059479121367080/2.1.2.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Designing_algorithms.png)
 
 An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, as well as if any decisions need to be made. 
 
 Algorithms are made in three different ways: pseudocode, flowcharts and in Python (or another high-level language/OCR reference language). 
 
-> ==You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can't code Python, please just get up replit or an IDE and start coding. You will find my examples at the bottom.==
 
 ### Flowchart symbols
 
@@ -774,10 +735,10 @@ Algorithms are made in three different ways: pseudocode, flowcharts and in Pytho
 - A diamond represents a decision, for example if `x > y`. Then there would be 2 lines coming from this, one for yes and one for no.
 - A rectangle with curved sides represents a terminal, like the start or end of the program.
 
-![if you see this then your network can't load the image.](https://bam.files.bbci.co.uk/bam/live/content/zvf3d6f/small)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/flowchart1.png)
 *Make sure you know this. Credit BBC*
 
-![if you see this then your network can't load the image.](https://bam.files.bbci.co.uk/bam/live/content/zdkwhbk/medium)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/flowchart2.png)
 *Example use. Credit BBC*
 
 ### Creating programs
@@ -785,23 +746,25 @@ Algorithms are made in three different ways: pseudocode, flowcharts and in Pytho
 Advantages of using flowcharts include the fact that it shows a step-by-step method of how to solve a program, which can be easily written. Disadvantages of flowcharts include that they may be time consuming to make and not easily drawn.
 
 Advantages of using pseudocode (looks like real code but won't run) include it acts as the foundations for transcribing it into an actual programming language like Python, and is easy to understand with an English-like syntax, like Python, making it easy for non-programmers as well, like Python. Errors in the design will not affect the program as it is obvious what the intended result is, and if there is an obvious error this can be easily changed.
+
 Disadvantages include that it can be harder to see how a program flows with indentation, and is just more time consuming to make than a flowchart, so you might as well use Python for that.
 
 
-Pseudocode example
+Pseudocode example:
+
+```py
+while answer_inputted != 'valorant'
+	answer_inputted = input ("What is the worst game?")
+	if answer_inputted == "valorant" then
+		print("Correct! you got it right.")
+	else
+		print("Wrong")
+	endif
+endwhile
+```
 
 
-`while answer_inputted != 'valorant'`
-	`answer_inputted = input ("what is the worst game")`
-`	if answer_inputted == "valorant" then`
-`		print("correct! you got it right.")`
-`	else`
-`		print("wrong")`
-`	endif`
-`endwhile`
-
-
-It's easy to tell what this 'code' does. 
+It's relatively easy to tell what this 'code' does:
 - Line 1 says the loop will repeat `while` the `answer_inputted` is not `'valorant'`.
 - Line 2 sets variable `answer_inputted` to the outcome of the `input`
 - Line 3 checks `if` `answer_inputted ` is `'valorant'`
@@ -821,7 +784,7 @@ A logic error has occurred if the expected value on paper does not equal the rec
 
 > They enable a programmer to compare what the value of each variable should be against what a program actually produces. Where the two differ is the point in the program where a logic error has occurred.
 
-![](https://media.discordapp.net/attachments/972581792576053298/979105132396568606/le_table.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/le_table.png)
 *from bitesize*
 
 https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9
@@ -830,7 +793,7 @@ https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9
 
 ## 2.1.3 Searching and sorting algorithms
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059536180703282/2.1.3_searchsort.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.3_searchsort.png)
 
 ### Linear search
 
@@ -874,8 +837,8 @@ Very simplified version:
 3. Go to the next pair of values and repeat. If something is smaller than the existing smallest value, then place it there instead. (Same with biggest values)
 4. Repeat until all values are in order
 
-![](https://bam.files.bbci.co.uk/bam/live/content/znq67yc/large)
-*bitesize version*
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/merge-bitesize.png)
+*Bitesize's version*
 
 Large data sets are better with merge sorts as they are more efficient.
 
@@ -891,8 +854,8 @@ More efficient than bubble sort, but less complex and efficient than a merge sor
 3. Compare the values of 2 and 3. Move 3 to the left until it cannot be moved any more as the number is smaller than it.
 4. Repeat for all values. 
 
-![](https://bam.files.bbci.co.uk/bam/live/content/z626382/large)
-*bitesize version*
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/insertion-bitesize.png)
+*Bitesize's version*
 
 Insertion sorts work best when used with smaller data sets. 
 
@@ -904,7 +867,7 @@ https://www.bbc.co.uk/bitesize/guides/zjdkw6f/revision/6
 
 ## 2.2.1 Programming fundamentals
 
-![.](https://media.discordapp.net/attachments/972581792576053298/979059627499077642/2.2_programming_fundamentals.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.2_programming_fundamentals.png)
 
 
 ### Basic programming definitions
@@ -956,9 +919,9 @@ There are comparison and arithmetic operators. (They will give the boolean value
 - `/`
 	- Division
 - `MOD`
-	- Modulus. Gives the remainder. 20 mod 8 = 4. (16 remainder 4)
+	- Modulus. Gives the **remainder**. 20 mod 8 = 4. (16 remainder 4)
 - `DIV`
-	- Quotient. Gives how many times the number can be fully divided. 20 div 8 = 2. (20 divided by 8 is 2 remainder 4.)
+	- Quotient. Gives how many times the number **can be fully divided**. 20 div 8 = 2. (20 divided by 8 is 2 remainder 4.)
 - `^`
 	- Exponentiation. To the power of. 2^8 = 256.
 
@@ -967,14 +930,14 @@ There are comparison and arithmetic operators. (They will give the boolean value
 - OR - only True if one or more values are True.
 - NOT - everything that is not the value.
 
-![](https://media.discordapp.net/attachments/972581792576053298/979110986508292157/unknown.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/boolops.png)
 
 
 
 
 ## 2.2.2 Data types
 
-![Your device cannot load this image - it may be blocked.](https://media.discordapp.net/attachments/972581792576053298/979059686441648138/2.2.2_Data_types.png)
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.2.2_Data_types.png)
 
 - Integer: Positive or negative whole numbers
 - Real/float: Numbers with decimal places
@@ -998,16 +961,16 @@ You can turn the above into two lines by using this:
 
 ## 2.2.3 Additional programming techniques
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059762308210749/2.2.3_Additional_programming_stuff.png)
-*THERE IS A LOT HERE I WILL BE QUICK*
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.2.3_Additional_programming_stuff.png)
+*THERE IS A LOT HERE, I WILL BE QUICK!*
 
 ### String manipulation
 
-Not manipulating surds, or abusing strings, but just messing about with the sting. 
+Not manipulating surds, or abusing strings, but just messing about with the string instead. 
 
 The length of a string can be obtained by doing `len(string)`, where `string` is a variable holding a string value.
 
-You can also get the characters at a specific point in a string. If `x` = 'Baguette', then `x[3]` would be 'u'. Remember 0 is your first value.
+You can also get the characters at a specific point in a string. If `x` = 'Baguette', then `x[3]` would be 'u'. Remember that 0 is your first value in a list/array.
 
 To get the characters from positions 0 and 3 (not included), the syntax is this: `x[0:3]`  = would be 'Bag'. This is known as 'slicing'.
 
@@ -1028,7 +991,8 @@ Arrays (interchangeable with lists honestly) store lots of stuff and are denoted
 
 Notice how inside one list, there are actually 2 smaller lists? This is a 2D array. To get the value of '55' from the second array, we do `print(list_of_cars_and_prices[1][2]`. This gets the **third value** from the **second array**, inside the list called 'list_of_cars_and_prices'. This can be used to store values next to each other.
 
-> To change a value of an item in an array/list, do `list_name[index] = "thing_to_change_it_to"`
+> To change a value of an item in an array/list, do:
+> `list_name[index] = "thing_to_change_it_to"`
 
 ### Functions and procedures
 
@@ -1044,18 +1008,24 @@ Functions return a value. You can assign a value to a variable, and set this val
 ### File handling
 
 writing:
-`file1 = open("file.txt")`
-`x = file1.write("AMONG US FRENCH SUSSY BAGUETTES")`
-`file1.close()`
+```py
+file1 = open("file.txt")
+x = file1.write("AMONG US FRENCH SUSSY BAGUETTES")
+file1.close()
+```
 
-reading back:
-`file1 = open("file.txt")`
-`x = file1.read()`
-`file1.close()`
+Reading back the contents:
+```py
+file1 = open("file.txt")
+x = file1.read()
+file1.close()
 
-`print(x)`
+print(x)
 
-must always do `file.close()` to avoid corruption
+>>> AMONG US FRENCH SUSSY BAGUETTES
+```
+
+It's best practice to always do `file.close()` to avoid file corruption.
 
 ### Locals and globals
 
@@ -1075,20 +1045,17 @@ Data can be retrieved using the commands  `SELECT, FROM` and `WHERE`
 
 `*` stands for wildcard, which means all records.
 
-from the ibaguette emails database:
+from the iBaguette emails database:
 `SELECT * FROM "Users" WHERE "Email Address" LIKE "admin" OR "draggie"`
 would retrieve:
 
-1			Draggie		306			Superuser			draggie@ibaguette.com
-6			Admin			Beans		Administrator	admin@ibaguette.com
-7			Draggie1	306			admin@ibaguette.com
-*ID		User			Surname	Email Address*
-
-
+| ID | User     | Surname | Email Address     |
+|----|----------|---------|-------------------|
+| 1  | Draggie  | 306     | draggie@ibaguette.com |
+| 6  | Admin    | Beans   | admin@ibaguette.com   |
+| 7  | Draggie1 | 306     | admin@ibaguette.com   |
 
 [i'm tired please just click this until it might get updated.](https://www.bbc.co.uk/bitesize/guides/zb3yb82/revision/7)
-
-
 
 ### Randoms
 
@@ -1096,14 +1063,12 @@ You must `import random`at the start of the program for this to work.
 
 `random.randint(lower_bound, upper_bound)` is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number.
 
-
-
 # 2.3 Producing robust programs
 
 
 ## 3.1 Defensive design
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059824711061554/2.3.1_Defensive_design.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.1_Defensive_design.png)
 
 A program must be able to handle all likely input values, not just the intended one. If valid data is inputted which might affect functionality, for example entering -10 to an age question, then this will produce logic errors. To accommodate this, there can be a range of things added to a program to ensure these do not occur.
 
@@ -1125,7 +1090,7 @@ Code written must also be maintainable in the future. There are several ways of 
 
 ## 2.3.2 Testing
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059974670000198/2.3.2_testing.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.2_testing.png)
 
 Testing is used to make sure there is no bugs or unexpected events when the code is run. You don't want to send your code to a client if it doesn't work! 
 
@@ -1153,11 +1118,11 @@ Erroneous test data as data of the incorrect data type which should be rejected 
 
 ## 2.4.1 Boolean logic
 
-![](https://media.discordapp.net/attachments/972581792576053298/979059975408189530/2.4.1_boolean_logic.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.4.1_boolean_logic.png)
 *Ahhh... logic diagrams and truth tables. My worst enemy. There's always a tricksy little 1 or 0 that I always put in the wrong place and there goes my full marks for the test. Grrrr!*
 
 
-![AND, OR and NOT gates](https://media.discordapp.net/attachments/972581792576053298/979133277187244063/unknown.png)
+![AND, OR and NOT gates](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andornot.png)
 *Your and or and not gates*
 
 You must be able to follow the lines in a truth table, and the interactions these have at these gates.
@@ -1166,17 +1131,17 @@ You must be able to follow the lines in a truth table, and the interactions thes
 - An OR gate will only output 1 if **one or more** of its inputs are 1.
 - A NOT gate will only output 1 if its input is 0. (Essentially reversing the input)
 
-![AND gate](https://media.discordapp.net/attachments/972581792576053298/979134326962786354/unknown.png)
+![AND gate](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andgate.png)
 *AND gate outputs*
 
-![OR gate ](https://media.discordapp.net/attachments/972581792576053298/979134130950381648/unknown.png)
+![OR gate ](https://cheatsheet-assets.ibaguette.com/gcse/compsci/orgate.png)
 *OR gate outputs*
 
-![Deez nots](https://media.discordapp.net/attachments/972581792576053298/979135318110392380/unknown.png)
+![Deez nots](https://cheatsheet-assets.ibaguette.com/gcse/compsci/notgate.png)
 *Deez NOTs*
 
 
-![Lmao](https://media.discordapp.net/attachments/972581792576053298/979134378007461948/unknown.png)
+![Lmao](https://cheatsheet-assets.ibaguette.com/gcse/compsci/waffling.png)
 *You don't have to know this lol*
 
 # 2.5 Languages and IDEs
@@ -1184,16 +1149,15 @@ You must be able to follow the lines in a truth table, and the interactions thes
 ## 2.5.1 Languages
 
 ![](https://media.discordapp.net/attachments/972581792576053298/979060118387839047/2.5.1_languages.png)
-*Lae français est aussi une langue mignonne mdr. attendre, je n'ai dit jamais ca, d'accord ? Merci. 👀*
 
 There are two categories of programming language: high and low level languages.
 
-- High level languages are those which sensible people code in, like Python, JavaScript, HTML. They are easy to read and write, and some have a human like syntax. They do not depend on the physical architecture of the processors executing them. However, as they are machine independent, they must be translated in order to run.
+- High level languages are those which sensible people code in, like Python, JavaScript, HTML. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
 - Low-level languages like assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run 'closer' to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary. 
 
-> Assembly code, although is a low level language, not quite machine code. Machine code is what everything must be translated into in order to be executed.
+> Assembly code, although is a low level language, is not quite machine code. Machine code is what everything must be translated into in order to be executed.
 
-![enter image description here](https://bam.files.bbci.co.uk/bam/live/content/zbkjpg8/medium)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/compsci/translators.png)
 *Stolen from [here](https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5)*
 
 A compiler parses the source code once, saving the results as a binary file, translating it. An interpreter reads the source code line by line and converts it to executable binary while executing.
@@ -1207,7 +1171,7 @@ Interpreted code is slower, as the CPU must wait for every line to be translated
 
 ## 2.5.2 The IDE
 
-![](https://media.discordapp.net/attachments/972581792576053298/979060118605922314/2.5.2_The_Integrated_Development_Environment_IDE.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.2_The_Integrated_Development_Environment_IDE.png)
 
 The IDE (integrated development environment) has a wide range of tools to help programmers develop programs. These include:
 
@@ -1257,8 +1221,8 @@ That's it! Go get a grade 9! Of course you need to do some of your own programmi
 ## Answers
 
 1) 
-[My example](https://media.discordapp.net/attachments/972581792576053298/979121731992178718/unknown.png). 
-Download [Python](https://cdn.discordapp.com/attachments/972581792576053298/979125133417525298/target.py) / [txt](https://cdn.discordapp.com/attachments/972581792576053298/979125211905556490/target.txt)
+[My example](https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.png). 
+Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.py) / [txt](https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.txt)
 
 ```py
 import random
@@ -1280,8 +1244,8 @@ while guessed == False:
 
 
 ### Answer 2
-[My example](https://media.discordapp.net/attachments/972581792576053298/979120051200331826/CheatSheetExcersise1.png).  
-Download [Python](https://cdn.discordapp.com/attachments/972581792576053298/979125132901613568/age.py) / [txt](https://cdn.discordapp.com/attachments/972581792576053298/979125211729362954/age.txt)
+[My example](https://cheatsheet-assets.ibaguette.com/gcse/compsci/CheatSheetExcersise1.png).  
+Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/age.py) / [txt](https://cheatsheet-assets.ibaguette.com/gcse/compsci/age.txt)
 
 ```py
 def getAge():
@@ -1293,7 +1257,6 @@ def getAge():
             return age
         else:
             print("Enter a valid age.")
-
 
 def menu():
     print("Welcome to the gambling arena.")
@@ -1309,10 +1272,10 @@ menu()
 
 ### Answer 3
 
-Here's [my example](https://media.discordapp.net/attachments/972581792576053298/979124703111315497/unknown.png).
+Here's [my example](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.png).
 
- I used f-strings and more to make it look more complicated. 
-Download [Python](https://cdn.discordapp.com/attachments/972581792576053298/979125133795016774/cars.py) / [txt](https://cdn.discordapp.com/attachments/972581792576053298/979125211549028482/cars.txt)
+I also used "f-strings" and more to make it look more complicated. 
+Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.py) / [txt](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.txt)
 
 ```py
 cars_data = [["among car", "sussy car", "beans car", "spelunked car", "supressed (s)car"], [10, 20, 40, 20, 10], []]
@@ -1332,9 +1295,14 @@ while coins > 10:
             cars_data[0][x] = f"{cars_data[0][x]} (Bought)"
         else:
             print("You already own this car.")
-else:
-    print(f"You cannot afford any more cars! You have: {cars_data[2]}")
+	else:
+	    print(f"You cannot afford any more cars! You have: {cars_data[2]}")
 ```
+
+### Want more examples?
+
+Come back to the [GCSE Computer Science Cheat Sheet](https://ibaguette.com/cheatsheets/gcse) page soon, and I'll have created 50+ free coding exercises to get you coding, just like the ones above, for a huge variety of different levels, complete with tutorials and exemplar responses.
+
 ##
 
 You've made it to the end! 

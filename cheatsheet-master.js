@@ -246,10 +246,10 @@ const alevel_main_page = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>A level Cheat Sheets | iBaguette.com/CheatSheets</title>
+    <title>A-Level Revision Material | iBaguette</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="A-Level Cheat Sheets and revision material | iBaguette">
-    <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
+    <meta name="title" content="A-Level Revision Material | iBaguette">
+    <meta name="description" content="Explore our comprehensive A-Level cheat sheets and revision material. Ace your exams with resources for Computer Science, Geography, Maths, and more!">
     <meta name="robots" content="index, follow">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
 	<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
@@ -259,7 +259,6 @@ const alevel_main_page = `<!DOCTYPE html>
 	<!-- uncomment below if running locally -->
 	<!-- <link rel="stylesheet" href="D:\CheatSheets\cheatsheet-browser-style.css"> -->
 	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
-	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/geography/all">
 
 	<!-- Breadcrumb for A level -->
     <script type="application/ld+json">
@@ -388,8 +387,8 @@ const alevel_main_page = `<!DOCTYPE html>
 		<a href="https://www.youtube.com/@HugoDecrypte" target="_blank" rel="noopener">HugoDécrypte - Actus du jour</a>
 		<a href="https://www.youtube.com/@HugoDecrypte2/videos" target="_blank" rel="noopener">HugoDécrypte - Extended Listening Practice</a>
 		<a href="https://meltingmots.com/" target="_blank" rel="noopener">Melting Mots - French Abbreviation List and finder</a>
-    <a href="https://cheatsheet-assets.ibaguette.com/alevel/french/Le-silence-de-la-mer-English-only.pdf" target="_blank" rel="noopener">Le Silence de la Mer - English Translation</a>
-    <a href="https://cheatsheet-assets.ibaguette.com/alevel/french/Le-silence-de-la-mer-French-only.pdf" target="_blank" rel="noopener">Le Silence de la Mer - French Only</a>
+		<a href="https://cheatsheet-assets.ibaguette.com/alevel/french/Le-silence-de-la-mer-English-only.pdf" target="_blank" rel="noopener">Le Silence de la Mer - English Translation</a>
+		<a href="https://cheatsheet-assets.ibaguette.com/alevel/french/Le-silence-de-la-mer-French-only.pdf" target="_blank" rel="noopener">Le Silence de la Mer - French Only</a> 
 	  </div>
 	</div>
 
@@ -470,22 +469,16 @@ const gcse_main_page = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>GCSE Cheat Sheets | iBaguette.com/CheatSheets</title>
+    <title>GCSE Revision Material | iBaguette</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="GCSE Cheat Sheets and revision material | iBaguette">
-    <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
+    <meta name="title" content="GCSE Revision Material | iBaguette">
+    <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards for Computer Science, Geography, Maths, and more.">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
     <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
     <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
     <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse">
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse/geography/Paper1">
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse/geography/Paper2">
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse/geography/Paper1and2">
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse/ComputerScience">
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse/science/practicals">
-    <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse/biology/2">
 
     <!-- Breadcrumb for GCSE -->
     <script type="application/ld+json">
@@ -548,7 +541,7 @@ const gcse_main_page = `<!DOCTYPE html>
   </head>
 <body>
 
-<a href="/cheatsheets">< Back to <strong>All Cheat Sheets</strong></a>
+<a href="/cheatsheets"><Back to <strong>All Cheat Sheets</strong></a>
 
 <div class="dark-mode-toggle">
   <button id="dark-mode-btn"></button>

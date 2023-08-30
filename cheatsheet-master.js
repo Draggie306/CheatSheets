@@ -542,7 +542,7 @@ const gcse_main_page = `<!DOCTYPE html>
   </head>
 <body>
 
-<a href="/cheatsheets"><Back to <strong>All Cheat Sheets</strong></a>
+<a href="/cheatsheets">Back to <strong>All Cheat Sheets</strong></a>
 
 <div class="dark-mode-toggle">
   <button id="dark-mode-btn"></button>
@@ -682,7 +682,7 @@ async function handleRequest(request) {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "gcse",
         "Cache-Control": "max-age=864000",
-        "Link": "</cheatsheets/alevel>; rel=prefetch",
+        "Link": "</cheatsheets/alevel>; rel=prefetch, </cheatsheets/gcse/geography/Paper1and2>; rel=prefetch, </cheatsheets/gcse/geography/Paper1>; rel=prefetch, </cheatsheets/gcse/geography/Paper2>; rel=prefetch, </cheatsheets/gcse/ComputerScience>; rel=prefetch, </cheatsheets/gcse/science/practicals>; rel=prefetch, </cheatsheets/gcse/biology/2>; rel=prefetch, </cheatsheets/gcse/subject-sites>; rel=prefetch",
       },
     })
   }
@@ -693,7 +693,7 @@ async function handleRequest(request) {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "a-level",
         "Cache-Control": "max-age=864000",
-        "Link": "</cheatsheets/gcse>; rel=prefetch",
+        "Link": "</cheatsheets/gcse>; rel=prefetch, </cheatsheets/alevel/geography/all>; rel=prefetch, </cheatsheets/alevel/geography/paper1>; rel=prefetch, </cheatsheets/alevel/geography/paper2>; rel=prefetch, </cheatsheets/alevel/geography/nea>; rel=prefetch, </cheatsheets/alevel/computerscience>; rel=prefetch, </cheatsheets/alevel/french>; rel=prefetch",
       },
     })
   }

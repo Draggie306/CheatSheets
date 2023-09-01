@@ -682,7 +682,7 @@ async function handleRequest(request) {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "gcse",
         "Cache-Control": "max-age=864000",
-        "Link": "</cheatsheets/alevel>; rel=prefetch, </cheatsheets/gcse/geography/Paper1and2>; rel=prefetch, </cheatsheets/gcse/geography/Paper1>; rel=prefetch, </cheatsheets/gcse/geography/Paper2>; rel=prefetch, </cheatsheets/gcse/ComputerScience>; rel=prefetch, </cheatsheets/gcse/science/practicals>; rel=prefetch, </cheatsheets/gcse/biology/2>; rel=prefetch, </cheatsheets/gcse/subject-sites>; rel=prefetch",
+        // "Link": "</cheatsheets/gcse/geography/Paper1and2>; rel=prefetch, </cheatsheets/gcse/geography/Paper1>; rel=prefetch, </cheatsheets/gcse/geography/Paper2>; rel=prefetch, </cheatsheets/gcse/ComputerScience>; rel=prefetch, </cheatsheets/gcse/science/practicals>; rel=prefetch, </cheatsheets/gcse/biology/2>; rel=prefetch, </cheatsheets/gcse/subject-sites>; rel=prefetch",
       },
     })
   }
@@ -693,13 +693,13 @@ async function handleRequest(request) {
         "content-type": "text/html;charset=UTF-8",
         "cheatsheet-tier": "a-level",
         "Cache-Control": "max-age=864000",
-        "Link": "</cheatsheets/gcse>; rel=prefetch, </cheatsheets/alevel/geography/all>; rel=prefetch, </cheatsheets/alevel/geography/paper1>; rel=prefetch, </cheatsheets/alevel/geography/paper2>; rel=prefetch, </cheatsheets/alevel/geography/nea>; rel=prefetch, </cheatsheets/alevel/computerscience>; rel=prefetch, </cheatsheets/alevel/french>; rel=prefetch",
+        // "Link": "</cheatsheets/alevel/geography/all>; rel=prefetch, </cheatsheets/alevel/geography/paper1>; rel=prefetch, </cheatsheets/alevel/geography/paper2>; rel=prefetch, </cheatsheets/alevel/geography/nea>; rel=prefetch, </cheatsheets/alevel/computerscience>; rel=prefetch, </cheatsheets/alevel/french>; rel=prefetch",
       },
     })
   }
 
   if (!response) {
-    console.log("The cache does not contain the response, fetching from origin");
+    console.log("The cache does not contain the response for url: " + request.url + ", fetching from origin");
     let current_time = new Date().getTime();
 
     // https://ibaguette.com/cheatsheets/gcse/geography/paper2
@@ -714,7 +714,7 @@ async function handleRequest(request) {
               "cheatsheet-tier": "gcse",
               "cheatsheet-subject": "geography",
               "cheatsheet-paper": "2",
-              "Link": "</cheatsheets/gcse/geography/paper1>; rel=prefetch, </cheatsheets/gcse/geography/paper1and2>; rel=prefetch",
+              // "Link": "</cheatsheets/gcse/geography/paper1>; rel=prefetch, </cheatsheets/gcse/geography/paper1and2>; rel=prefetch",
           },
       });
 
@@ -911,7 +911,7 @@ async function handleRequest(request) {
 
     if (htmlResponse) {
       // Cache the response
-      console.log("caching put");
+      console.log("Caching response: " + htmlResponse);
       await cache.put(request, htmlResponse.clone());
       // Return the response
       let final_return_noncached = new Date().getTime();

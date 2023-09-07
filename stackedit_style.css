@@ -125,14 +125,16 @@ body,html{
     font-variant-ligatures:common-ligatures;
     line-height:1.67;
     -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
+    -moz-osx-font-smoothing:grayscale;
+    font-display: swap;
 }
 .katex{
     font:normal 1.21em KaTeX_Main,Times New Roman,serif;
     line-height:1.2;
     text-indent:0;
     text-rendering:auto;
-    border-color:currentColor
+    border-color:currentColor;
+    font-display: swap;
 }
 .katex *{
     -ms-high-contrast-adjust:none!important

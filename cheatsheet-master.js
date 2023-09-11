@@ -20,6 +20,9 @@ const html_computer_science_paper1 = "https://raw.githubusercontent.com/Draggie3
 const html_computer_science_paper2 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Comp%20Sci%20Paper%202.html"
 const html_science_practicals = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/All%20Science%20Core%20Practicals.html"
 const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Biology%20Paper%202%20recap.html"
+const gcse_history_elizabethanengland = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20B%20–%20Elizabethan%20England.html"
+const gcse_history_healthandthepeople = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20A%20-%20Health%20and%20the%20People.html"
+
 const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
 const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html"
 const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html"
@@ -599,6 +602,14 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
   </div>
 </div>
 
+<div class="dropdown">
+  <button class="dropbtn">History</button>
+  <div class="dropdown-content">
+    <a href="/cheatsheets/gcse/history/elizabethan-england" target="_blank" rel="noopener">How to... AQA Elizabethan England</a>
+    <a href="/cheatsheets/gcse/history/health-and-the-people" target="_blank" rel="noopener">How to... AQA Health and the People</a>
+  </div>
+</div>
+
 <br>
 <h2>Other Resources</h2>
 
@@ -888,6 +899,30 @@ async function handleRequest(request) {
           },
       });
     }
+
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/history/elizabethan-england")) {
+      const response = await fetch(gcse_history_elizabethanengland); // get html from github server
+      htmlResponse = new Response(await response.text(), {
+          headers: {
+              "Content-Type": "text/html",
+              "cheatsheet-tier": "gcse",
+              "cheatsheet-subject": "history",
+              "cheatsheet-author": "hoali"
+          },
+      });
+    }
+
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/history/health-and-the-people")) {
+      const response = await fetch(gcse_history_healthandthepeople); // get html from github server
+      htmlResponse = new Response(await response.text(), {
+          headers: {
+              "Content-Type": "text/html",
+              "cheatsheet-tier": "gcse",
+              "cheatsheet-subject": "history",
+              "cheatsheet-author": "hoali"
+          },
+      });
+    }
   
 
     // Special case for geog.uk website:
@@ -912,14 +947,19 @@ async function handleRequest(request) {
       return Response.redirect("https://ibaguette.com/cheatsheets", 301);
     }
 
-    if (htmlResponse) {
+    if (htmlResponse.status == 200) {
       // Cache the response
+      // log the text of the response
+      console.log("Caching response status: " + htmlResponse.text);
+      console.log("Caching response status: " + htmlResponse.status);
       console.log("Caching response: " + htmlResponse);
       await cache.put(request, htmlResponse.clone());
       // Return the response
       let final_return_noncached = new Date().getTime();
       console.log("[NoCache] Time taken to return: " + (final_return_noncached - initial_time) + "ms");
       return htmlResponse;
+    } else {
+      return new Response("Error fetching from origin", { status: htmlResponse.status });
     }
 
   }

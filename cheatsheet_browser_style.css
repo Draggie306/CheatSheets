@@ -256,8 +256,16 @@ body {
   background-color: #f1f1f1;
   min-width: 260px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 9999;
   transition: visibility 0.2s, opacity 0.1s linear;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+
+.dropdown:hover > body{
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .dropdown-content a {

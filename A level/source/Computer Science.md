@@ -1,19 +1,21 @@
 ﻿
+
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
 # Ah yes more computer science!
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last update: 05/06/2023 22:48](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last general update: 22/09/2023 00:48.
+Last content addition: 22/09/2023 00:48](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! You can also **receive a notification** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
+> Discuss with other friendly students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! You can also **receive notifications** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/CompSciALevel@3x.png)
+![A collection of pictures that cover a large variety of topics found on the A-level specification.](https://cheatsheet-assets.ibaguette.com/alevel/compsci/CompSciALevel@3x.png)
 *As always, enjoy this amazing high-effort and high-skill art by me.*
 
 # Paper 1
@@ -22,7 +24,7 @@ Use a PC/device with a large screen to see the Table of Contents on the left-han
 # [tbd] Unit 1 - The characteristics of contemporary processors, input, output and storage devices
 
 
-![Spec of the A level section 1.1](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Spec-1.1.png)
+![Specification content of the A level section 1.1](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Spec-1.1.png)
 
 
 ## Components of a computer and their uses
@@ -754,11 +756,11 @@ OTP: 1110 0010 (**Γ**)
 
 This also beats cryptanalysis techniques as methods such as frequency analysis attacks - which rely on comparing the frequency of letters in cyphertext to how often these letters appear in general communication - as each character of the ciphertext is truly random. This is referred to as entropy - unpredictability in cryptography.
 > In cryptography, random does not just mean statistically random - it also means unpredictable.
-> 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Cloudflare-lamp-wall.jpg)
-*An example of how entropy is created using lava lamps in the Cloudflare HQ. Other methods of generating real-world randomness include a double-pendulum system or radioactive decay.*
 
->Further reading: [here](https://www.cloudflare.com/en-gb/learning/ssl/lava-lamp-encryption/).
+Methods of generating real-world randomness include lava lamps (see image below), a double-pendulum system or radioactive decay.
+
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Cloudflare-lamp-wall.jpg)
+*An example of how entropy is created using lava lamps in the Cloudflare HQ. Click [here](https://www.cloudflare.com/en-gb/learning/ssl/lava-lamp-encryption/) for further reading.*
 
 ### Symmetric (private key) encryption
 
@@ -796,7 +798,7 @@ Hashes are used in packet headers (checksums), digital signatures to prove ident
 ## 1.3.2 Databases
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Databases.png)
 
-I really don't like databases. They are just boring. But luckily they're easy to understand and remember once you've got yeour head around them.
+I really don't like databases. They are just boring. But luckily they're easy to understand and remember once you've got your head around them.
 
 ### Database concepts
 Firstly, entities need to be worked out. 
@@ -823,7 +825,7 @@ There would need to be a few entities in this scenario, all linked together
 - more?
 
 The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being [underlined](). It is automatically indexed.
-> Two or more attributes that are needed to uniquely identify a record are composite primary keys.
+> Two or more attributes that are needed to uniquely identify a record are **composite primary keys**.
 
 User ([customerID](), [orderNumber](), custName, custSurname, productID, subject, tier)
 
@@ -850,7 +852,7 @@ Each entity must have a primary key as an attribute. In a relational database, t
 
 ### Referential Integrity
 
-Referential integrity states that an attribute referenced as a foreign key on one table cannot be deleted, and therefore cannot reference something that doesn't exist. For example adding `customerID 193` in table Subscription should not be possible if there is no customerID 193.
+Referential integrity states that an attribute referenced as a foreign key on one table cannot be deleted, and therefore cannot reference something that doesn't exist. For example adding `customerID 193` in table Subscription should not be possible if there is no `customerID 193` anyway.
 
 ### Normalisation
 In a relational database, data is held in tables, or **relations**. Each row in the table holds a specific, unique record, with each column representing an attribute. 
@@ -894,7 +896,9 @@ This means that if non-key columns are dependent on something other than the pri
 
 it can be seen that SupplierID is a foreign key and does not depend on the ComponentID of the Component entity, rather a different entity. It will then be moved to a separate table, with all dependent columns moving to this new table. 
 
-#### Importance
+#### Importance of normalisation
+
+There are benefits for carrying out normalisation on databases and tables. These include:
 
 - Easier to maintain
 - Easier to query
@@ -905,9 +909,10 @@ it can be seen that SupplierID is a foreign key and does not depend on the Compo
 
 ### SQL
 
+Stands for Structured Query Language. It is the backbone of many major database querying languages and you've probably 
 
 #### Basic Select
-```
+```sql
 SELECT Fields
 FROM TableName
 WHERE (value CONDITION value) 
@@ -1010,17 +1015,14 @@ DELETE FROM NewFilm
 WHERE ReleaseDate = "02/06/2023"
 ```
 
-### Transaction Processing
-
-
-### ACID
+### Transaction Processing and ACID
 
 #### Atomicity
 A transaction must be processed in its entirety or not at all. It is not possible to process only part of a transaction no matter how catastrophic the failure is.
 
 #### Consistency
 
-No transaction can violoate the defined validation rules. Referential integrity will always be upheld
+No transaction can violate the defined validation rules. Referential integrity will always be upheld.
 
 #### Isolation
 The concurrent execution and processing of transactions must be the same as if these transactions were processed sequentially.
@@ -1030,8 +1032,7 @@ A transaction will always remain committed once a it has been made.
 
 This is undertaken by having a buffer, either in the disk or in memory, which receives the temporary modifications. Once all of the transactions have been made, only then will it be committed and written to the disk.
 
-
-### problems with multi-user databases
+### Problems with multi-user databases
 
 If user A wants to chnage user X address, this is fine. If two minutes later, user B changes user X's balance and saves the record, this is fine. However when user A saves the new record with just the updated address, user B's changes are lost. To prevent this, we can use:
 
@@ -1055,7 +1056,13 @@ There may be multiple systems available in different physical locations which ca
 
 
 ## 1.3.3 Networks
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png)# Ah yes more computer science!
+
+# Unit 5: Networks and web technologies
+
+
+## Structure of the Internet
+
 The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.
 
 The World Wide Web is a collection of websites and documents linked by hyperlinks made accessible via the Internet.
@@ -1065,22 +1072,25 @@ The Internet is the largest network (what computers communicate with each other 
 
 The Internet can also be used to transmit data without using the World Wide Web. However, this data must travel through the backbone.
 
-The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicate, high-transmission fibre-optic cables that 'peer' (are connected with) each other, and are owned by large Internet Service Providers (ISPs).
+The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicated, high-transmission fibre-optic cables that 'peer' (are connected with) each other, and are owned by large Internet Service Providers (ISPs).
 
-By connecting all these cables together, these ISPs can create a single network that gives each other access to the entire Internet. The way they communicate is by using the **TCP** (Transport Control Protocol) and **IP** (Internet Protocol) protocols.
-
-Protocol - a set of rules or procedures for transmitting data between electronic devices, such as computers
+ By connecting all these cables together, these ISPs can create a single network that gives each other access to the entire Internet. The way they communicate is by using the **TCP** (Transport Control Protocol) and **IP** (Internet Protocol) protocols.
 
 
-### IPv4 addressses
+Protocol - a set of rules or procedures for transmitting data 
+between electronic devices, such as computers
+
+
+### IPv4 addressses 
 are a series of 4 octet values separated by a full stop (max 32 bits), ranging from 0 to 255. However, there are not enough addresses to support the growing population, so IPv6 is being used which uses 128 bits.
 
 ### Uniform Resource Locator (URL)
-URLs are a standardised format for specifying the means of accessing a resource on the Internet and identifying its location. A URL consists of many components, including the protocol, domain name and path to the specific resource.
+
+URLs are a standardised format for specifying the means of accessing a resource on the Internet and identifying its location. A URL consists of many components, including the protocol, domain name and path to the specific resource. 
 
 The protocol (like HTTP, HTTPS, FTP or WSS) indicated the communication method to access the specified resource. If it is using HTTP/HTTPS, then the resource is going to be on the World Wide Web
 
-The domain name (like ibaguette.com) identifies the server where the resource is hosted.
+The domain name (like ibaguette.com) identifies the server where the resource is hosted. 
 
 By using URLs, users can easily access resources such as web pages, images, documents, and other files on the internet.
 
@@ -1092,10 +1102,10 @@ DNS servers are therefore dedicated computers that store an index of domain name
 
 When a user types a domain name into their web browser or other application, the application sends a request to a DNS server to resolve the domain name to its associated IP address. The DNS server then searches its index for the domain name and returns the corresponding IP address to the requesting application. This allows the application to establish a connection to the server associated with the domain name, enabling the transfer of data between the client and server.
 
-> Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browser, which is much faster.
+> Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browserthe cache, which is much faster.
 
 If the local DNS server does not have a record for the domain, it may forward the request to an ISP's DNS server. If the ISP DNS server does not have a record, then it may be forwarded to one of 13 global root DNS servers which hold the records of every domain on the Internet.
-
+ 
 This process is known as **recursion** and enables the DNS system to efficiently resolve domain names to their corresponding IP addresses, even for domains hosted on remote servers.
 
 Below the root servers are **generic** and **country** top-level domains (TLDs), such as .com, .edu, .org and .uk, .fr and .de.
@@ -1108,31 +1118,38 @@ Domain names must be completely unique otherwise DNS requests could be manipulat
 
 > IANA (Internet Assigned Numbers Authority) is responsible for coordinating the allocation of IP addresses to the RIRs.
 
-### Area Networks
+### Area Networks 
 
-In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one building or site.
+In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one 
+building or site.
 
 ### Hubs and switches
-A network switch is a hardware device that is commonly used to connect various network segments within a LAN. Switches are designed to forward data packets between different devices on a network.
 
-Unlike hubs, which broadcast data packets to all devices on a network segment, switches selectively forward data packets only to their intended destination device.
+A network switch is a hardware device that is commonly used to connect various network segments within a LAN. Switches are designed to forward data packets between different devices on a network. 
+
+Unlike hubs, which broadcast data packets to all devices on a network segment, switches selectively forward data packets only to their intended destination device. 
 
 Hubs connect multiple Ethernet devices together, making them act as a single network segment. Hubs are an older type of connector and are less commonly used today due to their limitations. Unlike switches, hubs broadcast all data packets to every device on the network, which can lead to network congestion and reduced performance.
 
 A network switch operates by learning the MAC addresses of devices connected to it, and then using this information to forward data packets to the appropriate device. This allows devices on the network to communicate with one another directly, without the need for every device to receive every packet.
 
-> Watch out! Many people still use the word ‘hub’ when they mean ‘switch’!
+> Watch out! Many people still use the word ‘hub’ when 
+they mean ‘switch’!
 
 ### Physical network topologies
+
 A network topology refers to the physical or logical arrangement of computing devices which make up a network.
 
 **Bus topology**: an arrangement where nodes are connected
 
-in a 'chain' by a single central communications channel, or 'bus'. Each end of this bussy backbone is connected to a terminator which stops signals bouncing back. Each terminal, or node, on this cable is passive.
+in a 'chain' by a single central communications channel, or 'bus'. Each end of this bussy backbone is connected to a terminator which stops signals bouncing back. Each terminal, or node, on this cable is passive. 
 
 They are simple to set up and cheap, but only one computer can transmit data successfully at a time (or "collisions" will occur) and there is poor security generally, with a single point of failure, as well as being unsuitable for larger areas.
 
-**Star topology**: an arrangement where a central node or switch (or hub) provides a central point of communication for all other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices' **Media Access Control (MAC)** address to determine where to send the message.
+
+**Star topology**: an arrangement where a central node or 
+switch (or hub) provides a central point of communication for all 
+other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices' **Media Access Control (MAC)** address to determine where to send the message. 
 
 The failure of any one device (unless it is the switch itself) does not affect the operation of the network as a whole. This makes star networks highly reliable and easy to maintain, as well as being easy to add new stations. Higher transmission speeds can give better performance than a bus network too.
 
@@ -1148,38 +1165,60 @@ The failure of any one device (unless it is the switch itself) does not affect t
   
 For example, a network might be physically wired in a star topology, but use a logical bus topology to facilitate data transmission.
 
+
 **Wi-Fi** is a wireless networking technology providing high-speed Internet and network connections. Devices connect to the Internet via a Wireless Access Point (WAP) which broadcasts on a specific radio frequency channel, typically on the 2.4GHZ spectrum or the 5-6GHz spectrum. This can then be accessed by any device within range and that has a compatible Network Interface Card (NIC).
 
 However, network interference from other devices within range which are also using the same frequency is problematic, as seen in areas like football stadiums. To minimise this, admins can use **channel bonding** to pool multiple channels into a wider band, thereby increasing available bandwidth, and using Quality of Service (QoS) which prioritises different types of network traffic based on their importance, such as VoIP calls which require low latency.
 
 ### Mesh networks
+
 Mesh networks are becoming more common with the widespread use of wireless technology. Each node in a mesh network has a connection to every other node, by transmitting data across any intermediate nodes, and only one node needs an Internet connection and all other nodes can share this, creating a redundant and flexible network architecture. These networks can become big enough to cover entire cities.
 
 
 
 |Advantages|Disadvantages|
 |--|--|
-|No cabling costs: mesh networks can be wireless|Higher implementation and maintenance costs, especially for smaller businesses with limited resources|
-|Network scaling and setup can be easier without added cabling allowing for easy expansion, as new nodes are automatically added to the network|Redundant connections can add to costs and complexity of the network, requiring increased planning and network management|
-|No central switch, resulting in faster communication and less chance of traffic congestion through direct routing|Limited range, especially with wireless signals, or expensive cables. More nodes and APs will be required to extend coverage, increasing costs|
-|Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just use other routes)|  |
+|:
 
-  
-### Packets, Packet Switching and Routers
+-   No cabling costs: mMesh networks can be wireless|Higher implementation and maintenance costs, especially for smaller businesses with limited resources|
+|Network scaling and setup, eliminating the need for costly cabling and making it easier to set up and scale the network.
+-   Faster communication: Since data packets do not need to travel via a central switch, communication can be faster and more efficient, especially in larger networks where traffic can become congested.
+-   Self-healing: The more nodes that are installed, the faster and more reliable the network becomes, since one blocked connection can be easier without added cabling allowing for ely be circumvented by another route. In this respect, the mesh can be described as ‘self-healing’.
+-   Easy expansion, as n: New nodes are automatically addincorporated into the network|Redundant connections can add to costs and complexity of the network, requiring increased plan, making it easier to add new devices and scale the network.
+
+Disadvantages:
+
+-   Higher implementation cost: Building and maintaining and mesh network mcanagement|
+|No central switch, resulting in faster communication and less chance of traffic congestion through direct routing|Limited range, especially with wireless signals, or expensive cables. More nodes and APs will be required to extend coverage, increasing costs|
+|Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just us be difficult and time-consuming, making it less desirable for smaller networks or businesses with limited resources.
+-   Redundant connections: The chance of redundant connections is high, adding to costs and complexity. Careful planning and management is needed to avoid unnecessary connections and reduce costs.
+-   Limited range: Mesh networks are typically limited to a certain range, depending on the strength of the wireless signal. This means that additional nodes or access points may be required to extend coverage, which can increase the cost and complexity of the network.
+
+## Internet Communication
+
+1.  Circuit Switching and Packet Switching: Circuit switching is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session. In contrast, packet switching divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible other routes)|  |
+
+an circuit switching.
+    
+###  Packets, Packet Switching and Routers
 
 Packet switching requires routers to direct the packets to their destination. A router is a network device that receives packets and forwards data packets from one network to another.
 
-Each router stores data about the available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.
+Each router stores data about the 
+available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.
 
-> Each transfer between routers is known as a **hop**
+> Each transfer between routers 
+is known as a **hop**
 
 Routers will then continue to forward the packet until it reaches its destination node.
 
-A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header.
+A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header. 
 
 > Packets are deliberately kept small to ensure that individual packets do not take excessive time to transfer preventing other packets from moving. 
 
-However, they should not be too small as the additional data added makes data transfer inefficient as unnecessary headers and trailers would be required each time.
+> However, they should not be too small as the additional data added makes data transfer inefficient as 
+unnecessary headers and trailers would be required each time.
+
 
 The **trailer** contains the **end of packet flag**, as well as **error checking components** like checksums or Cyclical Redundancy Checks (CRCs), are calculated at the origin and destination end. If they do not match, the data has become corrupted and is refused and a new copy is requested to be sent again.
 
@@ -1204,7 +1243,7 @@ Network hardware devices include routers, switches, hubs, and access points, amo
 
 
 Protocols and standards establish guidelines and rules for communication between devices on a network. Common protocols include TCP/IP, HTTP, and FTP, while common standards include Ethernet and Wi-Fi.
-
+    
 ### [tbd] The TCP/IP Protocol Stack
 
 The TCP/IP protocol stack consists of four main layers. From the top of the stack to the bottom, they are:
@@ -1225,7 +1264,14 @@ The transport layer uses the **Transmission Control Protocol** (TCP) as well as 
 
 Application data from the above application layer often has large filesizes, such as uploading a 10GB video file, and thus must be split into segments, or TCP packets, and then numbers these sequentially. 
 
-The port number (a 16 bit number) is also added in this layer. Servers listen on specific well-known port numbers like 443 for HTTPS for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.
+The port number (a 16 bit number) is also added in this layer. Servers listen
+
+1. Application layer
+2. Transport layer
+3. Internet layer
+4. Data Link/Network Interface layer. 
+
+Each layer has its own specific well-known port numbers like 443 for HTTPS for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.
 
 > If there are 65,535 TCP connections or more at a time all accessing some data, new connections cannot be established as this is the 16-bit limit for the transport layer!
 
@@ -1253,12 +1299,21 @@ The link layer operates across a physical connection
 
 Adds the MAC address of the physical NIC that packets should be sent to based on the destination IP address
 
-MAC addresses change with each hop
+MAC addresses change with each hoptasks in transmitting data over a network.
+
+
+#### Application layer
+-   The application layer is based at the top of the stack. It specifies what protocol needs to be used in order to relate the application that’s being sent.
+-   For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP
+
+![noi](https://media.discordapp.net/attachments/1076990931791777793/1076991657007906868/image.png)
+*chat gpt asking for a summary of tcp ip what I just wrote but kawaii prompt included*
+
 
 ### Transferring Files using FTP
 
 FTP (File Transfer Protocol) is a standard protocol used to transfer files. It is widely used for uploading files to and downloading files from servers with little overhead.
-
+    
 ### Email Servers
 
 An email server receives incoming messages and stores them until the recipient retrieves them. It also sends outgoing messages to the intended recipients. Email servers use various protocols such as SMTP, POP, and IMAP to transmit and receive email messages.
@@ -1285,18 +1340,20 @@ chosenElement.innerHTML = “Hello, World!”; // Changing the displayed HTML co
 
 # [tbd] 1.4 Data types, data structures and algorithms
 
+
+
   
 # [tbd] 1.5 Legal, moral, cultural and ethical issues
 
 
-The Data Protection Act 2018: controls the way data about living people is stored and processed 
-It is a national law which complements the European Union's General Data Protection Regulation (GDPR)
+The **Data Protection Act 2018**: controls the way data about living people is stored and processed 
+- It is a national law which complements the European Union's General Data Protection Regulation (GDPR)
 
-The Computer Misuse Act 1990 makes it an offence to access or modify computer material without permission
+The **Computer Misuse Act 1990** makes it an offence to access or modify computer material without permission
 
-The Copyright, Designs and Patents Act 1988 covers the copying or use of other people’s work
+The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people’s work
 
-The Regulation of Investigatory Powers Act 2000 regulates surveillance and investigation, and covers the interception of communications
+The **Regulation of Investigatory Powers Act 2000** regulates surveillance and investigation, and covers the interception of communications
 
 
 # Paper 2
@@ -1316,6 +1373,216 @@ The Regulation of Investigatory Powers Act 2000 regulates surveillance and inves
 
 # 2.2 Problem solving and programming
 
+# TEMP SECTION: Data Structures
+
+## Arrays, records and tuples
+
+A variable is a location in memory which holds a particular variable, which can be of a specific type. 
+Strings, for example, may require more memory to hold their values, as opposed to Booleans which are either True or False.
+
+Elementary data types include chars, reals, integers, booleans.
+
+Structured data types, depending on the programming language, may be built-in to the syntax. These will include list of records, lists, arrays and strings. Structured data types are typically decomposed into elementary data types.
+
+### Arrays
+Arrays, like all data structures, must be declared. During declaration, its size (length) and stored data types must be stated. This is to ensure that there are enough contiguous memory locations for the data to be stored. 
+
+Arrays are therefore **static** (cannot grow or shrink in length). However, elements within the array can be changed after initialisation (during runtime), making them **mutable** data structures. They can also only store **one** data type.
+
+```c
+// Example in Pseudocode:
+ARRAY words[4]
+words = ["hi", "my", "name", "is", "Joe"] 
+```
+
+> Note: For the purposes of simplicity, it is best to ignore Python's (and other languages') implementations of arrays, as they can be dynamic.
+
+Arrays can also have multiple dimensions. These can be denoted by:
+
+```go
+ARRAY words[2, 4, 7]
+```
+This is a 3D array with a length of 2, height of 4, and width of 7. With zero-index languages, this is a total of 3*5*8 = **120** different positions.
+
+These can be accessed by accessing the array name followed by the row and column indexes. E.g. words[1, 3] would return the value at row index 1 and column index 3.
+
+#### Trace tables [tbd]
+
+When tracing the results of a function, trace tables can be used. The table is named the same as the array. For each new declaration
+
+
+### Lists
+Lists, like arrays, are **mutable** structures. However, unlike arrays, their length does not need to be declared during initialisation as they are **dynamic** structures; they can also store **any types** of data inside.
+
+```c
+// Example in Pseudocode:
+LIST sentence[4]
+sentence = ["Hi", "i", "am", 8]
+sentence.append("!")
+sentence.insert(4, ["years", "old"])
+print(sentence[4][1])
+>>> old
+```
+
+
+### Tuples
+Tuples are a mixture of arrays and lists. 
+
+Tuples are lists which cannot be modified at runtime - they are **immutable**. Their length also therefore cannot change, making them **static** too. However, despite these drawbacks, they too can store **more than one data type**. They must also be an **ordered** set of values.
+
+```c
+// Example in Pseudocode:
+TUPLE words[4]
+words = ("Hi", "i", "am", "8")
+words.append("!")
+// Syntax error: cannot append to tuple at runtime
+```
+
+This may be a bad idea to implement if the end user needs to update their name for example.
+
+### Records
+Records are like a spreadsheet of data, and similarly are used to store data permanently. Records exhibit the characteristics of a **tuple**.
+
+
+## Queues
+
+Queues are FIFO specialist data structures and are categorised as an abstract data type, alongside stacks (and lists in some languages).
+
+#### What is an abstract data type?
+An abstract data type is one that is implemented by the programmer, rather than one being defined in the programming language itself. They are descriptions of how data can be viewed and operations that can be performed on it, but not how it itself is constructed. The implementation of ADTs are hidden from the user.
+
+---
+
+## Static queues
+
+Queues are often used in event-driven programming, with graphical user interfaces as an example. There must be an event loop which continually checks for new events, which are then added to the event queue. This makes them essential for asynchronous programming.
+
+A queue exhibits the same traits of a list, but data can only be inserted one way (pushing/enqueuing) and retrieved (popping/dequeued) from the other end - think of a pipe, or a list of printer jobs.
+
+#### Queue operations
+There are four main operations which queues can process:
+
+- Enqueuing (pushing) an item - this adds it to the end of the queue 
+	- `queue.enqueue(item)`
+- Dequeuing (popping) and item - this removes it from the front of the queue.
+	- `queue.dequeue(item)`
+
+> As queues are First In, First Out structures, the items added last will be the last to be processed, and all other items in front of it will be processed beforehand
+
+- Checking full state
+	- `queue.isFull()`
+- Checking empty state
+	- `queue.isEmpty()`	
+
+Items **cannot** be inserted to a specific position within a queue data structure. 
+
+During initialisation, due the static nature of queues, their `maxSize` must be specified during initialisation. Pseudocode can be written to keep track of the `currentSize` and compare this with the `maxSize` to disallow adding items to a full queue or removing items from a queue with zero depth.
+
+### Circular Queues
+
+When an item is dequeued from a static queue, the space it occupied in memory cannot be reused, which is wasteful. Likewise, moving all elements of this array up by one in order to free memory at the end of the queue would be wasteful and CPU cycle heavy.
+
+Queues can alternatively be completely circular and use pointers to denote the start and end index instead. These are implemented as arrays (static). 
+
+When items are popped from circular queues, the **start** pointer simply moves to the next item along (items are dequeued from the start). When this occurs, another element can pushed into this array as there is a memory location available and the end pointer now moves to this most recently pushed element, whilst the start pointer is incremented to the next element. This means that free spaces can continually be reused
+
+### Priority Queues
+
+Ever been on a Ryanair flight and the people with Priority queue get in and hog the seats first? The same principal applies here. Each element in the queue has a priority associated with it, which can be denoted by having a number or letter when enqueuing. (`pqueue.enQueue("timothy", A)`). This is beneficial for giving preference to essential items, but does require more processing overhead to maintain.
+
+## Lists
+
+Lists are another abstract data type. As briefly touched upon earlier, different languages have varying support for the type of list which is implemented. Python, VB and Java all have built-in dynamic lists, whereas the C family have static lists
+
+### Dynamic lists
+
+When dynamic lists are being used, the memory heap is accessed. A freely available memory space is obtained from the heap, and a value is added to it. If it is deleted, the memory location is returned to the heap. Pointers are used to traverse to the next index in the list when being traversed.
+
+> The heap is a dynamic section of memory designed to hold data during runtime, and release it when it is no longer required by the program.
+
+Some languages do not contain the ability to use a listas a data structure, and arrays must be used instead. As arrays are always static, the length must be specified during initialisation, which is something that may not always be known. 
+
+
+
+A few pseudocode procedures and functions are available:
+- `list.isEmpty()` -> boolean; tests for empty list
+	- `isFull()` is not needed; lists are dynamically sized
+- `list.append(item)` -> None
+- `list.remove(item)` -> None
+- `list.count(item)` -> int
+- `list.index(item)` -> int
+- `list.append(item)` -> None
+- `list.index(position, item)` -> int
+- `list.pop()`-> value
+- `list.append(position)` -> None
+- `len(list)` -> int
+
+### Linked lists
+
+Each element (node) of a linked list contains two items: the **data** item and the **next address**, or link, item. Several of these nodes linked together are known as a linked list. Linked lists are dynamic lists toom as the link item points to the memory address of the next item in the array, if there is one. The memory locations of these linked lists are non-contiguous; the link field can point to any available memory space. When implemented by the programming language, the first node's memory location is kept track of.
+
+When deleting data, the pointer to the node to be deleted would change to the position of the node after the deleted node. (This is because the link field of the preceding node would be pointing to the deleted node, and not the node after it.)
+
+When inserting data, the preceding node's link is modified to point to a free memory location to be used as a node, then assigning this location with a value, then adding the link item to the next node. 
+
+Linked lists can also store multiple link fields if necessary. One link may be the position of following nodes based on their data in alphabetical order, whilst others may be in another order. This is known as a **multilinked list**.
+
+## Stacks
+
+Stacks are LIFO (last in, first out) abstract data structures. This means that the most recent item added will also be the first one removed when processed.
+
+The undo button or web browser history can be an example of a stack. This is because as changes are made to the document, the most recent version is on the top - it is building on the previous revisions. When you Ctrl + Z, the most recent change is removed (popped) - if that makes sense?
+
+Another way to view a stack is by having a tower of books in a library. If somebody wants to return a book, this is placed on top of the other books. When these books need to be put back on the shelves, the book on top will be processed first. 
+
+This can be described as: **the order of insertion is the reverse of the order of removal**. 
+
+`stack.push(item)` - adds item to stack top
+`stack.pop()` - removes and returns the top item
+`stack.isEmpty()` - checks if stack is empty (depth of 0)
+`stack.isFull()` - checks if stack is full
+
+`stack.peek()` - returns top without removal
+`stack.size()` - number of items
+
+```py
+items = ["a", "b", "c", "d", "e"]
+stack = []
+new_items = []
+element = 0
+
+for letter in items:
+	stack.push(letter)
+
+for item in stack:
+	value = stack.pop()
+	new_items.append(value)
+
+print(stack)
+if new_items[::-1] == stack:
+	print("Stacked successful!")
+```
+
+Attempting to push to a full stack will result in an **overflow** error. "Stack Overflow": ran out of memory
+
+Likewise, popping an empty stack will give an **underflow** error. 
+
+### Call stack
+
+The call stack is a system-level stack that is used to store current information about executing functions and subroutines. High-level languages can abstract the details of the call stack from programmers. It allows for parameters to be used and the results of functions in their returns to be passed. This is especailly useful if there are a range of functions being used at once, or recursion is in use.
+
+Recursion involves the return data of one function being used to complete the output of another function. These functions may also call other functions if this is necessary for an output too. 
+
+The last (most recent) function to be called will be computed first. Then, when a value is returned, this is placed on the call stack as the output to the function that called for this value. And this is repeated.
+
+1. Stack space is allocated for local variables
+2. Parameters are saved onto the stack
+3. The address to the return function is saved to the stack
+4. Execution is transferred to the function code
+5. Function is executed
+6. The return address is retrieved
+7. Parameters are popped
+8. Execution is transferred back to the return function
 
 
 
@@ -1327,3 +1594,9 @@ The Regulation of Investigatory Powers Act 2000 regulates surveillance and inves
 
 [3] Yes I know it should be GPUs for parallel processing but you can still do it on your CPU if you really want to
 
+---
+
+> Une lumière dorée brille sans fin tout au bout du chemin
+> (Reference from the film "Les Choristes")
+
+> Document written with [StackEdit](https://stackedit.io/) :)

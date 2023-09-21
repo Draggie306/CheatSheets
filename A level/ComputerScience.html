@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>A level OCR Computer Science</title>
+	<title>A-level OCR Computer Science H446: COMPLETE CHEAT SHEET</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
 	<meta name="title" content="A level Computer Science Cheat Sheet | OCR H446 | iBaguette">
@@ -11,6 +11,8 @@
 	<meta name="robots" content="index, follow">
 	<link rel="preload" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css" as="style"> <!-- Preload cheatsheet browser CSS from iBaguette Cloudflare CDN -->
 	<link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css"> <!-- Load StackEdit style from iBaguette Cloudflare CDN! -->	
+	<link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/pace.css"> <!-- TEST: PACE style -->
+	<script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
 	<link href='data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAADB0+D/oLbH/6G5y//E2ev/rL7M/7LD1f/M3vD/0+Xx/9Hj8v/L3O3/0+Pv/9rn7//o7vT/6PD2/+Hy+P/k8/n/u9Hb/0RTXP8AAAD/gJSi/5+3yv+ctcn/mbHF/5y1yv+rvtP/rcDV/6/A0/+uvMn/y9Xe/8ja5f+itcn/0Oju/6a6x/+gtcD/ICkx/x4jLv+Wqbv/pLnN/6W5zv+mvtL/rsDR/46gtf9/jp7/trzI/8jT3//l7vX/tMfU/6m9z/+TpLD/VWRu/zdCUP8SChf/DQob/15seP+lucj/j6Cy/1Vnev9gcof/dYea/7vM2P+Jn7f/XGyB/3qTrf+UrMb/R1Ne/x8iL/8nLTn/KSw4/x0hK/8aHin/MzlC/0BRY/87SWD/Tl9z/2Byhv9riZ7/UWJ3/1VidP9dZnr/gpKn/yUpNP8TDhj/ExAY/xsXI/8nJTH/Jicy/yMdKP8mLD3/QVNo/z9JYP9IXHP/boac/1prgf9aZXb/bXZ//214hf8fHSf/FhId/xIPF/8UDxv/KSs2/x8bJv8lISr/KS5A/z5PZf8vM0n/PU5j/4+pyP9bY3n/fICK/4qJkv+TlZ7/HBgg/x0ZJf8UERv/EA4U/x0YJP8TEBj/HBgh/zM7TP88S2H/LzNI/ygvP/9keY3/f4eV/4yNl/+cmaH/ipOb/zA2Qv8tLDf/Ih8r/x8bJf8wLjn/EAwT/xkVH/82OUn/PUNa/z1MYf84Rlr/OEVa/1Jjef9daXz/ZG57/2BzgP+qvsb/SlFa/zU6RP84NkL/KCcw/xQQGf8VERn/LzRC/zk+VP9DU2j/U2V6/1Rme/9UY3j/anJ9/1Zja/90h5b/m7C4/4ygs/83O0j/MTI8/ygkLv8kICr/JyQt/ykoMv9SXnT/UVtv/1NfdP9RXXD/am56/2dxe/9vfIX/d42g/4yfq/+YsMX/orO9/x0jL/84O0b/MDA4/zQwOf8qJC3/MThC/ycsOP9YWmT/hH+E/3V6hv9reYT/eIyU/4OXpP+WrLf/q8vZ/77a6P91gpH/IBkn/ywmMf82O0b/ZHJ5/46ktP94i5b/iZWe/4mWpv9vgpH/coaS/4CVnP+Inqv/nbW//8rf5v++2OP/sM/i/3uPm/9qeoT/ucbM/8LR1/+mvcf/tsnO/+rp5P+Ppbb/gpem/3iMl/+HnKT/jqOr/5q1vf/F3ev/u9Td/6zH2P+qxNH/uMzV/9ne4P////3///////Lz6//9/fn/na+2/3+apv93i5j/h52l/46jrP+Tq7n/n77Q/5q6yv+gtcP/nbK8/560vv++yM3/8vHs//z9+//w8er//////8XJyP+OqLH/jqGt/6Ozuv+uvsP/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==' rel='icon' type='image/x-icon' />
 	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel/computerscience">
 	<meta property="og:title" content="A level Computer Science Cheat Sheet | OCR H446 | iBaguette">
@@ -189,7 +191,7 @@
 <li><a href="#first-normal-form">First normal form</a></li>
 <li><a href="#second-normal-form">Second normal form</a></li>
 <li><a href="#third-normal-form">Third normal form</a></li>
-<li><a href="#importance">Importance</a></li>
+<li><a href="#importance-of-normalisation">Importance of normalisation</a></li>
 </ul>
 </li>
 <li><a href="#sql">SQL</a>
@@ -205,8 +207,7 @@
 <li><a href="#deleting">Deleting</a></li>
 </ul>
 </li>
-<li><a href="#transaction-processing">Transaction Processing</a></li>
-<li><a href="#acid">ACID</a>
+<li><a href="#transaction-processing-and-acid">Transaction Processing and ACID</a>
 <ul>
 <li><a href="#atomicity">Atomicity</a></li>
 <li><a href="#consistency">Consistency</a></li>
@@ -214,7 +215,7 @@
 <li><a href="#durability">Durability</a></li>
 </ul>
 </li>
-<li><a href="#problems-with-multi-user-databases">problems with multi-user databases</a>
+<li><a href="#problems-with-multi-user-databases">Problems with multi-user databases</a>
 <ul>
 <li><a href="#record-locking">Record locking</a></li>
 <li><a href="#serialisation">Serialisation</a></li>
@@ -225,7 +226,12 @@
 </li>
 </ul>
 </li>
-<li><a href="#networks">1.3.3 Networks</a>
+<li><a href="#networks">1.3.3 Networks</a></li>
+</ul>
+</li>
+<li><a href="#unit-5-networks-and-web-technologies">Unit 5: Networks and web technologies</a>
+<ul>
+<li><a href="#structure-of-the-internet">Structure of the Internet</a>
 <ul>
 <li><a href="#ipv4-addressses">IPv4 addressses</a></li>
 <li><a href="#uniform-resource-locator-url">Uniform Resource Locator (URL)</a></li>
@@ -236,6 +242,10 @@
 <li><a href="#physical-network-topologies">Physical network topologies</a></li>
 <li><a href="#logical-network-topologies">Logical network topologies</a></li>
 <li><a href="#mesh-networks">Mesh networks</a></li>
+</ul>
+</li>
+<li><a href="#internet-communication">Internet Communication</a>
+<ul>
 <li><a href="#packets-packet-switching-and-routers">Packets, Packet Switching and Routers</a></li>
 <li><a href="#circuit-switching">Circuit switching</a></li>
 <li><a href="#protocols-and-standards">Protocols and Standards</a></li>
@@ -245,6 +255,7 @@
 <li><a href="#transport-layer">Transport layer</a></li>
 <li><a href="#internetnetwork-layer">Internet/Network layer</a></li>
 <li><a href="#linkdata-linknetwork-interface-layer">Link/Data Link/Network Interface layer</a></li>
+<li><a href="#application-layer-1">Application layer</a></li>
 </ul>
 </li>
 <li><a href="#transferring-files-using-ftp">Transferring Files using FTP</a></li>
@@ -267,6 +278,53 @@
 </ul>
 </li>
 <li><a href="#problem-solving-and-programming">2.2 Problem solving and programming</a></li>
+<li><a href="#temp-section-data-structures">TEMP SECTION: Data Structures</a>
+<ul>
+<li><a href="#arrays-records-and-tuples">Arrays, records and tuples</a>
+<ul>
+<li><a href="#arrays">Arrays</a>
+<ul>
+<li><a href="#trace-tables-tbd">Trace tables [tbd]</a></li>
+</ul>
+</li>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#tuples">Tuples</a></li>
+<li><a href="#records">Records</a></li>
+</ul>
+</li>
+<li><a href="#queues">Queues</a>
+<ul>
+<li>
+<ul>
+<li><a href="#what-is-an-abstract-data-type">What is an abstract data type?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#static-queues">Static queues</a>
+<ul>
+<li>
+<ul>
+<li><a href="#queue-operations">Queue operations</a></li>
+</ul>
+</li>
+<li><a href="#circular-queues">Circular Queues</a></li>
+<li><a href="#priority-queues">Priority Queues</a></li>
+</ul>
+</li>
+<li><a href="#lists-1">Lists</a>
+<ul>
+<li><a href="#dynamic-lists">Dynamic lists</a></li>
+<li><a href="#linked-lists">Linked lists</a></li>
+</ul>
+</li>
+<li><a href="#stacks">Stacks</a>
+<ul>
+<li><a href="#call-stack">Call stack</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="#credits--footnotes">Credits + Footnotes</a></li>
 </ul>
 
@@ -277,17 +335,18 @@
       <p><a href="https://ibaguette.com/cheatsheets/alevel">&lt; Back to A level Cheat Sheets</a></p>
 <h1 id="ah-yes-more-computer-science">Ah yes more computer science!</h1>
 <p><strong>This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠</strong></p>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last update: 05/06/2023 22:48</a></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last general update: 22/09/2023 00:48.<br>
+Last content addition: 22/09/2023 00:48</a></p>
 <p>✅ Note: This file is synced with <a href="https://github.com/Draggie306/CheatSheets">this repository</a>. You’ll always be on the latest version.</p>
 <p>Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.</p>
 <blockquote>
-<p>Discuss with other students, developers, educators and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigaders Discord server</a>! You can also <strong>receive a notification</strong> when there are new Cheat Sheets, Summary Sheets <em>(new!)</em> or other revision material is made public there!</p>
+<p>Discuss with other friendly students, developers, educators and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigaders Discord server</a>! You can also <strong>receive notifications</strong> when there are new Cheat Sheets, Summary Sheets <em>(new!)</em> or other revision material is made public there!</p>
 </blockquote>
-<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/CompSciALevel@3x.png" alt="enter image description here"><br>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/CompSciALevel@3x.png" alt="A collection of pictures that cover a large variety of topics found on the A-level specification."><br>
 <em>As always, enjoy this amazing high-effort and high-skill art by me.</em></p>
 <h1 id="paper-1">Paper 1</h1>
 <h1 id="tbd-unit-1---the-characteristics-of-contemporary-processors-input-output-and-storage-devices">[tbd] Unit 1 - The characteristics of contemporary processors, input, output and storage devices</h1>
-<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/Spec-1.1.png" alt="Spec of the A level section 1.1"></p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/Spec-1.1.png" alt="Specification content of the A level section 1.1"></p>
 <h2 id="components-of-a-computer-and-their-uses">Components of a computer and their uses</h2>
 <p>Surprisingly, a computer has a lot of things in it to make it work! These things are often very small but very fast.</p>
 <h2 id="structure-and-function-of-the-processor">1.1.1 Structure and function of the processor</h2>
@@ -1065,11 +1124,9 @@ OTP: 1110 0010 (<strong>Γ</strong>)</p>
 <blockquote>
 <p>In cryptography, random does not just mean statistically random - it also means unpredictable.</p>
 </blockquote>
+<p>Methods of generating real-world randomness include lava lamps (see image below), a double-pendulum system or radioactive decay.</p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/Cloudflare-lamp-wall.jpg" alt="enter image description here"><br>
-<em>An example of how entropy is created using lava lamps in the Cloudflare HQ. Other methods of generating real-world randomness include a double-pendulum system or radioactive decay.</em></p>
-<blockquote>
-<p>Further reading: <a href="https://www.cloudflare.com/en-gb/learning/ssl/lava-lamp-encryption/">here</a>.</p>
-</blockquote>
+<em>An example of how entropy is created using lava lamps in the Cloudflare HQ. Click <a href="https://www.cloudflare.com/en-gb/learning/ssl/lava-lamp-encryption/">here</a> for further reading.</em></p>
 <h3 id="symmetric-private-key-encryption">Symmetric (private key) encryption</h3>
 <p>This uses the same key to encrypt and decrypt information. Think about an encrypted zip file - you add the password at the start, send the password (the key) to someone else (this is <strong>key exchange</strong>) and they can decrypt and unzip it. If the key is intercepted at all during transmission, it can compromise the security of all past and future communications which have used the same key.</p>
 <h3 id="asymmetric-public-key-encryption">Asymmetric (public key) encryption</h3>
@@ -1093,7 +1150,7 @@ OTP: 1110 0010 (<strong>Γ</strong>)</p>
 <p>Hashes are used in packet headers (checksums), digital signatures to prove identity, digital certificates and Public Key Infrastructure (PKI) and more.</p>
 <h2 id="databases">1.3.2 Databases</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Databases.png" alt="enter image description here"></p>
-<p>I really don’t like databases. They are just boring. But luckily they’re easy to understand and remember once you’ve got yeour head around them.</p>
+<p>I really don’t like databases. They are just boring. But luckily they’re easy to understand and remember once you’ve got your head around them.</p>
 <h3 id="database-concepts">Database concepts</h3>
 <p>Firstly, entities need to be worked out.</p>
 <p><strong>An entity is a category of object, person, event or thing of interest about which data is needed to be recorded.</strong></p>
@@ -1117,7 +1174,7 @@ OTP: 1110 0010 (<strong>Γ</strong>)</p>
 </ul>
 <p>The DBMS (Database management system) needs to have a unique identifier for the entity. The primary key is notated by being <a href="">underlined</a>. It is automatically indexed.</p>
 <blockquote>
-<p>Two or more attributes that are needed to uniquely identify a record are composite primary keys.</p>
+<p>Two or more attributes that are needed to uniquely identify a record are <strong>composite primary keys</strong>.</p>
 </blockquote>
 <p>User (<a href="">customerID</a>, <a href="">orderNumber</a>, custName, custSurname, productID, subject, tier)</p>
 <p>Searches may also need to be made on other attributes of entities. In the table above, <code>subject</code>, <code>tier</code>, <code>productID</code>, <code>custName</code> and <code>custSurname</code> can be definded as the secondary key. These would then be indexed if specified by the user.</p>
@@ -1136,7 +1193,7 @@ OTP: 1110 0010 (<strong>Γ</strong>)</p>
 <p>Customer in this table can be thought of as a class - it inherits attributes about it from a blueprint. However it needs to be unique, so primary key CustID will need to be assigned to it. This is the same for SubscriptionID - but SubscriptionID is not needed in the attributes of the Customer, as the database may be searched for CustomerIDs in the Subscription table.</p>
 </blockquote>
 <h3 id="referential-integrity">Referential Integrity</h3>
-<p>Referential integrity states that an attribute referenced as a foreign key on one table cannot be deleted, and therefore cannot reference something that doesn’t exist. For example adding <code>customerID 193</code> in table Subscription should not be possible if there is no customerID 193.</p>
+<p>Referential integrity states that an attribute referenced as a foreign key on one table cannot be deleted, and therefore cannot reference something that doesn’t exist. For example adding <code>customerID 193</code> in table Subscription should not be possible if there is no <code>customerID 193</code> anyway.</p>
 <h3 id="normalisation">Normalisation</h3>
 <p>In a relational database, data is held in tables, or <strong>relations</strong>. Each row in the table holds a specific, unique record, with each column representing an attribute.</p>
 
@@ -1197,7 +1254,8 @@ OTP: 1110 0010 (<strong>Γ</strong>)</p>
 <p>This means that if non-key columns are dependent on something other than the primary key (e.g. are foreign keys that relate to the primary key of another entity) they have to go. If a table is such that:</p>
 <p>Component (<a href="#">ComponentID</a>, ComponentName, <em>SupplierID</em>)</p>
 <p>it can be seen that SupplierID is a foreign key and does not depend on the ComponentID of the Component entity, rather a different entity. It will then be moved to a separate table, with all dependent columns moving to this new table.</p>
-<h4 id="importance">Importance</h4>
+<h4 id="importance-of-normalisation">Importance of normalisation</h4>
+<p>There are benefits for carrying out normalisation on databases and tables. These include:</p>
 <ul>
 <li>Easier to maintain</li>
 <li>Easier to query</li>
@@ -1207,11 +1265,12 @@ OTP: 1110 0010 (<strong>Γ</strong>)</p>
 <li>No accidental deltion of records</li>
 </ul>
 <h3 id="sql">SQL</h3>
+<p>Stands for Structured Query Language. It is the backbone of many major database querying languages and you’ve probably</p>
 <h4 id="basic-select">Basic Select</h4>
-<pre><code>SELECT Fields
-FROM TableName
-WHERE (value CONDITION value) 
-ORDER BY Field ASC
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token keyword">Fields</span>
+<span class="token keyword">FROM</span> TableName
+<span class="token keyword">WHERE</span> <span class="token punctuation">(</span><span class="token keyword">value</span> CONDITION <span class="token keyword">value</span><span class="token punctuation">)</span> 
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> Field <span class="token keyword">ASC</span>
 </code></pre>
 <h4 id="conditions">Conditions</h4>
 
@@ -1321,18 +1380,17 @@ ORDER BY Field ASC
 <pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> NewFilm
 <span class="token keyword">WHERE</span> ReleaseDate <span class="token operator">=</span> <span class="token string">"02/06/2023"</span>
 </code></pre>
-<h3 id="transaction-processing">Transaction Processing</h3>
-<h3 id="acid">ACID</h3>
+<h3 id="transaction-processing-and-acid">Transaction Processing and ACID</h3>
 <h4 id="atomicity">Atomicity</h4>
 <p>A transaction must be processed in its entirety or not at all. It is not possible to process only part of a transaction no matter how catastrophic the failure is.</p>
 <h4 id="consistency">Consistency</h4>
-<p>No transaction can violoate the defined validation rules. Referential integrity will always be upheld</p>
+<p>No transaction can violate the defined validation rules. Referential integrity will always be upheld.</p>
 <h4 id="isolation">Isolation</h4>
 <p>The concurrent execution and processing of transactions must be the same as if these transactions were processed sequentially.</p>
 <h4 id="durability">Durability</h4>
 <p>A transaction will always remain committed once a it has been made.</p>
 <p>This is undertaken by having a buffer, either in the disk or in memory, which receives the temporary modifications. Once all of the transactions have been made, only then will it be committed and written to the disk.</p>
-<h3 id="problems-with-multi-user-databases">problems with multi-user databases</h3>
+<h3 id="problems-with-multi-user-databases">Problems with multi-user databases</h3>
 <p>If user A wants to chnage user X address, this is fine. If two minutes later, user B changes user X’s balance and saves the record, this is fine. However when user A saves the new record with just the updated address, user B’s changes are lost. To prevent this, we can use:</p>
 <h4 id="record-locking">Record locking</h4>
 <p>To uphold ACID, if two users are editing a database and want to edit each other’s attributes, they may lock each other’s records and result in deadlock. The DBMS will recognise this and try and use one of the below things to fix it:</p>
@@ -1345,14 +1403,17 @@ ORDER BY Field ASC
 <h4 id="redundancy">Redundancy</h4>
 <p>There may be multiple systems available in different physical locations which can be switched to if there is an error in one DBMS. This is crucial in busy businesses or where there is a lot of information that is of high importance being transferred and updated simultaneously.</p>
 <h2 id="networks">1.3.3 Networks</h2>
-<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png" alt="enter image description here"><br>
-The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.</p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png" alt="enter image description here"># Ah yes more computer science!</p>
+<h1 id="unit-5-networks-and-web-technologies">Unit 5: Networks and web technologies</h1>
+<h2 id="structure-of-the-internet">Structure of the Internet</h2>
+<p>The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.</p>
 <p>The World Wide Web is a collection of websites and documents linked by hyperlinks made accessible via the Internet.</p>
 <p>The Internet is the largest network (what computers communicate with each other on). THis is known as a Wide Area Network, or WAN, as it spans over a large geographic area.</p>
 <p>The Internet can also be used to transmit data without using the World Wide Web. However, this data must travel through the backbone.</p>
-<p>The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicate, high-transmission fibre-optic cables that ‘peer’ (are connected with) each other, and are owned by large Internet Service Providers (ISPs).</p>
+<p>The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicated, high-transmission fibre-optic cables that ‘peer’ (are connected with) each other, and are owned by large Internet Service Providers (ISPs).</p>
 <p>By connecting all these cables together, these ISPs can create a single network that gives each other access to the entire Internet. The way they communicate is by using the <strong>TCP</strong> (Transport Control Protocol) and <strong>IP</strong> (Internet Protocol) protocols.</p>
-<p>Protocol - a set of rules or procedures for transmitting data between electronic devices, such as computers</p>
+<p>Protocol - a set of rules or procedures for transmitting data<br>
+between electronic devices, such as computers</p>
 <h3 id="ipv4-addressses">IPv4 addressses</h3>
 <p>are a series of 4 octet values separated by a full stop (max 32 bits), ranging from 0 to 255. However, there are not enough addresses to support the growing population, so IPv6 is being used which uses 128 bits.</p>
 <h3 id="uniform-resource-locator-url">Uniform Resource Locator (URL)</h3>
@@ -1365,7 +1426,7 @@ The Internet is a public interconnection of computer networks which allows data 
 <p>DNS servers are therefore dedicated computers that store an index of domain names and their corresponding IP addresses.</p>
 <p>When a user types a domain name into their web browser or other application, the application sends a request to a DNS server to resolve the domain name to its associated IP address. The DNS server then searches its index for the domain name and returns the corresponding IP address to the requesting application. This allows the application to establish a connection to the server associated with the domain name, enabling the transfer of data between the client and server.</p>
 <blockquote>
-<p>Frequent DNS queries are often cached on a client’s system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browser, which is much faster.</p>
+<p>Frequent DNS queries are often cached on a client’s system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browserthe cache, which is much faster.</p>
 </blockquote>
 <p>If the local DNS server does not have a record for the domain, it may forward the request to an ISP’s DNS server. If the ISP DNS server does not have a record, then it may be forwarded to one of 13 global root DNS servers which hold the records of every domain on the Internet.</p>
 <p>This process is known as <strong>recursion</strong> and enables the DNS system to efficiently resolve domain names to their corresponding IP addresses, even for domains hosted on remote servers.</p>
@@ -1376,21 +1437,25 @@ The Internet is a public interconnection of computer networks which allows data 
 <p>IANA (Internet Assigned Numbers Authority) is responsible for coordinating the allocation of IP addresses to the RIRs.</p>
 </blockquote>
 <h3 id="area-networks">Area Networks</h3>
-<p>In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one building or site.</p>
+<p>In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one<br>
+building or site.</p>
 <h3 id="hubs-and-switches">Hubs and switches</h3>
 <p>A network switch is a hardware device that is commonly used to connect various network segments within a LAN. Switches are designed to forward data packets between different devices on a network.</p>
 <p>Unlike hubs, which broadcast data packets to all devices on a network segment, switches selectively forward data packets only to their intended destination device.</p>
 <p>Hubs connect multiple Ethernet devices together, making them act as a single network segment. Hubs are an older type of connector and are less commonly used today due to their limitations. Unlike switches, hubs broadcast all data packets to every device on the network, which can lead to network congestion and reduced performance.</p>
 <p>A network switch operates by learning the MAC addresses of devices connected to it, and then using this information to forward data packets to the appropriate device. This allows devices on the network to communicate with one another directly, without the need for every device to receive every packet.</p>
 <blockquote>
-<p>Watch out! Many people still use the word ‘hub’ when they mean ‘switch’!</p>
+<p>Watch out! Many people still use the word ‘hub’ when<br>
+they mean ‘switch’!</p>
 </blockquote>
 <h3 id="physical-network-topologies">Physical network topologies</h3>
 <p>A network topology refers to the physical or logical arrangement of computing devices which make up a network.</p>
 <p><strong>Bus topology</strong>: an arrangement where nodes are connected</p>
 <p>in a ‘chain’ by a single central communications channel, or ‘bus’. Each end of this bussy backbone is connected to a terminator which stops signals bouncing back. Each terminal, or node, on this cable is passive.</p>
 <p>They are simple to set up and cheap, but only one computer can transmit data successfully at a time (or “collisions” will occur) and there is poor security generally, with a single point of failure, as well as being unsuitable for larger areas.</p>
-<p><strong>Star topology</strong>: an arrangement where a central node or switch (or hub) provides a central point of communication for all other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices’ <strong>Media Access Control (MAC)</strong> address to determine where to send the message.</p>
+<p><strong>Star topology</strong>: an arrangement where a central node or<br>
+switch (or hub) provides a central point of communication for all<br>
+other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices’ <strong>Media Access Control (MAC)</strong> address to determine where to send the message.</p>
 <p>The failure of any one device (unless it is the switch itself) does not affect the operation of the network as a whole. This makes star networks highly reliable and easy to maintain, as well as being easy to add new stations. Higher transmission speeds can give better performance than a bus network too.</p>
 <blockquote>
 <p>Star networks are a popular choice for LANs and other small-scale networks, due to their simplicity and reliability. They are especially well-suited for networks that require high bandwidth and low latency and as well as for security, as data is sent only to one other device.</p>
@@ -1419,34 +1484,47 @@ The Internet is a public interconnection of computer networks which allows data 
 </thead>
 <tbody>
 <tr>
-<td>No cabling costs: mesh networks can be wireless</td>
-<td>Higher implementation and maintenance costs, especially for smaller businesses with limited resources</td>
-</tr>
-<tr>
-<td>Network scaling and setup can be easier without added cabling allowing for easy expansion, as new nodes are automatically added to the network</td>
-<td>Redundant connections can add to costs and complexity of the network, requiring increased planning and network management</td>
-</tr>
-<tr>
-<td>No central switch, resulting in faster communication and less chance of traffic congestion through direct routing</td>
-<td>Limited range, especially with wireless signals, or expensive cables. More nodes and APs will be required to extend coverage, increasing costs</td>
-</tr>
-<tr>
-<td>Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just use other routes)</td>
+<td>:</td>
 <td></td>
 </tr>
 </tbody>
-</table><h3 id="packets-packet-switching-and-routers">Packets, Packet Switching and Routers</h3>
+</table><ul>
+<li>No cabling costs: mMesh networks can be wireless|Higher implementation and maintenance costs, especially for smaller businesses with limited resources|<br>
+|Network scaling and setup, eliminating the need for costly cabling and making it easier to set up and scale the network.</li>
+<li>Faster communication: Since data packets do not need to travel via a central switch, communication can be faster and more efficient, especially in larger networks where traffic can become congested.</li>
+<li>Self-healing: The more nodes that are installed, the faster and more reliable the network becomes, since one blocked connection can be easier without added cabling allowing for ely be circumvented by another route. In this respect, the mesh can be described as ‘self-healing’.</li>
+<li>Easy expansion, as n: New nodes are automatically addincorporated into the network|Redundant connections can add to costs and complexity of the network, requiring increased plan, making it easier to add new devices and scale the network.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Higher implementation cost: Building and maintaining and mesh network mcanagement|<br>
+|No central switch, resulting in faster communication and less chance of traffic congestion through direct routing|Limited range, especially with wireless signals, or expensive cables. More nodes and APs will be required to extend coverage, increasing costs|<br>
+|Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just us be difficult and time-consuming, making it less desirable for smaller networks or businesses with limited resources.</li>
+<li>Redundant connections: The chance of redundant connections is high, adding to costs and complexity. Careful planning and management is needed to avoid unnecessary connections and reduce costs.</li>
+<li>Limited range: Mesh networks are typically limited to a certain range, depending on the strength of the wireless signal. This means that additional nodes or access points may be required to extend coverage, which can increase the cost and complexity of the network.</li>
+</ul>
+<h2 id="internet-communication">Internet Communication</h2>
+<ol>
+<li>Circuit Switching and Packet Switching: Circuit switching is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session. In contrast, packet switching divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible other routes)|  |</li>
+</ol>
+<p>an circuit switching.</p>
+<h3 id="packets-packet-switching-and-routers">Packets, Packet Switching and Routers</h3>
 <p>Packet switching requires routers to direct the packets to their destination. A router is a network device that receives packets and forwards data packets from one network to another.</p>
-<p>Each router stores data about the available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.</p>
+<p>Each router stores data about the<br>
+available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.</p>
 <blockquote>
-<p>Each transfer between routers is known as a <strong>hop</strong></p>
+<p>Each transfer between routers<br>
+is known as a <strong>hop</strong></p>
 </blockquote>
 <p>Routers will then continue to forward the packet until it reaches its destination node.</p>
 <p>A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header.</p>
 <blockquote>
 <p>Packets are deliberately kept small to ensure that individual packets do not take excessive time to transfer preventing other packets from moving.</p>
 </blockquote>
-<p>However, they should not be too small as the additional data added makes data transfer inefficient as unnecessary headers and trailers would be required each time.</p>
+<blockquote>
+<p>However, they should not be too small as the additional data added makes data transfer inefficient as<br>
+unnecessary headers and trailers would be required each time.</p>
+</blockquote>
 <p>The <strong>trailer</strong> contains the <strong>end of packet flag</strong>, as well as <strong>error checking components</strong> like checksums or Cyclical Redundancy Checks (CRCs), are calculated at the origin and destination end. If they do not match, the data has become corrupted and is refused and a new copy is requested to be sent again.</p>
 <p>The payload is the actual data that needs to be sent, varying in size from 500 to 1,500 bytes.</p>
 <p>The packet header contains the IP addresses of the recipient and the sender, so that it can be directed appropriately across the network. The packet number and overall number of packets in the transmission is attached to assist in reassembling the data at the receiving end. The Time to Live (TTL), or hop limit, is also included.</p>
@@ -1475,7 +1553,14 @@ The Internet is a public interconnection of computer networks which allows data 
 <h4 id="transport-layer">Transport layer</h4>
 <p>The transport layer uses the <strong>Transmission Control Protocol</strong> (TCP) as well as the <strong>User Datagram Protocol</strong> (UDP) to establish an end-to-end connection to the recipient.</p>
 <p>Application data from the above application layer often has large filesizes, such as uploading a 10GB video file, and thus must be split into segments, or TCP packets, and then numbers these sequentially.</p>
-<p>The port number (a 16 bit number) is also added in this layer. Servers listen on specific well-known port numbers like 443 for HTTPS for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.</p>
+<p>The port number (a 16 bit number) is also added in this layer. Servers listen</p>
+<ol>
+<li>Application layer</li>
+<li>Transport layer</li>
+<li>Internet layer</li>
+<li>Data Link/Network Interface layer.</li>
+</ol>
+<p>Each layer has its own specific well-known port numbers like 443 for HTTPS for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.</p>
 <blockquote>
 <p>If there are 65,535 TCP connections or more at a time all accessing some data, new connections cannot be established as this is the 16-bit limit for the transport layer!</p>
 </blockquote>
@@ -1493,7 +1578,14 @@ TCP ensures that no data is received erroneously or is lost during transport, so
 <p>Each layer has its own specific tasks in transmitting data over a network.</p>
 <p>The link layer operates across a physical connection</p>
 <p>Adds the MAC address of the physical NIC that packets should be sent to based on the destination IP address</p>
-<p>MAC addresses change with each hop</p>
+<p>MAC addresses change with each hoptasks in transmitting data over a network.</p>
+<h4 id="application-layer-1">Application layer</h4>
+<ul>
+<li>The application layer is based at the top of the stack. It specifies what protocol needs to be used in order to relate the application that’s being sent.</li>
+<li>For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP</li>
+</ul>
+<p><img src="https://media.discordapp.net/attachments/1076990931791777793/1076991657007906868/image.png" alt="noi"><br>
+<em>chat gpt asking for a summary of tcp ip what I just wrote but kawaii prompt included</em></p>
 <h3 id="transferring-files-using-ftp">Transferring Files using FTP</h3>
 <p>FTP (File Transfer Protocol) is a standard protocol used to transfer files. It is widely used for uploading files to and downloading files from servers with little overhead.</p>
 <h3 id="email-servers">Email Servers</h3>
@@ -1509,11 +1601,13 @@ chosenElement<span class="token punctuation">.</span>innerHTML <span class="toke
 </code></pre>
 <h1 id="tbd-1.4-data-types-data-structures-and-algorithms">[tbd] 1.4 Data types, data structures and algorithms</h1>
 <h1 id="tbd-1.5-legal-moral-cultural-and-ethical-issues">[tbd] 1.5 Legal, moral, cultural and ethical issues</h1>
-<p>The Data Protection Act 2018: controls the way data about living people is stored and processed<br>
-It is a national law which complements the European Union’s General Data Protection Regulation (GDPR)</p>
-<p>The Computer Misuse Act 1990 makes it an offence to access or modify computer material without permission</p>
-<p>The Copyright, Designs and Patents Act 1988 covers the copying or use of other people’s work</p>
-<p>The Regulation of Investigatory Powers Act 2000 regulates surveillance and investigation, and covers the interception of communications</p>
+<p>The <strong>Data Protection Act 2018</strong>: controls the way data about living people is stored and processed</p>
+<ul>
+<li>It is a national law which complements the European Union’s General Data Protection Regulation (GDPR)</li>
+</ul>
+<p>The <strong>Computer Misuse Act 1990</strong> makes it an offence to access or modify computer material without permission</p>
+<p>The <strong>Copyright, Designs and Patents Act 1988</strong> covers the copying or use of other people’s work</p>
+<p>The <strong>Regulation of Investigatory Powers Act 2000</strong> regulates surveillance and investigation, and covers the interception of communications</p>
 <h1 id="paper-2">Paper 2</h1>
 <h1 id="elements-of-computational-thinking">2.1 Elements of computational thinking</h1>
 <h2 id="thinking-abstractly">2.1.1 Thinking abstractly</h2>
@@ -1522,10 +1616,181 @@ It is a national law which complements the European Union’s General Data Prote
 <h2 id="thinking-logically">2.1.4 Thinking logically</h2>
 <h2 id="thinking-concurrently">2.1.5 Thinking concurrently</h2>
 <h1 id="problem-solving-and-programming">2.2 Problem solving and programming</h1>
+<h1 id="temp-section-data-structures">TEMP SECTION: Data Structures</h1>
+<h2 id="arrays-records-and-tuples">Arrays, records and tuples</h2>
+<p>A variable is a location in memory which holds a particular variable, which can be of a specific type.<br>
+Strings, for example, may require more memory to hold their values, as opposed to Booleans which are either True or False.</p>
+<p>Elementary data types include chars, reals, integers, booleans.</p>
+<p>Structured data types, depending on the programming language, may be built-in to the syntax. These will include list of records, lists, arrays and strings. Structured data types are typically decomposed into elementary data types.</p>
+<h3 id="arrays">Arrays</h3>
+<p>Arrays, like all data structures, must be declared. During declaration, its size (length) and stored data types must be stated. This is to ensure that there are enough contiguous memory locations for the data to be stored.</p>
+<p>Arrays are therefore <strong>static</strong> (cannot grow or shrink in length). However, elements within the array can be changed after initialisation (during runtime), making them <strong>mutable</strong> data structures. They can also only store <strong>one</strong> data type.</p>
+<pre class=" language-c"><code class="prism  language-c"><span class="token comment">// Example in Pseudocode:</span>
+ARRAY words<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span>
+words <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"hi"</span><span class="token punctuation">,</span> <span class="token string">"my"</span><span class="token punctuation">,</span> <span class="token string">"name"</span><span class="token punctuation">,</span> <span class="token string">"is"</span><span class="token punctuation">,</span> <span class="token string">"Joe"</span><span class="token punctuation">]</span> 
+</code></pre>
+<blockquote>
+<p>Note: For the purposes of simplicity, it is best to ignore Python’s (and other languages’) implementations of arrays, as they can be dynamic.</p>
+</blockquote>
+<p>Arrays can also have multiple dimensions. These can be denoted by:</p>
+<pre class=" language-go"><code class="prism  language-go">ARRAY words<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">]</span>
+</code></pre>
+<p>This is a 3D array with a length of 2, height of 4, and width of 7. With zero-index languages, this is a total of 3<em>5</em>8 = <strong>120</strong> different positions.</p>
+<p>These can be accessed by accessing the array name followed by the row and column indexes. E.g. words[1, 3] would return the value at row index 1 and column index 3.</p>
+<h4 id="trace-tables-tbd">Trace tables [tbd]</h4>
+<p>When tracing the results of a function, trace tables can be used. The table is named the same as the array. For each new declaration</p>
+<h3 id="lists">Lists</h3>
+<p>Lists, like arrays, are <strong>mutable</strong> structures. However, unlike arrays, their length does not need to be declared during initialisation as they are <strong>dynamic</strong> structures; they can also store <strong>any types</strong> of data inside.</p>
+<pre class=" language-c"><code class="prism  language-c"><span class="token comment">// Example in Pseudocode:</span>
+LIST sentence<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span>
+sentence <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"Hi"</span><span class="token punctuation">,</span> <span class="token string">"i"</span><span class="token punctuation">,</span> <span class="token string">"am"</span><span class="token punctuation">,</span> <span class="token number">8</span><span class="token punctuation">]</span>
+sentence<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"!"</span><span class="token punctuation">)</span>
+sentence<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">"years"</span><span class="token punctuation">,</span> <span class="token string">"old"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token function">print</span><span class="token punctuation">(</span>sentence<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> old
+</code></pre>
+<h3 id="tuples">Tuples</h3>
+<p>Tuples are a mixture of arrays and lists.</p>
+<p>Tuples are lists which cannot be modified at runtime - they are <strong>immutable</strong>. Their length also therefore cannot change, making them <strong>static</strong> too. However, despite these drawbacks, they too can store <strong>more than one data type</strong>. They must also be an <strong>ordered</strong> set of values.</p>
+<pre class=" language-c"><code class="prism  language-c"><span class="token comment">// Example in Pseudocode:</span>
+TUPLE words<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span>
+words <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token string">"Hi"</span><span class="token punctuation">,</span> <span class="token string">"i"</span><span class="token punctuation">,</span> <span class="token string">"am"</span><span class="token punctuation">,</span> <span class="token string">"8"</span><span class="token punctuation">)</span>
+words<span class="token punctuation">.</span><span class="token function">append</span><span class="token punctuation">(</span><span class="token string">"!"</span><span class="token punctuation">)</span>
+<span class="token comment">// Syntax error: cannot append to tuple at runtime</span>
+</code></pre>
+<p>This may be a bad idea to implement if the end user needs to update their name for example.</p>
+<h3 id="records">Records</h3>
+<p>Records are like a spreadsheet of data, and similarly are used to store data permanently. Records exhibit the characteristics of a <strong>tuple</strong>.</p>
+<h2 id="queues">Queues</h2>
+<p>Queues are FIFO specialist data structures and are categorised as an abstract data type, alongside stacks (and lists in some languages).</p>
+<h4 id="what-is-an-abstract-data-type">What is an abstract data type?</h4>
+<p>An abstract data type is one that is implemented by the programmer, rather than one being defined in the programming language itself. They are descriptions of how data can be viewed and operations that can be performed on it, but not how it itself is constructed. The implementation of ADTs are hidden from the user.</p>
+<hr>
+<h2 id="static-queues">Static queues</h2>
+<p>Queues are often used in event-driven programming, with graphical user interfaces as an example. There must be an event loop which continually checks for new events, which are then added to the event queue. This makes them essential for asynchronous programming.</p>
+<p>A queue exhibits the same traits of a list, but data can only be inserted one way (pushing/enqueuing) and retrieved (popping/dequeued) from the other end - think of a pipe, or a list of printer jobs.</p>
+<h4 id="queue-operations">Queue operations</h4>
+<p>There are four main operations which queues can process:</p>
+<ul>
+<li>Enqueuing (pushing) an item - this adds it to the end of the queue
+<ul>
+<li><code>queue.enqueue(item)</code></li>
+</ul>
+</li>
+<li>Dequeuing (popping) and item - this removes it from the front of the queue.
+<ul>
+<li><code>queue.dequeue(item)</code></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>As queues are First In, First Out structures, the items added last will be the last to be processed, and all other items in front of it will be processed beforehand</p>
+</blockquote>
+<ul>
+<li>Checking full state
+<ul>
+<li><code>queue.isFull()</code></li>
+</ul>
+</li>
+<li>Checking empty state
+<ul>
+<li><code>queue.isEmpty()</code></li>
+</ul>
+</li>
+</ul>
+<p>Items <strong>cannot</strong> be inserted to a specific position within a queue data structure.</p>
+<p>During initialisation, due the static nature of queues, their <code>maxSize</code> must be specified during initialisation. Pseudocode can be written to keep track of the <code>currentSize</code> and compare this with the <code>maxSize</code> to disallow adding items to a full queue or removing items from a queue with zero depth.</p>
+<h3 id="circular-queues">Circular Queues</h3>
+<p>When an item is dequeued from a static queue, the space it occupied in memory cannot be reused, which is wasteful. Likewise, moving all elements of this array up by one in order to free memory at the end of the queue would be wasteful and CPU cycle heavy.</p>
+<p>Queues can alternatively be completely circular and use pointers to denote the start and end index instead. These are implemented as arrays (static).</p>
+<p>When items are popped from circular queues, the <strong>start</strong> pointer simply moves to the next item along (items are dequeued from the start). When this occurs, another element can pushed into this array as there is a memory location available and the end pointer now moves to this most recently pushed element, whilst the start pointer is incremented to the next element. This means that free spaces can continually be reused</p>
+<h3 id="priority-queues">Priority Queues</h3>
+<p>Ever been on a Ryanair flight and the people with Priority queue get in and hog the seats first? The same principal applies here. Each element in the queue has a priority associated with it, which can be denoted by having a number or letter when enqueuing. (<code>pqueue.enQueue("timothy", A)</code>). This is beneficial for giving preference to essential items, but does require more processing overhead to maintain.</p>
+<h2 id="lists-1">Lists</h2>
+<p>Lists are another abstract data type. As briefly touched upon earlier, different languages have varying support for the type of list which is implemented. Python, VB and Java all have built-in dynamic lists, whereas the C family have static lists</p>
+<h3 id="dynamic-lists">Dynamic lists</h3>
+<p>When dynamic lists are being used, the memory heap is accessed. A freely available memory space is obtained from the heap, and a value is added to it. If it is deleted, the memory location is returned to the heap. Pointers are used to traverse to the next index in the list when being traversed.</p>
+<blockquote>
+<p>The heap is a dynamic section of memory designed to hold data during runtime, and release it when it is no longer required by the program.</p>
+</blockquote>
+<p>Some languages do not contain the ability to use a listas a data structure, and arrays must be used instead. As arrays are always static, the length must be specified during initialisation, which is something that may not always be known.</p>
+<p>A few pseudocode procedures and functions are available:</p>
+<ul>
+<li><code>list.isEmpty()</code> -&gt; boolean; tests for empty list
+<ul>
+<li><code>isFull()</code> is not needed; lists are dynamically sized</li>
+</ul>
+</li>
+<li><code>list.append(item)</code> -&gt; None</li>
+<li><code>list.remove(item)</code> -&gt; None</li>
+<li><code>list.count(item)</code> -&gt; int</li>
+<li><code>list.index(item)</code> -&gt; int</li>
+<li><code>list.append(item)</code> -&gt; None</li>
+<li><code>list.index(position, item)</code> -&gt; int</li>
+<li><code>list.pop()</code>-&gt; value</li>
+<li><code>list.append(position)</code> -&gt; None</li>
+<li><code>len(list)</code> -&gt; int</li>
+</ul>
+<h3 id="linked-lists">Linked lists</h3>
+<p>Each element (node) of a linked list contains two items: the <strong>data</strong> item and the <strong>next address</strong>, or link, item. Several of these nodes linked together are known as a linked list. Linked lists are dynamic lists toom as the link item points to the memory address of the next item in the array, if there is one. The memory locations of these linked lists are non-contiguous; the link field can point to any available memory space. When implemented by the programming language, the first node’s memory location is kept track of.</p>
+<p>When deleting data, the pointer to the node to be deleted would change to the position of the node after the deleted node. (This is because the link field of the preceding node would be pointing to the deleted node, and not the node after it.)</p>
+<p>When inserting data, the preceding node’s link is modified to point to a free memory location to be used as a node, then assigning this location with a value, then adding the link item to the next node.</p>
+<p>Linked lists can also store multiple link fields if necessary. One link may be the position of following nodes based on their data in alphabetical order, whilst others may be in another order. This is known as a <strong>multilinked list</strong>.</p>
+<h2 id="stacks">Stacks</h2>
+<p>Stacks are LIFO (last in, first out) abstract data structures. This means that the most recent item added will also be the first one removed when processed.</p>
+<p>The undo button or web browser history can be an example of a stack. This is because as changes are made to the document, the most recent version is on the top - it is building on the previous revisions. When you Ctrl + Z, the most recent change is removed (popped) - if that makes sense?</p>
+<p>Another way to view a stack is by having a tower of books in a library. If somebody wants to return a book, this is placed on top of the other books. When these books need to be put back on the shelves, the book on top will be processed first.</p>
+<p>This can be described as: <strong>the order of insertion is the reverse of the order of removal</strong>.</p>
+<p><code>stack.push(item)</code> - adds item to stack top<br>
+<code>stack.pop()</code> - removes and returns the top item<br>
+<code>stack.isEmpty()</code> - checks if stack is empty (depth of 0)<br>
+<code>stack.isFull()</code> - checks if stack is full</p>
+<p><code>stack.peek()</code> - returns top without removal<br>
+<code>stack.size()</code> - number of items</p>
+<pre class=" language-py"><code class="prism  language-py">items <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"a"</span><span class="token punctuation">,</span> <span class="token string">"b"</span><span class="token punctuation">,</span> <span class="token string">"c"</span><span class="token punctuation">,</span> <span class="token string">"d"</span><span class="token punctuation">,</span> <span class="token string">"e"</span><span class="token punctuation">]</span>
+stack <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+new_items <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+element <span class="token operator">=</span> <span class="token number">0</span>
+
+<span class="token keyword">for</span> letter <span class="token keyword">in</span> items<span class="token punctuation">:</span>
+	stack<span class="token punctuation">.</span>push<span class="token punctuation">(</span>letter<span class="token punctuation">)</span>
+
+<span class="token keyword">for</span> item <span class="token keyword">in</span> stack<span class="token punctuation">:</span>
+	value <span class="token operator">=</span> stack<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
+	new_items<span class="token punctuation">.</span>append<span class="token punctuation">(</span>value<span class="token punctuation">)</span>
+
+<span class="token keyword">print</span><span class="token punctuation">(</span>stack<span class="token punctuation">)</span>
+<span class="token keyword">if</span> new_items<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">:</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">==</span> stack<span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Stacked successful!"</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Attempting to push to a full stack will result in an <strong>overflow</strong> error. “Stack Overflow”: ran out of memory</p>
+<p>Likewise, popping an empty stack will give an <strong>underflow</strong> error.</p>
+<h3 id="call-stack">Call stack</h3>
+<p>The call stack is a system-level stack that is used to store current information about executing functions and subroutines. High-level languages can abstract the details of the call stack from programmers. It allows for parameters to be used and the results of functions in their returns to be passed. This is especailly useful if there are a range of functions being used at once, or recursion is in use.</p>
+<p>Recursion involves the return data of one function being used to complete the output of another function. These functions may also call other functions if this is necessary for an output too.</p>
+<p>The last (most recent) function to be called will be computed first. Then, when a value is returned, this is placed on the call stack as the output to the function that called for this value. And this is repeated.</p>
+<ol>
+<li>Stack space is allocated for local variables</li>
+<li>Parameters are saved onto the stack</li>
+<li>The address to the return function is saved to the stack</li>
+<li>Execution is transferred to the function code</li>
+<li>Function is executed</li>
+<li>The return address is retrieved</li>
+<li>Parameters are popped</li>
+<li>Execution is transferred back to the return function</li>
+</ol>
 <h1 id="credits--footnotes">Credits + Footnotes</h1>
 <p>[1] Andy aka (<a href="https://electronics.stackexchange.com/users/20218/andy-aka">https://electronics.stackexchange.com/users/20218/andy-aka</a>), Difference between a bus and a wire, URL (version: 2014-01-11): <a href="https://electronics.stackexchange.com/q/96149">https://electronics.stackexchange.com/q/96149</a></p>
 <p>[2] <em>Teach-ICT A Level Computing - ALU</em>. [online] <a href="https://www.teach-ict.com/as_as_computing/ocr/2016/AS2016/1.1.1/alu_registers/miniweb/pg8.htm#:~:text=Arithmetic%20Logic%20Unit%20(ALU)">Available here</a> [Accessed 22 May 2023].</p>
 <p>[3] Yes I know it should be GPUs for parallel processing but you can still do it on your CPU if you really want to</p>
+<hr>
+<blockquote>
+<p>Une lumière dorée brille sans fin tout au bout du chemin<br>
+(Reference from the film “Les Choristes”)</p>
+</blockquote>
+<blockquote>
+<p>Document written with <a href="https://stackedit.io/">StackEdit</a> :)</p>
+</blockquote>
 
     </div>
   </div>

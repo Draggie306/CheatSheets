@@ -6,7 +6,7 @@
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last general update: 22/09/2023 00:48.
+[Last general update: 22/09/2023 17:40.
 Last content addition: 22/09/2023 00:48](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
@@ -1056,12 +1056,7 @@ There may be multiple systems available in different physical locations which ca
 
 
 ## 1.3.3 Networks
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png)# Ah yes more computer science!
-
-# Unit 5: Networks and web technologies
-
-
-## Structure of the Internet
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-Networks.png)
 
 The Internet is a public interconnection of computer networks which allows data to be sent to any connected device, globally.
 
@@ -1074,12 +1069,9 @@ The Internet can also be used to transmit data without using the World Wide Web.
 
 The Internet backbone is the core infrastructure of the Internet. It is made up of a series of dedicated, high-transmission fibre-optic cables that 'peer' (are connected with) each other, and are owned by large Internet Service Providers (ISPs).
 
- By connecting all these cables together, these ISPs can create a single network that gives each other access to the entire Internet. The way they communicate is by using the **TCP** (Transport Control Protocol) and **IP** (Internet Protocol) protocols.
+By connecting all these cables together, these ISPs can create a single network that gives each other access to the entire Internet. The way they communicate is by using the **TCP** (Transport Control Protocol) and **IP** (Internet Protocol) protocols.
 
-
-Protocol - a set of rules or procedures for transmitting data 
-between electronic devices, such as computers
-
+> Protocol - a set of rules or procedures for transmitting data between electronic devices, such as computers
 
 ### IPv4 addressses 
 are a series of 4 octet values separated by a full stop (max 32 bits), ranging from 0 to 255. However, there are not enough addresses to support the growing population, so IPv6 is being used which uses 128 bits.
@@ -1090,7 +1082,7 @@ URLs are a standardised format for specifying the means of accessing a resource 
 
 The protocol (like HTTP, HTTPS, FTP or WSS) indicated the communication method to access the specified resource. If it is using HTTP/HTTPS, then the resource is going to be on the World Wide Web
 
-The domain name (like ibaguette.com) identifies the server where the resource is hosted. 
+The domain name (like ibaguette.com) identifies the server where the resource is hosted.
 
 By using URLs, users can easily access resources such as web pages, images, documents, and other files on the internet.
 
@@ -1102,7 +1094,7 @@ DNS servers are therefore dedicated computers that store an index of domain name
 
 When a user types a domain name into their web browser or other application, the application sends a request to a DNS server to resolve the domain name to its associated IP address. The DNS server then searches its index for the domain name and returns the corresponding IP address to the requesting application. This allows the application to establish a connection to the server associated with the domain name, enabling the transfer of data between the client and server.
 
-> Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browserthe cache, which is much faster.
+> Frequent DNS queries are often cached on a client's system so that a DNS server does not have to be contacted every time, and instead read from a DNS cache stored by the operating system or browser cache, which is much faster.
 
 If the local DNS server does not have a record for the domain, it may forward the request to an ISP's DNS server. If the ISP DNS server does not have a record, then it may be forwarded to one of 13 global root DNS servers which hold the records of every domain on the Internet.
  
@@ -1110,18 +1102,15 @@ This process is known as **recursion** and enables the DNS system to efficiently
 
 Below the root servers are **generic** and **country** top-level domains (TLDs), such as .com, .edu, .org and .uk, .fr and .de.
 
-  
-
 ### Internet registries
 
 Domain names must be completely unique otherwise DNS requests could be manipulated. There are 5 global Internet registries (RIRs) which are responsible for allocating IP addresses to organisations in their respective regions (typically continental).
 
 > IANA (Internet Assigned Numbers Authority) is responsible for coordinating the allocation of IP addresses to the RIRs.
 
-### Area Networks 
+### Area Networks
 
-In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one 
-building or site.
+In a Local Area Network two, or more, computers are connected together, physically using a ethernet cable or wirelessly, within a small geographical area. For instance, within a small office or school site which is mostly confined to one building or site.
 
 ### Hubs and switches
 
@@ -1133,23 +1122,18 @@ Hubs connect multiple Ethernet devices together, making them act as a single net
 
 A network switch operates by learning the MAC addresses of devices connected to it, and then using this information to forward data packets to the appropriate device. This allows devices on the network to communicate with one another directly, without the need for every device to receive every packet.
 
-> Watch out! Many people still use the word ‘hub’ when 
-they mean ‘switch’!
+> Watch out! Many people still use the word ‘hub’ when they mean ‘switch’!
 
 ### Physical network topologies
 
 A network topology refers to the physical or logical arrangement of computing devices which make up a network.
 
-**Bus topology**: an arrangement where nodes are connected
-
-in a 'chain' by a single central communications channel, or 'bus'. Each end of this bussy backbone is connected to a terminator which stops signals bouncing back. Each terminal, or node, on this cable is passive. 
+**Bus topology**: an arrangement where nodes are connected in a 'chain' by a single central communications channel, or 'bus'. Each end of this bussy backbone is connected to a terminator which stops signals bouncing back. Each terminal, or node, on this cable is passive.
 
 They are simple to set up and cheap, but only one computer can transmit data successfully at a time (or "collisions" will occur) and there is poor security generally, with a single point of failure, as well as being unsuitable for larger areas.
 
 
-**Star topology**: an arrangement where a central node or 
-switch (or hub) provides a central point of communication for all 
-other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices' **Media Access Control (MAC)** address to determine where to send the message. 
+**Star topology**: an arrangement where a central node or switch (or hub) provides a central point of communication for all other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices' **Media Access Control (MAC)** address to determine where to send the message. 
 
 The failure of any one device (unless it is the switch itself) does not affect the operation of the network as a whole. This makes star networks highly reliable and easy to maintain, as well as being easy to add new stations. Higher transmission speeds can give better performance than a bus network too.
 
@@ -1174,51 +1158,29 @@ However, network interference from other devices within range which are also usi
 
 Mesh networks are becoming more common with the widespread use of wireless technology. Each node in a mesh network has a connection to every other node, by transmitting data across any intermediate nodes, and only one node needs an Internet connection and all other nodes can share this, creating a redundant and flexible network architecture. These networks can become big enough to cover entire cities.
 
-
-
 |Advantages|Disadvantages|
 |--|--|
-|:
-
--   No cabling costs: mMesh networks can be wireless|Higher implementation and maintenance costs, especially for smaller businesses with limited resources|
-|Network scaling and setup, eliminating the need for costly cabling and making it easier to set up and scale the network.
--   Faster communication: Since data packets do not need to travel via a central switch, communication can be faster and more efficient, especially in larger networks where traffic can become congested.
--   Self-healing: The more nodes that are installed, the faster and more reliable the network becomes, since one blocked connection can be easier without added cabling allowing for ely be circumvented by another route. In this respect, the mesh can be described as ‘self-healing’.
--   Easy expansion, as n: New nodes are automatically addincorporated into the network|Redundant connections can add to costs and complexity of the network, requiring increased plan, making it easier to add new devices and scale the network.
-
-Disadvantages:
-
--   Higher implementation cost: Building and maintaining and mesh network mcanagement|
-|No central switch, resulting in faster communication and less chance of traffic congestion through direct routing|Limited range, especially with wireless signals, or expensive cables. More nodes and APs will be required to extend coverage, increasing costs|
-|Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just us be difficult and time-consuming, making it less desirable for smaller networks or businesses with limited resources.
--   Redundant connections: The chance of redundant connections is high, adding to costs and complexity. Careful planning and management is needed to avoid unnecessary connections and reduce costs.
--   Limited range: Mesh networks are typically limited to a certain range, depending on the strength of the wireless signal. This means that additional nodes or access points may be required to extend coverage, which can increase the cost and complexity of the network.
+|No cabling costs: mesh networks can be wireless|Higher implementation and maintenance costs, especially for smaller businesses with limited resources|
+|Network scaling and setup can be easier without added cabling allowing for easy expansion, as new nodes are automatically added to the network|Redundant connections can add to costs and complexity of the network, requiring increased planning and network management|
+|Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just use other routes)|  |
 
 ## Internet Communication
 
-1.  Circuit Switching and Packet Switching: Circuit switching is a communication method in which a dedicated physical path is established between two devices for the duration of the communication session. In contrast, packet switching divides data into packets and transmits them over the network to their destination, where they are reassembled. Packet switching is more efficient and flexible other routes)|  |
-
-an circuit switching.
-    
 ###  Packets, Packet Switching and Routers
 
 Packet switching requires routers to direct the packets to their destination. A router is a network device that receives packets and forwards data packets from one network to another.
 
-Each router stores data about the 
-available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.
+Each router stores data about the available routes to the destination node. It looks up the destination IP address in its routing table to find the best router to forward the packet to.
 
-> Each transfer between routers 
-is known as a **hop**
+> Each transfer between routers is known as a **hop**
 
 Routers will then continue to forward the packet until it reaches its destination node.
 
-A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header. 
+A packet is a segment of data that needs to be sent. They are made up of the trailer, payload and header.
 
 > Packets are deliberately kept small to ensure that individual packets do not take excessive time to transfer preventing other packets from moving. 
 
-> However, they should not be too small as the additional data added makes data transfer inefficient as 
-unnecessary headers and trailers would be required each time.
-
+> However, they should not be too small as the additional data added makes data transfer inefficient as unnecessary headers and trailers would be required each time.
 
 The **trailer** contains the **end of packet flag**, as well as **error checking components** like checksums or Cyclical Redundancy Checks (CRCs), are calculated at the origin and destination end. If they do not match, the data has become corrupted and is refused and a new copy is requested to be sent again.
 
@@ -1264,14 +1226,7 @@ The transport layer uses the **Transmission Control Protocol** (TCP) as well as 
 
 Application data from the above application layer often has large filesizes, such as uploading a 10GB video file, and thus must be split into segments, or TCP packets, and then numbers these sequentially. 
 
-The port number (a 16 bit number) is also added in this layer. Servers listen
-
-1. Application layer
-2. Transport layer
-3. Internet layer
-4. Data Link/Network Interface layer. 
-
-Each layer has its own specific well-known port numbers like 443 for HTTPS for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.
+The port number (a 16 bit number) is also added in this layer. Servers listen on specific well-known port numbers like 443  for  HTTPS  for oncoming connections. On the client end, ephemeral port numbers are assigned so received data can be passed up from the transport layer to the application layer to the correct, unique application.
 
 > If there are 65,535 TCP connections or more at a time all accessing some data, new connections cannot be established as this is the 16-bit limit for the transport layer!
 
@@ -1291,7 +1246,9 @@ Uses the Internet Protocol to address packets with a destination and source IP a
 It's worth noting that the IP has no guarantee of correct transmission, and it is up to TCP in the transport layer to do this.
 
 
-#### Link/Data Link/Network Interface layer
+#### Link layer
+
+AKA Data Link/Network Interface layer
 
 Each layer has its own specific tasks in transmitting data over a network.
 
@@ -1300,14 +1257,6 @@ The link layer operates across a physical connection
 Adds the MAC address of the physical NIC that packets should be sent to based on the destination IP address
 
 MAC addresses change with each hoptasks in transmitting data over a network.
-
-
-#### Application layer
--   The application layer is based at the top of the stack. It specifies what protocol needs to be used in order to relate the application that’s being sent.
--   For example, if the application is a browser then it would select a protocol such as HTTP, POP3, FTP
-
-![noi](https://media.discordapp.net/attachments/1076990931791777793/1076991657007906868/image.png)
-*chat gpt asking for a summary of tcp ip what I just wrote but kawaii prompt included*
 
 
 ### Transferring Files using FTP

@@ -1,5 +1,6 @@
 ﻿
 
+
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
 # Ah yes more computer science!
@@ -1532,6 +1533,22 @@ The last (most recent) function to be called will be computed first. Then, when 
 6. The return address is retrieved
 7. Parameters are popped
 8. Execution is transferred back to the return function
+
+
+## Hash tables
+Hash tables, an abstract data structure, involves processing the value of an item with a hashing function to assert its address. No matter how large the dataset, these will be fast, as there is no searching algorithm being used; only one calculation is needed to find the address of the item (provided the hash function is good, and there are no collisions - see below).
+
+`address = key mod (#ofslots)` - this is the hash function
+
+The remainder of this function will be the address at which to insert the data.
+
+However, collisions may occur when inserting data. The same address can be generated if, for example, the length of the data is 100, and 153 and 253 are being processed.
+Collisions can be resolved by using the next available free space in the hash table, by incrementing the address by one until a free memory location is found. 
+
+However, there are disadvantages to this. There may be "clustering" of data in a certain area of the table, or, if a bad skipping algorithm is used, there may be infinitely unable to store data if the skip length is 2, and there no free slot at 1, 3, 5, 7, 9 etc. When searching for data, all collisions must be checked, which is (understandably) time, memory and CPU cycle heavy.
+
+A 2D hash table can be used to fix this to an extent, by using the first hash function to determine the index of the 2D array, and then appending the data to the end of the array at that index. This is known as **chaining**, which uses a linked list to store data at the same index. This is a good solution for when there are a lot of collisions, but can be slow to process - although this is still faster than searching the main array for the data.
+ 
 
 
 

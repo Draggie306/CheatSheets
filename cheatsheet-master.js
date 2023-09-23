@@ -617,6 +617,12 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
     <a href="/cheatsheets/gcse/ComputerScience/paper1" target="_blank" rel="noopener">OCR J277 Paper 1</a>
     <a href="/cheatsheets/gcse/ComputerScience/paper2" target="_blank" rel="noopener">OCR J277 Paper 2</a>
     <a href="/cheatsheets/gcse/ComputerScience" target="_blank" rel="noopener">OCR J277 Paper 1 and 2</a>
+    <a href="/cheatsheets/gcse/ComputerScience/systems-architecture" target="_blank" rel="noopener">Snippet - Systems Architecture</a>
+    <a href="/cheatsheets/gcse/ComputerScience/memory-and-storage" target="_blank" rel="noopener">Snippet - Memory and Storage</a>
+    <a href="/cheatsheets/gcse/ComputerScience/networks-and-protocols" target="_blank" rel="noopener">Snippet - Networks and Protocols</a>
+    <a href="/cheatsheets/gcse/ComputerScience/network-security" target="_blank" rel="noopener">Snippet - Network Security</a>
+    <a href="/cheatsheets/gcse/ComputerScience/systems-software" target="_blank" rel="noopener">Snippet - Systems Software</a>
+    <a href="/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology" target="_blank" rel="noopener">Snippet - Impacts of Digital Technology</a>
   </div>
 </div>
 
@@ -945,7 +951,7 @@ async function handleRequest(request) {
 
     // Snippets
 
-    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/systems-architecture")) {
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-architecture")) {
       const response = await fetch(systems_architecture_snippet);
       htmlResponse = new Response(await response.text(), {
         headers: {
@@ -957,7 +963,7 @@ async function handleRequest(request) {
         },
       })
     }
-    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/memory-and-storage")) {
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/memory-and-storage")) {
       const response = await fetch(memory_storage_snippet);
       htmlResponse = new Response(await response.text(), {
         headers: {
@@ -969,7 +975,7 @@ async function handleRequest(request) {
         },
       })
     }
-    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/networks-and-protocols")) {
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/networks-and-protocols")) {
       const response = await fetch(networks_protocols_snippet);
       htmlResponse = new Response(await response.text(), {
         headers: {
@@ -981,7 +987,7 @@ async function handleRequest(request) {
         },
       })
     }
-    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/network-security")) {
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/network-security")) {
       const response = await fetch(network_security_snippet);
       htmlResponse = new Response(await response.text(), {
         headers: {
@@ -993,7 +999,7 @@ async function handleRequest(request) {
         },
       })
     }
-    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/systems-software")) {
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-software")) {
       const response = await fetch(systems_software_snippet);
       htmlResponse = new Response(await response.text(), {
         headers: {
@@ -1005,7 +1011,7 @@ async function handleRequest(request) {
         },
       })
     }
-    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology")) {
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/impacts-of-digital-technology")) {
       const response = await fetch(impacts_tech_snippet);
       htmlResponse = new Response(await response.text(), {
         headers: {

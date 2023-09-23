@@ -23,6 +23,24 @@ const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/Che
 const gcse_history_elizabethanengland = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20B%20-%20Elizabethan%20England.html"
 const gcse_history_healthandthepeople = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20A%20-%20Health%20and%20the%20People.html"
 
+// Snippets
+// https://github.com/Draggie306/CheatSheets/blob/main/GCSE/snippets/GCSE%20Computer%20Science%201.1%20Systems%20Architecture%20Revision%20Guide%20-%20OCR%20J277.html
+// https://github.com/Draggie306/CheatSheets/blob/main/GCSE/snippets/GCSE%20Computer%20Science%201.2%20Memory%20and%20Storage%20Revision%20Guide%20-%20OCR%20J277.html
+// https://github.com/Draggie306/CheatSheets/blob/main/GCSE/snippets/GCSE%20Computer%20Science%201.3%20Networks,%20connections%20and%20protocols%20Revision%20Guide%20-%20OCR%20J277.html
+// https://github.com/Draggie306/CheatSheets/blob/main/GCSE/snippets/GCSE%20Computer%20Science%201.4%20Network%20security%20Revision%20Guide%20-%20OCR%20J277.html
+// https://github.com/Draggie306/CheatSheets/blob/main/GCSE/snippets/GCSE%20Computer%20Science%201.5%20Systems%20Software%20Revision%20Guide%20-%20OCR%20J277.html
+// https://github.com/Draggie306/CheatSheets/blob/main/GCSE/snippets/GCSE%20Computer%20Science%201.6%20Impacts%20of%20digital%20technology%20Revision%20Guide%20-%20OCR%20J277.html
+
+
+const systems_architecture_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.1%20Systems%20Architecture%20Revision%20Guide%20-%20OCR%20J277.html"
+const memory_storage_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.2%20Memory%20and%20Storage%20Revision%20Guide%20-%20OCR%20J277.html"
+const networks_protocols_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.3%20Networks,%20connections%20and%20protocols%20Revision%20Guide%20-%20OCR%20J277.html"
+const network_security_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.4%20Network%20security%20Revision%20Guide%20-%20OCR%20J277.html"
+const systems_software_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.5%20Systems%20Software%20Revision%20Guide%20-%20OCR%20J277.html"
+const impacts_tech_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.6%20Impacts%20of%20digital%20technology%20Revision%20Guide%20-%20OCR%20J277.html"
+
+
+// A level links
 const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
 const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html"
 const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html"
@@ -922,6 +940,82 @@ async function handleRequest(request) {
               "cheatsheet-author": "hoali"
           },
       });
+    }
+
+
+    // Snippets
+
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/systems-architecture")) {
+      const response = await fetch(systems_architecture_snippet);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "gcse",
+          "cheatsheet-subject": "computerscience",
+          "cheatsheet-paper": "1",
+          "cheatsheet-snippet": "systems-architecture",
+        },
+      })
+    }
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/memory-and-storage")) {
+      const response = await fetch(memory_storage_snippet);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "gcse",
+          "cheatsheet-subject": "computerscience",
+          "cheatsheet-paper": "1",
+          "cheatsheet-snippet": "memory",
+        },
+      })
+    }
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/networks-and-protocols")) {
+      const response = await fetch(networks_protocols_snippet);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "gcse",
+          "cheatsheet-subject": "computerscience",
+          "cheatsheet-paper": "1",
+          "cheatsheet-snippet": "networks",
+        },
+      })
+    }
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/network-security")) {
+      const response = await fetch(network_security_snippet);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "gcse",
+          "cheatsheet-subject": "computerscience",
+          "cheatsheet-paper": "1",
+          "cheatsheet-snippet": "network-security",
+        },
+      })
+    }
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/systems-software")) {
+      const response = await fetch(systems_software_snippet);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "gcse",
+          "cheatsheet-subject": "computerscience",
+          "cheatsheet-paper": "1",
+          "cheatsheet-snippet": "systems-software",
+        },
+      })
+    }
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology")) {
+      const response = await fetch(impacts_tech_snippet);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "gcse",
+          "cheatsheet-subject": "computerscience",
+          "cheatsheet-paper": "1",
+          "cheatsheet-snippet": "impacts-tech",
+        },
+      })
     }
   
 

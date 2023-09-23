@@ -1,41 +1,90 @@
 # iBaguette Revision Material and Cheat Sheets
 
-Markdown (and other) Cheat Sheets for various subjects hosted on [iBaguette.com/cheatsheets](https://ibaguette.com/cheatsheets)!
-Currently includes
+Markdown (and other) Cheat Sheets/Revision Material for various subjects and exam boards hosted on [iBaguette.com/cheatsheets](https://ibaguette.com/cheatsheets)!
 
--   GCSE
-    
-	-   Computer Science (OCR J277) - Paper 1 and 2
-    
-	-   Geography (AQA) - Paper 1 and 2
-    
-	-   Biology (Edexcel) - Paper 2  _notes_
-    
-	-   Science Practicals (Edexcel) - Biology and Chemistry
+Currently includes:
 
- 	-   History (AQA): Coming soon!
+-   **GCSE tier:**
     
--   A level
-    
-	-   Computer Science (OCR) - Paper 1
-    
-	-   Geography (OCR) - Paper 1
-    
-	-   French (Eduqas) -  _Notes and resources_
-    
-	-   Maths (OCR) - by another contributor
-    
-	-   Physics (OCR) - by another contributor
-    
-	-   Chemistry (OCR) - by another contributor
+	-   Computer Science (OCR J277)
+ 		- **Paper 1:** ✅✨
+ 		  _Complete 1:1 Specification Match!_
+   		- **Paper 2:** ✅✨
+   		  _Complete 1:1 Specification Match!_
 
- 	-   History (AQA): Coming soon!
+	-   Geography (AQA 8035)
+ 		-   **Paper 1:** ✅✨
+ 		 _Complete 1:1 Specification Match!_)
+ 		 
+   		-   **Paper 2:** ✅✨
+   		  _Complete 1:1 Specification Match!_
+   		  
+    	-   **Paper 3:** 🚀 📅
+    	 _Available soon!_
+
+	-   Biology (Edexcel)
+ 		-    **Paper 1:**  🚧 
+ 		  _Currently unavailable._
+ 		 
+ 		-    **Paper 2:**  📝 
+ 		  _Notes only_
     
-	-   Business (AQA) -  _work in progress_
+	-   Science Practicals (Edexcel)
+		- **Biology:** 📋
+		  _Mostly complete_
+		 
+  		- **Chemistry:** 📋 
+  		  _Mostly complete_
+
+ 	-   History (AQA)
+	      -  How to Answer - **Elizabethan England**: 👩‍🏫✅
+	       _Written by a professional examiner_
+	      
+	      - How to Answer - **Health and the People**: 👩‍🏫✅
+	        _Written by a professional examiner_	
     
-	-   Economics (AQA) -  _work in progress_
+-   **A-level tier:**
     
-	-   EPQ (AQA) -  _work in progress_
+	-   Computer Science (OCR)
+ 		- Paper 1: 📋 
+ 		  _Mostly complete_
+ 		- Paper 2: 📋 
+ 		  _Mostly complete_
+    
+	-   Geography (OCR) 
+		-  Paper 1 (Physical): 📋 
+		  _Mostly complete_
+
+		-  Paper 2 (Human): 📋 
+		  _Mostly complete_
+
+		-  Paper 3 (Debates): 📋 
+		  _Mostly complete_
+    
+	-   French (Eduqas):
+	
+		  -  _Notes and resources_ 📚
+    
+	-   Maths (OCR): ✅
+		-  *Mostly complete; maintained by another contributor* 
+    
+	-   Physics (OCR): ✅
+		-  *Mostly complete; maintained by another contributor* 
+    
+	-   Chemistry (OCR): ✅
+		-  *Mostly complete; maintained by another contributor* 
+
+ 	-   History (AQA): 🔜
+	 	- *Coming soon!*
+    
+	-   Business (AQA): 🚧
+		   -  _work in progress_
+    
+	-   Economics (AQA): 🚧
+		   -  _work in progress_
+    
+	-   EPQ (AQA): 🚧
+		-   _work in progress_ 
  
 # Where do I see them?
 

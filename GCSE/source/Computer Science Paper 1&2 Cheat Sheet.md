@@ -1,24 +1,26 @@
 ﻿
-
+  
 
 [< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 
 
-# OCR J277 Computer Science GCSE Cheat Sheet!
+# Complete OCR J277 Computer Science GCSE Cheat Sheet!
 
-[Latest update: 23/08/2023 21:48. 
+[Latest general update: 23/09/2023 18:17. 
 Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
+> Plus, you can opt to receive automatic notifications whenever new content is added here!
 
 ## READ THIS FIRST:
 
-Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
+Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail. I have written more for the things which people may find the most confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
 
-### **This cheat sheet covers _all_ of specification for: J277/01: Computer systems as well as J277/02: Computational thinking, algorithms and programming**
+ **This cheat sheet covers _all_ of specification for: J277/01: Computer systems as well as J277/02: Computational thinking, algorithms and programming**
+--- 
 
-Both papers are 50% of the total GCSE, and are worth 80 marks.
+Both papers individually are 50% of the total GCSE, and are worth 80 marks each.
 
 ## ABOUT THIS
 
@@ -48,15 +50,15 @@ Step by step:
 
 ### **CPU components and their function(s)**
 
-The ALU (arithmetic logic unit)
+The ALU (Arithmetic Logic Unit)
 
 -   Performs calculations and logical operations
 -   Where decisions are made (e.g `if x > 10`)
 
-The CU (control unit)
+The CU (Control Unit)
 
 -   Fetches, decodes and executes instructions
--   Controlls hardware
+-   Controls hardware
 
 Cache
 
@@ -65,9 +67,8 @@ Cache
 -   Speeds up the system - does not have to wait for some data in memory to be fetched
 -   Level 1, 2, 3 cache - 1 is the fastest, most expensive, has the lowest amount of storage, likewise 3 is the slowest, least expensive but contains the most amount of potential storage
 
-Registers
+**Registers** are:
 
--   What Ethan Skipper is on
 -   Small amounts of high speed memory in the CPU used to store small amounts of data needed for processing
 -   Includes the address of the current instruction, the next instruction to be executed, and the results of calculations
 
@@ -895,11 +896,11 @@ There are comparison and arithmetic operators. (They will give the boolean value
 
 #### Comparison operators:
 
-- == 
+- `==` 
 	- Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify a value.
-- != 
-	- Not equal to. Only `True` when the value it is comparing against is NOT the first value.
-- <
+- `!=`
+	- **Not** equal to. Only `True` when the value it is comparing against is NOT the first value.
+- `<`
 	- Less than. Only `True` when the value in front of it is less than the value after it. `if x < 3` means if x is less than 3.
 - `<=`
 	- Less than or equal to. Only `True` when the value in front of it is less OR equal to than the value after it.
@@ -1055,7 +1056,7 @@ would retrieve:
 | 6  | Admin    | Beans   | admin@ibaguette.com   |
 | 7  | Draggie1 | 306     | admin@ibaguette.com   |
 
-[i'm tired please just click this until it might get updated.](https://www.bbc.co.uk/bitesize/guides/zb3yb82/revision/7)
+SQL is explained in more detail on [BBC Bitesize](https://www.bbc.co.uk/bitesize/guides/zb3yb82/revision/7). Alternatively, the A-level Computer Science Cheat Sheet has an in-depth description too.
 
 ### Randoms
 
@@ -1080,7 +1081,7 @@ A program must be able to handle all likely input values, not just the intended 
 Code written must also be maintainable in the future. There are several ways of ensuring this.
 
 - Subroutines. These are parts of the main program. If one part of the program needs to be changed, it can be in the subroutine which is called, so other parts of the code are not affected by changes. Also, it can reduce the amount of clutter in code as if something needs to happen multiple times, code can just link back to a pre-existing subroutine.
-> In BaguetteBot, whenever someone generates coins in the server, one subroutine takes care of this, instead of it being defined how to exactly add a coin whenever someone asks for their balance, joins voice chat, sends a message, etc. Type .coins to use it in Baguette Brigaders!
+> In BaguetteBot, whenever someone generates coins in a Discord server, one subroutine takes care of this, instead of it being defined how to exactly add a coin whenever someone asks for their balance, joins voice chat, sends a message, etc. Type `/coins` to use it in Baguette Brigaders!
 - Naming conventions. There is a set of rules you should follow when naming variables and subroutines. For example naming something `x` doesn't really tell you what it does, whereas `value_inputted` will. (I'm very guilty of this!)
 - Indentation. Essential for legibility, indentation also defines if statements and more. It also makes it easier to read what parts of the program does, as indented levels show that everything on that indent is as a result of something previously.
 - Commenting. Helps people read your code and helps you come back to work on it later. Denoted by either `#`, `"""` or `//`, depending on the language. The first two are for Pythion.
@@ -1098,7 +1099,7 @@ Logic errors result in the program still executing, but producing unexpected res
 
 Syntax errors are errors which break the grammatical rules of the programming language and stop it from being run/translated into machine code.
 
-Il existe deux exemples de tests :
+There are 2 examples of testing which you need to know:
 
 - Iterative testing. This is testing the code, or parts of it, during development to ensure there are no seriously buggy things happening as a result of a typo. It may be easier to identify the mistake if the code is run every few minutes, as the programmer will remember what they've changed.
 - Final/terminal testing. This is testing which occurs at the end of production of some code, before sent to clients. 
@@ -1166,7 +1167,7 @@ Compiled code runs faster, as they have already been translated. If the code has
 
 Interpreted code is slower, as the CPU must wait for every line to be translated, but has the potential to run on multiple kinds of hardware, running different operating systems. It simply executes code, without saving a machine code version. They require less memory also as they do not translate the entire file.
 
-> Interpreters can be built with a REPL, or a Read Execute Print Loop. Hence the name repl.it.
+> Interpreters can be built with a REPL, or a Read Execute Print Loop. Hence the name repl.it for the online IDE.
 
 
 ## 2.5.2 The IDE
@@ -1188,15 +1189,15 @@ You can also write about:
 - Syntax highlighting - similar declarations can be coloured to see them better. For example, all variables could be yellow while classes are blue.
 - Linting - the IDE can analyse the code you're writing as you're writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable.
 
-#
+--- 
 
 That's it! Go get a grade 9! Of course you need to do some of your own programming, so a few examples are below for you to have a go at.
 
-##
+--- 
 
 
 
-# Programming examples.
+# Programming examples
 
 
 ## Level: Easy

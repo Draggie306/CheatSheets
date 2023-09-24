@@ -4,7 +4,7 @@
 
 
 
-# OCR J277 Computer Science Paper 1 Cheat Sheet
+# OCR J277 Computer Science Paper 1 Complete Cheat Sheet
 
 [Latest update: 23/08/2023 21:48. 
 Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
@@ -15,22 +15,18 @@ Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072
 
 Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
 
-### **This cheat sheet covers _all_ of specification for: J277/01: Computer systems. Check the Cheat Sheets page to see Paper 2 individually.**
+**This cheat sheet covers _all_ of specification for: J277/01: Computer systems. Check the Cheat Sheets page to see Paper 2 individually.**
+---
+
 
 From OCR:  
-J277/01: This component will assess:  
+**J277/01: This component will assess:**  
 • 1.1 Systems architecture  
 • 1.2 Memory and storage  
 • 1.3 Computer networks, connections and protocols  
 • 1.4 Network security  
 • 1.5 Systems software  
 • 1.6 Ethical, legal, cultural and environmental impacts of digital technology
-
-
-## ABOUT ME
-
-For ease of access, I’ve written this in a way designed to be read smoothly across any device, called Markdown. It’s easy to navigate and should look nice to read. To skip to areas you are weak on, I’d recommend using the side bar on the left - you may need to open in desktop site or read on a computer to quickly skip between parts.
-
 
 # Paper 1
 

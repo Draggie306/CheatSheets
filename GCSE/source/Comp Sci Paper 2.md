@@ -3,14 +3,34 @@
 [< Back to GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 
-# OCR J277 Computer Science Paper 2 Cheat Sheet
+# OCR J277 Computer Science Paper 2 Complete Cheat Sheet
 
 [Latest update: 23/08/2023 21:48. 
 Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 > Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
 
+## READ THIS FIRST:
+
+Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
+
+**This cheat sheet covers _all_ of specification for: J277/02: Computational thinking, algorithms and programming. 
+Check the [Cheat Sheets page](https://ibaguette.com/cheatsheets/gcse) to see Paper 1 individually.**
+---
+
+
+From OCR:  
+**J277/02: This component will assess:**  
+• 2.1 Algorithms
+• 2.2 Programming fundamentals
+• 2.3 Producing robust programs
+• 2.4 Boolean logic
+• 2.5 Programming languages and Integrated Development Environments
+
+---
 > ==You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can't code Python, you can use an online tool like Replit (where you can code wiith friends at the same time too!) or use an IDE like IDLE or VS Code and just start coding something random. You will find my examples at the bottom for inspiration.==
+
+---
 
 # 2.1 Algorithms
 

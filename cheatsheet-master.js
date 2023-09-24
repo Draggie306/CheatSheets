@@ -512,52 +512,90 @@ const gcse_main_page = `<!DOCTYPE html>
         "@type": "BreadcrumbList",
         "itemListElement": [
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 2,
-            "name": "All GCSE Cheat Sheets",
+            "name": "All GCSE Revision Material",
             "item": "https://ibaguette.com/cheatsheets/gcse"
           },
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 3,
             "name": "Geography Paper 1",
             "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1"
           },
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 4,
             "name": "Geography Paper 2",
             "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper2"
           },
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 5,
             "name": "Geography Papers 1 and 2",
             "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1and2"
           },
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 6,
             "name": "Computer Science",
             "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience"
           },
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 7,
             "name": "Science Practicals",
             "item": "https://ibaguette.com/cheatsheets/gcse/science/practicals"
           },
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 8,
             "name": "Biology 2",
             "item": "https://ibaguette.com/cheatsheets/gcse/biology/2"
           },
           {
-            "@type": "ListItem",
+            "@type": "WebPage",
             "position": 9,
             "name": "GCSE Subject Specific Sites Revision Guide",
             "item": "https://ibaguette.com/cheatsheets/gcse/subject-sites"
+          },
+          {
+            "@type": "WebPage",
+            "position": 10,
+            "name": "OCR J277 - Systems Architecture Revision Guide",
+            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-architecture"
+          },
+          {
+            "@type": "WebPage",
+            "position": 11,
+            "name": "OCR J277 - Memory and Storage Revision Guide",
+            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/memory-and-storage"
+          },
+          {
+            "@type": "WebPage",
+            "position": 12,
+            "name": "OCR J277 - Networks, Connections and Protocols Revision Guide",
+            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/networks-and-protocols"
+          },
+          {
+            "@type": "WebPage",
+            "position": 13,
+            "name": "OCR J277 - Network Security Revision Guide",
+            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/network-security"
+
+          },
+          {
+            "@type": "WebPage",
+            "position": 14,
+            "name": "OCR J277 - Systems Software Revision Guide",
+            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-software"
+
+          },
+          {
+            "@type": "WebPage",
+            "position": 15,
+            "name": "OCR J277 - Impacts of Digital Technology Revision Guide",
+            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology"
           }
         ]
       }

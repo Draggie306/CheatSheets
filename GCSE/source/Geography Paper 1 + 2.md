@@ -1,25 +1,20 @@
-﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
+﻿
+[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
-# AQA Geography
+# AQA Geography GCSE - Complete Revision Cheat Sheet! (8035)
 
-# NOTE: Paper 1 and 2 are complete. 3 will be added later.
+## NOTE: Paper 1 and 2 are complete. 3 will be added later.
 
-[Last content update: 20/05/2023 22:25](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
+[Latest update: 30/09/2023 13:32.
+Latest content addition: 20/05/2023 22:25](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
-> (Thank you messages are also appreciated, you might get featured too!)
+## READ THIS:
 
-## READ ME:
+Please use your class notes, if you have any, as well as this, to aid your revision. **Although this document matches the specification 1:1 and covers it entirely, it is condensed into one place, so might not cover everything in 100% detail**. I have tried to write more content for the topics/ideas which people may find confusing. If there are any errors then please let me know immediately (Discord: `@draggie`). I have tried my best to make it as easy as possible to understand and get a top grade ;)
 
-> Want dark mode? Install the [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en) chrome extension! It works very well on any site, including these cheat sheets!
-
-Please use your class notes, if you have any, as well as this, to aid your revision. This covers the specification but consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know (discord: `@Draggie#3060`) immediately. I have tried my best to make it as easy as possible to understand and get a top grade ;)
-
-I did get a grade 9 in the 2022 exam series, and I did get people coming out of the exam room thanking me for especially the case studies.
+I did get a grade 9 in the 2022 exam series, and I did get people coming out of the exam room thanking me for making this, especially for the case studies.
 
 More specifically, here were my exact marks if you're interested:
 
@@ -27,29 +22,25 @@ More specifically, here were my exact marks if you're interested:
 Paper 2: 81.02/88  [92% - 13 marks/15% above Grade 9] (scaled mark)
 Paper 3: 65.14/76 [86% - 7 marks/10% above Grade 9] (scaled mark) 
 Total: 214 [85% - 21 marks/8% above Grade 9]
+---
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
+---
 
-I prefer Paper 1/physical geography, but get better marks in human geography... lol
-
-> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.gg/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with 100+ students, developers, educators and professionals.
-
-> If images are slightly pixelated, zoom in to 110%, it's much crisper
+If images appear slightly pixelated, zoom in to 110%, it's much crisper.
 
 
 ### **This cheat sheet covers *all* of the specification for all 3 papers**
-... so there's quite a lot
+... so there's quite a lot of stuff to digest!
 
 
 
 # Paper 1: Living with the physical environment
 
-For 2022, there were no changes to Paper 1, so I've put an absolute ton of detail in!
-
-
 # Section A: The challenge of natural hazards
 
 
 ## Natural hazards
-![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/NatHazards-SpecContent.png)
+![Specification for this part](https://cheatsheet-assets.ibaguette.com/gcse/geography/NatHazards-SpecContent.png)
 *Specification for 1A*
 
 A natural hazard is a **natural event which poses risk to human life and assets.** The more humans that come into contact with natural events, the more the risk of natural hazards.
@@ -361,9 +352,9 @@ Bright colours are also used among animals to act as a warning against predators
 
 ### Biodiversity issues & deforestation
 
-twopical rainfowests have the highest wevels of biodersitwy in any bwiome :)
+Tropical rainfowests have the highest levels of biodiversity in any biome :)
 
-BUT WE MUST NOT DISTURB THEM! (or, at least, disturb them, but much more nicely)
+BUT WE MUST NOT DISTURB THEM! (or, at least, we can disturb them, but in much more friendly way)
 
 Human exploitation is destroying much of the rainforests' biodiverse species, endangering them. Logging and commercial farming result in large swathes of the rainforest being unsustainably cleared for cattle farming and cash crops like palm oil, soybeans, or mahogany trees. Hydroelectric power dams have resulted in large areas being flooded. Subsistence farming has also contributed to deforestation as well, thanks to the increasing population in these areas in settlements. 
 
@@ -657,9 +648,9 @@ A meander is a bend in a river.  Fast flowing water on the outside causes latera
 On the other side, sand and pebbles are deposited due to high friction, forming a slip-off slope. Water here is slow. 
 The corkscrew motion of the fastest flow of the water is helicoidal.
 
-#### [I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you lol](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
+[I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you lol](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
 
-When an oxbow lake evaporates, a 'meander scar' is left behind.
+When an oxbow lake eventually evaporates, a 'meander scar' is left behind.
 
 ![meander](https://cheatsheet-assets.ibaguette.com/gcse/geography/meander1.png)
 ![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/meander.png)
@@ -667,7 +658,6 @@ When an oxbow lake evaporates, a 'meander scar' is left behind.
 
 
 ### Levées
-
 
 > Specification: The **lower course** has characteristics and formation of landforms resulting from **deposition**.
 
@@ -693,10 +683,10 @@ There are a wide variety of reasons which affect flood risk.
 
 Flood hydrographs are used to show the relationship between precipitation and discharge. On the x axis is the time, usually in hours. The average peak rainfall to peak discharge time is usually 12 hours. 
 
-On the y axis is the discharge, measured in cumecs (cubic metre per second) of the river channel. A high peak flow in a short lag time is the worst: there will be a lot of flooding potential: people have little time to prepare for it.
-
+On the y-axis is the discharge, measured in cubic meters per second (cumecs), of the river channel. A high peak flow with a short lag time is the worst scenario: there will be lots of flooding potential, and people will have little time to prepare for it.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/hydrograph.gif)
+*Finally, the last section on paper 1.*
 
 Factors affecting flood risk:
 -   **Prolonged rainfall** - if it rains for a long time, the land can become saturated. If there is more rainfall it cannot be soaked up, it runs along the surface, increasing surface run-off. This results in water quickly being moved into the river channel, reducing lag times, as it cannot infiltrate into the land. The faster the water reaches the river, the more likely it is to flood.
@@ -746,6 +736,7 @@ Out and about with Rob in Morpeth: https://www.youtube.com/watch?v=XoW6gIDwBSk
 
 As I took the exams in 2022 with optionality, I did not have time or any notes to write up things to learn about the Glaciation GCSE unit.
 
+
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/gcse%20glaciation.png)
 *Here's what the specification says.*
 
@@ -756,18 +747,17 @@ To view the A level cheat sheet with glaciation information on, as well as to pe
 
 Note: it contains huge amounts of much more detailed information compared to what you need to know. You can skim read and search through it to find the relevant information.
 
+
+
+
 # Paper 2: Challenges in the human environment
 
 
 **As a reminder: not everything is 100% covered in detail, but 95% of the specification *is* 1:1 matched here.**
 
-
-
 # Section A: Urban issues and challenges
 
-*In this section, students are required to study all the themes.*
-
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse//geography/SpecContent-UrbanTrends.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-UrbanTrends.png)
 
 By 2030, it is expected that over 60% of the world's population will live in cities. Currently, there are 33 megacities (cities with a population > 10 million) and the closest one to us is 🥖 Paris. London is not a megacity, as its population is only predicted to reach 10 million by 2035. After and during the Second World War, many people and children were evacuated from London, so the population shrunk by 2 million from 1940 (at 8.5 million) to 1990. Since then, the population has gradually been increasing, and it's currently at around 9.2 million. (We'll have to wait for the census results to be sure!)
 
@@ -786,8 +776,6 @@ Cities are also historically situated on rivers (like London^1^ and Paris) and c
 In richer countries and continents like Europe, Oceania and North America, the rates of urbanisation have significantly slowed down, as most people have already moved into urban areas thanks to industrial revolutions which have already occurred.  Due to countries' wealth, people in these HICs live for longer and tend to have fewer babies, which could lead to natural decrease in the future.
 
 [China has plans to merge these cities on the Pearl River Delta into one huge megacity with a population of over 140 million, covering 25x more land than London.](https://www.google.com/maps/@22.7316438,113.7223091,182424m/data=!3m1!1e3)
-
-
 
 
 ## Case study: Lagos, Nigeria 
@@ -855,7 +843,7 @@ A new city on the south side of Lagos, in the Gulf of Guinea, is being made. Cal
 *Eko Atlantic's 6,500,000m^2^ of land, reclaimed.*
 
 
-### Makoko - urban planning for the urban poor (example)
+### Makoko - Urban planning for the urban poor (example)
 
 The Nigerian government's goals are to attract private investors which will help them create a new city, creating highly-paid jobs and new, luxury homes. 
 
@@ -871,6 +859,7 @@ Unfortunately, the school collapsed during a storm in 2017. The idea has continu
 
 ![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
 *An artist's impression on what a floating community would look like. Credit: [NLÉ](https://www.nleworks.com/case/lagos-water-communities-project/)*
+
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
 
 
@@ -882,8 +871,7 @@ In the UK, the population is vastly distributed. The key to this is the northwes
 
 > In London, the population density can be up to 5000/km^2^. In contrast, northern Scotland has a population density of less than 10/km^2^!
 
-
-**London** is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
+London is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
 
 > **Gentrification** is the term used to describe the prices of rising house prices in an area as a result of higher wages and more modern amenities.
 
@@ -978,11 +966,11 @@ Many grounds in the Olympic Park have been kept as parkland for the public. Pond
 
 However, many materials for the park were sourced from overseas, whilst the games produced over 3 million tons of CO~2~.
 
-
 > You don't need to remember all the precise stats and figures - just a few - I have rounded some figures and simplified them a bit to make them easier to remember. 
 
 
 ![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-UrbanSustainability.png)
+*Urban living in East Village (again around the Olympic area).*
 
 Local bus and transport services connect to the London Underground, as well as Europe. Residents in the East Village pay extra for car parking places, encouraging cycling and walking. 
 
@@ -999,7 +987,7 @@ Green spaces have also been created. There are green roofs on apartments blocks,
 In this section, students are required to study  [Resource management](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Resource_management_1_2_3_1)  and  **one**  from  [Food](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Food_1_2_3_2)  or  [Water](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Water_1_2_3_3)  or  [Energy](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Energy_1_2_3_4).
 
 ![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-ResourceManagementOverview.png)
-*You need to learn about **all of them as an overview**, but **only one in particular** in more detail.*
+*You need to learn about **all of them as an overview**, but **only one in particular**, and food in more detail in this case.*
 
 Simply put, the more availability to food, water and energy a country has, the better the citizens' well-beings are. 
 
@@ -1090,17 +1078,17 @@ Disadvantages include
 
 ### [tbd] Example of a local scheme an LIC/NEE
 
-This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specificaiton, for information which I managed to remember. 
+This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specificaiton, for information which I *just* managed to remember. 
 
-Despite everyone else betting that it wouldn't come up in the exam, it was a 6 marker in the 2022 exam series. Good luck! 
+Despite everyone else betting against me that it wouldn't come up in the exam, it was the last question and a 6 marker in the 2022 exam series. Good luck! 
 
 
-# Footnotes
+## Footnotes
 ^1^ I'm saying London here as, although it's not (currently) a megacity, it's always been a significant trading hub and economic powerhouse for the UK and globally.
 
 ^2^ The most waffle I've written today, almost as bad as my Chemistry 6 markers
 
-^3^ [Don't say it...](https://media.discordapp.net/attachments/972581792576053298/981167812896780338/Nollywood.gif)
+^3^ [Don't say it...](https://cheatsheet-assets.ibaguette.com/gcse/geography/Nollywood.gif)
 
 ^4^ Amended from Sam's document.  [`Lagos_Overview_-_Sam_Fisher_-_10th_Feb_-_10Q.docx`](https://discord.com/channels/759861456300015657/903604617722601472/981251143097262171)
 
@@ -1113,12 +1101,10 @@ Despite everyone else betting that it wouldn't come up in the exam, it was a 6 m
 
 
 
-##
+## Fin
 
 You've made it to the end! 
 Good luck with your exams!
 Feel free to share this Cheat Sheet with friends, family and teachers.
 
-
 > Made with 💕 by Draggie
-

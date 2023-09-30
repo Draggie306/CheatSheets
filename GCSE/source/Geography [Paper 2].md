@@ -1,23 +1,26 @@
-﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
+﻿
 
-# Paper 2: Challenges in the human environment
 
-[Last content update: 20/05/2023 22:06](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
-✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
+# AQA Geography GCSE - Complete Paper 2 (Human) Cheat Sheet! (8035)
 
-Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
-> (Thank you messages are also appreciated, you might get featured too!)
+[Latest update: 30/09/2023 13:51.
+Latest content addition: 20/05/2023 22:25](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-As a reminder: not everything is 100% covered in detail, but 95% of the specification *is* 1:1 matched here.
+
+## READ THIS:
+
+Please use your class notes, if you have any, as well as this, to aid your revision. **Although this document matches the specification 1:1 and covers it entirely, it is condensed into one place, so might not cover everything in 100% detail**. I have tried to write more content for the topics/ideas which people may find confusing. If there are any errors then please let me know immediately (Discord: `@draggie`). I have tried my best to make it as easy as possible to understand and get a top grade ;)
+
+---
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
+---
 
 # Section A: Urban issues and challenges
 
-*In this section, students are required to study all the themes.*
-
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse//geography/SpecContent-UrbanTrends.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-UrbanTrends.png)
 
 By 2030, it is expected that over 60% of the world's population will live in cities. Currently, there are 33 megacities (cities with a population > 10 million) and the closest one to us is 🥖 Paris. London is not a megacity, as its population is only predicted to reach 10 million by 2035. After and during the Second World War, many people and children were evacuated from London, so the population shrunk by 2 million from 1940 (at 8.5 million) to 1990. Since then, the population has gradually been increasing, and it's currently at around 9.2 million. (We'll have to wait for the census results to be sure!)
 
@@ -36,8 +39,6 @@ Cities are also historically situated on rivers (like London^1^ and Paris) and c
 In richer countries and continents like Europe, Oceania and North America, the rates of urbanisation have significantly slowed down, as most people have already moved into urban areas thanks to industrial revolutions which have already occurred.  Due to countries' wealth, people in these HICs live for longer and tend to have fewer babies, which could lead to natural decrease in the future.
 
 [China has plans to merge these cities on the Pearl River Delta into one huge megacity with a population of over 140 million, covering 25x more land than London.](https://www.google.com/maps/@22.7316438,113.7223091,182424m/data=!3m1!1e3)
-
-
 
 
 ## Case study: Lagos, Nigeria 
@@ -97,14 +98,15 @@ More jobs are available in Lagos than in anywhere else in Nigeria, responsible f
 A new city on the south side of Lagos, in the Gulf of Guinea, is being made. Called Eko Atlantic, it is a land reclamation project, which will be home to the new financial hub of Western Africa. Dubbed 'the Dubai of Africa' from this [google maps reviewer](https://www.google.com/maps/reviews/@6.41311,3.4108255,3499m/data=!3m1!1e3!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURLb3NXTS1nRRAB!2m1!1s0x0:0x49d67b9bfa3ba269?hl=en-US), many international investors are looking forward to the project's completion. It will be home to over 250,000 people and employing a further 150,000 in skyscrapers and high-rise office buildings. This will be possible thanks to its independent electricity grid and water desalination plants.
 
 6.5km of sea wall has been built to protect the project from the sea and erosional processes. [Website](https://www.ekoatlantic.com/education/sea-wall/)
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/Constructing-The-Great-Wall-of-Lagos-CGI-1024x576.jpg)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/Constructing-The-Great-Wall-of-Lagos-CGI-1024x576.jpg)
 *Building the protective wall.*
+
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/EkoAtlantic.jpg)
 *Eko Atlantic's 6,500,000m^2^ of land, reclaimed.*
 
 
-### Makoko - urban planning for the urban poor (example)
+### Makoko - Urban planning for the urban poor (example)
 
 The Nigerian government's goals are to attract private investors which will help them create a new city, creating highly-paid jobs and new, luxury homes. 
 
@@ -118,8 +120,9 @@ Unfortunately, the school collapsed during a storm in 2017. The idea has continu
 
 > The floating school acted as a proof-of-concept, not a final, fixed structure. It would have been able to be reconfigured as a house, community space, shop and more if the final version was able to be structurally secure.^6^
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/Lagos_WATER_COMMUNITIES_22-960x550.jpg)
 *An artist's impression on what a floating community would look like. Credit: [NLÉ](https://www.nleworks.com/case/lagos-water-communities-project/)*
+
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/NLE_LAGOS_WATER_COMMUNITIES6-960x550.jpg)
 
 
@@ -131,8 +134,7 @@ In the UK, the population is vastly distributed. The key to this is the northwes
 
 > In London, the population density can be up to 5000/km^2^. In contrast, northern Scotland has a population density of less than 10/km^2^!
 
-
-**London** is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
+London is very important nationally and internationally. It is regarded as the 'finance hub' of the UK, with Barclays, HSBC and Lloyd's Bank being headquartered here. It was built by the Romans as it is on the River Thames - allowing trade from other nations. In the past, due to the river being tidal, ships are able to travel up the Thames to London's docks. In turn, the business opportunities provided by its proximity to the seas attracted more people to the area.
 
 > **Gentrification** is the term used to describe the prices of rising house prices in an area as a result of higher wages and more modern amenities.
 
@@ -227,11 +229,11 @@ Many grounds in the Olympic Park have been kept as parkland for the public. Pond
 
 However, many materials for the park were sourced from overseas, whilst the games produced over 3 million tons of CO~2~.
 
-
 > You don't need to remember all the precise stats and figures - just a few - I have rounded some figures and simplified them a bit to make them easier to remember. 
 
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-UrbanSustainability.png)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-UrbanSustainability.png)
+*Urban living in East Village (again around the Olympic area).*
 
 Local bus and transport services connect to the London Underground, as well as Europe. Residents in the East Village pay extra for car parking places, encouraging cycling and walking. 
 
@@ -247,8 +249,8 @@ Green spaces have also been created. There are green roofs on apartments blocks,
 
 In this section, students are required to study  [Resource management](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Resource_management_1_2_3_1)  and  **one**  from  [Food](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Food_1_2_3_2)  or  [Water](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Water_1_2_3_3)  or  [Energy](https://www.aqa.org.uk/subjects/geography/gcse/geography-8035/subject-content/challenges-in-the-human-environment#id-Energy_1_2_3_4).
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-ResourceManagementOverview.png)
-*You need to learn about **all of them as an overview**, but **only one in particular** in more detail.*
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-ResourceManagementOverview.png)
+*You need to learn about **all of them as an overview**, but **only one in particular**, and food in more detail in this case.*
 
 Simply put, the more availability to food, water and energy a country has, the better the citizens' well-beings are. 
 
@@ -282,7 +284,7 @@ Energy:
 
 
 ## Food
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-Food.png)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-Food.png)
 *Food, yummy. I really couldn't live without it.*
 
  Food security is defined as 'when all people at all times have access to sufficient, safe, nutritious food to maintain an active and healthy life'.
@@ -339,17 +341,17 @@ Disadvantages include
 
 ### [tbd] Example of a local scheme an LIC/NEE
 
-This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specificaiton, for information which I managed to remember. 
+This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specificaiton, for information which I *just* managed to remember. 
 
-Despite everyone else betting that it wouldn't come up in the exam, it was a 6 marker in the 2022 exam series. Good luck! 
+Despite everyone else betting against me that it wouldn't come up in the exam, it was the last question and a 6 marker in the 2022 exam series. Good luck! 
 
 
-# Footnotes
-^1^ I'm saying London here as, although it's not (currently) a megacity, it's always been a significant trading hub and economic powerhouse for the UK and globally.
+## Footnotes
+**^1^** I'm saying London here as, although it's not (currently) a megacity, it's always been a significant trading hub and economic powerhouse for the UK and globally.
 
 ^2^ The most waffle I've written today, almost as bad as my Chemistry 6 markers
 
-^3^ [Don't say it...](https://media.discordapp.net/attachments/972581792576053298/981167812896780338/Nollywood.gif)
+^3^ [Don't say it...](https://cheatsheet-assets.ibaguette.com/gcse/geography/Nollywood.gif)
 
 ^4^ Amended from Sam's document.  [`Lagos_Overview_-_Sam_Fisher_-_10th_Feb_-_10Q.docx`](https://discord.com/channels/759861456300015657/903604617722601472/981251143097262171)
 
@@ -361,7 +363,7 @@ Despite everyone else betting that it wouldn't come up in the exam, it was a 6 m
 ^7^ How to get a free phone - just go here and eat as many apples as you can!
 
 
-##
+---
 
 You've made it to the end! 
 Good luck with your exams!

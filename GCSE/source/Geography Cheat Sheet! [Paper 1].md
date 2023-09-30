@@ -1,45 +1,28 @@
-﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
+﻿
 
-# AQA Geography
+[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
-# NOTE: Paper 1 and 2 are complete. 3 will be added later.
-
-
-[Last content update: 20/05/2023 22:06](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
-
-✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
-
-Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
-
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! We'll answer as many questions as you might have as possible. 
-> (Thank you messages are also appreciated, you might get featured too!)
-
-## READ ME:
-
-> Want dark mode? Install the [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en) chrome extension! It works very well on any site, including these cheat sheets!
-
-Please use your class notes, if you have any, as well as this, to aid your revision. This covers the specification but consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know (discord: `@Draggie#3060`) immediately. I have tried my best to make it as easy as possible to understand and get a top grade ;)
-
-I did get a grade 9 in the 2022 exam series, and I did get people coming out of the exam room thanking me for especially the case studies.
-
-> Thank you Baguette Brigaders server boosters for allowing pictures to be placed on this document. Join [here](https://discord.gg/GfetCXH) if you're not already and you'll get access to all the cheat sheets, inside information, pre-releases, dedicated revision sections to discuss and have a chat with 100+ students, developers, educators and professionals.
-
-> If images are slightly pixelated, zoom in to 110%, it's much crisper
-
-### **This cheat sheet covers *all* of the specification for all 3 papers**
-... so there's quite a lot
+# AQA Geography GCSE - Complete Paper 1 (Physical) Cheat Sheet! (8035)
 
 
-# Paper 1: Living with the physical environment
+[Latest update: 30/09/2023 13:32.
+Latest content addition: 20/05/2023 22:25](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-For 2022, there were no changes to Paper 1, so I've put an absolute ton of detail in!
+
+## READ THIS:
+
+Please use your class notes, if you have any, as well as this, to aid your revision. **Although this document matches the specification 1:1 and covers it entirely, it is condensed into one place, so might not cover everything in 100% detail**. I have tried to write more content for the topics/ideas which people may find confusing. If there are any errors then please let me know immediately (Discord: `@draggie`). I have tried my best to make it as easy as possible to understand and get a top grade ;)
+
+---
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
+---
 
 
 # Section A: The challenge of natural hazards
 
 
 ## Natural hazards
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/NatHazards-SpecContent.png)
+![Specification for this part](https://cheatsheet-assets.ibaguette.com/gcse/geography/NatHazards-SpecContent.png)
 *Specification for 1A*
 
 A natural hazard is a **natural event which poses risk to human life and assets.** The more humans that come into contact with natural events, the more the risk of natural hazards.
@@ -247,7 +230,7 @@ Effects:
  - mitigation (reducing causes) - solar power, renewables, GM food, insulation, carbon capture
  - adaptation (responding to change) - increasing flood defences - drought resistant crops, building houses on stilts
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/Climate-change-manging-grid.jpg)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/Climate-change-manging-grid.jpg)
 *I would summarise that if I had enough time, okay?!*
 
 Several methods can be employed to reduce CO₂ from the atmosphere, with their own distinct advantages and disadvantages.
@@ -351,9 +334,9 @@ Bright colours are also used among animals to act as a warning against predators
 
 ### Biodiversity issues & deforestation
 
-twopical rainfowests have the highest wevels of biodersitwy in any bwiome :)
+Tropical rainfowests have the highest levels of biodiversity in any biome :)
 
-BUT WE MUST NOT DISTURB THEM! (or, at least, disturb them, but much more nicely)
+BUT WE MUST NOT DISTURB THEM! (or, at least, we can disturb them, but in much more friendly way)
 
 Human exploitation is destroying much of the rainforests' biodiverse species, endangering them. Logging and commercial farming result in large swathes of the rainforest being unsustainably cleared for cattle farming and cash crops like palm oil, soybeans, or mahogany trees. Hydroelectric power dams have resulted in large areas being flooded. Subsistence farming has also contributed to deforestation as well, thanks to the increasing population in these areas in settlements. 
 
@@ -447,7 +430,7 @@ Desertification is the process where fertile land becomes desert. Over 1 billion
 ayyy section C, now we're 67% through the paper! I believe this section is the shortest. there were ~6000 words in the above 2 sections. let's see how quickly I can summarise this section, it won't be as detailed as the previous two. mainly because my exam is in less than 2 days but shh
 
 ## UK physical landscapes
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-HotDesert.png)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-HotDesert.png)
 
 The UK's main upland areas are in Scotland, northern England and Wales. Scottish mountains are steep and glaciated. The Cumbrian Mountains in northern England are home to the Lake District. The Cambrian Mountains in Wales are the source of the River Severn.
 
@@ -647,17 +630,16 @@ A meander is a bend in a river.  Fast flowing water on the outside causes latera
 On the other side, sand and pebbles are deposited due to high friction, forming a slip-off slope. Water here is slow. 
 The corkscrew motion of the fastest flow of the water is helicoidal.
 
-#### [I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you lol](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
+[I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you lol](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
 
-When an oxbow lake evaporates, a 'meander scar' is left behind.
+When an oxbow lake eventually evaporates, a 'meander scar' is left behind.
 
 ![meander](https://cheatsheet-assets.ibaguette.com/gcse/geography/meander1.png)
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/meander.png)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/meander.png)
 *What's actually happening, visualised.*
 
 
 ### Levées
-
 
 > Specification: The **lower course** has characteristics and formation of landforms resulting from **deposition**.
 
@@ -683,10 +665,10 @@ There are a wide variety of reasons which affect flood risk.
 
 Flood hydrographs are used to show the relationship between precipitation and discharge. On the x axis is the time, usually in hours. The average peak rainfall to peak discharge time is usually 12 hours. 
 
-On the y axis is the discharge, measured in cumecs (cubic metre per second) of the river channel. A high peak flow in a short lag time is the worst: there will be a lot of flooding potential: people have little time to prepare for it.
-
+On the y-axis is the discharge, measured in cubic meters per second (cumecs), of the river channel. A high peak flow with a short lag time is the worst scenario: there will be lots of flooding potential, and people will have little time to prepare for it.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/hydrograph.gif)
+*Finally, the last section on paper 1.*
 
 Factors affecting flood risk:
 -   **Prolonged rainfall** - if it rains for a long time, the land can become saturated. If there is more rainfall it cannot be soaked up, it runs along the surface, increasing surface run-off. This results in water quickly being moved into the river channel, reducing lag times, as it cannot infiltrate into the land. The faster the water reaches the river, the more likely it is to flood.
@@ -728,13 +710,14 @@ Shops, homes and many regions of the town were flooded and destroyed. Now, highe
 
 [More notes](https://www.coolgeography.co.uk/gcsen/PL_Morpeth_Flood_Management.php)
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/MorpethGMapsDark.png)
+![Oops, it looks like the image isn't working. Refresh or come back later!](https://cheatsheet-assets.ibaguette.com/gcse/geography/MorpethGMapsDark.png)
 
 Out and about with Rob in Morpeth: https://www.youtube.com/watch?v=XoW6gIDwBSk
 
 ## Glacial landscapes in the UK
 
 As I took the exams in 2022 with optionality, I did not have time or any notes to write up things to learn about the Glaciation GCSE unit.
+
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/gcse%20glaciation.png)
 *Here's what the specification says.*
@@ -747,11 +730,7 @@ To view the A level cheat sheet with glaciation information on, as well as to pe
 Note: it contains huge amounts of much more detailed information compared to what you need to know. You can skim read and search through it to find the relevant information.
 
 
-## 
-> That's the end! Paper 2 is also available if you want to see it, look around my site and you'll find it! Enjoy!
-
-
-##
+---
 
 You've made it to the end! 
 Good luck with your exams!
@@ -759,3 +738,5 @@ Feel free to share this Cheat Sheet with friends, family and teachers.
 
 
 > Made with 💕 by Draggie
+
+

@@ -1,5 +1,7 @@
 # iBaguette Revision Material and Cheat Sheets
 
+[![](https://data.jsdelivr.com/v1/package/gh/draggie306/cheatsheets/badge)](https://www.jsdelivr.com/package/gh/draggie306/cheatsheets)
+
 Markdown (and other) Cheat Sheets/Revision Material for various subjects and exam boards hosted on [iBaguette.com/cheatsheets](https://ibaguette.com/cheatsheets)!
 
 **Below is the current status of all the items and links available on the page.**

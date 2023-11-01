@@ -1,14 +1,15 @@
 ﻿
 
 
+
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
 # Ah yes more computer science!
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last general update: 22/09/2023 17:40.
-Last content addition: 22/09/2023 00:48](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last general update: 01/11/2023 20:58.
+Last content addition: 01/11/2023 20:57](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
@@ -611,10 +612,10 @@ Non-essential information is removed from the source file. In the below images, 
 
 If a pixel in an image is combined with a block of others in lossy compression, it isn't much of a deal.
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-FromCamera.jpg)
-*Directly from my phone camera. 25,438 KiB*
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-FromCamera.jpg =600x800)
+*Directly from my phone camera. 25.438 KiB*
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-Compress.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-Compress.png =600x800)
 *Compressed! 543 KiB. ~50x reduction in filesize*
 
 However, with the second image here, you should be able to tell that it's not as clear or as precise as the first one. Different colours have been merged into one, and "blockiness" is visible as the compression algorithm tries to combine multiple areas that have generally the same colours into one to save storage space. **It tries to remove as much of the less significant details as possible, conserving the general essence of the image.** There is a trade off between how heavily the image is compressed (and therefore the smaller the filesize) and the quality.
@@ -858,11 +859,12 @@ Referential integrity states that an attribute referenced as a foreign key on on
 ### Normalisation
 In a relational database, data is held in tables, or **relations**. Each row in the table holds a specific, unique record, with each column representing an attribute. 
 
-|CustomerID|SubscriptionID|productID|Tier|custName
+|CustID|SubID|prodID|Tier|custName
 |--|--|--|--|--|
-| 12 | 120.gcseCompSci | 235 |1|Joe
-| 34 | 111.gcseGeog | 243 |1|Sam
-| 54 | 120.gcseCompSci | 235 |1|Oliver
+| 12 | 120.CmpSc | 235 |1| Joe
+| 34 | 111.Geog | 243 |1| Sam
+| 54 | 120.CmpSc | 235 |1| Oli
+| 54 | 121.French | 239 |1| Oli
 
 Normalisation is a process used to create the most efficient design possible for a database. The structure should be one so that complex queries from different relations can be made, with no unnecessary duplication and high consistency.
 
@@ -893,7 +895,7 @@ A table is in 3NF if it:
 
 This means that if non-key columns are dependent on something other than the primary key (e.g. are foreign keys that relate to the primary key of another entity) they have to go. If a table is such that:
 
- Component ([ComponentID](#), ComponentName, *SupplierID*)
+ Component([ComponentID](#), ComponentName, *SupplierID*)
 
 it can be seen that SupplierID is a foreign key and does not depend on the ComponentID of the Component entity, rather a different entity. It will then be moved to a separate table, with all dependent columns moving to this new table. 
 
@@ -906,11 +908,11 @@ There are benefits for carrying out normalisation on databases and tables. These
 - No data redundancy
 - Data integrity is maintained
 - Faster sorting and searching
-- No accidental deltion of records
+- No accidental deletion of records
 
 ### SQL
 
-Stands for Structured Query Language. It is the backbone of many major database querying languages and you've probably 
+SQL stands for Structured Query Language. It is the backbone of most major database querying languages; you've probably used a service today that uses this language for database management
 
 #### Basic Select
 ```sql
@@ -935,7 +937,7 @@ ORDER BY Field ASC
 | NOT              | Logical NOT operator                          |
 
 #### Detailed Select
-You can extract data from specific and multiple tables using `.`. For example
+You can extract data from specific and multiple tables using `.` - for example:
 
 ```sql
 SELECT Song.SongTitle, Song.ArtistSurname, Artist.ArtistSurname
@@ -1041,7 +1043,7 @@ If user A wants to chnage user X address, this is fine. If two minutes later, us
 To uphold ACID, if two users are editing a database and want to edit each other's attributes, they may lock each other's records and result in deadlock. The DBMS will recognise this and try and use one of the below things to fix it:
 
 #### Serialisation
-States that transactions cannot start until the previous one has ended. This can be done by:
+Serialisation, in database management systems, is the principal that transactions cannot start until the previous one has ended. This can be done by:
 
 #### Timestamp ordering
 Assigns every object in the database a read and write timestamp, so it can be worked out which transaction took place first and be applied first. Two users editing the same file at the same time could be asked to merge changes when they have finished by the other user, reducing the rick of problems
@@ -1081,7 +1083,7 @@ are a series of 4 octet values separated by a full stop (max 32 bits), ranging f
 
 URLs are a standardised format for specifying the means of accessing a resource on the Internet and identifying its location. A URL consists of many components, including the protocol, domain name and path to the specific resource. 
 
-The protocol (like HTTP, HTTPS, FTP or WSS) indicated the communication method to access the specified resource. If it is using HTTP/HTTPS, then the resource is going to be on the World Wide Web
+The protocol (like HTTP, HTTPS, FTP or WSS) indicated the communication method to access the specified resource. If it is using HTTP/HTTPS, then the resource is going to be on the World Wide Web.
 
 The domain name (like ibaguette.com) identifies the server where the resource is hosted.
 
@@ -1163,11 +1165,9 @@ Mesh networks are becoming more common with the widespread use of wireless techn
 |--|--|
 |No cabling costs: mesh networks can be wireless|Higher implementation and maintenance costs, especially for smaller businesses with limited resources|
 |Network scaling and setup can be easier without added cabling allowing for easy expansion, as new nodes are automatically added to the network|Redundant connections can add to costs and complexity of the network, requiring increased planning and network management|
-|Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just use other routes)|  |
+| Self-healing: with more nodes, the faster and more reliable the network becomes (one blocked route can just use other routes) |
 
-## Internet Communication
-
-###  Packets, Packet Switching and Routers
+### Packets, Packet Switching and Routers
 
 Packet switching requires routers to direct the packets to their destination. A router is a network device that receives packets and forwards data packets from one network to another.
 
@@ -1276,14 +1276,17 @@ How to add an external stylesheet:
 
 
 ```html
-<link href= “nameofstylesheet.css” rel= “stylesheet” type=“text/css”>
+<link href="nameofstylesheet.css” rel=“stylesheet” type=“text/css”>
 ```
 
 Changing the attributes of an HTML element:
 
 ```js
-chosenElement = document.getElementById(“example”); // Gets element with id "example" from the DOM
-chosenElement.innerHTML = “Hello, World!”; // Changing the displayed HTML content
+chosenElement = document.getElementById("example"); 
+// Gets element with id "example" from the DOM
+
+chosenElement.innerHTML = "Hello, World!"; 
+// Change the displayed HTML content
 ```
 
   
@@ -1315,14 +1318,463 @@ The **Regulation of Investigatory Powers Act 2000** regulates surveillance and i
 ## 2.1.2 Thinking ahead
 
 ## 2.1.3 Thinking procedurally
+# Algorithms
+A good algorithm has clear and precise steps that produce the correct output for any set of valid inputs. 
 
+They must also always terminate at one point, executing efficiently, using minimal resources in as little steps as possible. 
+
+It must also be designed in a clear manner, with it being easy to understand and easily modifiable by others.
+
+
+## Big-O notation
+Big-O notation measures the time complexity of and resource a specific algorithm requires in order to complete. 
+
+The most "influential" or dominant term counts when deriving the Big-O of a specific algorithm.
+
+The order of time complexity of differing Big-O can be:
+ 
+ Linear - O(n)
+ Logarithmic - O(log~n~)
+ Exponential - O(n^2^)
+ Factorial - O(n!)
+ Superexponential - O(n^n^)
+
+![enter image description here](https://cdn-media-1.freecodecamp.org/images/1*KfZYFUT2OKfjekJlCeYvuQ.jpeg)
+
+
+Algorithms with an exponential time complexity or greater are hopelessly inefficient for large values of n, whereas logarithmic time complexities are extremely efficient for large numbers.
+
+For logarithmic complexities, one extra computation step is required for a doubling of the numerical value
+> Where n = 1024, a log value requires 2^10^ steps = 10 steps.
+> For n = 2048, the amount of steps is 11 - or 1 extra step. For other algorithms with linear complexity this will be an increase of 1024 steps.
+
+
+## Searching algorithms
+
+
+### Linear search
+Linear search is a systematic way of searching for an element in a list,
+Every element will be progressively searched through until the target item is found 
+The average number of elements searched is `(len(list))/2`. For the worst case, it will be `len(list)`.
+
+```py
+function linearSearch(namelist, name_to_find)
+	index = -1
+	i = 0
+	found = False
+	while i < length(namelist) AND NOT found
+		if namelist[i] == name_to_find then
+			index = i
+			found = True
+		endif
+		i = i + 1
+	endwhile
+	return index
+endfunction
+```
+
+The number of steps is:
+2 steps in innermost loop (loop makes a factor)
+	= 2n
+plus 3 steps above the loop
+= +3
+= 2n+3
+
+> Can be perfomed on any list, sorted or unsorted.
+
+### Binary search
+
+Divide and conquer!
+
+Split the list length in half. (If it's even, go for the lower one)
+
+See if the number/alphabetical index/your search criteria is above/below, and remove the opposing side of the list.
+
+Repeat until item is found.
+
+## Sorting algorithms
+
+Depending on how many items and type of unsorted items there are in an unsorted array, there are different algorithms that perform better on different types of data,
+
+### Bubble sort
+
+Is useful for a small amount of items.
+
+Where there are n items, n-1 passes are made through the array.
+
+Bubble sort works by comparing two adjacent items in an array and swapping them if the order does not match the required order.
+This can involve moving one element to the complete other side of the array in one pass.
+
+
+```
+for i = 0 to n - 2
+	for j = 0 to (n – i - 2)
+		if a [j] > a[j + 1 then
+			temp = a[j]
+			a[j] = a[j + 1]
+			a[j + 1] = temp
+		endif
+	next j
+next i
+```
+
+> The algorithm works by repeatedly comparing adjacent elements in the array and swapping them if they are in the wrong order, repeating until the entire array is sorted.
+
+Time complexity: O(n^2^)
+
+### Insertion sort
+
+This sort starts at the start of an array and moves it by one until the correct position is found.
+
+```py
+procedure insertionSort(aList)
+	for j = 1 to len(aList) - 1
+		nextItem = aList[j]
+		i = j – 1
+		while i >= 0 and aList[i] > nextItem
+			aList[i + 1] = aList[i]
+		i = i - 1
+		endwhile
+		aList[i + 1] = nextItem
+	next j
+endprocedure
+```
+Time complexity: O(n^2^)
+Though, it's faster than bubble sort.
+
+
+### Merge sort
+
+![enter image description here](https://journaldev.nyc3.digitaloceanspaces.com/2019/07/MergeSort.png)
+
+THe merge sort involves repeatedly splitting unsorted array into *n* sublists.
+
+The sublists are then merged to make a sorted list!
+
+A list of length 16 will be split into 8x2, 4x4, 2x8 then 1x16 individual elements.
+
+Afterwards, they are combined into 2x8 lists. Then, one half of the unsorted elements is compared to the corresponding other half of the unsorted elements.
+
+For example index 1 of the leftmost half's first list is compared to index 1 of the rightmost half's first list and the smallest value is written. 
+
+When there are two lists remaining from either half of the overall list (so 8x2), this is repeated and the sorted list is written.
+
+Big-O notation for this sorting algorithm is O(n log~2~n)
+
+### Quick sort
+
+This uses a pivot value or split point, typically the first element, which divides the list into two sublists as part of the main list. One half will contain elements that are greater than those of the pivot point and the other will contain those less than the pivot value.
+
+> Alternatively the pivot value can be chosen from looking at the start, middle and end values.
+
+Left and right pointers are used on either side of the array. If the pointer value compares two items that is due to be on the right/left of the split point, the two values at each pointers' index value will be swapped. 
+
+Average time complexity is O(n log n)
+Worst-case complexity is O(n^2^)
+
+## Graph traveral algorithms
+
+### Depth-first traversal
+The DFT uses a stack and list to keep track of the name and nodes that have been visited.
+
+The first value, A, is pushed to the stack and its immediate neighbor is added to the stack. 
+The stack is then popped.
+
+If the stack has zero depth, values are popped until the next neighbour value is found.
+
+
+## Optimisation algorithms
+Remember:
+A vertex is a point on a graph with a value (such as A, B, C etc.)
+An edge is a point on the graph that joins two (or more of) these vertices.
+
+
+### Dijkstra's shortest path algorithm
+Dijkstra's shortest path algorithm is a simple algorithm that is designed to find the **shortest path** between a **start node and every other node** in a weighted graph. It is similar to a breadth-first search.
+
+This algorithm uses the priority **queue data** structure in order to keep a record of the vertex next to visit. 
+
+To start, a temporary distance to each node is "calculated". The start node is initialised to 0, and all other nodes initialised to infinity ∞.
+
+**Step 1**
+All nodes are added into the priority queue with the first being zero, all others ∞. 
+In the graph diagram, all nodes are white as they have not been visited.
+
+**Step 2**
+The fist node is "visited" and therefore coloured green. All other nodes that are connected to this node through an edge are coloured in light green.
+
+The node is then dequeued (from the start of the queue) (and therefore removed from it).
+
+The values of neighbouring nodes are then recalculated, assigning them the value of the shortest path to these nodes, and updated if a shorter path is found.
+
+The priority queue structure moves the connected values to the start of the queue, with the next closest being moved to the front.
+
+**Step 3**
+The next node is dequeued, colouring it green.
+
+Values of its neigbouring nodes are then coloured light green
+
+All new unvisited neigbours' values are then calculated.
+
+**Step 4**
+Repeat steps 2/3 until all nodes have been coloured in green (visited). The algorithm terminates when the target node is reached or there are no unknown nodes remaining.
+
+The queue will be empty (`priorityQueue.isEmpty() >>> True`)
+
+The graph displays the minimum distances from the original start node to each other node!
+
+---
+> **Question:** In Dijkstra’s algorithm, what would the value in the priority queue be if the distance from previous traversal `A->C` to a node was calculated `B`, but this node now is no longer connected through an edge to the current node `C`? (In this case, `C:D` = 2, `C:E` = 5). What would the value of this node `B` be, when its distance was only calculated to the previous node (`A:B` = 10)? 
+
+**Answer:** The priority queue would store the value from the initial neigbouring calculation which would be 10. 
+If the value of this prior shortest node is the lowest, the algorithm would use the next largest element in the queue.
+If there is no connected nodes, the algorithm would backtrack.
+
+## The A* Algorithm
+This is not the same as the grade you're going to be getting if you don't understand this.
+
+This algorithm is designed to find the fastest point from a start node to an end node.
 
 ## 2.1.4 Thinking logically
 
 ## 2.1.5 Thinking concurrently
 
 # 2.2 Problem solving and programming
+## 2.2.1 Programming techniques
+![enter image description here](https://cheatsheet-assets.ibaguette.com/SpecContent-2.2.1_Programming%20techniques.png)
 
+### Programming basics
+
+An algorithm is a sequence of instructions that can be followed to solve a problem.
+
+Pseudocode is a middleground between a functional programming language and English. There are no strict rules on how to write pseudocode. Instead, there are rough guidelines which differ slightly.
+
+It's not tied to a specific programming language, allowing people who may not know the same programming languages, or stakeholders who may not be technical enough to understand program code, to understand and follow the logic behind how a program should work. My mum could probably understand it.
+
+
+Variables are memory locations with an identifier whose data can be overwritten. Their data contents are able to change during execution. This is compared to constants, which are only declared once during initial assignment. Changing the value of a constant would require recompilation.
+
+Constants reduce the risk of accidental modification during runtime, making the code easier to understand too. There may be also more efficient compiled code, as the computer knows that a specific memory data location will not be changing whilst a program is executing. Changing the value of a constant at its **declaration point** affects all occurrences of that constant in the code, making maintenance more easily performed as, for example, tax rates would only have to be changed at one point, when they are declared, which is typically at the start of a source program.
+> Using the `const` keyword for tax rates is acceptable as for most practical purposes will not need to change.
+
+An IDE (Integrated Development Environment) is software that makes the development and maintenance of code easier. Facilities offered by these include adding line numbers, automatically indenting code, auto-completing commands, commenting or uncommenting regions, syntax highlighting and debugging options, including breakpoint setting, variable watching, stepping through code and tracing.
+
+### Program flow
+Progrramming languages and algorithms have a set of statements to determine in order that they reach a goal. There are three distinct flow structures which control this flow:
+
+### Sequencing
+Order of code.
+
+
+
+
+### Iteration
+For/do/`while` loops.
+
+WHILE a CONDITION is NOT MET, then KEEP LOOPING until it is.
+
+#### do... until
+Statement will always be executed at least once - checks the boolean evaluation after the initial `do` statement.
+
+#### Infinite loop
+(As well as an Apple store in California)
+
+Infinite loops can be caused by a logic error when programming, or be intentional, as seen in games or other sensory devices.
+
+In games, an outer `while True` loop which encloses the entire game logic can be made to draw images on the screen after having calculated positions. Pauses can be added (time.sleep()) to prevent the game refreshing too fast for a monitor, ensuring smooth motion such as at 30fps. Frame rate limiting uses the same principle.
+
+Sensors, like ones checking for a lanyard's NFC chip to open/close school gates, can also have an outer while True loop which infinitely runs, ensuring that the sensor's value is always being checked, so once an inner condition is met, the gates will open.
+
+
+#### for... next
+Also known as **definite iteration**. The segment of code will be repeated the specified/calculated number of times. The counter variable (or step value w/default of 1) is incremented each iteration of the loop.
+`next i`
+
+ 
+
+`endwhile`
+### Selection
+If statements.
+
+> IF THIS, THEN do THAT. ELSE, go back to start.
+
+Program flow is controlled by evaluating a Boolean condition, which is one that evaluates either to True or False. If it is true, the following statements are executed. If not, 
+
+endif
+#### Elseif
+
+endif
+#### Switch/case
+
+Performs structural pattern matching rather than boolean evaluation.
+(Also known as `match/case` in Python 3.10+!)
+
+endswitch
+#### Nested if... else
+
+
+[TODO: The rest of this! Easy stuff]
+
+
+### Subroutines
+
+Before starting this, it's important to know the distinctions in terminology 👇👇👇
+
+
+A subroutine is a **general term** used to refer to a **named block of code** that can be called **from other parts of a program**.
+    
+**Functions** are a type of subroutine that **return a value** to the caller. They are designed to perform a **specific task, and provide a result**.
+    
+**Procedures** are type of subroutine that **does not return a value**. They are a set of instructions for performing a specific task without returning a value - but this does not mean they do not change any code or create an output (e.g. print message)
+
+Both functions and procedures are types of subroutines.
+---
+
+Subroutines perform a specific, frequently used set of instructions within a program.
+
+Subroutines comprise functions and procedures.
+
+> Allows programs to become more [modular](https://www.google.com/search?q=define+modular+in+programming)
+
+When a subroutine's name is called, the program will halt execution from the current line, and skip to the line of the subroutine. 
+
+#### Functions
+
+Return a value. Can be programmer defined or language built-in. 
+
+`sqrt(number)` is commonly used to return the square root of a passed in number
+`len(string)` is commonly used to return the length of the passed in parameter
+
+#### Library subroutines
+"Log off, see ya later. Go to the library"
+
+Must be imported to be used.
+
+```py
+import random # this is the library (subroutine)
+
+print(random.randint(1,10)) # subroutine (funtion) here is `randint` which returns a # from 1 to 10.
+```
+
+#### Params and args
+Parameters are placeholder values which are only alongside their subroutines during definition - they don't change.
+
+Arguments are the specific values passed into the subroutine. Depending on what is called, they can change.
+
+When an argument is passed into the subroutine, the name, type (in most cases), length etc. don't matter - just the order in which they are passed in. Multiple parameters can be defined, typically separated by commas, and their relative position denotes the value the argument will take within the subroutine.
+
+In Python, for example, arguments are **passed by value**. The value of the statement is copied into the parameter. This means that the original is not modified - the code within the subroutine will not change the original value that was passed in.
+
+Other programming languages can pass arguments by reference. This means that the actual memory address and the contents are passed into the called subroutine
+
+
+Passing by value
+---
+```py
+import random
+
+peas_count = 10
+
+def open_pea_pod(peas_count):
+    print("Start of subroutine peas:", peas_count)
+    
+    peas_in_pod = random.randint(3, 10)
+    print(f"Adding {peas_in_pod} peas")
+    
+	peas_count = peas_count + peas_in_pod
+
+	print("New peas count:", peas_count)
+
+
+print("Before opening the pod:", peas_count)
+open_pea_pod(count_peas)
+print("After opening the pod:", peas_count)
+```
+
+```py
+# Output
+>>> Before opening the pod: 10
+>>> Start of subroutine peas: 10
+>>> Adding 9 peas
+>>> New peas count: 19
+>>> After opening the pod: 10
+```
+
+Procedures are an example of... procedural programming.
+
+### Recursion
+
+Recursion is when a function calls itself. In order that this is handled well, there must be an end condition, where the function will not be recalled. 
+
+It can be more intuitive for a function to call itself to compute an output, than having to modify and adapt the function to use an iterative approach (loop).
+
+When a function calls itself, the caller pauses execution, and the function call is continued instead. All subcalls are independent - they are considered as separate functions of the program. The return value of functions are added (pushed) onto a stack, until a **base condition** is met where recursion no longer occurs (usually a SELECTION statement), and the function stack "unwinds", and each subcall's return value is passed into the value of what the caller wanted. Each call results in an increasing amount of data being processed. A consequence of this is high memory usage, as each function call copies (typically by value) variables and parameters, and the function code itself, into a new memory address. This can lead to a stack overflow error, when a call would increase memory usage above the stack's limit.
+
+> This is opposed to an iterative approach, which executes the same instructions for each pass.
+
+There must be a base/stopping condition, and finite number of calls whilst this base condition is not met.
+
+#### Factorials
+A factorial of a number is the number multiplied by all numbers between it (inclusive) and 0. If you're looking for the factorial of 5, then you would do 5 $\times 4 \times 3 \times 2 \times 1 = 120$. This is denoted as $5!$
+
+$n! = n(n – 1)$
+
+```csharp
+procedure calc(n)
+	if n == 0 then
+		factorial = 1
+	else
+		// Call itself - value is not fully factorialised to 0
+		factorial = n * calc(n – 1) 
+	endif
+	print(factorial)
+endprocedure
+```
+
+#### Fibbonaci sequencing
+
+```cpp
+function fib(n)
+	if n <= 1 then
+		return n
+	else
+		return fib(n-1) + fib(n-2)
+	endif
+endfunction
+```
+
+## OOP
+Classes are a blueprint for an object. They define what each object that inherits that class should look like/have (its properties) as well as what it can do - its methods.
+
+Attributes (properties) of a class Cat may be colour, size, breed.
+Methods (procedures) that this Cat class can perform include meow, purr, walk...
+
+### Encapsulation
+Encapsulation is when data is bundled (encapsulated) together to reduce the code complexity and superfluous code. This is done by creating classes. Once the object is instantiated, `public` methods can be effectively ignored and `private` attributes hidden from users so that they cannot be changed without intent.
+
+Attributes and methods in the class definition are wrapped (encapsulated) in the class definiton. For example if you have a `list1` variable and you want to sort it, you do `list1.sort()` - for every list that is created, the programming language defines a `sort` method.
+
+
+### Public and private
+
+Generally, procedures are public - it is a common method for each object that uses that class as its blueprint. 
+
+Attributes are normally declared as private, so that they cannot be changed, *except for* when executing a procedure.
+
+### Instantiation
+
+**Instant**iation is creating an **instan**ce of an object. An object is instantated when it is being created from a class. 
+
+`myCat = new Cat("Tiga")`
+
+### Setters and getters
+When an object which inherits from a class is defined, the attributes of this object cannot be directly accessed or modified - this is the OOP principal of **data hiding**. Instead, public procedures which get or set a value are used instead.
+
+Instead within the class, more `public` procedures can be added that `setAnAttribute` or `getAnAttribute`. The `set` procedure will take a parameter, and the `get` procedure will return the value of the attribute.
+
+
+## 2.2.2 Computational methods
+![enter image description here](https://cheatsheet-assets.ibaguette.com/SpecContent-2.2.2_Computational%20methods.png)
 # TEMP SECTION: Data Structures
 
 ## Arrays, records and tuples
@@ -1349,7 +1801,7 @@ words = ["hi", "my", "name", "is", "Joe"]
 
 Arrays can also have multiple dimensions. These can be denoted by:
 
-```go
+```c
 ARRAY words[2, 4, 7]
 ```
 This is a 3D array with a length of 2, height of 4, and width of 7. With zero-index languages, this is a total of 3*5*8 = **120** different positions.
@@ -1563,6 +2015,6 @@ A 2D hash table can be used to fix this to an extent, by using the first hash fu
 ---
 
 > Une lumière dorée brille sans fin tout au bout du chemin
-> (Reference from the film "Les Choristes")
 
-> Document written with [StackEdit](https://stackedit.io/) :)
+> Written with [StackEdit](https://stackedit.io/) :)
+

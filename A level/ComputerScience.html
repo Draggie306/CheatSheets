@@ -21,6 +21,18 @@
 	<meta property="og:url" content="https://ibaguette.com/cheatsheets/alevel/computerscience">
 	<meta property="og:type" content="website">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script>
+    <style>
+    	@font-face{
+    		font-family:Lato;
+		    font-style:normal;
+		    font-weight:400;
+		    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-normal.27bd77b.woff) format("woff")
+		}
+
+		body {
+            font-family: 'Lato', Arial, sans-serif; /* Fallback fonts */
+        }
+    </style>	
 </head>
 
 <body class="stackedit">
@@ -28,7 +40,7 @@
     <div class="stackedit__toc">
       
 <ul>
-<li><a href="#ah-yes-more-computer-science">Ah yes more computer science!</a></li>
+<li><a href="#a-level-ocr-h446-computer-science">A Level OCR H446 Computer Science</a></li>
 <li><a href="#paper-1">Paper 1</a></li>
 <li><a href="#tbd-unit-1---the-characteristics-of-contemporary-processors-input-output-and-storage-devices">[tbd] Unit 1 - The characteristics of contemporary processors, input, output and storage devices</a>
 <ul>
@@ -258,11 +270,32 @@
 <li><a href="#tbd-1.4-data-types-data-structures-and-algorithms">[tbd] 1.4 Data types, data structures and algorithms</a></li>
 <li><a href="#tbd-1.5-legal-moral-cultural-and-ethical-issues">[tbd] 1.5 Legal, moral, cultural and ethical issues</a></li>
 <li><a href="#paper-2">Paper 2</a></li>
+<li><a href="#boolean-algebra">Boolean algebra</a>
+<ul>
+<li><a href="#logic-gates">Logic gates</a>
+<ul>
+<li><a href="#not-gates">NOT gates</a></li>
+<li><a href="#and-gates">AND gates</a></li>
+<li><a href="#or-gates">OR gates</a></li>
+<li><a href="#xor-gates">XOR gates</a></li>
+</ul>
+</li>
+<li><a href="#simplifying-boolean-expressions">Simplifying Boolean Expressions</a></li>
+<li><a href="#adders">Adders</a>
+<ul>
+<li><a href="#half-adders">Half adders</a></li>
+<li><a href="#full-adders">Full adders</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="#elements-of-computational-thinking">2.1 Elements of computational thinking</a>
 <ul>
 <li><a href="#thinking-abstractly">2.1.1 Thinking abstractly</a></li>
 <li><a href="#thinking-ahead">2.1.2 Thinking ahead</a></li>
 <li><a href="#thinking-procedurally">2.1.3 Thinking procedurally</a></li>
+<li><a href="#thinking-logically">2.1.4 Thinking logically</a></li>
+<li><a href="#thinking-concurrently">2.1.5 Thinking concurrently</a></li>
 </ul>
 </li>
 <li><a href="#algorithms">Algorithms</a>
@@ -293,8 +326,6 @@
 </ul>
 </li>
 <li><a href="#the-a-algorithm">The A* Algorithm</a></li>
-<li><a href="#thinking-logically">2.1.4 Thinking logically</a></li>
-<li><a href="#thinking-concurrently">2.1.5 Thinking concurrently</a></li>
 </ul>
 </li>
 <li><a href="#problem-solving-and-programming">2.2 Problem solving and programming</a>
@@ -409,10 +440,13 @@
   <div class="stackedit__right">
     <div class="stackedit__html">
       <p><a href="https://ibaguette.com/cheatsheets/alevel">&lt; Back to A level Cheat Sheets</a></p>
-<h1 id="ah-yes-more-computer-science">Ah yes more computer science!</h1>
+<h1 id="a-level-ocr-h446-computer-science">A Level OCR H446 Computer Science</h1>
+<blockquote>
+<p>Ah yes more computer science!</p>
+</blockquote>
 <p><strong>This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠</strong></p>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last general update: 01/11/2023 20:58.<br>
-Last content addition: 01/11/2023 20:57</a></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Last general update: 16/12/2023 19:42.<br>
+Last content addition: 04/12/2023 20:57</a></p>
 <p>✅ Note: This file is synced with <a href="https://github.com/Draggie306/CheatSheets">this repository</a>. You’ll always be on the latest version.</p>
 <p>Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.</p>
 <blockquote>
@@ -426,7 +460,7 @@ Last content addition: 01/11/2023 20:57</a></p>
 <h2 id="components-of-a-computer-and-their-uses">Components of a computer and their uses</h2>
 <p>Surprisingly, a computer has a lot of things in it to make it work! These things are often very small but very fast.</p>
 <h2 id="structure-and-function-of-the-processor">1.1.1 Structure and function of the processor</h2>
-<p>The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to <strong>process data</strong>, <strong>strong text</strong>which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations, etc.</p>
+<p>The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to <strong>process data</strong>, which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations, etc.</p>
 <h3 id="buses">Buses</h3>
 <p>There are three types of bus, which all do different things and have different directions</p>
 <p>Buses themselves are physical, parallel wires, typically visible on a motherboard, that connect two or multiple components together. These wires, or lines, are typically arranged in multiples of 2 with eight or more, such as 8 16, 32 or 64 individual lines. A bus is the entire collection of these parallel wires going from one component to another. [<a href="#credits"><sup>1</sup></a>]</p>
@@ -1661,10 +1695,136 @@ chosenElement<span class="token punctuation">.</span>innerHTML <span class="toke
 <p>The <strong>Copyright, Designs and Patents Act 1988</strong> covers the copying or use of other people’s work</p>
 <p>The <strong>Regulation of Investigatory Powers Act 2000</strong> regulates surveillance and investigation, and covers the interception of communications</p>
 <h1 id="paper-2">Paper 2</h1>
+<h1 id="boolean-algebra">Boolean algebra</h1>
+<h2 id="logic-gates">Logic gates</h2>
+<p>There are a range of logic gates used in electronic components. These logic gates can take in one or more inputs, and produce a single output. This output can be used as the input of another logic gate and repeated to create a sophisticated and complex circut, such as the ones fonund in a CPU.</p>
+<p>The four you need to know are NOT, AND, OR and XOR gates.</p>
+<p>A <strong>truth table</strong> is a way of representing the inputs and outputs of logic gates in a tabular format. For a NOT gate, it would look like this.</p>
+<h3 id="not-gates">NOT gates</h3>
+<p>Also known as negation.</p>
+<p>Takes in one input and inverts it.<br>
+Looks like a triangle with a small circle on the end.</p>
+
+<table>
+<thead>
+<tr>
+<th>Input A</th>
+<th>Output Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table><p>The Boolean expression of a NOT gate is [tbd]</p>
+<h3 id="and-gates">AND gates</h3>
+<p>Also known as conjunction.<br>
+As a boolean expression, this is written as N [tbd]<br>
+Both inputs must be True or 1 in order for the output to be True. Otherwise, the output will be 0</p>
+
+<table>
+<thead>
+<tr>
+<th>Input A</th>
+<th>Input B</th>
+<th>Output Z</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table><h3 id="or-gates">OR gates</h3>
+<p>Also known as disjunction. At least one input must be True for the output to be True.</p>
+<h3 id="xor-gates">XOR gates</h3>
+<p>Also known as exclusive disjunction.</p>
+<p>There must be exactly one input which is True for the output to also be True.</p>
+<h2 id="simplifying-boolean-expressions">Simplifying Boolean Expressions</h2>
+<p>de Morgan’s laws state a range of expressions which, when used in any boolean function, can be converted into an expression that uses only NAND or NOR functions.</p>
+<p>Why?<br>
+This means that <strong>any circuit can be built from a single type of logic gate</strong>, which reduces manufacturing costs as only one type of gate can only be used. It is much easier to buy a single item in bulk rather than have several different components which must be manufactured independently, reducing costs for the manufacturer and ultimately the consumer.</p>
+<h2 id="adders">Adders</h2>
+<h3 id="half-adders">Half adders</h3>
+<p>A half adder is a logic gate that takes two bit inputs and computes the addition result of them, as well as a carry.</p>
+<p>To do this, the half adder uses A and B as inputs, with an XOR gate to get S (the Sum). Additionally, there is an AND gate which outputs C (Carry) if both A and B are True. Wires connect the output of the XOR gate to the input of the AND gate, so that the carry can be calculated. This carry can then subsequently be used in a full adder.</p>
+<h3 id="full-adders">Full adders</h3>
+<p>A full adder is a logic gate that takes three bit inputs and computes the addition result of them, as well as a carry.</p>
 <h1 id="elements-of-computational-thinking">2.1 Elements of computational thinking</h1>
 <h2 id="thinking-abstractly">2.1.1 Thinking abstractly</h2>
+<p>Abstraction is the <strong>process of filtering unnecessary information</strong> from <strong>what is really needed</strong> to <strong>solve a problem</strong> - <strong>removing details</strong> to <strong>simplify the creation</strong> of something like an application.</p>
+<blockquote>
+<p>Removing unncesessary detail, keeping only relevant information.,</p>
+</blockquote>
+<p>Abstraction is present throughout day to day life. The London Underground map is a typical example of abstraction on a large scale, but this way of thinking can be applied to many situations. When driving a car, you do not need to know how the engine functions, the role of friction on tyres or the chemical composition of the metal shell of the vehicle. You just need to know how to use the steering wheel, brake/accelerate pedal and more, not how exactly these work. That would be the role of a mechanic.</p>
+<p>Removing these unnecessary details allows programmers to focus on the core issue, rather than spending time on things not needed in a situation.</p>
+<p>Abstraction significantly differs from reality. The London Underground map allows people to easily navigate the tube lines, without showing know the exact distance between stops or elevation changes, whilst retaining the spatial position and name of each stop. This allows people to focus on what is needed - getting from one stop to another.</p>
+<p>You additionally need to know how to devise an abstract model for a situation. This is a theoretical model for how a system or program should function. For example, a flowchart just shows the logic and flow of a program. Likewise, an expression in code of “a = b + c” abstracts away the memory addresses, binary values, fetch-decode-execute cycle and more.</p>
 <h2 id="thinking-ahead">2.1.2 Thinking ahead</h2>
+<blockquote>
+<p>Identifying the preconditions, inputs, outputs and reusable components of a program.</p>
+</blockquote>
+<p>To think ahead, the inputs and outputs of a given situation are needed. There may also be preconditions which should be determined before devising a solution to a problem.</p>
+<p>Using the process of abstraction, the input to a computational problem is the information relevant to it, nothing else. Represented programatically, this would be the parameters passed to a function. The output of the computational problem is its solution, returned from a function.</p>
+<p>In order to do this, the initial abstract model must be turned into a complete program, whislt being correct (accounting for all inputs) and also as efficient as possible.</p>
+<p>Inputs and outputs should be identified in the documentation, or in code comments. For example the docstring of a subroutine may include “A list of integers intList = [1, 2, 3…]”. This shows programmers what must be inputted to the subroutine, and this process can also be continued with the outputs too, minimising ambiguity.</p>
+<p>THinking ahead is also the anticipation of problems and issues. Also known as <strong>exceptions</strong> in code. In code, a statement could be added to check for an issue, for example returning early if a list does not contain any elements (if len(list) == 0). Alternatively, the responsibility can be left to the person to just not call something where an exception may be raised. This can be done by using preconditions, a statement dictating a condition that must be met, typically in order for code that requires this value to execute. Benefits of this include making components reusable - for example, through subroutines - and programmers will also know what conditions must be met to call a subroutine, reducing CPU overhead and execution times from unnecessary checks within the subroutines. This subsequently creates shorter, clearer, more efficient, reusable and cleaner code which improves maintenance and debugging.</p>
+<p>Caching, the temporary storage of information, is an example of thinking ahead. This webpage may or may not be cached depending on how many people are using it. On the first load to this URL, my webserver serves it from storage (slow). The second time, it may be loaded from storage again (slow). The third time, the server knows it is frequently accessed, so it keeps a copy of it in cache storage (fast) and you can see the page load much more quickly.</p>
+<blockquote>
+<p>You can see if this page along with other resources on iBaguette are cached by checking the HTTP Request Headers for <code>Cf-Cache-Status</code> - if this is <code>HIT</code> then yes, it’s been cached. The <code>Age</code> header also tells you for how long it has been in the cache!</p>
+</blockquote>
+<p>On the client side, JavaScript and CSS stylesheets are cached by your browser as they typically remain constant for the duration of your visit to a certain domain. To free up memory, when you leave a website, the cached assets may be discarded as they are no longer needed.</p>
+<p>This:</p>
+<ul>
+<li>provides faster access to resources in the cache, sub-millisecond vs server request which can take many seconds</li>
+<li>saves cost of bandwidth/server egress</li>
+<li>reduces load on backend webservers such as reducing database query times</li>
+<li>increases efficiency and productivity of users</li>
+</ul>
+<p>However, the drawbacks are:</p>
+<ul>
+<li>being served a stale (old) copy of a website or server despite of an update being made
+<ul>
+<li><a href="https://aws.amazon.com/builders-library/caching-challenges-and-strategies/#:~:text=Cached%20data%20necessarily%20grows%20inconsistent,the%20data%20tends%20to%20be">“Cached data inherently grows inconsistent with the source over time”</a></li>
+</ul>
+</li>
+<li>takes up storage/memory, especially if large resources like images are cached</li>
+<li>incorrect or corrupt cached data will continue to be served to many people for a longer time</li>
+</ul>
 <h2 id="thinking-procedurally">2.1.3 Thinking procedurally</h2>
+<p>Procedural decomposition means breaking  a large problem into sub-problems, with each of these completing their own distinct, identifiable task. These sub-problems can be indefinitely divided into further sub-problems.</p>
+<p>This thought process gives code a clear structure and improves code quality. As a result, the code is easier to understand and subsequently design.</p>
+<ul>
+<li>Modularisation involves breaking the overall problem down into subroutines.</li>
+<li>Each of these subroutines or other code segments follow sequence, selection and iteration statements</li>
+<li>Recursion is used to further optimise the efficiency of a program.</li>
+</ul>
+<p>To do this, hierarchy charts are used. At the root (top) the overall problem is outlined with the first level below being an outline with what should occur to solve it. In an exam, most hierarchy chart scenarios will probably include initialising variables, the main process program (to be further decomposed) and the final output. There can be as many levels as are required to break down and decompose the overall task.,</p>
+<h2 id="thinking-logically">2.1.4 Thinking logically</h2>
+<h2 id="thinking-concurrently">2.1.5 Thinking concurrently</h2>
 <h1 id="algorithms">Algorithms</h1>
 <p>A good algorithm has clear and precise steps that produce the correct output for any set of valid inputs.</p>
 <p>They must also always terminate at one point, executing efficiently, using minimal resources in as little steps as possible.</p>
@@ -1710,6 +1870,7 @@ endfunction
 plus 3 steps above the loop<br>
 = +3<br>
 = 2n+3</p>
+<p>Big-O notation for linear search is O(n).</p>
 <blockquote>
 <p>Can be perfomed on any list, sorted or unsorted.</p>
 </blockquote>
@@ -1725,15 +1886,15 @@ plus 3 steps above the loop<br>
 <p>Where there are n items, n-1 passes are made through the array.</p>
 <p>Bubble sort works by comparing two adjacent items in an array and swapping them if the order does not match the required order.<br>
 This can involve moving one element to the complete other side of the array in one pass.</p>
-<pre><code>for i = 0 to n - 2
-	for j = 0 to (n – i - 2)
-		if a [j] &gt; a[j + 1 then
-			temp = a[j]
-			a[j] = a[j + 1]
-			a[j + 1] = temp
+<pre class=" language-py"><code class="prism  language-py"><span class="token keyword">for</span> i <span class="token operator">=</span> <span class="token number">0</span> to n <span class="token operator">-</span> <span class="token number">2</span>
+	<span class="token keyword">for</span> j <span class="token operator">=</span> <span class="token number">0</span> to <span class="token punctuation">(</span>n – i <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span>
+		<span class="token keyword">if</span> a <span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">&gt;</span> a<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span> then
+			temp <span class="token operator">=</span> a<span class="token punctuation">[</span>j<span class="token punctuation">]</span>
+			a<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> a<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span>
+			a<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> temp
 		endif
-	next j
-next i
+	<span class="token builtin">next</span> j
+<span class="token builtin">next</span> i
 </code></pre>
 <blockquote>
 <p>The algorithm works by repeatedly comparing adjacent elements in the array and swapping them if they are in the wrong order, repeating until the entire array is sorted.</p>
@@ -1757,7 +1918,7 @@ endprocedure
 Though, it’s faster than bubble sort.</p>
 <h3 id="merge-sort">Merge sort</h3>
 <p><img src="https://journaldev.nyc3.digitaloceanspaces.com/2019/07/MergeSort.png" alt="enter image description here"></p>
-<p>THe merge sort involves repeatedly splitting unsorted array into <em>n</em> sublists.</p>
+<p>The merge sort involves repeatedly splitting unsorted array into <em>n</em> sublists.</p>
 <p>The sublists are then merged to make a sorted list!</p>
 <p>A list of length 16 will be split into 8x2, 4x4, 2x8 then 1x16 individual elements.</p>
 <p>Afterwards, they are combined into 2x8 lists. Then, one half of the unsorted elements is compared to the corresponding other half of the unsorted elements.</p>
@@ -1812,8 +1973,6 @@ If there is no connected nodes, the algorithm would backtrack.</p>
 <h2 id="the-a-algorithm">The A* Algorithm</h2>
 <p>This is not the same as the grade you’re going to be getting if you don’t understand this.</p>
 <p>This algorithm is designed to find the fastest point from a start node to an end node.</p>
-<h2 id="thinking-logically">2.1.4 Thinking logically</h2>
-<h2 id="thinking-concurrently">2.1.5 Thinking concurrently</h2>
 <h1 id="problem-solving-and-programming">2.2 Problem solving and programming</h1>
 <h2 id="programming-techniques">2.2.1 Programming techniques</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/SpecContent-2.2.1_Programming%20techniques.png" alt="enter image description here"></p>
@@ -1850,10 +2009,9 @@ If there is no connected nodes, the algorithm would backtrack.</p>
 <blockquote>
 <p>IF THIS, THEN do THAT. ELSE, go back to start.</p>
 </blockquote>
-<p>Program flow is controlled by evaluating a Boolean condition, which is one that evaluates either to True or False. If it is true, the following statements are executed. If not,</p>
-<p>endif</p>
+<p>Program flow is controlled by evaluating a Boolean condition, which is one that evaluates either to True or False. If it is true, the following statements are executed. If not, the (typically) indented code below will not run.</p>
 <h4 id="elseif">Elseif</h4>
-<p>endif</p>
+<p>An example of selection within pseudocode. this must be used in conjunction with many other selection statements, and the programming language will</p>
 <h4 id="switchcase">Switch/case</h4>
 <p>Performs structural pattern matching rather than boolean evaluation.<br>
 (Also known as <code>match/case</code> in Python 3.10+!)</p>
@@ -1964,7 +2122,7 @@ Methods (procedures) that this Cat class can perform include meow, purr, walk…
 <p>When an object which inherits from a class is defined, the attributes of this object cannot be directly accessed or modified - this is the OOP principal of <strong>data hiding</strong>. Instead, public procedures which get or set a value are used instead.</p>
 <p>Instead within the class, more <code>public</code> procedures can be added that <code>setAnAttribute</code> or <code>getAnAttribute</code>. The <code>set</code> procedure will take a parameter, and the <code>get</code> procedure will return the value of the attribute.</p>
 <h2 id="computational-methods">2.2.2 Computational methods</h2>
-<p><img src="https://cheatsheet-assets.ibaguette.com/SpecContent-2.2.2_Computational%20methods.png" alt="enter image description here"></p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-2.2.2_Computational%20methods.png" alt="enter image description here"></p>
 <h1 id="temp-section-data-structures">TEMP SECTION: Data Structures</h1>
 <h2 id="arrays-records-and-tuples">Arrays, records and tuples</h2>
 <p>A variable is a location in memory which holds a particular variable, which can be of a specific type.<br>

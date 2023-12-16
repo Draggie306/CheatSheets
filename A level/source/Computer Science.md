@@ -2,14 +2,18 @@
 
 
 
+
+
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
-# Ah yes more computer science!
+# A Level OCR H446 Computer Science
+
+> Ah yes more computer science!
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last general update: 01/11/2023 20:58.
-Last content addition: 01/11/2023 20:57](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last general update: 16/12/2023 19:42.
+Last content addition: 04/12/2023 20:57](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
@@ -36,7 +40,7 @@ Surprisingly, a computer has a lot of things in it to make it work! These things
 
 ## 1.1.1 Structure and function of the processor
 
-The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to **process data**, **strong text**which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations, etc.
+The CPU (Central Processing Unit) has many different components within it, each having their own specific function and role. Its purpose is to **process data**, which can be searching, sorting, calculating, communicating between input/output devices, temporarily storing results of calculations, etc.
 
 ### Buses
 
@@ -1311,13 +1315,138 @@ The **Regulation of Investigatory Powers Act 2000** regulates surveillance and i
 
 # Paper 2
 
+# Boolean algebra
+
+## Logic gates
+There are a range of logic gates used in electronic components. These logic gates can take in one or more inputs, and produce a single output. This output can be used as the input of another logic gate and repeated to create a sophisticated and complex circut, such as the ones fonund in a CPU. 
+
+The four you need to know are NOT, AND, OR and XOR gates.
+
+A **truth table** is a way of representing the inputs and outputs of logic gates in a tabular format. For a NOT gate, it would look like this.
+
+### NOT gates
+
+Also known as negation.
+
+Takes in one input and inverts it.
+Looks like a triangle with a small circle on the end.
+
+|Input A|Output Z |
+|--|--|
+| 0 | 1 |
+| 1 | 0 |
+
+The Boolean expression of a NOT gate is [tbd] 
+
+### AND gates
+
+Also known as conjunction.
+As a boolean expression, this is written as N [tbd] 
+Both inputs must be True or 1 in order for the output to be True. Otherwise, the output will be 0
+
+|Input A|Input B|Output Z|
+|--|--|-|
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+
+### OR gates
+Also known as disjunction. At least one input must be True for the output to be True.
+
+### XOR gates
+Also known as exclusive disjunction.
+
+There must be exactly one input which is True for the output to also be True. 
+
+
+## Simplifying Boolean Expressions
+
+de Morgan’s laws state a range of expressions which, when used in any boolean function, can be converted into an expression that uses only NAND or NOR functions. 
+
+Why?
+This means that **any circuit can be built from a single type of logic gate**, which reduces manufacturing costs as only one type of gate can only be used. It is much easier to buy a single item in bulk rather than have several different components which must be manufactured independently, reducing costs for the manufacturer and ultimately the consumer.
+
+
+
+## Adders
+
+### Half adders
+A half adder is a logic gate that takes two bit inputs and computes the addition result of them, as well as a carry.
+
+To do this, the half adder uses A and B as inputs, with an XOR gate to get S (the Sum). Additionally, there is an AND gate which outputs C (Carry) if both A and B are True. Wires connect the output of the XOR gate to the input of the AND gate, so that the carry can be calculated. This carry can then subsequently be used in a full adder.
+
+### Full adders
+A full adder is a logic gate that takes three bit inputs and computes the addition result of them, as well as a carry.
+
 # 2.1 Elements of computational thinking
 
 ## 2.1.1 Thinking abstractly
+Abstraction is the **process of filtering unnecessary information** from **what is really needed** to **solve a problem** - **removing details** to **simplify the creation** of something like an application. 
+
+> Removing unncesessary detail, keeping only relevant information.,
+
+Abstraction is present throughout day to day life. The London Underground map is a typical example of abstraction on a large scale, but this way of thinking can be applied to many situations. When driving a car, you do not need to know how the engine functions, the role of friction on tyres or the chemical composition of the metal shell of the vehicle. You just need to know how to use the steering wheel, brake/accelerate pedal and more, not how exactly these work. That would be the role of a mechanic.
+
+Removing these unnecessary details allows programmers to focus on the core issue, rather than spending time on things not needed in a situation.
+
+Abstraction significantly differs from reality. The London Underground map allows people to easily navigate the tube lines, without showing know the exact distance between stops or elevation changes, whilst retaining the spatial position and name of each stop. This allows people to focus on what is needed - getting from one stop to another. 
+
+You additionally need to know how to devise an abstract model for a situation. This is a theoretical model for how a system or program should function. For example, a flowchart just shows the logic and flow of a program. Likewise, an expression in code of “a = b + c” abstracts away the memory addresses, binary values, fetch-decode-execute cycle and more. 
+
 
 ## 2.1.2 Thinking ahead
+> Identifying the preconditions, inputs, outputs and reusable components of a program.
+
+To think ahead, the inputs and outputs of a given situation are needed. There may also be preconditions which should be determined before devising a solution to a problem.
+
+Using the process of abstraction, the input to a computational problem is the information relevant to it, nothing else. Represented programatically, this would be the parameters passed to a function. The output of the computational problem is its solution, returned from a function.
+
+In order to do this, the initial abstract model must be turned into a complete program, whislt being correct (accounting for all inputs) and also as efficient as possible.
+
+Inputs and outputs should be identified in the documentation, or in code comments. For example the docstring of a subroutine may include “A list of integers intList = [1, 2, 3…]”. This shows programmers what must be inputted to the subroutine, and this process can also be continued with the outputs too, minimising ambiguity.
+
+THinking ahead is also the anticipation of problems and issues. Also known as **exceptions** in code. In code, a statement could be added to check for an issue, for example returning early if a list does not contain any elements (if len(list) == 0). Alternatively, the responsibility can be left to the person to just not call something where an exception may be raised. This can be done by using preconditions, a statement dictating a condition that must be met, typically in order for code that requires this value to execute. Benefits of this include making components reusable - for example, through subroutines - and programmers will also know what conditions must be met to call a subroutine, reducing CPU overhead and execution times from unnecessary checks within the subroutines. This subsequently creates shorter, clearer, more efficient, reusable and cleaner code which improves maintenance and debugging.  
+
+Caching, the temporary storage of information, is an example of thinking ahead. This webpage may or may not be cached depending on how many people are using it. On the first load to this URL, my webserver serves it from storage (slow). The second time, it may be loaded from storage again (slow). The third time, the server knows it is frequently accessed, so it keeps a copy of it in cache storage (fast) and you can see the page load much more quickly. 
+
+> You can see if this page along with other resources on iBaguette are cached by checking the HTTP Request Headers for `Cf-Cache-Status` - if this is `HIT` then yes, it's been cached. The `Age` header also tells you for how long it has been in the cache! 
+
+On the client side, JavaScript and CSS stylesheets are cached by your browser as they typically remain constant for the duration of your visit to a certain domain. To free up memory, when you leave a website, the cached assets may be discarded as they are no longer needed.
+
+This:
+- provides faster access to resources in the cache, sub-millisecond vs server request which can take many seconds
+- saves cost of bandwidth/server egress
+- reduces load on backend webservers such as reducing database query times
+- increases efficiency and productivity of users
+
+However, the drawbacks are:
+- being served a stale (old) copy of a website or server despite of an update being made
+	- [“Cached data inherently grows inconsistent with the source over time”](https://aws.amazon.com/builders-library/caching-challenges-and-strategies/#:~:text=Cached%20data%20necessarily%20grows%20inconsistent,the%20data%20tends%20to%20be)
+- takes up storage/memory, especially if large resources like images are cached
+- incorrect or corrupt cached data will continue to be served to many people for a longer time
+
 
 ## 2.1.3 Thinking procedurally
+
+Procedural decomposition means breaking  a large problem into sub-problems, with each of these completing their own distinct, identifiable task. These sub-problems can be indefinitely divided into further sub-problems.
+
+This thought process gives code a clear structure and improves code quality. As a result, the code is easier to understand and subsequently design.
+
+- Modularisation involves breaking the overall problem down into subroutines.
+- Each of these subroutines or other code segments follow sequence, selection and iteration statements
+- Recursion is used to further optimise the efficiency of a program. 
+
+
+To do this, hierarchy charts are used. At the root (top) the overall problem is outlined with the first level below being an outline with what should occur to solve it. In an exam, most hierarchy chart scenarios will probably include initialising variables, the main process program (to be further decomposed) and the final output. There can be as many levels as are required to break down and decompose the overall task.,
+
+
+
+## 2.1.4 Thinking logically
+
+## 2.1.5 Thinking concurrently
+
 # Algorithms
 A good algorithm has clear and precise steps that produce the correct output for any set of valid inputs. 
 
@@ -1380,6 +1509,8 @@ plus 3 steps above the loop
 = +3
 = 2n+3
 
+Big-O notation for linear search is O(n).
+
 > Can be perfomed on any list, sorted or unsorted.
 
 ### Binary search
@@ -1406,7 +1537,7 @@ Bubble sort works by comparing two adjacent items in an array and swapping them 
 This can involve moving one element to the complete other side of the array in one pass.
 
 
-```
+```py
 for i = 0 to n - 2
 	for j = 0 to (n – i - 2)
 		if a [j] > a[j + 1 then
@@ -1447,7 +1578,7 @@ Though, it's faster than bubble sort.
 
 ![enter image description here](https://journaldev.nyc3.digitaloceanspaces.com/2019/07/MergeSort.png)
 
-THe merge sort involves repeatedly splitting unsorted array into *n* sublists.
+The merge sort involves repeatedly splitting unsorted array into *n* sublists.
 
 The sublists are then merged to make a sorted list!
 
@@ -1535,10 +1666,6 @@ This is not the same as the grade you're going to be getting if you don't unders
 
 This algorithm is designed to find the fastest point from a start node to an end node.
 
-## 2.1.4 Thinking logically
-
-## 2.1.5 Thinking concurrently
-
 # 2.2 Problem solving and programming
 ## 2.2.1 Programming techniques
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/SpecContent-2.2.1_Programming%20techniques.png)
@@ -1598,12 +1725,11 @@ If statements.
 
 > IF THIS, THEN do THAT. ELSE, go back to start.
 
-Program flow is controlled by evaluating a Boolean condition, which is one that evaluates either to True or False. If it is true, the following statements are executed. If not, 
+Program flow is controlled by evaluating a Boolean condition, which is one that evaluates either to True or False. If it is true, the following statements are executed. If not, the (typically) indented code below will not run.
 
-endif
 #### Elseif
+An example of selection within pseudocode. this must be used in conjunction with many other selection statements, and the programming language will 
 
-endif
 #### Switch/case
 
 Performs structural pattern matching rather than boolean evaluation.
@@ -1774,7 +1900,7 @@ Instead within the class, more `public` procedures can be added that `setAnAttri
 
 
 ## 2.2.2 Computational methods
-![enter image description here](https://cheatsheet-assets.ibaguette.com/SpecContent-2.2.2_Computational%20methods.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-2.2.2_Computational%20methods.png)
 # TEMP SECTION: Data Structures
 
 ## Arrays, records and tuples

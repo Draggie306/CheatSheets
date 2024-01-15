@@ -1,8 +1,9 @@
 ﻿
 # Disease Dilemmas Complete Notes
-Note that this is an incomplete cheat sheet. Eventually, the content here will be merged into the [main cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all). Happy revision!
+Note that this is an incomplete cheat sheet. No ads will be shown. Eventually, the content here will be merged into the [main cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all). Happy revision!
 
-Last update: 15/01/2024 22:35
+Last update: 15/01/2024 22:38
+Word count: 4,807 (25,446 characters)
 
 ## 1. Global patterns of disease
 ![Specification Content for Disease Dilemmas Key Idea 1 - "What are the global patterns of disease and can factors be identified that determine these?"](https://cheatsheet-assets.ibaguette.com/alevel/geography/SpecContent_DiseaseDilemmas-3.2.1.png)

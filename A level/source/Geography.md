@@ -6,8 +6,8 @@
 **⚠ This is a work in progress, unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-[Latest update: 16/09/2023 20:07. 
-Last content addition: 16/09/2023 20:07.35](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Latest update: 12/12/2023 20:07. 
+Last content addition: 12/12/2023 20:07.35](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
@@ -98,33 +98,34 @@ Layers of snow within the ice give evidence for the way that it has formed.
 ### Types of glacier and movement
 (Date studied: ~29/09/2022)
 
-An ice sheet is a mass of snow and ice, greater than 50,000km^2^ with considerable thickness.
-A piedmont glacier is one that spreads out as a wide lobe as it enters a wider plain typically from a smaller valley
-A valley glacier is one bound by valley walls, coming from higher mountain, from  a plateau on an ice cap or an ice sheet.
-Ice cap - a dome-shaped mass of glacial ice usually situated on a highland area and also covers >50,000km^2^.
+An **ice sheet** is a mass of snow and ice, **greater than 50,000km^2^** with considerable thickness.
+A **piedmont glacier** is one that spreads out as a wide lobe as it **enters a wider plain** typically from a smaller valley
+A **valley glacier** is one **bound by valley walls**, coming from higher mountain, from  a plateau on an ice cap or an ice sheet.
+An **ice cap** - a **dome-shaped mass of glacial ice** usually situated on a highland area and also covers >50,000km^2^.
 
 
-Valley glaciers usually occur in high altitude locations, with high relief, and have fast rates of flow at 20–200m/year and have distinct areas of ablation and accumulation, descending from mountains.
-Ice sheets however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of a high/low latitude and have slow rates of movement and only around 5m/year. The base of the glacier is frozen to the bedrock and have a little precipitation but also lower temperatures so ablation levels are lower too.
+Valley glaciers usually occur in high altitude locations, with high relief, and have fast rates of flow at 20–200m/year (mostly warm-based) and have distinct areas of ablation and accumulation, descending from mountains.
+
+Ice sheets however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of a high/low latitude and have slow rates of movement and only around 5m/year (mostly cold-based). The base of the glacier is frozen to the bedrock and have a little precipitation but also lower temperatures so ablation levels are lower too.
 
 
-Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under pressure, ice will deform and behave like plastic (**zone of Plastic Flow** on the lower half of the glacier) making it move faster .  Conversely, he **rigid zone** is on the top half of the glacier.
+Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under pressure, ice will deform and behave like plastic (**zone of Plastic Flow** on the lower half of the glacier) making it move faster .  Conversely, the **rigid zone** is on the top half of the glacier.
 
 Cold-based glaciers:
 - have a slow rate of movement (<5m/year);
 - are located in extreme latitude (polar) regions;
-- are flat in general;
+- are flat generally flat;
 - have a low basal temperature, remaining stuck to bedrock below the pressure melting point;
-- are in low precipitation areas and the glacier remains below freezing point.
+- are formed in low precipitation areas,  the glacier remains below freezing point during all seasons.
 
 Warm-based glaciers:
 - have rapid movement (20-200m/year);
 - are located in high altitude (mountainous) regions;
 - have a basal temperature at or above pressure melting point;
-- have steep relief;
-- have water present throughout, with ice acting as a lubricant.
+- have steep(er) relief;
+- have water present throughout, with the ice acting as a lubricant.
 
-> Cold-based glaciers are unable to move by basal sliding as the basal temperature is below the pressure melting point. Instead, they move through internal deformation, and ice at 0°C deforms 100 times faster than at -20°C.
+Cold-based glaciers are unable to move by basal sliding as the basal temperature is below the pressure melting point. Instead, they move through **internal deformation**, and ice at 0°C deforms 100 times faster than at -20°C.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Based%20Glaciers.png)
 
@@ -134,7 +135,7 @@ Warm-based glaciers:
 - **Englacial** material is material which is located inside a glacier.
 - **Subglacial** material is material which is located on the base of a glacier.
 - Material deposited during glaciation is called **drift**.
-- Material deposited directly by ice is called **till**
+- Material deposited directly by ice is called **till**.
 - Material deposited by meltwater is called outwash, or **glacio-fluvial material**.
 
 Lodgement till is material deposited by advancing ice, due to pressure being exerted into existing valley material, and left behind as ice advances, such as drumlins.
@@ -143,8 +144,9 @@ Ablation till is material deposited at the terminus by melting ice from stagnant
 It can be known whether sediment was deposited by water or ice. Ice-transported sediment is angular, not curved, as it has not been subject to erosional forces by the meltwater. The order of size of sediments can indicate this too, as water deposits sediment progressively due to reducing energy levels, while glaciers deposit material unsorted and 'en masse'. Glaciers deposit till in mounds and ridges too, as, during ablation, this englacial and supraglacial material gets dropped on the bedrock below. This is distinct from the layered deposition (or strata) typically characterised by fluvioglacial processes.
 
 ### Factors affecting the microclimate 
+The microclimate is a small region with its own distinct climatic characteristics, for example one side of a mountain, or the north side of a valley. Generally, wider climate characteristics play a larger role in influencing the behaviour of glaciers, but glaciers are also affected by various lower-level and smaller scale conditions too. 
 
-**Regional climate**
+#### Regional climate
 The wind is a moving force and is able to carry out processes such as transportation, position and erosion. In the air, these are known as **aeolian processes**, and can contribute to shaping glaciated landscapes.
 
 The wind is a moving force and is able to carry out processes such as transportation, position and erosion. In the air, these are known as n processes, and contributes to shaping glaciated landscapes.
@@ -152,13 +154,15 @@ Wind is more effective when acting upon fine materials, usually those previously
 
 Temperature within the climate is another factor, as temperatures above 0°C will melt accumulated snow and ice, resulting in more outputs in the system. At higher altitudes, there are typically more prolonged periods of above freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing for glaciers to thicken and expaensive ice sheets to form. Precipitation is another climate factor, with its totals and patterns, both regionally and seasonally, in determining mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
 
-**Geology**
-Lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking crystals. Clay, on the other hand, is weak, and does not have these strong bonds on the molecular level. The solubility of rocks like chalk can also be affected by acidity, making them prone to chemical weathering as seen, through carbonation.
+Geology
+Liology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking crystals. Clay, on the other hand, is weak, and does not have these strong bonds on the molecular level. The solubility of rocks like chalk can also be affected by acidity, making them prone to chemical weathering as seen, through carbonation.
+
 Structure relates to the physical rock types, like faulting, bedding and jointing. These all have an impact on how permeable rocks are. Chalk, for example, is very porous, spaces between the particles within it on the molecular level allow water to percolate through. Some types of limestone, like carboniferous limestone, has many interconnected joints, giving it 'secondary permeability'. 
 > **Primary permeability** is when spaces brackets (pores) absorb and retain water.
 
-**Latitude and Altitude**
+Latitude and Altitude
 Beyond the Arctic and Antarctic circles, located at 66.5° north and south, the climate is very dry, with a little seasonal variation. Being so dry and extremely cold, they are much different to valley glaciers, which are more dynamic, as they have higher precipitation levels névé turns into firn. The dryness contributes to **periglacial** environments *(see below for more about those!)* while also turning the types of glaciers in these areas to more cold-based. This means that they flow much less quickly, and different types of movement occurs. 
+
 Altitude also has a direct impact on the temperatures and development of valley glaciers. As temperatures typically decrease by 0.7^o^C every 100m of altitude gained, there are more likely to be valley glaciers in areas of high relief, as seen in the Alps and in the Himalayas. These glaciers are still not as cold as cold-based glaciers however.
 
 
@@ -248,9 +252,7 @@ Roche moutonnées are generally concentrated in areas of **competent bedrock**, 
 
 The word is French with "roche" meaning rock and "moutonée" meaning sheep.
 
-More specifically, it was introduced by a French geologist called Horace-Bénédict de Saussure (1740-1799). The word is called like so due to its resemblance to the shape of a wig worn by 18th century French aristocrats which shaped their hair like a wave. Sheep fat was used to hold the wig in place, which explains the term *moutonné* (Benn and Evans, 2010). In Sweden, very large *roches moutonnées* are called *flyggbergs*, with some being up to 3 km long and 350 m wide (Rudberg, 1954; 1973; Iverson *et al.*, 1995; Benn and Evans, 2010).
-
-(Epically translated by me, you're welcome.) [[2]](https://ibaguette.com/cheatsheets/alevel/geography/all#roche-mouton%C3%A9es-in-english)
+More specifically, it was introduced by a French geologist called Horace-Bénédict de Saussure (1740-1799). The word is called like so due to its resemblance to the shape of a wig, worn by 18th century French aristocrats which shaped their hair like a wave. Sheep fat was used to hold the wig in place, which explains the term *moutonné* (Benn and Evans, 2010). In Sweden, very large *roches moutonnées* are called *flyggbergs*, with some being up to 3 km long and 350 m wide (Rudberg, 1954; 1973; Iverson *et al.*, 1995; Benn and Evans, 2010).
 
 ### Ellipsoidal basins
 
@@ -258,9 +260,9 @@ These are no ordinary valley or alpine glacier erosional landform. These are hug
 
 These huge ice sheets (more than 50,000km^2^) exert large amounts of pressure on the landscape as well as great erosional quarrying by subglacial material. Examples of this feature include Hudson Bay, and smaller ellipsoidal basins created the Great Lakes in North America.
 
-On top of the subglacial erosion which may have occurred, the majority of the landscape's (*yes, I'd say they're larger than just landforms*) formation is due to isostatic lowering. This involves the sheer mass of the ice sheet, potentially several kilometres thick, exerting pressure on the lithosphere and effectively compressing it into being smaller.
+On top of the subglacial erosion which may have occurred, the majority of th landscape's formation  (*yes, I'd say they're larger than just landforms*)  is due to isostatic lowering. This involves the sheer mass of the ice sheet, potentially several kilometres thick, exerting pressure on the lithosphere and effectively compressing it into being smaller.
 
-After deglaciation, isostatic readjustment may occur, and these compressed, lowered areas may readjust, now being under no additional pressure.
+After deglaciation, isostatic readjustment may occur, and these compressed, lowered areas may readjust and bounce back upwards, now being under no additional pressure.
 
 > [REVIEW] Admin note: this must be fact checked and reviewed to ensure clarity and precision!
 
@@ -292,7 +294,7 @@ These mark a **pause or halt of glacial retreat** (e.g. when there are a couple 
 
 A ridge, often characterised by being largest and most prominent in the area, marking the **maximum advance of a glacial period** (glacial maximum), deposited at the snout of the glacier. Often cresent in shape when observed from the cross profile.
 
-#### Recessional moraine
+#### Recessional moraines
 
 A combination of the **end and terminal moraines**.
 
@@ -1007,6 +1009,128 @@ There are 5 main ways to rebrand an area:
 end of paper 2
 
 ---
+# Hazardous Earth
+
+## Theory of Plate Tectonics
+The theory of plate tectonics is closely linked with Alfred Wegener's theory of continental drift, a theory completed in 1912 but rejected from scientific communities.
+
+---
+![enter link description here](https://cdn.discordapp.com/attachments/785620979300302869/1156308808608534648/wegener-haha-original.gif)
+
+---
+
+
+## Reasons for plate movement
+
+### Paleomagnetism
+Paleo (fossilised) magnetism is the record of historic magnetic changes as the Earth's polarity changes (known as geomagnetic reversals), with recent polarity inverses occurring every 200 to 300 thousand years.
+
+
+### Glacial deposits
+Evidence from previous glacial periods when the Pangea supercontinent existed reinforced the idea that at one point, land masses were connected. Striations, lines in rocks carved by glaciers moving other rocks over them, have been found by glaciologists in central India, Africa and even in the Amazon Rainforest.  
+
+
+al sequences
+![](https://cheatsheet-assets.ibaguette.com/alevel/geography/ContinentalDriftMountains.jpg)
+*A slightly exaggerated visualisation of the present-day positions of the Appalachian Mountain range. [Thanks](https://www.reddit.com/r/interestingasfuck/comments/175gfgy/comment/k4mnpz4/?utm_source=share&utm_medium=web2x&context=3) to [  
+Dark North (u/dxrknxrth)](https://www.reddit.com/user/dxrknxrth/) and [this](https://www.reddit.com/r/interestingasfuck/comments/175gfgy/the_appalachian_mountains_atlas_mountains/) Reddit post!
+
+### Apparent fit of the continents
+
+### Geologic
+### Fossil evidence
+
+---
+![enter image description here](https://cdn.discordapp.com/attachments/785620979300302869/1156308809199927436/wegener-yeeha-original.gif)
+
+---
+
+
+## Plate boundaries
+A plate boundary is where there are two plates meeting. This is not the same as there being two plate boundaries! There is only one boundary, and two plates.
+
+## Divergent plate boundaries
+At a divergent plate boundary, two plates move apart from each other. Depending on the rate of movement and type of and density of the lithospheric crust, different landforms can be found
+ 
+### Oceanic-oceanic boundary
+At a mid-oceanic ridge, molten magma rises towards the Earth's surface, thanks to hot magma plumes within the mantle, originating from the lower mantle. As magma rises - caused by the force of the mantle plume - and enters the asthenosphere, it loses pressure and cools down. The lithospheric rocks above are pushed upwards by force, fracturing the lithosphere and penetrating through the crust. Accompanied by **ridge push**, at these ridges, **thermal expansion** from the presence of magma causes the surrounding rocks to... expand. Over time, vast chains of underwater mountains up to 3km tall and 60,000km in total length have formed. 
+At these oceanic ridge crests, landforms which are likely to be visible include **black smokers** (hydrothermal vents) where seawater meets the hot magma, as well as **pillow lavas**, which are mainly basaltic. These rocks once cooled can be used to indicate the upwards orientation at time of eruption.
+
+Variations in seafloor spreading velocity result in lateral **transform faults**, which appear as zig-zags on topographic ocean maps. Due to the accumulating pressure and tension as these masses move, it is likely that small earthquakes will occur due to, releasing kinetic energy. (There is little volcanic activity along transform faults.)
+
+> A transform fault is **only the lateral** part of the zig-zag, between ocean ridge crests.
+
+### Continental-continental
+
+In locations where two continental plates meet (such as the East African Rift: Nubial <--> Somali), the mantle plume is not as strong, if any at all. As a result, rift valleys are created and are visible on land (such as in Iceland). These form as the plates, being pulled away from each other due to **convection currents** fuelling **slab pull**, result in the land at the boundary sinking: there is nothing below supporting it. Volcanic fissures also may open up for a time if there is land movement and a magma chamber beneath, which look like lines of magma erupting over a landscape. Shield volcanoes which erupt viscous lava and are less active compared to composite volcanoes and calderas.
+
+Rift valleys can also be found where spreading is occurring at a slower rate, such as the Mid-Atlantic Ridge (North American <--> Eurasian) on land such as Iceland.
+
+
+
+ 
+## Convergent plate boundaries
+
+
+
+
+## Conservative plate boundaries
+> Conservative boundaries are also referred to as transform plate boundaries (typically USA only)
+
+
+# Volcanoes
+
+## The chemistry of an eruption
+The nature of a volcanic eruption is shaped by a range of factors. For example, the viscosity, or the ‘stickiness’ of magma. The viscosity measures the resistance to flow an, in the case of volcanic activity, the more viscous it is, the more explosively the eruption may be. 
+
+Additionally, the gas inside the magma chamber drives the flow of the magma through the mantle and crust. Gas can build up within the magma chamber, forcing the magma to be quickly discharged and causing a more explosive eruption. Other factors can include the pipe’s shape. The length and diameter of it can cause differing explosion types, with typically short, narrow pipes creating greater explosions. 
+
+Magma is made of molten rock crystals which grow as the liquid inside cools down. Gas bubbles can make this more porous, viscosity and chemistry of the melt and temperature can change the characteristics of magma. The chemistry of magma refers to the polymerisation state of the liquid. Remember GCSE chemistry? Polymers are long chains of molecules; if these contain silica and oxygen inide, it becomes more viscous. Acidic, rhyolitic lava is characteristic of this chemistry, from typically converging boundaries. 
+
+> Alkaline, H2O molecules break up these polymers into smaller, simple molecules which flow more easily and typically basaltic. 
+
+To simplify the remembrance of the formation and type of magma, have a look at this table and see if you notice a pattern.
+
+| Explosive eruptions | Effusive eruptions |
+|--|--|
+| Typically forms at converging boundaries | Typically forms at diverging boundaries or hotspots |
+ | Formed as a result of subduction | Formed from a deep mantle plume |
+| Temperatures cooler, at around 750 | Hot temperatures at 1000+ degrees |
+| Sticky, viscous magma | Runny, low viscosity magma |
+| Acidic | Less acidic |
+| Cannot travel far, builds up a distinctive cone around a volcano | Travels far and fairly flat, a ‘shield’ shape. You may not know it is a volcano at all. |
+| Rhyolitic magma | Basaltic magma |
+| Distinct central vent and perhaps several side vents | Fissure eruptions common |
+| Less unpredictable but infrequent | More unpredictable, but more frequent |
+| Recurrence intervals can range from several years to several thousand+ years | Recurrence intervals are very frequent, even once per day |
+| Examples include Mt Pinatubo, Mt. St. Helens,  | Examples include Iceland,  |
+
+### Intrusive volcanicity
+
+### Hotspot volcanoes
+
+### Yellowstone
+
+### Stratovolcanoes
+
+### Shield Volcanoes
+
+### East African Rift Valley
+
+## Case study: Eyjafjallajokull, Iceland
+
+## Case study: Volcan del Fuego, Guatemala
+
+
+## Strategies to manage volcanic hazards
+
+### Mitigating against events
+
+### Mitigating against vulnerability
+
+### Modifying loss
+
+
 # NEA stuff
 
 ## Spearman's Rank 

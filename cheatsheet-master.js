@@ -46,6 +46,7 @@ const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/Ch
 const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html"
 const alevel_geog_physical = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Physical.html"
 const alevel_geog_human = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Human.html"
+const alevel_computer_science_2023_paper1 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Summer%202023%20Paper%20Targeted%20Revision.html"
 
 const hizi_sites = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Subject_Sites.html"
 
@@ -1060,6 +1061,18 @@ async function handleRequest(request) {
           "cheatsheet-subject": "computerscience",
           "cheatsheet-paper": "1",
           "cheatsheet-snippet": "impacts-tech",
+        },
+      })
+    }
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/computerscience/2023-paper1")) {
+      const response = await fetch(alevel_computer_science_2023_paper1);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "a-level",
+          "cheatsheet-subject": "computerscience",
+          "cheatsheet-paper": "1",
+          "cheatsheet-year": "2023",
         },
       })
     }

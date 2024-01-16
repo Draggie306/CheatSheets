@@ -48,6 +48,8 @@ const alevel_geog_physical = "https://raw.githubusercontent.com/Draggie306/Cheat
 const alevel_geog_human = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Human.html"
 const alevel_computer_science_2023_paper1 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Summer%202023%20Paper%20Targeted%20Revision.html"
 const alevel_geog_diseasedilemmas = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Disease%20Dilemmas%20Complete%20Revision%20Guide%20(OCR).html"
+const alevel_french_choristes = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Les%20Choristes%20-%20Past%20Paper%20Questions.html"
+const alevel_french_lsdlm = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Le%20Silence%20de%20la%20mer%20-%20Past%20Paper%20Questions.html"
 
 const hizi_sites = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Subject_Sites.html"
 
@@ -1090,6 +1092,34 @@ async function handleRequest(request) {
         },
       })
     }
+
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/french/les-choristes-questions")) {
+      const response = await fetch(alevel_french_choristes);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "a-level",
+          "cheatsheet-subject": "french",
+          "cheatsheet-paper": "writing",
+          "cheatsheet-year": "2024",
+        },
+      })
+    }
+
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/french/le-silence-de-la-mer-questions")) {
+      const response = await fetch(alevel_french_lsdlm);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "a-level",
+          "cheatsheet-subject": "french",
+          "cheatsheet-paper": "writing",
+          "cheatsheet-year": "2024",
+        },
+      })
+    }
+
+
   
 
     // Special case for geog.uk website:

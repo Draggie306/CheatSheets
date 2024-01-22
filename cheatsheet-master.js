@@ -69,14 +69,14 @@ const main_page = `<!DOCTYPE html>
   <title>GCSE and A Level Revision Material + Cheat Sheets | iBaguette</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="title" content="GCSE and A Level Revision Material + Cheat Sheets | iBaguette">
-  <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards like AQA and OCR for Computer Science, Geography, Maths, and more.">
+  <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material, matched directly to the specifications of a range of GCSE and A Level subjects and exam boards.">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
   <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/stackedit_style.min.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/fonts/lato-normal.27bd77b.woff" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/cheatsheet_browser_style.min.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
-  <link rel="icon" type="image/icon" sizes="16x16" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/favicon.ico" />
+  <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
+  <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/fonts/lato-normal.27bd77b.woff" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
+  <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
+  <link href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/favicon.ico" rel="icon" type="image/x-icon">
 
   <!-- Breadcrumb for GCSE -->
   <script type="application/ld+json">
@@ -229,7 +229,7 @@ const main_page = `<!DOCTYPE html>
 
   </script>
     <section id="main-cheat-welcome-text">
-      <h1 style="font-size: xxx-large;">Welcome to iBaguette's Revision Material<h1></h1>
+      <h1 style="font-size: xxx-large;">Welcome to iBaguette's Revision Material!<h1></h1>
       <br>
         <div class="container">
           <div id="buttons-container">
@@ -256,9 +256,9 @@ const main_page = `<!DOCTYPE html>
       <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
       <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
     </div>
-    <!-- do not modify the below lines, auto updated by git hook that's now broken (fix it) -->
+    <!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
     <div class="footer-content">
-      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">0648f9e</a> |<strong> Version 1.4 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
 </body>
 </html>`
@@ -488,9 +488,9 @@ const alevel_main_page = `<!DOCTYPE html>
 		<p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
 		<p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
 	</div>
-	<!-- do not modify the below lines, auto updated by git hook -->
+	<!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">0648f9e</a> |<strong> Version 1.4 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`
@@ -508,110 +508,136 @@ const gcse_main_page = `<!DOCTYPE html>
     <title>GCSE Revision Material | iBaguette</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="GCSE Revision Material | iBaguette">
-    <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material for A-Level and GCSE subjects with many exam boards for Computer Science, Geography, Maths, and more.">
+    <meta name="description" content="Get access to comprehensive and informative cheat sheets and other revision material for a range of GCSE subjects and exam boards, all matched directly to the specifications.">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/stackedit_style.min.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/fonts/lato-normal.27bd77b.woff" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/cheatsheet_browser_style.min.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
-    <link rel="icon" type="image/icon" sizes="16x16" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/favicon.ico" />
+    <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
+    <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/fonts/lato-normal.27bd77b.woff" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
+    <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
     <link rel="canonical" href="https://ibaguette.com/cheatsheets/gcse">
+    <link href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/favicon.ico" rel="icon" type="image/x-icon">
 
     <!-- Breadcrumb for GCSE -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "WebPage",
-            "position": 2,
-            "name": "All GCSE Revision Material",
-            "item": "https://ibaguette.com/cheatsheets/gcse"
-          },
-          {
-            "@type": "WebPage",
-            "position": 3,
-            "name": "Geography Paper 1",
-            "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1"
-          },
-          {
-            "@type": "WebPage",
-            "position": 4,
-            "name": "Geography Paper 2",
-            "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper2"
-          },
-          {
-            "@type": "WebPage",
-            "position": 5,
-            "name": "Geography Papers 1 and 2",
-            "item": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1and2"
-          },
-          {
-            "@type": "WebPage",
-            "position": 6,
-            "name": "Computer Science",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience"
-          },
-          {
-            "@type": "WebPage",
-            "position": 7,
-            "name": "Science Practicals",
-            "item": "https://ibaguette.com/cheatsheets/gcse/science/practicals"
-          },
-          {
-            "@type": "WebPage",
-            "position": 8,
-            "name": "Biology 2",
-            "item": "https://ibaguette.com/cheatsheets/gcse/biology/2"
-          },
-          {
-            "@type": "WebPage",
-            "position": 9,
-            "name": "GCSE Subject Specific Sites Revision Guide",
-            "item": "https://ibaguette.com/cheatsheets/gcse/subject-sites"
-          },
-          {
-            "@type": "WebPage",
-            "position": 10,
-            "name": "OCR J277 - Systems Architecture Revision Guide",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-architecture"
-          },
-          {
-            "@type": "WebPage",
-            "position": 11,
-            "name": "OCR J277 - Memory and Storage Revision Guide",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/memory-and-storage"
-          },
-          {
-            "@type": "WebPage",
-            "position": 12,
-            "name": "OCR J277 - Networks, Connections and Protocols Revision Guide",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/networks-and-protocols"
-          },
-          {
-            "@type": "WebPage",
-            "position": 13,
-            "name": "OCR J277 - Network Security Revision Guide",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/network-security"
-
-          },
-          {
-            "@type": "WebPage",
-            "position": 14,
-            "name": "OCR J277 - Systems Software Revision Guide",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-software"
-
-          },
-          {
-            "@type": "WebPage",
-            "position": 15,
-            "name": "OCR J277 - Impacts of Digital Technology Revision Guide",
-            "item": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology"
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse",
+            "name": "All GCSE Revision Material"
           }
-        ]
-      }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1",
+            "name": "Geography Paper 1"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/geography/Paper2",
+            "name": "Geography Paper 2"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/geography/Paper1and2",
+            "name": "Geography Papers 1 and 2"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience",
+            "name": "Computer Science"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/science/practicals",
+            "name": "Science Practicals"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/biology/2",
+            "name": "Biology 2"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/subject-sites",
+            "name": "GCSE Subject Specific Sites Revision Guide"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-architecture",
+            "name": "OCR J277 - Systems Architecture Revision Guide"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/memory-and-storage",
+            "name": "OCR J277 - Memory and Storage Revision Guide"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/networks-and-protocols",
+            "name": "OCR J277 - Networks, Connections and Protocols Revision Guide"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/network-security",
+            "name": "OCR J277 - Network Security Revision Guide"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-software",
+            "name": "OCR J277 - Systems Software Revision Guide"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology",
+            "name": "OCR J277 - Impacts of Digital Technology Revision Guide"
+          }
+        }
+      ]
+    }    
     </script>
 
   </head>
@@ -729,9 +755,9 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
     <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
   </div>
   <br>
-	<!-- do not modify the below lines, auto updated by git hook -->
+	<!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">0648f9e</a> |<strong> Version 1.4 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`
@@ -1094,7 +1120,7 @@ async function handleRequest(request) {
           "content-type": "text/html;charset=UTF-8",
           "cheatsheet-tier": "a-level",
           "cheatsheet-subject": "geography",
-          "cheatsheet-paper": "human",
+          "cheatsheet-paper": "debates",
           "cheatsheet-year": "2024",
         },
       })
@@ -1107,7 +1133,7 @@ async function handleRequest(request) {
           "content-type": "text/html;charset=UTF-8",
           "cheatsheet-tier": "a-level",
           "cheatsheet-subject": "french",
-          "cheatsheet-paper": "writing",
+          "cheatsheet-paper": "3",
           "cheatsheet-year": "2024",
         },
       })
@@ -1120,7 +1146,20 @@ async function handleRequest(request) {
           "content-type": "text/html;charset=UTF-8",
           "cheatsheet-tier": "a-level",
           "cheatsheet-subject": "french",
-          "cheatsheet-paper": "writing",
+          "cheatsheet-paper": "3",
+          "cheatsheet-year": "2024",
+        },
+      })
+    }
+
+    else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/hazardous-earth")) {
+      const response = await fetch(alevel_geog_hazardousearth);
+      htmlResponse = new Response(await response.text(), {
+        headers: {
+          "content-type": "text/html;charset=UTF-8",
+          "cheatsheet-tier": "a-level",
+          "cheatsheet-subject": "geography",
+          "cheatsheet-paper": "debates",
           "cheatsheet-year": "2024",
         },
       })

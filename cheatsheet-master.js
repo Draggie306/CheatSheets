@@ -50,6 +50,7 @@ const alevel_computer_science_2023_paper1 = "https://raw.githubusercontent.com/D
 const alevel_geog_diseasedilemmas = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Disease%20Dilemmas%20Complete%20Revision%20Guide%20(OCR).html"
 const alevel_french_choristes = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Les%20Choristes%20-%20Past%20Paper%20Questions.html"
 const alevel_french_lsdlm = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Le%20Silence%20de%20la%20mer%20-%20Past%20Paper%20Questions.html"
+const alevel_geog_hazardousearth = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Hazardous%20Earth.html"
 
 const hizi_sites = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Subject_Sites.html"
 
@@ -278,8 +279,8 @@ const alevel_main_page = `<!DOCTYPE html>
     <meta name="title" content="A-Level Revision Material | iBaguette">
     <meta name="description" content="Explore our comprehensive A-Level cheat sheets and revision material. Ace your exams with resources for Computer Science, Geography, Maths, and more!">
     <meta name="robots" content="index, follow">
-	  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
-	  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+	<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
     <link rel="preload" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/stackedit_style.min.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
 	  <link rel="preload" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/fonts/lato-normal.27bd77b.woff" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Draggie306/CheatSheets@main/cheatsheet_browser_style.min.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
@@ -390,6 +391,8 @@ const alevel_main_page = `<!DOCTYPE html>
 		<a href="/cheatsheets/alevel/geography/paper1" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - PHYSICAL</a>
 		<a href="/cheatsheets/alevel/geography/paper2" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Geography - HUMAN</a>
 		<a href="/cheatsheets/alevel/geography/nea" target="_blank" rel="noopener">Useful NEA links and resources!</a>
+		<a href="/cheatsheets/alevel/geography/disease-dilemmas" target="_blank" rel="noopener">Disease Dilemmas</a>
+		<a href="/cheatsheets/alevel/geography/hazardous-earth" target="_blank" rel="noopener">Hazardous Earth</a>
 	  </div>
 	</div>
 
@@ -405,19 +408,21 @@ const alevel_main_page = `<!DOCTYPE html>
 	  <button class="dropbtn">French</button>
 	  <div class="dropdown-content">
 		<a href="https://www.ibaguette.com/2023/04/introducing-french-revision-portal.html" target="_blank" rel="noopener">The dedicated French Revision Portal is coming soon! Click here for more info.</a>
+		<a href="https://ibaguette.com/cheatsheets/alevel/french/les-choristes-questions" target="_blank" rel="noopener">Les Choristes - Past Paper Questions</a>
+		<a href="https://ibaguette.com/cheatsheets/alevel/french/le-silence-de-la-mer-questions" target="_blank" rel="noopener">Le Silence de la Mer - Past Paper Questions</a>
 		<a href="https://app.memrise.com/course/6311981/useful-y12-vocab/" target="_blank" rel="noopener">Y12 Useful Vocab</a>
 		<a href="https://app.memrise.com/course/6339466/la-musique-a-level-vocab-theme-21a/" target="_blank" rel="noopener">La Musique Vocab</a>
 		<a href="https://app.memrise.com/course/6381995/better-film-vocab/" target="_blank" rel="noopener">All Film Vocab (+ corrected)</a>
 		<a href="https://app.memrise.com/course/6381996/ndhs-as-vocab-family-structures/" target="_blank" rel="noopener">(NEW) Family Vocab</a>
 		<a href="https://app.memrise.com/course/6381998/ndhs-as-vocab-youth-trends/" target="_blank" rel="noopener">(NEW) Youth Trends Vocab</a>
 		<a href="https://padlet.com/hilla68/alevel-french-with-eduqas-n7vewglwvuj28euw" target="_blank" rel="noopener">Mme Hill's Padlet</a>
-		<a href="https://app.memrise.com/communicate" target="_blank" rel="noopener">(NEW) Memrise AI Chat</a>
 		<a href="https://www.youtube.com/playlist?list=PL5xtnB--9zERtoI-yN_t0YlWtaFmx10eu" target="_blank" rel="noopener">French Listening Playlist</a>
 		<a href="https://www.youtube.com/@HugoDecrypte" target="_blank" rel="noopener">HugoDécrypte - Actus du jour</a>
 		<a href="https://www.youtube.com/@HugoDecrypte2/videos" target="_blank" rel="noopener">HugoDécrypte - Extended Listening Practice</a>
 		<a href="https://meltingmots.com/" target="_blank" rel="noopener">Melting Mots - French Abbreviation List and finder</a>
 		<a href="https://cheatsheet-assets.ibaguette.com/alevel/french/Le-silence-de-la-mer-English-only.pdf" target="_blank" rel="noopener">Le Silence de la Mer - English Translation</a>
 		<a href="https://cheatsheet-assets.ibaguette.com/alevel/french/Le-silence-de-la-mer-French-only.pdf" target="_blank" rel="noopener">Le Silence de la Mer - French Only</a> 
+		<a href="https://cheatsheet-assets.ibaguette.com/alevel/french/Les_Choristes_Script_Sc%C3%A9nario.pdf" target="_blank" rel="noopener">Les Choristes - Script</a>
 	  </div>
 	</div>
 
@@ -489,6 +494,8 @@ const alevel_main_page = `<!DOCTYPE html>
 	</div>
 </body>
 </html>`
+
+
 
 // gcse main page
 const gcse_main_page = `<!DOCTYPE html>

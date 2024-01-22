@@ -1,19 +1,14 @@
 ﻿
 
-
-
-
-
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
 # A Level OCR H446 Computer Science
-
-> Ah yes more computer science!
+Welcome to the A Level OCR Computer Science H446 Cheat Sheet, with everything covered in detail in the specification. 
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last general update: 16/12/2023 19:42.
-Last content addition: 04/12/2023 20:57](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Last general update: 22/01/2024 22:58.
+Last content addition: 22/01/2024 22:42](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
 
@@ -51,7 +46,6 @@ Buses themselves are physical, parallel wires, typically visible on a motherboar
 The CPU is connected to RAM by three separate buses, the address bus, data bus and control bus. These are collectively known as the system bus. As each bus is shared, **only one device can transmit along a bus at any given time**.
 
 ![motherboard](https://cheatsheet-assets.ibaguette.com/alevel/compsci/motherboardlines.jpg)
-
 *Motherboard bus lines*
 
 #### Control bus
@@ -450,7 +444,7 @@ For the optimisation of the performance of the computer and performing useful ta
 - Compression software can reduce file size for transfer or to save on disk space.
 
 ### Applications software
-Generak purpose, special purpose or custom written (bespoke) software.
+General-purpose, special purpose or custom written (bespoke) software.
 
 Ready made software is known as off the shelf software, and may include general-purpose software such as word processors or a graphics editing package. They are less expensive or free, well documented and tested.
 
@@ -469,7 +463,7 @@ Closed source software or proprietary software does not allow access to the sour
 ## 1.2.3 Software Development
 
 ### Assemblers
-Assemblers translate assembly code instructions into machine  code, or object code. Each assembly instruction is 1:1 equivalent to one machine code instruction, which is dependent on the instruction set and the underlying type of processor and its architecture (hardware specific). Basic lexical analysis such as comment removal occurs here too.
+Assemblers translate assembly code instructions into machine/object code. Each assembly instruction is 1:1 equivalent to one machine code instruction, which is dependent on the instruction set and the underlying type of processor and its architecture (hardware specific). Basic lexical analysis such as comment removal occurs here too.
 
 
 ### Compilers
@@ -478,7 +472,7 @@ Similarly to assemblers, compilers translate the source code into machine code. 
 
 ### Interpreters
 
-Interpreters are more designed for development, with it going through source code line-by-line, and only translating it into machine code if there are no syntax erros. This compares to compilers, which will translate the entire source code before it is ececuted.
+Interpreters are more designed for development, with it going through source code line-by-line, and only translating it into machine code if there are no syntax erros. This compares to compilers, which will translate the entire source code before it is executed.
 
 JavaScript for example is interpreted. This in the long run speeds up (the website) as it doesn't need to be compiled to various different devices' machine code requirements, and each device can interpret the source JavaScript in the way that works for that processor. It also reduces network traffic as binary files may be much larger than compact source code equivalents.
 
@@ -536,15 +530,15 @@ print(x)
 print(i)
 ```
 
-Over several passes, code oprimisation techniques may remove the for loop and just set `x` to 0 so it doesn't get redefined 10,000 times. More severe optimisations may calculate that `i` will be 50000 every time, so just change the value of y to 50000.
+Over several passes, code optimisation techniques may remove the for loop and just set `x` to 0 outside of the loop so that it doesn't get redefined 10,000 times. More severe optimisations may calculate that `i` will be 50000 every time, so just change the value of y to 50000.
 
 ### Linkers and loaders
 
-The linker must assign memory addresses to external calls  from separate libraries or functions so that the modules are linked correctly.
+The linker must assign memory addresses to external calls from separate libraries or functions so that the modules are linked correctly.
 
 The loader must copy the program and any linked libraries into main memory to be executed. The loader will also correctly assign memory addresses, as the program expects that it is in memory address 0.
 
-Libraries, pre-compiled code modules, have benefits such as being tested, optimised and save time as code does not have to be rewritten. It can also save on memory use as many programs using a library to set all characters to uppercase only has to be loaded once into memory, and just linked by the linker.
+Libraries, pre-compiled code modules, have benefits such as being tested, optimised and save time as code does not have to be rewritten. It can also save on memory - many programs may use a library to set all characters to uppercase which only has to be loaded once into memory, and just linked by the linker, as opposed to redefining this every time.
 
 
 ## 1.2.4 Types of Programming Language
@@ -584,7 +578,7 @@ This can be used in any way to perform operations like adding adddresses in memo
 #### Attributes
 #### Inheritance
 
-![Inheritance joke](https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpg)
+![Inheritance joke](https://cheatsheet-assets.ibaguette.com/alevel/compsci/inheritance.jpg =400x280)
 
 
 #### Encapsulation
@@ -616,10 +610,10 @@ Non-essential information is removed from the source file. In the below images, 
 
 If a pixel in an image is combined with a block of others in lossy compression, it isn't much of a deal.
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-FromCamera.jpg =600x800)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-FromCamera.jpg =400x600)
 *Directly from my phone camera. 25.438 KiB*
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-Compress.png =600x800)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/IMG_20230526_174532-Compress.png =400x600)
 *Compressed! 543 KiB. ~50x reduction in filesize*
 
 However, with the second image here, you should be able to tell that it's not as clear or as precise as the first one. Different colours have been merged into one, and "blockiness" is visible as the compression algorithm tries to combine multiple areas that have generally the same colours into one to save storage space. **It tries to remove as much of the less significant details as possible, conserving the general essence of the image.** There is a trade off between how heavily the image is compressed (and therefore the smaller the filesize) and the quality.
@@ -629,7 +623,7 @@ However, with the second image here, you should be able to tell that it's not as
 
 This logic can be applied to audio too. MP3 files and OGG files are formats that use lossy compression to remove sounds ouside of audible hearing ranges, or by removing quieter elements of a music track that play at the same time as louder parts.
 
-VoIP services like Discord use compression at various **bitrates** to transmit peoples' voices. Lower bitrates such as 8kbps will require more compression and people will sound less defined and monotonic, while higher bitrates such as 64kbps - the default by many services today - will not have any issue in understanding the person at the other end of the line as this is less compressed. However, we still can still discern the difference between even the highest bitrates and being face-to-face.
+VoIP services like Discord use compression at various **bitrates** to transmit peoples' voices. Lower bitrates such as 8kbps will require more compression and people will sound less defined and monotonic, while higher bitrates such as 64kbps - the default by many services today - will not have any issue in understanding the person at the other end of the line as this is less compressed. However, humans can still discern the difference between even the highest bitrates and being face-to-face.
 
 > With advancements in audio codecs and compression techniques, lower bitrates have become more usable.
 
@@ -637,6 +631,7 @@ VoIP services like Discord use compression at various **bitrates** to transmit p
 
 ![audio](https://cheatsheet-assets.ibaguette.com/alevel/compsci/soundwave.png)
 *Visualisation of what happens to audio content*
+
 **Lossy Compression:**
 |Advantages|Disadvantages|
 |--|--|
@@ -660,6 +655,7 @@ Lossless compression is important when transferring files such as binary data (l
 
 However, lossless compression has disadvantages too. Lossy files are still much better for highly optimising size and quality of images as they are able to discard large amounts of the file if needed. Therefore, generally, only slight reductions over the initial file are possible. 
 
+**Lossless compression:**
 |Advantages|Disadvantages|
 |--|--|
 |All of the original file's data is preserved|  Longer file transfer times and potential buffering|
@@ -795,7 +791,7 @@ Even if 1 bit of input data is changed, these functions will return completely d
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/hashes.png)
 *The SHA-1, CRC32, MD5 and SHA-256 hashes for this file at the time of writing. Oops, as I've written that, it's changed already...*
 
-"1E71416792A1681496EBFB56B00D8056C9BA1C59" - sha-1 hash
+> "*1E71416792A1681496EBFB56B00D8056C9BA1C59*" - sha-1 hash
 
 ### Uses for hashing
 
@@ -865,10 +861,10 @@ In a relational database, data is held in tables, or **relations**. Each row in 
 
 |CustID|SubID|prodID|Tier|custName
 |--|--|--|--|--|
-| 12 | 120.CmpSc | 235 |1| Joe
-| 34 | 111.Geog | 243 |1| Sam
-| 54 | 120.CmpSc | 235 |1| Oli
-| 54 | 121.French | 239 |1| Oli
+| 12 | 120.CmpSc | 235 |4| Jake
+| 34 | 111.Geog | 243 |2| Kez
+| 54 | 120.CmpSc | 235 |3| Frankie
+| 54 | 121.French | 239 |5| Oli
 
 Normalisation is a process used to create the most efficient design possible for a database. The structure should be one so that complex queries from different relations can be made, with no unnecessary duplication and high consistency.
 
@@ -1055,7 +1051,6 @@ Assigns every object in the database a read and write timestamp, so it can be wo
 #### Committment ordering
 Transactions are ordered depending on how much they rely on each other, as well as time they were initiated. These subsequent modification requests can then be blocked until the initial transaction is committed.
 
-
 #### Redundancy
 There may be multiple systems available in different physical locations which can be switched to if there is an error in one DBMS. This is crucial in busy businesses or where there is a lot of information that is of high importance being transferred and updated simultaneously.
 
@@ -1140,7 +1135,7 @@ A network topology refers to the physical or logical arrangement of computing de
 They are simple to set up and cheap, but only one computer can transmit data successfully at a time (or "collisions" will occur) and there is poor security generally, with a single point of failure, as well as being unsuitable for larger areas.
 
 
-**Star topology**: an arrangement where a central node or switch (or hub) provides a central point of communication for all other nodes. A device connected on this network can send an appropriate message to the switch, which then uses the both devices' **Media Access Control (MAC)** address to determine where to send the message. 
+**Star topology**: an arrangement where a central node or switch (or hub) provides a central point of communication for all other nodes. A device connected to this network can send an appropriate message to the switch, which then uses both devices' **Media Access Control (MAC)** address to determine where to send the message. 
 
 The failure of any one device (unless it is the switch itself) does not affect the operation of the network as a whole. This makes star networks highly reliable and easy to maintain, as well as being easy to add new stations. Higher transmission speeds can give better performance than a bus network too.
 
@@ -1253,7 +1248,7 @@ It's worth noting that the IP has no guarantee of correct transmission, and it i
 
 #### Link layer
 
-AKA Data Link/Network Interface layer
+This is also known as the Data Link/Network Interface layer
 
 Each layer has its own specific tasks in transmitting data over a network.
 
@@ -1286,24 +1281,155 @@ How to add an external stylesheet:
 Changing the attributes of an HTML element:
 
 ```js
-chosenElement = document.getElementById("example"); 
-// Gets element with id "example" from the DOM
+// Get element with id "example" from the DOM
+var chosenElement = document.getElementById("example"); 
 
-chosenElement.innerHTML = "Hello, World!"; 
 // Change the displayed HTML content
+chosenElement.innerHTML = "Hello, World!"; 
 ```
 
   
 
+
+
 # [tbd] 1.4 Data types, data structures and algorithms
 
+This section is about how data is represented and stored within different structures, and how different algorithms can be applied to these structures.
+
+## Primitive data types, binary and hexadecimal
+
+Primitive data types are those which are provided by a programming language. They are then stored by the computer in binary. They include:
+- integers (whole numbers, both negative and positive)
+- strings (anything represented as text, typically through "quotation marks")
+- Boolean values (`True` or  `False` values)
+- floating points (or reals, which are numbers with a fraction/decimal)
+- characters (singular characters in a character set, which may be letters, numbers or special symbols)
+
+To then represent these data types, varying number bases are used. Ultimately, computers must store the data in binary (a base 2 system), whilst strings such as colours can be represented in hexadecimal for simplicity, which is a base 16 number system. To show these number bases, subscripts are used. They look like this: 
+- 53~10~ - denary (base 10) value of 53
+- 1001~2~ - binary (base 2) value for 9
+- 23~16~ - hexadecimal (base 16) value for 35
+
+### Converting between denary and binary
+
+Converting between these bases is simple. Write out a table with 8 columns (bits) for a number up to 255. Then, label each column from left to right, doubling in value, starting at 1 and ending at 128. You will need to continue into the second byte if the number is 256 or greater.
+
+| 128 | 64 | 32 | 16 |8  | 4 | 2 | 1  
+|--|--|--|--|--|--|--|--|
+| 1 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 
+
+> This value is **unsigned**. Remember that for later.
+
+Now, to calculate the number in denary, add up each column where the value is 1. For example here you would add 128, 32, 2 and 1 for a total of **163** in denary.
+
+To go the other way, simply draw out this table again, and start from the most significant bit (left) side. Take your number and if it is greater or equal to the value of the column, add a `1` to the column and then subtract the value from your number, and move to the next least significant bit. Continue until your number is zero, where the remaining columns will be filled in with `0`. 
+
+### Hexadecimal conversions
+
+Hexadecimal is slightly more tricky. The values of this base system are the same up until the denary value of 9 (`1001`), but anything above this will involve **letters**. The value of `1111` (15) in hex is *F*. 
+
+To convert from binary to hex, split the binary into nibbles (groups of 4 bits). From this, simply write the hex conversion table and write each character (0-9, A-F) for each nibble. 
+To convert the other way, do this in reverse. To do this mentally, remember that *F* is `1111` and 9 is `1001`: it is relatively easy to calculate each hex value from these two points.
+
+Converting hexadecimal to denary is also easy. If there are 2 (or more) hex digits, remember that the most significant bit row represents the number of 16s (in denary) that go into that number. As such, if the hex value is *CF*, then remember that *C* is the denary value of 12. However, this must be multiplied by 16, as this column represents the number of 16s due to the number base, so 16x12 is 192. Then, add the value of *F*, which is 15, to give the value of 207.
+
+Finally, converting denary to hexadecimal can be more tricky. A quick way to do this is to **DIV**ide the denary number by 16 for the most significant bit column, and get the remainder (**MOD**) for the lesser significant bit.
+For example, to work out the hex of 175, you would do: 
+- 175 DIV 16 = 10
+- 175 MOD 16 = 15
+
+10 in hex is *A* (`1010`) 
+15 in hex is *F* (`1111`)
+The answer would be *AF*
+
+## Binary arithmetic
+
+When adding or subtractiing binary numbers, go from the least to most significant bit. Always remember that:
+- 0 + 0 = 0
+- 1 + 0 = 1
+- 1 + 1 = 0 (and carry 1)
+- 1 + 1 + 1 = 1 (and carry 1)
+
+## Negative binary and two's complement
+
+### Sign and magnitude
+
+To represent negative numbers, the most common method used is to use the most significant bit as the sign bit. When this leftmost bit is `0`, represents a positive number, and when `1` represents a negative number. This is known as the sign and magnitude representation method.
+
+The positive binary value of `00010001` (19) can be used to work out the negative value `10010001`.
+However, when performing arithmetic operations on this, it doesn't really work. Therefore, we use [two's complement](#Two%27s-complement) instead of sign and magnitude.
+
+### Two's complement representation
+
+Two's complement is a way to represent both positive and negative numbers in a way to easily facilitate arithmetic operations on them, by making the most significant bit a sign bit which denotes whether the binary value is positive or negative.
+
+> Where the most significant bit is the sign bit, the value is one which is **signed**. 
+
+To calculate two's complement, firstly invert all bits that represent a binary number. This means making all `0`s `1`s, and vice versa. The result is a value known as **one's complement**. Then, add the binary value `1` to one's complement. The resulting value is the negative (or positive, depending on the chosen number) equivalent of the number inputted.
+
+Here is an example of how to convert negative denary to binary for an 8-bit system:
+
+- 19
+= 0001 0011
+= 1110 1100 (one's complement)
+= **1110 1101** (two's complement)
+
+Similarly, to convert a negative two's complement binary value to denary:
+
+1011 0000
+= 0100 1111 (one's complement)
+= 0101 0000 (two's complement - we are adding `1` in binary, so carries apply)
+= 64+16 = 80
+= **-80** (the original value's sign bit was 1, so this final value is also negative)
+
+When subtracting, we can also use this:
+
+1. **27 - 8 (this is equivalent to 27 + (-8))**
+	 - 27 is `0001 1011`
+	 - 8 is `0000 1000`
+2. **Now, calculate two's complement of 8:**
+	 - `1111 0111`
+	 - `1111 1000`
+3.  **Now, time to add the values:**
+	 - `0001 1011`
+	 - `1111 1000`
+	 - `(1) 0001 0011`
+	
+Therefore, the final value is `0001 0011`, which is 16 + 2 + 1 = **19**. This is indeed 27-8. The overflow digit is ignored: if it wasn't, the value would be negative 19.
+
+## Arithmetic operations with decimals
+
+Of course, when representing numbers, decimals and fractions also are part of the overall equation.
+
+When using decimals on a traditional binary number line, we can extend this to the right below the value of 1. From left to right, the value of the number line halves each time, and this is continued with values below 1. To show these, we insert a **binary decimal point** and the values to the right of it will represent 0.5, 0.25, 0.125, 0.0625 and so on.
+
+For fixed-point binary numbers, there is a given number of bits before and after the decimal point.
+
+![enter image description here](https://c-for-dummies.com/blog/wp-content/uploads/2016/07/0723_powers-of-2-2.png)
+
+When representing fractional/decimal denary values in binary, it's as easy as the conversion of denary to binary earlier, with an added bit for fractions. For example:
+
+Number: 25.875
+- 25 in binary: `0001 1001`
+- 0.875 in binary: `0.111`
+- Answer = `00011001.111`
+	-   This can be simplified to `1100 1.111` for 8 bits. The leading zeroes can be truncated
+
+
+> Some numbers with decimals will never be accurately stored. An infinite level of precision will be required to represent numbers, using inverse powers of 2, such as 0.1 and 0.2. For example, 2/3 would be 0.1010101010...
+
+### Floating point arithmetic
+Floating point binary numbers allow the 
+
+
+## 
 
 
   
 # [tbd] 1.5 Legal, moral, cultural and ethical issues
 
 
-The **Data Protection Act 2018**: controls the way data about living people is stored and processed 
+The **Data Protection Act 2018** controls the way data about living people is stored and processed 
 - It is a national law which complements the European Union's General Data Protection Regulation (GDPR)
 
 The **Computer Misuse Act 1990** makes it an offence to access or modify computer material without permission
@@ -1657,9 +1783,9 @@ The graph displays the minimum distances from the original start node to each ot
 ---
 > **Question:** In Dijkstra’s algorithm, what would the value in the priority queue be if the distance from previous traversal `A->C` to a node was calculated `B`, but this node now is no longer connected through an edge to the current node `C`? (In this case, `C:D` = 2, `C:E` = 5). What would the value of this node `B` be, when its distance was only calculated to the previous node (`A:B` = 10)? 
 
-**Answer:** The priority queue would store the value from the initial neigbouring calculation which would be 10. 
+**Answer:** The priority queue would store the value from the initial neighbouring calculation which would be 10. 
 If the value of this prior shortest node is the lowest, the algorithm would use the next largest element in the queue.
-If there is no connected nodes, the algorithm would backtrack.
+If there are no connected nodes, the algorithm would backtrack.
 
 ## The A* Algorithm
 This is not the same as the grade you're going to be getting if you don't understand this.
@@ -1668,7 +1794,7 @@ This algorithm is designed to find the fastest point from a start node to an end
 
 # 2.2 Problem solving and programming
 ## 2.2.1 Programming techniques
-![enter image description here](https://cheatsheet-assets.ibaguette.com/SpecContent-2.2.1_Programming%20techniques.png)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/compsci/SpecContent-2.2.1_Programming%20techniques.png)
 
 ### Programming basics
 
@@ -2143,4 +2269,6 @@ A 2D hash table can be used to fix this to an extent, by using the first hash fu
 > Une lumière dorée brille sans fin tout au bout du chemin
 
 > Written with [StackEdit](https://stackedit.io/) :)
+
+
 

@@ -1,23 +1,22 @@
 ﻿
 
-[< Back to GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
+[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
 
 
 # OCR J277 Computer Science Paper 2 Complete Cheat Sheet
 
-[Latest update: 23/08/2023 21:48. 
+[Latest update: 24/01/2024 13:17. 
 Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 > Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
 
 ## READ THIS FIRST:
 
-Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
+Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so it might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
 
-**This cheat sheet covers _all_ of specification for: J277/02: Computational thinking, algorithms and programming. 
-Check the [Cheat Sheets page](https://ibaguette.com/cheatsheets/gcse) to see Paper 1 individually.**
+**This cheat sheet covers *all* of specification for: J277/02: Computational thinking, algorithms and programming. Check the [Cheat Sheets page](https://ibaguette.com/cheatsheets/gcse) to see Paper 1 individually.**
+
 ---
-
 
 From OCR:  
 **J277/02: This component will assess:**  
@@ -41,12 +40,12 @@ From OCR:
 
 There are 3 words to describe 'computational thinking':
 
-- Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a problem. It is effectively a general overview of the program with specific details removed, for example the London Underground map.
+- Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a problem. It is effectively a general overview of the program with specific details removed, for example, the London Underground map.
 - Decomposition: Breaking down a problem into smaller parts which are easier to understand. These smaller parts can be individually solved as they are easier to comprehend, for example creating an app would need graphics, audio, software used to create it, testers, user interface...
 - Algorithmic thinking: thinking logically, just as a computer does. Usually works back from how an intended solution can be reached by working out the steps needed to get there.
 > Sometimes I might get annoyed if you don't think algorithmically...
 
-It is only when a problem is decomposed and abstracted, that creating of the algorithm can begin,
+It is only when a problem is decomposed and abstracted, that the creation of the solution can begin.
 
 
 ## 2.1.2 Designing algorithms
@@ -55,16 +54,16 @@ It is only when a problem is decomposed and abstracted, that creating of the alg
 
 An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, as well as if any decisions need to be made. 
 
-Algorithms are made in three different ways: pseudocode, flowcharts and in Python (or another high-level language/OCR reference language). 
+Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language). 
 
 
 ### Flowchart symbols
 
 - Lines represent the flow of the program.
 - Parallelograms show inputs and outputs.
-- A rectangle shows a process, for example `x = x + 10`
-- A diamond represents a decision, for example if `x > y`. Then there would be 2 lines coming from this, one for yes and one for no.
-- A rectangle with curved sides represents a terminal, like the start or end of the program.
+- A rectangle shows a process, for example, `x = x + 10`
+- A diamond represents a decision, for example, if `x > y`. Then there would be 2 lines coming from this, one for yes and one for no.
+- A rectangle with curved sides represents a terminal, such as the start or end of the program.
 
 ![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/flowchart1.png)
 *Make sure you know this. Credit BBC*
@@ -74,23 +73,23 @@ Algorithms are made in three different ways: pseudocode, flowcharts and in Pytho
 
 ### Creating programs
 
-Advantages of using flowcharts include the fact that it shows a step-by-step method of how to solve a program, which can be easily written. Disadvantages of flowcharts include that they may be time consuming to make and not easily drawn.
+Advantages of using flowcharts include the fact that they show a step-by-step method of how to solve a program, which can be easily written. Disadvantages of flowcharts include that they may be time-consuming to make and not easily drawn.
 
-Advantages of using pseudocode (looks like real code but won't run) include it acts as the foundations for transcribing it into an actual programming language like Python, and is easy to understand with an English-like syntax, like Python, making it easy for non-programmers as well, like Python. Errors in the design will not affect the program as it is obvious what the intended result is, and if there is an obvious error this can be easily changed.
+The advantages of using pseudocode (looks like real code but won't execute) include it acts as the foundation for transcribing it into an actual programming language like Python, and is easy to understand with an English-like syntax, like Python, making it easy for non-programmers as well, like Python. Errors in the design will not affect the program as it is obvious what the intended result is, and if there is an obvious error this can be easily changed.
 
-Disadvantages include that it can be harder to see how a program flows with indentation, and is just more time consuming to make than a flowchart, so you might as well use Python for that.
+Disadvantages include that it can be harder to see how a program flows with indentation, and is just more time-consuming to make than a flowchart, so you might as well use Python for that.
 
 
 Pseudocode example:
 
 ```py
 while answer_inputted != 'valorant'
-	answer_inputted = input ("What is the worst game?")
+answer_inputted = input ("What is the worst game?")
 	if answer_inputted == "valorant" then
 		print("Correct! you got it right.")
 	else
 		print("Wrong")
-	endif
+    endif
 endwhile
 ```
 
@@ -107,18 +106,18 @@ It's relatively easy to tell what this 'code' does:
 
 ### Trace tables
 
-A table used to show how values in variables change throughout instructions occurring.
+A trace table is a table used to show how values in variables change throughout instructions occurring.
 
 In the columns goes the variable name. In the rows, the instruction number is written. Below the variable names, in the table, are the expected values of what each instruction does.
 
-A logic error has occurred if the expected value on paper does not equal the received value when executed by the programrs
+A logic error occurs if the expected value on paper does not equal the received value when executed by the program.
 
 > They enable a programmer to compare what the value of each variable should be against what a program actually produces. Where the two differ is the point in the program where a logic error has occurred.
 
 ![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/le_table.png)
-*from bitesize*
+*From [Bitesize](https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9).*
 
-https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9
+
 
 
 
@@ -128,7 +127,7 @@ https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9
 
 ### Linear search
 
-The simplest method of searching through a dataset. It gets the length of a dataset, sets it counter to 0. It looks at the position of its counter and sees if it matches the search. If not, the counter is incremented by 1 and the process is repeated
+The simplest method of searching through a dataset. It gets the length of a dataset and sets it counter to 0. It looks at the position of its counter and sees if it matches the search. If not, the counter is incremented by 1 and the process is repeated
 
 Linear searches work on unordered lists. On ordered lists, they will take a long time if the value to search for is a large number.
 
@@ -139,9 +138,9 @@ Linear searches work on unordered lists. On ordered lists, they will take a long
 **Binary search** is used on a dataset of pre-ordered numbers. It works by:
 1. getting the midpoint in the list, getting the value, and if it is the target value the search ends. 
 2. If not, it will compare the received value. If the value is less than the value to be found, it will disregard the lower half of the list, as it knows it cannot be lower than the midpoint value.
-3. The remaining part of the list is divided in half again, and the process repeated.
+3. The remaining part of the list is divided in half again, and the process is repeated.
 4. When the value is found, the search has succeeded.
-> Note: rounding applies. If there are 7 items in the list, the midpoint would be 3.5. In this case the search would start from 4.
+> Note: rounding applies. If there are 7 items in the list, the midpoint would be 3.5. In this case, the search would start from 4.
 
 
 Binary searches are much more efficient than linear searches, especially on large datasets. 
@@ -150,7 +149,7 @@ Binary searches are much more efficient than linear searches, especially on larg
 
 ### Bubble sort
 
-1. Starts at the beginning of the list, compare the value at position 1 to the next one up (at position 2). 
+1. Start at the beginning of the list, compare the value at position 1 to the next one up (at position 2). 
 2. Swap the positions of these if the second is bigger than the first. 
 3. Then, move both positions up one, to position 2 and 3.
 4. Swap if they are in the wrong order. 
@@ -205,39 +204,39 @@ https://www.bbc.co.uk/bitesize/guides/zjdkw6f/revision/6
 
 - Variables: A value stored in memory that can change.
 - Constants: A value stored in memory that cannot change once defined.
-- Operators: Logic applied to numbers, e.g equal, subtract, less than.
-- Inputs: data inputted to programs. In python, `x = input("enter string: ")`
+- Operators: Logic applied to numbers, e.g. equal, subtract, less than.
+- Inputs: data inputted to programs. In Python, `x = input("enter string: ")`
 - Outputs: data the program shows to users. `print("output")`
-- Assignment: giving a value data. e.g x = 2. you are assigning the value `x` the data, which is `2`, an integer.
+- Assignment: giving a value data. e.g. x = 2. You are assigning the value `x` to the data, which is `2`, an integer.
 
 
-Sequence is the way in which the code is executed.
+Sequence refers to the order in which the code is executed.
 
-Selection is a part of the code that is ran, or `if` statements. When these statements are encountered, it 'selects' which part to run!
+Selection is a part of the code that is run, or `if` statements. When these statements are encountered, it 'selects' which part to run!
 
-Iteration is a loop. There are count and condition controlled loops.
-- Count controlled loops are controlled by a number. For example, `if x > 10:` will run until the value of `x` is greater than `10`. 
-- Condition controlled loops are controlled by a specific value. This is most often `True` or `False`; these will run until this value is changed. For example, `if x == True:` will run the code until the value of`x` is no longer equal to `True`.
+Iteration is a loop. There are count and condition-controlled loops.
+- Count-controlled loops are controlled by a number. For example, `if x > 10:` will run until the value of `x` is greater than `10`. 
+- Condition-controlled loops are controlled by a specific value. This is most often `True` or `False`; these will run until this value is changed. For example, `if x == True:` will run the code until the value of`x` is no longer equal to `True`.
 
 
 ### Operators
 
-There are comparison and arithmetic operators. (They will give the boolean value of `True` if their criteria is met)
+There are comparison and arithmetic operators. (They will give the boolean value of `True` if their criteria are met)
 
 #### Comparison operators:
 
-- == 
+- `==` 
 	- Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify a value.
-- != 
+- `!= `
 	- Not equal to. Only `True` when the value it is comparing against is NOT the first value.
-- <
+- `<`
 	- Less than. Only `True` when the value in front of it is less than the value after it. `if x < 3` means if x is less than 3.
 - `<=`
-	- Less than or equal to. Only `True` when the value in front of it is less OR equal to than the value after it.
+	- Less than or equal to. Only `True` when the value in front of it is less OR equal to the value after it.
 - `>`
 	- Greater than. Only `True` when the value in front of it is more than the value after it. `if x > 3` means if x is greater than 3.
 - `>=`
-	- Greater than or equal to. Only `True` when the value in front of it is more OR equal to than the value after it.
+	- Greater than or equal to. Only `True` when the value in front of it is more OR equal to the value after it.
 
 ### Arithmetic operators:
 
@@ -246,9 +245,9 @@ There are comparison and arithmetic operators. (They will give the boolean value
 - `-`
 	- Subtraction.
 - `*`
-	- Multiplication
+	- Multiplication.
 - `/`
-	- Division
+	- Division.
 - `MOD`
 	- Modulus. Gives the **remainder**. 20 mod 8 = 4. (16 remainder 4)
 - `DIV`
@@ -278,22 +277,26 @@ There are comparison and arithmetic operators. (They will give the boolean value
 
 Casting is a method used to convert between these data types. For example, if you want to compare a user's input to a value, you must change it to an integer first. The way to do this is by using:
 
-`x = input("how much cake do you want from to 10? >>")`
-`if int(x) > 5:`
-`	print("you really want cake lol")`
+```py
+x = input("how much cake do you want from to 10? >>")
+if int(x) > 5:
+	print("you really want cake lol")
+```
 
 You use **int(x)** to change x to an integer.
 Or, **str()** for strings, or **float()** for floating point data.
 
 
 You can turn the above into two lines by using this:
-`if int(input("how much cake do you want from to 10? >>")) > `5:
-`	print("you really want cake lol")`
+```py
+if int(input("how much cake do you want from to 10? >>")) > 5:
+	print("you really want cake lol")
+```
 
 ## 2.2.3 Additional programming techniques
 
 ![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.2.3_Additional_programming_stuff.png)
-*THERE IS A LOT HERE, I WILL BE QUICK!*
+*There's a lot of content here, so make sure you are comfortable with it.*
 
 ### String manipulation
 
@@ -316,13 +319,13 @@ Finally, concatenation is joining two strings together.
 
 Arrays (interchangeable with lists honestly) store lots of stuff and are denoted by their square brackets, like `[4, 5, 3, 6, 9]` or with strings as `["Yes", "No", "Baguettes", "Beans", "Haram"]`.  They can be accessed by the sting name and location in the list. If the above list with strings is called `random_words`, then to print the word 'Baguettes' I would call `print(random_words[2])`. 
 
-2D arrays take this principal and make it more complicated. Basically this means there is an array inside an array.
+2D arrays take this principle and make it more complicated. Basically, this means there is an array inside an array.
 
 `list_of_cars_and_prices = [["beans car", "bozo car", "fresh car"], [20, 30, 55]]`
 
 Notice how inside one list, there are actually 2 smaller lists? This is a 2D array. To get the value of '55' from the second array, we do `print(list_of_cars_and_prices[1][2]`. This gets the **third value** from the **second array**, inside the list called 'list_of_cars_and_prices'. This can be used to store values next to each other.
 
-> To change a value of an item in an array/list, do:
+> To change the value of an item in an array/list, do:
 > `list_name[index] = "thing_to_change_it_to"`
 
 ### Functions and procedures
@@ -331,7 +334,7 @@ A procedure performs a task, whereas a function produces information.
 
 Parameters can be invoked into both functions and procedures. For example, `beans(number_of_beans)` will result in the function or procedure using the invoked value of `number_of_beans` to perform a calculation.
 
-Functions return a value. You can assign a value to a variable, and set this value to the result of a function, like `x = beans()`, where `beans` is a defined function. It could return a number or string or any data type.
+Functions return a value. You can assign a value to a variable and set this value to the result of a function, like `x = beans()`, where `beans` is a defined function. It could return a number or string or any data type.
 
 > Programming languages have their own built-in functions and procedures. When you type `print("text")`,  you are actually passing in your `text` as a parameter used to display something on your screen! User-defined functions and procedures are the ones that the user creates.
 
@@ -341,7 +344,7 @@ Functions return a value. You can assign a value to a variable, and set this val
 writing:
 ```py
 file1 = open("file.txt")
-x = file1.write("AMONG US FRENCH SUSSY BAGUETTES")
+x = file1.write("Hello! This is a file!")
 file1.close()
 ```
 
@@ -353,20 +356,20 @@ file1.close()
 
 print(x)
 
->>> AMONG US FRENCH SUSSY BAGUETTES
+>>> Hello! This is a file!
 ```
 
 It's best practice to always do `file.close()` to avoid file corruption.
 
 ### Locals and globals
 
-Global variables are accessed by every subroutine at all times. Present in memory during execution. Bad because if it gets maliciously changed than it could affect the entire code and every subroutine. Also memory hog if loads of variables are used at once - normal in big programs and games. Scope of these are the entire program.
+Global variables can be accessed by every subroutine at all times. Present in memory during execution. They aren't good because if it gets maliciously changed, or changes unintentionally, then it will affect the entire code and every subroutine. Also, it can use a lot of memory if many variables are used at once - normal in big programs and games. The scope of these is the entire program.
 
-Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that part of the code is being executed. Therefore it's more efficient. Scope of these are the sub-program of declaration.
+Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it's more efficient. The scope of these is the sub-program of declaration.
 
 Parameter passing - allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.
 
-[credit](https://www.bbc.co.uk/bitesize/guides/z2q6hyc/revision/3#:~:text=The%20scope%20of%20a%20global,where%20it%20has%20been%20declared.&text=Local%20variables%20-%20only%20accessed%20within,program%20where%20they%20are%20located.) 
+> You can read more about the scope, lifespan and implications of memory scopes on the [A Level Cheat Sheet](https://ibaguette.com/cheatsheets/alevel/computerscience) !
 
 ### SQL
 
@@ -386,11 +389,10 @@ would retrieve:
 | 6  | Admin    | Beans   | admin@ibaguette.com   |
 | 7  | Draggie1 | 306     | admin@ibaguette.com   |
 
-[i'm tired please just click this until it might get updated.](https://www.bbc.co.uk/bitesize/guides/zb3yb82/revision/7)
 
 ### Randoms
 
-You must `import random`at the start of the program for this to work.
+You must `import random` at the start of the program for this to work (it is a **module**).
 
 `random.randint(lower_bound, upper_bound)` is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number.
 
@@ -404,16 +406,16 @@ You must `import random`at the start of the program for this to work.
 A program must be able to handle all likely input values, not just the intended one. If valid data is inputted which might affect functionality, for example entering -10 to an age question, then this will produce logic errors. To accommodate this, there can be a range of things added to a program to ensure these do not occur.
 
 - Anticipating misuse
-	- A way of making sure age is not negative could be by making the part of the code that verifies age a function, which will return the age once verified to be valid. For example, a while statement could be added with a condition controlled loop, which will only change conditions `if age > 10 AND age < 100`. This is an example of input validation
+	- A way of making sure age is not negative could be by making the part of the code that verifies age a function, which will return the age once verified to be valid. For example, a while statement could be added with a condition-controlled loop, which will only change conditions `if age > 10 AND age < 100`. This is an example of input validation
 - Authentication
 	- Usernames and passwords. This can be easily implemented by adding `password = input("enter password")` and using double equals to check if it matches a previously defined variable, or even decrypted from an external file.
 
 Code written must also be maintainable in the future. There are several ways of ensuring this.
 
-- Subroutines. These are parts of the main program. If one part of the program needs to be changed, it can be in the subroutine which is called, so other parts of the code are not affected by changes. Also, it can reduce the amount of clutter in code as if something needs to happen multiple times, code can just link back to a pre-existing subroutine.
-> In BaguetteBot, whenever someone generates coins in the server, one subroutine takes care of this, instead of it being defined how to exactly add a coin whenever someone asks for their balance, joins voice chat, sends a message, etc. Type .coins to use it in Baguette Brigaders!
-- Naming conventions. There is a set of rules you should follow when naming variables and subroutines. For example naming something `x` doesn't really tell you what it does, whereas `value_inputted` will. (I'm very guilty of this!)
-- Indentation. Essential for legibility, indentation also defines if statements and more. It also makes it easier to read what parts of the program does, as indented levels show that everything on that indent is as a result of something previously.
+- Subroutines. These are parts of the main program. If one part of the program needs to be changed, it can be in the subroutine which is called, so other parts of the code are not affected by changes. Also, it can reduce the amount of clutter in code: if something needs to happen multiple times, code can just link back to a pre-existing subroutine.
+> In BaguetteBot, whenever someone generates coins in a [Discord server](https://discord.gg/GfetCXH), one subroutine takes care of this, instead of being defined how to exactly add a coin whenever someone asks for their balance, joins voice chat, sends a message, etc.
+- Naming conventions. There is a set of rules you should follow when naming variables and subroutines. For example, naming something `x` doesn't really tell you what it does, whereas `value_inputted` will. (I'm very guilty of this!)
+- Indentation. Essential for legibility, indentation also defines if statements and more. It also makes it easier to read what parts of the program do, as indented levels show that everything on that indent is a result of something previously.
 - Commenting. Helps people read your code and helps you come back to work on it later. Denoted by either `#`, `"""` or `//`, depending on the language. The first two are for Pythion.
 
 
@@ -423,7 +425,7 @@ Code written must also be maintainable in the future. There are several ways of 
 
 ![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.2_testing.png)
 
-Testing is used to make sure there is no bugs or unexpected events when the code is run. You don't want to send your code to a client if it doesn't work! 
+Testing is used to make sure there are no bugs or unexpected events when the code is run. You don't want to send your code to a client if it doesn't work! 
 
 Logic errors result in the program still executing, but producing unexpected results. 
 
@@ -432,15 +434,15 @@ Syntax errors are errors which break the grammatical rules of the programming la
 Il existe deux exemples de tests :
 
 - Iterative testing. This is testing the code, or parts of it, during development to ensure there are no seriously buggy things happening as a result of a typo. It may be easier to identify the mistake if the code is run every few minutes, as the programmer will remember what they've changed.
-- Final/terminal testing. This is testing which occurs at the end of production of some code, before sent to clients. 
+- Final/terminal testing. This is testing which occurs at the end of production of some code, before being sent to clients. 
 
 Normal test data is data which should be accepted by a program, without causing errors
 
-Boundary test data as data of the correct type which is on the very edge of being valid. For example, in the statement `if x > 10`, the boundary would be 10.
+Boundary test data is data of the correct type which is on the very edge of being valid. For example, in the statement `if x > 10`, the boundary would be 10.
 
 Invalid test data is data of the correct data type which should be rejected by a computer system. This could be like if an age is -100 years old.
 
-Erroneous test data as data of the incorrect data type which should be rejected by a computer system. This could be entering a name instead of an age.
+Erroneous test data is data of the incorrect data type which should be rejected by a computer system. This could be entering a name instead of an age.
 
 > You need to know how to identify suitable test data for a scenario, and how to create and complete a test plan. By putting in 'erroneous', 'boundary' and 'valid' during iterative testing and final testing, this will get you full marks.
 
@@ -454,7 +456,7 @@ Erroneous test data as data of the incorrect data type which should be rejected 
 
 
 ![AND, OR and NOT gates](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andornot.png)
-*Your and or and not gates*
+*Your AND, OR and NOT gates.*
 
 You must be able to follow the lines in a truth table, and the interactions these have at these gates.
 
@@ -479,25 +481,25 @@ You must be able to follow the lines in a truth table, and the interactions thes
 
 ## 2.5.1 Languages
 
-![](https://media.discordapp.net/attachments/972581792576053298/979060118387839047/2.5.1_languages.png)
+![](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.1_languages.png)
 
-There are two categories of programming language: high and low level languages.
+There are two categories of programming language: high and low-level languages.
 
-- High level languages are those which sensible people code in, like Python, JavaScript, HTML. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
+- High-level languages are those which sensible people code in, like Python, JavaScript, and HTML. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
 - Low-level languages like assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run 'closer' to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary. 
 
-> Assembly code, although is a low level language, is not quite machine code. Machine code is what everything must be translated into in order to be executed.
+> Assembly code, although is a low-level language, is not quite machine code. Machine code is what everything must be translated into to be executed.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/compsci/translators.png)
-*Stolen from [here](https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5)*
+*Taken from [here](https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5)*
 
-A compiler parses the source code once, saving the results as a binary file, translating it. An interpreter reads the source code line by line and converts it to executable binary while executing.
+A compiler parses the source code once, saving the results as a binary file, and translating it. An interpreter reads the source code line by line and converts it to executable binary while executing.
 
-Compiled code runs faster, as they have already been translated. If the code has no logic or syntax errors, and does not need to be debugged, compiled code is always better. It optimises code as well, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code may also only on the hardware and OS it is targeted to. You can't run an EXE file on your phone without an IDE.
+Compiled code runs faster, as they have already been translated. If the code has no logic or syntax errors and does not need to be debugged, compiled code is always better. It optimises code as well, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code may also only be on the hardware and OS it is targeted to. You can't run an EXE file on your phone without an IDE.
 
 Interpreted code is slower, as the CPU must wait for every line to be translated, but has the potential to run on multiple kinds of hardware, running different operating systems. It simply executes code, without saving a machine code version. They require less memory also as they do not translate the entire file.
 
-> Interpreters can be built with a REPL, or a Read Execute Print Loop. Hence the name repl.it.
+> Interpreters can be built with a REPL, or a Read Execute Print Loop. Hence the name of the coding platform, Replit.
 
 
 ## 2.5.2 The IDE
@@ -509,22 +511,21 @@ The IDE (integrated development environment) has a wide range of tools to help p
 - Editors. Code can be edited.
 - Error diagnostics. Tracebacks can show what caused exactly what to fail at the exact line.
 - Run-time environment. This allows a program to run on a computer even if it was not designed to. This allows the programmer to just use their known high-level language, and the RTE will do the rest. 
-- Translators. They translate code to be executed hehehehaw.
+- Translators. They translate code to be executed.
 
 You can also write about:
 
 - Breakpoints - code can be stopped at a specific line and variables can be checked for logic errors
-- Auto correct and indent
-- Auto suggestion - can sometimes fix a problem automatically
+- Auto-correct and indent
+- Autosuggestion - can sometimes fix a problem automatically
 - Syntax highlighting - similar declarations can be coloured to see them better. For example, all variables could be yellow while classes are blue.
 - Linting - the IDE can analyse the code you're writing as you're writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable.
 
-#
+---
 
-That's it! Go get a grade 9! Of course you need to do some of your own programming, so a few examples are below for you to have a go at.
+That's it! Go get a grade 9! Of course, you need to do some of your own programming, so a few examples are below for you to have a go at.
 
-##
-
+---
 
 
 # Programming examples.
@@ -630,11 +631,11 @@ while coins > 10:
 	    print(f"You cannot afford any more cars! You have: {cars_data[2]}")
 ```
 
-### Want more examples?
+### Want more coding examples?
 
 Come back to the [GCSE Computer Science Cheat Sheet](https://ibaguette.com/cheatsheets/gcse) page soon, and I'll have created 50+ free coding exercises to get you coding, just like the ones above, for a huge variety of different levels, complete with tutorials and exemplar responses.
 
-##
+---
 
 You've made it to the end! 
 Good luck with your exams!

@@ -1,24 +1,27 @@
-﻿# Welcome to Subject Specific Sites!
+﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
+
+
+# Welcome to Subject Specific Sites!
 
 > Written by **[Hizi](https://discord.com/channels/@me/1078707968700338227)**. Reviewed and audited by the iBaguette team.
 
-Hello Adventurer!  Welcome to the **subject specific sites**. This section will allow you to find resources you never thought you could never find, as well as the basics. You can't go wrong with the basics right? 
-Anyway, how about you get to reading below and see how this information can benefit you. The sites below vary from online revision sites to do e-work but some will need some work from you, such as taking notes on paper or online. 
+Hello Adventurer! Welcome to the **subject specific sites**. This section will allow you to find the resources that you'd never thought you could find, as well as the basics. You can't go wrong with the basics, right?
+Anyway, how about you get to reading below and see how this information can benefit you? The sites below vary from online revision sites to do e-work but some will need some work from you, such as taking notes on paper or online. 
 
 **Watching something without doing anything will never help. You need to write to take in the information given. Studies prove this and every exam survivor can confirm.** 
 
 ## General Advice 
 
 Usually, you'll have to find what works for you. This can be tedious and take some time, but it's always better to find something good than waste your time on something that isn't. Nowadays, we are so lucky to have a plethora of websites, teachers, and resources for free online. 
-This is going to bring me into a general point, which is that **GCSE resources shouldn't be paid**. If you're being asked to pay for a PDF or some sort of file, look around; it will most likely be free elsewhere. I've experienced this with a site called TES - resources will be posted claiming to be made by a teacher for a set amount, but after looking around online or doing a reverse image search on Google, I've found it for free.
+This is going to bring me to a general point, which is that **GCSE resources shouldn't be paid**. If you're being asked to pay for a PDF or some sort of file, look around; it will most likely be free elsewhere. I've experienced this with a site called TES - resources will be posted claiming to be made by a teacher for a set amount, but after looking around online or doing a reverse image search on Google, I've found it for free.
 
-If you're looking for a PowerPoint on a topic, search for `[topic + specification + exam board].pptx`: this will bring up sites with a that specific file for your topic. If you're really lucky, you might find the presentation that your teacher uses (this may also mean your teacher is lazy!).
+If you're looking for a PowerPoint on a topic, search for `[topic + specification + exam board].pptx`: this will bring up sites with that specific file for your topic. If you're really lucky, you might find the presentation that your teacher uses (this may also mean your teacher is lazy!).
 If you're looking for a worksheet for a subject, search `[topic + specification + exam board + worksheet].pdf`. If you're looking for a cheat sheet for a subject, search `[topic + specification + exam board + cheat sheet].pdf`. I think you get the drift of what I'm getting at there.
 
 Although this does contain online-only resources, please do look at normal books. Usually, if you buy from your school, you can receive books at a discounted rate and sometimes even for free.
 
 ## Universal
-I mean the title is pretty self explanatory but below you will find the universal sites to help you. They may be repeated below with specific sections of the site.
+I mean the title is pretty self-explanatory but below you will find the universal sites to help you. They may be repeated below with specific sections of the site.
 
 - [BBC Bitsize](https://www.bbc.co.uk/bitesize)
 - [Youtube](https://www.youtube.com/) (Don't get sidetracked)
@@ -27,7 +30,7 @@ I mean the title is pretty self explanatory but below you will find the universa
 - [Memrise](https://app.memrise.com/dashboard) (For MFL vocabulary)
 - [Wikipedia](https://www.wikipedia.org/) (Make sure to fact check) 
 - [Your teacher](https://www.ibaguette.com/)
-- [Seneca](https://senecalearning.com/en-GB/) (Patricularly for sciences, but good for others) 
+- [Seneca](https://senecalearning.com/en-GB/) (Particularly for sciences, but good for others) 
 - [Khan Academy](https://www.khanacademy.org/)
 - [Quizlet](https://quizlet.com/) (By good students)
 - [Revision World](https://revisionworld.com/)
@@ -46,7 +49,7 @@ This is your bread and butter of GCSE resources. You should know your exam tier 
 -   **Exam Board Websites**: Check the websites of the exam boards that conduct GCSE English Language exams. They often provide official specifications, past papers, and other helpful resources. Common exam boards are AQA, OCR, Edexcel, and WJEC. 
 They all have their specifications, which are literally a book with all the questions you can be asked, worded differently. It covers everything you're expected to know. The same applies to grade boundaries. I must express, *please use the pre-pandemic levels* to get the most accurate results.
     
--   **Revision Guides and Books**: There are various revision guides and textbooks available that specifically cater to GCSE English Language. Popular publishers include CGP, Collins, and Oxford. These are usually inexpensive, and sometimes, they could be found as a PDF for free online. It is advised to be careful when searching for books as PDFs, as you may get a virus. My top tip: Check the URL and site name before pressing anything.
+-   **Revision Guides and Books**: There are various revision guides and textbooks available that specifically cater to GCSE English Language. Popular publishers include CGP, Collins, and Oxford. These are usually inexpensive, and sometimes, they can be found as a PDF for free online. It is advised to be careful when searching for books as PDFs, as you may get a virus. My top tip: Check the URL and site name before pressing anything.
     
 -   **YouTube Channels**: Some educational YouTube channels offer video lessons and explanations on GCSE English Language topics. Examples include Mr Everything English, Mr Salles, Mr Bruff, and First Rate Tutors. These are the ones I used the most, and they truly helped me understand what the exam, also referred to as an assessment, requests students to know. 
 Personally, I used Mr Bruff to get a concept of the exam questions, Mr Everything English to develop my knowledge on that and what to write, Mr Salles to get a more developed response to achieve a higher grade, and finally, I would use First Rate Tutors to top it all off as they consolidate everything you need to know. This is a clear representation of how you cannot only have one source to learn and that usually it takes multiple sources coming together to learn something.

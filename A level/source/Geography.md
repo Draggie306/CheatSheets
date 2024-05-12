@@ -8,15 +8,21 @@
 **⚠ This is a work-in-progress, unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-[Latest update: 12/05/2024 21:24
-Last content addition: 12/05/2024 21:24](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Latest update: 12/05/2024 21:43
+Last content addition: 12/05/2024 21:43](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+
+--- 
+### Notice 12/05/2024
+Please note that if you have used this document before the most recent change, a variety of changes have been made to almost all the information for a more complete and thorough scientific explanation. Some sections such as pingos and periglacial environments have or are going to be rewritten because of this.
+
+---
 
 
 You can use a PC/device with a wide screen to see the Table of Contents and quickly navigate through this document.
 
 > Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! You can also **receive a notification** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
 
-> NEW! You can also follow [iBaguette on Instagram](https://instagram.com/ibaguettecom) for updates and new Cheat Sheets, study memes and clips, revision tips, and more!
+> NEW! You can also **follow [iBaguette on Instagram](https://instagram.com/ibaguettecom)** for updates and new Cheat Sheets, study memes and clips, revision tips, and more!
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/OCR-Geo-ALevel-CheatSheet.png =500x300)
 *Top-notch graphic design by me*
@@ -275,7 +281,7 @@ After deglaciation, isostatic readjustment may occur, and these compressed, lowe
 Lodgement till is material deposited by advancing ice, due to pressure being exerted into existing valley material, and left behind as ice advances, such as the theory of depositional drumlins.
 Ablation till is material deposited at the terminus by melting ice from stagnant, or retreating glaciers during a warm period or end of glaciation event. Most depositional landforms are this type.
 
-It can be known whether sediment was deposited by water or ice. Ice-transported sediment is angular, not curved, as it has not been subject to erosional forces by the meltwater. The order of size of sediments can indicate this too, as water deposits sediment progressively due to reducing energy levels, while glaciers deposit material unsorted and 'en masse'. Glaciers deposit till in mounds and ridges too, as, during ablation, this englacial and supraglacial material gets dropped on the bedrock below. This is distinct from the layered deposition (or strata) typically characterised by fluvioglacial processes.
+It can be known whether sediment was deposited by water or ice. Ice-transported sediment is **angular**, not curved, as it has not been subject to more abrasive, erosional forces by the meltwater. The **order of size of sediments** can indicate this too, as water deposits sediment **progressively** due to reducing energy levels, while glaciers deposit material **unsorted**; 'en masse'. Glaciers also deposit till in **mounds and ridges**, as, during ablation, this englacial and supraglacial material gets dropped on the bedrock below. This is distinct from the layered deposition (or strata) typically characterised by fluvial processes. Glaciofluvial processes involve an amount of stratification but not complete sorting.
 
 ![A photo of a valley glacier, with an erratic, eskers and more landforms](https://cheatsheet-assets.ibaguette.com/alevel/geography/ValleyGlacierLandscapeFormations.png =700x500)
 *There are a range of depositional landforms visible in this photograph. Can you identify them all?*

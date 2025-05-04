@@ -1,20 +1,20 @@
 ﻿
 
-[< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
+[< Back to A Level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 # A Level PHYSICAL Geography (Paper 1)
 **⚠ This is a work in progress, unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-[Latest update: 15/07/2023 11:06. 
+[Latest update: 04/05/2025 19:19. 
 Last content addition: 07/06/2023 23:16.](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). This is the latest version.
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
-> Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH)! You can also **receive a notification** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
+> Discuss with other students, developers, educators and professionals in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH)! You can also **receive a notification** when there are new Cheat Sheets, Summary Sheets *(new!)* or other revision material is made public there!
 
-For the entire specification, you can go [here](https://ibaguette.com/cheatsheets/alevel/geography/all).
+For the Cheat Sheet matched to the entire specification, you can go [here](https://ibaguette.com/cheatsheets/alevel/geography/all).
 For only the **human geography (paper 2)**, you can go [here](https://ibaguette.com/cheatsheets/alevel/geography/human).
 
 
@@ -106,7 +106,7 @@ Valley glaciers usually occur in high altitude locations, with high relief, and 
 Ice sheets however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of a high/low latitude and have slow rates of movement and only around 5m/year. The base of the glacier is frozen to the bedrock and have a little precipitation but also lower temperatures so ablation levels are lower too.
 
 
-Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under pressure, ice will deform and behave like plastic (**zone of Plastic Flow** on the lower half of the glacier) making it move faster .  Conversely, he **rigid zone** is on the top half of the glacier.
+Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers. Thickness of the ice, and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under pressure, ice will deform and behave like plastic (**zone of Plastic Flow** on the lower half of the glacier) making it move faster .  Conversely, the **rigid zone** is on the top half of the glacier.
 
 Cold-based glaciers:
 - have a slow rate of movement (<5m/year);
@@ -179,7 +179,7 @@ When this ice melts, a *tarn* (or corrie lake) is created, with potentially a ro
 After the ice has melted and deglaciation has occurred, this material may then fall down from the back wall due to its aspect and steep relief, which is known as scree.
 
 ![A corrie.](https://cheatsheet-assets.ibaguette.com/alevel/geography/Corrie.png)
-*The processes occuring in a Corrie.*
+*The processes occurring in a Corrie.*
 
 ### Arêtes
 
@@ -221,7 +221,7 @@ After deglaciation, there may be some (iconic) water features in these glacial t
 
 #### Ribbon lake
 
-Vertical erosion typically leaves the floor of a valley glacier system relatively flat, and deeper than in preglaciation periods. This depression (or **rock basin**) is then refillid with water after a glacier retreats. 
+Vertical erosion typically leaves the floor of a valley glacier system relatively flat, and deeper than in preglaciation periods. This depression (or **rock basin**) is then refilled with water after a glacier retreats. 
 
 These lakes show the path of a glacier, typically during times of compressing flow (more detail in the case study below). 
 
@@ -255,12 +255,12 @@ These are no ordinary valley or alpine glacier erosional landform. These are hug
 
 These huge ice sheets (more than 50,000km^2^) exert large amounts of pressure on the landscape as well as great erosional quarrying by subglacial material. Examples of this feature include Hudson Bay, and smaller ellipsoidal basins created the Great Lakes in North America. 
 
-On top of the subglacial erosion which may have occurred, the majority of the landscape's (*yes, I'd say the're larger than just landforms*) formation is due to isostatic lowering. This involves the sheer mass of the ice sheet, potentially several kilometres thick, exerting pressure on the lithosphere and effectively compressing it into being smaller.
+On top of the subglacial erosion which may have occurred, the majority of the landscape's (*yes, I'd say they're larger than just landforms*) formation is due to isostatic lowering. This involves the sheer mass of the ice sheet, potentially several kilometres thick, exerting pressure on the lithosphere and effectively compressing it into being smaller.
 
 After deglaciation, isostatic readjustment may occur, and these compressed, lowered areas may readjust, now being under no additional pressure.
 
-> [REVIEW] Admin note: this must be fact checked and reviewed to ensure clarity and precision!
-
+<!-- [REVIEW] Admin note: this must be fact checked and reviewed to ensure clarity and precision!
+-->
 
 ## Glacial depositional landforms
 
@@ -679,9 +679,7 @@ The dam was built as Alcoa produces 2% of the world’s aluminium supply, and gl
 
 Glacial meltwater, or milk, is released by the Vatnajökull glacier and flows into the lake blocked by the dam. This glacial meltwater is known to have high concentration of sediment within it, and as such reduces the capacity of the dam over time. This is because the suspended sediment at the base of the water solidifies when deposited, as there is little kinetic energy at the bottom to keep suspended sediment floating. Over time, the base level of the lake increases, reducing overall water capacity, until this excess sediment is ‘purged’ by the dam management system, which may happen annually. 
 
-[Here's a video of sediment getting purged](https://www.youtube.com/watch?v=BudgYjuVkYk)
-
-[Another one](https://www.youtube.com/watch?v=VUoHhyvY4_w)
+[Here's a video of sediment getting purged](https://www.youtube.com/watch?v=BudgYjuVkYk), and [here's another one](https://www.youtube.com/watch?v=VUoHhyvY4_w)!
 
 
 --- 
@@ -690,31 +688,6 @@ That's the end for glaciation! I hope you found it useful.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/Periglacial-and-Paraglacial-Processes-and-Environments.png)
 *What if I told you about Paraglaciation and Paraperiglaciation as well?*
-
-
-# [TBD] Disease Dilemmas 
-
-This will take a while to write up...
-
-
-
-
-
----
-# NEA stuff
-
-## Spearman's Rank 
-
-In the first sheet, in cell E5, you write:
-`=RANK.AVG(C5,$C$5:$C$24,0)`
-This compares the value of the cell in C5 to those in cells 5 to 24.
-You then go to the bottom right of the cell and drag the dot to cell E24
-This will copy that earlier formula to give the results for each row. This is because we need the results in an ordered format.
-Repeat this for the Cancer rate column (so `=RANK.AVG(D5,$D$5:$D$24,0)`) in column F
-
-Finally, in any other cell, we can use the cool excel CORREL function to just work it out
-`=CORREL(E5:E24,F5:F24)`
-This gets the spearman's correlation for the two sets of data
 
 
 

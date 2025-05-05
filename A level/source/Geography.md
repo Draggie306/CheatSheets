@@ -10,7 +10,7 @@
 **⚠ This is a work-in-progress, unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-[Latest update: 05/05/2025 11:59
+[Latest update: 05/05/2025 13:53
 Last content addition: 15/05/2024 18:43](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) - *you may use this in your own work, but give credit!*
@@ -401,7 +401,7 @@ Inside modern-day Ullswater is a series of **roche moutonnées** such as Norfolk
 
 To the west of Helvellyn is the Thilmere ribbon lake. A series of truncated spurs and hanging valleys are located along this U-shaped valley, moulded by a glacier.
 
-Drumlins made of boudler clay have been deposited south of Kendal. They are oriented to the south-west [visible here](https://www.google.com/maps/@54.2840549,-2.7003992,13.74z/data=!5m1!1e4?hl=en&entry=ttu), supporting the idea that the ice was moving outwards from the area of higher topography to lower areas.
+Drumlins made of boulder clay have been deposited south of Kendal. They are oriented to the south-west [visible here](https://www.google.com/maps/@54.2840549,-2.7003992,13.74z/data=!5m1!1e4?hl=en&entry=ttu), supporting the idea that the ice was moving outwards from the area of higher topography to lower areas.
 **Langstrath Valley** has an example of lateral moraine on the north side of it.
 
 The Glenridding village has [visible depositional till](https://cheatsheet-assets.ibaguette.com/alevel/geography/Glenridding%20Deposition.png) extending into Ullswater, visible from satellite imagery, proving that there was once glacial activity in the area.
@@ -525,7 +525,7 @@ A kame is an irregularly shaped hill, hummock or mound made of stratified glacia
 
 There are two types of kame:
 #### Delta kames
-Delta kames can form in two main ways. Firstly, they can form due to he build-up of debris in **englacial tunnels** (and crevasses) that emerge at the glacial terminus as a result of retreat. As a result, they lose their energy, and are forced to deposit their contained load.
+Delta kames can form in two main ways. Firstly, they can form due to the build-up of debris in **englacial tunnels** (and crevasses) that emerge at the glacial terminus as a result of retreat. As a result, they lose their energy, and are forced to deposit their contained load.
 
 Another way that they can be formed is when supraglacial streams meet ice-marginal lakes. These ice margin water bodies are largely static (just sit there tbh) so the sediment they carry loses energy and gets deposited in the lake, from where this supraglacial stream enters it, often leading to a tall accumulation.
 
@@ -657,7 +657,7 @@ Resistant rock, or **tor**, may be more prominent in these blockfields as they a
 
 ### Types of mass movement
 #### Solifluction lobes
-Solifluction refers the movement and "flowing" of soil and sediments.
+Solifluction refers to the movement and "flowing" of soil and sediments.
 
 When the ground and soil on slopes is frozen during the winter, the soil particles are separated slightly and loosened by the ice which forms and expands by around 9% between these particles (frost heaving).
 
@@ -769,10 +769,6 @@ That's the end for glaciation! I hope you found it useful.
 ---
 
 # 1.2 Physical - Earth's Life Support Systems
-Wordcount: 8799
-Last modification: 04/05/2025 22:45
-Written by: [Oliver (100%)](https://github.com/Draggie306/CheatSheets)
-License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) - *you may use this in your own work, but a link to this resource and author acknowledgement must be given. please click the link for the full legal deed.*
 
 ---
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/elss-dalle3-A%20creative%20representation%20of%20Earth%27s%20life%20support%20systems,%20depicting%20Earth%20as%20a%20humanoid%20figure%20lying%20on%20a%20hospital%20bed,%20looking%20sickly.%20On%20either%20sid.png)
@@ -1089,10 +1085,7 @@ Rocks remain largely impermeable, due to both the permafrost and solid water and
 Permafrost is estimated to contain 1,600 GtC in the tundra. The main store of carbon is in the soil and permafrost: low temperatures mean little decompositional activity, and it may take thousands of years for plants to decompose. The biomass store is very little  due to the extreme temperatures.
 
 
-
-
-
-In the long-term, the degradation of permafrost and 
+> [tbd] In the long-term, the degradation of permafrost and ...
 
 
 ### Oil Extraction
@@ -1385,9 +1378,9 @@ Prior to Brexit, there was a large bilateral corridor between the UK and Poland;
 
 The accession of Poland, and other A8 eastern European countries in 2004 allowed significant amounts of migration due to the freedom of Schengen movement. Many moved westwards, attracted by both higher wages and higher demand for low-skilled labour.
 
-There is some evidence that the bottom 10% of the pay scale in the UK has had wage growth suppressed by EU immigration. However, the overall relative wage growth is 49% since 1992 and the top 50% of employees have seen the opposite effect: that EU immigation has increased natives' wage growth, and for the top 10% it has grown by 35%.
+There is some evidence that the bottom 10% of the pay scale in the UK has had wage growth suppressed by EU immigration. However, the overall relative wage growth is 49% since 1992 and the top 50% of employees have seen the opposite effect: that EU immigration has increased natives' wage growth, and for the top 10% it has grown by 35%.
 
-Migrants fom the new EU joiners are more likely to be in employment. As of 2019 over 83% of these new immigrants had almost a 10% lead compared to natives and other pre-2004 EU members. Conformatively to global migratory trends, this is because it is the youthful population who migrate, incentivised and able to work in more conditions, without an economically "burdensome" family or dependents. 
+Migrants from the new EU joiner countries are more likely to be in employment. As of 2019 over 83% of these new immigrants had almost a 10% lead compared to natives and other pre-2004 EU members. Conforming to global migratory trends, this is because it is the youthful population who migrate, incentivised and able to work in more conditions, without an economically "burdensome" family or dependents. 
 
 According to the Financial Times, there is no evidence that European migrants come to live a life on benefits or take jobs from Britons. The average European migrant who arrived in 2016 will make a total lifetime contribution to the UK public finances of £78,000 - more so than any UK native, or non-EEA migrant.
 
@@ -1402,22 +1395,7 @@ A range of reasons are contributing to this growth.
 
 Compared to the 83% employment rates of intra-regional migration, those coming into the UK from outside the EEA only have employment rates of 68% - the lowest of all groups, natives included.
 
-##
-A migrant, according to the UN definition, is someone living outside their country of origin for a period of at least a year.
-
-**Interdependence** is the interrelationships between ACs, EDCs and LIDCs through trade, foreign aid and migration
-
-**Globalisation** is the growing integration and interdependence between peoples' lives economically, politically and environmentally.
-
-**Economic migrants** are those who migrate just for monetary gain, and no other reasons.
-
-Monetary remittances include money sent from economic migrants back to their home country and their family. This is significant for a variety of reasons; firstly, the stability of incomes in LIDCs, which are typically where large numbers of economic migrants emigrate from are improved. In addition, money increasingly is worth more for LIDCs - seen in Haiti where 37% of its GDP is from migrants sending home money.
-
-Migration on a global scale is significant. In 2020, there were 291 million people living outside their country of origin. Furthermore, of these, 73% were **economic migrants**, showing just how key money is to fuelling global flows of people and ideas.
-
-> Global migration involves dynamic flows of people between countries, regions and continents
-
-## [tbd] Consequences of migration
+## Consequences of migration
 When I say "consequences", this includes both positive and negative factors. For example, migration creates both stability whilst also may increase inequalities.
 
 Flows of people through migration is intrinsically linked to flows of money, culture, knowledge and ideas. 
@@ -1434,7 +1412,7 @@ In the short-term, migration allows countries of destination to receive greater 
 
 Whilst not a problem currently, ageing populations will be supported by migratory flows. Ageing Western populations with low domestic birth rates - such as the UK's 1.6 - will require migrants to support the 2 working to 1 pensioner general requirement to ensure that countries do not run into significant debt and the collapse of the state. Migrants who decide to stay are very likely to build - or already have - families, thus contributing to population and tax-base growth.   
 
-Social stability, though **social remittances** and the diffusion of ideas inheritly promotes ideas between source and origin. For South-North migration, this is especially true for democratic, equalitarian ideas (Politics students - please correct my terminology here) whilst globally flows of people can encourage politicians to engage with peacebuilding and the resolution of conflicts.
+Social stability, though **social remittances** and the diffusion of ideas inherently promotes ideas between source and origin. For South-North migration, this is especially true for democratic, equalitarian ideas (Politics students - please correct my terminology here) whilst globally flows of people can encourage politicians to engage with peacebuilding and the resolution of conflicts.
 
 
 
@@ -1445,11 +1423,12 @@ Economic growth is largely an... economic factor.
 - Migrants open up new demands for goods and products in a destination area. Tesco in the UK has launched over 100 lines of Polish food, and "oriental shops on every corner" is commonly quoted in inner UK cities due to the amount of immigrants and those of immigrant heritage. 
 - Multiplier effects as a result of supplementary remittance income in areas of origin is common.
 
-> NEPAL has had a multipler effect in rural infrastructure, small businesses and education. 25% of its GDP in 2014 vs 42% in 1995 was from remittances - reduction largely a result of domestic increasses
-
+<!-- TBD
+> Nepal has had a multiplier effect in rural infrastructure, small businesses and education. 25% of its GDP in 2014 vs 42% in 1995 was from remittances - reduction largely a result of domestic increases
+-->
 
 #### Development
-- Sociopolitial development as a result of returning flows of people, skills and capital is of great benefit to countries of origin.
+- Socio-political development as a result of returning flows of people, skills and capital is of great benefit to countries of origin.
 - Long-term development of an origin country can be facilitated by strong diaspora links that help to transfer skills, capital, knowledge and ideas through professional, social and religious networks. This has been furthered by the communications revolution.
 - NGO and supranational organisations such as the UN "Migration and Development" scheme allows collaboration between countries, families, private and public organisations for a bottom-up but also large scale approach to development in a source region.
 
@@ -1499,7 +1478,7 @@ The USA has high numbers of political, socioeconomic and environmental links wit
 Environmentally, USAID has a great interest in the Amazon Rainforest, and collaborates with Brazil's FUNAI to coordinate and plan environmental projects, preserve indiginous peoples and contribute to the gathering of scientific information - important on the global scale with the increasing importance of climate change on the world agenda.
 
 **Haiti**
-Although the poorest country in the Western hemisphere, Brazi significantly supports peace and social integration of Haitians through the provisionment of humanitarian visas, with 54,000 after Haiti's political instability and natural disasters. The National Immigration Council for Brazil reduces Haitians' vulnerability to human rights abuses and have physcial presence in the country to allow visas to be given easily. Many Haitians occupy roles in the primary and secondary sectors in the large cities, filling skills shortages.
+Although the poorest country in the Western hemisphere, Brazil significantly supports peace and social integration of Haitians through the provisioning of humanitarian visas, with 54,000 after Haiti's political instability and natural disasters. The National Immigration Council for Brazil reduces Haitians' vulnerability to human rights abuses and have physical presence in the country to allow visas to be given easily. Many Haitians occupy roles in the primary and secondary sectors in the large cities, filling skills shortages.
 
 **Portugal**
 Portugal is well-known in Brazil for being the "gateway to the EU" for economic migrants. Sharing the same language, having colonial links and a political "special status" given to Brazillians has resulted in the Portuguese being the largest diaspora community in Brazil, and on the other side the second largest diaspora community (behind the US). The social benefits of this link are great between the two countries, with flows of ideas and people aided by the communications revolution.
@@ -1515,9 +1494,9 @@ Brazil has a stable democracy, good education system and strong civil rights. Fl
 
 
 **Social Inequality**
-Despite being a "country of immigrans" it is unfortunately those who are disciminated against in society, with African immigrants consistently the lowest in terms of educational attainment and exam scores. Many migrants - and those internally moving - also end up in cities' infamous "favelas" due to the cheap costs of living but that exacerbate social enequalities. 
+Despite being a "country of immigrants" it is unfortunately those who are discriminated against in society, with African immigrants consistently the lowest in terms of educational attainment and exam scores. Many migrants - and those internally moving - also end up in cities' infamous "favelas" due to the cheap costs of living but that exacerbate social inequalities. 
 
-### Case study: AC USA
+### Case study: an AC, the USA
 The USA is an AC that influences and drives the global migration system through **economic, social and political factors**. It is the #1 biggest economy of $25tn with some of its companies valued greater than other entire countries.
 
 #### Patterns and policies
@@ -1532,7 +1511,7 @@ Today, there are several key policies. However the **Immigation and Nationality 
 - Green Card: open-door policy that allocates 50,000 visas anually at random to anyone that applies. It is a lottery system that promotes diversity. This gives a permanent residency card
 - Skills-based visas such as the H-1B, H-1A and O-1 allow 140,000 migants with skills deemed "valuable" and who are sponsored by a company every year to arrive. These are "aliens of extraordinary ability" and are highly educated, skillful, graduates and entrepreneurs who fuel innovation.  
 - Family reunification: 226,000 people can be sponsored annually by lawful citizens to become permanent citizens. This is at risk with Trump-era policies and is viewed as the major source of challenges, so has a significant backlog.
-	- Histroically amnesty has been given especially by Obama to allow illegal immigrant "dreamers" through policies such as DACA that protects children brought to the USA. This allows over a million people to have an education, work and live without fear of deportation
+	- Histroically, amnesty has been given especially by Obama to allow illegal immigrant "dreamers" through policies such as DACA that protects children brought to the USA. This allows over a million people to have an education, work and live without fear of deportation
 - Refugees and humanitarian visas: the USA has historically taken in more refugees than the entire world, combined. This number changes annually but stays at around 45,000 per annum
 
 **Key Policies**
@@ -1562,21 +1541,21 @@ U.S. Companies are expected to invst 40bn in Mexico throughout 2024. This create
 There is increasing environmental political cooperation and interdependence with Mexico through the joint management of the Colorado river basin (that supports 40m people) and increasing collaboration regarding the fighting of illegal crossings, and drug and people trafficking at the border. USAID also invest in governmental projects to reduce deforestation by 2030 and promote natural climate solutions and energy efficiency.
 
 #### Opportunities
-- 3/4 of Indians and over half of the Chinese immgrants are "persons of extraordinary ablity", able to fuel innovation especially in regions such as Silicon Valley (both Microsoft and Google CEOs, Satya Nadella and Sudnar Pichai are Indian). USA benefits from cultural and social enrichment in businesses, education, arts and the sciences.
+- 3/4 of Indians and over half of the Chinese immigrants are "persons of extraordinary ability", able to fuel innovation especially in regions such as Silicon Valley (both Microsoft and Google CEOs, Satya Nadella and Sundar Pichai are Indian). USA benefits from cultural and social enrichment in businesses, education, arts and the sciences. 
 - Most immigrants are young and of working age. The largest age bracket of Indians is 30-34 and for Mexicans this is 40-44, boosting the tax base, allowing for gaps in the labour market to be filled and sustains natives' demand to be in higher paying, tertiary sector jobs. Over 45% of Mexicans were in primary or secondary-sector jobs (just think about how many people that is!!)
 - Immigrants are themselves consumers, creating businesses. There is evidence of greater diversity and the occupation of old, industrial inner cities now occupied by migrants who redevelop the area.
 
 #### Challenges
 - Conflict. Trump and the Republican/Democratic divide has created ideas about the negatives of the Mexcian "epidemic" and various language has been used, but not all words become actions. According to the BBC only 80 new walls have been built... out of 1,951 miles.
 - There are still, despite amnesties, high amounts of unauthorised, illegal immigrants, an estimated 10.9 million, as a result of the "American dream" ideology throughout central and southern American countries using Mexico as a way in.
-- The tightening of border laws, deployment of border control agents and ever increasing "bureaucracy" to process migrants has beome a deterrent - and a burden for the taxpayer.
-- The size of the illegal population who do not wish to declare themselves out of fear is a barrier to social, economic and political integration. It may be burdeensome on the demand of resources in scarce regions with high migrant stock - such as southern California (a desert).
+- The tightening of border laws, deployment of border control agents and ever increasing "bureaucracy" to process migrants has become a deterrent - and a burden for the taxpayer.
+- The size of the illegal population who do not wish to declare themselves out of fear is a barrier to social, economic and political integration. It may be burdensome on the demand of resources in scarce regions with high migrant stock - such as southern California (a desert).
 
 #### Profound Statement
 > **Politics play on the fears of people in the west who want to protect their own culture, wealth and lifestyle without consideration for the cultural, social and economic benefits that migration has on countries and regions within.** 
 
 
-### Case study: LIDC Lao PDR
+### Case study: an LIDC, Lao PDR
 Laos is an LIDC with very limited influence over the global migratory system.
 
 Laos has a population of 6.8 million and is a landlocked, south-east Asian country. As an LIDC it has a HDI of just 0.576 and GDP per capita of around $2,050.
@@ -1605,18 +1584,7 @@ Laos and Thailand also jointly manage the Mekong river, inheritly improving poli
 - Lao's garment industry companies may fail to keep up with demand due to being outpriced by competition
 - People with high-skill labour including carpenters are - for the moment - are simply more likely to migrate out and seldom return, suppressing wages and creating relative inequalities.
 
-# 2.1 – Human - Changing Spaces; Making Places
-
-## What’s in a place?
-> 1.a. Places are multi-faceted, shaped by shifting flows and connections which change over time.
-
-A **place** can be described as a location created by human experiences. 
-A **space****Stability**
-
-
-### Intra-regional migration
-Intraregional migration is migration that occurs within a region, for example, the European Union. Prior to Brexit, there was a large bilateral corridor between the UK and Poland; this is categorised as being intra-regional. 
-
+---
 
 # 2.1 Human – Changing Spaces; Making Places
 
@@ -1631,8 +1599,8 @@ Case studies of two contrasting place profiles at a local scale, including:
 - how shifting flows of people (such as commuter, migration), resources (such as natural, technology), money and investment (such as EU funding, TNCs) and ideas (such as knowledge economy) have helped shape the demographic, socio-economic and cultural profile of these places over time.
 ---
 
-A place can be described as a location created by human experiences. 
-A space, on the other hand, has no added social connections or added perceived values. 
+A **place** can be described as a location created by human experiences. 
+A **space**, on the other hand, has no added social connections or added perceived values. 
 
 For example, a car parking space at a shopping market has no value to you. It's just a one time location which you leave your car at. However, a parking place at your work may have your name on it, it may be valued by yourself and there may be some memories associated with it, such as tripping over or talking to someone there.
 
@@ -1677,7 +1645,7 @@ May 2022 Council Election Results. Turnout **35.3%**
 
 
 #### Built Environment
-Mancroft is home to a variety of architectural styles and ages, ranging from the 15th century to the modern day. Examples of 15th century buildings include the Guildhall, whilst 19th century developments include the Royal Arcade. The skyline is generally low-rise. The 
+Mancroft is home to a variety of architectural styles and ages, ranging from the 15th century to the modern day. Examples of 15th century buildings include the Guildhall, whilst 19th century developments include the Royal Arcade. The skyline is generally low-rise.
 
 The ward also contains two modern, innovative shopping centre developments, Chantry Place and Castle Quarter. Furthermore, The Forum is a modern development in amongst the 499 listed buildings. Very diverse, e.g. Norwich Market with various stalls from tearooms, army equipment, Italian street food to Indian scents and spices - reflecting the diversity of the ward (and city as a whole!) and demands for these foods. The ward's population density at is also 10 times the UK average, having approximately 5,000 homes. 
 
@@ -1725,7 +1693,7 @@ Sheringham is part of North Norfolk in general elections. In the 2019 general el
 The Labour Party made up just 7.7% (compared to 32.1% in the UK) and the Lib Dems made up the second largest party at 30.3%, with a respective decline of 2.2% and 18.1%. 58.9% of North Norfolk, which included Sheringham, voted to leave the European Union in 2016. The MP, Duncan Baker, was a member of the UKIP party before the Brexit campaign.
 
 #### Built Environment
-Flint is the most common and naturally abundant material in Norfolk, particularly for the building of cottages. This is especially pronounced in coastal areas such as in Sheringham North Ward. Flint is also an iconic material for attracting tourism, in addition to typically costing more to use than bricks. The built environment ressembles more of a postcard town.It is also an iconic material for tourism, in addition to typically costing more to use than bricks. Plus, it also looks good on postcards - reinforcing its status as a tourist hotspot.
+Flint is the most common and naturally abundant material in Norfolk, particularly for the building of cottages. This is especially pronounced in coastal areas such as in Sheringham North Ward. Flint is also an iconic material for attracting tourism, in addition to typically costing more to use than bricks. The built environment resembles more of a postcard town. It is also an iconic material for tourism, in addition to typically costing more to use than bricks. Plus, it also looks good on postcards - reinforcing its status as a tourist hotspot.
 
 
 #### History
@@ -1776,27 +1744,9 @@ There has been a constant flow of students and academics in the area, fuelled by
 Norwich is a commuter town too, with people coming into work from surrounding villages, and good transport links with goods moved into Norfolk via the M11 and A14. This has continued to attract investment by transnational corporations. 
 
 ### Shifting flows of people
-At the heart of it, people are what turn a space into a multifaceted place. The exact stage in people's lives determines and influence where people live. For example, the location and housing tenureand house type, and by extent, the place profile.
+At the heart of it, people are what turn a space into a multifaceted place. The exact stage in people's lives determines and influence where people live. For example, the location and housing tenure and house type, and by extent, the place profile.
 
 The local availability of a resource or natural advantage can encourage the growth of a settlement and mould its identity by fuelling industry. If these resources run out or global shift occurs for a particular product, technology typically takes over the natural advantage and the place profile can and often change. In Norwich, this **global shift** means that it has become cheaper and easier to manufacture goods like shoes and chocolate overseas and import it, leading to the replacement of local resources. Ocean-going ships have grown significantly in size and can no longer fit up the River Yare, so the riverside docklands fell into decline, much like the London Docklands. However, with shifting flows of people, opportunities have arisen in these areas, which are now shopping hubs and entrepreneurial centres of investment. 
-
-
-### Globalisation and our sense of place
-Globalisation and time-space compression contribute to the feelings of a "shrinking world". There is increasing interconnectedness due to massevely increased trade and cultural links; containerisation popularised in 1956 by McLean has resulted in goods being traded faster, cheaper and in greater quantity. The communications revolution has promoted the sharing and flows of ideas, knowledge and technology, now measured in milliseconds with the internet.
-
-Exotic and far-away nations that were once perceived to be luxurious and out-of-reach can be reached in hours, not weeks. 
-The "global village" means that there are now global communties where people can meet, share ideas and have common interests; our sense of "place" now may be not just in the real world but also in platforms online and "places" to hang out in messaging boards and group chats. 
-
-Places in ACs may be characterised by less pollution, fewer unskilled labour with the decline of industry. However, large factories may remain, increasing crime and leaching from contaminated factories may give places a unique identity. Theses previously exotic countries - most likely LIDCs - may receive the other end, with increased contamination, rapid rural-urban migration fuelling slum settlements, and exploitative employers leaving a negative perception of the place amongst its own residents.
-
-Cultures and religions may increasingly be less and less influential in how we feel about places. Increased homogenisation of cultures, transnational corporations (Nike, McDonald's)wanting to make their presence known on every high street and the disappearance of old traditions as young people become enveloped by social media are contributing to a feel of uniformity within towns and cities worldwide. The "clone town" index was made to study this phenomenon.
-
-### Shifting flows of people
-At the heart of it, people are what turn a space into a multifaceted place. The exact stage in people's lives determines and influence where people live. For example, the location and housing tenureand house type, and by extent, the place profile.
-
-The local availability of a resource or natural advantage can encourage the growth of a settlement and mould its identity by fuelling industry. If these resources run out or global shift occurs for a particular product, technology typically takes over the natural advantage and the place profile can and often change. In Norwich for example it has become cheaper and easier to manufacture goods like shoes and chocolate overseas and import it thanks to globalisation leading to the replacement of local resources. Ocean going ships have grown significantly in size and can no longer fit up the River Yare so the riverside docklands fell into decline, much like the London Docklands.
-
-
 
 ## How do we understand place?
 
@@ -1824,6 +1774,17 @@ b) Places are represented through a variety of contrasting formal and informal a
 
 > Content to be added soon!
 
+### Globalisation and our sense of place
+Globalisation and time-space compression contribute to the feelings of a "shrinking world". There is increasing interconnectedness due to massively increased trade and cultural links; containerisation popularised in 1956 by McLean has resulted in goods being traded faster, cheaper and in greater quantity. The communications revolution has promoted the sharing and flows of ideas, knowledge and technology, now measured in milliseconds with the internet.
+
+Exotic and far-away nations that were once perceived to be luxurious and out-of-reach can be reached in hours, not weeks. 
+The "global village" means that there are now global communities where people can meet, share ideas and have common interests; our sense of "place" now may be not just in the real world but also in platforms online and "places" to hang out in messaging boards and group chats. 
+
+Places in ACs may be characterised by less pollution, fewer unskilled labour with the decline of industry. However, large factories may remain, increasing crime and leaching from contaminated factories may give places a unique identity. Theses previously exotic countries - most likely LIDCs - may receive the other end, with increased contamination, rapid rural-urban migration fuelling slum settlements, and exploitative employers leaving a negative perception of the place amongst its own residents.
+
+Cultures and religions may increasingly be less and less influential in how we feel about places. Increased homogenisation of cultures, transnational corporations (Nike, McDonald's)wanting to make their presence known on every high street and the disappearance of old traditions as young people become enveloped by social media are contributing to a feel of uniformity within towns and cities worldwide. The "clone town" index was made to study this phenomenon.
+
+
 ## Economic change and patterns of social inequality
 
 > 3.a. The distribution of resources, wealth and opportunities are not evenly spread within and between places.
@@ -1842,16 +1803,15 @@ The Gini coefficient is used to measure the inequality of income and thereby dep
 ### Case study: MIDDLESBROUGH
 Middlesborough is a region in north-east England. 
 
-A harsh cycle of deprivation has occured after global shift and deindustrialisation away from coal, steel and the chemical industry. 38% of children are in poverty - which has grown since 2014 in a time when the UK child poverty rates have decreased by 2%. More than half of the LSOAs in Middlesbrough are in the 10% most deprived. It ranks 16th of the UK's 317 LAs. 
+A harsh "cycle of deprivation" has occurred after global shift and deindustrialisation away from coal, steel and the chemical industry - **structural economic changes**. 38% of children are in poverty - which has grown since 2014 in a time when the UK child poverty rates have decreased by 2%. More than half of the LSOAs in Middlesbrough are in the 10% most deprived. It ranks 16th of the UK's 317 LAs. 
 North Ormesby Ward was the 3rd most deprived out of the 7,180 in the UK. 
 
 - Middlesbrough's average household income is £24,900
 - Life expectancies up to 11 years lower than the national average,
-
-https://www.gazettelive.co.uk/news/teesside-news/teesside-town-residents-13200-poorer-28502866
+- It has been disproportionally affected by [austerity policy](https://www.gazettelive.co.uk/news/teesside-news/teesside-town-residents-13200-poorer-28502866) and a lack of growth, creating the cyclical effect of deprivation.
 
 ### Case study: HART, HAMPSHIRE
-Hart and the town of Fleet within are the least deprived LA and LSOA in England, ranking in 317 of the 317 least deprived LAs. The positioning - 45km SW of London and 50km N of ports like Portsmouth give it a commuter settlement status, allowing for the benefits of high salaries without burden of higher living costs. These high salaries allow for greater disposable income - avg house is worth over £462,000, and over 80% being detached and either owned outright or on a mortgage. This may be facilitated by the 37.5% of adults with a degree (10% higher than the national average) 
+Hart and the town of Fleet within are the least deprived LA and LSOA in England, ranking in 317 of the 317 least deprived LAs. The positioning - 45km SW of London and 50km N of ports like Portsmouth give it a commuter settlement status, allowing for the benefits of high salaries without burden of higher living costs. These high salaries allow for greater disposable income - the average house is worth over £462,000, and over 80% being detached and either owned outright or on a mortgage. This may be facilitated by the 37.5% of adults with a degree (10% higher than the national average) 
 
  - Average life expectancies are 2-4 years higher than the national avg.  
 - Fleet's average household income is £52,000 - over double that of Middlesbrough.
@@ -1879,7 +1839,7 @@ The development of a bypass, such as the Norwich NDR, has so many players. Local
 ### Case study: Structural economic change, Birmingham
 > This case study can also be used in Placemaking (5.c) 
 
-The first sign of economic change in Birmingham, now England's second city with a population of over 1.1 million in the metropolitan area, took place in 1166, when the de Bermingham family purchased a royal charter, permitting the holding of a market in the area. As such, it became recognised as a hub for trading, as opposed to agriculture, and has continued to grow to the present day.
+The first sign of economic change in Birmingham, now England's second city with a population of over 1.1 million in the metropolitan area, took place in 1166, when the *de Bermingham* family purchased a royal charter, permitting the holding of a market in the area. As such, it became recognised as a hub for trading, as opposed to agriculture, and has continued to grow to the present day.
 
 
 #### The rise of Birmingham
@@ -1921,13 +1881,6 @@ Over 50,000 students are present in the 5 city universities. They work, and spen
 Finally, the Birmingham Development Plan at the LA level is ensuring that a combination of these goals continues.
 
 
-#### Overall roles of players
-
-- de Bermingham family: 1166, royal charter. Immediately changed the industry from 
-
-
-
-
 ## Placemaking processes
 > 5.a. Place is produced in a variety of ways at different scales.
 5.b. The placemaking process of rebranding constructs a different place meaning through reimaging and regeneration.
@@ -1947,11 +1900,13 @@ Through the City Challenge redevelopment, they were replaced by more traditional
 
 From fishing village to diverse economic powerhouse, Dubai is an excellent example of placemaking.
 
-After realising that oil would not be an unlimited resource, the Sheikh diversfied from 1970.
+After realising that oil would not be an unlimited resource, the Sheikh diversified from 1970.
 
 The Jebel Ali Free Zone was established, today allowing 200,000 companies to operate in Dubai, using its excellent positioning. Along with flagship developments such as the Burj Khalifa (828m in 2008) the real estate sector has grown to US$25bn.  
 
-## [tbd] Rebranding
+## Rebranding
+> [tbd] This is incomplete - new information will be added soon.
+
 There are 5 main ways to rebrand an area:
 - Top-down investment
 - Market-let strategies
@@ -2016,13 +1971,13 @@ In Rwanda, the genocide in 1994 resulted in over 1 million men being killed, and
 
 
 ### Case study: INDIA
-India, aside from having th largest population with some amazing people, is a rapidly developing EDC with a GDP per capita of US $2410, almost double its 2012 value, and significantly higher than its 2002 value of US $468.8. However, India was positioned at 127 out of 146 countries in terms of its GGGI and, although increasing it score (and equality) since 2012, is slowing down the rate at which it is closing the gap.   
+India, aside from having the largest population in the world, is a rapidly developing EDC with a GDP per capita of US $2410, almost double its 2012 value, and significantly higher than its 2002 value of US $468.8. However, India was positioned at 127 out of 146 countries in terms of its GGGI and, although increasing it score (and equality) since 2012, is slowing down the rate at which it is closing the gap.   
 
 The government has recently introduced various means of combatting the arguably entrenched social norms. In 1961 the Prohibition of Dowry Act was introduced, and has been amended several times since. The Prohibition of Child Marriage Act was enacted in 2006 - aiming to reduce the 36 million children married as children in regions such as Uttar Pradesh. 
 
-India has ratified CEDAW - that aims for the "full advancement of women as equals" - something that the USA has not done yet. Forward-thinking policies - such as a 2023 bill to require at least 30% of the parliamentary seats to be held by women - exemplify how the legislature is attempting to reduce womens' inequalities and make society more equal. Moreover, grassroots, local "on the ground approaches" including the "Safe Cities" network by the International Centre for Research on Women (ICRW) and the "Safe Delhi Campaign" are attempting to give women more confidence and provide a means for women to be able to report crimes without fear of persecution - including the over 140,000 cases of domestic abuse by the husband or relatives. The "Beti Bachao, Beti Padhao" campaign has also been successful in changing attitudes towards saving and educating girls in northern districts of India.
+India has ratified CEDAW - that aims for the "full advancement of women as equals" - something that the USA has not done yet. Forward-thinking policies - such as a 2023 bill to require at least 30% of the parliamentary seats to be held by women - exemplify how the legislature is attempting to reduce womens' inequalities and make society more equal. Moreover, grassroots, local "on the ground approaches" including the "Safe Cities" network by the International Centre for Research on Women (ICRW) and the "Safe Delhi Campaign" are attempting to give women more confidence and provide a means for women to be able to report crimes without fear of persecution - including the over 140,000 cases of domestic abuse by the husband or relatives. The "*Beti Bachao, Beti Padhao*" campaign has also been successful in changing attitudes towards saving and educating girls in northern districts of India.
 
-However, despite this, social norms undoubtedly play a great role in the halting of gender equality progression. With the majority of India's 1.4bn residents in rural communities, the sheer size of the country and policing of issues not being a priority, it's not surprising that there is a lack of GGGI improvement. These rural communities require large-scale but local approaches to tackle inequalities - simply unrealistic on this scale - thus the subservient ideas surrounding women is reinforced. However, over time, the forward-thinking legislation should enforce educational mandates with the ability and equality of women and men shoud be realised. 
+However, despite this, social norms undoubtedly play a great role in the halting of gender equality progression. With the majority of India's 1.4bn residents in rural communities, the sheer size of the country and policing of issues not being a priority, it's not surprising that there is a lack of GGGI improvement. These rural communities require large-scale but local approaches to tackle inequalities - simply unrealistic on this scale - thus the subservient ideas surrounding women is reinforced. However, over time, the forward-thinking legislation should enforce educational mandates with the ability and equality of women and men should be realised. 
 
 Due to legislation changes, there is some societal change being made in the country. Companies which arguably have great influence on societal changes are forced to abide by the laws, and through corporate responsibility, these ideas may trickle down over time from the legislature to civilians. 
 
@@ -2030,7 +1985,7 @@ Due to legislation changes, there is some societal change being made in the coun
 - 63% of Delhi's women fear of going out at night
 - Only 1% of Delhi's residents say they never worry if a female member of the household at any time
 
-[Calling husbands by their name for the first time - BBC News](https://www.bbc.co.uk/news/magazine-40745343)
+To put into perspective how unequal the genders are in India, this BBC News article does a great job: [Calling husbands by their name for the first time - BBC News](https://www.bbc.co.uk/news/magazine-40745343)
 
 > "Dalits" - lowest form of caste
 
@@ -2039,13 +1994,13 @@ Human rights violations can be a cause and consequence of conflict. Conflict can
 - the denial of basic needs including food, water, housing, education and employment (over long time scales)
 - discrimination - within a society, through political exclusion and injustices
 - lack of free and fair democratic systems
-- oppressive or corrput governments that do not respect all groups
+- oppressive or corrupt governments that do not respect all groups
 - genocide, ethnic cleansing and torture
 
-Confict itself may cause futher human rights violations.
-- deaths and injuries in men, women and children both combattants and civilians in zones of conflict
+Confect itself may cause further human rights violations.
+- deaths and injuries in men, women and children both combatants and civilians in zones of conflict
 - lack of access to food, water and basic resources through damaged infrastructure
-- provocation of internal and intenational migration and conditions of refugees and asylum seekers
+- provocation of internal and international migration and conditions of refugees and asylum seekers
 - abuse of power by militants on women and children
 - more genocide, ethnic cleansing and torture 
 
@@ -2053,7 +2008,7 @@ Confict itself may cause futher human rights violations.
 ### Flows and geopolitical intervention
 People fundamentally drive effective intervention. Where there is seen to be human rights abuses, supranational organisations including the UNHCR and also NGOs such as Amnesty International and Human Rights Watch gather and publish information to increase awareness to the international scale, with pressure placed on governments globally to intervene. 
 
-Technology has a very important role today. Media can be uploaded instantly in areas with abuses as direct evidence of abuses, seen with the many social media videos in warzones. Trends become visible worldwide to anyone at the click of a button. During intervention, the internet allows people to communicate with charities for aid, and announcements can be made for humanitarian corridors and ceasefires - allowing vital movement and support for civilians. Remote sensing, drones, GPS and surveillance in areas with high tension and where it is risky to deploy troops to reduce the loss of life and futher abuses.
+Technology has a very important role today. Media can be uploaded instantly in areas with abuses as direct evidence of abuses, seen with the many social media videos in warzones. Trends become visible worldwide to anyone at the click of a button. During intervention, the internet allows people to communicate with charities for aid, and announcements can be made for humanitarian corridors and ceasefires - allowing vital movement and support for civilians. Remote sensing, drones, GPS and surveillance in areas with high tension and where it is risky to deploy troops to reduce the loss of life and further abuses.
 
 Aid workers and funding from supranational organisations also demonstrate this. It requires a huge amount of funding for UN peacekeeping missions and NATO "missions" - both in terms of people and the military equipment deployed to areas of conflict.
 
@@ -2082,23 +2037,20 @@ War and conflict is the most obvious direct result of intervention.
 However, there have been changes made in rural and urban neighbourhoods: 
 
 **Rural**
-- UNICEF have provided remote, community-first schoolsand "safe havens" for children at risk of domestic abuse, child marriage, labour and soldiers, and vaccinations.
-- UNDP: rural uphold of local demoracy and developments in regional councils to request funding
-- USAID and the UN World Food Programme: giving rural farmers (such as those in the Ghor province) nutrition, and teeaching about agriculture, increasing resilience, employment and incomes
+- UNICEF have provided remote, community-first schools and "safe havens" for children at risk of domestic abuse, child marriage, labour and soldiers, and vaccinations.
+- UNDP: rural uphold of local democracy and developments in regional councils to request funding
+- USAID and the UN World Food Programme: giving rural farmers (such as those in the Ghor province) nutrition, and teaching about agriculture, increasing resilience, employment and incomes
 
 **Urban**
 UN Habitat have worked with the Afghan government, NGOs on the ground, and taken in external investment from governments such as Japan's to build locally-elected Community Development Councils, and funding to "upgrade" neighbourhoods.
 - These CDCs are locally-elected in the regions, with 50% women (increasing visibility, reducing discrimination and allowing employment) that can vote and prioritise plans to improve housing, sanitation, electricity and infrastructure in urban regions. 
-- This has resulted in there being 1.1 million new grid connections during the intervention.
+- This has resulted in there being 1.1 million new electrical grid connections during the intervention.
 
 
-
-
- 
 
 #### Withdrawal?
 
-The withdrawal has had a dramatic negative effect on the ountry, however, proves the positive effect that intervention can have on a country. Since 2021 the Fall of Kabul has erased much of the progress, with women again no longer able to work and complete a secondary education or be unaccompanied in public spaces. This applies beyond citizens: as women are unable to work, many NGOs and supranational organisations including Save the Children, CARE International and Islamic Relief have been forced to suspend aid and development programs [^source^](https://www.theguardian.com/world/2022/dec/26/aid-groups-suspend-afghanistan-operations-after-ban-on-women-working-for-ngos).
+The withdrawal has had a dramatic negative effect on the country, however, proves the positive effect that intervention can have on a country. Since 2021 the Fall of Kabul has erased much of the progress, with women again no longer able to work and complete a secondary education or be unaccompanied in public spaces. This applies beyond citizens: as women are unable to work, many NGOs and supranational organisations including Save the Children, CARE International and Islamic Relief have been forced to suspend aid and development programs [^source^](https://www.theguardian.com/world/2022/dec/26/aid-groups-suspend-afghanistan-operations-after-ban-on-women-working-for-ngos).
 
 
 
@@ -2108,11 +2060,11 @@ The withdrawal has had a dramatic negative effect on the ountry, however, proves
 ### Case Study: the DEMOCRATIC REPUBLIC of the CONGO
 The DRC is a central African LIDC with an HDI of 0.459. Its capital is Kinshasa. The country has male life expectancies of 59 and female life expectancy of 63. The GDP per capita is just $785 across a country with 101m inhabitants.
 
-Conflict and human rights violations are widespread as a result of internal conflict, historic corruption and poverty. ~75% live in absolute poverty (< $2.15/day) and artisinal mining is widespread with children being exploited in dangerous gold and lithium mines, and as child soldiers.   
+Conflict and human rights violations are widespread as a result of internal conflict, historic corruption and poverty. ~75% live in absolute poverty (< $2.15/day) and artisanal mining is widespread with children being exploited in dangerous gold and lithium mines, and as child soldiers.   
 
-Currently MONUSCO - a UN peacekeeping and stabilisation force - are present and there are around 18,000 personnel on the eastern side of the country - the majority are troops, due to insurgence of violence known as the "Goma conflict". Internal conflict broke out after the Rwandan genocide and mass exodus of over a million Ugandans into the fagile DRC.
+Currently MONUSCO - a UN peacekeeping and stabilisation force - are present and there are around 18,000 personnel on the eastern side of the country - the majority are troops, due to insurgence of violence known as the "Goma conflict". Internal conflict broke out after the Rwandan genocide and mass exodus of over a million Ugandans into the fragile DRC.
 
-- Becoming more stable: first electons in 2019 were peaceful
+- Becoming more stable: first elections in 2019 were peaceful
 -  CARE International, Action Aid and the World Bank are working to improve access across the country to education and healthcare services (half of young women are illiterate). 
 
 
@@ -2121,6 +2073,12 @@ Currently MONUSCO - a UN peacekeeping and stabilisation force - are present and 
 Congolese
 
 > [tbd] Note: this section is currently being worked on!
+
+---
+
+end of paper 2!
+
+good luck in Paper 3! Hazards are my favourite &lt;3 (sorry drumlins)
 
 # 3.2 Debates - Disease Dilemmas
 <!-- Note that this is an incomplete cheat sheet. No ads will be shown. Eventually, the content here will be merged into the [main cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all). Happy revision!
@@ -2148,7 +2106,7 @@ For example:
 - Malaria is communicable (can spread), infectious (spread by a parasite) but non-contagious (cannot go directly from person to person)
 - Skin cancer is non-communicable (can't spread), non-infectious (not spread), and non-contagious (can't be caught from someone else)
 
-In addition, diseases can diffuse in different ways
+In addition, diseases can diffuse in different ways:
 
 - expansion diffusion: increasing in geographical area, typically decreasing in severity
 - relocation diffusion: move from one area to another
@@ -2171,7 +2129,7 @@ Different scales:
 
 #### Malaria
 
-Malaria is an infectious, non-contagious disease. It is concentrated around the tropics, mostly in Africa, Central America and South/Southeast Asia - in other words, it is endemic to specific countries and epidemics can occur, but not pandemics. The Anopheles mosquito, which is the fector which transports the *Plasmodium* parasite, is most abundant in warm and humid environments, but not large urban areas. 
+Malaria is an infectious, non-contagious disease. It is concentrated around the tropics, mostly in Africa, Central America and South/Southeast Asia - in other words, it is endemic to specific countries and epidemics can occur, but not pandemics. The Anopheles mosquito, which is the vector that transports the *Plasmodium* parasite, is most abundant in warm and humid environments, but not large urban areas. 
 
 Facts:
 - In 2018, 220 million people were infected with the disease.
@@ -2379,6 +2337,7 @@ Note: Although not a case study, grassroots strategies should also be recapped (
 
 
 
+
 # 3.5 Debates - Hazardous Earth
 
 ## 3-marker limitation questions
@@ -2411,7 +2370,7 @@ Mohorovicic discontinuity
 The theory of plate tectonics is closely linked with Alfred Wegener's theory of continental drift, a theory completed in 1912 but rejected by scientific communities.
 
 ---
-![enter link description here](https://cdn.discordapp.com/attachments/785620979300302869/1156308808608534648/wegener-haha-original.gif)
+![enter link description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/wegener-haha-original.gif)
 
 ---
 
@@ -2420,12 +2379,12 @@ The theory of plate tectonics is closely linked with Alfred Wegener's theory of 
 
 ### Paleomagnetism
 Paleo (fossilised) magnetism is the record of historic magnetic changes as the Earth's polarity changes (known as geomagnetic reversals), with recent polarity inverses occurring every 200 to 300 thousand years. 
-When oceanographers mapped seabeds for the first time during WW2, magnetic flips were observed on either side of oceanic divergent boundaries. 
+When oceanographers mapped seabeds for the first time during WW2, magnetic flips were observed on either side of oceanic divergent boundaries/seafloor spreading centres.
 
-This is because magma, with high iron content from the mantle, is erupted, and then these small iron particles within the erupted lava then cool quickly as a result of the water, solidifying the surrounding lava and preserving a record of the magnetic direction the iron was pointing in. There is a mirror image of the width of polarity inversals on either side of the plate boundary on the ocean floor (the variability of the polar inversals changing the widths) - thus proving that  
+This is because magma, with high iron content from the mantle, is erupted. Then, the small iron particles within the erupted material is then cooled quickly (because of the presence of water), solidifying the surrounding lava and materials within; thereby preserving a record of the magnetic direction the iron was pointing in. There is a mirror image of the width of polarity inversals on either side of the plate boundary on the ocean floor (the variability of geomagnetic inversals changing the widths), thus proving that new land is created over time *from* the divergent boundary.
 
 
-### Ancient glacial epochs
+### Ancient glacial deposits
 Evidence from previous glacial periods when the Pangea supercontinent existed reinforced the idea that at one point, land masses were connected. Striations, lines in rocks carved by glaciers moving other rocks over them (erosional features), have been found by glaciologists in central India, Africa and even in the Amazon Rainforest, implying that these places were once in polar regions.  
 It is unlikely that glaciers will form over oceans due to higher temperatures so land-based glaciers and therefore connected land masses existed.
 
@@ -2470,11 +2429,228 @@ The depth of the accumulated sediment on the sea floor was found to increase as 
 ## Plate Boundaries
 Now that we've determined Alfred Wegener was a brilliant man, let's dive into the mechanisms of the continents.
 
-A plate boundary is where there are two plates meeting. This is not the same as there being two plate boundaries! There is only one boundary, and two plates.
+A plate boundary is where two plates meet. This is not the same as there being two plate boundaries! There is only one boundary, but two plates.
 
 ## Divergent plate boundaries
 At a divergent plate boundary, two plates move apart from each other. Depending on the rate of movement and type of and density of the lithospheric crust, different landforms can be found
  
 ### Oceanic-oceanic boundary
 At a mid-oceanic ridge, molten magma rises towards the Earth's surface, thanks to hot magma plumes within the mantle, originating from the lower mantle. As magma rises - caused by the force of the mantle plume - and enters the asthenosphere, it loses pressure and cools down. The lithospheric rocks above are pushed upwards by force, fracturing the lithosphere and penetrating through the crust. Accompanied by **ridge push**, at these ridges, **thermal expansion** from the presence of magma causes the surrounding rocks to... expand. Over time, vast chains of underwater mountains up to 3km tall and 60,000km in total length have formed. 
-At these
+At these oceanic ridge crests, landforms which are likely to be visible include **black smokers** (hydrothermal vents) where seawater meets the hot magma, as well as **pillow lavas**, which are mainly basaltic. These rocks once cooled can be used to indicate the upwards orientation at the time of eruption.
+
+Variations in seafloor spreading velocity result in lateral **transform faults**, which appear as zig-zags on topographic ocean maps. Due to the accumulating pressure and tension as these masses move, small earthquakes will likely occur due to the releasing of kinetic energy. (There is little volcanic activity along transform faults.)
+
+
+Faster spreading (up to 170mm/yr) will result in broader and smoother mountain chains, with slow spreading (20mm/yr) having much steeper mountains.
+
+
+> A transform fault is **only the lateral** part of the zig-zag, between ocean ridge crests.
+
+### Continental-continental
+
+In locations where two continental plates meet (such as the East African Rift: Nubial <--> Somali), the mantle plume is not as strong, if any at all. As a result, rift valleys are created and are visible on land (such as in Iceland). These form as the plates, being pulled away from each other due to **convection currents** fuelling **slab pull**, resulting in the land "ridge" being "pushed" and the boundary sinking: there is nothing below supporting it. Volcanic fissures also may open up for a time if there is land movement and a magma chamber beneath, which look like lines of magma erupting over a landscape. Shield volcanoes erupt viscous lava and are less active compared to composite volcanoes and calderas.
+
+
+Rift valleys can also be found where spreading is occurring at a slower rate, such as the Mid-Atlantic Ridge (North American <--> Eurasian) on land such as Iceland.
+
+
+<!-- Faster-spreading -->
+
+## Convergent plate boundaries
+
+- upthrust of lithospheric rock creating high altitude fold mountains e.g. Himalayas on continental-continental. Big, shallow focus earthquakes
+- responsible for deep ocean trenches e.g. Mariana and Java Trench on continental-oceanic and oceanic-oceanic boundaries
+- oceanic plate subducts, melting in the asthenosphere. As a result there is explosive volcanic activity, and shallow focus earthquakes, tsunamis and most dangerous boundary
+- oceanic-oceanic also forms island arcs, such as the Antilles and Aleutian islands.
+
+<!-- (explain from memory) -->
+
+## Conservative plate boundaries
+
+Typically continental plates move past in a strike-slip shearing motion.
+
+No crust destroyed, no magma created, no volcanoes. However there is a very big potential for earthquakes from this, as the shearing motion builds up over time, and must eventually be released, typically in one go.
+
+<!-- (explain from memory) -->
+
+> Conservative boundaries are also referred to as transform plate boundaries (wording in the USA only)
+
+## Volcanoes
+
+### The chemistry of an eruption
+
+The nature of a volcanic eruption is shaped by a range of factors. For example, the viscosity, or the ‘stickiness’ of magma. The viscosity measures the resistance to flow an, in the case of volcanic activity, the more viscous it is, the more explosively the eruption may be.
+
+Additionally, the gas inside the magma chamber drives the flow of the magma through the mantle and crust. Gas can build up within the magma chamber, forcing the magma to be quickly discharged and causing a more explosive eruption. Other factors can include the pipe’s shape. The length and diameter of it can cause differing explosion types, with typically short, narrow pipes creating greater explosions.
+
+Magma is made of molten rock crystals which grow as the liquid inside cools down. Gas bubbles can make this more porous, viscosity and chemistry of the melt and temperature can change the characteristics of magma. The chemistry of magma refers to the polymerisation state of the liquid. Remember GCSE chemistry? Polymers are long chains of molecules; if these contain silica and oxygen inside, it become more viscous. Acidic, rhyolitic lava is characteristic of this chemistry, from typically converging boundaries.
+
+> Alkaline and H~2~O molecules break up these polymers into smaller, simple molecules which flow more easily and are typically basaltic.
+
+To simplify the remembrance of the formation and type of magma, have a look at this table and see if you notice a pattern.
+
+| Explosive eruptions | Effusive eruptions |
+|--|--|
+| Typically forms at converging boundaries | Typically forms at diverging boundaries or hotspots |
+| Formed as a result of subduction | Formed from a deep mantle plume, or from ridge push |
+| Temperatures cooler, at around 750 | Hot temperatures at 1000+ degrees |
+| Sticky, viscous magma | Runny, low viscosity magma |
+| Acidic | Less acidic |
+| Cannot travel far, builds up a distinctive cone around a volcano | Travels far and fairly flat, a ‘shield’ shape. You may not know it is a volcano at all. |
+| Rhyolitic magma | Basaltic magma |
+| Distinct central vent and perhaps several side vents | Fissure eruptions common |
+| Less unpredictable but infrequent | More unpredictable, but more frequent |
+| Recurrence intervals can range from several years to several thousand+ years | Recurrence intervals are very frequent, even once per day |
+| Examples include Mt Pinatubo, Mt. St. Helens, | Examples include Iceland, Hawaii |
+
+### Intrusive volcanicity
+
+### Hotspot volcanoes
+
+
+### Supervolcanoes
+
+Includes Yellowstone (USA) and the present-day Lake Toba (Sumatra, Indonesia) caldera, which erupted around 70,000 years ago. The caldera is up to 100km across!
+
+These are VEI 8 eruptions that erupt so much material that is injected high into the troposphere and may stay there for decades, with global effects. The Toba eruption theory may have caused a bottleneck in the human population and the global cooling and crop failures that occurred reduced humanity to just 10,000 humans.
+
+### Stratovolcanoes
+
+Cone-shaped formed by explosive extrusive volcanicity. Due to high viscosity, typically near a converging boundary, caused by long-length silica-rich acidic polymers due to the mixture of hot asthenospheric material and subducted plate debris which contains H~2~O, gases and other material from the ocean floor. This results in more gases developing, rising upwards and mixed in viscous, relatively cool (~600-800 degrees C) rhyolitic magma chambers. The explosive eruptions occur when the magma pushed by gases reaches the surface. The high viscosity causes the lava to not travel long distances. Over time, ash and lava will solidify in strata, building up around the central volcanic funnel causing the characteristic dome shape.
+
+### Shield Volcanoes
+
+Effusive, basaltic eruption causes these as low-length polymerisation of the lava allows for higher temperatures (>1000degrees) and less viscosity, enabling long-distance transport after the initial extrusion.
+
+### East African Rift Valley
+
+The African Plate is splitting in two! Land is dropping down due to ridge push and convection. There are also volcanic mountains
+
+### Cool stuff
+
+> Tiltmeters can be used to measure rates of ground deformation. They are visible being installed in this video: https://www.youtube.com/watch?v=_Te1TJrQwW8
+
+> Time-lapse video of the growth of a lava dome: https://www.youtube.com/watch?v=h6B1myUKAS4
+
+## Volcano Case Studies
+
+- Mitigating the event is a costly method of reducing the effects of an eruption as it is occurring - e.g. ash wall construction and lowering concrete barriers from helicopters in Etna, spraying water on lava to cool and slow it down in Iceland. It is only affordable and "worth it" in ACs with high risk/proximity to a large population or revenue generating area.
+- Mitigating against vulnerability is preparing the community and planning for hazards to occur. Indonesia's Centre for Volcanology and Geological Hazard Mitigation is... [tbd]
+- Managing losses is how the event is responded to. Well-trained search and rescue teams and temporary shelter provisioning are perhaps key to reducing the impact of an eruption. EDCs such as Indonesia may be the most adept to dealing with these.
+
+### Case study: Eyjafjallajökull, Iceland 2010
+
+Iceland, in 2010, had a HDI of 0.92 and a GNI per capita of US$36,270 PPP, with a life expectancy of 82.
+
+Eyjafjallajokull is a stratovolcano covered in glacial ice. Volcanic events starting in March 2010 began effusively, with characteristic basaltic andesitic lava. This attracted some tourists to the area, and ash reached no more than 4km in the atmosphere - a VEI 2 eruption.
+
+In April 2010, the second, most significant explosive eruption occurred, peaking at a VEI of 4. This was particularly damaging for many reasons. It was directly below the very stable jet stream, pushing wind towards the UK and Europe. The eruption took place under 200m of glacial ice, with much of the meltwater flowing back into the caldera increasing the explosivity with high gases and increased pressure. This also caused glass-rich ash to be formed quickly which was injected into the troposphere at above 10km in altitude, which moved its way along Western and Central Europe.
+
+![enter image description here](https://upload.wikimedia.org/wikipedia/commons/b/b1/Eyjafjallaj%C3%B6kull_volcanic_ash_composite.png)
+
+#### Impacts on people
+
+Many farm crops and roads were washed away from glacial *jökulhlaups*, and fish exports from the Icelandic offshore fishing industry were halted due to the ash. Around 800 nearby residents were evacuated from large trucks and members of the fire brigade. Because of good infrastructure, warning systems and education, there were no direct deaths from the eruption.
+
+On the continent, over 100,000 flights were cancelled, affecting 7 million passengers exacerbated by the Easter school holiday season. It is estimated that the GDP loss of the entire EU from this was $2.6bn with airlines losing $1.7bn. This had a knock-on effect for those reliant on the tourism industry, which is highly volatile and depends on revenue during these periods. London lost over £102mn and some companies were never able to recover from this. On top of 400,000 Britons stranded globally due to the three major London airports being closed - almost 1% of the population - this was particularly damaging.
+
+Just-in-time manufacturing and trade as a result of globalisation such as the transport of Kenyan flowers cost the horticultural industry around $3mn per day, with 5 thousand flower and vegetable farmers who rely on a source of stable income in LIDCs being temporarily laid off. (97% of flowers are delivered to Europe, which is difficult when the whole airspace is closed!)
+
+"Volcano tourism" has increased sharply since the eruption, with people going to visit the geological landforms and effusive activity like lava streams across the country. Tourist levels were 43% above forecast levels, with almost 80,000 additional visits. These people spend an average of ~$2000 each, generating significant revenue for the country.
+
+"**The increase in Icelandic tourism was far greater than the previous decline caused by the natural disaster and greatly exceeded forecasts.**" [[1](https://hospitalityinsights.ehl.edu/iceland-tourism-boom)]. This clearly shows how it can be a benefit to countries which can successfully mitigate against vulnerability, losses and the event itself.
+
+> How to [pronounce](https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Is-Eyjafjallaj%C3%B6kull_%283%29.oga/Is-Eyjafjallaj%C3%B6kull_%283%29.oga.mp3)
+
+### Case study: Volcan del Fuego, Guatemala 2018
+
+Guatemala is an LIDC in Central America with an HDI of 0.627 and GNI/capital of $8,500 PPP.
+
+The eruption in 2018 was Guatemala’s deadliest event since 1902. It **killed over 200 people** with a VEI 3-4 plume reaching 15.2km. There was **no hazard plan**, and despite being one of the most active volcanoes along the Pacific Ring of Fire, it seems that people did not fully understand the risks. Bodies in 6 destroyed villages were found not far from homes, corroborating with video footage of people simply staring at the ash cloud and oncoming pyroclastic flows. Coupled with the fact that there was no evacuation alert issued, this shows that the infrastructure and investment were simply inadequate in the region.
+
+Efforts to evacuate the area were rendered difficult due to inaccurate data involving road access, population size and population locations in proximity to the volcano's flanks prone to pyroclastic flows. **The Guatemalan Mountain Rescue Brigade** were already searching for a missing person when explosive activity increased, and were able to help a significant but unknown number of people in surrounding villages to evacuate (local scale), emphasising the **need for well-trained and experienced individuals** for mitigation of vulnerability. Mitigation of losses could have been better but was not totally inadequate: firefighters were immediately deployed to the area with the aim of recovering trapped people and bodies, however, the heat and nature of the pyroclastics simply incinerated many buildings. **6,000 people were eventually evacuated** as lava flows continued into the night and temporary shelters were provisioned with priority given to women and children, showing that there was at least some emergency provisioning.
+
+### Case study: Mount Nyiragongo, DRC, May 2021
+
+Mountain Nyiragongo is situated on a continental divergent plate boundary, resulting in effusive eruptions. The world's largest lava lake is situated in the volcano, which is a **cinter cone**, and it began to grow and show increased activity. However, the Goma Volcano Observatory was unable to successfully pay for Internet connections to remotely monitor the volcanic activity on instruments, or staff fuel to take measurements due to a withdrawal of World Bank funding due to allegations of government corruption one year prior. Goma is the provincial capital city of ~2,000,000 inhabitants around 15 kilometres to the south of the volcano.
+
+As a result, only one warning was issued for an imminent eruption a fortnight preceding the May eruption. Three vents opened on the cinder cone's flanks, which flowed towards Goma at a rate of around 1 kilometre per hour, allowing around 20 hours for people to escape. Around 32 people died, mostly used to asphyxiation - the invisible, toxic CO2 gathers in low-lying areas. Whilst there was an evacuation warning of 400,000 people as a result of the city evacuation plan and a third of the population moved quickly, 2000 homes were destroyed and 17 villages were ruined.
+
+However, this LIDC eruption was much better handled compared to the eruption in 2002, where 10x more people died and 13% of the city was destroyed, rendering 120,000 homeless. People in Goma were evidently more prepared this time, showing how far a small warning system and prior community knowledge can help mitigate vulnerability.
+
+It is worth noting that the DRC, and particularly Goma, is in an area of conflict.
+
+### Mini case study: Lake Nyos, Cameroon
+
+Lake Nyos was the site of a limnic eruption in 1986 in the north-east of Cameroon, another LIDC.
+
+CO~2~ gas, as a result of deep magma and gas intrusions below the Cameroon Hot Line (a series of inter-plate volcanoes) potentially a result of hotspot/mantle plume volcanism built up below the lake under pressure from the water above. Eventually, this was disturbed, most likely as a result of a landslide or rockfall, and the gas was then able to rise to the surface.
+
+Up to 808 million cubic metres of CO2 was outgassed in an area that covered 25km^2^ with the gas being up to 50m thick as it moved over the land. CO~2~ is heavier than oxygen so it sticks to the ground, displacing the oxygen. There were only 4 survivors from the villages that surrounded it, killing 1,746. All animal life was asphyxiated overnight, even insects. What's disturbing is that internal combustion vehicles would have been unable to start too without oxygen - and asphyxiation can occur in minutes.
+
+A similar limnic eruption has the potential to occur in the 2,000x larger Lake Kivu - south of Goma and Nyiragongo.
+
+### Case study: Mount Merapi, Indonesia 2010
+
+Indonesia is an EDC with an HDI of 0.705 and GNI per capita of **$4,580** in 2022. It is in a very unstable tectonic region, with the Sunda Trench being the subduction zone between the Indo-Australian plate to the south and east, and the continental Eurasian plate to the north. There are 130 active volcanoes in Indonesia and, as a result, 70% of the 273 million inhabitants live within 100km of an active volcano - within range of damaging distances to historic VEI 6 and 7 eruptions of Tambora and Krakatau. 8.6 million are within 10km of these volcanoes - the range of a pyroclastic flow.
+
+  
+
+Quick facts:
+- Eruption occurred in October 2010. Peak VEI of 4 - deadliest in 150 years
+- 353 people died, mostly due to close proximity pyroclastic flows
+- 350,000 evacuated from the areas in hazard zones 1, 2 and 3
+- Many people returned as the eruption was still ongoing. It lasted over a month from 25th October to the end of November
+
+50,000 people are living on Mt. Merapi's slopes, within the most dangerous hazard Zone 3. This is primarily due to the agricultural benefits of volcano flanks:
+- Ash deposits are rich in potassium and phosphorous. Combined with added relief rainfall and being in a tropical equatorial region, there is plenty of water to supply large swaths of agricultural regions
+- Infrastructure such as electricity and telecommunications already exists in the region, reducing the amount of pull factors to move into urban regions such as Yogyakarta to the south.
+- However, although risk perception is high, it may have been overridden by a sense of dependence on the land - they may not have a financial buffer compared to when Eyjafjallajökull erupted with the same VEI in the same year, emphasising how ACs have more capacity to cope than EDCs or LIDCs.
+
+Mitigation strategies have been partially successful. The local Javanese government compensated many thousands of farmers with plots of land elsewhere to discourage the continued inhabitation of the flanks.
+
+Indonesia has very well-prepared, experienced and equipped emergency services. In addition, there is a constant clearance of flood and river channels to reduce the impact of lahars, which were seen, especially due to the Equatorial nature of the country, and pyroclastic flows might have on the population, of which there were over a dozen during Mount Merapi's eruption in 2010. In addition, local governments have been able to provide hundreds of thousands of people with emergency shelters, some of which end up becoming permanent settlements, which are much further away from the volcano itself, mitigating vulnerabilities further. However, despite this apparent organisation, the shelters are also prone to disease outbreaks. The "mass exodus" of people who the shelters have been occupied by have historically has involved many children becoming severely injured and separated from their parents and their families. Despite allegations of corruption, local governments' responses during national disasters remain excellent, including aid delivery from both internal and external means.
+
+Despite the local government's demonstration of regularly clearing valleys from debris, there can be no replacement for ensuring that people are moved away from the stratovolcano's flanks and provided access to another area - something which has been done for those in zone 3. However, for an EDC with some of the fastest-growing populations and high population densities supporting 1,000/km^2^ even in remote areas of Java, a balance seems to have been struck by successfully modifying the vulnerability to a large extent whilst not investing huge amount of money to save less and less residents who do simply do not wish to move.
+
+## Strategies to manage volcanic hazards
+
+### Mitigating against events
+
+Humans cannot stop volcanic hazards
+
+### Mitigating against vulnerability
+
+### Modifying loss
+
+
+# NEA stuff
+
+### Spearman's Rank
+
+In the first sheet, in cell E5, you write:
+`=RANK.AVG(C5,$C$5:$C$24,0)`
+
+This compares the value of the cell in C5 to those in cells 5 to 24.
+You then go to the bottom right of the cell and drag the dot to cell E24
+This will copy that earlier formula to give the results for each row. This is because we need the results in an ordered format.
+
+Repeat this for e.g. the cancer rate column (so `=RANK.AVG(D5,$D$5:$D$24,0)`) in column F
+
+Finally, in any other cell, we can use the cool excel CORREL function to just work it out
+
+`=CORREL(E5:E24,F5:F24)`
+
+This gets the spearman's correlation for the two sets of data
+
+# Footnotes
+
+### (Disclaimer) AI-assisted writing
+
+ChatGPT or any other text-based generative transformer model was **not used** to directly write the content here. It's good for clarification of certain topics (and I've used it for that), but **don't get used to it** otherwise you'll lose your creativity.
+
+---
+
+To add later:
+
+[Development of Dubai time-lapse [interactive]](https://earthengine.google.com/timelapse#v=25.15489,55.19748,9.429,latLng&t=0.03&ps=50&bt=19840101&et=20221231)

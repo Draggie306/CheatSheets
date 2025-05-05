@@ -8,7 +8,7 @@
 **⚠ This is a work-in-progress, unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-[Latest update: 04/05/2025 23:57
+[Latest update: 05/05/2025 11:59
 Last content addition: 15/05/2024 18:43](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) - *you may use this in your own work, but give credit!*
@@ -24,7 +24,7 @@ You can use a PC/device with a wide screen to see the Table of Contents and quic
 
 > NEW! You can also **follow [iBaguette on Instagram](https://instagram.com/ibaguettecom)** for updates and new Cheat Sheets, study memes and clips, revision tips, and more!
 
-![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/OCR-Geo-ALevel-CheatSheet.png=500x300)
+![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/OCR-Geo-ALevel-CheatSheet.png =500x300)
 *Top-notch graphic design by me as always.*
 
 
@@ -41,7 +41,7 @@ Check out this interactive [ARCGIS British ice map](https://shefuni.maps.arcgis.
 > 1.a. Glaciated landscapes can be viewed as systems.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/amazing-valley-glacier-system.jpg =500x660)
-*Valley glacier photo from [Simon Fitall](https://unsplash.com/@simonfitall?utm_source=ibaguette.com&utm_medium=referral&utm_content=iBaguetteGeographyALevelCheatSheet)*
+*Valley glacier photo from [Simon Fitall](https://unsplash.com/@simonfitall?utm_source=ibaguette.com&utm_medium=referral&utm_content=iBaguetteGeographyALevelCheatSheet).*
 
 There are 3 main parts to any system: **inputs**, **processes** and **outputs**. 
 
@@ -112,17 +112,18 @@ Layers of snow within the ice give evidence of the way that it has formed.
 > (Date studied: ~29/09/2022)
 
 An **ice sheet** is a mass of snow and ice, **greater than 50,000km^2^** with considerable thickness.
+ 
+
 A **piedmont glacier** spreads out as a wide lobe as it **enters a wider plain** typically from a smaller valley
+ 
+
 A **valley glacier** is one **bound by valley walls**, coming from a higher mountain region, from a plateau on an ice cap or an ice sheet.
+ 
+
 An **ice cap** is a **dome-shaped mass of glacial ice** usually situated on a highland area and also covers >50,000km^2^.
 
-Valley glaciers usually occur in high altitude locations, with high relief, have fast rates of flow at 20–200m/year (mostly warm-based) and have distinct areas of ablation and accumulation, descending from mountains.
 
-Ice sheets, however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of high/low latitude and have slow rates of movement of only around 5m/year (mostly cold-based). The base of the glacier is frozen to the bedrock and has a little precipitation but also lower temperatures so ablation levels are lower too.
-
-Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers - areas of high relief mean there is greater gravitational potential energy for faster glacial movement. The thickness of the ice and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under pressure, ice will deform and behave like plastic (in the **zone of Plastic Flow** on the lower half of the glacier) making it move faster.  Conversely, the **rigid zone** is on the top half of the glacier.
-
-Cold-based (polar) glaciers:
+**Cold-based (polar) glaciers:**
 - have a slow rate of movement (<5m/year);
 - are located in extreme latitude (polar) regions;
 - are generally flat;
@@ -145,25 +146,37 @@ Cold-based glaciers are unable to move by basal sliding as the basal temperature
 ### Factors affecting the microclimate 
 The microclimate is a small region with its own distinct climatic characteristics, for example, one side of a mountain, or the north side of a valley. Generally, wider climate characteristics play a larger role in influencing the behaviour of glaciers, but glaciers are also affected by various lower-level and smaller-scale conditions. 
 
+#### Relief and aspect
+These have an impact on the the **microclimate**. This is a small region with its own distinct climatic chawalls**, coming from a higher mountain region, from a plateau on an ice cap or an ice sheet.
+
+Valley glaciers usually occur in high altitude locations, with high relief, have fast rates of flow at 20–200m/year (mostly warm-based) and have distinct areas of ablation and accumulation, descending from mountains.
+
+Ice sheets, however, are large masses of snow and ice defined by being greater than 50,000 km² and are usually in locations of high/low latitude and have slow rates of movement of only around 5m/year (mostly cold-based). The base of the glacier is frozen to the bedrock and has a little precipitation but also lower temperatures so ablation levels are lower too.
+
+Fundamentally, glaciers move because of gravity. The gradient influences the effect of gravity on glaciers - areas of high relief mean there is greater gravitational potential energy for faster glacial movement. The thickness of the ice and the pressure exerted on the bedrock can also influence melting and movement. More accumulation also leads to more movement. When ice is solid and rigid, it breaks into crevasses (big gaps visible from the surface). Under pressure, ice will deform and behave like plastic (in the **zone of Plastic Flow** on the lower half of the glacier) making it move faster.  Conversely, the **rigid zone** is on the top half of the glacier.
+
 **Regional climate**
 
-The wind is a moving force and can carry out processes such as transportation, position and erosion. In the air, these are known as **aeolian processes**, and can contribute to shaping glaciated landscapes. It is more effective when acting upon fine materials, usually those previously deposited by ice or meltwater, such as smaller rocks, dirt and sand.
+The wind is a moving force and can carry out processes such as transportation, position and erosion. In the air, these are known as **aeolian processes**, and can contribute to shaping glaciated landscapes. It is more effective when acting upon fine materials - usually those previously deposited by ice or meltwater - such as smaller rocks, dirt and sand.
 
 Temperature within the climate is another factor, as temperatures above 0°C will melt accumulated snow and ice, resulting in more outputs in the system. At higher altitudes, there are typically more prolonged periods of above-freezing temperatures, and melting, compared to in high latitude locations, where is below freezing most of the time, allowing for glaciers to thicken and expansive ice sheets to form. Precipitation is another climate factor, with its totals and patterns, both regionally and seasonally, in determining the mass balance of a glacier system, as it provides the main inputs to these glaciers as snowfall.
 
-**Geology**
 
-Lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking crystals. Clay, on the other hand, is weak and does not have these strong bonds on the molecular level. The solubility of rocks like chalk can also be affected by acidity, making them prone to chemical weathering as seen, through carbonation.
-
-Structure relates to the physical rock types, like faulting, bedding and jointing. These all have an impact on how permeable rocks are. Chalk, for example, is very porous, spaces between the particles within it on the molecular level allow water to percolate through. Some types of limestone, like carboniferous limestone, have many interconnected joints, giving it 'secondary permeability'. 
-> **Primary permeability** is when spaces (pores) absorb and retain water.
-
-**Latitude and Altitude**
+#### Latitude and Altitude
 
 Beyond the Arctic and Antarctic circles, located at 66.5° north and south, the climate is very dry, with little seasonal variation. Being so dry and extremely cold, they are much different to more dynamic valley glaciers as they have higher precipitation levels, and more névé turns into firn. The dryness contributes to **periglacial** environments *(see below for more about those!)* while also turning the types of glaciers in these areas to more cold-based. This means that they flow much less quickly, and different types of movement occur. 
 
 Altitude also has a direct impact on the temperatures and development of valley glaciers. As temperatures typically decrease by 0.7^o^C every 100m of altitude gained, there are more likely to be valley glaciers in areas of high relief, as seen in the Alps and the Himalayas. These glaciers are still not as cold as cold-based glaciers, however.
 
+#### Geology
+Geology is more than just "weak" and "strong" rocks and resistance. It is a combination of properties that uniquely determine how rocks react to stress, mechanical and chemical forces, and the environnment.
+
+Lithology is the chemical composition and physical properties of rocks. Some types, like basalt, are very resistant to erosion and weathering, as they are comprised of densely packed interlocking crystals. Clay, on the other hand, is weak and does not have these strong bonds on the molecular level. The solubility of rocks like chalk can also be affected by acidity, making them prone to chemical weathering, as seen through carbonation. Weakly-bonded rocks also reduce their resistance to glacial erosion.
+
+Structure relates to the physical rock types, like faulting, bedding and jointing. These all have an impact on how permeable rocks are. Chalk, for example, is very porous, spaces between the particles within it on the molecular level allow water to percolate through. In glaciated environments, this is significant as freeze-thaw action can crack rocks with faults or pores from the inside. This compares to crystalline rocks such as igneous granite which do not have any of these structural weaknesses.
+
+Some types of limestone, like carboniferous limestone, have many interconnected joints, giving it 'secondary permeability'.
+> **Primary permeability** is when spaces (pores) absorb and retain water.
 
 ## How are glacial landscapes developed?
 Glacial landforms are typically classified according to erosional and depositional processes. This development can be described as a series of interrelated processes.
@@ -214,7 +227,7 @@ Also known as a ***glacial trough***, a U-shaped valley is formed as a result of
 Firstly, before a glacial period, a V-shaped valley exists, having moderately steep sides and a central river channel, with **interlocking spurs** being a distinct feature. During periods of glaciation, snow begins to accumulate in these valleys as they are often sheltered.
 
 ![](https://cheatsheet-assets.ibaguette.com/alevel/geography/C186FA7B-7B73-41FC-8572-925D09410A4F.png)
-*How a V-shaped valley is formed. Remember this from GCSE? (if not, recap yourself on the GCSE cheat sheet!*
+*How a V-shaped valley is formed. Remember this from GCSE? (if not, recap yourself on the [GCSE Geography cheat sheet!](https://ibaguette.com/cheatsheets/gcse/geography/Paper1#river-landscapes)*
 
 When an ice mass has formed in the valley or has flowed from an upland area, freeze-thaw weathering begins to occur above the glacier line (where this ice mass is), causing the valley to steepen, in the same way as a corrie steepens its back wall. The glacier itself also causes plucking, mostly on the sides, as rocks are frozen and ripped as the glacier moves. Vertical abrasion also deepens the valley floor as subglacial material comes into contact with the bedrock.
 
@@ -235,7 +248,7 @@ Glaciers erode the valley into the typical U-shape. These lakes are typically lo
 
 #### Misfit stream
 
-A ribbon lake as well as a misfit stream may also be present in the base of the newly-formed glacial trough valley after deglaciation.
+A ribbon lake and a misfit stream may also be present in the base of the newly-formed glacial trough valley after deglaciation.
 
 ![](https://cheatsheet-assets.ibaguette.com/alevel/geography/misfit-stream.jpg =500x670)
 *Misfit stream: Photo from [Mario Álvarez](https://unsplash.com/@mriovisual?utm_source=iBaguette&utm_medium=referral&utm_content=iBaguetteGeographyALevelCheatSheet).*
@@ -374,7 +387,7 @@ The area has three main geologies:
 
 Helvellyn is a 950m tall pseudo-pyramidal peak with aretes named Striding Edge and Swirral Edge separating the corrie from Brown Cove Tarn and Nethermost Cove, respectively. These corries are on the north-east side of the mountain. It's not quite an official pyramidal peak as it only has these two named corries (but for all intents and purposes...).
 
-Ice from Red Tarn at Helvellyn met with the Brown Cove Tarn ice, creating the Helvellyn Gill hanging valley. Flowing northeast into Glenridding Valley, it joined another larger glacier creating a  **glacial trough** in present-day Ullswater. Likely exacerbated by compressing flow, where the ice mass moves slower, a long, thin, deep ribbon lake formed (as the flow made ice more likely to erode vertically). The varied geology also resulted in extending flow contributing to the ununiformity of the U-shaped valley.
+Ice from Red Tarn at Helvellyn met with the Brown Cove Tarn ice, creating the Helvellyn Gill hanging valley. Flowing northeast into Glenridding Valley, it joined another larger glacier creating a  **glacial trough** in present-day Ullswater. Likely exacerbated by compressing flow, where the ice mass moves slower, a long, thin, deep ribbon lake formed (as the flow made ice more likely to erode vertically). The varied geology also resulted in extending flow contributing to the ununiformed nature of the U-shaped valley.
 
 > This glacier would have continued flowing north-eastwards, taking eroded material with it, towards modern-day Penrith, which is in a flat area, possibly resulting in the old Ullswater glacier becoming a Piedmont glacier when entering this more expansive, larger valley. 
 
@@ -424,7 +437,7 @@ The Laurentide Ice Sheet was a huge ice sheet, up to 2 miles in height in some p
 The geology of Minnesota is varied. There are alternating bands of igneous and sedimentary rocks. In the north, a range of mountains several kilometers high was created by tectonic compression, made of strong metamorphic gneiss. In the Arrowhead region in the northeast, located near to Lake Superior, tectonic tilting has exposed weaker, lesser-jointed shale rocks.
 
 Its last advance occurred between around 100kya and 20kya, where subglacial erosion carved out areas of North America, from the huge Hudson Bay to the hundreds of thousands of smaller lakes present in Minnesota and Canada, such as Mille Lacs Lake in an ellipsoidal basin. The mountains were eroded; now Eagle Mountain, the highest, is only 701m high. Part of Lake Superior and other Arrowhead region lakes were deeply eroded thanks to their weaker geologies. 
- 
+
 
 As it made its final retreat, meltwater was blocked by the ice and the large "Big Stone Moraine", forming Glacial Lake Agassiz. It was larger than every Great Lake combined, covering around 300,000 square kilometres, around the same size as the present-day Black Sea. With continued ice ablation, a glacial lake outburst flood (GLOF) occurred as the moraine was overtopped, around 11,000 years ago, resulting in large-scale erosion of an area 8km wide and 76m deep in Browns Valley, Minnesota. This old river is known as the Glacial River 'Warren', helping to carve out the modern Minnesota and Mississippi rivers, and the valley present today. With the water came deposition: large swathes of fertile silt and soil deposits have been left behind in the valley, likely from the Big Stone Moraine. It took around 2,000 years for the lake to fully drain, and it likely had a large impact on the climate, sea level and even early civilisation! [simplified]
 
@@ -511,6 +524,7 @@ A kame is an irregularly shaped hill, hummock or mound made of stratified glacia
 There are two types of kame:
 #### Delta kames
 Delta kames can form in two main ways. Firstly, they can form due to he build-up of debris in **englacial tunnels** (and crevasses) that emerge at the glacial terminus as a result of retreat. As a result, they lose their energy, and are forced to deposit their contained load.
+
 Another way that they can be formed is when supraglacial streams meet ice-marginal lakes. These ice margin water bodies are largely static (just sit there tbh) so the sediment they carry loses energy and gets deposited in the lake, from where this supraglacial stream enters it, often leading to a tall accumulation.
 
 #### Kame terraces
@@ -751,10 +765,6 @@ That's the end for glaciation! I hope you found it useful.
 
 
 ---
-
-  
-[< Back to **geog.uk** Homepage](https://geog.uk)
-
 
 # 1.2 Physical - Earth's Life Support Systems
 Wordcount: 8799
@@ -2649,7 +2659,20 @@ Humans cannot stop volcanic hazards
 
 
 
+# NEA stuff
 
+## Spearman's Rank 
+
+In the first sheet, in cell E5, you write:
+`=RANK.AVG(C5,$C$5:$C$24,0)`
+This compares the value of the cell in C5 to those in cells 5 to 24.
+You then go to the bottom right of the cell and drag the dot to cell E24
+This will copy that earlier formula to give the results for each row. This is because we need the results in an ordered format.
+Repeat this for e.g. the Cancer rate column (so `=RANK.AVG(D5,$D$5:$D$24,0)`) in column F
+
+Finally, in any other cell, we can use the cool excel CORREL function to just work it out
+`=CORREL(E5:E24,F5:F24)`
+This gets the spearman's correlation for the two sets of data
 
 # Footnotes
 

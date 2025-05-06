@@ -6,36 +6,32 @@
 
 # OCR J277 Computer Science Paper 1 Complete Cheat Sheet
 
-[Latest update: 24/01/2024 13:06. 
-Last content addition: 23/08/2023 21:50](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
-> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
+[Latest general update: 06/05/2025 16:29. 
+Last content addition: 06/05/2025 15:27](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+
+> Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with fellow students, developers, teachers and professionals in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
+> Plus, you can opt to receive automatic notifications whenever new content is added here!
 
 ## READ THIS FIRST:
 
 Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so it might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
 
-**This cheat sheet covers _all_ of specification for: J277/01: Computer systems. Check the Cheat Sheets page to see Paper 2 individually.**
+**This cheat sheet covers _all_ of the specification for: J277/01: Computer systems. Check the [Cheat Sheets page](https://ibaguette.com/cheatsheets/gcse) to see Paper 2.**
 ---
 
+This paper is worth 50% of the GCSE.
 
-From OCR:  
-**J277/01: This component will assess:**  
-• 1.1 Systems architecture  
-• 1.2 Memory and storage  
-• 1.3 Computer networks, connections and protocols  
-• 1.4 Network security  
-• 1.5 Systems software  
-• 1.6 Ethical, legal, cultural and environmental impacts of digital technology
-
-# Paper 1
+All of the Cheat Sheets and revision material on iBaguette are made as 1:1 compliments to their corresponding specification. The J277 spec is available [here](https://www.ocr.org.uk/Images/558027-specification-gcse-computer-science-j277.pdf).
 
 
 # 1.1 - Systems architecture
+![All specification content for OCR J277 Systems architecture unit.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.1_Systems_architecture.png)
+*Specification content for this topic.*
 
 ## 1.1.1 Architecture of the CPU
 
-### **The purpose of the CPU - the F-D-E cycle**
+### The purpose of the CPU - the F-D-E cycle
 
 The Fetch-Decode-Execute cycle is the main job of the CPU. To execute a program, the program code is copied from secondary storage into the main memory. The CPU’s **program counter** is set to the memory location where the first instruction in the program has been stored, and execution begins.  
 In a program, each **machine code** instruction takes up a slot in the main memory. These memory locations each have a **unique memory address**. The **program counter stores the address** of each instruction and tells the CPU in what order they should be executed.
@@ -54,7 +50,7 @@ Step by step:
 **The ALU (Arithmetic Logic Unit)**
 
 - Performs calculations and logical operations
-- Where decisions are made (e.g `if x > 10`)
+- Where decisions are made (e.g. `if x > 10`)
 
 **The CU (Control Unit)**
 
@@ -79,7 +75,7 @@ In case you find the difference between Cache and Registers difficult, here’s 
 - CPU cache, is high-speed, volatile memory which is bigger than the size of registers, helping the processor to reduce memory operations. This increases the speed of common operations.
 - It is not very inaccurate to think of the processor’s register as the level 0 cache, smaller and faster than the other layers of cache in between the processor and memory. The difference is only that from the point of view of the instruction set, cache access is transparent (the cache is accessed through a memory address that happens to be a cached address at the moment) whereas registers are explicitly referenced in each instruction.
 
-There will probably be a table to tick what things do, or a 2-4 marker asking what something does and to explain it. I’d recommend learning 2 registers in detail, and what 4 just do.
+There will probably be a table to tick what things do, or a 2-4 marker asking what something does and to explain it. I’d recommend learning 2 registers in detail, and what 4 do in general.
 
 ### Von Neumann architecture
 
@@ -101,7 +97,7 @@ A processor based on von Neumann architecture has five registers which it uses f
 - the **current instruction register (CIR)** holds the instruction that is currently being decoded and executed
 - the **accumulator (ACC)** is a special purpose register and is **used by the arithmetic logic** unit (ALU) to **hold the data being processed and the results of its calculations**
 
-Note the above was heavily taken from [Bitesize](https://www.bbc.co.uk/bitesize/guides/zhppfcw/revision/3) as it’s just easier to explain
+*Note: the above was heavily taken from [Bitesize](https://www.bbc.co.uk/bitesize/guides/zhppfcw/revision/3) as it just has a great explanation*
 
 Personally, I find this the easiest way to remember them:
 
@@ -127,7 +123,7 @@ However, a CPU which cannot keep up with its clock will corrupt its data. A very
 ### Cache size
 
 Transferring data in and out of memory takes much, much longer than from cache. Therefore, placing frequently accessed data in the cache results in everything using that function (such as square roots) being executed much faster. The more cache there is, the more data can be stored closer to the CPU.
-CPU cache is ‘graded’ at different levels depending on its speed. **L1** is usually part of the CPU chip and is both the smallest and the fastest to access. Its size is often restricted to between 8 KB and 64 KB. **L2** and **L3** caches are bigger than **L1**. They are extra caches built between the CPU and the RAM. Sometimes L2 is built into the CPU with L1.  
+CPU cache is ‘graded’ at different levels depending on its speed. **L1** is usually part of the CPU chip and is both the smallest and the fastest to access. Its size is often restricted to between 8 KB and 64 KB. **L2** and **L3** caches are bigger than **L1**. They are extra caches built between the CPU and the RAM. *Sometimes L2 is built into the CPU with L1.*  
 L2 and L3 caches take slightly longer to access than L1. Each CPU core has its own set of L1 cache, but they can share higher levels.
 
 However, cache is very expensive (L1 costs ~£1 per kilobyte), is limited by the space of the CPU die, and is very small, so cannot be a full replacement for memory.
@@ -139,13 +135,13 @@ A CPU has multiple cores on it. CPUs with multiple cores have more power to run 
 However, doubling cores does not double clock speed. Some headroom is needed to communicate between each core.
 
 ![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/corechannel.png)  
-_Something you don’t need to remember, I don’t really know why I put it here. Just remember more cores = faster as it can do multiple tasks concurrently!_ (Source: Bitesize)
+_Something you don’t need to remember, I don’t really know why I put it here. Just remember more cores = faster as it can do multiple tasks concurrently!_ (Image source: Bitesize)
 
 ## 1.1.3 - Embedded systems
 
 An embedded system is a small computer inside of a larger system. PCs would be categorised as general-purpose systems, as they can do pretty much anything. Embedded systems on the other hand have one specific function which they run.
 
-General process computers are designed to access the Internet, play games, play videos, and write programs. These all require applications to run. Tablets, phones and consoles are now increasingly classed as general process, as they now can run several applications.
+General process computers are designed to access the internet, play games, play videos, and write programs. These all require applications to run. Tablets, phones and consoles are now increasingly classed as general process, as they now can run several applications.
 
 Examples of embedded systems include GPS systems, digital watches, fitness trackers, washing machines, microwaves and more.
 
@@ -161,24 +157,32 @@ Primary storage consists of RAM (random access memory) and ROM (read-only memory
 
 Memory/RAM is small in size compared to secondary storage, but is much faster as it does not have moving parts or have to retain that information. It is usually from 4-16GB in size. The more RAM a computer has, the more programs and instructions it can store simultaneously.
 
-Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow for when memory is filled up. When RAM is full, data which would have gone to memory goes to an area of the disk drive. However, virtual memory is much slower than even the fastest SSDs, let alone HDDs with their moving parts.
+Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow for when memory is filled up. When RAM is full, data which would have gone to memory goes to an area of the disk drive and, when needed by the CPU again, is moved back into RAM. However, virtual memory is *much* slower than even the fastest SSDs, let alone HDDs with their moving parts, so the OS attempts to avoid placing highly-used programs in virtual memory. *More RAM = always better.*
 
 
 ## 1.2.2 Secondary storage
 
 Secondary storage is non-volatile, meaning it retains the data written to it even when offline.
 
-An HDD (magnetic) has high capacity and involves flipping magnetic polarity to store bits. It is fairly fast to access. An SSD (solid-state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access. A USB drive (solid state) is tiny in comparison but very portable so is useful for transferring files between people and their computers. Optical storage devices like CDs and DVDs use a laser to scan the tracks, and when light reflects back, it will either reflect from 'lands' - representing `1`, or not reflect in 'pits' - representing `0`.
+An HDD (magnetic) has very high capacity and involves flipping magnetic polarity to store bits. It is fairly fast to access. These are generally the cheapest form of bulk storage but have moving parts, so not good for portability.
+
+An SSD (solid state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access, but significantly more expensive than HDDs. As solid state media has no moving parts, they are faster and much more portable than hard drives.
+
+A USB drive (also solid state) is tiny in comparison but very portable so is useful for transferring files between people and their computers.
+
+Optical storage devices like CDs and DVDs use a laser to scan the tracks, and when light reflects back, it will either reflect from 'lands' - representing `1`, or not reflect in 'pits' - representing `0`. Speeds and capacity are generally worse than HDDs or SSDs, but they are cheap to produce.
 
 Embedded systems may not need these as the instructions to run them are usually in ROM. For example, a watch does not need to edit the time as it runs all the time.
 
 ## 1.2.3 Units
 
 The basic unit is the bit. It represents 1 or 0. Above this is the nibble - or 4 bits. Above this again is the byte, or 8 bits.
-- A kilobyte is 1000 bits.
-- A megabyte is 1000 kilobytes. (1,000,000 bits)
-- A gigabyte is 1000 megabytes. (1,000,000,000 bits)
-- A terabyte is 1000 gigabytes. (1,000,000,000,000 bits)
+- A kilobit is 1000 bits.
+- A kilobyte is 8 kilobits. (8,000 bits)
+- A megabyte is 1000 kilobytes. (8,000,000 bits)
+- A gigabyte is 1000 megabytes. (8,000,000,000 bits)
+- A terabyte is 1000 gigabytes. (8,000,000,000,000 bits)
+ <!-- Editor note: can't believe it took me 3 years to spot the error here, check commit history! -->
 
 An image is usually around 500kb. Therefore, on a 2GB USB stick, 2000 images.
 
@@ -207,7 +211,7 @@ To convert a denary number into binary, write out all the base 2 numbers in a ro
 
 ### Denary/binary to hex
 
-Hex(adecimal) is a base 16 system to simplify binary representation. A hex digit can be any of these: **0 1 2 3 4 5 6 7 8 9 A B C D E F**.
+Hexadecimal is a base 16 system to simplify binary representation. A hex digit can be any of these: **0 1 2 3 4 5 6 7 8 9 A B C D E F**.
 
 Each hex digit represents a 4-digit binary sequence. 
 
@@ -347,16 +351,21 @@ A network's topology is how different nodes (a device connected to a network) ar
 
 Some useful key terms which you should probably know:
 
-**Router**: directs and receives packets incoming/outgoing to/from the Internet to devices in a private network via IP addresses. It connects networks together - your home LAN to the Internet, or a WAN. Nodes connected to it are given private IP addresses (192.168.1.x). The router has a public IP address. (You can see your public IP [here](https://whatismyipaddress.com/).)
+**Router**: directs and receives packets incoming/outgoing to/from the Internet to devices in a private network via IP addresses. It connects networks together - your home LAN to the internet, or a WAN. Nodes connected to it internally are given private IP addresses (192.168.1.x), whilst the router also has a public IP address. (You can see your public IP [here](https://whatismyipaddress.com/).)
 
-**Switch**: A device which connects devices on a computer network by using packet switching to receive and forward data to the destination device. It uses MAC addresses to forward data at the data link layer. (MAC (Media Access Control) addresses are used to identify a device on the local network assigned by its Network Interface Card)
+**Switch**: A device which connects devices on a computer network by using packet switching to receive and forward data to the destination device. It uses MAC addresses to forward data at the data link layer. MAC (Media Access Control) addresses are used to identify a device on the local network assigned by its Network Interface Card.
 
 **WAP**: wireless access point. Usually built into the switch, or physically connected by wire to it. Unless there's a repeater which would mean WAPs are connected to other WAPs 
 
 
-**Packet switching**: a method of breaking up data, and sending it using the most efficient route. For example, if you send an image, it will be broken up into 'packets' of around 1000 bytes each (if the image is 1 MB then there'll be 1000 packets) and then sent. To ensure data is not corrupted on route to the destination, each packet contains the following in a header: the IP address it is going to, the IP address it has come from, the sequence number of the packet, the number of packets in the whole communication, and error checking data
+**Packet switching**: a method of breaking up data, and sending it using the most efficient route. For example, if you send an image, it will be broken up into 'packets' of around 1000 bytes each (if the image is 1 MB then there'll be 1,000 packets) and then sent. To ensure data is not corrupted on route to the destination, each packet contains the following in a header:
+- the IP address it is going to;
+- the IP address it has come from;
+- the sequence number of the packet;
+- the number of packets in the whole communication;
+- error checking data.
 
-**DNS**: Domain Name System. How domain names are translated to IP addresses. When you go to [ibaguette.com](https://ibaguette.com), your device will make a request to a DNS server asking for the actual IP address to connect to, such as 172.67.139.203. If a DNS server does not contain the IP address, your request will be forwarded to a bigger DNS server, and finally, a root DNS server containing every single domain's IP address. 
+**DNS**: Domain Name System. How domain names are translated to IP addresses. When you go to [ibaguette.com](https://ibaguette.com), your device will make a request to a DNS server asking for the actual IP address to connect to, such as 172.67.139.203. If a DNS server does not contain the IP address, your request will repeatedly be forwarded to bigger DNS servers until one contains the relevant IP, or finally a root DNS server that contains every single domain's IP address. 
 
 The two topologies which you need to know are:
 
@@ -396,32 +405,26 @@ Disadvantages:
 
 ## 1.3.2 Wired/wireless, protocols, networks
 
-*Advance information: The following will be directly assessed:*
-- Modes of connection
-- Encryption
-- IP addressing and MAC addressing
-- Standards
-- Common protocols
-
-![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.3.2_Wired_and_wireless_networks_protocols_and_layers.png)
+![OCR J277 GCSE Computer Science specification screenshot of section 1.3.2 - Wired and wireless networks, protocols and layers](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.3.2_Wired_and_wireless_networks_protocols_and_layers2.png)
 
 A network is a group of two or more computers connected together to communicate. There are 2 ways for them to communicate: wired (ethernet) and wireless (Wi-Fi, Bluetooth).
 
-It may seem obvious but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and roaming profile (can access your files from any computer in the network). 
+It may seem obvious but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and having a roaming profile (i.e. you can access your files from any computer in the network). 
 
 In larger networks, antiviruses and firewalls can be implemented network-wide instead of on individual computers, improving security and cost-effectiveness. 
 
-Admins can monitor what people do on these networks, and give them rights (User Access Levels) to restrict access. However, networks can cost a lot as equipment like dedicated cables or switches are needed to communicate, and malware can spread more quickly if a network has poor security.
+Admins can monitor what people do on these networks, and give them rights (see User Access Levels) to restrict access. However, networks can cost a lot as equipment like dedicated cables or switches are needed to communicate, and malware can spread more quickly if a network has poor security.
 
 ### IP and MAC addressing, standards
 The 32-bit IP address system is also known as IPv4. It allows for over 4 billion addresses (2^32 = 4,294,967,296 addresses). We're running out very quickly.
 > IPv4 addresses are just numbers, like `248.228.179.104`. Each number separated by decimals cannot be over 255, as that's the 8-bit limit.
 
-IPv6's adoption is increasing now. IPv6 uses 16 bits (hexadecimal represention) for each section of the address, creating a 128-bit address. This allows almost 80 octillion unique IP addresses.
+IPv6's adoption is increasing now. IPv6 uses 16 bits (hexadecimal representation) for each section of the address, creating a 128-bit address. This allows almost 80 octillion unique IP addresses.
 > IPv6 addresses can be letters as well. They are separated by colons, such as `8cfb:3abd:dde5:ca41:e080:0328:6e86:5007`. Each part separated by colons can be from 0000 to ffff. This means that there are 1,028x more addresses than IPv4. That's 340,282,366,920,938,463,463,374,607,431,768,211,456 addresses. 
 > (no, you don't need to remember that)
 
 A MAC address is different to an IP address - it is assigned to devices within a network. It can't be changed by the user, as it's on the network card on the device.
+> They are 6 groups of two hexadecimal characters, such as `00:1C:4F:84:37:DB`. They can be separated by colons, hyphens or nothing at all.
 
 Remember, a **protocol is a set of rules that governs the transmission of data**. For example, HTTPS.
 
@@ -459,15 +462,14 @@ You need to know a few common protocols.
 Finally, you need to know how layers are used in protocols, and the benefits of using layers; for a teaching example, please refer to the 4-layer TCP/IP model.
 > Not required: Knowledge of the names and functions of each TCP/IP layer
 
-Layering means the breakdown of the sending of messages into separate components and activities, with each component handling a different part of communication. Therefore, it allows standards to be put in place and simply adapted as new hardware and software are developed.
-
-[See this Bitesize page if you want to learn more, but it's not required](https://www.bbc.co.uk/bitesize/guides/z666pbk/revision/5)
+Layering means breaking down the sending of messages into separate components and activities, with each component handling a different part of communication. For example, applications like a web browser only needs to use HTTP, and leaves lower-level communication - such as how information is sent over a cable - to another program, like the OS itself. This allows standards to be put in place and simply adapted as new hardware and software is developed, rather than changing the entire system.
 
 - Application layer - applications and protocols.
-- Transport layer - breakdown into packets
+- Transport layer - breaks down data into a series of numbered packets
 - Network layer - adds sender and receiver's IP addresses to packets and sends over the network
 - Data link layer - the NIC and drivers are here and then send the packets to another computer
 
+[See this Bitesize page if you want to learn more, but it's not required](https://www.bbc.co.uk/bitesize/guides/z666pbk/revision/6).
 
 # 1.4 Network security
 
@@ -491,9 +493,10 @@ Malware is an umbrella term for malicious software designed to compromise a syst
 
 
 ### Social engineering
-e.g. phishing, people as the ‘weak point’ 
 
-Emails which try to deceive users to give their personal details. Designed to look like a genuine email from a useful service, like a bank, and will have a link to a website (still looking like a real bank) where there will be a username/password field, and maybe even credit card numbers. Of course, when you enter the data, it's just sent to someone else.
+Emails which try to deceive users to give their personal details. Designed to look like a genuine email from a useful service, like a bank, and will have a link to a website (still looking like a real bank) where there will be a username/password field, and maybe even credit card numbers. This is known as **phishing**. Of course, when you enter the data, it's just sent to someone else.
+
+It exploits the idea that, often, computer security is good enough to stop malware, so uses people as the ‘weak point’ to exploit instead. 
 
 
 ### Brute-force attacks 
@@ -502,17 +505,17 @@ A program is used to systematically try all possible combinations of a username 
 
 ### Denial of service attacks
 
-Where a computer sends loads of requests to a server to overwhelm it. The server will become overwhelmed and legitimate requests will no longer work.
+When a computer sends loads of requests to a server in order to overwhelm it. The server will become overwhelmed and legitimate requests will no longer work.
 
-Multiple computers doing this concurrently is called a distributed denial of service attack, or DDoS. They usually only last a few seconds but send tens of millions of requests.
+Multiple computers doing this concurrently is called a distributed denial of service attack, or DDoS. They usually only last a few seconds but send tens of millions of requests, enough to overwhelm and take down entire networks or companies.
 
 ### Data interception and theft 
 
-Data interception is when data is intercepted while being transferred, using a special software called a 'packet sniffer'. It can identify what packets are doing and their destination across the Internet or in a network. They are usually difficult to detect, as the data still reaches its intended destination. The information gathered is sent back to a server where it can be seen by malicious entities.
+This is when data is intercepted while being transferred, often done by using special software called a 'packet sniffer'. It can identify what packets are doing and their destination across the internet or network. They are usually difficult to detect, as the data still reaches its intended destination. The information gathered, such as passwords or files, is sent back to a server where it can be seen by malicious entities. Another name is a "man-in-the-middle" attack.
 
 ### SQL injection
 
-You don't need to know what SQL actually is, but rather the process of it. SQL is widely used in databases to ensure their structures are maintained and to quickly read a value in it. SQL code can be entered as a data input in, for example, a username/password field, which can cause errors. Even worse, someone can input something like `FROM * PRINT Passwords` to get a list of everyone's passwords if unencrypted!
+You don't need to know what SQL actually is, but rather the process of it. SQL is widely used in databases to ensure their structures are maintained and to quickly read a value in it. Without proper *sanitation checking*, SQL code can be entered as a data input, for example, in a username/password field, which can cause errors. Even worse, someone can input something like `FROM * PRINT Passwords` to get a list of everyone's passwords if unencrypted!
 
 
 
@@ -526,19 +529,21 @@ Pen testing is when authorised users (including white hat hackers) probe a netwo
 
 ### Anti-malware software
 
-Anti-malware detects installed malware, prevents malware from being installed and removes malware from a device. It scans through all files that are run or modified and sees if one matches a list of known malicious files. However, if the antimalware software is not updated, it may not be able to correctly identify new, zero-day threats to which the system is exposed.
+Anti-malware detects installed malware, prevents malware from being installed, and removes malware from a device. It scans through all files that are run or modified and sees if one matches a list of known malicious files. However, if the antimalware software is not regularly updated, it may not be able to correctly identify new, zero-day threats to which the system is exposed.
+
+> Nowadays, anti-malware software also uses **heuristics** - that identify suspicious behaviours in programs - to better catch and remove malware, even if it is not in the malicious file list.
 
 
 ### Firewalls 
 
-Firewalls monitor traffic and allow it to pass through or deny it. It can be placed in front of the network, or can be placed in front of an individual device. Legitimate programs such as game servers require the firewall to allow a program or port (e.g. for a Minecraft Java server the default port is 25565) to communicate with other devices. Firewalls can be hardware or software-based, and as most things hardware-based firewalls are more effective but cost more than software-based implementations.
+Firewalls monitor traffic and decide whether to allow data to pass through or deny it. It can be placed in front of the network, or in front of an individual device. Legitimate programs, such as game servers, require the firewall to allow a program or port (e.g. for a Minecraft Java server, the default port is 25565) to communicate with other devices. Firewalls can be hardware or software-based, and (as with most things) hardware-based firewalls are more effective but cost more than software-based implementations.
 
 
 ### User access levels 
 
-User access levels only allow a user to do certain things, including running software, accessing the Internet, installing new software and editing the accounts of other users. In a school, students will be denied access to managing other students and software, but will be allowed to access the Internet. Teachers will be allowed to manage students, and maybe the software installed. Finally, admins will be able to access everything.
+User access levels only allow a user to do certain things, such as running software, accessing the Internet but preventing the installation of new software or editing the accounts of other users. In a school, students will be denied access to managing other students and software, but will be allowed to access the Internet. Teachers will be allowed to manage students, and maybe install new software. Finally, admins will be able to access everything.
 
-This reduces the risks as if a student downloads a virus, it will not be able to access any other device, as it is effectively isolated from managing network devices. However, if an admin gets infected, it would mean disaster for the network...
+This reduces the risks as if a student downloads a virus, it may not be able to access any other device, as it is effectively isolated from managing network devices. However, if an admin gets infected, it would mean disaster for the network...
 
 ### Passwords 
 
@@ -552,7 +557,7 @@ The process of changing data from plaintext to ciphertext so it cannot be unders
 
 ### Physical security
 
-Server rooms should be locked and only authorised people such as the admins can unlock them. Obviously, if someone gets into a server room, they can take all the drives containing users' information. Also, don't write down your passwords on a sticky note, someone can just take a picture of them...
+Server rooms should be locked and only authorised people such as the admins can unlock them. Many datacentres have 24/7 security and CCTV monitoring over the whole site. Obviously, if someone gets into a server room, they can take all the drives containing users' information. Also, don't write down your passwords on a sticky note, someone can just take a picture of them...
 
 
 # 1.5 Systems Software
@@ -560,7 +565,7 @@ Server rooms should be locked and only authorised people such as the admins can 
 
 ## 1.5.1 Operating systems
 
-![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.5.1_Operating_systems_as_part_of_systems_software_unit.png)
+![OCR GCSE Computer Science Specification, containing section 1.5.1 Operating Systems](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.5.1_Operating_systems_as_part_of_systems_software_unit.png)
 
 An operating system is a suite of programs that controls the general operation of a computer, and provides an easy way for us to interact with computers and run applications.
 
@@ -568,11 +573,11 @@ OSes can control hardware components, provide a UI, manage files in a file syste
 
 ### User interfaces
 
-UIs are program(s) that allow a user to interact with the computer. The GUI is the most popular as they include desktops and icons for ease of use, with menus and a mouse to interact with it. They are easy to use but use more processing power. CLIs are text-based programs (like command prompt in Windows) which are very powerful and require little processing power to display due to their simplicity. However, they are difficult for most people to use. Mobile UIs are basically the same as GUIs but replace the mouse with touch and gestures to navigate.
+UIs are programs that allow a user to interact with the computer. The GUI is the most popular as they include desktops and icons for ease of use, with menus and a mouse to interact with it. They are easy to use but use more processing power. CLIs are text-based programs (like command prompt in Windows) which are very powerful and require little processing power to display due to their simplicity. However, they are difficult for most people to use. Mobile UIs are basically the same as GUIs but replaces the mouse with touch and gestures to navigate.
 
 ### Multitasking & memory management
 
-Multitasking is a classic example of OS' evolution over the years. With CLIs, a user could only do one process. Now, videos can be streamed while uploading documents to the cloud. This requires an OS to support it (duh) and enough memory to run multiple processes. The OS manages memory used to prioritise running processes, and when another process closes, this extra available memory gets allocated to the running program. 
+Multitasking is a classic example of OS' evolution over the years. With CLIs, a user could only do one process. Now, videos can be streamed while uploading documents to the cloud. This requires an OS to support it and enough memory to run multiple processes. The OS manages memory used to prioritise running processes, and when another process closes, this extra available memory gets allocated to the running program. In modern computers, there are often hundreds of processes running at the same time - the CPU is so fast that it gives the illusion of multiple programs running in parallel. 
 
 ### Peripherals and drivers
 
@@ -592,20 +597,21 @@ The OS controls...
 - Logging actions
 
 ... handling files
-- Create, modify and delete files
-- Allocating to folders 
-- Moving and renaming between folders 
+- Creating, modifying and deletion of files
+- Allocating to folders
+- Moving and renaming between folders
 - Copying and pasting
 - Searching
-- Access rights (read-only)
+- Access rights (whether users have permission to edit, or if it is read-only)
 - Sorting (date modified, name)
 - Overall file system for organising (NTFS)
 
 
 
 ## 1.5.2 Utility software
+![OCR GCSE J277 Computer Science Specification, containing section 1.5.1 Operating Systems](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.5.2_Utility_software.png)
 
-Utility software helps maintain the system. It includes programs involving encryption software, defragmentation and data compression tools. Computers often come with this software built in (even part of the OS now) to keep the device running smoothly.
+Utility software helps maintain the system. It includes programs involving encryption software, defragmentation and data compression tools. Computers often come with this software built in (even as part of the OS now) to keep the device running smoothly.
 
 ### Encryption software
 
@@ -623,7 +629,7 @@ This is terrible for the computer's performance, as the head has to go to loads 
 ![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/hard_drive.png)
 *What a hard drive is actually made from. Remember there can be several platters on a large drive!*
 
-##### NOTE: Solid-state drives' speeds are not affected by fragmentation. Do NOT EVER try and defrag an SSD! 
+**NOTE: Solid-state drives' speeds are not affected by fragmentation. Do NOT EVER try and defrag an SSD!**
 
 
 ### Compression software
@@ -662,11 +668,11 @@ Ethical issues occur **when a given decision, scenario or activity creates a con
 
 A legal issue is **something that happens that has legal implications and may need the help of a lawyer to sort out - a question or problem that is answered or resolved by the law**.
 
-Cultural issues are **problems that occur when culture conflicts with systems, goals or other cultures**. (e.g religion, ethnicity, generation)
+Cultural issues are **problems that occur when culture conflicts with systems, goals or other cultures**. (e.g. religion, ethnicity, generation)
 
-Environmental issues are defined as **harmful effects on Earth and its natural systems due to the actions of humans**. (e.g pollution, animals dying, poisoning of the environment, deforestation)
+Environmental issues are defined as **harmful effects on Earth and its natural systems due to the actions of humans**. (e.g. pollution, animals dying, poisoning of the environment, deforestation)
 
-Privacy issues include companies using your personal data for their gain, e.g. TikTok seeing what trends you're into and giving you ads across other websites, which then track you and build up a profile of what you do online. To some people, this would be creepy, especially as there's no way to opt-out
+Privacy issues include companies using your personal data for their gain, e.g. TikTok seeing what trends you're into and giving you ads across other websites, which then track you and build up a profile of what you do online. To some people, this would be creepy, especially as there's no way to opt-out.
 > If in doubt, just say that's what tiktok does because you'll probably be right either way
 
 ### Legislation relevant to Computer Science:
@@ -681,13 +687,15 @@ Privacy issues include companies using your personal data for their gain, e.g. T
 A software license agreement describes how the software should be used, and any restrictions it may have from the author, the provider and end users.
 
 Open source means providing access to the source code and the ability to change the software if you want. Groups of programmers often work together to provide support for users and develop the software further. These products are often tested by contributors in public. FREE TO USE, FOR ANYONE. 
-> For example, BaguetteBot ([Source Code](https://github.com/Draggie306/BaguetteBot) + [Invite Link](https://discord.com/oauth2/authorize?client_id=792850689533542420&permissions=8&scope=bot%20applications.commands)) is free to use and you can inspect my code.
+
+> For example, lots of components of the iBaguette website are open source, free to use and you can inspect my code. You can even read the code that controls the routing for all the Cheat Sheets [here](https://github.com/Draggie306/CheatSheets).
 
 Proprietary means no access to the source code (already compiled), purchased commonly as 'off-the-shelf' for example games. Also known as closed-source. It remains the legal property of whoever made it. Source code is usually not released, and may require a license key to use it in return for money.
 > Developers of proprietary products are expected to create tutorials and support many operating systems themselves, especially if the product costs money.
 
 
 In short, if you want to make money, use a proprietary license. If you want people to improve your code and find bugs, use an open-source license. **You will need to recommend a type of licence for a given scenario, including benefits and drawbacks.**
+
 
 ---
 

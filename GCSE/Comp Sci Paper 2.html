@@ -50,6 +50,7 @@
 <li><a href="#ocr-j277-computer-science-paper-2-complete-cheat-sheet">OCR J277 Computer Science Paper 2 Complete Cheat Sheet</a>
 <ul>
 <li><a href="#read-this-first">READ THIS FIRST:</a></li>
+<li><a href="#this-cheat-sheet-covers-all-of-the-specification-for-j27702-computational-thinking-algorithms-and-programming.-check-the-cheat-sheets-page-to-see-paper-1.">This cheat sheet covers all of the specification for: J277/02: Computational thinking, algorithms and programming. Check the Cheat Sheets page to see Paper 1.</a></li>
 </ul>
 </li>
 <li><a href="#algorithms">2.1 Algorithms</a>
@@ -103,8 +104,12 @@
 </li>
 <li><a href="#producing-robust-programs">2.3 Producing robust programs</a>
 <ul>
-<li><a href="#defensive-design">3.1 Defensive design</a></li>
-<li><a href="#testing">2.3.2 Testing</a></li>
+<li><a href="#defensive-design">2.3.1 Defensive design</a></li>
+<li><a href="#testing">2.3.2 Testing</a>
+<ul>
+<li><a href="#test-types">Test types</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#boolean-logic">2.4 Boolean logic</a>
@@ -118,13 +123,14 @@
 <li><a href="#the-ide">2.5.2 The IDE</a></li>
 </ul>
 </li>
-<li><a href="#programming-examples.">Programming examples.</a>
+<li><a href="#programming-examples">Programming examples</a>
 <ul>
 <li><a href="#level-easy">Level: Easy</a></li>
 <li><a href="#level-warm">Level: Warm</a></li>
 <li><a href="#level-spicy">Level: Spicy</a></li>
 <li><a href="#answers">Answers</a>
 <ul>
+<li><a href="#answer-1">Answer 1</a></li>
 <li><a href="#answer-2">Answer 2</a></li>
 <li><a href="#answer-3">Answer 3</a></li>
 <li><a href="#want-more-coding-examples">Want more coding examples?</a></li>
@@ -140,25 +146,19 @@
     <div class="stackedit__html">
       <p><a href="https://ibaguette.com/cheatsheets/gcse">&lt; Back to all GCSE Cheat Sheets</a></p>
 <h1 id="ocr-j277-computer-science-paper-2-complete-cheat-sheet">OCR J277 Computer Science Paper 2 Complete Cheat Sheet</h1>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest update: 24/01/2024 13:17.<br>
-Last content addition: 23/08/2023 21:50</a></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 06/05/2025 16:41.<br>
+Last content addition: 06/05/2025 15:18</a></p>
 <blockquote>
-<p>Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Connect with fellow students, developers, educators and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigaders Discord server</a> who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!</p>
+<p>Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with fellow students, developers, teachers and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigade Discord server</a> who can answer all your questions and give you tips and tricks!<br>
+Plus, you can opt to receive automatic notifications whenever new content is added here!</p>
 </blockquote>
 <h2 id="read-this-first">READ THIS FIRST:</h2>
 <p>Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so it might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉</p>
-<p><strong>This cheat sheet covers <em>all</em> of specification for: J277/02: Computational thinking, algorithms and programming. Check the <a href="https://ibaguette.com/cheatsheets/gcse">Cheat Sheets page</a> to see Paper 1 individually.</strong></p>
-<hr>
-<p>From OCR:<br>
-<strong>J277/02: This component will assess:</strong><br>
-• 2.1 Algorithms<br>
-• 2.2 Programming fundamentals<br>
-• 2.3 Producing robust programs<br>
-• 2.4 Boolean logic<br>
-• 2.5 Programming languages and Integrated Development Environments</p>
-<hr>
+<h2 id="this-cheat-sheet-covers-all-of-the-specification-for-j27702-computational-thinking-algorithms-and-programming.-check-the-cheat-sheets-page-to-see-paper-1."><strong>This cheat sheet covers <em>all</em> of the specification for: J277/02: Computational thinking, algorithms and programming. Check the <a href="https://ibaguette.com/cheatsheets/gcse">Cheat Sheets page</a> to see Paper 1.</strong></h2>
+<p>This paper is worth 50% of the GCSE.</p>
+<p>All of the Cheat Sheets and revision material on iBaguette are made as 1:1 compliments to their corresponding specification. The J277 spec is available <a href="https://www.ocr.org.uk/Images/558027-specification-gcse-computer-science-j277.pdf">here</a>.</p>
 <blockquote>
-<p><mark>You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can’t code Python, you can use an online tool like Replit (where you can code wiith friends at the same time too!) or use an IDE like IDLE or VS Code and just start coding something random. You will find my examples at the bottom for inspiration.</mark></p>
+<p><mark>You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can’t code Python, you can use an online tool like Replit (where you can code with friends at the same time too!) or use an IDE like IDLE or VS Code and just start coding something random. You will find my examples at the bottom for inspiration.</mark></p>
 </blockquote>
 <hr>
 <h1 id="algorithms">2.1 Algorithms</h1>
@@ -298,7 +298,7 @@ endwhile
 <li>Condition-controlled loops are controlled by a specific value. This is most often <code>True</code> or <code>False</code>; these will run until this value is changed. For example, <code>if x == True:</code> will run the code until the value of<code>x</code> is no longer equal to <code>True</code>.</li>
 </ul>
 <h3 id="operators">Operators</h3>
-<p>There are comparison and arithmetic operators. (They will give the boolean value of <code>True</code> if their criteria are met)</p>
+<p>There are comparison and arithmetic operators. (They will give the Boolean value of <code>True</code> if their criteria are met)</p>
 <h4 id="comparison-operators">Comparison operators:</h4>
 <ul>
 <li><code>==</code>
@@ -407,23 +407,24 @@ Or, <strong>str()</strong> for strings, or <strong>float()</strong> for floating
 <p>To get the characters from positions 0 and 3 (not included), the syntax is this: <code>x[0:3]</code>  = would be ‘Bag’. This is known as ‘slicing’.</p>
 <p>You can also manipulate the casing of everything in a string. If <code>x</code> = ‘Baguette’, then <code>x = x.upper()</code> would result in <code>x</code> being ‘BAGUETTE’. Likewise, <code>x.lower()</code>would be ‘baguette’.</p>
 <p>Finally, concatenation is joining two strings together.<br>
-If <code>one = "Baguette"</code> and <code>two = "Brigaders"</code>, then <code>one + " " + two</code> would print <code>Baguette Brigaders</code>.</p>
+If <code>one = "Baguette"</code> and <code>two = "Brigade"</code>, then <code>one + " " + two</code> would print <code>Baguette Brigade</code>.</p>
 <blockquote>
-<p>If you feel comfortable with f-strings then you could get the same by using <code>print(f"{one.lower()} {two.upper()}")</code> to  output ‘baguette BRIGADERS’.</p>
+<p>If you feel comfortable with f-strings then you could get the same by using <code>print(f"{one.lower()} {two.upper()}")</code> to  output ‘baguette BRIGADE’.</p>
 </blockquote>
 <h3 id="d-arrays">(2D) Arrays</h3>
-<p>Arrays (interchangeable with lists honestly) store lots of stuff and are denoted by their square brackets, like <code>[4, 5, 3, 6, 9]</code> or with strings as <code>["Yes", "No", "Baguettes", "Beans", "Haram"]</code>.  They can be accessed by the sting name and location in the list. If the above list with strings is called <code>random_words</code>, then to print the word ‘Baguettes’ I would call <code>print(random_words[2])</code>.</p>
+<p>Arrays (interchangeable with lists, at least for GCSE) store lots of stuff and are denoted by their square brackets, like <code>[4, 5, 3, 6, 9]</code> or with strings as <code>["Yes", "No", "Baguettes", "Beans", "Haram"]</code>.  Elements can be accessed using by the list variable’s name, and the element’s location in the list in square brackets. If the above list with strings is called <code>random_words</code>, then to print the word ‘Baguettes’ I would call <code>print(random_words[2])</code>.</p>
 <p>2D arrays take this principle and make it more complicated. Basically, this means there is an array inside an array.</p>
 <p><code>list_of_cars_and_prices = [["beans car", "bozo car", "fresh car"], [20, 30, 55]]</code></p>
-<p>Notice how inside one list, there are actually 2 smaller lists? This is a 2D array. To get the value of ‘55’ from the second array, we do <code>print(list_of_cars_and_prices[1][2]</code>. This gets the <strong>third value</strong> from the <strong>second array</strong>, inside the list called ‘list_of_cars_and_prices’. This can be used to store values next to each other.</p>
+<p>Notice how inside the outer list, there are actually 2 smaller lists? This is a 2D array. To get the value of ‘55’ from the second array, we do <code>print(list_of_cars_and_prices[1][2]</code>. This gets the <strong>third value</strong> from the <strong>second array</strong>, inside the list called ‘list_of_cars_and_prices’. This is useful to store related values next to each other.</p>
 <blockquote>
 <p>To change the value of an item in an array/list, do:<br>
 <code>list_name[index] = "thing_to_change_it_to"</code></p>
 </blockquote>
 <h3 id="functions-and-procedures">Functions and procedures</h3>
-<p>A procedure performs a task, whereas a function produces information.</p>
+<p>A procedure performs a task, whereas a function produces (returns) information.</p>
 <p>Parameters can be invoked into both functions and procedures. For example, <code>beans(number_of_beans)</code> will result in the function or procedure using the invoked value of <code>number_of_beans</code> to perform a calculation.</p>
-<p>Functions return a value. You can assign a value to a variable and set this value to the result of a function, like <code>x = beans()</code>, where <code>beans</code> is a defined function. It could return a number or string or any data type.</p>
+<p><strong>Functions return a value</strong>. You can assign a value to a variable and set this value to the result of a function, like <code>x = beans()</code>, where <code>beans</code> is a defined function.<br>
+It could return a number, string, or any data type, so after running this, <code>x</code> could have the value <code>4</code> - or whatever <code>beans()</code> has been defined to do.</p>
 <blockquote>
 <p>Programming languages have their own built-in functions and procedures. When you type <code>print("text")</code>,  you are actually passing in your <code>text</code> as a parameter used to display something on your screen! User-defined functions and procedures are the ones that the user creates.</p>
 </blockquote>
@@ -442,21 +443,23 @@ file1<span class="token punctuation">.</span>close<span class="token punctuation
 
 <span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> Hello! This <span class="token keyword">is</span> a <span class="token builtin">file</span>!
 </code></pre>
-<p>It’s best practice to always do <code>file.close()</code> to avoid file corruption.</p>
+<p><em>Note: it’s best practice to always do <code>file.close()</code> after finishing reading/performing file actions to avoid corruption.</em></p>
 <h3 id="locals-and-globals">Locals and globals</h3>
 <p>Global variables can be accessed by every subroutine at all times. Present in memory during execution. They aren’t good because if it gets maliciously changed, or changes unintentionally, then it will affect the entire code and every subroutine. Also, it can use a lot of memory if many variables are used at once - normal in big programs and games. The scope of these is the entire program.</p>
 <p>Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it’s more efficient. The scope of these is the sub-program of declaration.</p>
 <p>Parameter passing - allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.</p>
 <blockquote>
-<p>You can read more about the scope, lifespan and implications of memory scopes on the <a href="https://ibaguette.com/cheatsheets/alevel/computerscience">A Level Cheat Sheet</a> !</p>
+<p>You can read more about the scope, lifespan and implications of memory scopes on the <a href="https://ibaguette.com/cheatsheets/alevel/computerscience">A Level Cheat Sheet</a>!</p>
 </blockquote>
 <h3 id="sql">SQL</h3>
 <p>SQL is a programming language used for interrogating a database.</p>
 <p>Data can be retrieved using the commands  <code>SELECT, FROM</code> and <code>WHERE</code></p>
 <p><code>*</code> stands for wildcard, which means all records.</p>
 <p>from the iBaguette emails database:<br>
-<code>SELECT * FROM "Users" WHERE "Email Address" LIKE "admin" OR "draggie"</code><br>
-would retrieve:</p>
+<code>SELECT *</code><br>
+<code>FROM "Users"</code><br>
+<code>WHERE "Email Address" LIKE "admin" OR "draggie"</code><br>
+might retrieve:</p>
 
 <table>
 <thead>
@@ -472,74 +475,76 @@ would retrieve:</p>
 <td>1</td>
 <td>Draggie</td>
 <td>306</td>
-<td><a href="mailto:draggie@ibaguette.com">draggie@ibaguette.com</a></td>
+<td><a href="mailto:admin@geog.uk">admin@geog.uk</a></td>
 </tr>
 <tr>
 <td>6</td>
 <td>Admin</td>
-<td>Beans</td>
+<td>User</td>
 <td><a href="mailto:admin@ibaguette.com">admin@ibaguette.com</a></td>
 </tr>
 <tr>
 <td>7</td>
 <td>Draggie1</td>
 <td>306</td>
-<td><a href="mailto:admin@ibaguette.com">admin@ibaguette.com</a></td>
+<td><a href="mailto:admin@geog.uk">admin@geog.uk</a></td>
 </tr>
 </tbody>
 </table><h3 id="randoms">Randoms</h3>
 <p>You must <code>import random</code> at the start of the program for this to work (it is a <strong>module</strong>).</p>
 <p><code>random.randint(lower_bound, upper_bound)</code> is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number.</p>
 <h1 id="producing-robust-programs">2.3 Producing robust programs</h1>
-<h2 id="defensive-design">3.1 Defensive design</h2>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.1_Defensive_design.png" alt=""></p>
-<p>A program must be able to handle all likely input values, not just the intended one. If valid data is inputted which might affect functionality, for example entering -10 to an age question, then this will produce logic errors. To accommodate this, there can be a range of things added to a program to ensure these do not occur.</p>
+<h2 id="defensive-design">2.3.1 Defensive design</h2>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.1_Defensive_design.png" alt="OCR GCSE computer science specification section 2.3.1 Defensive design"></p>
+<p>A program must be able to handle all likely input values, not just the intended one. If valid data is inputted which might affect functionality, for example entering <code>-10</code> to an age question will probably produce logic errors. To accommodate for this, there can be a range of things added to a program to ensure these do not occur.</p>
 <ul>
-<li>Anticipating misuse
+<li><strong>Anticipating misuse</strong>
 <ul>
-<li>A way of making sure age is not negative could be by making the part of the code that verifies age a function, which will return the age once verified to be valid. For example, a while statement could be added with a condition-controlled loop, which will only change conditions <code>if age &gt; 10 AND age &lt; 100</code>. This is an example of input validation</li>
+<li>A way of making sure age is not negative could be by adding a selection (if) statement that requires certain criteria to be met. For example, <code>if age &gt; 10 AND age &lt; 100</code>. This is an example of <em>input validation</em>.</li>
 </ul>
 </li>
-<li>Authentication
+<li><strong>Authentication</strong>
 <ul>
 <li>Usernames and passwords. This can be easily implemented by adding <code>password = input("enter password")</code> and using double equals to check if it matches a previously defined variable, or even decrypted from an external file.</li>
+<li>Only a subset of registered users may be permitted to make changes (<em>think user access levels!</em>)</li>
 </ul>
 </li>
 </ul>
 <p>Code written must also be maintainable in the future. There are several ways of ensuring this.</p>
 <ul>
-<li>Subroutines. These are parts of the main program. If one part of the program needs to be changed, it can be in the subroutine which is called, so other parts of the code are not affected by changes. Also, it can reduce the amount of clutter in code: if something needs to happen multiple times, code can just link back to a pre-existing subroutine.</li>
+<li><strong>Subroutines</strong>. These are parts of the main program. If one part of the program needs to be changed, it can be in the subroutine which is called, so other parts of the code are not affected by changes. Also, it can reduce the amount of clutter in code: if something needs to happen multiple times, code can just link back to a pre-existing subroutine.</li>
 </ul>
 <blockquote>
-<p>In BaguetteBot, whenever someone generates coins in a <a href="https://discord.gg/GfetCXH">Discord server</a>, one subroutine takes care of this, instead of being defined how to exactly add a coin whenever someone asks for their balance, joins voice chat, sends a message, etc.</p>
+<p>Real example: In my Discord bot, whenever someone is active in the <a href="https://discord.gg/GfetCXH">Discord server</a> and earns XP, one subroutine takes care of this, instead of the algorithm to update a balance being defined whenever someone asks for their balance, joins voice chat, sends a message, etc.</p>
 </blockquote>
 <ul>
-<li>Naming conventions. There is a set of rules you should follow when naming variables and subroutines. For example, naming something <code>x</code> doesn’t really tell you what it does, whereas <code>value_inputted</code> will. (I’m very guilty of this!)</li>
-<li>Indentation. Essential for legibility, indentation also defines if statements and more. It also makes it easier to read what parts of the program do, as indented levels show that everything on that indent is a result of something previously.</li>
-<li>Commenting. Helps people read your code and helps you come back to work on it later. Denoted by either <code>#</code>, <code>"""</code> or <code>//</code>, depending on the language. The first two are for Pythion.</li>
+<li><strong>Naming conventions</strong>. There should be a set of rules you should follow when naming variables and subroutines. For example, naming something <code>x</code> doesn’t really tell you what it does, whereas <code>value_inputted</code> will. (I’m very guilty of this!)</li>
+<li><strong>Indentation</strong>. Essential for legibility, indentation also defines <code>if</code> statements in Python. It also makes it easier to read what parts of the program do, as indented levels show that everything on that indent is a result of something previously. In other programming languages, indentation is optional, but can make reading code significantly easier.</li>
+<li><strong>Commenting</strong>. Helps people read your code by inserting natural language statements, and can help you if you come back to it later. Denoted by either <code>#</code>, <code>"""</code> or <code>//</code>, depending on the language. The first two are for Pythion.</li>
 </ul>
 <h2 id="testing">2.3.2 Testing</h2>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.2_testing.png" alt=""></p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.2_testing.png" alt="OCR GCSE computer science specification section 2.3.2 Testing"></p>
 <p>Testing is used to make sure there are no bugs or unexpected events when the code is run. You don’t want to send your code to a client if it doesn’t work!</p>
-<p>Logic errors result in the program still executing, but producing unexpected results.</p>
-<p>Syntax errors are errors which break the grammatical rules of the programming language and stop it from being run/translated into machine code.</p>
-<p>Il existe deux exemples de tests :</p>
+<p><strong>Logic errors</strong> result in the program still executing, but producing unexpected results.</p>
+<p><strong>Syntax errors</strong> are errors which break the grammatical rules of the programming language and stop it from being run/translated into machine code.</p>
+<h3 id="test-types">Test types</h3>
+<p>Il existe deux exemples de tests : <!-- I'm leaving this in haha --></p>
 <ul>
-<li>Iterative testing. This is testing the code, or parts of it, during development to ensure there are no seriously buggy things happening as a result of a typo. It may be easier to identify the mistake if the code is run every few minutes, as the programmer will remember what they’ve changed.</li>
-<li>Final/terminal testing. This is testing which occurs at the end of production of some code, before being sent to clients.</li>
+<li><strong>Iterative testing</strong>. This is testing the code, or parts of it, during development to ensure there are no seriously buggy things happening as a result of a typo. It may be easier to identify the mistake if the code is run every few minutes, as the programmer will remember what they’ve changed.</li>
+<li><strong>Final/terminal testing</strong>. This is testing which occurs at the end of production of some code, before being sent to clients, and can help catch errors that arise only when multiple parts of the system are put together.</li>
 </ul>
-<p>Normal test data is data which should be accepted by a program, without causing errors</p>
-<p>Boundary test data is data of the correct type which is on the very edge of being valid. For example, in the statement <code>if x &gt; 10</code>, the boundary would be 10.</p>
-<p>Invalid test data is data of the correct data type which should be rejected by a computer system. This could be like if an age is -100 years old.</p>
-<p>Erroneous test data is data of the incorrect data type which should be rejected by a computer system. This could be entering a name instead of an age.</p>
+<p><strong>Normal test data</strong> is data which should be accepted by a program, without causing errors.</p>
+<p><strong>Boundary test data</strong> is data of the correct type which is on the very edge of being valid. For example, in the statement <code>if x &gt; 10</code>, the boundary would be 10.</p>
+<p><strong>Invalid test data</strong> is data of the correct data type which should be rejected by a computer system. This could be like if an age is -100 years old.</p>
+<p><strong>Erroneous test data</strong> is data of the incorrect data type which should be rejected by a computer system. This could be entering a string name when an age is expected.</p>
 <blockquote>
 <p>You need to know how to identify suitable test data for a scenario, and how to create and complete a test plan. By putting in ‘erroneous’, ‘boundary’ and ‘valid’ during iterative testing and final testing, this will get you full marks.</p>
 </blockquote>
 <h1 id="boolean-logic">2.4 Boolean logic</h1>
 <h2 id="boolean-logic-1">2.4.1 Boolean logic</h2>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.4.1_boolean_logic.png" alt=""><br>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.4.1_boolean_logic.png" alt="OCR GCSE computer science specification section 2.4.1 Boolean logic"><br>
 <em>Ahhh… logic diagrams and truth tables. My worst enemy. There’s always a tricksy little 1 or 0 that I always put in the wrong place and there goes my full marks for the test. Grrrr!</em></p>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/andornot.png" alt="AND, OR and NOT gates"><br>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/andornot.png" alt="OCR GCSE computer science specification section 2.4.1 Boolean logic - and, or and not gates"><br>
 <em>Your AND, OR and NOT gates.</em></p>
 <p>You must be able to follow the lines in a truth table, and the interactions these have at these gates.</p>
 <ul>
@@ -551,50 +556,50 @@ would retrieve:</p>
 <em>AND gate outputs</em></p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/orgate.png" alt="OR gate "><br>
 <em>OR gate outputs</em></p>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/notgate.png" alt="Deez nots"><br>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/notgate.png" alt="Not gate"><br>
 <em>Deez NOTs</em></p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/waffling.png" alt="Lmao"><br>
 <em>You don’t have to know this lol</em></p>
 <h1 id="languages-and-ides">2.5 Languages and IDEs</h1>
 <h2 id="languages">2.5.1 Languages</h2>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.1_languages.png" alt=""></p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.1_languages.png" alt="OCR GCSE computer science specification section 2.5.1 Languages"></p>
 <p>There are two categories of programming language: high and low-level languages.</p>
 <ul>
 <li>High-level languages are those which sensible people code in, like Python, JavaScript, and HTML. They are <strong>easy to read and write</strong>, and some have a human-like syntax. They also <strong>do not depend on the physical architecture of the processors</strong> executing them. However, as they are <strong>machine independent</strong>, they must be <strong>translated</strong> in order to run.</li>
-<li>Low-level languages like assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run ‘closer’ to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary.</li>
+<li>Low-level languages are assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run ‘closer’ to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary.</li>
 </ul>
 <blockquote>
 <p>Assembly code, although is a low-level language, is not quite machine code. Machine code is what everything must be translated into to be executed.</p>
 </blockquote>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/translators.png" alt="enter image description here"><br>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/translators.png" alt="High level languages vs assembly languages vs machine code and physical hardware, with the assembler and instruction set labelled from BBC"><br>
 <em>Taken from <a href="https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5">here</a></em></p>
-<p>A compiler parses the source code once, saving the results as a binary file, and translating it. An interpreter reads the source code line by line and converts it to executable binary while executing.</p>
-<p>Compiled code runs faster, as they have already been translated. If the code has no logic or syntax errors and does not need to be debugged, compiled code is always better. It optimises code as well, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code may also only be on the hardware and OS it is targeted to. You can’t run an EXE file on your phone without an IDE.</p>
-<p>Interpreted code is slower, as the CPU must wait for every line to be translated, but has the potential to run on multiple kinds of hardware, running different operating systems. It simply executes code, without saving a machine code version. They require less memory also as they do not translate the entire file.</p>
+<p>A <strong>compiler</strong> parses the source code once, translates it into machine code, and saves the results as a binary file. An <strong>interpreter</strong> reads the source code line by line and converts it to executable while executing.</p>
+<p>Compiled code runs faster, as it has already been translated. If the code has no logic or syntax errors and does not need to be debugged, then compiled code is always better. The compiler optimises code too, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code only works on the hardware and OS it is targeted to. You can’t run an EXE file on your phone without an IDE.</p>
+<p>Interpreted code is executed slower, as the CPU must wait for every line to be translated, but has the potential to run on multiple kinds of hardware, running different operating systems. It simply executes code, without saving a machine code version. They generally require less memory as they do not translate the entire file.</p>
 <blockquote>
 <p>Interpreters can be built with a REPL, or a Read Execute Print Loop. Hence the name of the coding platform, Replit.</p>
 </blockquote>
 <h2 id="the-ide">2.5.2 The IDE</h2>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.2_The_Integrated_Development_Environment_IDE.png" alt=""></p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.2_The_Integrated_Development_Environment_IDE.png" alt="OCR GCSE computer science specification section 2.5.2 The IDE (Integrated Development Environment)"></p>
 <p>The IDE (integrated development environment) has a wide range of tools to help programmers develop programs. These include:</p>
 <ul>
-<li>Editors. Code can be edited.</li>
-<li>Error diagnostics. Tracebacks can show what caused exactly what to fail at the exact line.</li>
-<li>Run-time environment. This allows a program to run on a computer even if it was not designed to. This allows the programmer to just use their known high-level language, and the RTE will do the rest.</li>
-<li>Translators. They translate code to be executed.</li>
+<li><strong>Editors</strong>. Code can be edited.</li>
+<li><strong>Error diagnostics</strong>. Tracebacks can show what caused exactly what to fail at the exact line.</li>
+<li><strong>Providing a run-time environment</strong>. This allows a program to run on a computer even if it was not designed to, allowing the programmer to just use their known high-level language, and the RTE will do the rest.</li>
+<li><strong>Translators</strong>. They translate code to be executed.</li>
 </ul>
 <p>You can also write about:</p>
 <ul>
-<li>Breakpoints - code can be stopped at a specific line and variables can be checked for logic errors</li>
-<li>Auto-correct and indent</li>
-<li>Autosuggestion - can sometimes fix a problem automatically</li>
-<li>Syntax highlighting - similar declarations can be coloured to see them better. For example, all variables could be yellow while classes are blue.</li>
-<li>Linting - the IDE can analyse the code you’re writing as you’re writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable.</li>
+<li><strong>Breakpoints</strong> - code can be stopped at a specific line and variables can be checked for logic errors</li>
+<li><strong>Auto-correction</strong> and indentation, to reduce silly mistakes</li>
+<li><strong>Autosuggestion</strong> - can sometimes fix a problem automatically, speeding up coding</li>
+<li><strong>Syntax highlighting</strong> - similar declarations can be coloured to see them better. For example, all variables could be yellow while classes are blue.</li>
+<li><strong>Linting</strong> - the IDE can analyse the code you’re writing as you’re writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable.</li>
 </ul>
 <hr>
 <p>That’s it! Go get a grade 9! Of course, you need to do some of your own programming, so a few examples are below for you to have a go at.</p>
 <hr>
-<h1 id="programming-examples.">Programming examples.</h1>
+<h1 id="programming-examples">Programming examples</h1>
 <h2 id="level-easy">Level: Easy</h2>
 <ol>
 <li>Randomly generate a number and have the user guess it. If the user makes an incorrect guess, then say how far out the user is. The maximum amount it can be is the user’s input. Maximum 20 lines.</li>
@@ -608,9 +613,7 @@ would retrieve:</p>
 <li>Create a list of cars, each with a cost. The user can buy a certain amount of cars, with 100 coins. The user cannot buy the same car twice. Display these cars at the end when the user has no money left. Use a singular 2d list to store the available cars, the costs and owned cars. Maximum 20 lines.</li>
 </ol>
 <h2 id="answers">Answers</h2>
-<ol>
-<li></li>
-</ol>
+<h3 id="answer-1">Answer 1</h3>
 <p><a href="https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.png">My example</a>.<br>
 Download <a href="https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.py">Python</a> / <a href="https://cheatsheet-assets.ibaguette.com/gcse/compsci/target.txt">txt</a></p>
 <pre class=" language-py"><code class="prism  language-py"><span class="token keyword">import</span> random

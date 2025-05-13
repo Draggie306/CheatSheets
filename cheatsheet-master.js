@@ -32,15 +32,15 @@ const gcse_history_healthandthepeople = "https://raw.githubusercontent.com/Dragg
 // https://github.com/Draggie306/CheatSheets/blob/main/GCSE/snippets/GCSE%20Computer%20Science%201.6%20Impacts%20of%20digital%20technology%20Revision%20Guide%20-%20OCR%20J277.html
 
 
-const systems_architecture_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.1%20Systems%20Architecture%20Revision%20Guide%20-%20OCR%20J277.html"
-const memory_storage_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.2%20Memory%20and%20Storage%20Revision%20Guide%20-%20OCR%20J277.html"
-const networks_protocols_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.3%20Networks,%20connections%20and%20protocols%20Revision%20Guide%20-%20OCR%20J277.html"
-const network_security_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.4%20Network%20security%20Revision%20Guide%20-%20OCR%20J277.html"
-const systems_software_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.5%20Systems%20Software%20Revision%20Guide%20-%20OCR%20J277.html"
-const impacts_tech_snippet = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.6%20Impacts%20of%20digital%20technology%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_systems_architecture = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.1%20Systems%20Architecture%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_memory_storage = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.2%20Memory%20and%20Storage%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_networks_protocols = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.3%20Networks,%20connections%20and%20protocols%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_network_security = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.4%20Network%20security%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_systems_software = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.5%20Systems%20Software%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_impacts_tech = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.6%20Impacts%20of%20digital%20technology%20Revision%20Guide%20-%20OCR%20J277.html"
 
 
-// A level links
+// A Level links
 const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
 const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html"
 const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html"
@@ -51,6 +51,8 @@ const alevel_geog_diseasedilemmas = "https://raw.githubusercontent.com/Draggie30
 const alevel_french_choristes = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Les%20Choristes%20-%20Past%20Paper%20Questions.html"
 const alevel_french_lsdlm = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Le%20Silence%20de%20la%20mer%20-%20Past%20Paper%20Questions.html"
 const alevel_geog_hazardousearth = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Hazardous%20Earth.html"
+const alevel_geog_glaciation = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Glaciation.html"
+const alevel_geog_elss = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20ELSS.html"
 
 const hizi_sites = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Subject_Sites.html"
 
@@ -274,10 +276,10 @@ const alevel_main_page = `<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>A-Level Revision Material | iBaguette</title>
+    <title>All A Level Revision Material | iBaguette</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="A-Level Revision Material | iBaguette">
-    <meta name="description" content="Explore our comprehensive A-Level cheat sheets and revision material. Ace your exams with resources for Computer Science, Geography, Maths, and more!">
+    <meta name="title" content="All A Level Revision Material | iBaguette">
+    <meta name="description" content="Explore all our A Level revision material, including Cheat Sheets and full revision guides. Smash your exams with resources for Computer Science, Geography, Maths, and more!">
     <meta name="robots" content="index, follow">
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
 	<!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
@@ -290,7 +292,7 @@ const alevel_main_page = `<!DOCTYPE html>
 	<!-- <link rel="stylesheet" href="D:\CheatSheets\cheatsheet-browser-style.css"> -->
 	<link rel="canonical" href="https://ibaguette.com/cheatsheets/alevel">
 
-	<!-- Breadcrumb for A level -->
+	<!-- Breadcrumb for A Level -->
     <script type="application/ld+json">
 		{
 		"@context": "https://schema.org",
@@ -375,9 +377,9 @@ const alevel_main_page = `<!DOCTYPE html>
 
 	</script>
 
-	<h1 class="h1">All available A level Revision Resources</h1>
+	<h1 class="h1">All available A Level Revision Resources</h1>
 	
-	<p>This is a work in progress page for my (and iBaguette contributors') A-level cheat sheets. I hope you find them useful!</p>
+	<p>This is a work in progress page for my (and iBaguette contributors') A Level cheat sheets. I hope you find them useful!</p>
 	<span style="font-size: 1.8em; color: red; text-shadow: 1px 1px 1px black;"><strong>Hover over the options below</strong></span></style> to see all their respective resources available!
 	</span>
 
@@ -445,6 +447,7 @@ const alevel_main_page = `<!DOCTYPE html>
 		<button class="dropbtn-grey">EPQ</button>
 		<div class="dropdown-content">
 			<a href="#">Coming soon...</a>
+			<a href="https://www.youtube.com/watch?v=kVWZdC9cOck">Watch an A* EPQ Presentation!</a>
 		</div>
 	</div>
   
@@ -486,7 +489,7 @@ const alevel_main_page = `<!DOCTYPE html>
 	<br><br><br>
 	<div class="footer-content">
 		<p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
-		<p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
+		<p>Join the <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigade</a>, our active and supporting Discord community for students, developers, teachers and people in industry. Plus, get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
 	<div class="footer-content">
@@ -508,7 +511,7 @@ const gcse_main_page = `<!DOCTYPE html>
     <title>GCSE Revision Material | iBaguette</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="GCSE Revision Material | iBaguette">
-    <meta name="description" content="Get access to comprehensive, informative and complete cheat sheets and other revision material for a range of GCSE subjects and exam boards, all matched directly to the specifications.">
+    <meta name="description" content="Get access to comprehensive, informative and complete revision material, including Cheat Sheets and full revision guides, for a range of GCSE subjects and exam boards, all matched directly to the specifications.">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
     <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
@@ -560,7 +563,7 @@ const gcse_main_page = `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 6,
           "item": {
-            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience",
+            "@id": "https://ibaguette.com/cheatsheets/gcse/computerscience",
             "name": "Computer Science"
           }
         },
@@ -592,7 +595,7 @@ const gcse_main_page = `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 10,
           "item": {
-            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-architecture",
+            "@id": "https://ibaguette.com/cheatsheets/gcse/computerscience/systems-architecture",
             "name": "OCR J277 - Systems Architecture Revision Guide"
           }
         },
@@ -600,7 +603,7 @@ const gcse_main_page = `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 11,
           "item": {
-            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/memory-and-storage",
+            "@id": "https://ibaguette.com/cheatsheets/gcse/computerscience/memory-and-storage",
             "name": "OCR J277 - Memory and Storage Revision Guide"
           }
         },
@@ -608,7 +611,7 @@ const gcse_main_page = `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 12,
           "item": {
-            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/networks-and-protocols",
+            "@id": "https://ibaguette.com/cheatsheets/gcse/computerscience/networks-and-protocols",
             "name": "OCR J277 - Networks, Connections and Protocols Revision Guide"
           }
         },
@@ -616,7 +619,7 @@ const gcse_main_page = `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 13,
           "item": {
-            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/network-security",
+            "@id": "https://ibaguette.com/cheatsheets/gcse/computerscience/network-security",
             "name": "OCR J277 - Network Security Revision Guide"
           }
         },
@@ -624,7 +627,7 @@ const gcse_main_page = `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 14,
           "item": {
-            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/systems-software",
+            "@id": "https://ibaguette.com/cheatsheets/gcse/computerscience/systems-software",
             "name": "OCR J277 - Systems Software Revision Guide"
           }
         },
@@ -632,7 +635,7 @@ const gcse_main_page = `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 15,
           "item": {
-            "@id": "https://ibaguette.com/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology",
+            "@id": "https://ibaguette.com/cheatsheets/gcse/computerscience/impacts-of-digital-technology",
             "name": "OCR J277 - Impacts of Digital Technology Revision Guide"
           }
         }
@@ -691,15 +694,15 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 <div class="dropdown">
   <button class="dropbtn">Computer Science</button>
   <div class="dropdown-content">
-    <a href="/cheatsheets/gcse/ComputerScience/paper1" target="_blank" rel="noopener">OCR J277 Paper 1</a>
-    <a href="/cheatsheets/gcse/ComputerScience/paper2" target="_blank" rel="noopener">OCR J277 Paper 2</a>
-    <a href="/cheatsheets/gcse/ComputerScience" target="_blank" rel="noopener">OCR J277 Paper 1 and 2</a>
-    <a href="/cheatsheets/gcse/ComputerScience/systems-architecture" target="_blank" rel="noopener">Snippet - Systems Architecture</a>
-    <a href="/cheatsheets/gcse/ComputerScience/memory-and-storage" target="_blank" rel="noopener">Snippet - Memory and Storage</a>
-    <a href="/cheatsheets/gcse/ComputerScience/networks-and-protocols" target="_blank" rel="noopener">Snippet - Networks and Protocols</a>
-    <a href="/cheatsheets/gcse/ComputerScience/network-security" target="_blank" rel="noopener">Snippet - Network Security</a>
-    <a href="/cheatsheets/gcse/ComputerScience/systems-software" target="_blank" rel="noopener">Snippet - Systems Software</a>
-    <a href="/cheatsheets/gcse/ComputerScience/impacts-of-digital-technology" target="_blank" rel="noopener">Snippet - Impacts of Digital Technology</a>
+    <a href="/cheatsheets/gcse/computerscience/paper1" target="_blank" rel="noopener">OCR J277 Paper 1</a>
+    <a href="/cheatsheets/gcse/computerscience/paper2" target="_blank" rel="noopener">OCR J277 Paper 2</a>
+    <a href="/cheatsheets/gcse/computerscience" target="_blank" rel="noopener">OCR J277 Paper 1 and 2</a>
+    <a href="/cheatsheets/gcse/computerscience/systems-architecture" target="_blank" rel="noopener">Snippet - Systems Architecture</a>
+    <a href="/cheatsheets/gcse/computerscience/memory-and-storage" target="_blank" rel="noopener">Snippet - Memory and Storage</a>
+    <a href="/cheatsheets/gcse/computerscience/networks-and-protocols" target="_blank" rel="noopener">Snippet - Networks and Protocols</a>
+    <a href="/cheatsheets/gcse/computerscience/network-security" target="_blank" rel="noopener">Snippet - Network Security</a>
+    <a href="/cheatsheets/gcse/computerscience/systems-software" target="_blank" rel="noopener">Snippet - Systems Software</a>
+    <a href="/cheatsheets/gcse/computerscience/impacts-of-digital-technology" target="_blank" rel="noopener">Snippet - Impacts of Digital Technology</a>
   </div>
 </div>
 
@@ -752,7 +755,7 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
 
   <div class="footer-content">
     <p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
-    <p>Join <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigaders</a>, our active and supporting Discord community for students, developers, professionals, and educators. Get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
+    <p>Join the <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigade</a>, our active and supporting Discord community for students, developers, teachers and people in industry. Plus, get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, get personalised answers, and have fun!</p>
   </div>
   <br>
 	<!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
@@ -1029,7 +1032,7 @@ async function handleRequest(request) {
     // Snippets
 
     else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-architecture")) {
-      const response = await fetch(systems_architecture_snippet);
+      const response = await fetch(gcse_snippet_cs_systems_architecture);
       htmlResponse = new Response(await response.text(), {
         headers: {
           "content-type": "text/html;charset=UTF-8",
@@ -1041,7 +1044,7 @@ async function handleRequest(request) {
       })
     }
     else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/memory-and-storage")) {
-      const response = await fetch(memory_storage_snippet);
+      const response = await fetch(gcse_snippet_cs_memory_storage);
       htmlResponse = new Response(await response.text(), {
         headers: {
           "content-type": "text/html;charset=UTF-8",
@@ -1053,7 +1056,7 @@ async function handleRequest(request) {
       })
     }
     else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/networks-and-protocols")) {
-      const response = await fetch(networks_protocols_snippet);
+      const response = await fetch(gcse_snippet_cs_networks_protocols);
       htmlResponse = new Response(await response.text(), {
         headers: {
           "content-type": "text/html;charset=UTF-8",
@@ -1065,7 +1068,7 @@ async function handleRequest(request) {
       })
     }
     else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/network-security")) {
-      const response = await fetch(network_security_snippet);
+      const response = await fetch(gcse_snippet_cs_network_security);
       htmlResponse = new Response(await response.text(), {
         headers: {
           "content-type": "text/html;charset=UTF-8",
@@ -1077,7 +1080,7 @@ async function handleRequest(request) {
       })
     }
     else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-software")) {
-      const response = await fetch(systems_software_snippet);
+      const response = await fetch(gcse_snippet_cs_systems_software);
       htmlResponse = new Response(await response.text(), {
         headers: {
           "content-type": "text/html;charset=UTF-8",
@@ -1089,7 +1092,7 @@ async function handleRequest(request) {
       })
     }
     else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/impacts-of-digital-technology")) {
-      const response = await fetch(impacts_tech_snippet);
+      const response = await fetch(gcse_snippet_cs_impacts_tech);
       htmlResponse = new Response(await response.text(), {
         headers: {
           "content-type": "text/html;charset=UTF-8",

@@ -1,12 +1,12 @@
 ﻿
 
 [< Back to A Level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
-# OCR A Level Geography - Full Physical (Paper 1) Revision Notes
+# OCR A Level Geography - COMPLETE Paper 1 (Physical) Revision Notes
 
 **⚠ Please note, this is a work-in-progress, somewhat unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
 [Latest update: 12/05/2025 19:55. 
-Last content addition: 07/06/2023 23:16.](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+Last content addition: 07/06/2024 22:18.](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 ✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). This is the latest version.
 
@@ -748,19 +748,15 @@ That's the end for glaciation! I hope you found it useful.
 *What if I told you about Paraglaciation and Paraperiglaciation as well?*
 
 
-# 1.2 Physical - Earth's Life Support Systems
-Wordcount: 8799
-Last modification: 04/05/2025 22:45
-Written by: [Oliver (100%)](https://github.com/Draggie306/CheatSheets)
-License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) - *you may use this in your own work, but a link to this resource and author acknowledgement must be given. please click the link for the full legal deed.*
+# Earth's Life Support Systems
+
+"Without water and carbon I literally would not be here" - a wise man, 2024
 
 ---
+
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/elss-dalle3-A%20creative%20representation%20of%20Earth%27s%20life%20support%20systems,%20depicting%20Earth%20as%20a%20humanoid%20figure%20lying%20on%20a%20hospital%20bed,%20looking%20sickly.%20On%20either%20sid.png)
 *giving earth life support - created with [dall-e 3](https://openai.com/dall-e-3)*
 
-
-
-"Without water and carbon I literally would not be here" - a wise man, 2024
 
 ## 1. How important are water and carbon to life on Earth?
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/ELSS-keyidea1.png)
@@ -780,7 +776,7 @@ It is described by astronomers as:
 
 Water is essential to supporting life. The atmosphere is sustained by a continual cycle of evaporation and condensation through cloud formation. Water vapour itself is a very potent greenhouse gas, which regulates and moderates global temperatures: the climate is 15 degrees C warmer with water than without. As sun rays collide with the molecules in water vapour, they heat them up, causing them to vibrate and let off heat. In addition, water vapour is excellent as stopping short-wave radiation from causing harm for the biosphere. The greenhouse effect by water vapour prevents some long-wave radiation reflected from the Earth from exiting. It makes up 65-95% of all the biospheric mass, including in people, flora and fauna.
 
-Water itself is in a closed system, meaning that water cannot enter or leave the Earth. As the water cannot exit or enter, it is transferred, stored and moved around inside the system. This is known as the **global hydrological cycle**.An open system within the overall closed water cycle system may be a drainage basin: water can enter and exit at any time.
+Water itself is in a closed system, meaning that water cannot enter or leave the Earth. As the water cannot exit or enter, it is transferred, stored and moved around inside the system. This is known as the **global hydrological cycle**. An open system within the overall closed water cycle system may be a drainage basin: water can enter and exit at any time.
 
 |Store|Size|% of total|
 |--|--|---
@@ -792,7 +788,7 @@ Water itself is in a closed system, meaning that water cannot enter or leave the
 | Atmosphere | 13k km^3^ |0.00093%
 | Rivers | 2.1k km^3^ |0.00015%
 | Biosphere | 1.1k km^3^ |0.000081%
-* Data updated to match latest scientific research.
+\* *Data updated to match latest scientific research.*
 
 ### Introduction to carbon
 

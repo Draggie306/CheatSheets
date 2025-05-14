@@ -1,4 +1,6 @@
-﻿
+﻿[< Back to all GCSE Cheat Sheets](https://ibaguette.com/cheatsheets/gcse)
+
+
 ## How to… AQA GCSE History 8145/2A
 
 **Read this first.**

@@ -1,7 +1,7 @@
 ﻿
 
 [< Back to A Level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
-# OCR A Level Geography - COMPLETE Paper 1 (Physical) Revision Notes
+# OCR A Level Geography - Full Paper 1 (Physical) Revision Notes
 
 **⚠ Please note, this is a work-in-progress, somewhat unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
@@ -21,7 +21,7 @@ For the Cheat Sheet matched to the entire specification, you can go [here](https
 
 *"Feeling a little like a **[drumlin](#drumlins)** today."*
 
-Check out this interactive [ARCGIS British ice map](https://shefuni.maps.arcgis.com/apps/webappviewer/index.html?id=fd78b03a74bb477c906c5d4e0ba9abaf) to see places in the UK which have been influenced by glacial activity, with drumlins, subglacial lineations, moraines and more!
+Check out this interactive [BRITICE glacial map](https://shefuni.maps.arcgis.com/apps/webappviewer/index.html?id=fd78b03a74bb477c906c5d4e0ba9abaf) to see places in the UK which have been influenced by glacial activity, with drumlins, subglacial lineations, moraines and more, from Sheffield University!
 
 
 ## Glaciers as Systems
@@ -249,7 +249,7 @@ As this meltwater is forced up and over the roche moutonnée, mechanical pluckin
 Roche moutonnées are generally concentrated in areas of **competent bedrock**, such as *granitoids* (Glasser, 2002) - this essentially means that rocks are somewhat resistant to deformation.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/0000019273.jpg)
-*Source: [Québec government website](https://gq.mines.gouv.qc.ca/lexique-stratigraphique/quaternaire/roche-moutonnee/)*
+*Source: [Québec government website](https://gq.mines.gouv.qc.ca/quaternaire/roche-moutonnee/)*
 
 The word is French with "roche" meaning rock and "moutonée" meaning sheep.
 
@@ -432,7 +432,7 @@ As it made its final retreat, meltwater was blocked by the ice and the large "Bi
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d5/River_Warren_Valley.gif)
 *The top left is the bed of Lake Agassiz, and the eroded area is visible too. North Minnesota.*
 
-If you're interested, an interactive map of the glacial extent and lobes is available [here](https://royalholloway.maps.arcgis.com/apps/webappviewer/index.html?id=22484133aff845599d5f1a6a0746572c), thanks to the brilliant geographers over at Royal Holloway.
+If you're interested, an interactive map of the glacial extent and lobes is available [here](https://www.arcgis.com/apps/webappviewer/index.html?id=22484133aff845599d5f1a6a0746572c), thanks to the brilliant geographers over at Royal Holloway uni.
 
 
 
@@ -510,7 +510,7 @@ A kame is an irregularly shaped hill, hummock or mound made of stratified glacia
 
 There are two types of kame:
 #### Delta kames
-Delta kames can form in two main ways. Firstly, they can form due to he build-up of debris in **englacial tunnels** (and crevasses) that emerge at the glacial terminus as a result of retreat. As a result, they lose their energy, and are forced to deposit their contained load.
+Delta kames can form in two main ways. Firstly, they can form due to the build-up of debris in **englacial tunnels** (and crevasses) that emerge at the glacial terminus as a result of retreat. As a result, they lose their energy, and are forced to deposit their contained load.
 
 Another way that they can be formed is when supraglacial streams meet ice-marginal lakes. These ice margin water bodies are largely static (just sit there tbh) so the sediment they carry loses energy and gets deposited in the lake, from where this supraglacial stream enters it, often leading to a tall accumulation.
 
@@ -600,7 +600,7 @@ They are formed by large blocks of ice breaking from the main glacier. As the ma
 ## Periglacial landforms
 Periglacial landforms exist as a result of climate changes before and/or after glacial periods.
 
-**Periglaciation** is concerned with the process and landforms attributed to the action of **freeze-thaw**, typically, in permafrost areas.
+**Periglaciation** is concerned with the process and landforms attributed to the action of **freeze-thaw**, typically in permafrost areas.
 
 Being in a periglacial area means an area that is near to, or on the fringe of, glacial areas' ice mass, such that permafrost is present. This means that there is no physical glacier system present in the area, but it is still cold, relative to surrounding environments. 
 

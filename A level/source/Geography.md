@@ -3,6 +3,7 @@
 
 
 
+
 [< Back to A Level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
 # A Level OCR Geography: Complete Cheat Sheet
@@ -10,8 +11,8 @@
 **⚠ This is a work-in-progress, unfinished document. The most unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 please let me know if there are any errors :)
 
-[Latest update: 05/05/2025 13:53
-Last content addition: 15/05/2024 18:43](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Latest update: 14/05/2025 15:49
+Last content addition: 14/05/2025 15:43](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 License: [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) - *you may use this in your own work, but give credit!*
 
@@ -34,9 +35,10 @@ Let's get right into the content!
 
 # 1.1.2 Physical - Glaciated Landscapes
 
+
 *"Feeling a little like a **[drumlin](#drumlins)** today."*
 
-Check out this interactive [ARCGIS British ice map](https://shefuni.maps.arcgis.com/apps/webappviewer/index.html?id=fd78b03a74bb477c906c5d4e0ba9abaf) to see places in the UK which have been influenced by glacial activity, with drumlins, subglacial lineations, moraines and more!
+Check out this interactive [BRITICE glacial map](https://shefuni.maps.arcgis.com/apps/webappviewer/index.html?id=fd78b03a74bb477c906c5d4e0ba9abaf) to see places in the UK which have been influenced by glacial activity, with drumlins, subglacial lineations, moraines and more, from Sheffield University!
 
 
 ## Glaciers as Systems
@@ -447,7 +449,7 @@ As it made its final retreat, meltwater was blocked by the ice and the large "Bi
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d5/River_Warren_Valley.gif)
 *The top left is the bed of Lake Agassiz, and the eroded area is visible too. North Minnesota.*
 
-If you're interested, an interactive map of the glacial extent and lobes is available [here](https://royalholloway.maps.arcgis.com/apps/webappviewer/index.html?id=22484133aff845599d5f1a6a0746572c), thanks to the brilliant geographers over at Royal Holloway.
+If you're interested, an interactive map of the glacial extent and lobes is available [here](https://www.arcgis.com/apps/webappviewer/index.html?id=22484133aff845599d5f1a6a0746572c), thanks to the brilliant geographers over at Royal Holloway uni.
 
 
 
@@ -546,7 +548,7 @@ A meltwater stream is visible south of it, as well as another esker to the east.
 
  - - -
 
-### Essay example: influence of climate changes and geomorphic processes in their formation
+### Essay example: Explain the influence of climate changes and geomorphic processes in the formation of glacio-fluvial landforms
  
 Kames are mounds of sediment deposited by glacial meltwater or ice, found in areas where glacial ice melted and receded, leaving behind sediment deposits. The process of kame formation is complex and is a result of a variety of interrelated factors, including climate change and geomorphic processes.
 
@@ -615,7 +617,7 @@ They are formed by large blocks of ice breaking from the main glacier. As the ma
 ## Periglacial landforms
 Periglacial landforms exist as a result of climate changes before and/or after glacial periods.
 
-**Periglaciation** is concerned with the process and landforms attributed to the action of **permafrost**. Typical processes include freeze-thaw.
+**Periglaciation** is concerned with the process and landforms attributed to the action of **freeze-thaw**, typically in permafrost areas.
 
 Being in a periglacial area means an area that is near to, or on the fringe of, glacial areas' ice mass, such that permafrost is present. This means that there is no physical glacier system present in the area, but it is still cold, relative to surrounding environments. 
 
@@ -657,7 +659,7 @@ Resistant rock, or **tor**, may be more prominent in these blockfields as they a
 
 ### Types of mass movement
 #### Solifluction lobes
-Solifluction refers to the movement and "flowing" of soil and sediments.
+Solifluction refers the movement and "flowing" of soil and sediments.
 
 When the ground and soil on slopes is frozen during the winter, the soil particles are separated slightly and loosened by the ice which forms and expands by around 9% between these particles (frost heaving).
 
@@ -753,10 +755,7 @@ The dam was built as Alcoa produces 2% of the world's aluminium supply, and glob
 
 Glacial meltwater, or **glacial milk**, is released by the Vatnajökull glacier and flows into the lake blocked by the dam. This glacial meltwater is known to have a high concentration of sediment within it, and as such reduces the capacity of the dam over time. This is because the suspended sediment at the base of the water solidifies when deposited, as there is little kinetic energy at the bottom to keep suspended sediment floating. Over time, the base level of the lake increases, reducing overall water capacity, until this excess sediment is ‘purged' by the dam management system, which may happen annually. 
 
-[Here's a video of sediment getting purged](https://www.youtube.com/watch?v=BudgYjuVkYk)
-
-[Another one](https://www.youtube.com/watch?v=VUoHhyvY4_w)
-
+[Here's a video of sediment getting purged](https://www.youtube.com/watch?v=BudgYjuVkYk), and [here's another one](https://www.youtube.com/watch?v=VUoHhyvY4_w)!
 
 --- 
 That's the end for glaciation! I hope you found it useful.
@@ -766,17 +765,15 @@ That's the end for glaciation! I hope you found it useful.
 *What if I told you about Paraglaciation and Paraperiglaciation as well?*
 
 
----
-
 # 1.2 Physical - Earth's Life Support Systems
 
+"Without water and carbon I literally would not be here" - a wise man, 2024
+
 ---
+
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/elss-dalle3-A%20creative%20representation%20of%20Earth%27s%20life%20support%20systems,%20depicting%20Earth%20as%20a%20humanoid%20figure%20lying%20on%20a%20hospital%20bed,%20looking%20sickly.%20On%20either%20sid.png)
 *giving earth life support - created with [dall-e 3](https://openai.com/dall-e-3)*
 
-
-
-"Without water and carbon I literally would not be here" - a wise man, 2024
 
 ## 1. How important are water and carbon to life on Earth?
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/alevel/geography/ELSS-keyidea1.png)
@@ -796,7 +793,7 @@ It is described by astronomers as:
 
 Water is essential to supporting life. The atmosphere is sustained by a continual cycle of evaporation and condensation through cloud formation. Water vapour itself is a very potent greenhouse gas, which regulates and moderates global temperatures: the climate is 15 degrees C warmer with water than without. As sun rays collide with the molecules in water vapour, they heat them up, causing them to vibrate and let off heat. In addition, water vapour is excellent as stopping short-wave radiation from causing harm for the biosphere. The greenhouse effect by water vapour prevents some long-wave radiation reflected from the Earth from exiting. It makes up 65-95% of all the biospheric mass, including in people, flora and fauna.
 
-Water itself is in a closed system, meaning that water cannot enter or leave the Earth. As the water cannot exit or enter, it is transferred, stored and moved around inside the system. This is known as the **global hydrological cycle**.An open system within the overall closed water cycle system may be a drainage basin: water can enter and exit at any time.
+Water itself is in a closed system, meaning that water cannot enter or leave the Earth. As the water cannot exit or enter, it is transferred, stored and moved around inside the system. This is known as the **global hydrological cycle**. An open system within the overall closed water cycle system may be a drainage basin: water can enter and exit at any time.
 
 |Store|Size|% of total|
 |--|--|---
@@ -808,7 +805,7 @@ Water itself is in a closed system, meaning that water cannot enter or leave the
 | Atmosphere | 13k km^3^ |0.00093%
 | Rivers | 2.1k km^3^ |0.00015%
 | Biosphere | 1.1k km^3^ |0.000081%
-* Data updated to match latest scientific research.
+\* *Data updated to match latest scientific research.*
 
 ### Introduction to carbon
 
@@ -1271,7 +1268,6 @@ This is a collaborative effort at the drainage basin scale to encourage the shar
 
 Calculations are made in relation to the amount and rates of fluxes in the system, with "targets" placed on stores. For example, stating that aquifers should always remain 50% at capacity with a high water table. After these plans have been made, actions can be taken, such as reforestation to improve interception rates, slowing peak flow, and encouraging greater infiltration and percolation. Urban areas can be financially incentivised to reduce the amount of impermeable surfaces - such as in the EU Water Directive Framework pre-2020 where 10 catchment hydrologies had holistic plans established to improve the amount and availability of water at this scale.
 
-
 ---
 
 ## Paper 1 - Additional Skills
@@ -1395,7 +1391,7 @@ A range of reasons are contributing to this growth.
 
 Compared to the 83% employment rates of intra-regional migration, those coming into the UK from outside the EEA only have employment rates of 68% - the lowest of all groups, natives included.
 
-## Consequences of migration
+## [tbd] Consequences of migration
 When I say "consequences", this includes both positive and negative factors. For example, migration creates both stability whilst also may increase inequalities.
 
 Flows of people through migration is intrinsically linked to flows of money, culture, knowledge and ideas. 
@@ -1507,11 +1503,11 @@ The USA had an open border system for "any free white person" could become a cit
 Currently, there are 90.8 million migrants in the USA. 5% come from India and China, many are "persons of extraordinary ability" and are high-skill (Silicon Valley) wokers or have student visas from wealthy Asian families looking to be educated. 
 Mexico though is by far the greatest contributor to the US migrant population with an over 28% share.  
 
-Today, there are several key policies. However the **Immigation and Nationality Acts attempts to keep this number capped at 675,000 annually**.
+Today, there are several key policies. However the **Immigration and Nationality Acts attempts to keep this number capped at 675,000 annually**.
 - Green Card: open-door policy that allocates 50,000 visas anually at random to anyone that applies. It is a lottery system that promotes diversity. This gives a permanent residency card
-- Skills-based visas such as the H-1B, H-1A and O-1 allow 140,000 migants with skills deemed "valuable" and who are sponsored by a company every year to arrive. These are "aliens of extraordinary ability" and are highly educated, skillful, graduates and entrepreneurs who fuel innovation.  
+- Skills-based visas such as the H-1B, H-1A and O-1 allow 140,000 migrants with skills deemed "valuable" and who are sponsored by a company every year to arrive. These are "aliens of extraordinary ability" and are highly educated, skilful, graduates and entrepreneurs who fuel innovation.  
 - Family reunification: 226,000 people can be sponsored annually by lawful citizens to become permanent citizens. This is at risk with Trump-era policies and is viewed as the major source of challenges, so has a significant backlog.
-	- Histroically, amnesty has been given especially by Obama to allow illegal immigrant "dreamers" through policies such as DACA that protects children brought to the USA. This allows over a million people to have an education, work and live without fear of deportation
+	- Historically, amnesty has been given especially by Obama to allow illegal immigrant "dreamers" through policies such as DACA that protects children brought to the USA. This allows over a million people to have an education, work and live without fear of deportation
 - Refugees and humanitarian visas: the USA has historically taken in more refugees than the entire world, combined. This number changes annually but stays at around 45,000 per annum
 
 **Key Policies**
@@ -1536,7 +1532,7 @@ The USA's southern neighbour Mexico has over 37 million Mexicans, and each count
 
 Mexico also provides southern states such as Texas and southern California with low-skill, frequently illegal populations driven by the higher wages (though unfortunately many are still exploited by low-paying employers) and demand for agriculture and construction in the rapidly growing southern cities. Remittances constitute 4% of Mexico's GDP (or 63bn $US), largely from the USA. 
 
-U.S. Companies are expected to invst 40bn in Mexico throughout 2024. This creates a mutual demand for politicians to treat the interdependence between the countries seriously, with the companies benefitting from growth whilst Mexico benefits from greater availaibility of jobs and resources.
+U.S. Companies are expected to invest 40bn in Mexico throughout 2024. This creates a mutual demand for politicians to treat the interdependence between the countries seriously, with the companies benefitting from growth whilst Mexico benefits from greater availability of jobs and resources.
 
 There is increasing environmental political cooperation and interdependence with Mexico through the joint management of the Colorado river basin (that supports 40m people) and increasing collaboration regarding the fighting of illegal crossings, and drug and people trafficking at the border. USAID also invest in governmental projects to reduce deforestation by 2030 and promote natural climate solutions and energy efficiency.
 
@@ -1546,7 +1542,7 @@ There is increasing environmental political cooperation and interdependence with
 - Immigrants are themselves consumers, creating businesses. There is evidence of greater diversity and the occupation of old, industrial inner cities now occupied by migrants who redevelop the area.
 
 #### Challenges
-- Conflict. Trump and the Republican/Democratic divide has created ideas about the negatives of the Mexcian "epidemic" and various language has been used, but not all words become actions. According to the BBC only 80 new walls have been built... out of 1,951 miles.
+- Conflict. Trump and the Republican/Democratic divide has created ideas about the negatives of the Mexican "epidemic" and various language has been used, but not all words become actions. According to the BBC only 80 new walls have been built... out of 1,951 miles.
 - There are still, despite amnesties, high amounts of unauthorised, illegal immigrants, an estimated 10.9 million, as a result of the "American dream" ideology throughout central and southern American countries using Mexico as a way in.
 - The tightening of border laws, deployment of border control agents and ever increasing "bureaucracy" to process migrants has become a deterrent - and a burden for the taxpayer.
 - The size of the illegal population who do not wish to declare themselves out of fear is a barrier to social, economic and political integration. It may be burdensome on the demand of resources in scarce regions with high migrant stock - such as southern California (a desert).
@@ -1568,7 +1564,7 @@ Migration policies in Laos are ineffective. Human trafficking is very common - *
 
 Further to this, interdependence with Thailand is very significant. The majority of these migrants are unskilled labourers - but both countries benefit bilaterally thorough the 4x greater minimum wage in Thailand. The growing textiles and service sector are supported by Laotians who remit money - 2% of GDP - which is used on the local scale of food and essential resources (building resilience in the long-term) and large agricultural machinery - essential in such an economy.
 
-Laos and Thailand also jointly manage the Mekong river, inheritly improving political relations. 
+Laos and Thailand also jointly manage the Mekong river, inherently improving political relations. 
 
 #### Opportunities
 - Laos has received FDI from Vietnam in over 400 investment projects
@@ -1670,7 +1666,7 @@ Furthermore, the average income is £32,000, showing that there are many profess
 
 The majority of homes have 3-4 rooms, (not just bedrooms), suggesting that the majority of people in the area are either single, students, or in a relationship without children. There are 5708 homes in total, with 3188 people living alone. This data implies that there are many workers living in smaller, urban dwellings. When families are formed, they then go on to move away from the inner city area and potentially to more suburban areas outside of Mancroft. 
 
-These statistics reflect the average "life progression", with people working in inner city jobs or are students during thier early 20s due to work facilities available, nightclubs and nightlife (being more 'adventurous'), but then settle in a more comfortable job and have families, moving to more remove areas with a larger house to take care of children.
+These statistics reflect the average "life progression", with people working in inner city jobs or are students during their early 20s due to work facilities available, nightclubs and nightlife (being more 'adventurous'), but then settle in a more comfortable job and have families, moving to more remove areas with a larger house to take care of children.
 
 
 **Summary:**
@@ -1748,6 +1744,19 @@ At the heart of it, people are what turn a space into a multifaceted place. The 
 
 The local availability of a resource or natural advantage can encourage the growth of a settlement and mould its identity by fuelling industry. If these resources run out or global shift occurs for a particular product, technology typically takes over the natural advantage and the place profile can and often change. In Norwich, this **global shift** means that it has become cheaper and easier to manufacture goods like shoes and chocolate overseas and import it, leading to the replacement of local resources. Ocean-going ships have grown significantly in size and can no longer fit up the River Yare, so the riverside docklands fell into decline, much like the London Docklands. However, with shifting flows of people, opportunities have arisen in these areas, which are now shopping hubs and entrepreneurial centres of investment. 
 
+
+### Globalisation and our sense of place
+Globalisation and time-space compression contribute to the feelings of a "shrinking world". There is increasing interconnectedness due to massively increased trade and cultural links; containerisation popularised in 1956 by McLean has resulted in goods being traded faster, cheaper and in greater quantity. The communications revolution has promoted the sharing and flows of ideas, knowledge and technology, now measured in milliseconds with the internet.
+
+Exotic and far-away nations that were once perceived to be luxurious and out-of-reach can be reached in hours, not weeks. 
+The "global village" means that there are now global communities where people can meet, share ideas and have common interests; our sense of "place" now may be not just in the real world but also in platforms online and "places" to hang out in messaging boards and group chats. 
+
+Places in ACs may be characterised by less pollution, fewer unskilled labour with the decline of industry. However, large factories may remain, increasing crime and leaching from contaminated factories may give places a unique identity. Theses previously exotic countries - most likely LIDCs - may receive the other end, with increased contamination, rapid rural-urban migration fuelling slum settlements, and exploitative employers leaving a negative perception of the place amongst its own residents.
+
+Cultures and religions may increasingly be less and less influential in how we feel about places. Increased homogenisation of cultures, transnational corporations (Nike, McDonald's)wanting to make their presence known on every high street and the disappearance of old traditions as young people become enveloped by social media are contributing to a feel of uniformity within towns and cities worldwide. The "clone town" index was made to study this phenomenon.
+
+
+
 ## How do we understand place?
 
 > a) People see, experience and understand place in different ways, this can also change over time. 
@@ -1773,17 +1782,6 @@ b) Places are represented through a variety of contrasting formal and informal a
 ### Emotional attachment: The Kurds and Kurdistan
 
 > Content to be added soon!
-
-### Globalisation and our sense of place
-Globalisation and time-space compression contribute to the feelings of a "shrinking world". There is increasing interconnectedness due to massively increased trade and cultural links; containerisation popularised in 1956 by McLean has resulted in goods being traded faster, cheaper and in greater quantity. The communications revolution has promoted the sharing and flows of ideas, knowledge and technology, now measured in milliseconds with the internet.
-
-Exotic and far-away nations that were once perceived to be luxurious and out-of-reach can be reached in hours, not weeks. 
-The "global village" means that there are now global communities where people can meet, share ideas and have common interests; our sense of "place" now may be not just in the real world but also in platforms online and "places" to hang out in messaging boards and group chats. 
-
-Places in ACs may be characterised by less pollution, fewer unskilled labour with the decline of industry. However, large factories may remain, increasing crime and leaching from contaminated factories may give places a unique identity. Theses previously exotic countries - most likely LIDCs - may receive the other end, with increased contamination, rapid rural-urban migration fuelling slum settlements, and exploitative employers leaving a negative perception of the place amongst its own residents.
-
-Cultures and religions may increasingly be less and less influential in how we feel about places. Increased homogenisation of cultures, transnational corporations (Nike, McDonald's)wanting to make their presence known on every high street and the disappearance of old traditions as young people become enveloped by social media are contributing to a feel of uniformity within towns and cities worldwide. The "clone town" index was made to study this phenomenon.
-
 
 ## Economic change and patterns of social inequality
 
@@ -1924,7 +1922,7 @@ There are 5 main ways to rebrand an area:
 Human rights are a universal set of basic rights that everyone is entitled to at all times and in all places, protecting everyone equally and indiscriminately.
 
 The UDHR was written after WW2 as a framework to establish these rights. Whilst very morally strong and well-respected, it is not legally binding. 
-States therefore sign treaties to codify the set of human rights into compatible domestic legislation. One of these is the UN Convention on the Rights of the Child - which outlines what a child must need to survive, grow and reach their full potential, and is the basis for Unicef's work. This is the most widely ratified piece of legislation. 
+States therefore sign treaties to codify the set of human rights into compatible domestic legislation. One of these is the UN Convention on the Rights of the Child - which outlines what a child must need to survive, grow and reach their full potential, and is the basis for UNICEF's work. This is the most widely ratified piece of legislation. 
 To encourage codification, states may place trade sanctions or embargoes on others that do not ratify or enforce rules against human rights violations. 
 
 According to UNICEF, social norms are the perceived "unwritten rules" that define acceptable and appropriate actions and behaviours within a group or community.
@@ -2075,10 +2073,9 @@ Congolese
 > [tbd] Note: this section is currently being worked on!
 
 ---
-
 end of paper 2!
 
-good luck in Paper 3! Hazards are my favourite &lt;3 (sorry drumlins)
+good luck in Paper 3! Hazards are my favourite &lt;3 (sorry, drumlins)
 
 # 3.2 Debates - Disease Dilemmas
 <!-- Note that this is an incomplete cheat sheet. No ads will be shown. Eventually, the content here will be merged into the [main cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all). Happy revision!
@@ -2157,7 +2154,7 @@ In 2020, the monsoon rains were of unprecedented scale. In the first half of the
 
 Bangladesh, although has its problems, is improving too. The threat of more severe flooding in future years and stronger cyclones has prompted both the government and NGOs to intervene. Female education and nutrition has significantly improved, with an emphasis on breastfeeding which reduces the likelihood of deadly waterborne diseases like diarrhoea being introduced into vulnerable babies' and children's immune systems. The Government allocated 14,410 tons of rice to be given to those affected. Oral rehydration solution was given to treat those moderately dehydrated, with water purification tablets being used to treat water supplies in large population centres, significantly reducing the risk of waterborne illness contamination and subsequent infection.
 
-Extra reading available: [here](https://reliefweb.int/attachments/4a10a902-7de0-3983-b9f7-4b038c3b8e55/MDRBD025efr%20%281%29.pdf)
+Extra reading available: [here](https://cheatsheet-assets.ibaguette.com/alevel/geography/MDRBD025efr.pdf). (archived from the [original](https://reliefweb.int/attachments/4a10a902-7de0-3983-b9f7-4b038c3b8e55/MDRBD025efr%20%281%29.pdf))
 
 ## 2. Is there a link between disease and levels of economic development?
 ![Specification Content for Disease Dilemmas Key Idea 2 - "Is there a link between disease and levels of economic development?"](https://cheatsheet-assets.ibaguette.com/alevel/geography/SpecContent_DiseaseDilemmas-3.2.2.png)
@@ -2287,10 +2284,11 @@ Nepalese aid workers stationed along Mirebalais, in the Artibonite river valley,
 
 The British Red Cross targeted the outbreak with its own response programme between 2010 and 2012. 10 days after the outbreak began, MSF found that the largest camp in P-a-P had no access to chlorinated drinking water, and the Red Cross were able to deliver clean water to 300,000 camp dwellers in the capital. On top of this, as cholera is water-borne, they built 1300 latrines, serving almost 200 people each. They also directly treated over 20,000 cholera cases in treatment units across Haiti, provided medical supplies to hospitals in the Artibonite Valley and indirectly combatted the disease through educational measures, teaching how to avoid infection and the symptoms.
 
-Coupled with other aid workers like Cuban doctors who treated more than 75,000 cholera cases, it may have been a much greater success than it was. Weak governance contributed to the poor treatment of cholera in Haiti. There were over 10,000 NGOs but no effective management strategy and as a result, the easily-treated cholera was responsible for 10,000 deaths. [[1](https://www.cdc.gov/cholera/haiti/index.html)]. Basic functionality and sanitation was not put in place across the country. 
+Coupled with other aid workers like Cuban doctors who treated more than 75,000 cholera cases, it may have been a much greater success than it was. Weak governance contributed to the poor treatment of cholera in Haiti. There were over 10,000 NGOs but no effective management strategy and as a result, the easily-treated cholera was responsible for 10,000 deaths. Basic functionality and sanitation was not put in place across the country. 
 
+You can learn more on the Cholera section on the [WHO's Global Cholera Snapshot page](https://www.cdc.gov/cholera/about/global-epidemiology-of-cholera.html).
 
-Further reading: [www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3381400/)
+Further reading: [www.ncbi.nlm.nih.gov](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3381400/) and [the WHO's dashboard](https://who-global-cholera-and-awd-.dashboard-1-who.hub.arcgis.com/l).
 
 
 ## 5. Can diseases ever be fully eradicated?
@@ -2379,7 +2377,8 @@ The theory of plate tectonics is closely linked with Alfred Wegener's theory of 
 
 ### Paleomagnetism
 Paleo (fossilised) magnetism is the record of historic magnetic changes as the Earth's polarity changes (known as geomagnetic reversals), with recent polarity inverses occurring every 200 to 300 thousand years. 
-When oceanographers mapped seabeds for the first time during WW2, magnetic flips were observed on either side of oceanic divergent boundaries/seafloor spreading centres.
+
+When oceanographers mapped seabeds for the first time during WW2, a "mirror image" of magnetic polarity was observed on either side of oceanic divergent boundaries/seafloor spreading centres.
 
 This is because magma, with high iron content from the mantle, is erupted. Then, the small iron particles within the erupted material is then cooled quickly (because of the presence of water), solidifying the surrounding lava and materials within; thereby preserving a record of the magnetic direction the iron was pointing in. There is a mirror image of the width of polarity inversals on either side of the plate boundary on the ocean floor (the variability of geomagnetic inversals changing the widths), thus proving that new land is created over time *from* the divergent boundary.
 
@@ -2438,7 +2437,7 @@ At a divergent plate boundary, two plates move apart from each other. Depending 
 At a mid-oceanic ridge, molten magma rises towards the Earth's surface, thanks to hot magma plumes within the mantle, originating from the lower mantle. As magma rises - caused by the force of the mantle plume - and enters the asthenosphere, it loses pressure and cools down. The lithospheric rocks above are pushed upwards by force, fracturing the lithosphere and penetrating through the crust. Accompanied by **ridge push**, at these ridges, **thermal expansion** from the presence of magma causes the surrounding rocks to... expand. Over time, vast chains of underwater mountains up to 3km tall and 60,000km in total length have formed. 
 At these oceanic ridge crests, landforms which are likely to be visible include **black smokers** (hydrothermal vents) where seawater meets the hot magma, as well as **pillow lavas**, which are mainly basaltic. These rocks once cooled can be used to indicate the upwards orientation at the time of eruption.
 
-Variations in seafloor spreading velocity result in lateral **transform faults**, which appear as zig-zags on topographic ocean maps. Due to the accumulating pressure and tension as these masses move, small earthquakes will likely occur due to the releasing of kinetic energy. (There is little volcanic activity along transform faults.)
+Variations in seafloor spreading velocity result in lateral **transform faults**, which appear as zig-zags on topographic ocean maps. Due to the accumulating pressure and tension as these masses move, small earthquakes are likely to occur due to kinetic energy releases. (There is little volcanic activity along transform faults.)
 
 
 Faster spreading (up to 170mm/yr) will result in broader and smoother mountain chains, with slow spreading (20mm/yr) having much steeper mountains.

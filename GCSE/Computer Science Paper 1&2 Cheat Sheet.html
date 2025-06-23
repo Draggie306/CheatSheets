@@ -270,10 +270,13 @@
     <div class="stackedit__html">
       <p><a href="https://ibaguette.com/cheatsheets/gcse">&lt; Back to all GCSE Cheat Sheets</a></p>
 <h1 id="complete-ocr-j277-computer-science-gcse-cheat-sheet">Complete OCR J277 Computer Science GCSE Cheat Sheet!</h1>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 06/05/2025 16:29.<br>
-Last content addition: 06/05/2025 15:27</a></p>
 <blockquote>
-<p>Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with fellow students, developers, teachers and professionals in the <a href="https://discord.gg/GfetCXH">Baguette Brigade Discord server</a> who can answer all your questions and give you tips and tricks!<br>
+<p><em>Written by <a href="https://www.linkedin.com/in/oliver-ling/">Oliver Ling</a> (@draggie306)</em>.</p>
+</blockquote>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 23/06/2025 21:52.<br>
+Last content addition: 23/06/2025 21:46</a></p>
+<blockquote>
+<p>Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the <a href="https://discord.gg/GfetCXH">Baguette Brigade Discord server</a> who can answer all your questions and give you tips and tricks!<br>
 Plus, you can opt to receive automatic notifications whenever new content is added here!</p>
 </blockquote>
 <h2 id="read-this-first">READ THIS FIRST:</h2>
@@ -282,7 +285,7 @@ Plus, you can opt to receive automatic notifications whenever new content is add
 <p>Both papers individually are 50% of the total GCSE, and are worth 80 marks each.</p>
 <h2 id="about-this">ABOUT THIS</h2>
 <p>For ease of access, I’ve written this in a way designed to be read smoothly across any device, called Markdown. It’s easy to navigate and should look nice to read. To skip to areas you are weak on, I’d recommend using the side bar on the left - you may need to open in desktop site or read on a computer to use the Table of Contents.</p>
-<p>All of the Cheat Sheets and revision material on iBaguette are made as 1:1 compliments to their corresponding specification. The J277 spec is available <a href="https://www.ocr.org.uk/Images/558027-specification-gcse-computer-science-j277.pdf">here</a>.</p>
+<p>All of the Cheat Sheets and revision material on iBaguette are made as 1:1 complements to their corresponding specification. The J277 spec is available <a href="https://www.ocr.org.uk/Images/558027-specification-gcse-computer-science-j277.pdf">here</a>.</p>
 <h1 id="paper-1">Paper 1</h1>
 <h1 id="systems-architecture">1.1 - Systems architecture</h1>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.1_Systems_architecture.png" alt="All specification content for OCR J277 Systems architecture unit."><br>
@@ -385,6 +388,7 @@ L2 and L3 caches take slightly longer to access than L1. Each CPU core has its o
 <p>Primary storage consists of RAM (random access memory) and ROM (read-only memory). ROM is non-volatile (retains its data after being powered off) and is usually often now only used to boot the computer, providing for the BIOS or UEFI.</p>
 <p>Memory/RAM is small in size compared to secondary storage, but is much faster as it does not have moving parts or have to retain that information. It is usually from 4-16GB in size. The more RAM a computer has, the more programs and instructions it can store simultaneously.</p>
 <p>Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow for when memory is filled up. When RAM is full, data which would have gone to memory goes to an area of the disk drive and, when needed by the CPU again, is moved back into RAM. However, virtual memory is <em>much</em> slower than even the fastest SSDs, let alone HDDs with their moving parts, so the OS attempts to avoid placing highly-used programs in virtual memory. <em>More RAM = always better.</em></p>
+<p>Cache memory is small amounts of incredibly fast but relatively expensive random access memory located within the CPU, used for very common operations and calculations that may need to be immediately reused. There are typically 3 levels of cache - L1, L2 and L3 - which go down (starting from L1) in cost and speed, but up in capacity. As it is located on the CPU itself, it’s much faster than having to go to RAM all the time.</p>
 <h2 id="secondary-storage">1.2.2 Secondary storage</h2>
 <p>Secondary storage is non-volatile, meaning it retains the data written to it even when offline.</p>
 <p>An HDD (magnetic) has very high capacity and involves flipping magnetic polarity to store bits. It is fairly fast to access. These are generally the cheapest form of bulk storage but have moving parts, so not good for portability.</p>
@@ -412,7 +416,8 @@ Text file size = bits per character x number of characters</p>
 <img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.2.4_Data_storage__part_of_1.2_Memory_and_Storage.png" alt="Your device cannot load this image - it may be blocked."><br>
 <em>There’s a lot in this topic (including the things I find the hardest but shh)</em></p>
 <h3 id="denary-to-binary">Denary to Binary</h3>
-<p>To convert a denary number into binary, write out all the base 2 numbers in a row (128, 64, 32, 16, 8, 4, 2, 1). Then, get your number, let’s say 253, and subtract it from the largest. You’d then get 125. Write ‘1’ below the ‘128’ and repeat on the next numbers. If when you subtract it it’s negative, write a zero below and then do the next smallest number.</p>
+<p>To convert a denary number into binary, write out all the base 2 numbers in a row (128, 64, 32, 16, 8, 4, 2, 1). Firstly, get your number, let’s say 253, and subtract it from the largest base 2 number (here, 128). You’d get 125. Write ‘1’ below the ‘128’ and repeat on the next lowest numbers. If when you subtract it it’s negative, write a zero below, <strong>do not subtract anything</strong>, but instead just move to the next smallest number.</p>
+<p>The most significant bit is the leftmost (e.g. <code>1</code> in the byte <code>1000 0000</code>). The least significant is the leftmost - it has the least “influence” on the represented number.</p>
 <h3 id="adding-binary-digits">Adding binary digits</h3>
 <p>0 + 0 = 0<br>
 0 + 1 = 1<br>
@@ -428,7 +433,11 @@ Text file size = bits per character x number of characters</p>
 </ol>
 <ol>
 <li>Convert 103 into binary.<br>
-= 01100111</li>
+= 01100111
+<blockquote>
+<p>It’s worth noting these 8 bits are equivalent to the 7 bits <code>1100111</code> - if you’re not given the full 8 bits, you can fill the leftmost bits with zero: it doesn’t change the overall number.</p>
+</blockquote>
+</li>
 <li>Split into nibbles<br>
 = 0110 0111</li>
 <li>Work out hex of nibble 1<br>
@@ -462,7 +471,7 @@ A shift of 3 to the right means divide by 2^3 = 8</p>
 <li><strong>answer = D4</strong></li>
 </ol>
 <h3 id="characters">Characters</h3>
-<p>Characters are also represented as binary. In ASCII, there are 8 bits, so that’s 255 characters possible. In Unicode, there are 16 bits, or more, allowing it to represent every character and emoji in the world - over 2 million.</p>
+<p>Characters are also represented as binary. In ASCII, there are 8 bits, so that’s 255 possible characters. In Unicode, there are 16 bits, or more, allowing it to represent every character from every language and every emoji in the world - over 2 million.</p>
 <p>A in binary is 0100 0001.<br>
 Character sets are ordered logically, so B is one more than A:<br>
 B in binary is 0100 0010.</p>
@@ -516,7 +525,7 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <p><strong>Router</strong>: directs and receives packets incoming/outgoing to/from the Internet to devices in a private network via IP addresses. It connects networks together - your home LAN to the internet, or a WAN. Nodes connected to it internally are given private IP addresses (192.168.1.x), whilst the router also has a public IP address. (You can see your public IP <a href="https://whatismyipaddress.com/">here</a>.)</p>
 <p><strong>Switch</strong>: A device which connects devices on a computer network by using packet switching to receive and forward data to the destination device. It uses MAC addresses to forward data at the data link layer. MAC (Media Access Control) addresses are used to identify a device on the local network assigned by its Network Interface Card.</p>
 <p><strong>WAP</strong>: wireless access point. Usually built into the switch, or physically connected by wire to it. Unless there’s a repeater which would mean WAPs are connected to other WAPs</p>
-<p><strong>Packet switching</strong>: a method of breaking up data, and sending it using the most efficient route. For example, if you send an image, it will be broken up into ‘packets’ of around 1000 bytes each (if the image is 1 MB then there’ll be 1,000,000 packets) and then sent. To ensure data is not corrupted on route to the destination, each packet contains the following in a header:</p>
+<p><strong>Packet switching</strong>: a method of breaking up data, and sending it using the most efficient route. For example, if you send an image, it will be broken up into ‘packets’ of around 1000 bytes each (if the image is 1 MB then there’ll be 1,000 packets) and then sent. To ensure data is not corrupted on route to the destination, each packet contains the following in a header:</p>
 <ul>
 <li>the IP address it is going to;</li>
 <li>the IP address it has come from;</li>
@@ -693,7 +702,7 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <h3 id="multitasking--memory-management">Multitasking &amp; memory management</h3>
 <p>Multitasking is a classic example of OS’ evolution over the years. With CLIs, a user could only do one process. Now, videos can be streamed while uploading documents to the cloud. This requires an OS to support it and enough memory to run multiple processes. The OS manages memory used to prioritise running processes, and when another process closes, this extra available memory gets allocated to the running program. In modern computers, there are often hundreds of processes running at the same time - the CPU is so fast that it gives the illusion of multiple programs running in parallel.</p>
 <h3 id="peripherals-and-drivers">Peripherals and drivers</h3>
-<p>Peripherals are hardware devices physically connected to a computer like mice, monitors, printers, etc etc (you knew that right… RIGHT?!?)</p>
+<p>Peripherals are hardware devices physically connected to a computer like mice, monitors, printers, etc etc <em>(you knew that right… RIGHT?!?)</em></p>
 <p>OSes use drivers to control peripherals. Data is transferred between devices and the CPU, and this needs drivers to manage the interactions between the user and the computer. As drivers contain instructions on how to manage a device, every device connected will have its own associated driver. Any device can be used with a computer, as long as standards (written about above) are met and a driver is available. Drivers are frequently updated to improve the hardware device’s performance or to fix a bug.</p>
 <blockquote>
 <p>However, if a driver update goes wrong then it will take some extra effort to fix it, as you can’t interact with the hardware with the bad driver…</p>
@@ -719,17 +728,17 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 </ul>
 <h2 id="utility-software">1.5.2 Utility software</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.5.2_Utility_software.png" alt="OCR GCSE J277 Computer Science Specification, containing section 1.5.1 Operating Systems"></p>
-<p>Utility software helps maintain the system. It includes programs involving encryption software, defragmentation and data compression tools. Computers often come with this software built in (even as part of the OS now) to keep the device running smoothly.</p>
+<p>Utility software is an additional type of software designed to maintain the system. It includes programs such as encryption software, defragmentation utilities and data compression tools. Computers often come with this software built in (even as part of the OS now) to keep the device running smoothly.</p>
 <h3 id="encryption-software">Encryption software</h3>
-<p>Encryption software is used to scramble the contents of files to everyone but authorised users who have the decryption/private key. It can encrypt individual files or even the entire disk! This is useful for government organisations or banks which have private and sensitive data stored. If someone steals a disk, what can they do with the data if they can’t read it?</p>
+<p>Encryption software is used to scramble the contents of files to everyone but authorised users who have the decryption/private key. It can encrypt individual files or even the entire disk! This is useful, even required, for government organisations or banks which have private and sensitive data stored. If someone steals a computer, what can they do with the data if they can’t read it?</p>
 <h3 id="defragmentation-software">Defragmentation software</h3>
 <p>If you know what defragging a hard disk is, then you can skip this.</p>
 <p>If you don’t, read below:</p>
-<p>Hard disk drives are separated into thousands of tracks, with thousands of segments in these tracks. When a file is written to a disk, it is written to the next available segment. Let’s say you’re downloading a 30GB game - and you pause it halfway through for an hour, and you download some music. Then, on the hard drive, you will have some of the game, and then some music. Let’s say you finish the download. Then, there will be some game, some music, and the rest of the game. Oh, also, how about that there were some programs updating in the background and you didn’t realise! Then, there will be loads of ‘fragmented’ parts of games, programs and music, all jumbled around near each other on the disk!</p>
-<p>This is terrible for the computer’s performance, as the head has to go to loads of physically distanced parts of the disk to read and write to. Defragging moves the files from all these parts to one consecutive track, where possible. This will load your games up a load faster!<br>
-<img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/hard_drive.png" alt="Your device cannot load this image - it may be blocked."><br>
-<em>What a hard drive is actually made from. Remember there can be several platters on a large drive!</em></p>
-<p><strong>NOTE: Solid-state drives’ speeds are not affected by fragmentation. Do NOT EVER try and defrag an SSD!</strong></p>
+<p>Hard disk drives are separated into thousands of tracks, with thousands of segments in these tracks. When a file is written to a disk, it is written to the next available segment. Let’s say you’re downloading a 30GB game - and you pause it halfway through for an hour, and you download some music. On the hard drive, you will have some of the game, and then some music. Let’s say you finish the download. Then, there will be some game, some music, and then the rest of the game. Oh, also, how about that there were some programs updating in the background and you didn’t realise! Then, there will be loads of ‘fragmented’ parts of games, programs and music, all jumbled around near each other on the disk!</p>
+<p>This is terrible for the computer’s performance, as the head has to go to loads of physically distanced parts of the disk to read and write to. Defragging moves the files from all these parts to one consecutive track, where possible. This will load your games up a load faster!</p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/hard_drive.png" alt="Your device cannot load this image - it may be blocked."><br>
+<em>What a hard drive is actually made from. Remember there can be several of these platters on a large drive!</em></p>
+<p><strong>NOTE: Solid-state drives are not affected by fragmentation. Do NOT EVER try and defrag an SSD!</strong></p>
 <h3 id="compression-software">Compression software</h3>
 <p>Compression software reduces the size of a file on secondary storage to make it easier to send (as lower file size = lower packets needed) and allows more files to be stored (as lower file size = more free space). Note that most compression will need to be lossless, as you can’t just get rid of a bit of a program and hope it’ll work. Examples of compressed data are ZIP files.</p>
 <h3 id="backup-software">Backup software</h3>
@@ -796,17 +805,14 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.1_Computational_thinking.png" alt="Your device cannot load this image - it may be blocked."></p>
 <p>There are 3 words to describe ‘computational thinking’:</p>
 <ul>
-<li>Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a problem. It is effectively a general overview of the program with specific details removed, for example, the London Underground map.</li>
-<li>Decomposition: Breaking down a problem into smaller parts which are easier to understand. These smaller parts can be individually solved as they are easier to comprehend, for example creating an app would need graphics, audio, software used to create it, testers, user interface…</li>
-<li>Algorithmic thinking: thinking logically, just as a computer does. Usually works back from how an intended solution can be reached by working out the steps needed to get there.</li>
+<li><strong>Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a specific problem.</strong> It is effectively a general overview of the program with specific details removed, for example, the London Underground map - this map shows the stops and lines to get to a destination, but not exact geographical details as they’re not needed.</li>
+<li><strong>Decomposition: breaking down a problem into smaller parts which are easier to understand</strong>. Smaller parts are easier to comprehend, for example creating an app would need graphics, audio, software used to create it, testers, a user interface. It’s much easier to say “Create a sub-program to handle the audio” than “make the whole app from scratch”.</li>
+<li><strong>Algorithmic thinking: thinking logically, just as a computer does</strong>. Usually works back from how an intended solution can be reached by working out the steps needed to get there. If you can work out the exact steps and decisions needed to solve a problem, you can produce a coded solution. <strong>Flowcharts</strong> are good visualisations of this.</li>
 </ul>
-<blockquote>
-<p>Sometimes I might get annoyed if you don’t think algorithmically…</p>
-</blockquote>
 <p>It is only when a problem is decomposed and abstracted, that the creation of the solution can begin.</p>
 <h2 id="designing-algorithms">2.1.2 Designing algorithms</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Designing_algorithms.png" alt="Your device cannot load this image - it may be blocked."></p>
-<p>An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, as well as if any decisions need to be made.</p>
+<p>An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, and whether any decisions need to be made.</p>
 <p>Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language).</p>
 <h3 id="flowchart-symbols">Flowchart symbols</h3>
 <ul>
@@ -826,12 +832,16 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <p>Disadvantages include that it can be harder to see how a program flows with indentation, and is just more time-consuming to make than a flowchart, so you might as well use Python for that.</p>
 <p>Pseudocode example:</p>
 <pre class=" language-py"><code class="prism  language-py"><span class="token keyword">while</span> answer_inputted <span class="token operator">!=</span> <span class="token string">'valorant'</span>
-answer_inputted <span class="token operator">=</span> <span class="token builtin">input</span> <span class="token punctuation">(</span><span class="token string">"What is the worst game?"</span><span class="token punctuation">)</span>
-	<span class="token keyword">if</span> answer_inputted <span class="token operator">==</span> <span class="token string">"valorant"</span> then
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Correct! you got it right."</span><span class="token punctuation">)</span>
-	<span class="token keyword">else</span>
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Wrong"</span><span class="token punctuation">)</span>
-    endif
+	answer_inputted <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"What is the worst game?"</span><span class="token punctuation">)</span>
+		<span class="token keyword">if</span> answer_inputted <span class="token operator">==</span> <span class="token string">"valorant"</span> then
+			<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Correct! you got it right."</span><span class="token punctuation">)</span>
+		<span class="token keyword">else</span>
+			<span class="token keyword">if</span> answer_inputted <span class="token operator">==</span> <span class="token string">"clash of clans"</span> then
+				<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Nah, that's a good one"</span><span class="token punctuation">)</span>
+			<span class="token keyword">else</span>
+				<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Wrong"</span><span class="token punctuation">)</span>
+			endif 
+	    endif
 endwhile
 </code></pre>
 <p>It’s relatively easy to tell what this ‘code’ does:</p>
@@ -841,10 +851,15 @@ endwhile
 <li>Line 3 checks <code>if</code> <code>answer_inputted</code> is <code>'valorant'</code></li>
 <li>Line 4 <code>prints</code> a response</li>
 <li>Line 5 is <code>else</code> so this will be used when the previous statement is not <code>true</code> (if the <code>answer_inputted</code> is not ‘valorant’)</li>
-<li>Line 6 will <code>print</code> wrong</li>
-<li>Line 7 will end the if statement after the if statement is triggered</li>
-<li>Line 8 will end this section of the code when the endif statement is triggered</li>
+<li>Line 6 will checks <code>if</code> <code>answer_inputted</code> is <code>clash of clans</code></li>
+<li>Line 7 will <code>print</code> “Nah, that’s a good one” if the above <code>if</code> statement is <code>true</code></li>
+<li>Line 8 is another <code>else</code>, so will be used if <code>answer_inputted</code> is not <code>clash of clans</code></li>
+<li>Line 9 will print <code>Wrong</code></li>
+<li>Line 10 will end the inner (second) <code>if</code> statement</li>
+<li>Line 11 will end the outer (first) <code>if</code> statement</li>
+<li>Line 12 marks the end of the <code>while</code> section of the code.</li>
 </ul>
+<p>Notice how there is an <code>if</code> statement inside another <code>if</code> statement? This is called <strong>nesting</strong>. It can also be used for iteration statements (loops).</p>
 <h3 id="trace-tables">Trace tables</h3>
 <p>A trace table is a table used to show how values in variables change throughout instructions occurring.</p>
 <p>In the columns goes the variable name. In the rows, the instruction number is written. Below the variable names, in the table, are the expected values of what each instruction does.</p>
@@ -986,7 +1001,7 @@ endwhile
 </li>
 <li><code>MOD</code>
 <ul>
-<li>Modulus. Gives the <strong>remainder</strong>. 20 mod 8 = 4. (16 remainder 4)</li>
+<li>Modulo. Gives the <strong>remainder</strong>. 20 mod 8 = 4. (16 remainder 4)</li>
 </ul>
 </li>
 <li><code>DIV</code>
@@ -1088,7 +1103,7 @@ file1<span class="token punctuation">.</span>close<span class="token punctuation
 <p>from the iBaguette emails database:<br>
 <code>SELECT *</code><br>
 <code>FROM "Users"</code><br>
-<code>WHERE "Email Address" LIKE "admin" OR "draggie"</code><br>
+<code>WHERE "Email Address" LIKE "admin" OR "owner"</code><br>
 might retrieve:</p>
 
 <table>
@@ -1109,15 +1124,15 @@ might retrieve:</p>
 </tr>
 <tr>
 <td>6</td>
-<td>Admin</td>
-<td>User</td>
+<td>Joe</td>
+<td>Smith</td>
 <td><a href="mailto:admin@ibaguette.com">admin@ibaguette.com</a></td>
 </tr>
 <tr>
 <td>7</td>
-<td>Draggie1</td>
-<td>306</td>
-<td><a href="mailto:admin@geog.uk">admin@geog.uk</a></td>
+<td>John</td>
+<td>Doe</td>
+<td><a href="mailto:owner@geog.uk">owner@geog.uk</a></td>
 </tr>
 </tbody>
 </table><h3 id="randoms">Randoms</h3>

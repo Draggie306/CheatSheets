@@ -7,15 +7,17 @@
 # OCR J277 Computer Science Paper 1 Complete Cheat Sheet
 
 
-[Latest general update: 06/05/2025 16:29. 
-Last content addition: 06/05/2025 15:27](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+> *Written by [Oliver Ling](https://www.linkedin.com/in/oliver-ling/) (@draggie306)*.
 
-> Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with fellow students, developers, teachers and professionals in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
+[Latest general update: 23/06/2025 21:52.
+Last content addition: 23/06/2025 21:46](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+
+> Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
 > Plus, you can opt to receive automatic notifications whenever new content is added here!
 
 ## READ THIS FIRST:
 
-Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so it might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
+Please use your class notes, if you have any, as well as this, to aid your revision. I’ve tried to make it as packed full of only the most useful stuff as possible which will come up in the exam. This covers 15 pages of specification content and 210 hours of lesson time, consolidated into one place, so might not cover everything in 100% detail, but I have written more for the things which people may find more confusing. If there are any errors then please let me know immediately. I have tried my best to make it as easy as possible to understand and get a grade 9😉
 
 **This cheat sheet covers _all_ of the specification for: J277/01: Computer systems. Check the [Cheat Sheets page](https://ibaguette.com/cheatsheets/gcse) to see Paper 2.**
 ---
@@ -23,6 +25,8 @@ Please use your class notes, if you have any, as well as this, to aid your revis
 This paper is worth 50% of the GCSE.
 
 All of the Cheat Sheets and revision material on iBaguette are made as 1:1 compliments to their corresponding specification. The J277 spec is available [here](https://www.ocr.org.uk/Images/558027-specification-gcse-computer-science-j277.pdf).
+
+
 
 
 # 1.1 - Systems architecture
@@ -159,6 +163,7 @@ Memory/RAM is small in size compared to secondary storage, but is much faster as
 
 Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow for when memory is filled up. When RAM is full, data which would have gone to memory goes to an area of the disk drive and, when needed by the CPU again, is moved back into RAM. However, virtual memory is *much* slower than even the fastest SSDs, let alone HDDs with their moving parts, so the OS attempts to avoid placing highly-used programs in virtual memory. *More RAM = always better.*
 
+Cache memory is small amounts of incredibly fast but relatively expensive random access memory located within the CPU, used for very common operations and calculations that may need to be immediately reused. There are typically 3 levels of cache - L1, L2 and L3 - which go down (starting from L1) in cost and speed, but up in capacity. As it is located on the CPU itself, it's much faster than having to go to RAM all the time.
 
 ## 1.2.2 Secondary storage
 
@@ -200,7 +205,9 @@ Text file size = bits per character x number of characters
 *There's a lot in this topic (including the things I find the hardest but shh)*
 
 ### Denary to Binary
-To convert a denary number into binary, write out all the base 2 numbers in a row (128, 64, 32, 16, 8, 4, 2, 1). Then, get your number, let's say 253, and subtract it from the largest. You'd then get 125. Write '1' below the '128' and repeat on the next numbers. If when you subtract it it's negative, write a zero below and then do the next smallest number.
+To convert a denary number into binary, write out all the base 2 numbers in a row (128, 64, 32, 16, 8, 4, 2, 1). Firstly, get your number, let's say 253, and subtract it from the largest base 2 number (here, 128). You'd get 125. Write '1' below the '128' and repeat on the next lowest numbers. If when you subtract it it's negative, write a zero below, **do not subtract anything**, but instead just move to the next smallest number.
+
+The most significant bit is the leftmost (e.g. `1` in the byte `1000 0000`). The least significant is the leftmost - it has the least "influence" on the represented number.
 
 ### Adding binary digits
 0 + 0 = 0
@@ -223,6 +230,7 @@ Remember how to convert denary to binary? Well, firstly convert the denary into 
 
 1. Convert 103 into binary.
 	= 01100111
+	> It's worth noting these 8 bits are equivalent to the 7 bits `1100111` - if you're not given the full 8 bits, you can fill the leftmost bits with zero: it doesn't change the overall number.
 2. Split into nibbles
 	= 0110 0111
 3. Work out hex of nibble 1
@@ -267,7 +275,7 @@ Answer to 2) Convert 212 into hexadecimal. [2 marks]
 
 ### Characters
 
-Characters are also represented as binary. In ASCII, there are 8 bits, so that's 255 characters possible. In Unicode, there are 16 bits, or more, allowing it to represent every character and emoji in the world - over 2 million.
+Characters are also represented as binary. In ASCII, there are 8 bits, so that's 255 possible characters. In Unicode, there are 16 bits, or more, allowing it to represent every character from every language and every emoji in the world - over 2 million.
 
 A in binary is 0100 0001.
 Character sets are ordered logically, so B is one more than A:
@@ -581,7 +589,7 @@ Multitasking is a classic example of OS' evolution over the years. With CLIs, a 
 
 ### Peripherals and drivers
 
-Peripherals are hardware devices physically connected to a computer like mice, monitors, printers, etc etc (you knew that right... RIGHT?!?)
+Peripherals are hardware devices physically connected to a computer like mice, monitors, printers, etc etc *(you knew that right... RIGHT?!?)*
 
 OSes use drivers to control peripherals. Data is transferred between devices and the CPU, and this needs drivers to manage the interactions between the user and the computer. As drivers contain instructions on how to manage a device, every device connected will have its own associated driver. Any device can be used with a computer, as long as standards (written about above) are met and a driver is available. Drivers are frequently updated to improve the hardware device's performance or to fix a bug.
 > However, if a driver update goes wrong then it will take some extra effort to fix it, as you can't interact with the hardware with the bad driver...
@@ -611,11 +619,11 @@ The OS controls...
 ## 1.5.2 Utility software
 ![OCR GCSE J277 Computer Science Specification, containing section 1.5.1 Operating Systems](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.5.2_Utility_software.png)
 
-Utility software helps maintain the system. It includes programs involving encryption software, defragmentation and data compression tools. Computers often come with this software built in (even as part of the OS now) to keep the device running smoothly.
+Utility software is an additional type of software designed to maintain the system. It includes programs such as encryption software, defragmentation utilities and data compression tools. Computers often come with this software built in (even as part of the OS now) to keep the device running smoothly.
 
 ### Encryption software
 
-Encryption software is used to scramble the contents of files to everyone but authorised users who have the decryption/private key. It can encrypt individual files or even the entire disk! This is useful for government organisations or banks which have private and sensitive data stored. If someone steals a disk, what can they do with the data if they can't read it?
+Encryption software is used to scramble the contents of files to everyone but authorised users who have the decryption/private key. It can encrypt individual files or even the entire disk! This is useful, even required, for government organisations or banks which have private and sensitive data stored. If someone steals a computer, what can they do with the data if they can't read it?
 
 ### Defragmentation software
 
@@ -623,13 +631,14 @@ If you know what defragging a hard disk is, then you can skip this.
 
 If you don't, read below:
 
-Hard disk drives are separated into thousands of tracks, with thousands of segments in these tracks. When a file is written to a disk, it is written to the next available segment. Let's say you're downloading a 30GB game - and you pause it halfway through for an hour, and you download some music. Then, on the hard drive, you will have some of the game, and then some music. Let's say you finish the download. Then, there will be some game, some music, and the rest of the game. Oh, also, how about that there were some programs updating in the background and you didn't realise! Then, there will be loads of 'fragmented' parts of games, programs and music, all jumbled around near each other on the disk!
+Hard disk drives are separated into thousands of tracks, with thousands of segments in these tracks. When a file is written to a disk, it is written to the next available segment. Let's say you're downloading a 30GB game - and you pause it halfway through for an hour, and you download some music. On the hard drive, you will have some of the game, and then some music. Let's say you finish the download. Then, there will be some game, some music, and then the rest of the game. Oh, also, how about that there were some programs updating in the background and you didn't realise! Then, there will be loads of 'fragmented' parts of games, programs and music, all jumbled around near each other on the disk!
 
 This is terrible for the computer's performance, as the head has to go to loads of physically distanced parts of the disk to read and write to. Defragging moves the files from all these parts to one consecutive track, where possible. This will load your games up a load faster!
-![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/hard_drive.png)
-*What a hard drive is actually made from. Remember there can be several platters on a large drive!*
 
-**NOTE: Solid-state drives' speeds are not affected by fragmentation. Do NOT EVER try and defrag an SSD!**
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/hard_drive.png)
+*What a hard drive is actually made from. Remember there can be several of these platters on a large drive!*
+
+**NOTE: Solid-state drives are not affected by fragmentation. Do NOT EVER try and defrag an SSD!**
 
 
 ### Compression software

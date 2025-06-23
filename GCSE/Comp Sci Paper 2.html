@@ -146,6 +146,9 @@
     <div class="stackedit__html">
       <p><a href="https://ibaguette.com/cheatsheets/gcse">&lt; Back to all GCSE Cheat Sheets</a></p>
 <h1 id="ocr-j277-computer-science-paper-2-complete-cheat-sheet">OCR J277 Computer Science Paper 2 Complete Cheat Sheet</h1>
+<blockquote>
+<p><em>Written by <a href="https://www.linkedin.com/in/oliver-ling/">Oliver Ling</a> (@draggie306)</em>.</p>
+</blockquote>
 <p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 06/05/2025 16:41.<br>
 Last content addition: 06/05/2025 15:18</a></p>
 <blockquote>
@@ -166,17 +169,14 @@ Plus, you can opt to receive automatic notifications whenever new content is add
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.1_Computational_thinking.png" alt="Your device cannot load this image - it may be blocked."></p>
 <p>There are 3 words to describe ‘computational thinking’:</p>
 <ul>
-<li>Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a problem. It is effectively a general overview of the program with specific details removed, for example, the London Underground map.</li>
-<li>Decomposition: Breaking down a problem into smaller parts which are easier to understand. These smaller parts can be individually solved as they are easier to comprehend, for example creating an app would need graphics, audio, software used to create it, testers, user interface…</li>
-<li>Algorithmic thinking: thinking logically, just as a computer does. Usually works back from how an intended solution can be reached by working out the steps needed to get there.</li>
+<li><strong>Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a specific problem.</strong> It is effectively a general overview of the program with specific details removed, for example, the London Underground map - this map shows the stops and lines to get to a destination, but not exact geographical details as they’re not needed.</li>
+<li><strong>Decomposition: breaking down a problem into smaller parts which are easier to understand</strong>. Smaller parts are easier to comprehend, for example creating an app would need graphics, audio, software used to create it, testers, a user interface. It’s much easier to say “Create a sub-program to handle the audio” than “make the whole app from scratch”.</li>
+<li><strong>Algorithmic thinking: thinking logically, just as a computer does</strong>. Usually works back from how an intended solution can be reached by working out the steps needed to get there. If you can work out the exact steps and decisions needed to solve a problem, you can produce a coded solution. <strong>Flowcharts</strong> are good visualisations of this.</li>
 </ul>
-<blockquote>
-<p>Sometimes I might get annoyed if you don’t think algorithmically…</p>
-</blockquote>
 <p>It is only when a problem is decomposed and abstracted, that the creation of the solution can begin.</p>
 <h2 id="designing-algorithms">2.1.2 Designing algorithms</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Designing_algorithms.png" alt="Your device cannot load this image - it may be blocked."></p>
-<p>An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, as well as if any decisions need to be made.</p>
+<p>An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, and whether any decisions need to be made.</p>
 <p>Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language).</p>
 <h3 id="flowchart-symbols">Flowchart symbols</h3>
 <ul>
@@ -196,12 +196,16 @@ Plus, you can opt to receive automatic notifications whenever new content is add
 <p>Disadvantages include that it can be harder to see how a program flows with indentation, and is just more time-consuming to make than a flowchart, so you might as well use Python for that.</p>
 <p>Pseudocode example:</p>
 <pre class=" language-py"><code class="prism  language-py"><span class="token keyword">while</span> answer_inputted <span class="token operator">!=</span> <span class="token string">'valorant'</span>
-answer_inputted <span class="token operator">=</span> <span class="token builtin">input</span> <span class="token punctuation">(</span><span class="token string">"What is the worst game?"</span><span class="token punctuation">)</span>
-	<span class="token keyword">if</span> answer_inputted <span class="token operator">==</span> <span class="token string">"valorant"</span> then
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Correct! you got it right."</span><span class="token punctuation">)</span>
-	<span class="token keyword">else</span>
-		<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Wrong"</span><span class="token punctuation">)</span>
-    endif
+	answer_inputted <span class="token operator">=</span> <span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"What is the worst game?"</span><span class="token punctuation">)</span>
+		<span class="token keyword">if</span> answer_inputted <span class="token operator">==</span> <span class="token string">"valorant"</span> then
+			<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Correct! you got it right."</span><span class="token punctuation">)</span>
+		<span class="token keyword">else</span>
+			<span class="token keyword">if</span> answer_inputted <span class="token operator">==</span> <span class="token string">"clash of clans"</span> then
+				<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Nah, that's a good one"</span><span class="token punctuation">)</span>
+			<span class="token keyword">else</span>
+				<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Wrong"</span><span class="token punctuation">)</span>
+			endif 
+	    endif
 endwhile
 </code></pre>
 <p>It’s relatively easy to tell what this ‘code’ does:</p>
@@ -211,10 +215,15 @@ endwhile
 <li>Line 3 checks <code>if</code> <code>answer_inputted</code> is <code>'valorant'</code></li>
 <li>Line 4 <code>prints</code> a response</li>
 <li>Line 5 is <code>else</code> so this will be used when the previous statement is not <code>true</code> (if the <code>answer_inputted</code> is not ‘valorant’)</li>
-<li>Line 6 will <code>print</code> wrong</li>
-<li>Line 7 will end the if statement after the if statement is triggered</li>
-<li>Line 8 will end this section of the code when the endif statement is triggered</li>
+<li>Line 6 will checks <code>if</code> <code>answer_inputted</code> is <code>clash of clans</code></li>
+<li>Line 7 will <code>print</code> “Nah, that’s a good one” if the above <code>if</code> statement is <code>true</code></li>
+<li>Line 8 is another <code>else</code>, so will be used if <code>answer_inputted</code> is not <code>clash of clans</code></li>
+<li>Line 9 will print <code>Wrong</code></li>
+<li>Line 10 will end the inner (second) <code>if</code> statement</li>
+<li>Line 11 will end the outer (first) <code>if</code> statement</li>
+<li>Line 12 marks the end of the <code>while</code> section of the code.</li>
 </ul>
+<p>Notice how there is an <code>if</code> statement inside another <code>if</code> statement? This is called <strong>nesting</strong>. It can also be used for iteration statements (loops).</p>
 <h3 id="trace-tables">Trace tables</h3>
 <p>A trace table is a table used to show how values in variables change throughout instructions occurring.</p>
 <p>In the columns goes the variable name. In the rows, the instruction number is written. Below the variable names, in the table, are the expected values of what each instruction does.</p>
@@ -356,7 +365,7 @@ endwhile
 </li>
 <li><code>MOD</code>
 <ul>
-<li>Modulus. Gives the <strong>remainder</strong>. 20 mod 8 = 4. (16 remainder 4)</li>
+<li>Modulo. Gives the <strong>remainder</strong>. 20 mod 8 = 4. (16 remainder 4)</li>
 </ul>
 </li>
 <li><code>DIV</code>
@@ -458,7 +467,7 @@ file1<span class="token punctuation">.</span>close<span class="token punctuation
 <p>from the iBaguette emails database:<br>
 <code>SELECT *</code><br>
 <code>FROM "Users"</code><br>
-<code>WHERE "Email Address" LIKE "admin" OR "draggie"</code><br>
+<code>WHERE "Email Address" LIKE "admin" OR "owner"</code><br>
 might retrieve:</p>
 
 <table>
@@ -479,15 +488,15 @@ might retrieve:</p>
 </tr>
 <tr>
 <td>6</td>
-<td>Admin</td>
-<td>User</td>
+<td>Joe</td>
+<td>Smith</td>
 <td><a href="mailto:admin@ibaguette.com">admin@ibaguette.com</a></td>
 </tr>
 <tr>
 <td>7</td>
-<td>Draggie1</td>
-<td>306</td>
-<td><a href="mailto:admin@geog.uk">admin@geog.uk</a></td>
+<td>John</td>
+<td>Doe</td>
+<td><a href="mailto:owner@geog.uk">owner@geog.uk</a></td>
 </tr>
 </tbody>
 </table><h3 id="randoms">Randoms</h3>

@@ -5,6 +5,7 @@
 
 # OCR J277 Computer Science Paper 2 Complete Cheat Sheet
 
+> *Written by [Oliver Ling](https://www.linkedin.com/in/oliver-ling/) (@draggie306)*.
 
 [Latest general update: 06/05/2025 16:41. 
 Last content addition: 06/05/2025 15:18](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
@@ -27,6 +28,7 @@ All of the Cheat Sheets and revision material on iBaguette are made as 1:1 compl
 
 ---
 
+
 # 2.1 Algorithms
 
 ## 2.1.1 Computational thinking
@@ -36,10 +38,9 @@ All of the Cheat Sheets and revision material on iBaguette are made as 1:1 compl
 
 There are 3 words to describe 'computational thinking':
 
-- Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a problem. It is effectively a general overview of the program with specific details removed, for example, the London Underground map.
-- Decomposition: Breaking down a problem into smaller parts which are easier to understand. These smaller parts can be individually solved as they are easier to comprehend, for example creating an app would need graphics, audio, software used to create it, testers, user interface...
-- Algorithmic thinking: thinking logically, just as a computer does. Usually works back from how an intended solution can be reached by working out the steps needed to get there.
-> Sometimes I might get annoyed if you don't think algorithmically...
+- **Abstraction: filtering out and ignoring the parts of problems which are not needed to solve a specific problem.** It is effectively a general overview of the program with specific details removed, for example, the London Underground map - this map shows the stops and lines to get to a destination, but not exact geographical details as they're not needed.
+-  **Decomposition: breaking down a problem into smaller parts which are easier to understand**. Smaller parts are easier to comprehend, for example creating an app would need graphics, audio, software used to create it, testers, a user interface. It's much easier to say "Create a sub-program to handle the audio" than "make the whole app from scratch".
+- **Algorithmic thinking: thinking logically, just as a computer does**. Usually works back from how an intended solution can be reached by working out the steps needed to get there. If you can work out the exact steps and decisions needed to solve a problem, you can produce a coded solution. **Flowcharts** are good visualisations of this. 
 
 It is only when a problem is decomposed and abstracted, that the creation of the solution can begin.
 
@@ -48,7 +49,7 @@ It is only when a problem is decomposed and abstracted, that the creation of the
 
 ![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Designing_algorithms.png)
 
-An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, as well as if any decisions need to be made. 
+An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, and whether any decisions need to be made. 
 
 Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language). 
 
@@ -80,15 +81,18 @@ Pseudocode example:
 
 ```py
 while answer_inputted != 'valorant'
-answer_inputted = input ("What is the worst game?")
-	if answer_inputted == "valorant" then
-		print("Correct! you got it right.")
-	else
-		print("Wrong")
-    endif
+	answer_inputted = input("What is the worst game?")
+		if answer_inputted == "valorant" then
+			print("Correct! you got it right.")
+		else
+			if answer_inputted == "clash of clans" then
+				print("Nah, that's a good one")
+			else
+				print("Wrong")
+			endif 
+	    endif
 endwhile
 ```
-
 
 It's relatively easy to tell what this 'code' does:
 - Line 1 says the loop will repeat `while` the `answer_inputted` is not `'valorant'`.
@@ -96,9 +100,15 @@ It's relatively easy to tell what this 'code' does:
 - Line 3 checks `if` `answer_inputted ` is `'valorant'`
 - Line 4 `prints` a response
 - Line 5 is `else` so this will be used when the previous statement is not `true` (if the `answer_inputted` is not 'valorant')
-- Line 6 will `print` wrong
-- Line 7 will end the if statement after the if statement is triggered
-- Line 8 will end this section of the code when the endif statement is triggered
+- Line 6 will checks `if` `answer_inputted` is `clash of clans`
+- Line 7 will `print` "Nah, that's a good one" if the above `if` statement is `true`
+- Line 8 is another `else`, so will be used if `answer_inputted` is not `clash of clans`
+- Line 9 will print `Wrong` 
+- Line 10 will end the inner (second) `if` statement
+- Line 11 will end the outer (first) `if` statement
+- Line 12 marks the end of the `while` section of the code.
+
+Notice how there is an `if` statement inside another `if` statement? This is called **nesting**. It can also be used for iteration statements (loops).
 
 ### Trace tables
 
@@ -112,10 +122,6 @@ A logic error occurs if the expected value on paper does not equal the received 
 
 ![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/le_table.png)
 *From [Bitesize](https://www.bbc.co.uk/bitesize/guides/z4cg4qt/revision/9).*
-
-
-
-
 
 ## 2.1.3 Searching and sorting algorithms
 
@@ -245,7 +251,7 @@ There are comparison and arithmetic operators. (They will give the Boolean value
 - `/`
 	- Division.
 - `MOD`
-	- Modulus. Gives the **remainder**. 20 mod 8 = 4. (16 remainder 4)
+	- Modulo. Gives the **remainder**. 20 mod 8 = 4. (16 remainder 4)
 - `DIV`
 	- Quotient. Gives how many times the number **can be fully divided**. 20 div 8 = 2. (20 divided by 8 is 2 remainder 4.)
 - `^`
@@ -379,14 +385,14 @@ Data can be retrieved using the commands  `SELECT, FROM` and `WHERE`
 from the iBaguette emails database:
 `SELECT *`
 `FROM "Users"`
-` WHERE "Email Address" LIKE "admin" OR "draggie"`
+` WHERE "Email Address" LIKE "admin" OR "owner"`
 might retrieve:
 
 | ID | User     | Surname | Email Address     |
 |----|----------|---------|-------------------|
 | 1  | Draggie  | 306     | admin@geog.uk |
-| 6  | Admin    | User   | admin@ibaguette.com   |
-| 7  | Draggie1 | 306     | admin@geog.uk   |
+| 6  | Joe    | Smith   | admin@ibaguette.com   |
+| 7  | John | Doe     | owner@geog.uk   |
 
 
 ### Randoms

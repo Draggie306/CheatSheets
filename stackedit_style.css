@@ -2,121 +2,141 @@
     font-family:KaTeX_AMS;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_AMS-Regular.38a68f7.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_AMS-Regular.7d307e8.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_AMS-Regular.2dbe16b.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Caligraphic;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Caligraphic-Bold.342b296.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Caligraphic-Bold.9634168.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Caligraphic-Bold.33d2688.ttf) format("truetype");
     font-weight:700;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Caligraphic;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Caligraphic-Regular.b500497.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Caligraphic-Regular.00029fb.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Caligraphic-Regular.5e7940b.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Fraktur;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Fraktur-Bold.7a3757c.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Fraktur-Bold.4de87d4.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Fraktur-Bold.ed33012.ttf) format("truetype");
     font-weight:700;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Fraktur;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Fraktur-Regular.450cc4d.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Fraktur-Regular.dc4e330.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Fraktur-Regular.82d05fe.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Main;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Bold.78b0124.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Bold.62c6975.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Bold.2e1915b.ttf) format("truetype");
     font-weight:700;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Main;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-BoldItalic.c7213ce.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-BoldItalic.a2e3dcd.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-BoldItalic.0d817b4.ttf) format("truetype");
     font-weight:700;
-    font-style:italic
+    font-style:italic;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Main;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Italic.eea3267.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Italic.081073f.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Italic.767e06e.ttf) format("truetype");
     font-weight:400;
-    font-style:italic
+    font-style:italic;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Main;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Regular.f30e3b2.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Regular.756fad0.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Main-Regular.689bbe6.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Math;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Math-BoldItalic.753ca3d.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Math-BoldItalic.b3e80ff.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Math-BoldItalic.d9377b5.ttf) format("truetype");
     font-weight:700;
-    font-style:italic
+    font-style:italic;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Math;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Math-Italic.2a39f38.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Math-Italic.67710bb.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Math-Italic.0343f93.ttf) format("truetype");
     font-weight:400;
-    font-style:italic
+    font-style:italic;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_SansSerif;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Bold.59b3773.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Bold.f28c4fa.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Bold.dfcc59a.ttf) format("truetype");
     font-weight:700;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_SansSerif;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Italic.99ad93a.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Italic.9d0fdf5.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Italic.3ab5188.ttf) format("truetype");
     font-weight:400;
-    font-style:italic
+    font-style:italic;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_SansSerif;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Regular.badf359.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Regular.6c3bd5b.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_SansSerif-Regular.d511ebc.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Script;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Script-Regular.af7bc98.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Script-Regular.4edf4e0.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Script-Regular.082640c.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Size1;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size1-Regular.10ec8be.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size1-Regular.35b9977.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size1-Regular.2c2dc3b.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Size2;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size2-Regular.96a09bf.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size2-Regular.9932a08.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size2-Regular.114ad19.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Size3;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size3-Regular.2c2f0ef.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size3-Regular.2afba15.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size3-Regular.a287c06.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Size4;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size4-Regular.d5822f1.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size4-Regular.f961545.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Size4-Regular.70174da.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 @font-face{
     font-family:KaTeX_Typewriter;
     src:url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Typewriter-Regular.641339e.woff2) format("woff2"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Typewriter-Regular.53dcf86.woff) format("woff"),url(https://cheatsheet-assets.ibaguette.com/fonts/KaTeX_Typewriter-Regular.35fe2cc.ttf) format("truetype");
     font-weight:400;
-    font-style:normal
+    font-style:normal;
+    font-display: swap;
 }
 body,html{
     color:rgba(0,0,0,.75);
@@ -126,7 +146,6 @@ body,html{
     line-height:1.67;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
-    font-display: swap;
 }
 .katex{
     font:normal 1.21em KaTeX_Main,Times New Roman,serif;
@@ -134,7 +153,6 @@ body,html{
     text-indent:0;
     text-rendering:auto;
     border-color:currentColor;
-    font-display: swap;
 }
 .katex *{
     -ms-high-contrast-adjust:none!important
@@ -928,37 +946,43 @@ body{
     font-family:Lato;
     font-style:normal;
     font-weight:400;
-    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-normal.27bd77b.woff) format("woff")
+    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-normal.27bd77b.woff) format("woff");
+    font-display: swap;
 }
 @font-face{
     font-family:Lato;
     font-style:italic;
     font-weight:400;
-    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-normal-italic.f28f2d6.woff) format("woff")
+    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-normal-italic.f28f2d6.woff) format("woff");
+    font-display: swap;
 }
 @font-face{
     font-family:Lato;
     font-style:normal;
     font-weight:600;
-    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-black.f80bda6.woff) format("woff")
+    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-black.f80bda6.woff) format("woff");
+    font-display: swap;
 }
 @font-face{
     font-family:Lato;
     font-style:italic;
     font-weight:600;
-    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-black-italic.798eafd.woff) format("woff")
+    src:url(https://cheatsheet-assets.ibaguette.com/fonts/lato-black-italic.798eafd.woff) format("woff");
+    font-display: swap;
 }
 @font-face{
     font-family:Roboto Mono;
     font-style:normal;
     font-weight:400;
-    src:url(https://cheatsheet-assets.ibaguette.com/fonts/RobotoMono-Regular.0b6a547.woff) format("woff")
+    src:url(https://cheatsheet-assets.ibaguette.com/fonts/RobotoMono-Regular.0b6a547.woff) format("woff");
+    font-display: swap;
 }
 @font-face{
     font-family:Roboto Mono;
     font-style:normal;
     font-weight:600;
-    src:url(https://cheatsheet-assets.ibaguette.com/fonts/RobotoMono-Bold.819f3b2.woff) format("woff")
+    src:url(https://cheatsheet-assets.ibaguette.com/fonts/RobotoMono-Bold.819f3b2.woff) format("woff");
+    font-display: swap;
 }
 .prism *,.token.pre.gfm *{
     font-weight:inherit!important
@@ -1289,7 +1313,7 @@ img{
     margin-right:auto;
     padding-left:30px;
     padding-right:30px;
-    max-width:750px
+    max-width:850px
 }
 .stackedit__toc ul{
     padding:0
@@ -1321,7 +1345,7 @@ img{
 .stackedit__left{
     position:fixed;
     display:none;
-    width:250px;
+    width:300px;
     height:100%;
     top:0;
     left:0;
@@ -1343,7 +1367,7 @@ img{
 }
 @media (min-width:1060px){
     .stackedit__right{
-        left:250px
+        left:300px
     }
 }
 .stackedit--pdf blockquote{

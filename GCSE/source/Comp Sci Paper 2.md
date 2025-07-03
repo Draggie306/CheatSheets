@@ -7,8 +7,8 @@
 
 > *Written by [Oliver Ling](https://www.linkedin.com/in/oliver-ling/) (@draggie306)*.
 
-[Latest general update: 06/05/2025 16:41. 
-Last content addition: 06/05/2025 15:18](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Latest general update: 23/06/2025 21:57.
+Last content addition: 23/06/2025 21:38](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 > Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
 > Plus, you can opt to receive automatic notifications whenever new content is added here!

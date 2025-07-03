@@ -3,14 +3,14 @@
 
 # AQA Geography GCSE - Complete Revision Cheat Sheet! (8035)
 
-## NOTE: Paper 1 and 2 are complete. 3 will be added later.
+> ## NOTE: Paper 1 and 2 are complete. 3 will be added later.
 
 
-[Latest update: 30/09/2023 13:32.
+[Latest general update: 23/06/2025 22:05.
 Latest content addition: 20/05/2023 22:25](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 
-## READ THIS:
+## READ THIS FIRST:
 
 Please use your class notes, if you have any, as well as this, to aid your revision. **Although this document matches the specification 1:1 and covers it entirely, it is condensed into one place, so might not cover everything in 100% detail**. I have tried to write more content for the topics/ideas which people may find confusing. If there are any errors then please let me know immediately (Discord: `@draggie`). I have tried my best to make it as easy as possible to understand and get a top grade ;)
 
@@ -20,16 +20,22 @@ More specifically, here were my exact marks if you're interested:
 
 > Paper 1: 68/88 [77% - 1 mark/1% above Grade 9, too close!]
 Paper 2: 81.02/88  [92% - 13 marks/15% above Grade 9] (scaled mark)
-Paper 3: 65.14/76 [86% - 7 marks/10% above Grade 9] (scaled mark) 
+Paper 3: 65.14/76 [86% - 7 marks/10% above Grade 9] (scaled mark)9!
+
+> If you're interested, here were my scores:
+> Paper 1: 68/88 [77%]
+Paper 2: 81.02/88  [92%]
+Paper 3: 65.14/76 [86%] 
 Total: 214 [85% - 21 marks/8% above Grade 9]
 ---
-> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Discuss with other students, developers, educators and professionals in the [Baguette Brigaders Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
+> Looking to ace your exams with easy-to-access, free 1:1 advice from exam survivors? Discuss with other students, developers, educators and exam survivors in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! Plus, you can opt to receive automatic notifications whenever new content is added here!
 ---
 
 If images appear slightly pixelated, zoom in to 110%, it's much crisper.
 
 
 ### **This cheat sheet covers *all* of the specification for all 3 papers**
+---
 ... so there's quite a lot of stuff to digest!
 
 
@@ -94,14 +100,14 @@ Primary effects of the Amatrician earthquake included 299 deaths, 400 injured an
 
 As Italy is a very touristy country, to this day many tourists avoid the area as a result of the seismic activity. 
 
-Local 'agritourismos' said they were on the brink of closure as many tourists did not come to Italy the year after, and even two years later footfall in Umbria and Lazio was still much lower than before the quake.
+Local '*agritourismos*' said they were on the brink of closure as many tourists did not come to Italy the year after, and even two years later footfall in Umbria and Lazio was still much lower than before the quake.
 
 ![reduced to rubble](https://cheatsheet-assets.ibaguette.com/gcse/geography/AmatricePic2Small.jpg)
 *^^ Another home reduced to rubble*
 
 ### Case study: Amatrice - responses
 
-**Immediate responses** are the responses to the impacts in the short-term, i.e a few days after the impact. In Amatrice, the army, Vigili del Fuoco (fire brigade) and dog teams arrived during the early morning to rescue people trapped under the rubble. The Italian PM Renzi announced a relief package of over 60 million euros for reconstruction work and tax subsidies for residents. 
+**Immediate responses** are the responses to the impacts in the short-term, i.e. a few days after the impact. In Amatrice, the army, Vigili del Fuoco (fire brigade) and dog teams arrived during the early morning to rescue people trapped under the rubble. The Italian PM Renzi announced a relief package of over 60 million euros for reconstruction work and tax subsidies for residents. 
 
 Unfortunately, immediate responses were not fully effective. Due to the mountainous terrain, many bridges were destroyed and landslides occurred, blocking access to the town. 
 
@@ -159,15 +165,20 @@ Basically, the global atmospheric circulation model all depends on latitude
 ![sus](https://cheatsheet-assets.ibaguette.com/gcse/geography/Hadleyferrelpolar.jpg)
 [Thanks Wikipedia (source)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Earth_Global_Circulation_-_en.svg/1200px-Earth_Global_Circulation_-_en.svg.png)
 
-Low, 	High, 		Low, 		High (pressure)
-ITCZ, 	Hadley, 	Ferrel, 	Polar (cells)
-0,			30,			60,			90 (degrees)
+
+|Latitude|Pressure|Cell|
+|--|--|--|
+| 0 | Low | N/A: ITCZ |
+| 30 | High | Hadley |
+| 60 | Low | Ferrel |
+| 90 | High | Polar |
+
 
 ### Tropical Storms
 
 Tropical storms develop: 
 
- - between 5-30 degrees N and S (low coriolis effect)
+ - between 5-30 degrees N and S (low Coriolis effect)
  - above a 27 degree ocean surface temperature
  - sea depth of 6o to 70 metres
  - with low wind shear (wind speeds remain constant with height for clouds)
@@ -199,12 +210,11 @@ The impacts of this, like in any natural hazard, are broken up into 3 categories
 
 Mitigation strategies have been employed to reduce the risk of these floods. These include improved flood defences - embankments were raised by over a meter along major rivers, and financial relief was provided to every flooded home. Despite new million-pound defences being built 6 years before, the Environment Agency's plans were outdates. As a result of this, the agency have improved their alert system and can now send text messages directly to residents' phones in case of a hazard.
 
-"Evidence that weather is becoming more extreme in the UK" ok I'll explain below
-
 
 
 ## Climate change
-(Date done in class: 10th November 2020)
+
+There is a range of evidence that weather is becoming more extreme in the UK.
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-climatechange.png)
 
@@ -282,7 +292,7 @@ Epping Forest has bogs and ponds which have their own unique species, including 
 
 Characteristics of Epping Forest's ecosystem include a wide variety of tree species, oak, elm, ash, beech. On top of this, there are many producers, insects, mammals and birds, including amphibians and reptiles. 700 fungi species act as decomposers.
 
-The ecosystem interdependent as the forest's producers, consumers and decomposers rely on each other. This is seen when the deciduous trees lose leaves to maximise photosynthesis to conserver energy. Decomposers and detritivores quickly convert this materal into humus by the end of Autumn. This helps the new season's plant growth.
+The ecosystem is interdependent as the forest's producers, consumers and decomposers rely on each other. This is seen when the deciduous trees lose leaves to maximise photosynthesis to conserver energy. Decomposers and detritivores quickly convert this material into humus by the end of autumn. This helps the new season's plant growth.
 
 Visitors to the forest pick berries and flowers, and in doing so spread seeds. Previously, the trees were cut back to encourage new growth. The biomass store is large due to big trees, and the soil store is large due to lots of humus.
 
@@ -331,9 +341,9 @@ For example, **lianas** are **parasitic vines** that have roots in the ground bu
 
 Trees' **bark** is also very **smooth** to allow quick runoff into the roots (stem flow). Trees may also have 'drip tips' which allows water to run off them (drip flow), resulting in less damage. Their cuticles are also thicker, making them very waxy, and their stems are flexible to maximise rotation to point at the sun for maximum photosynthesis!
 
-Finally, **buttress roots** are big, ridged roots with a huge surface area which significantly supports the larger trees (ususally emergents - above canopy)
+Finally, **buttress roots** are big, ridged roots with a huge surface area which significantly supports the larger trees (usually **emergents** - above canopy)
 
-**Epiphytes** are smaller plants which live on other plants' branches in the canopy, getting all their nutrients from the air and water. This is possible as the canopy acts as an umbrella - moisture evaporating from below gets trapped in it, and moisture from above (i.e rain) gets trapped in it as well. More like a sponge now I think about it! **Evapotranspiration** (from evaporation **and** transpiration - from the plants) is also strong, increasing atmospheric moisture levels, which will eventually fall back down as precipitation.
+**Epiphytes** are smaller plants which live on other plants' branches in the canopy, getting all their nutrients from the air and water. This is possible as the canopy acts as an umbrella - moisture evaporating from below gets trapped in it, and moisture from above (i.e. rain) gets trapped in it as well. More like a sponge now I think about it! **Evapotranspiration** (from evaporation **and** transpiration - from the plants) is also strong, increasing atmospheric moisture levels, which will eventually fall back down as precipitation.
 
 
 ![Drip tips](https://cheatsheet-assets.ibaguette.com/gcse/geography/DripTip.jpg)
@@ -352,9 +362,7 @@ Bright colours are also used among animals to act as a warning against predators
 
 ### Biodiversity issues & deforestation
 
-Tropical rainfowests have the highest levels of biodiversity in any biome :)
-
-BUT WE MUST NOT DISTURB THEM! (or, at least, we can disturb them, but in much more friendly way)
+Tropical rainforests have the highest levels of biodiversity in any biome, but we must not disturb them! (or, at least, we can disturb them, but in much more friendly way)
 
 Human exploitation is destroying much of the rainforests' biodiverse species, endangering them. Logging and commercial farming result in large swathes of the rainforest being unsustainably cleared for cattle farming and cash crops like palm oil, soybeans, or mahogany trees. Hydroelectric power dams have resulted in large areas being flooded. Subsistence farming has also contributed to deforestation as well, thanks to the increasing population in these areas in settlements. 
 
@@ -364,7 +372,7 @@ Human exploitation is destroying much of the rainforests' biodiverse species, en
 
 I could not find my notes on the rainforest but there's so much info online and in books there's no point even looking for them.
 
-Useful resources: https://www.coolgeography.co.uk/gcsen/Amazon_Case_study.php. 
+Useful resources: [Cool Geography - Amazon Case Study](https://www.coolgeography.co.uk/gcsen/Amazon_Case_study.php). 
 
 Causes of deforestation:
 - Subsistence farming - clear forest and burn it, growing crops until the soil is exhausted, repeat.
@@ -389,7 +397,7 @@ Cacti have spines which make it difficult for predators to eat them. They store 
 
 ## Case study: the Western Desert
 
-The Western Desert covers 200,000 square kilometres. Development in the Western Desert has increased significantly in the past century or so, with Las Vegas (NV) and Phoenix (AZ) home to several million residents, and act as extremely popular tourist destinations for international travelers. In more arid areas, the population density is sparse, allowing developments. These include:
+The Western Desert covers 200,000 square kilometres. Development in the Western Desert has increased significantly in the past century or so, with Las Vegas (NV) and Phoenix (AZ) home to several million residents, and act as extremely popular tourist destinations for international travellers. In more arid areas, the population density is sparse, allowing developments. These include:
 
 
 ### Farming 
@@ -404,7 +412,7 @@ Due to the strong solar availability in desert regions, the Western Desert has a
 
 ### Tourism
 
-The Grand Canyon is a popular tourist destination, due to its natural, wild landscape offering spectacular views - at least, that's what people say. The two major lakes, Lake Mead and Lake Powell attract millions of visitors anually, and offer a variety of water sports. Of course, Las Vegas is another hugely popular resort, attracting up to 40 million visitors a year!
+The Grand Canyon is a popular tourist destination, due to its natural, wild landscape offering spectacular views - at least, that's what people say. The two major lakes, Lake Mead and Lake Powell attract millions of visitors annually, and offer a variety of water sports. Of course, Las Vegas is another hugely popular resort, attracting up to 40 million visitors a year!
 
 ### Challenges: Accessibility
 
@@ -502,7 +510,7 @@ The **load** is **transported material**.
 
 ## Case study: [the Dorset coastline](https://www.google.com/maps/@50.6547146,-1.8754129,27074m/data=!3m1!1e3)
 
-^^ Middle click above to open google maps in a new tab with this area of coastline! ^^
+\^\^ Middle click above to open google maps in a new tab with this area of coastline! ^^
 
 Bays and headlands are formed when there is a discordant coastline. This is when layers of alternating rock parallel to the coast exists. The softer rock (clay) is eroded before the harder rock (limestone, chalk).
 
@@ -510,11 +518,11 @@ Bays and headlands are formed when there is a discordant coastline. This is when
 *Wave refraction at a headland.*
 
 
-Coves are formed wenn the hard rock, limestone in Dorset, is broken, allowing the water to more easily erode the rocks behind it. Example: [Lulworth Cove](https://www.google.com/maps/@50.6116076,-2.2502119,259a,35y,17.81h,69.91t/data=!3m1!1e3). Drag and pan while holding the control key to go 3D, you can see some cool formations.
+Coves are formed when the hard rock, limestone in Dorset, is broken, allowing the water to more easily erode the rocks behind it. Example: [Lulworth Cove](https://www.google.com/maps/@50.6116076,-2.2502119,259a,35y,17.81h,69.91t/data=!3m1!1e3). Drag and pan while holding the control key to go 3D, you can see some cool formations.
 
-Cliffs in Dorset are mostly made of limestone, chalk, sandstone and chale. Soft cliff rocks are more prone to slumping, and hard rocks result in large, tall cliffs and wave cut platforms.
+Cliffs in Dorset are mostly made of limestone, chalk, sandstone and shale. Soft cliff rocks are more prone to slumping, and hard rocks result in large, tall cliffs and wave cut platforms.
 
-A wave cut platform is an area of bedrock visible at low tode. It slopes gently into the sea, and is covered by the water at high tide. The stages of a cliffs and wave cut platforms are below:
+A wave cut platform is an area of bedrock visible at low tide. It slopes gently into the sea, and is covered by the water at high tide. The stages of a cliffs and wave cut platforms are below:
 1. The land slopes into the sea, and being weakened by weathering processes.
 2. Waves erode the base of this with hydraulic power and abrasion between the high and low tides
 3. Continued erosion causes the rock to break away. It now has a 'notch' at its base. The rock above the notch is unsupported and prone to falling down.
@@ -540,7 +548,7 @@ Caves, arches, stacks and stumps occur generally at headlands.
 I have already explained how beaches are formed, so I'll skip that here. 
 
 ### Sand dunes
-Sand dunes are formed mostly (95%) through saltation, where grains of sand are picked up by the wind and bounce along the beach. When an obstacle is reached, like driftwood, the grains of sand will settle, forming a small ridge. This ridge will gradually increase in size, and on the leeward side (opposite the windward size where the wind is blowing) the dune will collapse, creating a steep gradient. 
+Sand dunes are formed mostly (95%) through **saltation**, where grains of sand are picked up by the wind and bounce along the beach. When an obstacle is reached, like driftwood, the grains of sand will settle, forming a small ridge. This ridge will gradually increase in size, and on the leeward side (opposite the windward size where the wind is blowing) the dune will collapse, creating a steep gradient. 
 
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/Characteristics-of-sand-dunes.png)
 *Easier to visualise.*
@@ -552,7 +560,7 @@ The further inland the dune, the taller and more vegetated it will be. Dunes clo
 
 ### Spits
 
-When a coastline changes shape (i.e moves inwards), a lot of deposition happens, resulting in the beach growing out into the sea. The prevailing wind and longshore drift make this happen. The depositional material gets smaller as the spit increases in length due to attrition. A dominant wind will cause the spit to form a 'hook' (recurve) inland. Over time, there will be multiple hooks and, in Dorset, there is a spit which is 4km long.
+When a coastline changes shape (i.e. moves inwards), a lot of deposition happens, resulting in the beach growing out into the sea. The prevailing wind and longshore drift make this happen. The depositional material gets smaller as the spit increases in length due to attrition. A dominant wind will cause the spit to form a 'hook' (recurve) inland. Over time, there will be multiple hooks and, in Dorset, there is a spit which is 4km long.
 
 A salt marsh and lagoon will form behind the spit which is sheltered from the waves, over time this will become vegetated.
 
@@ -648,7 +656,7 @@ A meander is a bend in a river.  Fast flowing water on the outside causes latera
 On the other side, sand and pebbles are deposited due to high friction, forming a slip-off slope. Water here is slow. 
 The corkscrew motion of the fastest flow of the water is helicoidal.
 
-[I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you lol](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
+[I'm not explaining how an oxbow lake is formed because it's the staple of Geography and should be second nature to all of you!](https://www.bbc.co.uk/bitesize/guides/ztpkqty/revision/2)
 
 When an oxbow lake eventually evaporates, a 'meander scar' is left behind.
 
@@ -694,12 +702,13 @@ Factors affecting flood risk:
 -   **Relief** - a steep valley is more likely to flood than a flatter valley because the rainfall will run off into the river more quickly, and it cannot be absorbed by the soil.
 -   **Geology** - permeable rocks allow water to pass through pores and cracks, whereas impermeable rocks do not. If a valley is made up of impermeable rocks, there is a higher chance of flooding as there is an increase in surface run-off.
 -   **Vegetation** - trees and plants absorb water, called interception. Lots of vegetation reduces flood risk. Deforestation will increase the flood risk, as the water cannot be intercepted and flow into the river.
--   **Urban land use** - when an area surrounding a river is built on, the anount of impermeable surfaces increase, like concrete and tarmac. Drains and sewers take water directly into the river channel, increasing flood risk.
+-   **Urban land use** - when an area surrounding a river is built on, the amount of impermeable surfaces increase, like concrete and tarmac. Drains and sewers take water directly into the river channel, increasing flood risk.
 
 
 ## River management strategies
 ![enter image description here](https://cheatsheet-assets.ibaguette.com/gcse/geography/SpecContent-RiverManagementStrategies.png)
 *Finally, the last section on paper 1.*
+
 ### Hard engineering 
 
 Involves building artificial structures which try to control rivers.
@@ -741,9 +750,9 @@ As I took the exams in 2022 with optionality, I did not have time or any notes t
 *Here's what the specification says.*
 
 
-HOWEVER, notice how I said the glaciation **GCSE** unit. Luckily, I love Geography and so am currently doing an A level in it, and glaciation just so happens to be one of the physical units.
+HOWEVER, notice how I said the glaciation **GCSE** unit. Luckily, I love Geography so did an A Level in it. Glaciation just so happened to be one of my favourite physical units.
 
-To view the A level cheat sheet with glaciation information on, as well as to perhaps get a taste for the A level in general, go to [this iBaguette cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all#option-b-%E2%80%93-glaciated-landscapes). 
+To view the A Level cheat sheet with glaciation information on, in addition to to perhaps getting a taste for the A Level in general, go to [this iBaguette cheat sheet](https://ibaguette.com/cheatsheets/alevel/geography/all#physical---glaciated-landscapes). 
 
 Note: it contains huge amounts of much more detailed information compared to what you need to know. You can skim read and search through it to find the relevant information.
 
@@ -775,7 +784,7 @@ Cities are also historically situated on rivers (like London^1^ and Paris) and c
 
 In richer countries and continents like Europe, Oceania and North America, the rates of urbanisation have significantly slowed down, as most people have already moved into urban areas thanks to industrial revolutions which have already occurred.  Due to countries' wealth, people in these HICs live for longer and tend to have fewer babies, which could lead to natural decrease in the future.
 
-[China has plans to merge these cities on the Pearl River Delta into one huge megacity with a population of over 140 million, covering 25x more land than London.](https://www.google.com/maps/@22.7316438,113.7223091,182424m/data=!3m1!1e3)
+China has plans to merge these cities on the Pearl River Delta into one huge megacity with a population of over 140 million, covering 25x more land than London. Click [here](https://www.google.com/maps/@22.7316438,113.7223091,182424m/data=!3m1!1e3) to see a Google Maps satellite view.
 
 
 ## Case study: Lagos, Nigeria 
@@ -1078,7 +1087,7 @@ Disadvantages include
 
 ### [tbd] Example of a local scheme an LIC/NEE
 
-This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specificaiton, for information which I *just* managed to remember. 
+This section is to be determined as I do not have any notes for it. I had to ask my teacher literally a couple of minutes before the exam about it, as it is right at the end of the specification, for information which I *just* managed to remember. 
 
 Despite everyone else betting against me that it wouldn't come up in the exam, it was the last question and a 6 marker in the 2022 exam series. Good luck! 
 

@@ -1,0 +1,8 @@
+# wrangler.toml (wrangler v3.88.0^)
+name = "cheatsheet-master"
+compatibility_date = "2025-07-03"
+main = "cheatsheet-master.js"
+
+[observability.logs]
+enabled = true
+

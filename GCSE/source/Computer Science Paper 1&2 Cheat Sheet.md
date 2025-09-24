@@ -9,7 +9,7 @@
 
 > *Written by [Oliver Ling](https://www.linkedin.com/in/oliver-ling/) (@draggie306)*.
 
-[Latest general update: 23/06/2025 21:52.
+[Latest general update: 24/09/2025 22:18.
 Last content addition: 23/06/2025 21:46](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 > Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
@@ -160,13 +160,13 @@ Advantages of these systems include they require less power to run and are cheap
 
 ## 1.2.1 Primary storage
 
-Primary storage consists of RAM (random access memory) and ROM (read-only memory). ROM is non-volatile (retains its data after being powered off) and is usually often now only used to boot the computer, providing for the BIOS or UEFI.
+Primary storage consists of RAM (random access memory) and ROM (read-only memory). ROM is non-volatile (retains its data after being powered off) and is now often only used to boot the computer, providing the BIOS or UEFI start-up instructions.
 
-Memory/RAM is small in size compared to secondary storage, but is much faster as it does not have moving parts or have to retain that information. It is usually from 4-16GB in size. The more RAM a computer has, the more programs and instructions it can store simultaneously.
+Memory/RAM is small in size compared to secondary storage, but is much faster as it does not have moving parts or have to retain that much information. It is usually from 4-16GB in size. The more RAM a computer has, the more programs and instructions it can store simultaneously.
 
-Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow for when memory is filled up. When RAM is full, data which would have gone to memory goes to an area of the disk drive and, when needed by the CPU again, is moved back into RAM. However, virtual memory is *much* slower than even the fastest SSDs, let alone HDDs with their moving parts, so the OS attempts to avoid placing highly-used programs in virtual memory. *More RAM = always better.*
+Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow when memory is filled up. When RAM is full, data which would have gone to memory instead goes to an area of the disk drive and, when needed by the CPU, is moved back into RAM. However, virtual memory is *much* slower than primary storage media, even if it uses the fastest SSDs, let alone HDDs with their moving parts, so the OS always attempts to avoid placing highly-used programs in virtual memory. *More RAM = always better. Apart from its costs.*
 
-Cache memory is small amounts of incredibly fast but relatively expensive random access memory located within the CPU, used for very common operations and calculations that may need to be immediately reused. There are typically 3 levels of cache - L1, L2 and L3 - which go down (starting from L1) in cost and speed, but up in capacity. As it is located on the CPU itself, it's much faster than having to go to RAM all the time.
+Cache memory is small amounts of incredibly fast but relatively expensive random access memory located within the CPU itself, used for very common operations and calculations that may need to be immediately reused. There are typically 3 levels of cache - L1, L2 and L3 - which go down (starting from L1) in cost and speed, but up in capacity. As it is located on the CPU itself, it's much faster than having to go to RAM all the time. 
 
 ## 1.2.2 Secondary storage
 
@@ -967,7 +967,7 @@ There are comparison and arithmetic operators. (They will give the Boolean value
 Casting is a method used to convert between these data types. For example, if you want to compare a user's input to a value, you must change it to an integer first. The way to do this is by using:
 
 ```py
-x = input("how much cake do you want from to 10? >>")
+x = input("how much cake do you want from 1 to 10? >>")
 if int(x) > 5:
 	print("you really want cake lol")
 ```
@@ -978,7 +978,7 @@ Or, **str()** for strings, or **float()** for floating point data.
 
 You can turn the above into two lines by using this:
 ```py
-if int(input("how much cake do you want from to 10? >>")) > 5:
+if int(input("how much cake do you want from 1 to 10? >>")) > 5:
 	print("you really want cake lol")
 ```
 

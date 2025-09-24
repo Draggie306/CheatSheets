@@ -7,8 +7,8 @@
 
 > *Written by [Oliver Ling](https://www.linkedin.com/in/oliver-ling/) (@draggie306)*.
 
-[Latest general update: 23/06/2025 21:57.
-Last content addition: 23/06/2025 21:38](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Latest general update: 24/09/2025 22:18.
+Last content addition: 23/06/2025 21:46](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 > Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
 > Plus, you can opt to receive automatic notifications whenever new content is added here!
@@ -280,7 +280,7 @@ There are comparison and arithmetic operators. (They will give the Boolean value
 Casting is a method used to convert between these data types. For example, if you want to compare a user's input to a value, you must change it to an integer first. The way to do this is by using:
 
 ```py
-x = input("how much cake do you want from to 10? >>")
+x = input("how much cake do you want from 1 to 10? >>")
 if int(x) > 5:
 	print("you really want cake lol")
 ```
@@ -291,7 +291,7 @@ Or, **str()** for strings, or **float()** for floating point data.
 
 You can turn the above into two lines by using this:
 ```py
-if int(input("how much cake do you want from to 10? >>")) > 5:
+if int(input("how much cake do you want from 1 to 10? >>")) > 5:
 	print("you really want cake lol")
 ```
 

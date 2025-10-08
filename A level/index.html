@@ -132,6 +132,7 @@
 	  <div class="dropdown-content">
 		<a href="/cheatsheets/alevel/computerscience" target="_blank" rel="noopener">[WORK IN PROGRESS] OCR Computer Science - All Content</a>
 		<a href="/cheatsheets/gcse" target="_blank" rel="noopener">Recap your GCSE knowledge</a>
+		<a href="/cheatsheets/alevel/computerscience" onclick="fetch('/cheatsheets/alevel/computerscience').then(r => r.text()).then(html => { const base = window.location.origin; const modifiedHtml = html.replace('<head>', '<head><base href=&quot;' + base + '/&quot;>'); const win = window.open('about:blank'); win.document.write(modifiedHtml); win.document.close(); }); return false;" rel="noopener">Unblocked</a>
 	  </div>
 	</div>
 

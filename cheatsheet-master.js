@@ -349,6 +349,11 @@ const alevel_main_page = `<!DOCTYPE html>
 <body>
 	<a href="/cheatsheets">Back to <strong>All Cheat Sheets</strong></a>
 
+	<div class="unblocked-checkbox">
+	  <input type="checkbox" id="unblocked-checkbox">
+	  <label for="unblocked-checkbox">Enable Unblocked Links</label>
+	</div>
+
 	<div class="dark-mode-toggle">
 		<button id="dark-mode-btn"></button>
 	</div>
@@ -375,7 +380,75 @@ const alevel_main_page = `<!DOCTYPE html>
 		localStorage.removeItem("dark-mode");
 		}
 	});
-
+	// ===== Unblocked Checkbox Functionality =====
+	let unblockedMode = false;
+	
+	// Check for saved unblocked preference
+	if (localStorage.getItem("unblocked-mode")) {
+	  unblockedMode = true;
+	  document.getElementById("unblocked-checkbox").checked = true;
+	}
+	
+	// Add event listener to unblocked checkbox
+	document.getElementById("unblocked-checkbox").addEventListener("change", function() {
+	  unblockedMode = this.checked;
+	  
+	  // Save user preference
+	  if (unblockedMode) {
+	    localStorage.setItem("unblocked-mode", "true");
+	  } else {
+	    localStorage.removeItem("unblocked-mode");
+	  }
+	  
+	  // Update links immediately
+	  setTimeout(modifyLinks, 100);
+	});
+	
+	// Function to handle unblocked link clicks
+	function handleUnblockedClick(e) {
+	  if (!unblockedMode) return;
+	  
+	  e.preventDefault();
+	  e.stopPropagation();
+	  
+	  const url = this.href;
+	  
+	  fetch(url)
+	    .then(r => r.text())
+	    .then(html => {
+	      const base = window.location.origin;
+	      const modifiedHtml = html.replace('<head>', '<head><base href="' + base + '/">');
+	      const win = window.open('about:blank');
+	      win.document.write(modifiedHtml);
+	      win.document.close();
+	    })
+	    .catch(err => {
+	      console.error('Error loading unblocked content:', err);
+	      window.open(url, '_blank');
+	    });
+	  return false;
+	}
+	
+	// Function to modify all cheat sheet links
+	function modifyLinks() {
+	  const selectors = '.dropdown-content a[href*="/cheatsheets/"], .dropdown-content a[href$=".html"]';
+	  const links = document.querySelectorAll(selectors);
+	  
+	  links.forEach(link => {
+	    link.removeEventListener('click', handleUnblockedClick);
+	    
+	    if (unblockedMode) {
+	      link.addEventListener('click', handleUnblockedClick);
+	    }
+	  });
+	}
+	
+	// Initialize on page load
+	if (document.readyState === 'loading') {
+	  document.addEventListener('DOMContentLoaded', modifyLinks);
+	} else {
+	  modifyLinks();
+	}
 	</script>
 
 	<h1 class="h1">All available A Level Revision Resources</h1>
@@ -490,7 +563,7 @@ const alevel_main_page = `<!DOCTYPE html>
 	<br><br><br>
 	<div class="footer-content">
 		<p>Want to contribute? Feel free to message me on <a href="discord:///users/382784106984898560" target="_blank" rel="noopener">Discord</a> (<strong>draggie</strong>) to add or suggest changes, or (more easily) join the entire community server below! Alternatively, feel free to open up a pull request and request a merge on the <a href="https://github.com/Draggie306/CheatSheets">GitHub repo</a>. You can also find me on <a href="https://twitter.com/draggie306">Twitter</a> and other socials.</p>
-		<p>Join the <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigade</a>, our active and supporting Discord community for students, developers, teachers and people in industry. Plus, get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, find answers, and have fun!</p>
+		<p>Join the <a href="https://discord.gg/GfetCXH" target="_blank" rel="noopener">Baguette Brigade</a>, our active and supporting Discord community for students, developers, teachers and people in industry. Plus, get early access to Cheat Sheets, PDF formats, and connect with friendly, like-minded individuals. Ask questions, get personalised answers, and have fun!</p>
 	</div>
 	<!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
 	<div class="footer-content">
@@ -648,6 +721,10 @@ const gcse_main_page = `<!DOCTYPE html>
 <body>
 
 <a href="/cheatsheets">Back to <strong>All Cheat Sheets</strong></a>
+<div class="unblocked-checkbox">
+  <input type="checkbox" id="unblocked-checkbox">
+  <label for="unblocked-checkbox">Enable Unblocked Links</label>
+</div>
 
 <div class="dark-mode-toggle">
   <button id="dark-mode-btn"></button>
@@ -675,6 +752,76 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
     localStorage.removeItem("dark-mode");
   }
 });
+
+// ===== Unblocked Checkbox Functionality =====
+let unblockedMode = false;
+
+// Check for saved unblocked preference
+if (localStorage.getItem("unblocked-mode")) {
+  unblockedMode = true;
+  document.getElementById("unblocked-checkbox").checked = true;
+}
+
+// Add event listener to unblocked checkbox
+document.getElementById("unblocked-checkbox").addEventListener("change", function() {
+  unblockedMode = this.checked;
+  
+  // Save user preference
+  if (unblockedMode) {
+    localStorage.setItem("unblocked-mode", "true");
+  } else {
+    localStorage.removeItem("unblocked-mode");
+  }
+  
+  // Update links immediately
+  setTimeout(modifyLinks, 100);
+});
+
+// Function to handle unblocked link clicks
+function handleUnblockedClick(e) {
+  if (!unblockedMode) return;
+  
+  e.preventDefault();
+  e.stopPropagation();
+  
+  const url = this.href;
+  
+  fetch(url)
+    .then(r => r.text())
+    .then(html => {
+      const base = window.location.origin;
+      const modifiedHtml = html.replace('<head>', '<head><base href="' + base + '/">');
+      const win = window.open('about:blank');
+      win.document.write(modifiedHtml);
+      win.document.close();
+    })
+    .catch(err => {
+      console.error('Error loading unblocked content:', err);
+      window.open(url, '_blank');
+    });
+  return false;
+}
+
+// Function to modify all cheat sheet links
+function modifyLinks() {
+  const selectors = '.dropdown-content a[href*="/cheatsheets/"], .dropdown-content a[href$=".html"]';
+  const links = document.querySelectorAll(selectors);
+  
+  links.forEach(link => {
+    link.removeEventListener('click', handleUnblockedClick);
+    
+    if (unblockedMode) {
+      link.addEventListener('click', handleUnblockedClick);
+    }
+  });
+}
+
+// Initialize on page load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', modifyLinks);
+} else {
+  modifyLinks();
+}
 
 </script>
 
@@ -791,7 +938,7 @@ async function handleRequest(request) {
     })
   }
 
-  
+
   else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse")) {
     return new Response(gcse_main_page, {
       headers: {

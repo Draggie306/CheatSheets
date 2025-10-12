@@ -261,7 +261,7 @@ const main_page = `<!DOCTYPE html>
     </div>
     <!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
     <div class="footer-content">
-      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">c2246eb</a> |<strong> Version 1.6 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
 </body>
 </html>`
@@ -908,7 +908,7 @@ if (document.readyState === 'loading') {
   <br>
 	<!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">c2246eb</a> |<strong> Version 1.6 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`

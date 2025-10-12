@@ -144,6 +144,10 @@
 <body>
 
 <a href="/cheatsheets">Back to <strong>All Cheat Sheets</strong></a>
+<div class="unblocked-checkbox">
+  <input type="checkbox" id="unblocked-checkbox">
+  <label for="unblocked-checkbox">Enable Unblocked Links</label>
+</div>
 
 <div class="dark-mode-toggle">
   <button id="dark-mode-btn"></button>
@@ -171,6 +175,76 @@ document.getElementById("dark-mode-btn").addEventListener("click", function() {
     localStorage.removeItem("dark-mode");
   }
 });
+
+// ===== Unblocked Checkbox Functionality =====
+let unblockedMode = false;
+
+// Check for saved unblocked preference
+if (localStorage.getItem("unblocked-mode")) {
+  unblockedMode = true;
+  document.getElementById("unblocked-checkbox").checked = true;
+}
+
+// Add event listener to unblocked checkbox
+document.getElementById("unblocked-checkbox").addEventListener("change", function() {
+  unblockedMode = this.checked;
+  
+  // Save user preference
+  if (unblockedMode) {
+    localStorage.setItem("unblocked-mode", "true");
+  } else {
+    localStorage.removeItem("unblocked-mode");
+  }
+  
+  // Update links immediately
+  setTimeout(modifyLinks, 100);
+});
+
+// Function to handle unblocked link clicks
+function handleUnblockedClick(e) {
+  if (!unblockedMode) return;
+  
+  e.preventDefault();
+  e.stopPropagation();
+  
+  const url = this.href;
+  
+  fetch(url)
+    .then(r => r.text())
+    .then(html => {
+      const base = window.location.origin;
+      const modifiedHtml = html.replace('<head>', '<head><base href="' + base + '/">');
+      const win = window.open('about:blank');
+      win.document.write(modifiedHtml);
+      win.document.close();
+    })
+    .catch(err => {
+      console.error('Error loading unblocked content:', err);
+      window.open(url, '_blank');
+    });
+  return false;
+}
+
+// Function to modify all cheat sheet links
+function modifyLinks() {
+  const selectors = '.dropdown-content a[href*="/cheatsheets/"], .dropdown-content a[href$=".html"]';
+  const links = document.querySelectorAll(selectors);
+  
+  links.forEach(link => {
+    link.removeEventListener('click', handleUnblockedClick);
+    
+    if (unblockedMode) {
+      link.addEventListener('click', handleUnblockedClick);
+    }
+  });
+}
+
+// Initialize on page load
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', modifyLinks);
+} else {
+  modifyLinks();
+}
 
 </script>
 

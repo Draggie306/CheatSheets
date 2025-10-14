@@ -74,7 +74,7 @@ export default {
 
     // TODO: use router vs pattern matching
 
-    console.log("Hi");
+    // console.log("Hi");
 
     // This is main site landing page
     // this is kept as raw HTML as it is slightly quicker to rapidly edit directly from the Cloudflare worker and check for bugs

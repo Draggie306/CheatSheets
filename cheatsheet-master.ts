@@ -1,62 +1,68 @@
-"use strict";
 // This file in GitHub is NOT directly linked to a Cloudflare Worker (i.e. commits to this file do not update the worker), so code below may not be the same as the one loaded on the website.
 // Instead, I manually update the Cloudflare Worker to ensure it cannot be changed by unauthorised people.
 // You can verify this by looking for this comment and/or comparing the code your browser receives to the code below.
 // However, the cheat sheets themselves do not need to be manually updated by me. Commits to the cheatsheet repo will automatically update, as the worker fetches the raw HTML from the repo.
 // Note that the cache might take a while to update :) - but for SPEEEEEED, it's worth it!
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
+
 // New version with caching.
-const statusCode = 200;
+
+const statusCode = 200
+
 // Link the constants to the raw HTML cheatsheets on the github repo
 // these used to include the actual HTML rather than a pointer to the repository
 // but I changed it for ease of updating.
-const html_geog_paper_1 = "https://github.com/Draggie306/CheatSheets/raw/main/GCSE/Geography%20Cheat%20Sheet!%20%5BPaper%201%5D.html";
-const html_geog_paper_2 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Geography%20%5BPaper%202%5D.html";
-const html_geog_both_papers = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Geography%20Paper%201%20%2B%202.html";
-const html_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Computer%20Science%20Paper%201%262%20Cheat%20Sheet.html";
-const html_computer_science_paper1 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Comp%20Sci%20Paper%201.html";
-const html_computer_science_paper2 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Comp%20Sci%20Paper%202.html";
-const html_science_practicals = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/All%20Science%20Core%20Practicals.html";
-const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Biology%20Paper%202%20recap.html";
-const gcse_history_elizabethanengland = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20B%20-%20Elizabethan%20England.html";
-const gcse_history_healthandthepeople = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20A%20-%20Health%20and%20the%20People.html";
-const gcse_snippet_cs_systems_architecture = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.1%20Systems%20Architecture%20Revision%20Guide%20-%20OCR%20J277.html";
-const gcse_snippet_cs_memory_storage = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.2%20Memory%20and%20Storage%20Revision%20Guide%20-%20OCR%20J277.html";
-const gcse_snippet_cs_networks_protocols = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.3%20Networks,%20connections%20and%20protocols%20Revision%20Guide%20-%20OCR%20J277.html";
-const gcse_snippet_cs_network_security = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.4%20Network%20security%20Revision%20Guide%20-%20OCR%20J277.html";
-const gcse_snippet_cs_systems_software = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.5%20Systems%20Software%20Revision%20Guide%20-%20OCR%20J277.html";
-const gcse_snippet_cs_impacts_tech = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.6%20Impacts%20of%20digital%20technology%20Revision%20Guide%20-%20OCR%20J277.html";
-const hizi_sites = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Subject_Sites.html";
+
+const html_geog_paper_1 = "https://github.com/Draggie306/CheatSheets/raw/main/GCSE/Geography%20Cheat%20Sheet!%20%5BPaper%201%5D.html"
+const html_geog_paper_2 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Geography%20%5BPaper%202%5D.html"
+const html_geog_both_papers = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Geography%20Paper%201%20%2B%202.html"
+const html_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Computer%20Science%20Paper%201%262%20Cheat%20Sheet.html"
+const html_computer_science_paper1 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Comp%20Sci%20Paper%201.html"
+const html_computer_science_paper2 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Comp%20Sci%20Paper%202.html"
+const html_science_practicals = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/All%20Science%20Core%20Practicals.html"
+const html_biology_braindump = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Biology%20Paper%202%20recap.html"
+const gcse_history_elizabethanengland = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20B%20-%20Elizabethan%20England.html"
+const gcse_history_healthandthepeople = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/How%20to...%20AQA%20GCSE%20History%20-%20Paper%202%20Section%20A%20-%20Health%20and%20the%20People.html"
+
+
+const gcse_snippet_cs_systems_architecture = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.1%20Systems%20Architecture%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_memory_storage = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.2%20Memory%20and%20Storage%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_networks_protocols = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.3%20Networks,%20connections%20and%20protocols%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_network_security = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.4%20Network%20security%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_systems_software = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.5%20Systems%20Software%20Revision%20Guide%20-%20OCR%20J277.html"
+const gcse_snippet_cs_impacts_tech = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/snippets/GCSE%20Computer%20Science%201.6%20Impacts%20of%20digital%20technology%20Revision%20Guide%20-%20OCR%20J277.html"
+
+const hizi_sites = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/GCSE/Subject_Sites.html"
+
 // A Level links
-const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html";
-const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html";
-const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html";
-const alevel_geog_physical = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Physical.html";
-const alevel_geog_human = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Human.html";
-const alevel_computer_science_2023_paper1 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Summer%202023%20Paper%20Targeted%20Revision.html";
-const alevel_geog_diseasedilemmas = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Disease%20Dilemmas%20Complete%20Revision%20Guide%20(OCR).html";
-const alevel_french_choristes = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Les%20Choristes%20-%20Past%20Paper%20Questions.html";
-const alevel_french_lsdlm = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Le%20Silence%20de%20la%20mer%20-%20Past%20Paper%20Questions.html";
-const alevel_geog_hazardousearth = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Hazardous%20Earth.html";
-const alevel_geog_glaciation = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Glaciation.html";
-const alevel_geog_elss = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20ELSS.html";
+const alevel_geog = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Geography.html"
+const alevel_computer_science = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/ComputerScience.html"
+const alevel_geog_nea = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/GeogNEA.html"
+const alevel_geog_physical = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Physical.html"
+const alevel_geog_human = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20level%20OCR%20Geography%20-%20Human.html"
+const alevel_computer_science_2023_paper1 = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Summer%202023%20Paper%20Targeted%20Revision.html"
+const alevel_geog_diseasedilemmas = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Disease%20Dilemmas%20Complete%20Revision%20Guide%20(OCR).html"
+const alevel_french_choristes = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Les%20Choristes%20-%20Past%20Paper%20Questions.html"
+const alevel_french_lsdlm = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/Le%20Silence%20de%20la%20mer%20-%20Past%20Paper%20Questions.html"
+const alevel_geog_hazardousearth = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Hazardous%20Earth.html"
+const alevel_geog_glaciation = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20Glaciation.html"
+const alevel_geog_elss = "https://raw.githubusercontent.com/Draggie306/CheatSheets/main/A%20level/A%20Level%20Geography%20-%20ELSS.html"
+
+
+
 // TODO: use router vs pattern matching
 /**
  * import { AutoRouter } from 'itty-router'
  * const router = AutoRouter()
- *
+ * 
  */
+
+
+
 // This is main site landing page
 // this is kept as raw HTML as it is slightly quicker to rapidly edit directly from the Cloudflare worker and check for bugs
+
 // has extra cookie code for audio
+
 const main_page = `<!DOCTYPE html>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
 <!-- If you see this, hi! :) -->
@@ -258,7 +264,9 @@ const main_page = `<!DOCTYPE html>
       Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">c2246eb</a> |<strong> Version 1.6 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
 </body>
-</html>`;
+</html>`
+
+
 // The main A Level 'interstitial' page
 // has not as much cookie code as no audio :)
 // Also, please don't delete this, lol
@@ -562,7 +570,10 @@ const alevel_main_page = `<!DOCTYPE html>
 		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
-</html>`;
+</html>`
+
+
+
 // gcse main page
 const gcse_main_page = `<!DOCTYPE html>
 <!-- This is the standard iBaguette menu area without any content. This head section defines how the dropdowns work and stuff. -->
@@ -900,444 +911,511 @@ if (document.readyState === 'loading') {
 		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">c2246eb</a> |<strong> Version 1.6 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
-</html>`;
+</html>`
+
+
+
 // Main Cloudflare async functions to respond to dynamic routes
 // these show at specific URLs when the button has been clicked on
-function handleRequest(request, env) {
-    return __awaiter(this, void 0, void 0, function* () {
-        var _a, _b;
-        let htmlResponse;
-        const cache = caches.default;
-        let response = yield cache.match(request);
-        console.log("Handling request");
-        let initial_time = new Date().getTime();
-        let request_origin = new URL(request.url).origin;
-        console.log(request_origin);
-        // return functions for main intersitial/browser webpages
-        if (request.url.toLowerCase().endsWith("/cheatsheets")) {
-            console.log("Returning static assets");
-            return env.STATIC_ASSETS.fetch(request.url);
-            return new Response(main_page, {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "Cache-Control": "max-age=864000",
-                    "Link": "</cheatsheets/gcse>; rel=prefetch, </cheatsheets/alevel>; rel=prefetch",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse")) {
-            return new Response(gcse_main_page, {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "Cache-Control": "max-age=864000",
-                    // "Link": "</cheatsheets/gcse/geography/Paper1and2>; rel=prefetch, </cheatsheets/gcse/geography/Paper1>; rel=prefetch, </cheatsheets/gcse/geography/Paper2>; rel=prefetch, </cheatsheets/gcse/ComputerScience>; rel=prefetch, </cheatsheets/gcse/science/practicals>; rel=prefetch, </cheatsheets/gcse/biology/2>; rel=prefetch, </cheatsheets/gcse/subject-sites>; rel=prefetch",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel")) {
-            return new Response(alevel_main_page, {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "a-level",
-                    "Cache-Control": "max-age=864000",
-                    // "Link": "</cheatsheets/alevel/geography/all>; rel=prefetch, </cheatsheets/alevel/geography/paper1>; rel=prefetch, </cheatsheets/alevel/geography/paper2>; rel=prefetch, </cheatsheets/alevel/geography/nea>; rel=prefetch, </cheatsheets/alevel/computerscience>; rel=prefetch, </cheatsheets/alevel/french>; rel=prefetch",
-                },
-            });
-        }
-        if (response) {
-            console.log("Found match in cache!");
-            let final_return_cached = new Date().getTime();
-            console.log("[ValidCache] Time taken to return: " + (final_return_cached - initial_time) + "ms");
-            return response;
-        }
-        console.log("The cache does not contain the response for url: " + request.url + ", fetching from origin");
-        let current_time = new Date().getTime();
-        // https://ibaguette.com/cheatsheets/gcse/geography/paper2
-        if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper2")) {
-            const response = yield fetch(html_geog_paper_2); // get html from github server
-            let finish_time = new Date().getTime();
-            console.log("Time taken to fetch: " + (finish_time - current_time) + "ms");
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "Cache-Control": "max-age=86400", // Cache the file for a day
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "geography",
-                    "cheatsheet-paper": "2",
-                    // "Link": "</cheatsheets/gcse/geography/paper1>; rel=prefetch, </cheatsheets/gcse/geography/paper1and2>; rel=prefetch",
-                },
-            });
-            console.log("Returning response: " + htmlResponse);
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper1")) {
-            const response = yield fetch(html_geog_paper_1); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "Cache-Control": "max-age=86400", // Cache the file for a day
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "geography",
-                    "cheatsheet-paper": "1",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper1and2")) {
-            const response = yield fetch(html_geog_both_papers); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "Cache-Control": "max-age=86400", // Cache the file for a day
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "geography",
-                },
-            });
-            // Return the response as is
-            // return htmlResponse;
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience")) {
-            const response = yield fetch(html_computer_science); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "Cache-Control": "max-age=86400", // Cache the file for a day
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/paper1")) {
-            const response = yield fetch(html_computer_science_paper1); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/paper2")) {
-            const response = yield fetch(html_computer_science_paper2); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "2",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/biology/2")) {
-            const response = yield fetch(html_biology_braindump); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "Cache-Control": "max-age=86400", // Cache the file for a day
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "biology",
-                    "cheatsheet-paper": "2",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/science/practicals")) {
-            const response = yield fetch(html_science_practicals); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "Cache-Control": "max-age=86400", // Cache the file for a day
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "science",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/all")) {
-            const response = yield fetch(alevel_geog); // get html from github server
-            // Return the response as is
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "geography",
-                },
-            });
-            // Return the response
-            // return htmlResponse;
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/computerscience")) {
-            const response = yield fetch(alevel_computer_science); // get html from github server
-            // Return the response as is
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "computerscience",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/paper1")) {
-            const response = yield fetch(alevel_geog_physical); // get html from github server
-            // Return the response as is
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "geography",
-                    "cheatsheet-paper": "physical",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/paper2")) {
-            const response = yield fetch(alevel_geog_human); // get html from github server
-            // Return the response as is
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "geography",
-                    "cheatsheet-paper": "human",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/nea")) {
-            const response = yield fetch(alevel_geog_nea); // get html from github server
-            // Return the response as is
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "geography",
-                    "cheatsheet-paper": "nea",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/subject-sites")) {
-            const response = yield fetch(hizi_sites); // get html from github server
-            // Return the response as is
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-author": "hizi"
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/history/elizabethan-england")) {
-            const response = yield fetch(gcse_history_elizabethanengland); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "history",
-                    "cheatsheet-author": "hoali"
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/history/health-and-the-people")) {
-            const response = yield fetch(gcse_history_healthandthepeople); // get html from github server
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "Content-Type": "text/html",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "history",
-                    "cheatsheet-author": "hoali"
-                },
-            });
-        }
-        // Snippets
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-architecture")) {
-            const response = yield fetch(gcse_snippet_cs_systems_architecture);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                    "cheatsheet-snippet": "systems-architecture",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/memory-and-storage")) {
-            const response = yield fetch(gcse_snippet_cs_memory_storage);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                    "cheatsheet-snippet": "memory",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/networks-and-protocols")) {
-            const response = yield fetch(gcse_snippet_cs_networks_protocols);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                    "cheatsheet-snippet": "networks",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/network-security")) {
-            const response = yield fetch(gcse_snippet_cs_network_security);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                    "cheatsheet-snippet": "network-security",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-software")) {
-            const response = yield fetch(gcse_snippet_cs_systems_software);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                    "cheatsheet-snippet": "systems-software",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/impacts-of-digital-technology")) {
-            const response = yield fetch(gcse_snippet_cs_impacts_tech);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "gcse",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                    "cheatsheet-snippet": "impacts-tech",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/computerscience/2023-paper1")) {
-            const response = yield fetch(alevel_computer_science_2023_paper1);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "computerscience",
-                    "cheatsheet-paper": "1",
-                    "cheatsheet-year": "2024",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/disease-dilemmas")) {
-            const response = yield fetch(alevel_geog_diseasedilemmas);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "geography",
-                    "cheatsheet-paper": "debates",
-                    "cheatsheet-year": "2024",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/french/les-choristes-questions")) {
-            const response = yield fetch(alevel_french_choristes);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "french",
-                    "cheatsheet-paper": "3",
-                    "cheatsheet-year": "2024",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/french/le-silence-de-la-mer-questions")) {
-            const response = yield fetch(alevel_french_lsdlm);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "french",
-                    "cheatsheet-paper": "3",
-                    "cheatsheet-year": "2024",
-                },
-            });
-        }
-        else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/hazardous-earth")) {
-            const response = yield fetch(alevel_geog_hazardousearth);
-            htmlResponse = new Response(yield response.text(), {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "cheatsheet-tier": "a-level",
-                    "cheatsheet-subject": "geography",
-                    "cheatsheet-paper": "debates",
-                    "cheatsheet-year": "2024",
-                },
-            });
-        }
-        // Special case for geog.uk website:
-        else if (request.url.toLowerCase() == "https://cheatsheets.geog.uk") {
-            return new Response(main_page, {
-                headers: {
-                    "content-type": "text/html;charset=UTF-8",
-                    "Cache-Control": "max-age=864000",
-                },
-            });
-        }
-        // else 301 redirect to main page
-        else {
-            if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/human")) {
-                return Response.redirect("https://ibaguette.com/cheatsheets/alevel/geography/paper2", 301);
-            }
-            if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/physical")) {
-                return Response.redirect("https://ibaguette.com/cheatsheets/alevel/geography/paper1", 301);
-            }
-            console.log("Redirecting to main page");
-            return Response.redirect(`${request_origin}/cheatsheets`, 301);
-        }
-        if ((htmlResponse === null || htmlResponse === void 0 ? void 0 : htmlResponse.status) == 200) {
-            // Cache the response
-            // log the text of the response
-            console.log("Caching response status: " + htmlResponse.status);
-            yield cache.put(request, htmlResponse.clone());
-            // Return the response
-            // let final_return_noncached = new Date().getTime();
-            // console.log("[NoCache] Time taken to return: " + (final_return_noncached - initial_time) + "ms");
-            return htmlResponse;
-        }
-        else {
-            return new Response(`[iBaguette CDN] Error when fetching from origin, { status: ${htmlResponse === null || htmlResponse === void 0 ? void 0 : htmlResponse.status} } 
-      ${new Date()}
-      ${((_a = request === null || request === void 0 ? void 0 : request.headers) === null || _a === void 0 ? void 0 : _a.get('cf-ray')) ? `Request ID is ${(_b = request === null || request === void 0 ? void 0 : request.headers) === null || _b === void 0 ? void 0 : _b.get('cf-ray')}` : "request id not found, code broken?"}`);
-        }
+
+
+async function handleRequest(request, env) {
+  // TODO: reduce this
+  let htmlResponse;
+  const cache = caches.default;
+  let response = await cache.match(request);
+  console.log("Handling request");
+  let initial_time = new Date().getTime();
+
+  let request_origin = new URL(request.url).origin
+  console.log(request_origin);
+
+  // return functions for main intersitial/browser webpages
+
+  if (request.url.toLowerCase().endsWith("/cheatsheets")) {
+
+    // TODO: fix this
+    console.log("Returning static assets")
+    return env.STATIC_ASSETS.fetch(request.url);
+
+    return new Response(main_page, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "Cache-Control": "max-age=864000",
+        "Link": "</cheatsheets/gcse>; rel=prefetch, </cheatsheets/alevel>; rel=prefetch",
+      },
+    })
+  }
+
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse")) {
+
+    // TODO: fix this
+    request.url.pathname = "/GCSE/index.html";
+
+    console.log("Returning static assets")
+    return env.STATIC_ASSETS.fetch(request.url);
+
+    return new Response(gcse_main_page, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "Cache-Control": "max-age=864000",
+        // "Link": "</cheatsheets/gcse/geography/Paper1and2>; rel=prefetch, </cheatsheets/gcse/geography/Paper1>; rel=prefetch, </cheatsheets/gcse/geography/Paper2>; rel=prefetch, </cheatsheets/gcse/ComputerScience>; rel=prefetch, </cheatsheets/gcse/science/practicals>; rel=prefetch, </cheatsheets/gcse/biology/2>; rel=prefetch, </cheatsheets/gcse/subject-sites>; rel=prefetch",
+      },
+    })
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel")) {
+    return new Response(alevel_main_page, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "a-level",
+        "Cache-Control": "max-age=864000",
+        // "Link": "</cheatsheets/alevel/geography/all>; rel=prefetch, </cheatsheets/alevel/geography/paper1>; rel=prefetch, </cheatsheets/alevel/geography/paper2>; rel=prefetch, </cheatsheets/alevel/geography/nea>; rel=prefetch, </cheatsheets/alevel/computerscience>; rel=prefetch, </cheatsheets/alevel/french>; rel=prefetch",
+      },
+    })
+  }
+
+  if (response) {
+    console.log("Found match in cache!");
+    let final_return_cached = new Date().getTime();
+    console.log("[ValidCache] Time taken to return: " + (final_return_cached - initial_time) + "ms");
+    return response;
+  }
+
+  console.log("The cache does not contain the response for url: " + request.url + ", fetching from origin");
+  let current_time = new Date().getTime();
+
+  // https://ibaguette.com/cheatsheets/gcse/geography/paper2
+  if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper2")) {
+    const response = await fetch(html_geog_paper_2); // get html from github server
+    let finish_time = new Date().getTime();
+    console.log("Time taken to fetch: " + (finish_time - current_time) + "ms");
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "Cache-Control": "max-age=86400",  // Cache the file for a day
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "geography",
+        "cheatsheet-paper": "2",
+        // "Link": "</cheatsheets/gcse/geography/paper1>; rel=prefetch, </cheatsheets/gcse/geography/paper1and2>; rel=prefetch",
+      },
     });
+
+    console.log("Returning response: " + htmlResponse);
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper1")) {
+    const response = await fetch(html_geog_paper_1); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "Cache-Control": "max-age=86400",  // Cache the file for a day
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "geography",
+        "cheatsheet-paper": "1",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/geography/paper1and2")) {
+    const response = await fetch(html_geog_both_papers); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "Cache-Control": "max-age=86400",  // Cache the file for a day
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "geography",
+      },
+    });
+    // Return the response as is
+    // return htmlResponse;
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience")) {
+    const response = await fetch(html_computer_science); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "Cache-Control": "max-age=86400",  // Cache the file for a day
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/paper1")) {
+    const response = await fetch(html_computer_science_paper1); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+      },
+    })
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/paper2")) {
+    const response = await fetch(html_computer_science_paper2); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "2",
+      },
+    })
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/biology/2")) {
+    const response = await fetch(html_biology_braindump); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "Cache-Control": "max-age=86400",  // Cache the file for a day
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "biology",
+        "cheatsheet-paper": "2",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/science/practicals")) {
+    const response = await fetch(html_science_practicals); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "Cache-Control": "max-age=86400",  // Cache the file for a day
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "science",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/all")) {
+    const response = await fetch(alevel_geog); // get html from github server
+    // Return the response as is
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "geography",
+      },
+    });
+    // Return the response
+    // return htmlResponse;
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/computerscience")) {
+    const response = await fetch(alevel_computer_science); // get html from github server
+    // Return the response as is
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "computerscience",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/paper1")) {
+    const response = await fetch(alevel_geog_physical); // get html from github server
+    // Return the response as is
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "geography",
+        "cheatsheet-paper": "physical",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/paper2")) {
+    const response = await fetch(alevel_geog_human); // get html from github server
+    // Return the response as is
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "geography",
+        "cheatsheet-paper": "human",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/nea")) {
+    const response = await fetch(alevel_geog_nea); // get html from github server
+    // Return the response as is
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "geography",
+        "cheatsheet-paper": "nea",
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/subject-sites")) {
+    const response = await fetch(hizi_sites); // get html from github server
+    // Return the response as is
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-author": "hizi"
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/history/elizabethan-england")) {
+    const response = await fetch(gcse_history_elizabethanengland); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "history",
+        "cheatsheet-author": "hoali"
+      },
+    });
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/history/health-and-the-people")) {
+    const response = await fetch(gcse_history_healthandthepeople); // get html from github server
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "Content-Type": "text/html",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "history",
+        "cheatsheet-author": "hoali"
+      },
+    });
+  }
+
+
+  // Snippets
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-architecture")) {
+    const response = await fetch(gcse_snippet_cs_systems_architecture);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+        "cheatsheet-snippet": "systems-architecture",
+      },
+    })
+  }
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/memory-and-storage")) {
+    const response = await fetch(gcse_snippet_cs_memory_storage);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+        "cheatsheet-snippet": "memory",
+      },
+    })
+  }
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/networks-and-protocols")) {
+    const response = await fetch(gcse_snippet_cs_networks_protocols);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+        "cheatsheet-snippet": "networks",
+      },
+    })
+  }
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/network-security")) {
+    const response = await fetch(gcse_snippet_cs_network_security);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+        "cheatsheet-snippet": "network-security",
+      },
+    })
+  }
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/systems-software")) {
+    const response = await fetch(gcse_snippet_cs_systems_software);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+        "cheatsheet-snippet": "systems-software",
+      },
+    })
+  }
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/gcse/computerscience/impacts-of-digital-technology")) {
+    const response = await fetch(gcse_snippet_cs_impacts_tech);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "gcse",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+        "cheatsheet-snippet": "impacts-tech",
+      },
+    })
+  }
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/computerscience/2023-paper1")) {
+    const response = await fetch(alevel_computer_science_2023_paper1);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "computerscience",
+        "cheatsheet-paper": "1",
+        "cheatsheet-year": "2024",
+      },
+    })
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/disease-dilemmas")) {
+    const response = await fetch(alevel_geog_diseasedilemmas);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "geography",
+        "cheatsheet-paper": "debates",
+        "cheatsheet-year": "2024",
+      },
+    })
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/french/les-choristes-questions")) {
+    const response = await fetch(alevel_french_choristes);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "french",
+        "cheatsheet-paper": "3",
+        "cheatsheet-year": "2024",
+      },
+    })
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/french/le-silence-de-la-mer-questions")) {
+    const response = await fetch(alevel_french_lsdlm);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "french",
+        "cheatsheet-paper": "3",
+        "cheatsheet-year": "2024",
+      },
+    })
+  }
+
+  else if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/hazardous-earth")) {
+    const response = await fetch(alevel_geog_hazardousearth);
+    htmlResponse = new Response(await response.text(), {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cheatsheet-tier": "a-level",
+        "cheatsheet-subject": "geography",
+        "cheatsheet-paper": "debates",
+        "cheatsheet-year": "2024",
+      },
+    })
+  }
+
+
+
+
+  // Special case for geog.uk website:
+  else if (request.url.toLowerCase() == "https://cheatsheets.geog.uk") {
+    return new Response(main_page, {
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "Cache-Control": "max-age=864000",
+      },
+    })
+  }
+
+  // else 301 redirect to main page
+  else {
+    if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/human")) {
+      return Response.redirect("https://ibaguette.com/cheatsheets/alevel/geography/paper2", 301);
+    }
+    if (request.url.toLowerCase().endsWith("/cheatsheets/alevel/geography/physical")) {
+      return Response.redirect("https://ibaguette.com/cheatsheets/alevel/geography/paper1", 301);
+    }
+    console.log("Redirecting to main page");
+    return Response.redirect(`${request_origin}/cheatsheets`, 301);
+  }
+
+
+  if (htmlResponse?.status == 200) {
+    // Cache the response
+    // log the text of the response
+    console.log("Caching response status: " + htmlResponse.status);
+
+    await cache.put(request, htmlResponse.clone());
+    // Return the response
+    // let final_return_noncached = new Date().getTime();
+    // console.log("[NoCache] Time taken to return: " + (final_return_noncached - initial_time) + "ms");
+    return htmlResponse;
+  } else {
+    return new Response(`[iBaguette CDN] Error when fetching from origin, { status: ${htmlResponse?.status} } 
+      ${new Date()}
+      ${request?.headers?.get('cf-ray') ? `Request ID is ${request?.headers?.get('cf-ray')}` : "request id not found, code broken?"}`);
+  }
+
 }
+
+
+
+// TODO: implement this
 /**
- *
+ * 
  * @param request The request object
  * @param raw_url The CheatSheets GitHub raw URL
  * @param headers Extra headers to add to the response.
  * @returns response.
  */
-function returnCheatSheet(request, raw_url, headers) {
-    return __awaiter(this, void 0, void 0, function* () {
-        let cache = caches.default;
-        // Check and return early if cache is a HIT
-        let response = yield cache.match(request);
-        console.log(`Matched to cache at path ${request.url}`);
-        if (response) {
-            return response;
-        }
-        // Else, the resource should be fetched from GitHub
-        let html_response = yield fetch(raw_url);
-        let default_headers = {
-            "content-type": "text/html;charset=UTF-8",
-        };
-    });
+async function returnCheatSheet(request: Request, raw_url: string, headers: Headers) {
+
+  let cache = (caches as any).default;
+
+  // Check and return early if cache is a HIT
+  let response = await cache.match(request);
+
+  console.log(`Matched to cache at path ${request.url}`)
+
+  if (response) {
+    return response;
+  }
+
+  // Else, the resource should be fetched from GitHub
+
+  let html_response = await fetch(raw_url);
+
+
+
+  let default_headers = {
+    "content-type": "text/html;charset=UTF-8",
+  }
 }
+
+
 // cloudflare event listener magic
+
 addEventListener("fetch", event => {
-    return event.respondWith(handleRequest(event.request));
-});
+  return event.respondWith(handleRequest(event.request))
+})

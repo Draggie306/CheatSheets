@@ -1,8 +1,12 @@
 # wrangler.toml (wrangler v3.88.0^)
 name = "cheatsheet-master"
-compatibility_date = "2025-07-03"
-main = "cheatsheet-master.js"
+compatibility_date = "2025-10-14"
+main = "cheatsheet-master.ts"
 
 [observability.logs]
 enabled = true
 
+[assets]
+directory = "./"
+binding = "STATIC_ASSETS"
+html_handling = "drop-trailing-slash"

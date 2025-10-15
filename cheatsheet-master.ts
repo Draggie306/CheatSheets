@@ -939,8 +939,6 @@ export default {
 
     // TODO: reduce this
     let htmlResponse;
-    const cache = (caches as any).default;
-    let response = await cache.match(request);
     // console.log("Handling request");
     let initial_time = new Date().getTime();
 
@@ -999,6 +997,8 @@ export default {
       })
     }
 
+    const cache = (caches as any).default;
+    let response = await cache.match(request);
     if (response) {
       console.log("Found match in cache!");
       let final_return_cached = new Date().getTime();

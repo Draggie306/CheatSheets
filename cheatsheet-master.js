@@ -76,6 +76,7 @@ const main_page = `<!DOCTYPE html>
   <meta name="description" content="Get access to comprehensive and informative cheat sheets and revision material, matched directly to the specifications of a range of GCSE and A Level subjects and exam boards.">
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2271085116982799" crossorigin="anonymous"></script> --> <!-- iBaguette ads test -->
   <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/stackedit_style.css" as="style"> <!-- Preload main stackedit style for main cheat sheets! -->
   <link rel="preload" href="https://cheatsheet-assets.ibaguette.com/fonts/lato-normal.27bd77b.woff" as="font" type="font/woff2" crossorigin="anonymous" importance="high">
   <link rel="stylesheet" href="https://cheatsheet-assets.ibaguette.com/cheatsheet_browser_style.css"> <!-- iBaguette CDN Stylesheet with Cloudflare. -->
@@ -134,7 +135,7 @@ const main_page = `<!DOCTYPE html>
   </script>
     
     
-  <!-- Breadcrumb for A level -->
+  <!-- Breadcrumb for A-level -->
   <script type="application/ld+json">
     {
     "@context": "https://schema.org",
@@ -261,7 +262,7 @@ const main_page = `<!DOCTYPE html>
     </div>
     <!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
     <div class="footer-content">
-      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">c2246eb</a> |<strong> Version 1.6 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+      Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
     </div>
 </body>
 </html>`
@@ -908,7 +909,7 @@ if (document.readyState === 'loading') {
   <br>
 	<!-- do not modify the below lines, auto updated by git hook  TODO: add git hook -->
 	<div class="footer-content">
-		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">c2246eb</a> |<strong> Version 1.6 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
+		Previous commit: <a href="https://github.com/Draggie306/CheatSheets/commits/main">7e7c80e</a> |<strong> Version 1.5 </strong></p><br><br><br><br><br><br><br> <!-- extra space for mobile -->
 	</div>
 </body>
 </html>`

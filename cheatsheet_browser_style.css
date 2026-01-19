@@ -19,10 +19,7 @@
   --dark-text-primary: #f8f9fa;
   --dark-text-secondary: #adb5bd;
   
-  /* Subject colors */
-  --color-geography: #28a745;
-  --color-computer-science: #00acff;
-  --color-computer-science-orange: #ff8c00;
+  /* Subject colors (note: some buttons use inline styles in HTML) */
   --color-gcse: #008CBA;
   --color-alevel: #f44336;
   --color-community: #ff0000;

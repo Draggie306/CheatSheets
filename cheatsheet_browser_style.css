@@ -1,32 +1,74 @@
 /* iBaguette - Cheatsheet Browser Style CSS */
 /* Copying is hereby permitted, free of charge, to users of the iBaguette for Institutions software system (the "Software") to use the Software for their institution's own internal use, subject to the following conditions: */
 /* The above permission notice shall be included in all copies or substantial portions of the Software. */
-/* THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+/* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
 
 /* Version 1.5 | last recorded update 22/08/2023 */
 
+/* ========== CSS Custom Properties ========== */
+:root {
+  /* Light mode colors */
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  
+  /* Dark mode colors */
+  --dark-bg-primary: #1a1a2e;
+  --dark-bg-secondary: #16213e;
+  --dark-text-primary: #f8f9fa;
+  --dark-text-secondary: #adb5bd;
+  
+  /* Subject colors */
+  --color-geography: #28a745;
+  --color-computer-science: #00acff;
+  --color-computer-science-orange: #ff8c00;
+  --color-gcse: #008CBA;
+  --color-alevel: #f44336;
+  --color-community: #ff0000;
+  --color-coming-soon: #6c757d;
+  --color-hizi: #2a436e;
+  
+  /* UI colors */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.12);
+  --border-radius: 8px;
+  --border-radius-sm: 6px;
+  --transition: all 0.3s ease;
+}
+
+/* ========== Dark Mode ========== */
 .dark-mode {
-  background-color: #1e1e1e;
-  color: white;
+  background-color: var(--dark-bg-primary);
+  color: var(--dark-text-primary);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.dark-mode .dropdown-content {
+  background-color: var(--dark-bg-secondary);
+  box-shadow: var(--shadow-lg);
+}
+
+.dark-mode .dropdown-content a {
+  color: var(--dark-text-primary);
+}
+
+.dark-mode .dropdown-content a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .footer-content {
+  color: #6dd16d;
+}
+
+/* ========== Dark Mode Toggle ========== */
 .dark-mode-toggle {
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 9999;
-  content: "🌑";
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-
-#main-cheat-welcome-text {
-  text-align: center;
-}
-
-.p {
-  font-size: 5%;
+  transition: var(--transition);
 }
 
 #dark-mode-btn {
@@ -34,19 +76,27 @@
   color: #fff;
   border-radius: 50%;
   border: none;
-  width: 100px;
-  height: 100px;
-  font-size: 50px;
+  width: 45px;
+  height: 45px;
+  font-size: 22px;
   cursor: pointer;
   outline: none;
-  overflow: hidden;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dark-mode-btn:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-lg);
 }
 
 #dark-mode-btn.dark {
   background-color: #fff;
   color: #000;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: var(--transition);
 }
 
 #dark-mode-btn:before {
@@ -57,193 +107,178 @@
   content: "🌕";
 }
 
-
-/* Buttons */
-
-button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  text-decoration: none;
-  margin: 0 auto;
+/* ========== Body & Layout ========== */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  text-align: left;
+  padding: 20px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   font-size: 16px;
-  cursor: pointer;  
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0;
+}
+
+#main-cheat-welcome-text {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh; /* or any other height value you prefer */
+  margin: 30px 0;
 }
 
 #buttons-container {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-  column-gap: 6%;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
+/* ========== Typography ========== */
+h1, .h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 30px 0 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+h2, .h2 {
+  text-align: left;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 30px 0 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 1.7;
+}
+
+/* ========== Buttons - Base Styles ========== */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  font-family: inherit;
+}
+
+/* GCSE/A Level Navigation Buttons */
 #dropbtn-gcse,
 #dropbtn-alevel {
-  padding: 20px;
-  font-size: 20px;
-  transition: all 0.5s ease-in-out;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  min-width: 200px;
 }
 
 #dropbtn-gcse {
-  background-color: #008CBA;
+  background-color: var(--color-gcse);
 }
 
 #dropbtn-alevel {
-  background-color: #f44336;
+  background-color: var(--color-alevel);
 }
 
 #dropbtn-alevel:hover,
 #dropbtn-alevel:focus {
-  background-color: #ff9e9e;
-  font-size: 24px;
+  background-color: #ff6b6b;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 #dropbtn-gcse:hover,
 #dropbtn-gcse:focus {
-  background-color: #9ad1ff;
-  font-size: 24px;
+  background-color: #0ea5e9;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
-.h1 {
-  text-align: center;
-  font-size: 40px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
-}
-
-.h2 {
-  text-align: left;
-  font-size: 30px;
-  padding: 5%;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
-}
-
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: left;
-  padding: 15px;
-  background-color: #c3c4c7;
-  color: black;
-  font-size: 20px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.footer-content {
-  font-size: 12px;
-  color: green;
-  padding-top: 25px;
+/* ========== Subject Dropdown Buttons ========== */
+.dropbtn,
+.dropbtn-red,
+.dropbtn-grey,
+#dropbtn-hizi {
+  position: static;
+  align-self: center;
+  color: white;
+  cursor: default;
+  padding: 14px 24px;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  border: none;
 }
 
 .dropbtn {
-  position: static;
-  align-self: center;
-  background-color: #00acff;
-  color: white;
-  cursor: default;
-  padding: 20px;
-  margin-right: 60px;
-  margin-top: 30px; 
-  font-size: 24px;
-  border: 4px darkgray double;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  /* Cool hover transition effect */
-  font-size: larger;
-  background-color: #10f7ff;
-  transition: all 0.5s ease-in-out;
-}
-
-.dropbtn:not(:hover) {
-  font-size: 24px;
-  transition: all 0.5s ease-in-out;
-}
-
-#dropbtn-hizi {
-  position: static;
-  background-color: #2a436e;
-  color: white;
-  cursor: default;
-  padding: 20px;
-  margin-right: 60px;
-  margin-top: 30px; 
-  font-size: 24px;
-  border: 4px darkgray double;
-}
-
-#dropbtn-hizi:hover, #dropbtn-hizi:focus {
-  /* Cool hover transition effect */
-  font-size: larger;
-  transition: 0.5s;
-  color: #ffac30;
-}
-
-#dropbtn-hizi:not(:hover) {
-  font-size: 24px;
-  transition: 0.5s;
-  color: white;
+  background-color: var(--color-computer-science);
 }
 
 .dropbtn-red {
-  position: static;
-  align-self: center;
-  background-color: #ff0000;
-  color: white;
-  cursor: default;
-  padding: 20px;
-  margin-right: 60px;
-  margin-top: 30px; 
-  font-size: 24px;
-  border: 4px darkgray double;
-}
-
-.dropbtn-red:hover, .dropbtn-red:focus {
-  /* Cool hover transition effect */
-  font-size: larger;
-  transition: all 0.5s ease-in-out;
-}
-
-.dropbtn-red:not(:hover) {
-  font-size: 24px;
-  transition: all 0.5s ease-in-out;
+  background-color: var(--color-community);
 }
 
 .dropbtn-grey {
-  position: static;
-  align-self: center;
-  background-color: #808080;
-  color: white;
-  cursor: default;
-  padding: 20px;
-  margin-right: 60px;
-  margin-top: 30px; 
-  font-size: 24px;
-  border: 4px darkblue double;
+  background-color: var(--color-coming-soon);
 }
 
-.dropbtn-grey:hover, .dropbtn-grey:focus {
-  /* Cool hover transition effect */
-  font-size: larger;
-  transition: all 0.5s ease-in-out;
+#dropbtn-hizi {
+  background-color: var(--color-hizi);
+  cursor: pointer;
 }
 
-.dropbtn-grey:not(:hover) {
-  font-size: 24px;
-  transition: all 0.5s ease-in-out;
+/* Hover effects for dropdown buttons */
+.dropbtn:hover,
+.dropbtn:focus {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  background-color: #10d9ff;
 }
 
-.french-info-stats {
-  color: #333;
-  font-size: 16px;
+.dropbtn-red:hover,
+.dropbtn-red:focus {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  background-color: #ff3333;
 }
 
+.dropbtn-grey:hover,
+.dropbtn-grey:focus {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  background-color: #909090;
+}
+
+#dropbtn-hizi:hover,
+#dropbtn-hizi:focus {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: #ffac30;
+}
+
+/* ========== Dropdowns ========== */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -253,34 +288,143 @@ body {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 260px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: var(--bg-secondary);
+  min-width: 280px;
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--border-radius-sm);
   z-index: 9999;
-  transition: visibility 0.2s, opacity 0.1s linear;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-
-.dropdown:hover > body{
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  transition: visibility 0.2s, opacity 0.2s ease;
+  overflow: hidden;
+  margin-top: 8px;
 }
 
 .dropdown-content a {
-  color: black;
-  font-size: 16px;
-  padding: 8px;
+  color: var(--text-primary);
+  font-size: 15px;
+  padding: 12px 16px;
   text-decoration: none;
   display: block;
+  transition: background-color 0.2s ease;
 }
 
 .dropdown-content a:hover {
-  background-color: #e6e6e6;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .dropdown:hover .dropdown-content {
   visibility: visible;
   opacity: 1;
+}
+
+/* ========== Footer ========== */
+.footer-content {
+  font-size: 13px;
+  color: #28a745;
+  padding-top: 30px;
+  line-height: 1.6;
+}
+
+.footer-content a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.footer-content a:hover {
+  opacity: 0.8;
+}
+
+/* ========== Unblocked Checkbox (for GCSE/A Level pages) ========== */
+.unblocked-checkbox {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9998;
+  background-color: var(--bg-secondary);
+  padding: 10px 15px;
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-sm);
+  font-size: 14px;
+}
+
+.dark-mode .unblocked-checkbox {
+  background-color: var(--dark-bg-secondary);
+}
+
+.unblocked-checkbox label {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.unblocked-checkbox input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* ========== French Info Stats ========== */
+.french-info-stats {
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.dark-mode .french-info-stats {
+  color: var(--dark-text-secondary);
+}
+
+/* ========== Mobile Responsiveness ========== */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+    font-size: 15px;
+  }
+  
+  h1, .h1 {
+    font-size: 2rem;
+  }
+  
+  h2, .h2 {
+    font-size: 1.5rem;
+  }
+  
+  #dropbtn-gcse,
+  #dropbtn-alevel {
+    min-width: 160px;
+    padding: 14px 24px;
+    font-size: 16px;
+  }
+  
+  .dropbtn,
+  .dropbtn-red,
+  .dropbtn-grey,
+  #dropbtn-hizi {
+    font-size: 16px;
+    padding: 12px 20px;
+    margin-right: 10px;
+  }
+  
+  .dropdown-content {
+    min-width: 240px;
+  }
+  
+  #dark-mode-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .unblocked-checkbox {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  #buttons-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #dropbtn-gcse,
+  #dropbtn-alevel {
+    width: 100%;
+    max-width: 300px;
+  }
 }

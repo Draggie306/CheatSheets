@@ -1523,18 +1523,36 @@ In real life, this may be used by the police to try to access criminal's message
 
 ## Moral and ethical issues 
 
-From OCR:
-The individual moral, social, ethical and cultural
-opportunities and risks of digital technology:
-• Computers in the workforce.
-• Automated decision making.
-• Artificial intelligence.
-• Environmental effects.
-• Censorship and the Internet.
-• Monitor behaviour.
-• Analyse personal information.
-• Piracy and offensive communications.
-• Layout, colour paradigms and character sets.
+There are many opportunities and risks associated with many of the points below. We have highlighted a few examples of each that you could use but, in the exam as long as it's sensible and pertinent, you should be able to use any exam well. 
+* Computers in the workforce:
+  * Opportunities: increasing productivity from typing, maths on spreadsheets.
+  * Risks: training required, job losses in more manual sectors, up-front cost for equipment.
+* Automated decision making:
+  * Opportunities: no need to have a human check through tedious work, utilising algorithms instead which check for patterns.
+  * Risks: these algorithms will need to be created and they may not be accurate, potentially missing critical issues (e.g. fraud). 
+* Artificial intelligence:
+  * Opportunities: less reliance on humans for decision making, especially with Large Language Models allows increased productivity.
+  * Risks: job losses from excessive automation, over-dependence on AI causing loss in critical thinking, easily misused.
+* Environmental effects:
+  * Opportunities: more energy efficient designs mean less overall consumption, recycling or upcycling.
+  * Risks: energy used to manufacture and run, electronic waste from disused machines. 
+* Censorship and the Internet:
+  * Opportunities: ensures that young people aren't being exposed to content not suitable for their age.
+  * Risk: limiting freedom of expression and speech, people can't post whatever they want.
+* Monitor behaviour:
+  * Opportunities: safety and security of citizens, ensure criminals aren't accessing criminal websites.
+  * Risks: privacy concerns with how data is collected and used, tools required to conduct surveillance. 
+* Analyse personal information:
+  * Opportunities: data from individuals can be used to improve services by tailoring their business utilising this data.
+  * Risks: privacy, data misuse or potential security breaches where all data is leaked and can be accessed by hackers.
+* Piracy and offensive communications:
+  * Opportunities: prevents theft of intellectual work from people so they don't lose out, keeps communications clean and prevents cyberbullying.
+  * Risks: easy threshold to be considered a "pirate" - can be accidental, platform or social "rules" may be ambiguous.
+* Layout, colour paradigms and character sets.
+  * Opportunities: ensures accessibility from a wide range of users (such as colour blind individuals or those who utilise screen readers).
+  * Risks: more development time required, some devices or browsers may not support different character sets (e.g. some devices may support ASCII up to 128 characters, others may support Unicode containing many more characters).
+
+Again, this is not a finite set of examples. Any problem that you can think of is most certainly relevant and can be used as an example; ensure that you can defend it and weigh up options. 
 
 # Paper 2
 

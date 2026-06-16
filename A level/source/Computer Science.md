@@ -1468,7 +1468,7 @@ We need to ensure to line up the exponents of the numbers to perform arithmetic 
   
 # 1.5 Legal, moral, cultural and ethical issues
 
-## Computer Laws
+## Computing related legislation
 
 There are four laws that are specified. Typically, long-form questions are asked on these.
 
@@ -1521,7 +1521,20 @@ This act regulates the types of surveillance that can be carried out weighed bas
 
 In real life, this may be used by the police to try to access criminal's messages, as long as they have sufficient probable cause to have gain access - for example, if they have evidence of crimes being committed within those messages, instead of "randomly" suspecting criminal activity and attempting to intercept communication.
 
-## Other Issues
+## Moral and ethical issues 
+
+From OCR:
+The individual moral, social, ethical and cultural
+opportunities and risks of digital technology:
+• Computers in the workforce.
+• Automated decision making.
+• Artificial intelligence.
+• Environmental effects.
+• Censorship and the Internet.
+• Monitor behaviour.
+• Analyse personal information.
+• Piracy and offensive communications.
+• Layout, colour paradigms and character sets.
 
 # Paper 2
 

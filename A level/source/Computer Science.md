@@ -1344,7 +1344,7 @@ The answer would be *AF*
 
 ## Binary arithmetic
 
-When adding or subtractiing binary numbers, go from the least to most significant bit. Always remember that:
+When adding or subtracting binary numbers, go from the least to most significant bit. Always remember that:
 - 0 + 0 = 0
 - 1 + 0 = 1
 - 1 + 1 = 0 (and carry 1)
@@ -1419,8 +1419,48 @@ Number: 25.875
 > Some numbers with decimals will never be accurately stored. An infinite level of precision will be required to represent numbers, using inverse powers of 2, such as 0.1 and 0.2. For example, 2/3 would be 0.1010101010...
 
 ### Floating point arithmetic
-Floating point binary numbers allow the 
+Floating point binary numbers allow numbers with decimal places to be represented. They are represented with a **mantissa** and an **exponent**, where the mantissa is the actual data of the number and the exponent is how much to shift this by.
 
+Using the above example, 1100 1.111, we need to convert this into floating point arithmetic to ensure the computer can understand it as it doesn't know what a '.' is in this context.
+
+We start by mentally moving the . to between the first two digits, so:
+
+`1 1 0 0 1.1 1 1`
+Becomes
+`1.1 0 0 1 1 1 1`
+
+However, this would now represent some decimal of 1. So now we need to specify an exponent. 
+In this example, as the decimal point moved 4 places, the exponent therefore becomes 4. We can represent this number as:
+
+`11001111 0100`
+
+With an 8 bit mantissa and a 4 bit exponent.
+
+#### Two's complement with Floating Point (Floating Point Normalisation)
+
+Because Two's complement relies on the most significant bit (first bit) being 1 for it to be negative, this has an unintended side-consequence with our number as the computer may think it is negative when we want it to be positive. 
+
+In that case, an additional rule applies:
+* for positive numbers, the imaginatory '.' needs to go between the first 0 and 1.
+* for negative numbers, the imaginatory '.' needs to go between the first 1 and 0. 
+
+So actually, in this number's case, as it is a positive number we need to add a trailing zero:
+
+`0 1 1 0 0 1.1 1 1`
+
+Now we can 'move' the . five places to the leading 0 and 1. 
+
+`0.1 1 0 0 1 1 1 1`
+
+This causes an exponent of 5, meaning the number is now:
+
+`011001111 0101`
+
+With an 9 bit mantissa and a 4 bit exponent.
+
+#### Adding and Subtracting Floating Point
+
+We need to ensure to line up the exponents of the numbers to perform arithmetic operations on them. This may result in trailing zeros being added to both sides of the equation.
 
 ## 
 
@@ -1443,7 +1483,9 @@ There are six key principles of the Data Protection Act [Source](https://www.gov
 * data is kept no longer than necessary (typically 7 years);
 * data must be kept securely.
 
-In organisations, a designated individual must be appointed the **data controller**, who is responsible for handling the data of **data subjects**. This is typically not a standalone role, however, as it's usually someone working another role. Their responsibility includes reporting to the **Information Commissioner**, a 'non-departmental public body' responsible for enforcing the Data Protection Act.
+In organisations, a designated individual must be appointed the **data controller**, who is responsible for handling the data of **data subjects**. Their responsibility includes reporting to the **Information Commissioner**, a 'non-departmental public body' responsible for enforcing the Data Protection Act. 
+
+A company may incorporate this by clearly setting their uses in a **privacy policy** on their website. For example, iBaguette may collect full name and date of birth used for identification and appropriate age content grouping, not collecting information such as National Insurance number, retained securely for a limited time of 2 years from last use. 
 
 ## Computer Misuse Act
 
@@ -1453,11 +1495,11 @@ The **Computer Misuse Act 1990** makes it an offence to access or modify compute
 3. Unauthorised attempts to impair (break or modify) the operation of a computer or data. 
   * 3A: Making, supplying or obtaining articles, such as programs or data, for use in the above offences.
 
-These offences usually incur fines and imprisonment.
+These offences usually incur fines and imprisonment. There are multiple offences to ensure all bases are covered, for example there may be a case where someone gets unauthorised access to medical records, which may only grant a fine or a small period in prison. However, if said person were to distribute those private medical records and then supplied tooling to obtain them, this would land a more serious sentence as per the law. 
 
 ## Copyright, Designs and Patents Act
 
-The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people’s work
+The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people’s work. 
 
 ## Regulation of Investigatory Powers Act
 

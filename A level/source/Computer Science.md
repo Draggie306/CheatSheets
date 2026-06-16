@@ -1447,9 +1447,19 @@ In organisations, a designated individual must be appointed the **data controlle
 
 ## Computer Misuse Act
 
-The **Computer Misuse Act 1990** makes it an offence to access or modify computer material without permission.
+The **Computer Misuse Act 1990** makes it an offence to access or modify computer material without permission. There were originally three main offences, however an amendment was made to offence 3 (hence 3A):
+1. Unauthorised access to data (computer material).
+2. Unauthorised access to data with intent to commit further offences.
+3. Unauthorised attempts to impair (break or modify) the operation of a computer or data. 
+  * 3A: Making, supplying or obtaining articles, such as programs or data, for use in the above offences.
+
+These offences usually incur fines and imprisonment.
+
+## Copyright, Designs and Patents Act
 
 The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people’s work
+
+## Regulation of Investigatory Powers Act
 
 The **Regulation of Investigatory Powers Act 2000** regulates surveillance and investigation, and covers the interception of communications
 

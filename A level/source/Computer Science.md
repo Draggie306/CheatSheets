@@ -1429,7 +1429,7 @@ We start by mentally moving the . to between the first two digits, so:
 Becomes
 `1.1 0 0 1 1 1 1`
 
-However, this would now represent some decimal of 1. So now we need to specify an exponent. 
+However, as this would now represent some decimal of 1, not the intended number, we need to specify an exponent.
 In this example, as the decimal point moved 4 places, the exponent therefore becomes 4. We can represent this number as:
 
 `11001111 0100`
@@ -1438,9 +1438,7 @@ With an 8 bit mantissa and a 4 bit exponent.
 
 #### Two's complement with Floating Point (Floating Point Normalisation)
 
-Because Two's complement relies on the most significant bit (first bit) being 1 for it to be negative, this has an unintended side-consequence with our number as the computer may think it is negative when we want it to be positive. 
-
-In that case, an additional rule applies:
+Because Two's complement relies on the most significant bit (leftmost bit) being `1` for negative numbers, we cannot represent positive numbers starting from `1`. To resolve this side-effect, we normalise the binary expression with the following rules:
 * for positive numbers, the imaginatory '.' needs to go between the first 0 and 1.
 * for negative numbers, the imaginatory '.' needs to go between the first 1 and 0. 
 
@@ -1470,7 +1468,7 @@ We need to ensure to line up the exponents of the numbers to perform arithmetic 
 
 ## Computing related legislation
 
-There are four laws that are specified. Typically, long-form questions are asked on these.
+There are four laws that are specified. Typically, long-form questions (9-12 marks) are asked on these.
 
 Each law is accessible on the Government's Official Legislation page. You don't need to know every technicality or clause of the law; having a general idea of what they are about is sufficient.
 * [Data Protection Act 2018](https://www.legislation.gov.uk/ukpga/2018/12/contents)
@@ -1509,7 +1507,7 @@ These offences usually incur fines and imprisonment. There are multiple offences
 
 The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people's work. This act means that copyright over work is **automatically granted** to the creator. This includes digital media e.g. software, but also physical media such as books. This also allows them to control how their work is used, mainly through the use of **software licences** granting permission to copy or modify the work. 
 
-There are some exclusions that are also defined, mainly around fair use for research or education, but the act mainly ensures that work is protected legally and action can be taken against unauthorised uses.
+There are some exclusions to this, mainly around **fair use for research and education**, but the Act mainly ensures that work is legally protected, so action can be taken against unauthorised uses.
 
 An example would be a developer creating some bespoke software, for example Caiusoft. The developer holds **automatic copyright** to the name and code of Caiusoft. However, they have made their software open source (see 1.1.2) and have issued a software licence allowing for the modification of their software as long as they are credited and the project remains open source.
 
@@ -1525,17 +1523,17 @@ In real life, this may be used by the police to try to access criminal's message
 
 There are many opportunities and risks associated with many of the points below. We have highlighted a few examples of each that you could use but, in the exam as long as it's sensible and pertinent, you should be able to use any exam well. 
 * Computers in the workforce:
-  * Opportunities: increasing productivity from typing, maths on spreadsheets.
+  * Opportunities: increasing productivity from typing, maths on spreadsheets which removes calculation errors, easier collaboration on work tasks, greater flexibility.
   * Risks: training required, job losses in more manual sectors, up-front cost for equipment.
 * Automated decision making:
   * Opportunities: no need to have a human check through tedious work, utilising algorithms instead which check for patterns.
   * Risks: these algorithms will need to be created and they may not be accurate, potentially missing critical issues (e.g. fraud). 
 * Artificial intelligence:
-  * Opportunities: less reliance on humans for decision making, especially with Large Language Models allows increased productivity.
+  * Opportunities: less reliance on humans for decision making, large language models automating more medial/lower-level tasks increasing overall productivity.
   * Risks: job losses from excessive automation, over-dependence on AI causing loss in critical thinking, easily misused.
 * Environmental effects:
   * Opportunities: more energy efficient designs mean less overall consumption, recycling or upcycling.
-  * Risks: energy used to manufacture and run, electronic waste from disused machines. 
+  * Risks: energy used to manufacture and run, strain on the electricity grid with larger datacentres, electronic waste/pollution/toxic landfill from disused machines.
 * Censorship and the Internet:
   * Opportunities: ensures that young people aren't being exposed to content not suitable for their age.
   * Risk: limiting freedom of expression and speech, people can't post whatever they want.
@@ -1546,10 +1544,10 @@ There are many opportunities and risks associated with many of the points below.
   * Opportunities: data from individuals can be used to improve services by tailoring their business utilising this data.
   * Risks: privacy, data misuse or potential security breaches where all data is leaked and can be accessed by hackers.
 * Piracy and offensive communications:
-  * Opportunities: prevents theft of intellectual work from people so they don't lose out, keeps communications clean and prevents cyberbullying.
-  * Risks: easy threshold to be considered a "pirate" - can be accidental, platform or social "rules" may be ambiguous.
+  * Opportunities: prevents theft / unauthorised distribution of intellectual work from those who created it, keeps communications clean and prevents cyberbullying.
+  * Risks: easy threshold to be considered a "pirate" - can be accidental, platform or social "rules" may be ambiguous, debate concerning what is truly considered "free speech" and how this differs around the world.
 * Layout, colour paradigms and character sets.
-  * Opportunities: ensures accessibility from a wide range of users (such as colour blind individuals or those who utilise screen readers).
+  * Opportunities: more accessible to a wider range of users (such as colour blind individuals or those who utilise screen readers).
   * Risks: more development time required, some devices or browsers may not support different character sets (e.g. some devices may support ASCII up to 128 characters, others may support Unicode containing many more characters).
 
 Again, this is not a finite set of examples. Any problem that you can think of is most certainly relevant and can be used as an example; ensure that you can defend it and weigh up options. 

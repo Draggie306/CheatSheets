@@ -1426,13 +1426,28 @@ Floating point binary numbers allow the
 
 
   
-# [tbd] 1.5 Legal, moral, cultural and ethical issues
+# 1.5 Legal, moral, cultural and ethical issues
 
+There are four laws that are specified. Typically, long-form questions are asked on these.
 
-The **Data Protection Act 2018** controls the way data about living people is stored and processed 
-- It is a national law which complements the European Union's General Data Protection Regulation (GDPR)
+## Data Protection Act
 
-The **Computer Misuse Act 1990** makes it an offence to access or modify computer material without permission
+The **Data Protection Act 2018** controls the way data about living people is stored and processed.
+- It is a national law which complements the European Union's General Data Protection Regulation (GDPR).
+
+There are six key principles of the Data Protection Act [Source](https://www.gov.uk/data-protection):
+* data must be used fairly, transparently and lawfully;
+* data must be used for explicit purposes set out;
+* data used relevantly and only for what is necessary;
+* data is to be kept accurate and up-to-date;
+* data is kept no longer than necessary (typically 7 years);
+* data must be kept securely.
+
+In organisations, a designated individual must be appointed the **data controller**, who is responsible for handling the data of **data subjects**. This is typically not a standalone role, however, as it's usually someone working another role. Their responsibility includes reporting to the **Information Commissioner**, a 'non-departmental public body' responsible for enforcing the Data Protection Act.
+
+## Computer Misuse Act
+
+The **Computer Misuse Act 1990** makes it an offence to access or modify computer material without permission.
 
 The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people’s work
 

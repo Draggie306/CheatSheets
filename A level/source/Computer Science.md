@@ -1499,7 +1499,11 @@ These offences usually incur fines and imprisonment. There are multiple offences
 
 ## Copyright, Designs and Patents Act
 
-The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people’s work. 
+The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people's work. This act means that copyright over work is **automatically granted** to the creator. This includes digital media e.g. software, but also physical media such as books. This also allows them to control how their work is used, mainly through the use of **software licences** granting permission to copy or modify the work. 
+
+There are some exclusions that are also defined, mainly around fair use for research or education, but the act mainly ensures that work is protected legally and action can be taken against unauthorised uses.
+
+An example would be a developer creating some bespoke software, for example Caiusoft. The developer holds **automatic copyright** to the name and code of Caiusoft. However, they have made their software open source (see 1.1.2) and have issued a software licence allowing for the modification of their software as long as they are credited and the project remains open source.
 
 ## Regulation of Investigatory Powers Act
 

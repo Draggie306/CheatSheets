@@ -1468,9 +1468,17 @@ We need to ensure to line up the exponents of the numbers to perform arithmetic 
   
 # 1.5 Legal, moral, cultural and ethical issues
 
+## Computer Laws
+
 There are four laws that are specified. Typically, long-form questions are asked on these.
 
-## Data Protection Act
+Each law is accessible on the Government's Official Legislation page. You don't need to know every technicality or clause of the law; having a general idea of what they are about is sufficient.
+* [Data Protection Act 2018](https://www.legislation.gov.uk/ukpga/2018/12/contents)
+* [Computer Misuse Act 1990](https://www.legislation.gov.uk/ukpga/1990/18/contents)
+* [Copyright, Designs & Patents Act 1988](https://www.legislation.gov.uk/ukpga/1988/48/contents)
+* [Regulation of Investigatory Powers Act 2000](https://www.legislation.gov.uk/ukpga/2000/23/contents)
+
+### Data Protection Act
 
 The **Data Protection Act 2018** controls the way data about living people is stored and processed.
 - It is a national law which complements the European Union's General Data Protection Regulation (GDPR).
@@ -1487,7 +1495,7 @@ In organisations, a designated individual must be appointed the **data controlle
 
 A company may incorporate this by clearly setting their uses in a **privacy policy** on their website. For example, iBaguette may collect full name and date of birth used for identification and appropriate age content grouping, not collecting information such as National Insurance number, retained securely for a limited time of 2 years from last use. 
 
-## Computer Misuse Act
+### Computer Misuse Act
 
 The **Computer Misuse Act 1990** makes it an offence to access or modify computer material without permission. There were originally three main offences, however an amendment was made to offence 3 (hence 3A):
 1. Unauthorised access to data (computer material).
@@ -1497,7 +1505,7 @@ The **Computer Misuse Act 1990** makes it an offence to access or modify compute
 
 These offences usually incur fines and imprisonment. There are multiple offences to ensure all bases are covered, for example there may be a case where someone gets unauthorised access to medical records, which may only grant a fine or a small period in prison. However, if said person were to distribute those private medical records and then supplied tooling to obtain them, this would land a more serious sentence as per the law. 
 
-## Copyright, Designs and Patents Act
+### Copyright, Designs and Patents Act
 
 The **Copyright, Designs and Patents Act 1988** covers the copying or use of other people's work. This act means that copyright over work is **automatically granted** to the creator. This includes digital media e.g. software, but also physical media such as books. This also allows them to control how their work is used, mainly through the use of **software licences** granting permission to copy or modify the work. 
 
@@ -1505,10 +1513,15 @@ There are some exclusions that are also defined, mainly around fair use for rese
 
 An example would be a developer creating some bespoke software, for example Caiusoft. The developer holds **automatic copyright** to the name and code of Caiusoft. However, they have made their software open source (see 1.1.2) and have issued a software licence allowing for the modification of their software as long as they are credited and the project remains open source.
 
-## Regulation of Investigatory Powers Act
+### Regulation of Investigatory Powers Act
 
-The **Regulation of Investigatory Powers Act 2000** regulates surveillance and investigation, and covers the interception of communications
+The **Regulation of Investigatory Powers Act (RIPA) 2000** regulates surveillance and investigation, and covers the interception of communications, pertaining public bodies (e.g. government and public organisations, such as the police or related agencies). It ensures all surveillance is lawful and legitimate, for purposes such as crime prevention or ensuring public safety. 
 
+This act regulates the types of surveillance that can be carried out weighed based on both national security concern as well as people's rights to privacy. This surveillance can take the form of monitoring communications (such as email and phone) and informants. It also governs rules around encrypted data, as according to the law itself a request can only be made for the "decryption key" as long as it's proportionate and ncessary. 
+
+In real life, this may be used by the police to try to access criminal's messages, as long as they have sufficient probable cause to have gain access - for example, if they have evidence of crimes being committed within those messages, instead of "randomly" suspecting criminal activity and attempting to intercept communication.
+
+## Other Issues
 
 # Paper 2
 

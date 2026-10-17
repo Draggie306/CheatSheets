@@ -1,16 +1,15 @@
 ﻿
-
 [< Back to A level Cheat Sheets](https://ibaguette.com/cheatsheets/alevel)
 
 # A Level OCR H446 Computer Science
+
+> *Written by [Oliver Ling](https://oling.dev) (@draggie306)*.
+
 Welcome to the A Level OCR Computer Science H446 Cheat Sheet, with everything covered in detail in the specification. 
 
 **This Cheat Sheet is in development. Unfinished sections are marked with [tbd] and there may be general issues and typos. ⚠**
 
-[Last general update: 22/01/2024 22:58.
-Last content addition: 22/01/2024 22:42](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
-
-✅ Note: This file is synced with [this repository](https://github.com/Draggie306/CheatSheets). You'll always be on the latest version.
+[Latest update: 16/06/2026 20:09](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 Use a PC/device with a large screen to see the Table of Contents on the left-hand side to quickly navigate through this document.
 
@@ -22,7 +21,7 @@ Use a PC/device with a large screen to see the Table of Contents on the left-han
 # Paper 1
 
 
-# [tbd] Unit 1 - The characteristics of contemporary processors, input, output and storage devices
+# Unit 1 - The characteristics of contemporary processors, input, output and storage devices
 
 
 ![Specification content of the A level section 1.1](https://cheatsheet-assets.ibaguette.com/alevel/compsci/Spec-1.1.png)
@@ -402,11 +401,11 @@ Most operating systems now allow you to run multiple programs at once, such as p
 *Here you can see the current applications I have open as well as background processes*
 
 #### Multi-user system
-A single mainframe or supercomputer may connect to hndreds of terminals, all with different users on, and are allocated a time slice of the mainframe's CPU according to a scheduling algorithm, typically Round Robin or MLFQs.
+A single mainframe or supercomputer may connect to hundreds of terminals, all with different users on, and are allocated a time slice of the mainframe's CPU according to a scheduling algorithm, typically Round Robin or MLFQs.
 
 
 #### Realtime OS
-Some safety-critical operating systems must operate in realtime and be able to respond to inputs and sensors as fast as posssible, and compute the results of multiple input devices concurrently. The OS must also have hardware (and even software) redundancy so critical components like the CPU may have duplicates or multiple 'backups' in place so that of one fails, another is automatically switched to
+Some safety-critical operating systems must operate in realtime and be able to respond to inputs and sensors as fast as possible, and compute the results of multiple input devices concurrently. The OS must also have hardware (and even software) redundancy so critical components like the CPU may have duplicates or multiple 'backups' in place so that of one fails, another is automatically switched to
 
 ### The BIOS
 Stands for Basic Input Output System. It is stored in (EP)ROM and immediately initialises and tests hardware, then loads the operating system from a secondary storage device into main memory.
@@ -448,7 +447,7 @@ General-purpose, special purpose or custom written (bespoke) software.
 
 Ready made software is known as off the shelf software, and may include general-purpose software such as word processors or a graphics editing package. They are less expensive or free, well documented and tested.
 
-Special-purpose software typically performs a single task or set of tasks. This may also be off the shelf for things like browsers, or be more 'niche' such as electronic exam marking applicaions or fingerprint scanning systems, or DBMS.
+Special-purpose software typically performs a single task or set of tasks. This may also be off the shelf for things like browsers, or be more 'niche' such as electronic exam marking applications or fingerprint scanning systems, or DBMS.
 
 A bespoke software package may be bought by organisations for their specific needs like an inventory management system for a retailer. They are much more expensive and as they are tested less, could contain errors which are not known about initially.
 
@@ -472,17 +471,17 @@ Similarly to assemblers, compilers translate the source code into machine code. 
 
 ### Interpreters
 
-Interpreters are more designed for development, with it going through source code line-by-line, and only translating it into machine code if there are no syntax erros. This compares to compilers, which will translate the entire source code before it is executed.
+Interpreters are more designed for development, with it going through source code line-by-line, and only translating it into machine code if there are no syntax errors. This compares to compilers, which will translate the entire source code before it is executed.
 
 JavaScript for example is interpreted. This in the long run speeds up (the website) as it doesn't need to be compiled to various different devices' machine code requirements, and each device can interpret the source JavaScript in the way that works for that processor. It also reduces network traffic as binary files may be much larger than compact source code equivalents.
 
 
 - Compiled code executes faster than interpreted code as it is directly executed by the processor
 - Compilers can apply optimisations during compilation for the program to execute more efficiently
-- Once compiled, the code can then be distributed and executed on different devices providing they have the same processor instruction set, e.g exe files on windows x86 processors.
+- Once compiled, the code can then be distributed and executed on different devices providing they have the same processor instruction set, e.g. .exe files on Windows x86 processors.
 
 --
-- Interpeters allow for better debugging capabilities and errors are detected at runtime for quick fixing
+- Interpreters allow for better debugging capabilities and errors are detected at runtime for quick fixing
 - Faster development cycles as recompilation which can take a long time is not needed
 
 ### Bytecode
@@ -662,7 +661,7 @@ However, lossless compression has disadvantages too. Lossy files are still much 
 |Smaller file sizes compared to original|Sometimes unnecessary, e.g. for website images|
 |Good for archival storage, or for high-value files| Still much larger file size than using lossy techniques|
 |Preserves fine and intricate details of music, videos and images|Can occupy large amounts of drive space for diminishing quality returns|
-|  |Inneffective for more random data - may be larger than the original file|
+|  |Ineffective for more random data - may be larger than the original file|
 |  |Compression algorithms require more computing resources to compress and to decode|
 
 There is no universal right/wrong option for which compression technique to use. It is a matter of trade-off between saving storage space, loading times, quality and type of file.
@@ -809,7 +808,7 @@ Firstly, entities need to be worked out.
 
 For example, employees of a company, films, actors, club members. Each **entity** has **attributes**.
 
-The simplest kind of database, a flat file, holds data about one entity only, such as a user's coins and roles in the Baguette Brigaders Discord Server.
+The simplest kind of database, a flat file, holds data about one entity only, such as a user's coins and roles in the Baguette Brigade Discord Server.
 
 If you are designing a system for a company that sells subscriptions for online revision resources, a flat file would not be useful.
 
@@ -831,13 +830,13 @@ The DBMS (Database management system) needs to have a unique identifier for the 
 
 User ([customerID](), [orderNumber](), custName, custSurname, productID, subject, tier)
 
-Searches may also need to be made on other attributes of entities. In the table above, `subject`, `tier`, `productID`, `custName` and `custSurname` can be definded as the secondary key. These would then be indexed if specified by the user.
+Searches may also need to be made on other attributes of entities. In the table above, `subject`, `tier`, `productID`, `custName` and `custSurname` can be defined as the secondary key. These would then be indexed if specified by the user.
 
 ### Entity relationship modelling
 
 An entity relationship diagram is a way of representing the relationships between entities within a database. These can be:
 
-- One-to-one: husband to wife, country and prime minister. There is only one possiblility of a relationship between either entity
+- One-to-one: husband to wife, country and prime minister. There is only one possibility of a relationship between either entity
 - One-to-many: mother and child, customer and order, country and residents. One of these entities has many relationships between related entities
 - Many-to-many: actor and film, pupil and schools. Many of these entities have relationships between many other entities.
 
@@ -871,14 +870,14 @@ Normalisation is a process used to create the most efficient design possible for
 #### First normal form
 A table is in 1NF if it has **no repeating attributes, or groups of attributes.**
 
-All attributes must be atomic, so one atribute must only contain data about one thing, not two items of data such as firstname *and* surname - this would make the relation unable to be queried by surname or firstname alone.
+All attributes must be atomic, so one attribute must only contain data about one thing, not two items of data such as firstname *and* surname - this would make the relation unable to be queried by surname or firstname alone.
 
 #### Second normal form
 
 A table is in 2NF if it:
 
 - Is already in 1NF
-- Has no partial dependenies, which is only so if the primary key is also a composite key. 
+- Has no partial dependencies, which is only so if the primary key is also a composite key. 
 
 This means that if any non-key column is **only dependent on one primary key but not them all** (hence why it is only applicable to composite keys) it exhibits a partial key dependence.
 
@@ -1037,7 +1036,7 @@ This is undertaken by having a buffer, either in the disk or in memory, which re
 
 ### Problems with multi-user databases
 
-If user A wants to chnage user X address, this is fine. If two minutes later, user B changes user X's balance and saves the record, this is fine. However when user A saves the new record with just the updated address, user B's changes are lost. To prevent this, we can use:
+If user A wants to change user X address, this is fine. If two minutes later, user B changes user X's balance and saves the record, this is fine. However when user A saves the new record with just the updated address, user B's changes are lost. To prevent this, we can use:
 
 #### Record locking
 To uphold ACID, if two users are editing a database and want to edit each other's attributes, they may lock each other's records and result in deadlock. The DBMS will recognise this and try and use one of the below things to fix it:
@@ -1048,7 +1047,7 @@ Serialisation, in database management systems, is the principal that transaction
 #### Timestamp ordering
 Assigns every object in the database a read and write timestamp, so it can be worked out which transaction took place first and be applied first. Two users editing the same file at the same time could be asked to merge changes when they have finished by the other user, reducing the rick of problems
 
-#### Committment ordering
+#### Commitment ordering
 Transactions are ordered depending on how much they rely on each other, as well as time they were initiated. These subsequent modification requests can then be blocked until the initial transaction is committed.
 
 #### Redundancy
@@ -1064,7 +1063,7 @@ The Internet is a public interconnection of computer networks which allows data 
 
 The World Wide Web is a collection of websites and documents linked by hyperlinks made accessible via the Internet.
 
-The Internet is the largest network (what computers communicate with each other on). THis is known as a Wide Area Network, or WAN, as it spans over a large geographic area.
+The Internet is the largest network (what computers communicate with each other on). This is known as a Wide Area Network, or WAN, as it spans over a large geographic area.
 
 
 The Internet can also be used to transmit data without using the World Wide Web. However, this data must travel through the backbone.
@@ -1075,7 +1074,7 @@ By connecting all these cables together, these ISPs can create a single network 
 
 > Protocol - a set of rules or procedures for transmitting data between electronic devices, such as computers
 
-### IPv4 addressses 
+### IPv4 addresses 
 are a series of 4 octet values separated by a full stop (max 32 bits), ranging from 0 to 255. However, there are not enough addresses to support the growing population, so IPv6 is being used which uses 128 bits.
 
 ### Uniform Resource Locator (URL)
@@ -1256,7 +1255,7 @@ The link layer operates across a physical connection
 
 Adds the MAC address of the physical NIC that packets should be sent to based on the destination IP address
 
-MAC addresses change with each hoptasks in transmitting data over a network.
+MAC addresses change with each hop.
 
 
 ### Transferring Files using FTP
@@ -1515,7 +1514,7 @@ An example would be a developer creating some bespoke software, for example Caiu
 
 The **Regulation of Investigatory Powers Act (RIPA) 2000** regulates surveillance and investigation, and covers the interception of communications, pertaining public bodies (e.g. government and public organisations, such as the police or related agencies). It ensures all surveillance is lawful and legitimate, for purposes such as crime prevention or ensuring public safety. 
 
-This act regulates the types of surveillance that can be carried out weighed based on both national security concern as well as people's rights to privacy. This surveillance can take the form of monitoring communications (such as email and phone) and informants. It also governs rules around encrypted data, as according to the law itself a request can only be made for the "decryption key" as long as it's proportionate and ncessary. 
+This act regulates the types of surveillance that can be carried out weighed based on both national security concern as well as people's rights to privacy. This surveillance can take the form of monitoring communications (such as email and phone) and informants. It also governs rules around encrypted data, as according to the law itself a request can only be made for the "decryption key" as long as it's proportionate and necessary. 
 
 In real life, this may be used by the police to try to access criminal's messages, as long as they have sufficient probable cause to have gain access - for example, if they have evidence of crimes being committed within those messages, instead of "randomly" suspecting criminal activity and attempting to intercept communication.
 
@@ -1557,7 +1556,7 @@ Again, this is not a finite set of examples. Any problem that you can think of i
 # Boolean algebra
 
 ## Logic gates
-There are a range of logic gates used in electronic components. These logic gates can take in one or more inputs, and produce a single output. This output can be used as the input of another logic gate and repeated to create a sophisticated and complex circut, such as the ones fonund in a CPU. 
+There are a range of logic gates used in electronic components. These logic gates can take in one or more inputs, and produce a single output. This output can be used as the input of another logic gate and repeated to create a sophisticated and complex circuit, such as the ones found in a CPU. 
 
 The four you need to know are NOT, AND, OR and XOR gates.
 
@@ -1580,7 +1579,7 @@ The Boolean expression of a NOT gate is [tbd]
 ### AND gates
 
 Also known as conjunction.
-As a boolean expression, this is written as N [tbd] 
+As a Boolean expression, this is written as N [tbd] 
 Both inputs must be True or 1 in order for the output to be True. Otherwise, the output will be 0
 
 |Input A|Input B|Output Z|
@@ -1602,7 +1601,7 @@ There must be exactly one input which is True for the output to also be True.
 
 ## Simplifying Boolean Expressions
 
-de Morgan’s laws state a range of expressions which, when used in any boolean function, can be converted into an expression that uses only NAND or NOR functions. 
+de Morgan’s laws state a range of expressions which, when used in any Boolean function, can be converted into an expression that uses only NAND or NOR functions. 
 
 Why?
 This means that **any circuit can be built from a single type of logic gate**, which reduces manufacturing costs as only one type of gate can only be used. It is much easier to buy a single item in bulk rather than have several different components which must be manufactured independently, reducing costs for the manufacturer and ultimately the consumer.
@@ -1624,7 +1623,7 @@ A full adder is a logic gate that takes three bit inputs and computes the additi
 ## 2.1.1 Thinking abstractly
 Abstraction is the **process of filtering unnecessary information** from **what is really needed** to **solve a problem** - **removing details** to **simplify the creation** of something like an application. 
 
-> Removing unncesessary detail, keeping only relevant information.,
+> Removing unnecessary detail, keeping only relevant information.,
 
 Abstraction is present throughout day to day life. The London Underground map is a typical example of abstraction on a large scale, but this way of thinking can be applied to many situations. When driving a car, you do not need to know how the engine functions, the role of friction on tyres or the chemical composition of the metal shell of the vehicle. You just need to know how to use the steering wheel, brake/accelerate pedal and more, not how exactly these work. That would be the role of a mechanic.
 
@@ -1640,13 +1639,13 @@ You additionally need to know how to devise an abstract model for a situation. T
 
 To think ahead, the inputs and outputs of a given situation are needed. There may also be preconditions which should be determined before devising a solution to a problem.
 
-Using the process of abstraction, the input to a computational problem is the information relevant to it, nothing else. Represented programatically, this would be the parameters passed to a function. The output of the computational problem is its solution, returned from a function.
+Using the process of abstraction, the input to a computational problem is the information relevant to it, nothing else. Represented programmatically, this would be the parameters passed to a function. The output of the computational problem is its solution, returned from a function.
 
-In order to do this, the initial abstract model must be turned into a complete program, whislt being correct (accounting for all inputs) and also as efficient as possible.
+In order to do this, the initial abstract model must be turned into a complete program, whilst being correct (accounting for all inputs) and also as efficient as possible.
 
 Inputs and outputs should be identified in the documentation, or in code comments. For example the docstring of a subroutine may include “A list of integers intList = [1, 2, 3…]”. This shows programmers what must be inputted to the subroutine, and this process can also be continued with the outputs too, minimising ambiguity.
 
-THinking ahead is also the anticipation of problems and issues. Also known as **exceptions** in code. In code, a statement could be added to check for an issue, for example returning early if a list does not contain any elements (if len(list) == 0). Alternatively, the responsibility can be left to the person to just not call something where an exception may be raised. This can be done by using preconditions, a statement dictating a condition that must be met, typically in order for code that requires this value to execute. Benefits of this include making components reusable - for example, through subroutines - and programmers will also know what conditions must be met to call a subroutine, reducing CPU overhead and execution times from unnecessary checks within the subroutines. This subsequently creates shorter, clearer, more efficient, reusable and cleaner code which improves maintenance and debugging.  
+Thinking ahead is also the anticipation of problems and issues. Also known as **exceptions** in code. In code, a statement could be added to check for an issue, for example returning early if a list does not contain any elements (if len(list) == 0). Alternatively, the responsibility can be left to the person to just not call something where an exception may be raised. This can be done by using preconditions, a statement dictating a condition that must be met, typically in order for code that requires this value to execute. Benefits of this include making components reusable - for example, through subroutines - and programmers will also know what conditions must be met to call a subroutine, reducing CPU overhead and execution times from unnecessary checks within the subroutines. This subsequently creates shorter, clearer, more efficient, reusable and cleaner code which improves maintenance and debugging.  
 
 Caching, the temporary storage of information, is an example of thinking ahead. This webpage may or may not be cached depending on how many people are using it. On the first load to this URL, my webserver serves it from storage (slow). The second time, it may be loaded from storage again (slow). The third time, the server knows it is frequently accessed, so it keeps a copy of it in cache storage (fast) and you can see the page load much more quickly. 
 
@@ -1750,7 +1749,7 @@ plus 3 steps above the loop
 
 Big-O notation for linear search is O(n).
 
-> Can be perfomed on any list, sorted or unsorted.
+> Can be performed on any list, sorted or unsorted.
 
 ### Binary search
 
@@ -1842,12 +1841,12 @@ Left and right pointers are used on either side of the array. If the pointer val
 Average time complexity is O(n log n)
 Worst-case complexity is O(n^2^)
 
-## Graph traveral algorithms
+## Graph traversal algorithms
 
 ### Depth-first traversal
 The DFT uses a stack and list to keep track of the name and nodes that have been visited.
 
-The first value, A, is pushed to the stack and its immediate neighbor is added to the stack. 
+The first value, A, is pushed to the stack and its immediate neighbour is added to the stack. 
 The stack is then popped.
 
 If the stack has zero depth, values are popped until the next neighbour value is found.
@@ -1882,9 +1881,9 @@ The priority queue structure moves the connected values to the start of the queu
 **Step 3**
 The next node is dequeued, colouring it green.
 
-Values of its neigbouring nodes are then coloured light green
+Values of its neighbouring nodes are then coloured light green
 
-All new unvisited neigbours' values are then calculated.
+All new unvisited neighbours' values are then calculated.
 
 **Step 4**
 Repeat steps 2/3 until all nodes have been coloured in green (visited). The algorithm terminates when the target node is reached or there are no unknown nodes remaining.
@@ -1926,7 +1925,7 @@ Constants reduce the risk of accidental modification during runtime, making the 
 An IDE (Integrated Development Environment) is software that makes the development and maintenance of code easier. Facilities offered by these include adding line numbers, automatically indenting code, auto-completing commands, commenting or uncommenting regions, syntax highlighting and debugging options, including breakpoint setting, variable watching, stepping through code and tracing.
 
 ### Program flow
-Progrramming languages and algorithms have a set of statements to determine in order that they reach a goal. There are three distinct flow structures which control this flow:
+Programming languages and algorithms have a set of statements to determine in order that they reach a goal. There are three distinct flow structures which control this flow:
 
 ### Sequencing
 Order of code.
@@ -1940,7 +1939,7 @@ For/do/`while` loops.
 WHILE a CONDITION is NOT MET, then KEEP LOOPING until it is.
 
 #### do... until
-Statement will always be executed at least once - checks the boolean evaluation after the initial `do` statement.
+Statement will always be executed at least once - checks the Boolean evaluation after the initial `do` statement.
 
 #### Infinite loop
 (As well as an Apple store in California)
@@ -1971,7 +1970,7 @@ An example of selection within pseudocode. this must be used in conjunction with
 
 #### Switch/case
 
-Performs structural pattern matching rather than boolean evaluation.
+Performs structural pattern matching rather than Boolean evaluation.
 (Also known as `match/case` in Python 3.10+!)
 
 endswitch
@@ -2117,7 +2116,7 @@ Methods (procedures) that this Cat class can perform include meow, purr, walk...
 ### Encapsulation
 Encapsulation is when data is bundled (encapsulated) together to reduce the code complexity and superfluous code. This is done by creating classes. Once the object is instantiated, `public` methods can be effectively ignored and `private` attributes hidden from users so that they cannot be changed without intent.
 
-Attributes and methods in the class definition are wrapped (encapsulated) in the class definiton. For example if you have a `list1` variable and you want to sort it, you do `list1.sort()` - for every list that is created, the programming language defines a `sort` method.
+Attributes and methods in the class definition are wrapped (encapsulated) in the class definition. For example if you have a `list1` variable and you want to sort it, you do `list1.sort()` - for every list that is created, the programming language defines a `sort` method.
 
 
 ### Public and private
@@ -2128,7 +2127,7 @@ Attributes are normally declared as private, so that they cannot be changed, *ex
 
 ### Instantiation
 
-**Instant**iation is creating an **instan**ce of an object. An object is instantated when it is being created from a class. 
+**Instant**iation is creating an **instan**ce of an object. An object is instantiated when it is being created from a class. 
 
 `myCat = new Cat("Tiga")`
 
@@ -2147,7 +2146,7 @@ Instead within the class, more `public` procedures can be added that `setAnAttri
 A variable is a location in memory which holds a particular variable, which can be of a specific type. 
 Strings, for example, may require more memory to hold their values, as opposed to Booleans which are either True or False.
 
-Elementary data types include chars, reals, integers, booleans.
+Elementary data types include chars, reals, integers, Booleans.
 
 Structured data types, depending on the programming language, may be built-in to the syntax. These will include list of records, lists, arrays and strings. Structured data types are typically decomposed into elementary data types.
 
@@ -2267,12 +2266,12 @@ When dynamic lists are being used, the memory heap is accessed. A freely availab
 
 > The heap is a dynamic section of memory designed to hold data during runtime, and release it when it is no longer required by the program.
 
-Some languages do not contain the ability to use a listas a data structure, and arrays must be used instead. As arrays are always static, the length must be specified during initialisation, which is something that may not always be known. 
+Some languages do not contain the ability to use a list as a data structure, and arrays must be used instead. As arrays are always static, the length must be specified during initialisation, which is something that may not always be known. 
 
 
 
 A few pseudocode procedures and functions are available:
-- `list.isEmpty()` -> boolean; tests for empty list
+- `list.isEmpty()` -> Boolean; tests for empty list
 	- `isFull()` is not needed; lists are dynamically sized
 - `list.append(item)` -> None
 - `list.remove(item)` -> None
@@ -2336,7 +2335,7 @@ Likewise, popping an empty stack will give an **underflow** error.
 
 ### Call stack
 
-The call stack is a system-level stack that is used to store current information about executing functions and subroutines. High-level languages can abstract the details of the call stack from programmers. It allows for parameters to be used and the results of functions in their returns to be passed. This is especailly useful if there are a range of functions being used at once, or recursion is in use.
+The call stack is a system-level stack that is used to store current information about executing functions and subroutines. High-level languages can abstract the details of the call stack from programmers. It allows for parameters to be used and the results of functions in their returns to be passed. This is especially useful if there are a range of functions being used at once, or recursion is in use.
 
 Recursion involves the return data of one function being used to complete the output of another function. These functions may also call other functions if this is necessary for an output too. 
 
@@ -2382,6 +2381,3 @@ A 2D hash table can be used to fix this to an extent, by using the first hash fu
 > Une lumière dorée brille sans fin tout au bout du chemin
 
 > Written with [StackEdit](https://stackedit.io/) :)
-
-
-

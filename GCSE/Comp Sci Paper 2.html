@@ -126,6 +126,7 @@
 <li><a href="#computational-thinking">2.1.1 Computational thinking</a></li>
 <li><a href="#designing-algorithms">2.1.2 Designing algorithms</a>
 <ul>
+<li><a href="#structure-diagrams">Structure diagrams</a></li>
 <li><a href="#flowchart-symbols">Flowchart symbols</a></li>
 <li><a href="#creating-programs">Creating programs</a></li>
 <li><a href="#trace-tables">Trace tables</a></li>
@@ -215,10 +216,9 @@
       <p><a href="https://ibaguette.com/cheatsheets/gcse">&lt; Back to all GCSE Cheat Sheets</a></p>
 <h1 id="ocr-j277-computer-science-paper-2-complete-cheat-sheet">OCR J277 Computer Science Paper 2 Complete Cheat Sheet</h1>
 <blockquote>
-<p><em>Written by <a href="https://www.linkedin.com/in/oliver-ling/">Oliver Ling</a> (@draggie306)</em>.</p>
+<p><em>Written by <a href="https://oling.dev/">Oliver Ling</a> (@draggie306)</em>.</p>
 </blockquote>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 24/09/2025 22:18.<br>
-Last content addition: 23/06/2025 21:46</a></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 17/10/2025 13:48</a></p>
 <blockquote>
 <p>Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the <a href="https://discord.gg/GfetCXH">Baguette Brigade Discord server</a> who can answer all your questions and give you tips and tricks!<br>
 Plus, you can opt to receive automatic notifications whenever new content is added here!</p>
@@ -246,6 +246,10 @@ Plus, you can opt to receive automatic notifications whenever new content is add
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Designing_algorithms.png" alt="Your device cannot load this image - it may be blocked."></p>
 <p>An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, and whether any decisions need to be made.</p>
 <p>Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language).</p>
+<h3 id="structure-diagrams">Structure diagrams</h3>
+<p>Structure diagrams visually represent the structure an overall problem in terms of smaller sub-problems. For example, a (basic) healthcare app may have the ability to view prescriptions, manage a user account, and book an appointment. Here is what the structure diagram may look like:</p>
+<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Structure_diagram_healthcare_app.png" alt="Your device cannot load this image - it may be blocked."></p>
+<p>Selecting a time and selecting a doctor are sub-tasks of booking an appointment, whilst booking an appointment is a sub-task of the overall app.</p>
 <h3 id="flowchart-symbols">Flowchart symbols</h3>
 <ul>
 <li>Lines represent the flow of the program.</li>
@@ -371,8 +375,8 @@ endwhile
 <p>Selection is a part of the code that is run, or <code>if</code> statements. When these statements are encountered, it ‘selects’ which part to run!</p>
 <p>Iteration is a loop. There are count and condition-controlled loops.</p>
 <ul>
-<li>Count-controlled loops are controlled by a number. For example, <code>if x &gt; 10:</code> will run until the value of <code>x</code> is greater than <code>10</code>.</li>
-<li>Condition-controlled loops are controlled by a specific value. This is most often <code>True</code> or <code>False</code>; these will run until this value is changed. For example, <code>if x == True:</code> will run the code until the value of<code>x</code> is no longer equal to <code>True</code>.</li>
+<li>Count-controlled loops are controlled by a number and use the <code>for</code> keyword. For example, <code>for i in range (10)</code> will run until the value of <code>i</code> is greater than <code>10</code> (stopping at 9, running the loop 10 times in total).</li>
+<li>Condition-controlled loops are controlled by a specific value and use <code>while</code>. This is most often <code>True</code> or <code>False</code>; these will run until this value is changed. For example, <code>while x == True:</code> will run the code until the value of<code>x</code> is no longer equal to <code>True</code>.</li>
 </ul>
 <h3 id="operators">Operators</h3>
 <p>There are comparison and arithmetic operators. (They will give the Boolean value of <code>True</code> if their criteria are met)</p>
@@ -380,7 +384,7 @@ endwhile
 <ul>
 <li><code>==</code>
 <ul>
-<li>Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify a value.</li>
+<li>Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify or assign a value.</li>
 </ul>
 </li>
 <li><code>!=</code>
@@ -443,7 +447,7 @@ endwhile
 </li>
 <li><code>^</code>
 <ul>
-<li>Exponentiation. To the power of. 2^8 = 256.</li>
+<li>Exponentiation. To the power of. 2^8 = 256. In Python, this is written as <code>**</code>.</li>
 </ul>
 </li>
 </ul>
@@ -492,7 +496,7 @@ If <code>one = "Baguette"</code> and <code>two = "Brigade"</code>, then <code>on
 <p>Arrays (interchangeable with lists, at least for GCSE) store lots of stuff and are denoted by their square brackets, like <code>[4, 5, 3, 6, 9]</code> or with strings as <code>["Yes", "No", "Baguettes", "Beans", "Haram"]</code>.  Elements can be accessed using by the list variable’s name, and the element’s location in the list in square brackets. If the above list with strings is called <code>random_words</code>, then to print the word ‘Baguettes’ I would call <code>print(random_words[2])</code>.</p>
 <p>2D arrays take this principle and make it more complicated. Basically, this means there is an array inside an array.</p>
 <p><code>list_of_cars_and_prices = [["beans car", "bozo car", "fresh car"], [20, 30, 55]]</code></p>
-<p>Notice how inside the outer list, there are actually 2 smaller lists? This is a 2D array. To get the value of ‘55’ from the second array, we do <code>print(list_of_cars_and_prices[1][2]</code>. This gets the <strong>third value</strong> from the <strong>second array</strong>, inside the list called ‘list_of_cars_and_prices’. This is useful to store related values next to each other.</p>
+<p>Notice how inside the outer list, there are actually 2 smaller lists? This is a 2D array. To get the value of ‘55’ from the second array, we do <code>print(list_of_cars_and_prices[1][2])</code>. This gets the <strong>third value</strong> from the <strong>second array</strong>, inside the list called ‘list_of_cars_and_prices’. This is useful to store related values next to each other.</p>
 <blockquote>
 <p>To change the value of an item in an array/list, do:<br>
 <code>list_name[index] = "thing_to_change_it_to"</code></p>
@@ -506,13 +510,13 @@ It could return a number, string, or any data type, so after running this, <code
 <p>Programming languages have their own built-in functions and procedures. When you type <code>print("text")</code>,  you are actually passing in your <code>text</code> as a parameter used to display something on your screen! User-defined functions and procedures are the ones that the user creates.</p>
 </blockquote>
 <h3 id="file-handling">File handling</h3>
-<p>writing:</p>
-<pre class=" language-py"><code class="prism  language-py">file1 <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"file.txt"</span><span class="token punctuation">)</span>
+<p>To write to a file in Python, open the file in “write” (<code>w</code>) mode:</p>
+<pre class=" language-py"><code class="prism  language-py">file1 <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"file.txt"</span><span class="token punctuation">,</span> <span class="token string">"w"</span><span class="token punctuation">)</span>
 x <span class="token operator">=</span> file1<span class="token punctuation">.</span>write<span class="token punctuation">(</span><span class="token string">"Hello! This is a file!"</span><span class="token punctuation">)</span>
 file1<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
 </code></pre>
 <p>Reading back the contents:</p>
-<pre class=" language-py"><code class="prism  language-py">file1 <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"file.txt"</span><span class="token punctuation">)</span>
+<pre class=" language-py"><code class="prism  language-py">file1 <span class="token operator">=</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"file.txt"</span><span class="token punctuation">,</span> <span class="token string">"r"</span><span class="token punctuation">)</span>
 x <span class="token operator">=</span> file1<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
 file1<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
@@ -523,8 +527,8 @@ file1<span class="token punctuation">.</span>close<span class="token punctuation
 <p><em>Note: it’s best practice to always do <code>file.close()</code> after finishing reading/performing file actions to avoid corruption.</em></p>
 <h3 id="locals-and-globals">Locals and globals</h3>
 <p>Global variables can be accessed by every subroutine at all times. Present in memory during execution. They aren’t good because if it gets maliciously changed, or changes unintentionally, then it will affect the entire code and every subroutine. Also, it can use a lot of memory if many variables are used at once - normal in big programs and games. The scope of these is the entire program.</p>
-<p>Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it’s more efficient. The scope of these is the sub-program of declaration.</p>
-<p>Parameter passing - allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.</p>
+<p>Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it’s less resource intensive. The scope of these is the sub-program of declaration.</p>
+<p>Parameter passing allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.</p>
 <blockquote>
 <p>You can read more about the scope, lifespan and implications of memory scopes on the <a href="https://ibaguette.com/cheatsheets/alevel/computerscience">A Level Cheat Sheet</a>!</p>
 </blockquote>
@@ -532,11 +536,12 @@ file1<span class="token punctuation">.</span>close<span class="token punctuation
 <p>SQL is a programming language used for interrogating a database.</p>
 <p>Data can be retrieved using the commands  <code>SELECT, FROM</code> and <code>WHERE</code></p>
 <p><code>*</code> stands for wildcard, which means all records.</p>
-<p>from the iBaguette emails database:<br>
-<code>SELECT *</code><br>
-<code>FROM "Users"</code><br>
-<code>WHERE "Email Address" LIKE "admin" OR "owner"</code><br>
-might retrieve:</p>
+<p>As an example, from the iBaguette emails database, the following query:</p>
+<pre class=" language-sql"><code class="prism  language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span>
+<span class="token keyword">FROM</span> <span class="token string">"Users"</span>
+<span class="token keyword">WHERE</span> <span class="token string">"Email Address"</span> <span class="token operator">LIKE</span> <span class="token string">"admin"</span> <span class="token operator">OR</span> <span class="token string">"owner"</span>
+</code></pre>
+<p>might retrieve:</p>
 
 <table>
 <thead>
@@ -562,14 +567,14 @@ might retrieve:</p>
 </tr>
 <tr>
 <td>7</td>
-<td>John</td>
-<td>Doe</td>
-<td><a href="mailto:owner@geog.uk">owner@geog.uk</a></td>
+<td>Larry</td>
+<td>Page</td>
+<td><a href="mailto:owner@gmail.com">owner@gmail.com</a></td>
 </tr>
 </tbody>
 </table><h3 id="randoms">Randoms</h3>
 <p>You must <code>import random</code> at the start of the program for this to work (it is a <strong>module</strong>).</p>
-<p><code>random.randint(lower_bound, upper_bound)</code> is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number.</p>
+<p><code>random.randint(lower_bound, upper_bound)</code> is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number. For example, <code>rand_num = random.randint(3, 13)</code>.</p>
 <h1 id="producing-robust-programs">2.3 Producing robust programs</h1>
 <h2 id="defensive-design">2.3.1 Defensive design</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.3.1_Defensive_design.png" alt="OCR GCSE computer science specification section 2.3.1 Defensive design"></p>
@@ -629,7 +634,44 @@ might retrieve:</p>
 <li>An OR gate will only output 1 if <strong>one or more</strong> of its inputs are 1.</li>
 <li>A NOT gate will only output 1 if its input is 0. (Essentially reversing the input)</li>
 </ul>
-<p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/andgate.png" alt="AND gate"><br>
+<p>Truth tables can be combined or chained together with a <strong>multi-input logic gate table</strong>. For example, <code>NOT (A AND B)</code> results in the inverse of <code>(A AND B)</code> as inner expressions are evaluated first. This results in:</p>
+
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+<th><code>A AND B</code></th>
+<th><code>NOT (A AND B)</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+</tr>
+</tbody>
+</table><p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/andgate.png" alt="AND gate"><br>
 <em>AND gate outputs</em></p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/orgate.png" alt="OR gate "><br>
 <em>OR gate outputs</em></p>
@@ -642,7 +684,7 @@ might retrieve:</p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.1_languages.png" alt="OCR GCSE computer science specification section 2.5.1 Languages"></p>
 <p>There are two categories of programming language: high and low-level languages.</p>
 <ul>
-<li>High-level languages are those which sensible people code in, like Python, JavaScript, and HTML. They are <strong>easy to read and write</strong>, and some have a human-like syntax. They also <strong>do not depend on the physical architecture of the processors</strong> executing them. However, as they are <strong>machine independent</strong>, they must be <strong>translated</strong> in order to run.</li>
+<li>High-level languages are those which sensible people code in, like Python, Java, JavaScript and C#. They are <strong>easy to read and write</strong>, and some have a human-like syntax. They also <strong>do not depend on the physical architecture of the processors</strong> executing them. However, as they are <strong>machine independent</strong>, they must be <strong>translated</strong> in order to run.</li>
 <li>Low-level languages are assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run ‘closer’ to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary.</li>
 </ul>
 <blockquote>
@@ -651,7 +693,7 @@ might retrieve:</p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/translators.png" alt="High level languages vs assembly languages vs machine code and physical hardware, with the assembler and instruction set labelled from BBC"><br>
 <em>Taken from <a href="https://www.bbc.co.uk/bitesize/guides/z6x26yc/revision/5">here</a></em></p>
 <p>A <strong>compiler</strong> parses the source code once, translates it into machine code, and saves the results as a binary file. An <strong>interpreter</strong> reads the source code line by line and converts it to executable while executing.</p>
-<p>Compiled code runs faster, as it has already been translated. If the code has no logic or syntax errors and does not need to be debugged, then compiled code is always better. The compiler optimises code too, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code only works on the hardware and OS it is targeted to. You can’t run an EXE file on your phone without an IDE.</p>
+<p>Compiled code runs faster, as it has already been translated. If the code has no logic or syntax errors and does not need to be debugged, then compiled code is always better. The compiler optimises code too, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code only works on the hardware and OS it is targeted to. You can’t run an EXE file on your phone - you’d need an <em>emulator</em>.</p>
 <p>Interpreted code is executed slower, as the CPU must wait for every line to be translated, but has the potential to run on multiple kinds of hardware, running different operating systems. It simply executes code, without saving a machine code version. They generally require less memory as they do not translate the entire file.</p>
 <blockquote>
 <p>Interpreters can be built with a REPL, or a Read Execute Print Loop. Hence the name of the coding platform, Replit.</p>
@@ -660,18 +702,18 @@ might retrieve:</p>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.5.2_The_Integrated_Development_Environment_IDE.png" alt="OCR GCSE computer science specification section 2.5.2 The IDE (Integrated Development Environment)"></p>
 <p>The IDE (integrated development environment) has a wide range of tools to help programmers develop programs. These include:</p>
 <ul>
-<li><strong>Editors</strong>. Code can be edited.</li>
-<li><strong>Error diagnostics</strong>. Tracebacks can show what caused exactly what to fail at the exact line.</li>
-<li><strong>Providing a run-time environment</strong>. This allows a program to run on a computer even if it was not designed to, allowing the programmer to just use their known high-level language, and the RTE will do the rest.</li>
-<li><strong>Translators</strong>. They translate code to be executed.</li>
+<li><strong>Editors</strong>. Code can be edited, selected, duplicated, deleted…</li>
+<li><strong>Error diagnostics</strong>. <em>Tracebacks</em> can show exactly what instruction caused the program to fail, at the exact line, and with what value.</li>
+<li><strong>Providing a run-time environment</strong>. This allows a program to run on a computer even if it was not designed to, allowing the programmer to just use their known high-level language, and the RTE will do the rest. <em>The traditional example is Java, which requires the Java Runtime Environment to work.</em></li>
+<li><strong>Translators</strong>. They translate (via compilation or interpretation) your high-level code into low-level machine code that runs on the CPU.</li>
 </ul>
 <p>You can also write about:</p>
 <ul>
-<li><strong>Breakpoints</strong> - code can be stopped at a specific line and variables can be checked for logic errors</li>
-<li><strong>Auto-correction</strong> and indentation, to reduce silly mistakes</li>
-<li><strong>Autosuggestion</strong> - can sometimes fix a problem automatically, speeding up coding</li>
-<li><strong>Syntax highlighting</strong> - similar declarations can be coloured to see them better. For example, all variables could be yellow while classes are blue.</li>
-<li><strong>Linting</strong> - the IDE can analyse the code you’re writing as you’re writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable.</li>
+<li><strong>Breakpoints</strong> - code can be stopped at specific lines, allowing the developer to see how variables changes over time.</li>
+<li><strong>Auto-correction</strong> and indentation - reducing compilation errors and speeding up development time.</li>
+<li><strong>Autosuggestion</strong> - can sometimes fix a problem automatically, reducing the need to debug.</li>
+<li><strong>Syntax highlighting</strong> - similar declarations can be coloured to see them better. For example, all variables could be written in yellow while functions are blue.</li>
+<li><strong>Linting</strong> - the IDE can analyse the code you’re writing as you’re writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable, or realising a variable is never used, and underlining these errors in red.</li>
 </ul>
 <hr>
 <p>That’s it! Go get a grade 9! Of course, you need to do some of your own programming, so a few examples are below for you to have a go at.</p>
@@ -737,7 +779,7 @@ Download <a href="https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.py">
 <pre class=" language-py"><code class="prism  language-py">cars_data <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token string">"among car"</span><span class="token punctuation">,</span> <span class="token string">"sussy car"</span><span class="token punctuation">,</span> <span class="token string">"beans car"</span><span class="token punctuation">,</span> <span class="token string">"spelunked car"</span><span class="token punctuation">,</span> <span class="token string">"supressed (s)car"</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">40</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
 
 coins <span class="token operator">=</span> <span class="token number">100</span>
-<span class="token keyword">while</span> coins <span class="token operator">&gt;</span> <span class="token number">10</span><span class="token punctuation">:</span>
+<span class="token keyword">while</span> coins <span class="token operator">&gt;=</span> <span class="token number">10</span><span class="token punctuation">:</span>
     <span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">"You have {coins} coins available to spend!"</span><span class="token punctuation">)</span>
     <span class="token keyword">print</span><span class="token punctuation">(</span>f<span class="token string">"The cars available to buy are {cars_data[0]}"</span><span class="token punctuation">)</span>
     x <span class="token operator">=</span> <span class="token builtin">int</span><span class="token punctuation">(</span><span class="token builtin">input</span><span class="token punctuation">(</span><span class="token string">"Enter the chronological number of the car you want to buy.\n&gt;&gt;&gt; "</span><span class="token punctuation">)</span><span class="token punctuation">)</span>

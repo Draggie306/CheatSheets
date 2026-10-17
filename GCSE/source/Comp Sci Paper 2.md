@@ -5,10 +5,10 @@
 
 # OCR J277 Computer Science Paper 2 Complete Cheat Sheet
 
-> *Written by [Oliver Ling](https://www.linkedin.com/in/oliver-ling/) (@draggie306)*.
+> *Written by [Oliver Ling](https://oling.dev/) (@draggie306)*.
 
-[Latest general update: 24/09/2025 22:18.
-Last content addition: 23/06/2025 21:46](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Latest general update: 17/10/2025 13:48](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+
 
 > Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
 > Plus, you can opt to receive automatic notifications whenever new content is added here!
@@ -27,6 +27,7 @@ All of the Cheat Sheets and revision material on iBaguette are made as 1:1 compl
 > ==You need to know how to create, interpret the results of, complete and refine algorithms in these languages. If you can't code Python, you can use an online tool like Replit (where you can code with friends at the same time too!) or use an IDE like IDLE or VS Code and just start coding something random. You will find my examples at the bottom for inspiration.==
 
 ---
+
 
 
 # 2.1 Algorithms
@@ -52,6 +53,14 @@ It is only when a problem is decomposed and abstracted, that the creation of the
 An algorithm is a step-by-step set of instructions used to solve a problem. Before designing an algorithm, it must be decomposed into its inputs, outputs and the order of instructions, and whether any decisions need to be made. 
 
 Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language). 
+
+### Structure diagrams
+
+Structure diagrams visually represent the structure an overall problem in terms of smaller sub-problems. For example, a (basic) healthcare app may have the ability to view prescriptions, manage a user account, and book an appointment. Here is what the structure diagram may look like:
+
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Structure_diagram_healthcare_app.png)
+
+Selecting a time and selecting a doctor are sub-tasks of booking an appointment, whilst booking an appointment is a sub-task of the overall app. 
 
 
 ### Flowchart symbols
@@ -217,8 +226,8 @@ Sequence refers to the order in which the code is executed.
 Selection is a part of the code that is run, or `if` statements. When these statements are encountered, it 'selects' which part to run!
 
 Iteration is a loop. There are count and condition-controlled loops.
-- Count-controlled loops are controlled by a number. For example, `if x > 10:` will run until the value of `x` is greater than `10`. 
-- Condition-controlled loops are controlled by a specific value. This is most often `True` or `False`; these will run until this value is changed. For example, `if x == True:` will run the code until the value of`x` is no longer equal to `True`.
+- Count-controlled loops are controlled by a number and use the `for` keyword. For example, `for i in range (10)` will run until the value of `i` is greater than `10` (stopping at 9, running the loop 10 times in total). 
+- Condition-controlled loops are controlled by a specific value and use `while`. This is most often `True` or `False`; these will run until this value is changed. For example, `while x == True:` will run the code until the value of`x` is no longer equal to `True`.
 
 
 ### Operators
@@ -228,7 +237,7 @@ There are comparison and arithmetic operators. (They will give the Boolean value
 #### Comparison operators:
 
 - `==` 
-	- Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify a value.
+	- Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify or assign a value.
 - `!= `
 	- Not equal to. Only `True` when the value it is comparing against is NOT the first value.
 - `<`
@@ -255,7 +264,7 @@ There are comparison and arithmetic operators. (They will give the Boolean value
 - `DIV`
 	- Quotient. Gives how many times the number **can be fully divided**. 20 div 8 = 2. (20 divided by 8 is 2 remainder 4.)
 - `^`
-	- Exponentiation. To the power of. 2^8 = 256.
+	- Exponentiation. To the power of. 2^8 = 256. In Python, this is written as `**`.
 
 ### Boolean operators 
 - AND - only True when the two values are True. 
@@ -325,7 +334,7 @@ Arrays (interchangeable with lists, at least for GCSE) store lots of stuff and a
 
 `list_of_cars_and_prices = [["beans car", "bozo car", "fresh car"], [20, 30, 55]]`
 
-Notice how inside the outer list, there are actually 2 smaller lists? This is a 2D array. To get the value of '55' from the second array, we do `print(list_of_cars_and_prices[1][2]`. This gets the **third value** from the **second array**, inside the list called 'list_of_cars_and_prices'. This is useful to store related values next to each other.
+Notice how inside the outer list, there are actually 2 smaller lists? This is a 2D array. To get the value of '55' from the second array, we do `print(list_of_cars_and_prices[1][2])`. This gets the **third value** from the **second array**, inside the list called 'list_of_cars_and_prices'. This is useful to store related values next to each other.
 
 > To change the value of an item in an array/list, do:
 > `list_name[index] = "thing_to_change_it_to"`
@@ -344,16 +353,16 @@ It could return a number, string, or any data type, so after running this, `x` c
 
 ### File handling
 
-writing:
+To write to a file in Python, open the file in "write" (`w`) mode:
 ```py
-file1 = open("file.txt")
+file1 = open("file.txt", "w")
 x = file1.write("Hello! This is a file!")
 file1.close()
 ```
 
 Reading back the contents:
 ```py
-file1 = open("file.txt")
+file1 = open("file.txt", "r")
 x = file1.read()
 file1.close()
 
@@ -368,9 +377,9 @@ print(x)
 
 Global variables can be accessed by every subroutine at all times. Present in memory during execution. They aren't good because if it gets maliciously changed, or changes unintentionally, then it will affect the entire code and every subroutine. Also, it can use a lot of memory if many variables are used at once - normal in big programs and games. The scope of these is the entire program.
 
-Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it's more efficient. The scope of these is the sub-program of declaration.
+Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it's less resource intensive. The scope of these is the sub-program of declaration.
 
-Parameter passing - allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.
+Parameter passing allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.
 
 > You can read more about the scope, lifespan and implications of memory scopes on the [A Level Cheat Sheet](https://ibaguette.com/cheatsheets/alevel/computerscience)!
 
@@ -382,24 +391,26 @@ Data can be retrieved using the commands  `SELECT, FROM` and `WHERE`
 
 `*` stands for wildcard, which means all records.
 
-from the iBaguette emails database:
-`SELECT *`
-`FROM "Users"`
-` WHERE "Email Address" LIKE "admin" OR "owner"`
+As an example, from the iBaguette emails database, the following query:
+```sql
+SELECT *
+FROM "Users"
+WHERE "Email Address" LIKE "admin" OR "owner"
+```
 might retrieve:
 
 | ID | User     | Surname | Email Address     |
 |----|----------|---------|-------------------|
 | 1  | Draggie  | 306     | admin@geog.uk |
 | 6  | Joe    | Smith   | admin@ibaguette.com   |
-| 7  | John | Doe     | owner@geog.uk   |
+| 7  | Larry | Page     | owner@gmail.com   |
 
 
 ### Randoms
 
 You must `import random` at the start of the program for this to work (it is a **module**).
 
-`random.randint(lower_bound, upper_bound)` is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number.
+`random.randint(lower_bound, upper_bound)` is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number. For example, `rand_num = random.randint(3, 13)`.
 
 # 2.3 Producing robust programs
 
@@ -472,6 +483,15 @@ You must be able to follow the lines in a truth table, and the interactions thes
 - An OR gate will only output 1 if **one or more** of its inputs are 1.
 - A NOT gate will only output 1 if its input is 0. (Essentially reversing the input)
 
+Truth tables can be combined or chained together with a **multi-input logic gate table**. For example, `NOT (A AND B)` results in the inverse of `(A AND B)` as inner expressions are evaluated first. This results in:
+|A|B|`A AND B`|`NOT (A AND B)`|
+|--|--|--|--|
+| 0 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 0 |
+
+
 ![AND gate](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andgate.png)
 *AND gate outputs*
 
@@ -493,7 +513,7 @@ You must be able to follow the lines in a truth table, and the interactions thes
 
 There are two categories of programming language: high and low-level languages.
 
-- High-level languages are those which sensible people code in, like Python, JavaScript, and HTML. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
+- High-level languages are those which sensible people code in, like Python, Java, JavaScript and C#. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
 - Low-level languages are assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run 'closer' to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary. 
 
 > Assembly code, although is a low-level language, is not quite machine code. Machine code is what everything must be translated into to be executed.
@@ -503,7 +523,7 @@ There are two categories of programming language: high and low-level languages.
 
 A **compiler** parses the source code once, translates it into machine code, and saves the results as a binary file. An **interpreter** reads the source code line by line and converts it to executable while executing.
 
-Compiled code runs faster, as it has already been translated. If the code has no logic or syntax errors and does not need to be debugged, then compiled code is always better. The compiler optimises code too, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code only works on the hardware and OS it is targeted to. You can't run an EXE file on your phone without an IDE.
+Compiled code runs faster, as it has already been translated. If the code has no logic or syntax errors and does not need to be debugged, then compiled code is always better. The compiler optimises code too, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code only works on the hardware and OS it is targeted to. You can't run an EXE file on your phone - you'd need an *emulator*.
 
 Interpreted code is executed slower, as the CPU must wait for every line to be translated, but has the potential to run on multiple kinds of hardware, running different operating systems. It simply executes code, without saving a machine code version. They generally require less memory as they do not translate the entire file.
 
@@ -516,18 +536,18 @@ Interpreted code is executed slower, as the CPU must wait for every line to be t
 
 The IDE (integrated development environment) has a wide range of tools to help programmers develop programs. These include:
 
-- **Editors**. Code can be edited.
-- **Error diagnostics**. Tracebacks can show what caused exactly what to fail at the exact line.
-- **Providing a run-time environment**. This allows a program to run on a computer even if it was not designed to, allowing the programmer to just use their known high-level language, and the RTE will do the rest. 
-- **Translators**. They translate code to be executed.
+- **Editors**. Code can be edited, selected, duplicated, deleted...
+- **Error diagnostics**. *Tracebacks* can show exactly what instruction caused the program to fail, at the exact line, and with what value.
+- **Providing a run-time environment**. This allows a program to run on a computer even if it was not designed to, allowing the programmer to just use their known high-level language, and the RTE will do the rest. *The traditional example is Java, which requires the Java Runtime Environment to work.*
+- **Translators**. They translate (via compilation or interpretation) your high-level code into low-level machine code that runs on the CPU.
 
 You can also write about:
 
-- **Breakpoints** - code can be stopped at a specific line and variables can be checked for logic errors
-- **Auto-correction** and indentation, to reduce silly mistakes
-- **Autosuggestion** - can sometimes fix a problem automatically, speeding up coding
-- **Syntax highlighting** - similar declarations can be coloured to see them better. For example, all variables could be yellow while classes are blue.
-- **Linting** - the IDE can analyse the code you're writing as you're writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable.
+- **Breakpoints** - code can be stopped at specific lines, allowing the developer to see how variables changes over time.
+- **Auto-correction** and indentation - reducing compilation errors and speeding up development time.
+- **Autosuggestion** - can sometimes fix a problem automatically, reducing the need to debug.
+- **Syntax highlighting** - similar declarations can be coloured to see them better. For example, all variables could be written in yellow while functions are blue.
+- **Linting** - the IDE can analyse the code you're writing as you're writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable, or realising a variable is never used, and underlining these errors in red.
 
 ---
 
@@ -621,7 +641,7 @@ Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.py) 
 cars_data = [["among car", "sussy car", "beans car", "spelunked car", "supressed (s)car"], [10, 20, 40, 20, 10], []]
 
 coins = 100
-while coins > 10:
+while coins >= 10:
     print(f"You have {coins} coins available to spend!")
     print(f"The cars available to buy are {cars_data[0]}")
     x = int(input("Enter the chronological number of the car you want to buy.\n>>> "))

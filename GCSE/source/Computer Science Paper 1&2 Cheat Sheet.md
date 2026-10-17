@@ -163,7 +163,7 @@ Primary storage consists of RAM (random access memory) and ROM (read-only memory
 
 Memory/RAM is small in size compared to secondary storage, but is much faster as it does not have moving parts or have to retain that much information. It is usually from 4-16GB in size. The more RAM a computer has, the more programs and instructions it can store simultaneously.
 
-Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow when memory is filled up. When RAM is full, data which would have gone to memory instead goes to an area of the disk drive and, when needed by the CPU, is moved back into RAM. However, virtual memory is *much* slower than primary storage media, even if it uses the fastest SSDs, let alone HDDs with their moving parts, so the OS always attempts to avoid placing highly-used programs in virtual memory. *More RAM = always better. Apart from its costs.*
+Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow when memory is filled up. When RAM is full, data which would have gone to memory instead goes to an area of the disk drive and, when needed by the CPU, is moved back into RAM. However, virtual memory is *much* slower than primary storage media, even if it uses the fastest SSDs, let alone HDDs with their moving parts, so the OS always attempts to avoid placing highly-used programs in virtual memory. Additionally, **disk thrashing** can occur if the system is constantly moving data to and from virtual memory into RAM, slowing the system considerably. *More RAM = always better. Apart from its costs.*
 
 Cache memory is small amounts of incredibly fast but relatively expensive random access memory located within the CPU itself, used for very common operations and calculations that may need to be immediately reused. There are typically 3 levels of cache - L1, L2 and L3 - which go down (starting from L1) in cost and speed, but up in capacity. As it is located on the CPU itself, it's much faster than having to go to RAM all the time. 
 
@@ -173,7 +173,7 @@ Secondary storage is non-volatile, meaning it retains the data written to it eve
 
 An HDD (magnetic) has very high capacity and involves flipping magnetic polarity to store bits. It is fairly fast to access. These are generally the cheapest form of bulk storage but have moving parts, so not good for portability.
 
-An SSD (solid state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access, but significantly more expensive than HDDs. As solid state media has no moving parts, they are faster and much more portable than hard drives.
+An SSD (solid state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access, but significantly more expensive than HDDs. As solid state media has no moving parts, they are faster and much more reliable and portable than hard drives.
 
 A USB drive (also solid state) is tiny in comparison but very portable so is useful for transferring files between people and their computers.
 
@@ -183,12 +183,13 @@ Embedded systems may not need secondary storage as the instructions to run them 
 
 ## 1.2.3 Units
 
-The basic unit is the bit. It represents 1 or 0. Above this is the nibble - or 4 bits. Above this again is the byte, or 8 bits.
+The basic unit is the **bit**. It represents 1 or 0. Above this is the nibble - 4 bits. Above this again is the **byte**, or 8 bits.
 - A kilobit is 1000 bits.
-- A kilobyte is 8 kilobits. (8,000 bits)
+- A kilobyte is 1,000 bytes, or 8 kilobits. (8,000 bits)
 - A megabyte is 1000 kilobytes. (8,000,000 bits)
 - A gigabyte is 1000 megabytes. (8,000,000,000 bits)
 - A terabyte is 1000 gigabytes. (8,000,000,000,000 bits)
+- A petabyte is 1000 terabytes. 
  <!-- Editor note: can't believe it took me 3 years to spot the error here, check commit history! -->
 
 An image is usually around 500kb. Therefore, on a 2GB USB stick, 4,000 images can fit on it.
@@ -381,7 +382,7 @@ The two topologies which you need to know are:
 
 ### Star topologies
 - Used in many networks
-- Used by client-server networks - all data sent from clients pass through (a) central server(s).
+- Used by client-server networks. These networks involve all data being sent from clients pass through central server(s).
 - All computers can communicate with each other through the central switch.
 
 Advantages include:
@@ -391,8 +392,9 @@ Advantages include:
 - Fast data transfer to the hub as each wire isn’t shared with other computers
 
 Disadvantages:
-- The entire network will go down if the switch fails
+- The entire network will go down if the central switch fails
 - Can be expensive to set up - requires additional hardware such as the central switch and lots of network cables
+- If a large number of devices are connected to one switch, overall network performance may decrease as the switch becomes overloaded.
 
 They are used anywhere, from company buildings to your home right now. Your 'router' is currently acting as the switch, router and WAP for all the nodes connected in your house.
 
@@ -419,7 +421,7 @@ Disadvantages:
 
 A network is a group of two or more computers connected together to communicate. There are 2 ways for them to communicate: wired (ethernet) and wireless (Wi-Fi, Bluetooth).
 
-It may seem obvious but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and having a roaming profile (i.e. you can access your files from any computer in the network). 
+It may seem obvious, but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and having a roaming profile (i.e. you can access your files from any computer in the network).
 
 In larger networks, antiviruses and firewalls can be implemented network-wide instead of on individual computers, improving security and cost-effectiveness. 
 

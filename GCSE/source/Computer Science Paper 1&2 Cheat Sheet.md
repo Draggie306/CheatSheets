@@ -7,10 +7,9 @@
 
 # Complete OCR J277 Computer Science GCSE Cheat Sheet!
 
-> *Written by [Oliver Ling](https://www.linkedin.com/in/oliver-ling/) (@draggie306)*.
+> *Written by [Oliver Ling](https://oling.dev) (@draggie306)*.
 
-[Latest general update: 24/09/2025 22:18.
-Last content addition: 23/06/2025 21:46](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
+[Latest update: 17/10/2026 12:39](https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976)
 
 > Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the [Baguette Brigade Discord server](https://discord.gg/GfetCXH) who can answer all your questions and give you tips and tricks! 
 > Plus, you can opt to receive automatic notifications whenever new content is added here!
@@ -29,6 +28,7 @@ Both papers individually are 50% of the total GCSE, and are worth 80 marks each.
 For ease of access, I’ve written this in a way designed to be read smoothly across any device, called Markdown. It’s easy to navigate and should look nice to read. To skip to areas you are weak on, I’d recommend using the side bar on the left - you may need to open in desktop site or read on a computer to use the Table of Contents.
 
 All of the Cheat Sheets and revision material on iBaguette are made as 1:1 complements to their corresponding specification. The J277 spec is available [here](https://www.ocr.org.uk/Images/558027-specification-gcse-computer-science-j277.pdf).
+
 
 # Paper 1
 
@@ -64,22 +64,21 @@ Step by step:
 - Fetches, decodes and executes instructions
 - Controls hardware
 
-Cache
-
-- A small amount of high-speed memory physically inside the CPU.
+**Cache memory**
+- Is small amounts of high-speed memory physically inside the CPU.
 - Temporarily holds small amounts of data which the CPU will reuse often.
 - Speeds up the system - does not have to wait for some data in memory to be fetched
 - Level 1, 2, 3 cache - 1 is the fastest, most expensive, and has the lowest amount of storage, likewise, 3 is the slowest, least expensive but contains the most amount of potential storage
 
 **Registers** are:
 
-- Small amounts of high-speed memory in the CPU used to store small amounts of data needed for processing
-- Includes the address of the current instruction, the next instruction to be executed, and the results of calculations
+- Tiny amounts of very high-speed memory in the CPU used to store small amounts of data needed for processing
+- Includes the address of the current instruction, the next instruction to be executed, and the results of intermediate calculations
 
 In case you find the difference between Cache and Registers difficult, here’s something useful from [Stack Overflow](https://stackoverflow.com/questions/3500491/are-cpu-registers-and-cpu-cache-different):
 
 - A CPU register is just a small amount of data storage, that facilitates some CPU operations.
-- CPU cache, is high-speed, volatile memory which is bigger than the size of registers, helping the processor to reduce memory operations. This increases the speed of common operations.
+- CPU cache is high-speed, volatile memory which is bigger than the size of registers, helping the processor to reduce memory operations. This increases the speed of common operations.
 - It is not very inaccurate to think of the processor’s register as the level 0 cache, smaller and faster than the other layers of cache in between the processor and memory. The difference is only that from the point of view of the instruction set, cache access is transparent (the cache is accessed through a memory address that happens to be a cached address at the moment) whereas registers are explicitly referenced in each instruction.
 
 There will probably be a table to tick what things do, or a 2-4 marker asking what something does and to explain it. I’d recommend learning 2 registers in detail, and what 4 do in general.
@@ -164,7 +163,7 @@ Primary storage consists of RAM (random access memory) and ROM (read-only memory
 
 Memory/RAM is small in size compared to secondary storage, but is much faster as it does not have moving parts or have to retain that much information. It is usually from 4-16GB in size. The more RAM a computer has, the more programs and instructions it can store simultaneously.
 
-Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow when memory is filled up. When RAM is full, data which would have gone to memory instead goes to an area of the disk drive and, when needed by the CPU, is moved back into RAM. However, virtual memory is *much* slower than primary storage media, even if it uses the fastest SSDs, let alone HDDs with their moving parts, so the OS always attempts to avoid placing highly-used programs in virtual memory. *More RAM = always better. Apart from its costs.*
+Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow when memory is filled up. When RAM is full, data which would have gone to memory instead goes to an area of the disk drive and, when needed by the CPU, is moved back into RAM. However, virtual memory is *much* slower than primary storage media, even if it uses the fastest SSDs, let alone HDDs with their moving parts, so the OS always attempts to avoid placing highly-used programs in virtual memory. Additionally, **disk thrashing** can occur if the system is constantly moving data to and from virtual memory into RAM, slowing the system considerably. *More RAM = always better. Apart from its costs.*
 
 Cache memory is small amounts of incredibly fast but relatively expensive random access memory located within the CPU itself, used for very common operations and calculations that may need to be immediately reused. There are typically 3 levels of cache - L1, L2 and L3 - which go down (starting from L1) in cost and speed, but up in capacity. As it is located on the CPU itself, it's much faster than having to go to RAM all the time. 
 
@@ -174,31 +173,33 @@ Secondary storage is non-volatile, meaning it retains the data written to it eve
 
 An HDD (magnetic) has very high capacity and involves flipping magnetic polarity to store bits. It is fairly fast to access. These are generally the cheapest form of bulk storage but have moving parts, so not good for portability.
 
-An SSD (solid state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access, but significantly more expensive than HDDs. As solid state media has no moving parts, they are faster and much more portable than hard drives.
+An SSD (solid state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access, but significantly more expensive than HDDs. As solid state media has no moving parts, they are faster and much more reliable and portable than hard drives.
 
 A USB drive (also solid state) is tiny in comparison but very portable so is useful for transferring files between people and their computers.
 
 Optical storage devices like CDs and DVDs use a laser to scan the tracks, and when light reflects back, it will either reflect from 'lands' - representing `1`, or not reflect in 'pits' - representing `0`. Speeds and capacity are generally worse than HDDs or SSDs, but they are cheap to produce.
 
-Embedded systems may not need these as the instructions to run them are usually in ROM. For example, a watch does not need to edit the time as it runs all the time.
+Embedded systems may not need secondary storage as the instructions to run them are usually in ROM. For example, a digital watch may only need a few small instructions to calculate the time, and adding extra storage for this would be relatively expensive.
 
 ## 1.2.3 Units
 
-The basic unit is the bit. It represents 1 or 0. Above this is the nibble - or 4 bits. Above this again is the byte, or 8 bits.
+The basic unit is the **bit**. It represents 1 or 0. Above this is the nibble - 4 bits. Above this again is the **byte**, or 8 bits.
 - A kilobit is 1000 bits.
-- A kilobyte is 8 kilobits. (8,000 bits)
+- A kilobyte is 1,000 bytes, or 8 kilobits. (8,000 bits)
 - A megabyte is 1000 kilobytes. (8,000,000 bits)
 - A gigabyte is 1000 megabytes. (8,000,000,000 bits)
 - A terabyte is 1000 gigabytes. (8,000,000,000,000 bits)
+- A petabyte is 1000 terabytes. 
  <!-- Editor note: can't believe it took me 3 years to spot the error here, check commit history! -->
 
-An image is usually around 500kb. Therefore, on a 2GB USB stick, 2000 images.
+An image is usually around 500kb. Therefore, on a 2GB USB stick, 4,000 images can fit on it.
 
-Videos can be 100 megabytes, so 20 images can be stored.
+Videos might be 100 megabytes, so 20 of them can be stored on 2GB.
 
-Sound file size = sample rate x duration (s) x bit depth 
-Image file size = colour depth x image height (px) x image width (px) 
-Text file size = bits per character x number of characters
+To calculate:
+- Sound file size = sample rate \* duration (s) \* bit depth 
+- Image file size = colour depth \* image height (px) \* image width (px) 
+- Text file size = bits per character \* number of characters
 
 ## 1.2.4 Data storage
 
@@ -210,7 +211,7 @@ Text file size = bits per character x number of characters
 ### Denary to Binary
 To convert a denary number into binary, write out all the base 2 numbers in a row (128, 64, 32, 16, 8, 4, 2, 1). Firstly, get your number, let's say 253, and subtract it from the largest base 2 number (here, 128). You'd get 125. Write '1' below the '128' and repeat on the next lowest numbers. If when you subtract it it's negative, write a zero below, **do not subtract anything**, but instead just move to the next smallest number.
 
-The most significant bit is the leftmost (e.g. `1` in the byte `1000 0000`). The least significant is the leftmost - it has the least "influence" on the represented number.
+The most significant bit is the leftmost (e.g. `1` in the byte `1000 0000`). The least significant is the rightmost - it has the least "influence" on the represented number.
 
 ### Adding binary digits
 0 + 0 = 0
@@ -218,6 +219,13 @@ The most significant bit is the leftmost (e.g. `1` in the byte `1000 0000`). The
 1 + 1 = 0, carry 1
 1 + 1 + carried 1 = 1, carry 1
 
+When adding two 8-bit numbers, an **overflow error** may occur. For example, adding the following numbers:
+
+`10001000`
+`10001000`
+results in:
+`00010000`
+as the leftmost bit has "overflowed" out of the 8-bit register, as there is no 9th bit available to store the resulting value!
 
 ### Denary/binary to hex
 
@@ -278,7 +286,7 @@ Answer to 2) Convert 212 into hexadecimal. [2 marks]
 
 ### Characters
 
-Characters are also represented as binary. In ASCII, there are 8 bits, so that's 255 possible characters. In Unicode, there are 16 bits, or more, allowing it to represent every character from every language and every emoji in the world - over 2 million.
+Characters are also represented as binary. In ASCII, there are 8 bits, so that's 256 possible characters. In Unicode, there are 16 bits, or more, allowing it to represent every character from every language and every emoji in the world - over 2 million.
 
 A in binary is 0100 0001.
 Character sets are ordered logically, so B is one more than A:
@@ -289,7 +297,7 @@ B in binary is 0100 0010.
 
 An image is represented as a series of pixels, again, represented as binary. Each pixel has a specific colour, represented by a specific code (can be a hex value).
 
-The image's size and quality can be affected by the colour depth and resolution. 
+The image's size and quality is affected by the colour depth and resolution. 
 
 A black and white image has a bit depth of 1. This means it can only represent two colours - 2^1^ = 2 colours. An image which uses 10-bit depth can represent 2^10^ = 1024 colours. Colour depth = range of colours available.
 > Colour depth is interchangeable with bit depth.
@@ -331,7 +339,7 @@ Firstly, the microphone picks up sound and converts it into an electrical signal
 
 This is represented as a binary sequence called Pulse Code Modulation (PCM), and saved to a file. The raw data of the converted signal is uncompressed (using WAV/FLAC/AIFF formats). 
 
-When the file is read, the binary PCM sequence is passed through the DAC (digital-analogue converter) which uses the data to reconstruct an analogue waveform, as close to the original as possible. This analog signal is then amplified and sent to speakers, which vibrate based on these analog signals, creating audible sound waves.
+When the file is read, the binary PCM sequence is passed through the DAC (digital-analogue converter) which uses the data to reconstruct an analogue waveform, as close to the original as possible. This analogue signal is then amplified and sent to speakers, which vibrate based on these analogue signals, creating audible sound waves.
 
 
 ## 1.2.5 Compression
@@ -348,7 +356,7 @@ Examples of lossy compression include JPEG, MPEG (or MP4) and MP3 files.
 
 For other files, data cannot be lost, like texts. Files need to be reduced in size without the loss of data. WAV audio files or PNG image files are examples of lossless formats. However, lossless files are bigger than lossy, even when compressed. 
 
-For example, a binary representation of `000000111100110000000111111` can be represented as 604121217161. (because there are 6 zeroes, 4 ones, 2 zeroes etc)
+For example, a binary value of `000000111100110000000111111` can be represented as 604121217161. (because there are 6 zeroes, 4 ones, 2 zeroes etc). This is known as **run-length encoding**.
 
 This would reduce the file from 27 bytes to 12 bytes. A reduction of over 60%!
 
@@ -368,21 +376,13 @@ Some useful key terms which you should probably know:
 
 **WAP**: wireless access point. Usually built into the switch, or physically connected by wire to it. Unless there's a repeater which would mean WAPs are connected to other WAPs 
 
-
-**Packet switching**: a method of breaking up data, and sending it using the most efficient route. For example, if you send an image, it will be broken up into 'packets' of around 1000 bytes each (if the image is 1 MB then there'll be 1,000 packets) and then sent. To ensure data is not corrupted on route to the destination, each packet contains the following in a header:
-- the IP address it is going to;
-- the IP address it has come from;
-- the sequence number of the packet;
-- the number of packets in the whole communication;
-- error checking data.
-
 **DNS**: Domain Name System. How domain names are translated to IP addresses. When you go to [ibaguette.com](https://ibaguette.com), your device will make a request to a DNS server asking for the actual IP address to connect to, such as 172.67.139.203. If a DNS server does not contain the IP address, your request will repeatedly be forwarded to bigger DNS servers until one contains the relevant IP, or finally a root DNS server that contains every single domain's IP address. 
 
 The two topologies which you need to know are:
 
 ### Star topologies
 - Used in many networks
-- Used by client-server networks - all data sent from clients pass through (a) central server(s).
+- Used by client-server networks. These networks involve all data being sent from clients pass through central server(s).
 - All computers can communicate with each other through the central switch.
 
 Advantages include:
@@ -392,8 +392,9 @@ Advantages include:
 - Fast data transfer to the hub as each wire isn’t shared with other computers
 
 Disadvantages:
-- The entire network will go down if the switch fails
+- The entire network will go down if the central switch fails
 - Can be expensive to set up - requires additional hardware such as the central switch and lots of network cables
+- If a large number of devices are connected to one switch, overall network performance may decrease as the switch becomes overloaded.
 
 They are used anywhere, from company buildings to your home right now. Your 'router' is currently acting as the switch, router and WAP for all the nodes connected in your house.
 
@@ -420,7 +421,7 @@ Disadvantages:
 
 A network is a group of two or more computers connected together to communicate. There are 2 ways for them to communicate: wired (ethernet) and wireless (Wi-Fi, Bluetooth).
 
-It may seem obvious but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and having a roaming profile (i.e. you can access your files from any computer in the network). 
+It may seem obvious, but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and having a roaming profile (i.e. you can access your files from any computer in the network).
 
 In larger networks, antiviruses and firewalls can be implemented network-wide instead of on individual computers, improving security and cost-effectiveness. 
 
@@ -488,7 +489,7 @@ Layering means breaking down the sending of messages into separate components an
 ![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.4_and_1.4.1_Network_Security_-_threats_to_systems_and_networks.png)
 
 ### Malware
-Malware is an umbrella term for malicious software designed to compromise a system.
+Malware is an umbrella term for **malicious software designed to compromise a system**.
 
 **Viruses** - often embedded in another file. When run, they replicate and can spread throughout a network. They usually delete or modify other data, including personal documents or critical system files. Can upload your files to a server.
 
@@ -740,6 +741,14 @@ An algorithm is a step-by-step set of instructions used to solve a problem. Befo
 
 Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language). 
 
+### Structure diagrams
+
+Structure diagrams visually represent the structure an overall problem in terms of smaller sub-problems. For example, a (basic) healthcare app may have the ability to view prescriptions, manage a user account, and book an appointment. Here is what the structure diagram may look like:
+
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Structure_diagram_healthcare_app.png)
+
+Selecting a time and selecting a doctor are sub-tasks of booking an appointment, whilst booking an appointment is a sub-task of the overall app. 
+
 
 ### Flowchart symbols
 
@@ -904,8 +913,8 @@ Sequence refers to the order in which the code is executed.
 Selection is a part of the code that is run, or `if` statements. When these statements are encountered, it 'selects' which part to run!
 
 Iteration is a loop. There are count and condition-controlled loops.
-- Count-controlled loops are controlled by a number. For example, `if x > 10:` will run until the value of `x` is greater than `10`. 
-- Condition-controlled loops are controlled by a specific value. This is most often `True` or `False`; these will run until this value is changed. For example, `if x == True:` will run the code until the value of`x` is no longer equal to `True`.
+- Count-controlled loops are controlled by a number and use the `for` keyword. For example, `for i in range (10)` will run until the value of `i` is greater than `10` (stopping at 9, running the loop 10 times in total). 
+- Condition-controlled loops are controlled by a specific value and use `while`. This is most often `True` or `False`; these will run until this value is changed. For example, `while x == True:` will run the code until the value of`x` is no longer equal to `True`.
 
 
 ### Operators
@@ -915,7 +924,7 @@ There are comparison and arithmetic operators. (They will give the Boolean value
 #### Comparison operators:
 
 - `==` 
-	- Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify a value.
+	- Equal to. Used only to check if a value is something else. Do not get confused with a single equals which is used to specify or assign a value.
 - `!= `
 	- Not equal to. Only `True` when the value it is comparing against is NOT the first value.
 - `<`
@@ -942,7 +951,7 @@ There are comparison and arithmetic operators. (They will give the Boolean value
 - `DIV`
 	- Quotient. Gives how many times the number **can be fully divided**. 20 div 8 = 2. (20 divided by 8 is 2 remainder 4.)
 - `^`
-	- Exponentiation. To the power of. 2^8 = 256.
+	- Exponentiation. To the power of. 2^8 = 256. In Python, this is written as `**`.
 
 ### Boolean operators 
 - AND - only True when the two values are True. 
@@ -1012,7 +1021,7 @@ Arrays (interchangeable with lists, at least for GCSE) store lots of stuff and a
 
 `list_of_cars_and_prices = [["beans car", "bozo car", "fresh car"], [20, 30, 55]]`
 
-Notice how inside the outer list, there are actually 2 smaller lists? This is a 2D array. To get the value of '55' from the second array, we do `print(list_of_cars_and_prices[1][2]`. This gets the **third value** from the **second array**, inside the list called 'list_of_cars_and_prices'. This is useful to store related values next to each other.
+Notice how inside the outer list, there are actually 2 smaller lists? This is a 2D array. To get the value of '55' from the second array, we do `print(list_of_cars_and_prices[1][2])`. This gets the **third value** from the **second array**, inside the list called 'list_of_cars_and_prices'. This is useful to store related values next to each other.
 
 > To change the value of an item in an array/list, do:
 > `list_name[index] = "thing_to_change_it_to"`
@@ -1031,16 +1040,16 @@ It could return a number, string, or any data type, so after running this, `x` c
 
 ### File handling
 
-writing:
+To write to a file in Python, open the file in "write" (`w`) mode:
 ```py
-file1 = open("file.txt")
+file1 = open("file.txt", "w")
 x = file1.write("Hello! This is a file!")
 file1.close()
 ```
 
 Reading back the contents:
 ```py
-file1 = open("file.txt")
+file1 = open("file.txt", "r")
 x = file1.read()
 file1.close()
 
@@ -1055,9 +1064,9 @@ print(x)
 
 Global variables can be accessed by every subroutine at all times. Present in memory during execution. They aren't good because if it gets maliciously changed, or changes unintentionally, then it will affect the entire code and every subroutine. Also, it can use a lot of memory if many variables are used at once - normal in big programs and games. The scope of these is the entire program.
 
-Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it's more efficient. The scope of these is the sub-program of declaration.
+Local variables are declared in one subroutine or function. The value of this is only held in memory whilst that specific part of the code (i.e. the subroutine) is being executed. Therefore, it's less resource intensive. The scope of these is the sub-program of declaration.
 
-Parameter passing - allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.
+Parameter passing allows the values of local variables within the main program to be passed to sub-programs without the need to use global variables. The value of these variables (or a copy of the value of these variables) is passed as a parameter to and from sub-programs as necessary.
 
 > You can read more about the scope, lifespan and implications of memory scopes on the [A Level Cheat Sheet](https://ibaguette.com/cheatsheets/alevel/computerscience)!
 
@@ -1069,24 +1078,26 @@ Data can be retrieved using the commands  `SELECT, FROM` and `WHERE`
 
 `*` stands for wildcard, which means all records.
 
-from the iBaguette emails database:
-`SELECT *`
-`FROM "Users"`
-` WHERE "Email Address" LIKE "admin" OR "owner"`
+As an example, from the iBaguette emails database, the following query:
+```sql
+SELECT *
+FROM "Users"
+WHERE "Email Address" LIKE "admin" OR "owner"
+```
 might retrieve:
 
 | ID | User     | Surname | Email Address     |
 |----|----------|---------|-------------------|
 | 1  | Draggie  | 306     | admin@geog.uk |
 | 6  | Joe    | Smith   | admin@ibaguette.com   |
-| 7  | John | Doe     | owner@geog.uk   |
+| 7  | Larry | Page     | owner@gmail.com   |
 
 
 ### Randoms
 
 You must `import random` at the start of the program for this to work (it is a **module**).
 
-`random.randint(lower_bound, upper_bound)` is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number.
+`random.randint(lower_bound, upper_bound)` is used to generate a random number between bounds. Assign this to a variable and you have your randomly generated number. For example, `rand_num = random.randint(3, 13)`.
 
 # 2.3 Producing robust programs
 
@@ -1159,6 +1170,15 @@ You must be able to follow the lines in a truth table, and the interactions thes
 - An OR gate will only output 1 if **one or more** of its inputs are 1.
 - A NOT gate will only output 1 if its input is 0. (Essentially reversing the input)
 
+Truth tables can be combined or chained together with a **multi-input logic gate table**. For example, `NOT (A AND B)` results in the inverse of `(A AND B)` as inner expressions are evaluated first. This results in:
+|A|B|`A AND B`|`NOT (A AND B)`|
+|--|--|--|--|
+| 0 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 0 |
+
+
 ![AND gate](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andgate.png)
 *AND gate outputs*
 
@@ -1180,7 +1200,7 @@ You must be able to follow the lines in a truth table, and the interactions thes
 
 There are two categories of programming language: high and low-level languages.
 
-- High-level languages are those which sensible people code in, like Python, JavaScript, and HTML. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
+- High-level languages are those which sensible people code in, like Python, Java, JavaScript and C#. They are **easy to read and write**, and some have a human-like syntax. They also **do not depend on the physical architecture of the processors** executing them. However, as they are **machine independent**, they must be **translated** in order to run.
 - Low-level languages are assembly code and machine code. They must be changed depending on the make and model of the CPU. As they run 'closer' to the CPU itself, they often require less overhead on tasks, and machine code does not require translation as it is written purely in binary. 
 
 > Assembly code, although is a low-level language, is not quite machine code. Machine code is what everything must be translated into to be executed.
@@ -1190,7 +1210,7 @@ There are two categories of programming language: high and low-level languages.
 
 A **compiler** parses the source code once, translates it into machine code, and saves the results as a binary file. An **interpreter** reads the source code line by line and converts it to executable while executing.
 
-Compiled code runs faster, as it has already been translated. If the code has no logic or syntax errors and does not need to be debugged, then compiled code is always better. The compiler optimises code too, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code only works on the hardware and OS it is targeted to. You can't run an EXE file on your phone without an IDE.
+Compiled code runs faster, as it has already been translated. If the code has no logic or syntax errors and does not need to be debugged, then compiled code is always better. The compiler optimises code too, allowing it to take up less memory. For example, comments are removed when generating compiled code. However, compiled code only works on the hardware and OS it is targeted to. You can't run an EXE file on your phone - you'd need an *emulator*.
 
 Interpreted code is executed slower, as the CPU must wait for every line to be translated, but has the potential to run on multiple kinds of hardware, running different operating systems. It simply executes code, without saving a machine code version. They generally require less memory as they do not translate the entire file.
 
@@ -1203,18 +1223,18 @@ Interpreted code is executed slower, as the CPU must wait for every line to be t
 
 The IDE (integrated development environment) has a wide range of tools to help programmers develop programs. These include:
 
-- **Editors**. Code can be edited.
-- **Error diagnostics**. Tracebacks can show what caused exactly what to fail at the exact line.
-- **Providing a run-time environment**. This allows a program to run on a computer even if it was not designed to, allowing the programmer to just use their known high-level language, and the RTE will do the rest. 
-- **Translators**. They translate code to be executed.
+- **Editors**. Code can be edited, selected, duplicated, deleted...
+- **Error diagnostics**. *Tracebacks* can show exactly what instruction caused the program to fail, at the exact line, and with what value.
+- **Providing a run-time environment**. This allows a program to run on a computer even if it was not designed to, allowing the programmer to just use their known high-level language, and the RTE will do the rest. *The traditional example is Java, which requires the Java Runtime Environment to work.*
+- **Translators**. They translate (via compilation or interpretation) your high-level code into low-level machine code that runs on the CPU.
 
 You can also write about:
 
-- **Breakpoints** - code can be stopped at a specific line and variables can be checked for logic errors
-- **Auto-correction** and indentation, to reduce silly mistakes
-- **Autosuggestion** - can sometimes fix a problem automatically, speeding up coding
-- **Syntax highlighting** - similar declarations can be coloured to see them better. For example, all variables could be yellow while classes are blue.
-- **Linting** - the IDE can analyse the code you're writing as you're writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable.
+- **Breakpoints** - code can be stopped at specific lines, allowing the developer to see how variables changes over time.
+- **Auto-correction** and indentation - reducing compilation errors and speeding up development time.
+- **Autosuggestion** - can sometimes fix a problem automatically, reducing the need to debug.
+- **Syntax highlighting** - similar declarations can be coloured to see them better. For example, all variables could be written in yellow while functions are blue.
+- **Linting** - the IDE can analyse the code you're writing as you're writing it for errors. For example, it may recognise that you used a double equals instead of a singular equals for setting the value of a variable, or realising a variable is never used, and underlining these errors in red.
 
 ---
 
@@ -1308,7 +1328,7 @@ Download [Python](https://cheatsheet-assets.ibaguette.com/gcse/compsci/cars.py) 
 cars_data = [["among car", "sussy car", "beans car", "spelunked car", "supressed (s)car"], [10, 20, 40, 20, 10], []]
 
 coins = 100
-while coins > 10:
+while coins >= 10:
     print(f"You have {coins} coins available to spend!")
     print(f"The cars available to buy are {cars_data[0]}")
     x = int(input("Enter the chronological number of the car you want to buy.\n>>> "))

@@ -252,10 +252,9 @@
       <p><a href="https://ibaguette.com/cheatsheets/gcse">&lt; Back to all GCSE Cheat Sheets</a></p>
 <h1 id="ocr-j277-computer-science-paper-1-complete-cheat-sheet">OCR J277 Computer Science Paper 1 Complete Cheat Sheet</h1>
 <blockquote>
-<p><em>Written by <a href="https://www.linkedin.com/in/oliver-ling/">Oliver Ling</a> (@draggie306)</em>.</p>
+<p><em>Written by <a href="https://oling.dev/">Oliver Ling</a> (@draggie306)</em>.</p>
 </blockquote>
-<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 24/09/2025 22:18.<br>
-Last content addition: 23/06/2025 21:46</a></p>
+<p><a href="https://gist.github.com/Draggie306/1072270b844cda3e271d6f484aa9a976">Latest general update: 17/10/2025 13:48</a></p>
 <blockquote>
 <p>Looking to smash your exams with easy-to-access, free 1:1 advice from exam survivors? Chat with students, developers, teachers and exam survivors in the <a href="https://discord.gg/GfetCXH">Baguette Brigade Discord server</a> who can answer all your questions and give you tips and tricks!<br>
 Plus, you can opt to receive automatic notifications whenever new content is added here!</p>
@@ -292,22 +291,22 @@ In a program, each <strong>machine code</strong> instruction takes up a slot in 
 <li>Fetches, decodes and executes instructions</li>
 <li>Controls hardware</li>
 </ul>
-<p>Cache</p>
+<p><strong>Cache memory</strong></p>
 <ul>
-<li>A small amount of high-speed memory physically inside the CPU.</li>
+<li>Is small amounts of high-speed memory physically inside the CPU.</li>
 <li>Temporarily holds small amounts of data which the CPU will reuse often.</li>
 <li>Speeds up the system - does not have to wait for some data in memory to be fetched</li>
 <li>Level 1, 2, 3 cache - 1 is the fastest, most expensive, and has the lowest amount of storage, likewise, 3 is the slowest, least expensive but contains the most amount of potential storage</li>
 </ul>
 <p><strong>Registers</strong> are:</p>
 <ul>
-<li>Small amounts of high-speed memory in the CPU used to store small amounts of data needed for processing</li>
-<li>Includes the address of the current instruction, the next instruction to be executed, and the results of calculations</li>
+<li>Tiny amounts of very high-speed memory in the CPU used to store small amounts of data needed for processing</li>
+<li>Includes the address of the current instruction, the next instruction to be executed, and the results of intermediate calculations</li>
 </ul>
 <p>In case you find the difference between Cache and Registers difficult, here’s something useful from <a href="https://stackoverflow.com/questions/3500491/are-cpu-registers-and-cpu-cache-different">Stack Overflow</a>:</p>
 <ul>
 <li>A CPU register is just a small amount of data storage, that facilitates some CPU operations.</li>
-<li>CPU cache, is high-speed, volatile memory which is bigger than the size of registers, helping the processor to reduce memory operations. This increases the speed of common operations.</li>
+<li>CPU cache is high-speed, volatile memory which is bigger than the size of registers, helping the processor to reduce memory operations. This increases the speed of common operations.</li>
 <li>It is not very inaccurate to think of the processor’s register as the level 0 cache, smaller and faster than the other layers of cache in between the processor and memory. The difference is only that from the point of view of the instruction set, cache access is transparent (the cache is accessed through a memory address that happens to be a cached address at the moment) whereas registers are explicitly referenced in each instruction.</li>
 </ul>
 <p>There will probably be a table to tick what things do, or a 2-4 marker asking what something does and to explain it. I’d recommend learning 2 registers in detail, and what 4 do in general.</p>
@@ -365,42 +364,52 @@ L2 and L3 caches take slightly longer to access than L1. Each CPU core has its o
 <h2 id="primary-storage">1.2.1 Primary storage</h2>
 <p>Primary storage consists of RAM (random access memory) and ROM (read-only memory). ROM is non-volatile (retains its data after being powered off) and is now often only used to boot the computer, providing the BIOS or UEFI start-up instructions.</p>
 <p>Memory/RAM is small in size compared to secondary storage, but is much faster as it does not have moving parts or have to retain that much information. It is usually from 4-16GB in size. The more RAM a computer has, the more programs and instructions it can store simultaneously.</p>
-<p>Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow when memory is filled up. When RAM is full, data which would have gone to memory instead goes to an area of the disk drive and, when needed by the CPU, is moved back into RAM. However, virtual memory is <em>much</em> slower than primary storage media, even if it uses the fastest SSDs, let alone HDDs with their moving parts, so the OS always attempts to avoid placing highly-used programs in virtual memory. <em>More RAM = always better. Apart from its costs.</em></p>
+<p>Virtual memory is needed in systems. Virtual memory is an area of secondary storage which is used as an overflow when memory is filled up. When RAM is full, data which would have gone to memory instead goes to an area of the disk drive and, when needed by the CPU, is moved back into RAM. However, virtual memory is <em>much</em> slower than primary storage media, even if it uses the fastest SSDs, let alone HDDs with their moving parts, so the OS always attempts to avoid placing highly-used programs in virtual memory. Additionally, <strong>disk thrashing</strong> can occur if the system is constantly moving data to and from virtual memory into RAM, slowing the system considerably. <em>More RAM = always better. Apart from its costs.</em></p>
 <p>Cache memory is small amounts of incredibly fast but relatively expensive random access memory located within the CPU itself, used for very common operations and calculations that may need to be immediately reused. There are typically 3 levels of cache - L1, L2 and L3 - which go down (starting from L1) in cost and speed, but up in capacity. As it is located on the CPU itself, it’s much faster than having to go to RAM all the time.</p>
 <h2 id="secondary-storage">1.2.2 Secondary storage</h2>
 <p>Secondary storage is non-volatile, meaning it retains the data written to it even when offline.</p>
 <p>An HDD (magnetic) has very high capacity and involves flipping magnetic polarity to store bits. It is fairly fast to access. These are generally the cheapest form of bulk storage but have moving parts, so not good for portability.</p>
-<p>An SSD (solid state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access, but significantly more expensive than HDDs. As solid state media has no moving parts, they are faster and much more portable than hard drives.</p>
+<p>An SSD (solid state) has high capacity and involves trapping electrons to store bits. They are extremely fast to access, but significantly more expensive than HDDs. As solid state media has no moving parts, they are faster and much more reliable and portable than hard drives.</p>
 <p>A USB drive (also solid state) is tiny in comparison but very portable so is useful for transferring files between people and their computers.</p>
 <p>Optical storage devices like CDs and DVDs use a laser to scan the tracks, and when light reflects back, it will either reflect from ‘lands’ - representing <code>1</code>, or not reflect in ‘pits’ - representing <code>0</code>. Speeds and capacity are generally worse than HDDs or SSDs, but they are cheap to produce.</p>
-<p>Embedded systems may not need these as the instructions to run them are usually in ROM. For example, a watch does not need to edit the time as it runs all the time.</p>
+<p>Embedded systems may not need secondary storage as the instructions to run them are usually in ROM. For example, a digital watch may only need a few small instructions to calculate the time, and adding extra storage for this would be relatively expensive.</p>
 <h2 id="units">1.2.3 Units</h2>
-<p>The basic unit is the bit. It represents 1 or 0. Above this is the nibble - or 4 bits. Above this again is the byte, or 8 bits.</p>
+<p>The basic unit is the <strong>bit</strong>. It represents 1 or 0. Above this is the nibble - 4 bits. Above this again is the <strong>byte</strong>, or 8 bits.</p>
 <ul>
 <li>A kilobit is 1000 bits.</li>
-<li>A kilobyte is 8 kilobits. (8,000 bits)</li>
+<li>A kilobyte is 1,000 bytes, or 8 kilobits. (8,000 bits)</li>
 <li>A megabyte is 1000 kilobytes. (8,000,000 bits)</li>
 <li>A gigabyte is 1000 megabytes. (8,000,000,000 bits)</li>
 <li>A terabyte is 1000 gigabytes. (8,000,000,000,000 bits)</li>
+<li>A petabyte is 1000 terabytes.</li>
 </ul>
  <!-- Editor note: can't believe it took me 3 years to spot the error here, check commit history! -->
-<p>An image is usually around 500kb. Therefore, on a 2GB USB stick, 2000 images.</p>
-<p>Videos can be 100 megabytes, so 20 images can be stored.</p>
-<p>Sound file size = sample rate x duration (s) x bit depth<br>
-Image file size = colour depth x image height (px) x image width (px)<br>
-Text file size = bits per character x number of characters</p>
+<p>An image is usually around 500kb. Therefore, on a 2GB USB stick, 4,000 images can fit on it.</p>
+<p>Videos might be 100 megabytes, so 20 of them can be stored on 2GB.</p>
+<p>To calculate:</p>
+<ul>
+<li>Sound file size = sample rate * duration (s) * bit depth</li>
+<li>Image file size = colour depth * image height (px) * image width (px)</li>
+<li>Text file size = bits per character * number of characters</li>
+</ul>
 <h2 id="data-storage">1.2.4 Data storage</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.2.4_Data_storage.png" alt="Your device cannot load this image - it may be blocked."><br>
 <img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.2.4_Data_storage__part_of_1.2_Memory_and_Storage.png" alt="Your device cannot load this image - it may be blocked."><br>
 <em>There’s a lot in this topic (including the things I find the hardest but shh)</em></p>
 <h3 id="denary-to-binary">Denary to Binary</h3>
 <p>To convert a denary number into binary, write out all the base 2 numbers in a row (128, 64, 32, 16, 8, 4, 2, 1). Firstly, get your number, let’s say 253, and subtract it from the largest base 2 number (here, 128). You’d get 125. Write ‘1’ below the ‘128’ and repeat on the next lowest numbers. If when you subtract it it’s negative, write a zero below, <strong>do not subtract anything</strong>, but instead just move to the next smallest number.</p>
-<p>The most significant bit is the leftmost (e.g. <code>1</code> in the byte <code>1000 0000</code>). The least significant is the leftmost - it has the least “influence” on the represented number.</p>
+<p>The most significant bit is the leftmost (e.g. <code>1</code> in the byte <code>1000 0000</code>). The least significant is the rightmost - it has the least “influence” on the represented number.</p>
 <h3 id="adding-binary-digits">Adding binary digits</h3>
 <p>0 + 0 = 0<br>
 0 + 1 = 1<br>
 1 + 1 = 0, carry 1<br>
 1 + 1 + carried 1 = 1, carry 1</p>
+<p>When adding two 8-bit numbers, an <strong>overflow error</strong> may occur. For example, adding the following numbers:</p>
+<p><code>10001000</code><br>
+<code>10001000</code><br>
+results in:<br>
+<code>00010000</code><br>
+as the leftmost bit has “overflowed” out of the 8-bit register, as there is no 9th bit available to store the resulting value!</p>
 <h3 id="denarybinary-to-hex">Denary/binary to hex</h3>
 <p>Hexadecimal is a base 16 system to simplify binary representation. A hex digit can be any of these: <strong>0 1 2 3 4 5 6 7 8 9 A B C D E F</strong>.</p>
 <p>Each hex digit represents a 4-digit binary sequence.</p>
@@ -449,13 +458,13 @@ A shift of 3 to the right means divide by 2^3 = 8</p>
 <li><strong>answer = D4</strong></li>
 </ol>
 <h3 id="characters">Characters</h3>
-<p>Characters are also represented as binary. In ASCII, there are 8 bits, so that’s 255 possible characters. In Unicode, there are 16 bits, or more, allowing it to represent every character from every language and every emoji in the world - over 2 million.</p>
+<p>Characters are also represented as binary. In ASCII, there are 8 bits, so that’s 256 possible characters. In Unicode, there are 16 bits, or more, allowing it to represent every character from every language and every emoji in the world - over 2 million.</p>
 <p>A in binary is 0100 0001.<br>
 Character sets are ordered logically, so B is one more than A:<br>
 B in binary is 0100 0010.</p>
 <h3 id="images">Images</h3>
 <p>An image is represented as a series of pixels, again, represented as binary. Each pixel has a specific colour, represented by a specific code (can be a hex value).</p>
-<p>The image’s size and quality can be affected by the colour depth and resolution.</p>
+<p>The image’s size and quality is affected by the colour depth and resolution.</p>
 <p>A black and white image has a bit depth of 1. This means it can only represent two colours - 2<sup>1</sup> = 2 colours. An image which uses 10-bit depth can represent 2<sup>10</sup> = 1024 colours. Colour depth = range of colours available.</p>
 <blockquote>
 <p>Colour depth is interchangeable with bit depth.</p>
@@ -483,7 +492,7 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <p>To record an audio file, analogue sound must first be captured by an input device, like a microphone, and then converted into a digital file to store on a computer.</p>
 <p>Firstly, the microphone picks up sound and converts it into an electrical signal. This is then used by the ADC (analogue-digital converter, typically located in a system’s sound card) and sampled at regular intervals which directly represent the sound wave’s traits, such as amplitude.</p>
 <p>This is represented as a binary sequence called Pulse Code Modulation (PCM), and saved to a file. The raw data of the converted signal is uncompressed (using WAV/FLAC/AIFF formats).</p>
-<p>When the file is read, the binary PCM sequence is passed through the DAC (digital-analogue converter) which uses the data to reconstruct an analogue waveform, as close to the original as possible. This analog signal is then amplified and sent to speakers, which vibrate based on these analog signals, creating audible sound waves.</p>
+<p>When the file is read, the binary PCM sequence is passed through the DAC (digital-analogue converter) which uses the data to reconstruct an analogue waveform, as close to the original as possible. This analogue signal is then amplified and sent to speakers, which vibrate based on these analogue signals, creating audible sound waves.</p>
 <h2 id="compression">1.2.5 Compression</h2>
 <p>There are 2 types of compression.</p>
 <h3 id="lossy-compression">Lossy compression</h3>
@@ -491,7 +500,7 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <p>Examples of lossy compression include JPEG, MPEG (or MP4) and MP3 files.</p>
 <h3 id="lossless-compression">Lossless compression</h3>
 <p>For other files, data cannot be lost, like texts. Files need to be reduced in size without the loss of data. WAV audio files or PNG image files are examples of lossless formats. However, lossless files are bigger than lossy, even when compressed.</p>
-<p>For example, a binary representation of <code>000000111100110000000111111</code> can be represented as 604121217161. (because there are 6 zeroes, 4 ones, 2 zeroes etc)</p>
+<p>For example, a binary value of <code>000000111100110000000111111</code> can be represented as 604121217161. (because there are 6 zeroes, 4 ones, 2 zeroes etc). This is known as <strong>run-length encoding</strong>.</p>
 <p>This would reduce the file from 27 bytes to 12 bytes. A reduction of over 60%!</p>
 <blockquote>
 <p>Lossless formats preserve every single detail, no matter how small, which ‘costs’ a lot in file size.</p>
@@ -503,20 +512,12 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <p><strong>Router</strong>: directs and receives packets incoming/outgoing to/from the Internet to devices in a private network via IP addresses. It connects networks together - your home LAN to the internet, or a WAN. Nodes connected to it internally are given private IP addresses (192.168.1.x), whilst the router also has a public IP address. (You can see your public IP <a href="https://whatismyipaddress.com/">here</a>.)</p>
 <p><strong>Switch</strong>: A device which connects devices on a computer network by using packet switching to receive and forward data to the destination device. It uses MAC addresses to forward data at the data link layer. MAC (Media Access Control) addresses are used to identify a device on the local network assigned by its Network Interface Card.</p>
 <p><strong>WAP</strong>: wireless access point. Usually built into the switch, or physically connected by wire to it. Unless there’s a repeater which would mean WAPs are connected to other WAPs</p>
-<p><strong>Packet switching</strong>: a method of breaking up data, and sending it using the most efficient route. For example, if you send an image, it will be broken up into ‘packets’ of around 1000 bytes each (if the image is 1 MB then there’ll be 1,000 packets) and then sent. To ensure data is not corrupted on route to the destination, each packet contains the following in a header:</p>
-<ul>
-<li>the IP address it is going to;</li>
-<li>the IP address it has come from;</li>
-<li>the sequence number of the packet;</li>
-<li>the number of packets in the whole communication;</li>
-<li>error checking data.</li>
-</ul>
 <p><strong>DNS</strong>: Domain Name System. How domain names are translated to IP addresses. When you go to <a href="https://ibaguette.com">ibaguette.com</a>, your device will make a request to a DNS server asking for the actual IP address to connect to, such as 172.67.139.203. If a DNS server does not contain the IP address, your request will repeatedly be forwarded to bigger DNS servers until one contains the relevant IP, or finally a root DNS server that contains every single domain’s IP address.</p>
 <p>The two topologies which you need to know are:</p>
 <h3 id="star-topologies">Star topologies</h3>
 <ul>
 <li>Used in many networks</li>
-<li>Used by client-server networks - all data sent from clients pass through (a) central server(s).</li>
+<li>Used by client-server networks. These networks involve all data being sent from clients pass through central server(s).</li>
 <li>All computers can communicate with each other through the central switch.</li>
 </ul>
 <p>Advantages include:</p>
@@ -528,8 +529,9 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 </ul>
 <p>Disadvantages:</p>
 <ul>
-<li>The entire network will go down if the switch fails</li>
+<li>The entire network will go down if the central switch fails</li>
 <li>Can be expensive to set up - requires additional hardware such as the central switch and lots of network cables</li>
+<li>If a large number of devices are connected to one switch, overall network performance may decrease as the switch becomes overloaded.</li>
 </ul>
 <p>They are used anywhere, from company buildings to your home right now. Your ‘router’ is currently acting as the switch, router and WAP for all the nodes connected in your house.</p>
 <h3 id="mesh-topologies">Mesh topologies</h3>
@@ -551,7 +553,7 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <h2 id="wiredwireless-protocols-networks">1.3.2 Wired/wireless, protocols, networks</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.3.2_Wired_and_wireless_networks_protocols_and_layers2.png" alt="OCR J277 GCSE Computer Science specification screenshot of section 1.3.2 - Wired and wireless networks, protocols and layers"></p>
 <p>A network is a group of two or more computers connected together to communicate. There are 2 ways for them to communicate: wired (ethernet) and wireless (Wi-Fi, Bluetooth).</p>
-<p>It may seem obvious but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and having a roaming profile (i.e. you can access your files from any computer in the network).</p>
+<p>It may seem obvious, but the benefits of being in a network include accessing and sharing resources, sharing hardware like printers, communications via email, text or video, and having a roaming profile (i.e. you can access your files from any computer in the network).</p>
 <p>In larger networks, antiviruses and firewalls can be implemented network-wide instead of on individual computers, improving security and cost-effectiveness.</p>
 <p>Admins can monitor what people do on these networks, and give them rights (see User Access Levels) to restrict access. However, networks can cost a lot as equipment like dedicated cables or switches are needed to communicate, and malware can spread more quickly if a network has poor security.</p>
 <h3 id="ip-and-mac-addressing-standards">IP and MAC addressing, standards</h3>
@@ -630,7 +632,7 @@ divided by 1000 = 6220.8KB / 6.2208 MB</p>
 <h2 id="threats-to-computer-systems">1.4.1 Threats to computer systems</h2>
 <p><img src="https://cheatsheet-assets.ibaguette.com/gcse/compsci/1.4_and_1.4.1_Network_Security_-_threats_to_systems_and_networks.png" alt="Your device cannot load this image - it may be blocked."></p>
 <h3 id="malware">Malware</h3>
-<p>Malware is an umbrella term for malicious software designed to compromise a system.</p>
+<p>Malware is an umbrella term for <strong>malicious software designed to compromise a system</strong>.</p>
 <p><strong>Viruses</strong> - often embedded in another file. When run, they replicate and can spread throughout a network. They usually delete or modify other data, including personal documents or critical system files. Can upload your files to a server.</p>
 <p><strong>Worms</strong> - similar to viruses with the ability to replicate and spread, but are often completely standalone programs which exploit vulnerabilities in a system, not requiring a host file. Typically distributed by email. They may not initially damage systems, but try and spread rapidly to other systems.</p>
 <p><strong>Trojans</strong> - a malicious application pretending to be a useful application. A user must run it to spread.</p>

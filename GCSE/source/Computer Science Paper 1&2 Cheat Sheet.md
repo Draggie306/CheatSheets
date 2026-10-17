@@ -218,6 +218,13 @@ The most significant bit is the leftmost (e.g. `1` in the byte `1000 0000`). The
 1 + 1 = 0, carry 1
 1 + 1 + carried 1 = 1, carry 1
 
+When adding two 8-bit numbers, an **overflow error** may occur. For example, adding the following numbers:
+
+`10001000`
+`10001000`
+results in:
+`00010000`
+as the leftmost bit has "overflowed" out of the 8-bit register, as there is no 9th bit available to store the resulting value!
 
 ### Denary/binary to hex
 
@@ -732,6 +739,14 @@ An algorithm is a step-by-step set of instructions used to solve a problem. Befo
 
 Algorithms are made in three different ways: pseudocode, flowcharts and Python (or another high-level language/OCR reference language). 
 
+### Structure diagrams
+
+Structure diagrams visually represent the structure an overall problem in terms of smaller sub-problems. For example, a (basic) healthcare app may have the ability to view prescriptions, manage a user account, and book an appointment. Here is what the structure diagram may look like:
+
+![Your device cannot load this image - it may be blocked.](https://cheatsheet-assets.ibaguette.com/gcse/compsci/2.1.2_Structure_diagram_healthcare_app.png)
+
+Selecting a time and selecting a doctor are sub-tasks of booking an appointment, whilst booking an appointment is a sub-task of the overall app. 
+
 
 ### Flowchart symbols
 
@@ -1152,6 +1167,15 @@ You must be able to follow the lines in a truth table, and the interactions thes
 - An AND gate will only output 1 if **both its inputs** are 1 as well.
 - An OR gate will only output 1 if **one or more** of its inputs are 1.
 - A NOT gate will only output 1 if its input is 0. (Essentially reversing the input)
+
+Truth tables can be combined or chained together with a **multi-input logic gate table**. For example, `NOT (A AND B)` results in the inverse of `(A AND B)` as inner expressions are evaluated first. This results in:
+|A|B|`A AND B`|`NOT (A AND B)`|
+|--|--|--|--|
+| 0 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 0 |
+
 
 ![AND gate](https://cheatsheet-assets.ibaguette.com/gcse/compsci/andgate.png)
 *AND gate outputs*
